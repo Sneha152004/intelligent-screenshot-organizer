@@ -1,78 +1,118 @@
 """
-Integration & Verification Script for OCR + Embedding Pipeline
-==============================================================
-Runs the mock OCR pipeline on the screenshot dataset, generates embeddings for all
-extracted chunks, verifies consistency, and demonstrates screenshot-to-embedding traceability.
+End-to-End Pipeline & Retrieval Demo Script (3-Layer Storage Architecture)
+==========================================================================
+Demonstrates the separation of concerns:
+Layer 1: Object / File Storage (LocalFileStore)
+Layer 2: Application Metadata Storage (SQLiteMetadataStore)
+Layer 3: Vector Retrieval Index (ChromaDB)
 """
 
 import json
+import os
 from pathlib import Path
-from src.pipeline import OCRPipeline
+from src.config import config
 from src.embedder import SentenceTransformerEmbedder
+from src.pipeline import OCRPipeline
+from src.storage.file_store import LocalFileStore
+from src.storage.metadata_store import SQLiteMetadataStore
+from src.vector_store import VectorStoreManager
 
 
 def main():
-    # Step 1: Initialize pipeline and process dataset
-    pipeline = OCRPipeline()
-    processed_docs = pipeline.process(metadata_path="sample/metadata.csv")
+    # Initialize Storage Managers
+    file_store = LocalFileStore(storage_dir=config.screenshots_dir)
+    metadata_store = SQLiteMetadataStore(db_path=config.metadata_db_path)
+    vector_store = VectorStoreManager(
+        db_dir=config.chroma_db_dir,
+        collection_name=config.collection_name,
+    )
+    embedder = SentenceTransformerEmbedder(model_name=config.embedding_model)
 
-    # Step 2: Collect non-empty chunks and pair each chunk with its screenshot filename
-    chunk_traceability = []  # List of tuples: (filename, chunk_text)
-    all_chunks = []
+    # Initialize and run OCR Pipeline
+    pipeline = OCRPipeline(
+        file_store=file_store,
+        metadata_store=metadata_store,
+    )
+    processed_docs = pipeline.process(metadata_path=config.sample_metadata_path)
+
+    # Extract non-empty chunks and build lightweight metadata for Layer 3 (ChromaDB)
+    chunk_ids = []
+    chunk_texts = []
+    chunk_metadatas = []
 
     for doc in processed_docs:
-        filename = Path(doc["image_path"]).name
-        for chunk in doc["chunks"]:
+        sid = doc["screenshot_id"]
+        category = doc["metadata"]["category"]
+
+        for chunk_idx, chunk in enumerate(doc["chunks"]):
             cleaned_chunk = chunk.strip()
-            if cleaned_chunk:  # Only non-empty chunks
-                chunk_traceability.append((filename, cleaned_chunk))
-                all_chunks.append(cleaned_chunk)
+            if cleaned_chunk:
+                doc_id = f"{sid}_chunk_{chunk_idx}"
+                chunk_ids.append(doc_id)
+                chunk_texts.append(cleaned_chunk)
+                chunk_metadatas.append({
+                    "screenshot_id": sid,
+                    "chunk_index": chunk_idx,
+                    "category": category,
+                })
 
-    # Step 3: Generate embeddings
+    # Generate dense embeddings
     print("\nGenerating embeddings...")
-    embedder = SentenceTransformerEmbedder(model_name="all-MiniLM-L6-v2")
-    embeddings = embedder.embed(all_chunks)
+    embeddings = embedder.embed(chunk_texts)
 
-    # Step 4: Verify consistency dynamically
-    total_chunks = len(all_chunks)
-    total_embeddings = len(embeddings)
+    # Reset ChromaDB collection and index lightweight records
+    print("Storing in ChromaDB Vector Store...")
+    vector_store.delete_collection()
+    vector_store.add_documents(
+        ids=chunk_ids,
+        documents=chunk_texts,
+        embeddings=embeddings,
+        metadatas=chunk_metadatas,
+    )
 
-    if total_chunks != total_embeddings:
-        raise ValueError(
-            f"Mismatch between chunk count ({total_chunks}) and embedding count ({total_embeddings})."
-        )
+    total_screenshots = len(processed_docs)
+    total_stored_chunks = vector_store.count_documents()
+    total_metadata_records = len(metadata_store.list_all_metadata())
 
-    if total_embeddings == 0:
-        embedding_dim = 0
-    else:
-        embedding_dim = len(embeddings[0])
-        for idx, emb in enumerate(embeddings):
-            if len(emb) != embedding_dim:
-                raise ValueError(
-                    f"Embedding at index {idx} has dimension {len(emb)}, expected {embedding_dim}."
-                )
+    # Summary Display
+    print("\n" + "=" * 50)
+    print("INTELLIGENT SCREENSHOT ORGANIZER (3-LAYER ARCHITECTURE)")
+    print("=" * 50)
+    print(f"Screenshots loaded: {total_screenshots}")
+    print(f"\nFile Storage (Layer 1):\n{total_screenshots} screenshots registered in {os.path.abspath(config.screenshots_dir)}")
+    print(f"\nStructured Metadata Storage (Layer 2):\n{total_metadata_records} records saved in {os.path.abspath(config.metadata_db_path)}")
+    print(f"\nOCR:\n{total_screenshots} screenshots processed")
+    print(f"\nChunking:\n{total_stored_chunks} chunks generated")
+    print(f"\nEmbeddings:\n{total_stored_chunks} x 384-dimensional vectors")
+    print(f"\nChromaDB Vector Index (Layer 3):\n{total_stored_chunks} vector records indexed in '{vector_store.collection_name}'")
+    print(f"Database location: {os.path.abspath(config.chroma_db_dir)}")
 
-    print(f"Total chunks: {total_chunks}")
-    print(f"Total embeddings: {total_embeddings}")
-    print(f"Embedding dimension: {embedding_dim}")
+    # Semantic Retrieval Demonstration
+    query_text = "wifi password"
+    top_k = config.default_top_k
+    print("\n" + "-" * 50)
+    print(f"Semantic Query: '{query_text}' (Top-{top_k})")
+    print("-" * 50)
 
-    # Step 5: Demonstrate screenshot traceability for the first few chunks
-    print("\nDemonstrating Screenshot Traceability (First 5 Chunks):")
-    print("-" * 55)
-    sample_count = min(5, len(chunk_traceability))
-    for i in range(sample_count):
-        filename, chunk_text = chunk_traceability[i]
-        # Replace newlines in display chunk for clean output formatting
-        display_chunk = chunk_text.replace("\n", " | ")
-        print(f"{filename}")
-        print(f"  Chunk: {display_chunk}")
-        print(f"  Embedding dimension: {len(embeddings[i])}\n")
+    results = pipeline.search_and_enrich(
+        query_text=query_text,
+        embedder=embedder,
+        vector_store=vector_store,
+        top_k=top_k,
+    )
 
-    # Step 6: Display sample processed document structure
-    print("=" * 55)
-    print("Sample Processed Document Output (First Document):")
-    print("=" * 55)
-    print(json.dumps(processed_docs[0], indent=4, ensure_ascii=False))
+    for rank, res in enumerate(results, start=1):
+        clean_text = res["text"].replace("\n", " | ")
+        print(f"\nResult #{rank}:")
+        print(f"  ChromaDB Vector Match:")
+        print(f"    screenshot_id   = {res['screenshot_id']}")
+        print(f"    chunk_index     = {res['chunk_index']}")
+        print(f"    text            = {clean_text}")
+        print(f"    similarity      = {res['similarity_score']} (distance: {res['distance']:.4f})")
+        print(f"  Metadata Resolution (via MetadataStore + FileStore):")
+        print(f"    filename        = {res['filename']}")
+        print(f"    category        = {res['category']}")
+        print(f"    image_uri       = {res['image_uri']}")
 
 
 if __name__ == "__main__":

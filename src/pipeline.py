@@ -1,37 +1,51 @@
 """
 Pipeline Module
 ===============
-Coordinates dataset loading, OCR text extraction (mock or real), paragraph chunking,
-and metadata attachment into structured processed document dicts.
+Coordinates the 3-Layer Storage Architecture:
+Layer 1: File / Object Storage (LocalFileStore)
+Layer 2: Structured Metadata Storage (SQLiteMetadataStore)
+Layer 3: ChromaDB Vector Index (VectorStoreManager)
 """
 
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 from .chunker import ParagraphChunker
+from .embedder import BaseEmbedder, SentenceTransformerEmbedder
 from .loader import load_dataset
 from .mock_ocr import BaseOCREngine, MockOCREngine
+from .models.metadata import ScreenshotMetadata
+from .storage.file_store import BaseFileStore, LocalFileStore
+from .storage.metadata_store import BaseMetadataStore, SQLiteMetadataStore
+from .vector_store import VectorStoreManager
 
 
 class OCRPipeline:
     """
-    Modular OCR pipeline for processing screenshot images into indexed documents.
+    Modular OCR & indexing pipeline coordinating file storage, structured metadata,
+    OCR extraction, text chunking, vector embedding, and ChromaDB retrieval.
     """
 
     def __init__(
         self,
         ocr_engine: Optional[BaseOCREngine] = None,
         chunker: Optional[ParagraphChunker] = None,
+        file_store: Optional[BaseFileStore] = None,
+        metadata_store: Optional[BaseMetadataStore] = None,
     ):
         """
-        Initialize the pipeline with an OCR engine and text chunker.
+        Initialize pipeline components and storage managers.
 
         Args:
             ocr_engine: OCR engine instance (defaults to MockOCREngine).
             chunker: Text chunker instance (defaults to ParagraphChunker).
+            file_store: Object storage manager (defaults to LocalFileStore).
+            metadata_store: Structured metadata manager (defaults to SQLiteMetadataStore).
         """
         self.ocr_engine: BaseOCREngine = ocr_engine if ocr_engine else MockOCREngine()
         self.chunker: ParagraphChunker = chunker if chunker else ParagraphChunker()
+        self.file_store: BaseFileStore = file_store if file_store else LocalFileStore()
+        self.metadata_store: BaseMetadataStore = metadata_store if metadata_store else SQLiteMetadataStore()
 
     def process(
         self,
@@ -40,22 +54,20 @@ class OCRPipeline:
         image_col: Optional[str] = None,
     ) -> List[Dict[str, Any]]:
         """
-        Runs the complete mock OCR pipeline:
-        1. Load & validate metadata and image paths.
-        2. Perform OCR text extraction (mock or real).
-        3. Chunk extracted text into paragraphs.
-        4. Attach original metadata and return processed documents.
+        Processes dataset through storage registration, OCR extraction, and text chunking:
+        1. Reads raw metadata CSV & validates images.
+        2. Registers screenshot files in Layer 1 File Storage.
+        3. Saves structured application metadata in Layer 2 Metadata Storage.
+        4. Extracts OCR text and partitions into paragraph chunks.
 
         Args:
             metadata_path: Path to CSV metadata file.
-            images_dir: Optional directory override for screenshot images.
-            image_col: Optional explicit column name for image filenames.
+            images_dir: Directory override for screenshot images.
+            image_col: Explicit column name for image filenames.
 
         Returns:
-            List of processed document dictionaries containing image_path,
-            metadata, ocr_text, and chunks.
+            List of processed document dictionaries containing image_uri, metadata, ocr_text, and chunks.
         """
-        # Step 1: Load metadata
         print("Loading metadata...")
         documents = load_dataset(
             metadata_path=metadata_path,
@@ -64,25 +76,42 @@ class OCRPipeline:
         )
         print(f"Loaded {len(documents)} images.\n")
 
-        # Step 2 & 3: Run OCR and chunk text
         print("Running mock OCR...")
         processed_documents: List[Dict[str, Any]] = []
 
         for doc in documents:
-            img_path = doc["image_path"]
-            img_filename = Path(img_path).name
+            src_path = doc["image_path"]
+            raw_meta = doc["metadata"]
+            img_filename = Path(src_path).name
+
+            screenshot_id = str(raw_meta.get("Screenshot ID", raw_meta.get("screenshot_id", img_filename.split(".")[0]))).strip()
+            category = str(raw_meta.get("Actual Category", raw_meta.get("category", "General"))).strip()
+
+            # Layer 1: Store screenshot in file storage and get image_uri
+            image_uri = self.file_store.store_image(source_path=src_path, screenshot_id=screenshot_id)
+
+            # Layer 2: Create & persist structured metadata object
+            metadata_obj = ScreenshotMetadata(
+                screenshot_id=screenshot_id,
+                filename=img_filename,
+                image_uri=image_uri,
+                category=category,
+                ocr_available=True,
+            )
+            self.metadata_store.save_metadata(metadata_obj)
 
             # Run OCR extraction
-            ocr_text = self.ocr_engine.extract_text(img_path)
+            ocr_text = self.ocr_engine.extract_text(src_path)
             print(f"Processed {img_filename}")
 
             # Chunk extracted OCR text
             chunks = self.chunker.chunk(ocr_text)
 
-            # Assemble output document
             processed_doc = {
-                "image_path": img_path,
-                "metadata": doc["metadata"],
+                "screenshot_id": screenshot_id,
+                "image_path": src_path,
+                "image_uri": image_uri,
+                "metadata": metadata_obj.to_dict(),
                 "ocr_text": ocr_text,
                 "chunks": chunks,
             }
@@ -92,3 +121,47 @@ class OCRPipeline:
         print("Done.")
 
         return processed_documents
+
+    def search_and_enrich(
+        self,
+        query_text: str,
+        embedder: BaseEmbedder,
+        vector_store: VectorStoreManager,
+        top_k: int = 5,
+    ) -> List[Dict[str, Any]]:
+        """
+        Performs 2-stage retrieval:
+        1. Query ChromaDB vector store (Layer 3) to retrieve lightweight vector matches.
+        2. Resolve screenshot_id against Metadata Storage (Layer 2) and File Storage (Layer 1) to enrich results.
+
+        Args:
+            query_text: Natural language search string.
+            embedder: Embedder model instance.
+            vector_store: ChromaDB vector store instance.
+            top_k: Top-K search parameter.
+
+        Returns:
+            List of enriched search result dictionaries.
+        """
+        query_vec = embedder.embed([query_text])[0]
+        raw_results = vector_store.similarity_search(query_embedding=query_vec, top_k=top_k)
+
+        enriched_results = []
+        for res in raw_results:
+            sid = res.get("screenshot_id")
+            meta_obj = self.metadata_store.get_metadata(sid) if sid else None
+            image_uri = self.file_store.get_image_uri(sid) if sid else None
+
+            enriched_results.append({
+                "screenshot_id": sid,
+                "chunk_index": res.get("chunk_index", 0),
+                "text": res.get("document", ""),
+                "similarity_score": res.get("similarity_score", 0.0),
+                "distance": res.get("distance", 0.0),
+                "filename": meta_obj.filename if meta_obj else res.get("metadata", {}).get("filename", ""),
+                "category": meta_obj.category if meta_obj else res.get("category", "General"),
+                "image_uri": image_uri if image_uri else meta_obj.image_uri if meta_obj else "",
+                "metadata": meta_obj.to_dict() if meta_obj else res.get("metadata", {}),
+            })
+
+        return enriched_results
