@@ -11,6 +11,8 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 from .chunker import ParagraphChunker
+from .config import config
+from .easy_ocr import get_ocr_engine
 from .embedder import BaseEmbedder, SentenceTransformerEmbedder
 from .loader import load_dataset
 from .mock_ocr import BaseOCREngine, MockOCREngine
@@ -32,17 +34,24 @@ class OCRPipeline:
         chunker: Optional[ParagraphChunker] = None,
         file_store: Optional[BaseFileStore] = None,
         metadata_store: Optional[BaseMetadataStore] = None,
+        ocr_engine_type: Optional[str] = None,
     ):
         """
         Initialize pipeline components and storage managers.
 
         Args:
-            ocr_engine: OCR engine instance (defaults to MockOCREngine).
+            ocr_engine: Explicit OCR engine instance (takes precedence over configuration).
             chunker: Text chunker instance (defaults to ParagraphChunker).
             file_store: Object storage manager (defaults to LocalFileStore).
             metadata_store: Structured metadata manager (defaults to SQLiteMetadataStore).
+            ocr_engine_type: Optional string identifier ('mock' or 'easyocr') overriding config setting.
         """
-        self.ocr_engine: BaseOCREngine = ocr_engine if ocr_engine else MockOCREngine()
+        if ocr_engine is not None:
+            self.ocr_engine: BaseOCREngine = ocr_engine
+        else:
+            target_engine_type = ocr_engine_type if ocr_engine_type is not None else config.ocr_engine_type
+            self.ocr_engine: BaseOCREngine = get_ocr_engine(target_engine_type)
+
         self.chunker: ParagraphChunker = chunker if chunker else ParagraphChunker()
         self.file_store: BaseFileStore = file_store if file_store else LocalFileStore()
         self.metadata_store: BaseMetadataStore = metadata_store if metadata_store else SQLiteMetadataStore()
@@ -76,7 +85,7 @@ class OCRPipeline:
         )
         print(f"Loaded {len(documents)} images.\n")
 
-        print("Running mock OCR...")
+        print(f"Running OCR extraction ({self.ocr_engine.__class__.__name__})...")
         processed_documents: List[Dict[str, Any]] = []
 
         for doc in documents:

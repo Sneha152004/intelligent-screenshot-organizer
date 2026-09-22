@@ -30,6 +30,9 @@ class AppConfig:
     embedding_model: str = "all-MiniLM-L6-v2"
     default_top_k: int = 5
 
+    # 5. OCR Engine Settings
+    ocr_engine_type: str = "mock"  # Options: "mock", "easyocr"
+
     # Benchmark Dataset Settings
     sample_metadata_path: str = "sample/metadata.csv"
     sample_images_dir: str = "sample"
