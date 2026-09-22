@@ -1,0 +1,90 @@
+{
+  "ss_001.jpg": {
+    "category": "Connectivity",
+    "reference_text": "Airtel_runu_7550\n\nPassword\nAir@53054\n\nShow password\n\nAdvanced options\n\nCancel\nConnect",
+    "easyocr_text": "19.08\n56 44 0 17%\nAirtel_runu_7550\nPassword\nAir@53054\nShow password\nAdvanced options\nCancel\nConnect\nCIF\n2\n3\n4\n5\n6\n8\n#\nE\n=k<\nABC\n1 2\nEnglish\n34",
+    "metrics": {
+      "char_similarity": 0.2353,
+      "cer": 0.7647,
+      "word_similarity": 0.0,
+      "wer": 2.0
+    }
+  },
+  "ss_002.jpg": {
+    "category": "Payment",
+    "reference_text": "BRAINGROW EDUSERV PRIVATE LIMITED\n\n₹689.00\nPaid Successfully\n\nPayment Id: pay_SdleqofNvlmOZg\nMethod: UPI\nsinhasneha158-2@okicici\nPaid On: 15th Apr, 2026 17:55:24 PM IST\n\nEmail: sinhasneha158@gmail.com\nMobile Number: +919395163762\n\nFor any order related queries please reach out to BRAINGROW EDUSERV PRIVATE LIMITED at help@yesmock.com or on 9238123890",
+    "easyocr_text": "Gmail\nSearch mail\n0  0   0 | 6 0 !\n281 of 7,599\nBRAINGROW EDUSERV PRIVATE LIMITED\n{689.00\nPaid Successfully\nPayment Id\npay_SdleqofNvlmOZg\nMethod\nUPI\nsinhasneha158-2@okicici\nPaid On\n1Sth Apr; 2026 17:55.24 PM IST\nEmail\nsinhasnehal58@gmaLcom\nMobile Number\n4919395163762\nFor any order related queries please reach out to BRAINGROW\nEDUSERV PRIVATE LIMITED at\nhelp@yesmock com or on 9238123890\nReply\nForward",
+    "metrics": {
+      "char_similarity": 0.7493,
+      "cer": 0.2507,
+      "word_similarity": 0.6415,
+      "wer": 0.3585
+    }
+  },
+  "ss_003.jpg": {
+    "category": "Education",
+    "reference_text": "kiit.ac.in\n\nCourse Contents:\nUNIT I - Deep Networks: Deep Feedforward Networks, Learning XOR, Gradient Based learning, Hidden Units, Back-propagation, Regularization for Deep Learning, Optimization for training Deep Models.\n\nUNIT II - Convolutional Networks: Convolution operation, Motivation, Pooling, Convolution and Pooling as strong prior, Efficient convolution algorithms, Sequence Modeling: Recurrent and Recursive Nets, LSTM Networks, Applications, Computer Vision, Speech Recognition, Natural Language Processing.\n\nUNIT III - Linear factor Models: Probabilistic PCA and Factor Analysis, Independent Component Analysis (ICA), Auto encoders, Regularized Auto encoders, Stochastic Auto encoders.\n\nUNIT IV - Representation Learning: Greedy Layer-wise Unsupervised Pre-Training, Transfer learning, Domain Adaptation, Deep Generative Models.\n\nUNIT V - Deep Learning with Python: Introduction to Keras and TensorFlow, Deep Learning for computer vision, convnets, Deep Learning for Text and Sequences, Generative Deep Learning, Text Generation with LSTM, DeepDream, Neural Style Transfer, Generative Adversarial Networks (GAN).\n\nCourse Outcomes:\nCO1: Assess the concept of deep learning\nCO2: Identify the deep learning algorithms which are more appropriate for various types of learning tasks\nCO3: Incorporate transfer of knowledge in machine learning algorithms\nCO4: Implement deep learning algorithms and solve real-world problems\nCO5: Develop Deep Learning techniques using Python\nCO6: Represent learning Models\n\nTextbooks:\n1. Ian Goodfellow, Yoshua Bengio, Aaron Courville, \"Deep Learning\", The MIT Press, 2016.\n\nReference Books:\n1. Francois Chollet, \"Deep Learning with Python\", Manning Publications, 2017.\n2. Aurélien Géron, \"Hands-On Machine Learning with Scikit-Learn and TensorFlow\", O'Reilly Media, 2017.\n3. Josh Patterson, \"Deep Learning: A Practitioner's Approach\", O'Reilly Media.",
+    "easyocr_text": "12*15.50\n8 0659 Via   'GIl ,ll 53%\nComputer_\nkiit.ac in\nTo learn deep\nearning algorithms and Its problem settngs\nTo understand representation and transfer of knowledge using deep\nlearning\nTo learn t0 use deep\nlearning tools and framework for\nreal-\nlife problems\nTo use Python for Deep Learning\nCourse\nContents:\nUNIT\nDeep Networks:\nDeep\nFeedforward\nNetworks\nLearning XOR_\nGradient\nBased   learning;\nHidden\nUnits,\nBack-propagation\nand\nother\nDilferential\nAlgorithms\nRegularization for\nLearning\nOptimization for training\nModels\nUNIT II\nConvolutional Networks:\nConvolution  operation, Motivation, Pooling;\nConvolution\nand\nPooling\nstrong\nprior ,\nElficient\nconvolution\nalgorithms;\nUnsupervised\nlcatures\nSequence   Modeling:\nRecurrent\nand\nRecursive\nNets\nLSTM\nNetworks\nApplications_\nComputer  Vision ,\nSpeech\nRecognition,\nNatural\nLanguage\nProcessing:\nUNIT MI\nLinear factor Models:\nProbabilistic PCA\nand Factor Analysis_\nIndependent Component Analysis\n(ICAI, Auto encoders_\nRegularized Auto encoders_\nRepresentational Power ,\nLayer size and Depth_\nStochastic Auto encoders\nApplications_\nUNIT IV\nRepresentation Learning:\nGreedy\nLayer-wise\nUnsupervised\nPre\nTraining;\nTransfer   learning\nand\nSchaal of Computer Engineering Curriculum\nKIITDUCSEJ?\nPage 154\nDomain Adaptation, Deep Generative Models\nUNIT V\nLearning with Python:\nIntrocuction t0 Keras and Tensor flow, Deep Learning for computer vision _\nconvnets_\nDeep   Learning\nfor\nText\nand\nSequences,\nGenerative\nDeep\nLearning, Text Generation with LSTM,\nDeepDream, Neural Style Transfer\nGenerating images with variational\nauto encoders, Generative Adversarial\nNetworks (GANI _\nCourse Outcomes:\nUpon completion of this course\nthe students will be able to:\nCOI: Assess the concept of deep learning\nCO2: Identify the deep learning algorithms which are more\nappropriate for various types of\nlearning tasks in various domains\nCO3: Incorporate transfer of knowledge in machine\nlearning algorithms\nCO4: Implement deep learning algorithms and solve real-world problems\nCO5: Develop Deep Learning techniques using Python\nCO6: Represent learning Models\nTextbooks:\nIan Goodfellow, Yoshua Bengio, Aaron Courville, \"Decp Learning\"\nThe\nMIT Press, 2016_\nReference Books:\nFrancois Chollet,\n'Deep Learning with Python\nManning Publications,\n2017\nAurelien   Geron\nHands-On\nMachine Learning\nwith Scikit-Learnand\nTensorFlow:\nConcepts;\nTools,\nand  Techniques\nBuild\nIntelligent\nSystems\nFirst Edition_\nO'Reilly Media, 2017\nJosh Patterson, \"Deep Learning: A Practitioner's Approach\nFirst\nEdition\nOReilly Media_\nsolving\nDeep\nDeep\nDeep",
+    "metrics": {
+      "char_similarity": 0.5304,
+      "cer": 0.4696,
+      "word_similarity": 0.4458,
+      "wer": 0.5542
+    }
+  },
+  "ss_008.jpg": {
+    "category": "Shopping",
+    "reference_text": "Taste the Fire, Love the Flavor\nMD COMBO & KEBAB POINT\nCOMBOS • STICK KEBABS • FRIED SNACKS\n\nCOMBO ITEMS\n1. 2 Plane Paratha with Chicken Kasa ........ ₹90\n2. 2 Plane Paratha with Chicken Kima ........ ₹90\n3. 2 Plane Paratha with Chole Paneer ........ ₹80\n4. 2 Plane Paratha with Mashrum Masala ........ ₹80\n5. 2 Plane Paratha with Alu Kasa ........ ₹60\n+ Extra Normal Paratha ........ ₹20\n+ Extra Lacha Paratha ........ ₹25\n\nKEBAB ITEMS\n1. Chicken Tikka Kebab ........ ₹50\n2. Chicken Garlic Kebab ........ ₹50\n3. Chicken Hariyali Kebab ........ ₹50\n4. Chicken Malai Kebab ........ ₹50\n5. Prawn Kebab ........ ₹80\n6. Chicken Tandoori Leg Piece ........ ₹120\n7. Chicken Tandoori Wings ........ ₹50\n\nLEMON RICE COMBOS\n1. Lemon Rice with Chicken Kima ........ ₹100\n2. Lemon Rice with Chicken Kasa ........ ₹100\n3. Lemon Rice with Chole Paneer ........ ₹90\n4. Lemon Rice with Mushroom Masala ........ ₹90\n5. Lemon Rice with Alu Kasa ........ ₹80\n+ Extra Rice Plate ........ ₹40\n\nPURI ITEMS (4 PCS EACH)\n1. Puri (4 Pcs) + Chicken Kasa ........ ₹90\n2. Puri (4 Pcs) + Chicken Kima ........ ₹90\n3. Puri (4 Pcs) + Alu Kasa ........ ₹60\n4. Puri (4 Pcs) + Chole Paneer ........ ₹80\n5. Puri (4 Pcs) + Mashrum Masala ........ ₹80\n\nFOR ORDERS CALL / WHATSAPP: 78948 78844\nMD COMBO AND KEBAB POINT, IN FRONT OF CAMPUS 25, KIIT, NEAR OTV OFFICE, BHUBANESWAR, PRASHANTI VIHAR - 751024",
+    "easyocr_text": "the Fire Love the Flavor\nFRESHLY\nPREPARED\nQUALITY\nMD\nMDCOMBO\nhyGhenewts\nCOMBO & KEBAB\n& KEBAB POINT\nMade w\nWith\nPoinT\nCOMBOS\nStick\nLOVE\nKEBABS\nFRIED SNACKS\nCOMBO ITEMS\n2 Plane Paratha with Chicken !\nKEBAB ITEMS\n2 Plane Paratha\nKasa\n790\nChicken Tikka Kebab\n350\nwith Chicken Kima\n790\nChicken Garlic Kebab\n2 Plane Paratha with Chole Paneer\n750\n2 Plane Paratha :\n780\nChicken Hariyali Kebab\n{50\nwith Mashrum Masala\n?80\nChicken Malai Kebab\n2 Plane Paratha with Alu Kasa\n?60\n{50\nPrawn Kebab\n?80\nExtra Normal Paratha\n820\nChicken Tandoori Leg Piece\n7120\nExtra Lacha Paratha \n725\nChicken Tandoori Wings\n?50\nLEMON RICE COMBOS\nPURI ITEMS (4 PCS EACH)\nLemon Rice with Chicken\n{100\nPuri (4 Pcs)\nChicken Kasa\n290\nLemon Rice with Chicken Kasa\n?100\nPuri (4 Pcs)\nChicken Kima\n790\nLemon Rice with Chole Paneer\n790\nPuri (4 Pcs)\nAlu Kasa\n?60\nLemon Rice with Mushroom Masala\n{90\nPuri (4 Pcs)\nChole Paneer\n?80\nLemon Rice with Alu Kasa\n?80\nPuri (4 Pcs)\nMashrum Masala\n{80\nExtra Rice Plate\n{40\nExtra Puri (2 Pcs)\n720\nExtra Chole Masala\n730\nExtra Alu Tarkari\n825\nFRIED ITEMS\nSCAN TO\nORDER NOW ON\nChicken [\n(Half - 6\n{100\nVIEW FULL MENU\nWHATSAPP\n2  Fish\n(Half\n5\n{100\nChicken Pakoda ` (Half\n6 pcs)\n{70\nMD\nChicken Pakoda   (Full - 10 pcs)\n{120\nGOOGLE DRIVE MENU\nCHAT WITH US\nFRESHLY\nQUALITy\nHYGIENIC\nPRePARED\nINGREDIENTS\n8 SAFE\nMADE With Love\nEvcty Ordct\nalways\nYoli\nJust For You\nHOME DELIVERY\nAVAILABLE\nFOR ORDERS CALL\nWHATSAPP\nFast\nSAFE\nON Time\nMD COMBO AND KEBAB POINT\n78948 78844\nIN FRONT OF CAMPUS 25, Kiit\nNEAR OTv OFFICE, BHUBANESWAR\nPRASHANTI ViHaR\n751024\nThank Yeu For Supporting Local\nFOLLow US\nTaste\nKima\nFingers\n'pCS)\nFingers\npcs)_\nBEST\nTASTE\nBEST\nPRICE",
+    "metrics": {
+      "char_similarity": 0.1596,
+      "cer": 0.8404,
+      "word_similarity": 0.0288,
+      "wer": 0.9712
+    }
+  },
+  "ss_0011.jpg": {
+    "category": "Travel",
+    "reference_text": "Boarding Pass 6Eskai\n\nGUWAHATI (T1) GAU\n01h 45m Non-stop\nBHUBANESWAR (T1) BBI\n\nDEPARTS DATE: 12 Jul, 26\nARRIVES DATE: 12 Jul, 26\n\nDEPARTS: 17:55\nARRIVES: 19:40\n\nMS Sneha Sinha\nTIER: INDIGO BLUCHIP BLU 3\nFFN: 549114775\n\nPNR: E6954C\nFlight: 6E 6914\nDate: 12 Jul, 26\n\nGate: -\nBoarding Time: 17:10\nDeparture: 17:55\n\nSeat: 16E\nSeq. no: 0002\nBoarding: Zone 2",
+    "easyocr_text": "6.22 0\n42h ,Il 95%\nBoarding Pass\nbeskal\nBHUBAN\nGUWAHATI\nESWAR\n(T1)\n(T1)\nGAU\nO1h 45m\nBBI\nNon-stop\nDEPARTS DATE\nARRIVES DATE\n12 Jul, 26\n12 Jul, 26\nDEPARTS\nARRIVES\n17.55\n19.40\nMS Sneha Sinha\nTIER: INDIGO BLUCHIP BLU 3\nFFN: 549114775\nPNR\nFlight\nDate\nE6954C\n6E 6914\n12 Jul, 26\nGate\nBoarding Time\nDeparture\n17:10\n17.55\nSeat\nSeq; no\nBoarding\nI6E\n0002\nZone 2",
+    "metrics": {
+      "char_similarity": 0.517,
+      "cer": 0.483,
+      "word_similarity": 0.5312,
+      "wer": 0.4688
+    }
+  },
+  "ss_0021.jpg": {
+    "category": "Communication",
+    "reference_text": "10:56 Wed, 6 May\n\nWhatsApp • 4 messages from 3 chats\n\n3 Idiots 🙈🙈🙈 • 4 minutes ago\nShalini\nArey 25 boli hai lekin ladka dhundne mein toh lagega na 2-3 saal ....ismein ho jayega Mera kaam 😂\n\nReply | Mark as read | Mute\n\nMilli(Roommate) • Yesterday\n💀💀yeh to pata nahi kya issue ho raha\n\nEaseMyTrip • Yesterday\n📷 Dear Traveller,...\n\nTelegram • Anu • 21 minutes ago\nAnu joined Telegram!",
+    "easyocr_text": "0 A *1 089\nKBIS\nVaLfEB ,tll ,ll 53%\n10.56 Wed, 6\nWhatsApp\n4 messages from 3 chats\n3 Idiots\n4 minutes ago\nShalini\nArey 25 boli hai lekin ladka dhundne mein toh\nlagega na 2-3 saal\nismein ho jayega Mera\nkaam\nReply\nMark as read\nMute\nMilli(Roommate)\nYesterday\nto\nnahi kya issue ho raha\nEaseMyTrip\nYesterday\nDear Traveller;\nTelegram\nAnu\n21 minutes ago\nAnu joined Telegram!\nMay\nyeh\npata",
+    "metrics": {
+      "char_similarity": 0.7016,
+      "cer": 0.2984,
+      "word_similarity": 0.7656,
+      "wer": 0.2344
+    }
+  },
+  "ss_0028.jpg": {
+    "category": "Coding",
+    "reference_text": "assetController.js - Internship - Visual Studio Code\n\nEXPLORER\nasset-management-system > backend > controllers > JS assetController.js\n\nconst Asset = require(\"../models/Asset\");\n\n// Get all assets\nconst getAssets = async (req, res) => {\n    try {\n        const assets = await Asset.find();\n        res.json(assets);\n    } catch (error) {\n        res.status(500).json({\n            message: error.message\n        });\n    }\n};\n\n// Add asset\nconst addAsset = async (req, res) => {\n    try {\n        const newAsset = new Asset(req.body);\n        const savedAsset = await newAsset.save();\n        res.status(201).json(savedAsset);\n    } catch (error) {\n        res.status(500).json({\n            message: error.message\n        });\n    }\n};",
+    "easyocr_text": "File\nEdit\nSelection\nView\nGo\nRun\nassetController js\nInternship\nVisual Studio Code\n08\n0\nEXPLORER\nenv\ndbjs\nAssetjs\nassetRoutes js\npackage json\nassetControllerjs X\nINTERNSHIP\nEo\nasset-management-system\nbackend\ncontrollers\nassetControllerjs\nasset-management-system\nconst Asset\nrequire(\nImodels/Asset\");\nbackend\n11 Get all\nassets\nconfig\nUUJ>\nconst getAssets\nasync (req, res)\n3>\ncontrollers\nassetControllerjs\ntry\nmodels\nconst\nassets\nawait\nAsset.find()\nJS Assetjs\nComplaintjs\n10\nres.json(assets)\nnode_modules\n11\nroutes\n12\ncatch (error)\nJS assetRoutesjs\n13\n14\nres\nstatus(500) .json ( {\ncomplaintRoutesjs\n15\nmessage\nerror\nmessage\nutils\n16\nH;\nenv\n17\nJS importData js\n18\n};\niocl_asset_dataset_updatedxlsx\n19\npackage-lockjson\n20\n1/ Add\nasset\n21\nconst\naddAsset\nasync\n(req,\nres)\n3>\npackagejson\n22\nJs seedComplaintsjs\n23\nserver js\n24\nbuild\n25\nconst\nnewAsset\nnew\nAsset (\nbody )\nfrontend\n26\nnode_modules\n27\nconst savedAsset\nawait\nnewAsset.save( )_\n28\nasset-management-systemzip\n29\nres\nstatus(201) . json ( savedAsset)\n30\nOUTLINE\n31\ncatch\n(error)\nTIMELINE\n32\n88 main\"\nYoshita1511 (1 month ago)\nScreen Reader Optimized\nLn 62, Col 3\nSpaces: 4\nUTF-8\nCRLF\nJavaScript\n(c)) Go Live\ntry\nreq.",
+    "metrics": {
+      "char_similarity": 0.0368,
+      "cer": 0.9632,
+      "word_similarity": 0.0,
+      "wer": 1.4304
+    }
+  },
+  "ss_0030.jpg": {
+    "category": "Work & Career",
+    "reference_text": "Apply now!\n2nd Global AI Hackathon\nin collaboration with the MIT Sloan AI Club\nAug 9 - 10, 2025\nPrizes sponsored by OpenAI\n\nHi Nafisa,\n\nWe're excited to share that OpenAI is sponsoring the 2nd Global AI Hackathon (Aug 9 - 10) and would love to invite you to apply by July 18 (round 1).\n\nWe had received so much interest for the first hackathon, and it was a great success such that we are excited to provide an additional opportunity.\n\nApply here: https://tinyurl.com/APPLY-AI\n\nWe're back with new AI challenges, inspiring speakers, hands-on mentors, and a global community of AI builders.\n\nWhy join?\n• Win prize money and OpenAI API credits\n• Gain exposure to top AI companies that are looking to hire\n• Be selected for an exclusive Demo Day in September - we'll connect you with funding opportunities and VCs to help turn your solution into a venture-backed startup",
+    "easyocr_text": "17.34\n0 004\n986 X? *SG1/\n43%\nto me\nApply nowl\nGlobal Al Hackathon\nin collaboration with the MIT Sloan Al Club\nAug 9 - 10,2025\nPrizes sponsored by\nOpenAI\nHi Nafisa,\nWe're excited to share that OpenAI is\nsponsoring the Znd Global AI Hackathon\n9 _\n10) and would love to invite you to\napply by July 18 (round 1).\nWe had received so much interest for the\nfirst hackathon, and it was a great success\nsuch that we are excited to provide an\nadditional opportunity\nApply here: https:Iltinyurl com/APPLY-AI\nWe're back with new AI\nchallenges,\ninspiring speakers, hands-on mentors, and\na\nglobal community of AI builders.\nWhy join?\nWin prize money and OpenAI API\ncredits\nGain exposure to\nAI companies\nthat are\nlooking to hire\nBe selected for an exclusive Demo\nin September\nwe']l connect\nyou with funding opportunities and\nVCs to help turn your solutioh into a\nventure-backed startun\n2nd\n(Aug\ntop\nDay",
+    "metrics": {
+      "char_similarity": 0.8662,
+      "cer": 0.1338,
+      "word_similarity": 0.8247,
+      "wer": 0.1753
+    }
+  }
+}
