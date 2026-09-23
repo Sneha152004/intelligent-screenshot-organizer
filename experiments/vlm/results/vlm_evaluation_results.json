@@ -1,0 +1,698 @@
+{
+  "metadata": {
+    "model_name": "MockVLM Engine (Deterministic Demo)",
+    "model_version": "mock-3d",
+    "model_footprint_mb": 0.0,
+    "timestamp": "2026-09-23T17:05:15.252226+00:00",
+    "device": "CPU",
+    "total_screenshots": 8
+  },
+  "performance": {
+    "total_evaluation_time_seconds": 0.002,
+    "average_latency_seconds": 0.0,
+    "successful_evaluations": 8,
+    "failed_evaluations": 0
+  },
+  "aggregate_metrics": {
+    "schema_validity_rate": 1.0,
+    "category_accuracy": 1.0,
+    "tag_precision": 1.0,
+    "tag_recall": 1.0,
+    "intent_match_rate": 1.0,
+    "entities_recall": 1.0,
+    "dates_recall": 1.0,
+    "action_items_recall": 1.0,
+    "sensitive_info_accuracy": 1.0
+  },
+  "failures": [],
+  "per_target_results": [
+    {
+      "screenshot_id": "ss_001",
+      "filename": "ss_001.jpg",
+      "expected": {
+        "category": "Connectivity",
+        "tags": [
+          "wifi",
+          "password",
+          "network",
+          "airtel"
+        ],
+        "intent": "Remember network credential",
+        "summary": "Wi-Fi network credentials and password for Airtel router",
+        "importance": 4,
+        "entities": [
+          {
+            "text": "Airtel_runu_7550",
+            "type": "network_name"
+          },
+          {
+            "text": "Air@53054",
+            "type": "password"
+          }
+        ],
+        "dates": [],
+        "action_items": [],
+        "sensitive_info": {
+          "contains_password": true,
+          "contains_payment_info": false,
+          "contains_personal_contact": false
+        }
+      },
+      "predicted": {
+        "category": "Connectivity",
+        "tags": [
+          "wifi",
+          "password",
+          "network",
+          "airtel"
+        ],
+        "intent": "Remember network credential",
+        "summary": "Wi-Fi network credentials and password for Airtel router",
+        "importance": 4,
+        "entities": [
+          {
+            "text": "Airtel_runu_7550",
+            "type": "network_name"
+          },
+          {
+            "text": "Air@53054",
+            "type": "password"
+          }
+        ],
+        "dates": [],
+        "action_items": [],
+        "sensitive_info": {
+          "contains_password": true,
+          "contains_payment_info": false,
+          "contains_personal_contact": false
+        }
+      },
+      "metrics": {
+        "category_match": 1.0,
+        "tag_precision": 1.0,
+        "tag_recall": 1.0,
+        "tag_overlap_count": 4,
+        "intent_match": 1.0,
+        "entities_recall": 1.0,
+        "dates_recall": 1.0,
+        "action_items_recall": 1.0,
+        "sensitive_info_accuracy": 1.0
+      },
+      "latency_seconds": 0.0,
+      "schema_validity": {
+        "is_valid": true,
+        "errors": []
+      },
+      "error": null
+    },
+    {
+      "screenshot_id": "ss_002",
+      "filename": "ss_002.jpg",
+      "expected": {
+        "category": "Payment",
+        "tags": [
+          "payment",
+          "receipt",
+          "upi",
+          "braingrow"
+        ],
+        "intent": "Keep payment record",
+        "summary": "UPI payment receipt of ₹689 paid to BRAINGROW EDUSERV",
+        "importance": 4,
+        "entities": [
+          {
+            "text": "BRAINGROW EDUSERV PRIVATE LIMITED",
+            "type": "merchant"
+          },
+          {
+            "text": "pay_SdleqofNvlmOZg",
+            "type": "payment_id"
+          }
+        ],
+        "dates": [
+          {
+            "text": "15th Apr, 2026 17:55:24 PM IST",
+            "type": "transaction_date"
+          }
+        ],
+        "action_items": [],
+        "sensitive_info": {
+          "contains_password": false,
+          "contains_payment_info": true,
+          "contains_personal_contact": true
+        }
+      },
+      "predicted": {
+        "category": "Payment",
+        "tags": [
+          "payment",
+          "receipt",
+          "upi",
+          "braingrow"
+        ],
+        "intent": "Keep payment record",
+        "summary": "UPI payment receipt of ₹689 paid to BRAINGROW EDUSERV",
+        "importance": 4,
+        "entities": [
+          {
+            "text": "BRAINGROW EDUSERV PRIVATE LIMITED",
+            "type": "merchant"
+          },
+          {
+            "text": "pay_SdleqofNvlmOZg",
+            "type": "payment_id"
+          }
+        ],
+        "dates": [
+          {
+            "text": "15th Apr, 2026 17:55:24 PM IST",
+            "type": "transaction_date"
+          }
+        ],
+        "action_items": [],
+        "sensitive_info": {
+          "contains_password": false,
+          "contains_payment_info": true,
+          "contains_personal_contact": true
+        }
+      },
+      "metrics": {
+        "category_match": 1.0,
+        "tag_precision": 1.0,
+        "tag_recall": 1.0,
+        "tag_overlap_count": 4,
+        "intent_match": 1.0,
+        "entities_recall": 1.0,
+        "dates_recall": 1.0,
+        "action_items_recall": 1.0,
+        "sensitive_info_accuracy": 1.0
+      },
+      "latency_seconds": 0.0,
+      "schema_validity": {
+        "is_valid": true,
+        "errors": []
+      },
+      "error": null
+    },
+    {
+      "screenshot_id": "ss_003",
+      "filename": "ss_003.jpg",
+      "expected": {
+        "category": "Education",
+        "tags": [
+          "syllabus",
+          "deep-learning",
+          "kiit",
+          "course"
+        ],
+        "intent": "Study course material",
+        "summary": "KIIT Deep Learning course syllabus covering units I-V and textbooks",
+        "importance": 3,
+        "entities": [
+          {
+            "text": "KIIT",
+            "type": "institution"
+          },
+          {
+            "text": "Deep Learning",
+            "type": "subject"
+          }
+        ],
+        "dates": [],
+        "action_items": [
+          {
+            "text": "Read Goodfellow Deep Learning textbook",
+            "status": "pending"
+          }
+        ],
+        "sensitive_info": {
+          "contains_password": false,
+          "contains_payment_info": false,
+          "contains_personal_contact": false
+        }
+      },
+      "predicted": {
+        "category": "Education",
+        "tags": [
+          "syllabus",
+          "deep-learning",
+          "kiit",
+          "course"
+        ],
+        "intent": "Study course material",
+        "summary": "KIIT Deep Learning course syllabus covering units I-V and textbooks",
+        "importance": 3,
+        "entities": [
+          {
+            "text": "KIIT",
+            "type": "institution"
+          },
+          {
+            "text": "Deep Learning",
+            "type": "subject"
+          }
+        ],
+        "dates": [],
+        "action_items": [
+          {
+            "text": "Read Goodfellow Deep Learning textbook",
+            "status": "pending"
+          }
+        ],
+        "sensitive_info": {
+          "contains_password": false,
+          "contains_payment_info": false,
+          "contains_personal_contact": false
+        }
+      },
+      "metrics": {
+        "category_match": 1.0,
+        "tag_precision": 1.0,
+        "tag_recall": 1.0,
+        "tag_overlap_count": 4,
+        "intent_match": 1.0,
+        "entities_recall": 1.0,
+        "dates_recall": 1.0,
+        "action_items_recall": 1.0,
+        "sensitive_info_accuracy": 1.0
+      },
+      "latency_seconds": 0.0,
+      "schema_validity": {
+        "is_valid": true,
+        "errors": []
+      },
+      "error": null
+    },
+    {
+      "screenshot_id": "ss_008",
+      "filename": "ss_008.jpg",
+      "expected": {
+        "category": "Shopping",
+        "tags": [
+          "menu",
+          "food",
+          "prices",
+          "combo"
+        ],
+        "intent": "View food options and pricing",
+        "summary": "MD Combo food menu item listings and prices",
+        "importance": 2,
+        "entities": [
+          {
+            "text": "MD Combo",
+            "type": "product"
+          }
+        ],
+        "dates": [],
+        "action_items": [],
+        "sensitive_info": {
+          "contains_password": false,
+          "contains_payment_info": false,
+          "contains_personal_contact": false
+        }
+      },
+      "predicted": {
+        "category": "Shopping",
+        "tags": [
+          "menu",
+          "food",
+          "prices",
+          "combo"
+        ],
+        "intent": "View food options and pricing",
+        "summary": "MD Combo food menu item listings and prices",
+        "importance": 2,
+        "entities": [
+          {
+            "text": "MD Combo",
+            "type": "product"
+          }
+        ],
+        "dates": [],
+        "action_items": [],
+        "sensitive_info": {
+          "contains_password": false,
+          "contains_payment_info": false,
+          "contains_personal_contact": false
+        }
+      },
+      "metrics": {
+        "category_match": 1.0,
+        "tag_precision": 1.0,
+        "tag_recall": 1.0,
+        "tag_overlap_count": 4,
+        "intent_match": 1.0,
+        "entities_recall": 1.0,
+        "dates_recall": 1.0,
+        "action_items_recall": 1.0,
+        "sensitive_info_accuracy": 1.0
+      },
+      "latency_seconds": 0.0,
+      "schema_validity": {
+        "is_valid": true,
+        "errors": []
+      },
+      "error": null
+    },
+    {
+      "screenshot_id": "ss_0011",
+      "filename": "ss_0011.jpg",
+      "expected": {
+        "category": "Travel",
+        "tags": [
+          "flight",
+          "indigo",
+          "boarding-pass",
+          "guwahati"
+        ],
+        "intent": "Prepare for flight travel",
+        "summary": "IndiGo flight boarding pass to Guwahati",
+        "importance": 5,
+        "entities": [
+          {
+            "text": "IndiGo",
+            "type": "airline"
+          },
+          {
+            "text": "Guwahati",
+            "type": "destination"
+          }
+        ],
+        "dates": [
+          {
+            "text": "22nd Sep, 2026",
+            "type": "travel_date"
+          }
+        ],
+        "action_items": [
+          {
+            "text": "Report to airport boarding gate on time",
+            "status": "pending"
+          }
+        ],
+        "sensitive_info": {
+          "contains_password": false,
+          "contains_payment_info": false,
+          "contains_personal_contact": true
+        }
+      },
+      "predicted": {
+        "category": "Travel",
+        "tags": [
+          "flight",
+          "indigo",
+          "boarding-pass",
+          "guwahati"
+        ],
+        "intent": "Prepare for flight travel",
+        "summary": "IndiGo flight boarding pass to Guwahati",
+        "importance": 5,
+        "entities": [
+          {
+            "text": "IndiGo",
+            "type": "airline"
+          },
+          {
+            "text": "Guwahati",
+            "type": "destination"
+          }
+        ],
+        "dates": [
+          {
+            "text": "22nd Sep, 2026",
+            "type": "travel_date"
+          }
+        ],
+        "action_items": [
+          {
+            "text": "Report to airport boarding gate on time",
+            "status": "pending"
+          }
+        ],
+        "sensitive_info": {
+          "contains_password": false,
+          "contains_payment_info": false,
+          "contains_personal_contact": true
+        }
+      },
+      "metrics": {
+        "category_match": 1.0,
+        "tag_precision": 1.0,
+        "tag_recall": 1.0,
+        "tag_overlap_count": 4,
+        "intent_match": 1.0,
+        "entities_recall": 1.0,
+        "dates_recall": 1.0,
+        "action_items_recall": 1.0,
+        "sensitive_info_accuracy": 1.0
+      },
+      "latency_seconds": 0.0,
+      "schema_validity": {
+        "is_valid": true,
+        "errors": []
+      },
+      "error": null
+    },
+    {
+      "screenshot_id": "ss_0021",
+      "filename": "ss_0021.jpg",
+      "expected": {
+        "category": "Communication",
+        "tags": [
+          "chat",
+          "whatsapp",
+          "messages",
+          "notification"
+        ],
+        "intent": "Check messaging conversation",
+        "summary": "WhatsApp/Telegram chat notification overview",
+        "importance": 3,
+        "entities": [
+          {
+            "text": "WhatsApp",
+            "type": "application"
+          }
+        ],
+        "dates": [],
+        "action_items": [
+          {
+            "text": "Reply to pending messages",
+            "status": "pending"
+          }
+        ],
+        "sensitive_info": {
+          "contains_password": false,
+          "contains_payment_info": false,
+          "contains_personal_contact": true
+        }
+      },
+      "predicted": {
+        "category": "Communication",
+        "tags": [
+          "chat",
+          "whatsapp",
+          "messages",
+          "notification"
+        ],
+        "intent": "Check messaging conversation",
+        "summary": "WhatsApp/Telegram chat notification overview",
+        "importance": 3,
+        "entities": [
+          {
+            "text": "WhatsApp",
+            "type": "application"
+          }
+        ],
+        "dates": [],
+        "action_items": [
+          {
+            "text": "Reply to pending messages",
+            "status": "pending"
+          }
+        ],
+        "sensitive_info": {
+          "contains_password": false,
+          "contains_payment_info": false,
+          "contains_personal_contact": true
+        }
+      },
+      "metrics": {
+        "category_match": 1.0,
+        "tag_precision": 1.0,
+        "tag_recall": 1.0,
+        "tag_overlap_count": 4,
+        "intent_match": 1.0,
+        "entities_recall": 1.0,
+        "dates_recall": 1.0,
+        "action_items_recall": 1.0,
+        "sensitive_info_accuracy": 1.0
+      },
+      "latency_seconds": 0.0,
+      "schema_validity": {
+        "is_valid": true,
+        "errors": []
+      },
+      "error": null
+    },
+    {
+      "screenshot_id": "ss_0028",
+      "filename": "ss_0028.jpg",
+      "expected": {
+        "category": "Coding",
+        "tags": [
+          "express",
+          "controller",
+          "code",
+          "javascript"
+        ],
+        "intent": "Reference code implementation",
+        "summary": "VS Code Express.js controller code snippet",
+        "importance": 3,
+        "entities": [
+          {
+            "text": "Express",
+            "type": "framework"
+          }
+        ],
+        "dates": [],
+        "action_items": [],
+        "sensitive_info": {
+          "contains_password": false,
+          "contains_payment_info": false,
+          "contains_personal_contact": false
+        }
+      },
+      "predicted": {
+        "category": "Coding",
+        "tags": [
+          "express",
+          "controller",
+          "code",
+          "javascript"
+        ],
+        "intent": "Reference code implementation",
+        "summary": "VS Code Express.js controller code snippet",
+        "importance": 3,
+        "entities": [
+          {
+            "text": "Express",
+            "type": "framework"
+          }
+        ],
+        "dates": [],
+        "action_items": [],
+        "sensitive_info": {
+          "contains_password": false,
+          "contains_payment_info": false,
+          "contains_personal_contact": false
+        }
+      },
+      "metrics": {
+        "category_match": 1.0,
+        "tag_precision": 1.0,
+        "tag_recall": 1.0,
+        "tag_overlap_count": 4,
+        "intent_match": 1.0,
+        "entities_recall": 1.0,
+        "dates_recall": 1.0,
+        "action_items_recall": 1.0,
+        "sensitive_info_accuracy": 1.0
+      },
+      "latency_seconds": 0.0,
+      "schema_validity": {
+        "is_valid": true,
+        "errors": []
+      },
+      "error": null
+    },
+    {
+      "screenshot_id": "ss_0030",
+      "filename": "ss_0030.jpg",
+      "expected": {
+        "category": "Work & Career",
+        "tags": [
+          "hackathon",
+          "openai",
+          "event",
+          "career"
+        ],
+        "intent": "Participate in AI competition",
+        "summary": "OpenAI AI Hackathon event announcement details",
+        "importance": 4,
+        "entities": [
+          {
+            "text": "OpenAI",
+            "type": "organization"
+          },
+          {
+            "text": "Hackathon",
+            "type": "event"
+          }
+        ],
+        "dates": [],
+        "action_items": [
+          {
+            "text": "Register team for OpenAI Hackathon",
+            "status": "pending"
+          }
+        ],
+        "sensitive_info": {
+          "contains_password": false,
+          "contains_payment_info": false,
+          "contains_personal_contact": false
+        }
+      },
+      "predicted": {
+        "category": "Work & Career",
+        "tags": [
+          "hackathon",
+          "openai",
+          "event",
+          "career"
+        ],
+        "intent": "Participate in AI competition",
+        "summary": "OpenAI AI Hackathon event announcement details",
+        "importance": 4,
+        "entities": [
+          {
+            "text": "OpenAI",
+            "type": "organization"
+          },
+          {
+            "text": "Hackathon",
+            "type": "event"
+          }
+        ],
+        "dates": [],
+        "action_items": [
+          {
+            "text": "Register team for OpenAI Hackathon",
+            "status": "pending"
+          }
+        ],
+        "sensitive_info": {
+          "contains_password": false,
+          "contains_payment_info": false,
+          "contains_personal_contact": false
+        }
+      },
+      "metrics": {
+        "category_match": 1.0,
+        "tag_precision": 1.0,
+        "tag_recall": 1.0,
+        "tag_overlap_count": 4,
+        "intent_match": 1.0,
+        "entities_recall": 1.0,
+        "dates_recall": 1.0,
+        "action_items_recall": 1.0,
+        "sensitive_info_accuracy": 1.0
+      },
+      "latency_seconds": 0.0,
+      "schema_validity": {
+        "is_valid": true,
+        "errors": []
+      },
+      "error": null
+    }
+  ]
+}
