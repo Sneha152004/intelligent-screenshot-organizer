@@ -33,6 +33,9 @@ class AppConfig:
     # 5. OCR Engine Settings
     ocr_engine_type: str = "mock"  # Options: "mock", "easyocr"
 
+    # 6. VLM Engine Settings
+    vlm_engine_type: str = "mock"  # Options: "mock"
+
     # Benchmark Dataset Settings
     sample_metadata_path: str = "sample/metadata.csv"
     sample_images_dir: str = "sample"

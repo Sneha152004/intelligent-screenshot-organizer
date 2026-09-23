@@ -52,11 +52,21 @@ config.ocr_engine_type = "easyocr"
 pipeline = OCRPipeline()
 ```
 
+## Screenshot Understanding / VLM
+
+The project uses a swappable VLM abstraction for visual screenshot understanding.
+
+Current implementation:
+- MockVLM for deterministic testing
+
+Future implementation:
+- Real VLM evaluated separately before production integration
+
 ## Running Tests
 
-Run the complete test suite (includes 34 core storage/retrieval tests + 12 OCR/EasyOCR integration and configuration tests):
+Run the complete test suite (includes 34 core storage/retrieval tests + 12 OCR/EasyOCR integration and configuration tests + 11 VLM foundation tests):
 ```bash
 python -m pytest -v
 ```
 
-*Note: Unit tests mock the EasyOCR reader interface, ensuring fast execution without requiring automatic model downloads.*
+*Note: Unit tests mock the EasyOCR reader interface and VLM layer, ensuring fast execution without requiring automatic model downloads.*

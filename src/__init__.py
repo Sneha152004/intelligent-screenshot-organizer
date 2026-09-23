@@ -10,6 +10,7 @@ from .embedder import BaseEmbedder, SentenceTransformerEmbedder
 from .loader import load_dataset
 from .mock_ocr import BaseOCREngine, MockOCREngine
 from .easy_ocr import EasyOCREngine, get_ocr_engine
+from .vlm import BaseVLM, MockVLM, get_vlm_engine
 from .chunker import ParagraphChunker, chunk_text
 from .pipeline import OCRPipeline
 from .vector_store import VectorStoreManager
@@ -26,6 +27,9 @@ __all__ = [
     "MockOCREngine",
     "EasyOCREngine",
     "get_ocr_engine",
+    "BaseVLM",
+    "MockVLM",
+    "get_vlm_engine",
     "ParagraphChunker",
     "chunk_text",
     "OCRPipeline",
