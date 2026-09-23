@@ -102,6 +102,17 @@ Execution generates two result artifacts in `experiments/vlm/results/`:
 
 ---
 
+## Real VLM Adapter Architecture
+
+Future multimodal model adapters plug directly into the `BaseVLMAdapter` interface while maintaining total experimental control and fairness:
+
+- **Constant Prompt:** All candidate adapters receive the centralized `STANDARDIZED_VLM_PROMPT`.
+- **Constant Screenshots:** All candidate adapters evaluate the exact same 8 benchmark target screenshots.
+- **Constant OCR Input:** Supporting OCR text is injected from the independent `BaseOCREngine` (e.g. `EasyOCREngine` or `MockOCREngine`).
+- **Constant Metrics:** Schema validity, category accuracy, tag precision/recall, intent match, and field recall metrics remain strictly identical across all models.
+
+Only the underlying model adapter implementation changes (e.g., loading model weights, formatting image inputs, running inference, and calling `parse_raw_vlm_response(raw_output)`).
+
 ## Future Real VLM Adapter Integration
 
 To benchmark a real local VLM candidate (e.g. `SmolVLM2`, `Qwen2.5-VL`, `LLaVA-Phi3`), implement a custom subclass of `BaseVLMAdapter` in `evaluate_vlm.py`:
@@ -117,10 +128,20 @@ class RealVLMAdapter(BaseVLMAdapter):
         return "SmolVLM2-500M-Instruct"
 
     @property
+    def model_identifier(self) -> str:
+        return "HuggingFaceTB/SmolVLM2-500M-Instruct"
+
+    @property
     def model_footprint_mb(self) -> float:
         return 1000.0  # ~1GB model RAM footprint
 
+    @property
+    def device(self) -> str:
+        return "cpu"
+
     def analyze(self, image_path: str, ocr_text: str = "") -> dict:
-        # Run inference using STANDARDIZED_VLM_PROMPT and return parsed JSON dict
+        # 1. Format image + STANDARDIZED_VLM_PROMPT
+        # 2. Run local CPU inference
+        # 3. Pass raw text through parse_raw_vlm_response(raw_text)
         ...
 ```

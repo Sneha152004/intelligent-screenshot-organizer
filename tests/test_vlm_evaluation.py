@@ -1,8 +1,8 @@
 """
 Unit Tests for Model-Agnostic VLM Evaluation Harness
 =====================================================
-Tests target loading, adapter abstraction, schema validation, metrics calculation,
-performance tracking, result serialization, and demo evaluation execution.
+Tests target loading, adapter abstraction, raw response parsing, schema validation,
+metrics calculation, performance tracking, result serialization, and demo evaluation execution.
 """
 
 import json
@@ -16,9 +16,14 @@ from experiments.vlm.evaluate_vlm import (
     BaseVLMAdapter,
     MockVLMAdapter,
     VLMEvaluator,
+    VLMInferenceError,
+    VLMInitializationError,
+    VLMResponseParseError,
+    VLMSchemaValidationError,
     check_schema_validity,
     compute_aggregate_metrics,
     compute_item_metrics,
+    parse_raw_vlm_response,
 )
 
 
@@ -47,14 +52,17 @@ class TestVLMEvaluationTargets(unittest.TestCase):
 
 
 class TestVLMAdapterAbstraction(unittest.TestCase):
-    """Verifies BaseVLMAdapter interface and MockVLMAdapter execution."""
+    """Verifies BaseVLMAdapter contract properties and MockVLMAdapter execution."""
 
-    def test_mock_vlm_adapter_interface(self):
+    def test_mock_vlm_adapter_interface_and_properties(self):
         adapter = MockVLMAdapter()
         self.assertTrue(issubclass(MockVLMAdapter, BaseVLMAdapter))
         self.assertIsInstance(adapter.model_name, str)
+        self.assertEqual(adapter.model_identifier, "mock-vlm-engine")
         self.assertEqual(adapter.model_version, "mock-3d")
         self.assertEqual(adapter.model_footprint_mb, 0.0)
+        self.assertEqual(adapter.device, "cpu")
+        self.assertEqual(adapter.initialization_time_seconds, 0.0)
 
     def test_mock_adapter_analysis_returns_valid_dict(self):
         adapter = MockVLMAdapter()
@@ -62,6 +70,65 @@ class TestVLMAdapterAbstraction(unittest.TestCase):
         self.assertIsInstance(res, dict)
         self.assertEqual(res["category"], "Connectivity")
         self.assertIn("wifi", res["tags"])
+
+
+class TestVLMResponseParsing(unittest.TestCase):
+    """Verifies raw VLM response parsing, markdown stripping, and schema enforcement."""
+
+    def setUp(self):
+        self.valid_response_dict = {
+            "category": "Connectivity",
+            "tags": ["wifi", "password"],
+            "intent": "Remember network credential",
+            "summary": "Wi-Fi password details",
+            "importance": 4,
+            "entities": [{"text": "Airtel", "type": "organization"}],
+            "dates": [],
+            "action_items": [],
+            "sensitive_info": {
+                "contains_password": True,
+                "contains_payment_info": False,
+                "contains_personal_contact": False,
+            },
+        }
+
+    def test_parse_valid_dict_response(self):
+        res = parse_raw_vlm_response(self.valid_response_dict)
+        self.assertEqual(res, self.valid_response_dict)
+
+    def test_parse_valid_json_string_response(self):
+        raw_str = json.dumps(self.valid_response_dict)
+        res = parse_raw_vlm_response(raw_str)
+        self.assertEqual(res["category"], "Connectivity")
+
+    def test_parse_markdown_codeblock_json_response(self):
+        markdown_json = f"```json\n{json.dumps(self.valid_response_dict)}\n```"
+        res = parse_raw_vlm_response(markdown_json)
+        self.assertEqual(res["category"], "Connectivity")
+
+    def test_parse_invalid_json_syntax_raises_parse_error(self):
+        bad_json = "```json\n{invalid json syntax}\n```"
+        with self.assertRaises(VLMResponseParseError) as cm:
+            parse_raw_vlm_response(bad_json)
+        self.assertIn("Failed to parse raw VLM text output as JSON", str(cm.exception))
+
+    def test_parse_schema_violation_raises_validation_error(self):
+        invalid_schema_dict = {"category": "Payment"}  # Missing required keys
+        with self.assertRaises(VLMSchemaValidationError) as cm:
+            parse_raw_vlm_response(invalid_schema_dict)
+        self.assertIn("failed schema validation", str(cm.exception))
+        self.assertTrue(len(cm.exception.errors) > 0)
+        self.assertEqual(cm.exception.raw_output, invalid_schema_dict)
+
+    def test_parse_invalid_response_type_raises_parse_error(self):
+        with self.assertRaises(VLMResponseParseError):
+            parse_raw_vlm_response(12345)
+
+    def test_vlm_exception_hierarchy(self):
+        self.assertTrue(issubclass(VLMResponseParseError, ValueError))
+        self.assertTrue(issubclass(VLMSchemaValidationError, ValueError))
+        self.assertTrue(issubclass(VLMInitializationError, RuntimeError))
+        self.assertTrue(issubclass(VLMInferenceError, RuntimeError))
 
 
 class TestVLMSchemaValidation(unittest.TestCase):
@@ -262,10 +329,11 @@ class TestVLMEvaluatorAndSerialization(unittest.TestCase):
             with open(json_path, "r", encoding="utf-8") as f:
                 data = json.load(f)
                 self.assertEqual(data["metadata"]["model_name"], adapter.model_name)
+                self.assertEqual(data["metadata"]["device"], "cpu")
 
             with open(md_path, "r", encoding="utf-8") as f:
                 md_content = f.read()
-                self.assertIn("Phase 3E: VLM Candidate Evaluation Report", md_content)
+                self.assertIn("Phase 3F.1: VLM Evaluation Report", md_content)
                 self.assertIn(adapter.model_name, md_content)
 
 

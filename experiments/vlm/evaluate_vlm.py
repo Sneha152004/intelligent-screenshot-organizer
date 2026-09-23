@@ -27,7 +27,7 @@ from src.easy_ocr import get_ocr_engine
 from src.vlm import BaseVLM, get_vlm_engine
 from experiments.vlm.evaluation_targets import get_evaluation_targets
 
-# Centralized Model-Agnostic VLM Prompt
+# Centralized Model-Agnostic VLM System Prompt
 STANDARDIZED_VLM_PROMPT = """Analyze the supplied screenshot image along with its supporting OCR text to understand its visual layout and semantic meaning.
 
 Definitions:
@@ -59,6 +59,30 @@ Supporting OCR Text:
 """
 
 
+# Exception Classes for Error Distinction
+class VLMResponseParseError(ValueError):
+    """Raised when raw string output from a VLM model cannot be parsed as valid JSON."""
+    pass
+
+
+class VLMSchemaValidationError(ValueError):
+    """Raised when parsed VLM response JSON violates structural schema rules."""
+    def __init__(self, message: str, errors: List[str], raw_output: Any = None):
+        super().__init__(message)
+        self.errors = errors
+        self.raw_output = raw_output
+
+
+class VLMInitializationError(RuntimeError):
+    """Raised when a VLM model adapter fails to initialize or load weights."""
+    pass
+
+
+class VLMInferenceError(RuntimeError):
+    """Raised when a VLM model adapter fails during inference execution."""
+    pass
+
+
 class BaseVLMAdapter(ABC):
     """Abstract adapter interface for VLM model evaluation."""
 
@@ -69,6 +93,11 @@ class BaseVLMAdapter(ABC):
         pass
 
     @property
+    def model_identifier(self) -> str:
+        """Returns unique model identifier string (e.g. HuggingFace ID or tag)."""
+        return self.model_name
+
+    @property
     def model_version(self) -> str:
         """Returns model version identifier string."""
         return "1.0"
@@ -76,6 +105,16 @@ class BaseVLMAdapter(ABC):
     @property
     def model_footprint_mb(self) -> Optional[float]:
         """Returns model size / memory footprint in MB if available."""
+        return None
+
+    @property
+    def device(self) -> str:
+        """Returns execution runtime device ('cpu' or 'cuda'). Default: 'cpu'."""
+        return "cpu"
+
+    @property
+    def initialization_time_seconds(self) -> Optional[float]:
+        """Returns model loading/initialization time in seconds if measured."""
         return None
 
     @abstractmethod
@@ -91,28 +130,6 @@ class BaseVLMAdapter(ABC):
             Dictionary matching the VLM analysis schema.
         """
         pass
-
-
-class MockVLMAdapter(BaseVLMAdapter):
-    """Evaluation adapter wrapping MockVLM engine for testing and demo mode."""
-
-    def __init__(self, vlm_engine: Optional[BaseVLM] = None):
-        self.vlm_engine = vlm_engine if vlm_engine is not None else get_vlm_engine("mock")
-
-    @property
-    def model_name(self) -> str:
-        return "MockVLM Engine (Deterministic Demo)"
-
-    @property
-    def model_version(self) -> str:
-        return "mock-3d"
-
-    @property
-    def model_footprint_mb(self) -> Optional[float]:
-        return 0.0
-
-    def analyze(self, image_path: str, ocr_text: str = "") -> Dict[str, Any]:
-        return self.vlm_engine.analyze_image(image_path, ocr_text=ocr_text)
 
 
 def check_schema_validity(output: Any) -> Tuple[bool, List[str]]:
@@ -185,6 +202,85 @@ def check_schema_validity(output: Any) -> Tuple[bool, List[str]]:
                 errors.append(f"Field 'sensitive_info.{flag}' must be a boolean.")
 
     return (len(errors) == 0), errors
+
+
+def parse_raw_vlm_response(raw_response: Union[str, Dict[str, Any]]) -> Dict[str, Any]:
+    """
+    Parses raw VLM string or dictionary response into structured dictionary without fabricating missing data.
+
+    Args:
+        raw_response: Raw string (JSON/markdown codeblock) or dict from VLM candidate.
+
+    Returns:
+        Validated response dictionary matching VLM schema.
+
+    Raises:
+        VLMResponseParseError: If raw response cannot be parsed as valid JSON.
+        VLMSchemaValidationError: If JSON structure violates VLM schema rules.
+    """
+    if isinstance(raw_response, dict):
+        parsed_dict = raw_response
+    elif isinstance(raw_response, str):
+        text = raw_response.strip()
+        # Clean optional markdown code fences ```json ... ``` without repairing fields
+        if text.startswith("```"):
+            lines = text.splitlines()
+            if lines[0].startswith("```"):
+                lines = lines[1:]
+            if lines and lines[-1].startswith("```"):
+                lines = lines[:-1]
+            text = "\n".join(lines).strip()
+        try:
+            parsed_dict = json.loads(text)
+        except Exception as e:
+            raise VLMResponseParseError(f"Failed to parse raw VLM text output as JSON: {e}") from e
+    else:
+        raise VLMResponseParseError(f"Raw VLM response must be a string or dict, got {type(raw_response).__name__}.")
+
+    is_valid, schema_errors = check_schema_validity(parsed_dict)
+    if not is_valid:
+        raise VLMSchemaValidationError(
+            f"VLM response failed schema validation: {'; '.join(schema_errors)}",
+            errors=schema_errors,
+            raw_output=parsed_dict,
+        )
+
+    return parsed_dict
+
+
+class MockVLMAdapter(BaseVLMAdapter):
+    """Evaluation adapter wrapping MockVLM engine for testing and demo mode."""
+
+    def __init__(self, vlm_engine: Optional[BaseVLM] = None):
+        self.vlm_engine = vlm_engine if vlm_engine is not None else get_vlm_engine("mock")
+
+    @property
+    def model_name(self) -> str:
+        return "MockVLM Engine (Deterministic Demo)"
+
+    @property
+    def model_identifier(self) -> str:
+        return "mock-vlm-engine"
+
+    @property
+    def model_version(self) -> str:
+        return "mock-3d"
+
+    @property
+    def model_footprint_mb(self) -> Optional[float]:
+        return 0.0
+
+    @property
+    def device(self) -> str:
+        return "cpu"
+
+    @property
+    def initialization_time_seconds(self) -> Optional[float]:
+        return 0.0
+
+    def analyze(self, image_path: str, ocr_text: str = "") -> Dict[str, Any]:
+        raw_output = self.vlm_engine.analyze_image(image_path, ocr_text=ocr_text)
+        return parse_raw_vlm_response(raw_output)
 
 
 def compute_item_metrics(expected: Dict[str, Any], predicted: Dict[str, Any]) -> Dict[str, Any]:
@@ -286,7 +382,7 @@ class VLMEvaluator:
 
     def evaluate(self, limit: Optional[int] = None) -> Dict[str, Any]:
         """
-        Runs evaluation loop over benchmark targets.
+        Runs evaluation loop over benchmark targets with error distinction.
         """
         start_eval_time = time.time()
         targets = get_evaluation_targets()
@@ -307,7 +403,7 @@ class VLMEvaluator:
             if not img_path.exists():
                 failed_evals += 1
                 failure_msg = f"Image file not found: {img_path}"
-                failures.append({"screenshot_id": sid, "error": failure_msg})
+                failures.append({"screenshot_id": sid, "error_type": "missing_image", "error": failure_msg})
                 per_target_results.append({
                     "screenshot_id": sid,
                     "filename": filename,
@@ -321,9 +417,9 @@ class VLMEvaluator:
                 continue
 
             try:
-                # Extract supporting OCR text
+                # Extract supporting OCR text using OCR abstraction
                 ocr_text = self.ocr_engine.extract_text(str(img_path))
-            except Exception as e:
+            except Exception:
                 ocr_text = ""
 
             t_start = time.time()
@@ -346,11 +442,59 @@ class VLMEvaluator:
                     "error": None,
                 })
 
+            except VLMSchemaValidationError as e:
+                t_latency = time.time() - t_start
+                failed_evals += 1
+                err_msg = str(e)
+                failures.append({"screenshot_id": sid, "error_type": "schema_validation_failure", "error": err_msg})
+                per_target_results.append({
+                    "screenshot_id": sid,
+                    "filename": filename,
+                    "expected": expected,
+                    "predicted": getattr(e, "raw_output", {}),
+                    "metrics": {},
+                    "latency_seconds": round(t_latency, 4),
+                    "schema_validity": {"is_valid": False, "errors": e.errors},
+                    "error": err_msg,
+                })
+
+            except VLMResponseParseError as e:
+                t_latency = time.time() - t_start
+                failed_evals += 1
+                err_msg = str(e)
+                failures.append({"screenshot_id": sid, "error_type": "invalid_json_parse", "error": err_msg})
+                per_target_results.append({
+                    "screenshot_id": sid,
+                    "filename": filename,
+                    "expected": expected,
+                    "predicted": {},
+                    "metrics": {},
+                    "latency_seconds": round(t_latency, 4),
+                    "schema_validity": {"is_valid": False, "errors": [err_msg]},
+                    "error": err_msg,
+                })
+
+            except FileNotFoundError as e:
+                t_latency = time.time() - t_start
+                failed_evals += 1
+                err_msg = str(e)
+                failures.append({"screenshot_id": sid, "error_type": "missing_image", "error": err_msg})
+                per_target_results.append({
+                    "screenshot_id": sid,
+                    "filename": filename,
+                    "expected": expected,
+                    "predicted": {},
+                    "metrics": {},
+                    "latency_seconds": round(t_latency, 4),
+                    "schema_validity": {"is_valid": False, "errors": [err_msg]},
+                    "error": err_msg,
+                })
+
             except Exception as e:
                 t_latency = time.time() - t_start
                 failed_evals += 1
                 err_msg = str(e)
-                failures.append({"screenshot_id": sid, "error": err_msg})
+                failures.append({"screenshot_id": sid, "error_type": "model_inference_failure", "error": err_msg})
                 per_target_results.append({
                     "screenshot_id": sid,
                     "filename": filename,
@@ -373,10 +517,12 @@ class VLMEvaluator:
         return {
             "metadata": {
                 "model_name": self.adapter.model_name,
+                "model_identifier": self.adapter.model_identifier,
                 "model_version": self.adapter.model_version,
                 "model_footprint_mb": self.adapter.model_footprint_mb,
+                "device": self.adapter.device,
+                "initialization_time_seconds": self.adapter.initialization_time_seconds,
                 "timestamp": datetime.now(timezone.utc).isoformat(),
-                "device": "CPU",
                 "total_screenshots": len(targets),
             },
             "performance": {
@@ -411,17 +557,19 @@ class VLMEvaluator:
         agg = eval_result["aggregate_metrics"]
 
         with open(md_path, "w", encoding="utf-8") as f:
-            f.write("# Phase 3E: VLM Candidate Evaluation Report\n\n")
+            f.write("# Phase 3F.1: VLM Evaluation Report\n\n")
             f.write("## Overview & Model Metadata\n")
             f.write(f"- **Model Name:** {meta['model_name']}\n")
+            f.write(f"- **Model Identifier:** {meta.get('model_identifier', meta['model_name'])}\n")
             f.write(f"- **Model Version:** {meta['model_version']}\n")
             f.write(f"- **Model Footprint (MB):** {meta['model_footprint_mb'] if meta['model_footprint_mb'] is not None else 'N/A'}\n")
+            f.write(f"- **Initialization Time:** {meta['initialization_time_seconds']}s\n" if meta.get('initialization_time_seconds') is not None else "")
             f.write(f"- **Evaluation Timestamp:** `{meta['timestamp']}`\n")
-            f.write(f"- **Runtime Hardware:** `{meta['device']}`\n\n")
+            f.write(f"- **Runtime Hardware Device:** `{meta['device']}`\n\n")
 
             f.write("## Performance & Latency Summary\n")
             f.write(f"- **Total Screenshots Evaluated:** {meta['total_screenshots']}\n")
-            f.write(f"- **Total Time:** {perf['total_evaluation_time_seconds']}s\n")
+            f.write(f"- **Total Evaluation Time:** {perf['total_evaluation_time_seconds']}s\n")
             f.write(f"- **Average Per-Image Latency:** {perf['average_latency_seconds']}s\n")
             f.write(f"- **Successful Evaluations:** {perf['successful_evaluations']}\n")
             f.write(f"- **Failed Evaluations:** {perf['failed_evaluations']}\n\n")
