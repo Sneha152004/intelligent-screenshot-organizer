@@ -1,0 +1,18 @@
+{
+  "experiment": "category_policy_v3",
+  "frozen_status": "FROZEN_AND_EVALUATED",
+  "selected_ablation_id": "V3_Full_Combined_Set",
+  "selected_configuration": {
+    "v2_rules": {
+      "enable_rule1_education_calib": true,
+      "enable_rule2_work_dash_calib": true,
+      "enable_rule4_payment_calib": true,
+      "enable_rule5_shopping_calib": true
+    },
+    "enable_v3_rule1_banking_dashboard": true,
+    "enable_v3_rule2_dev_admin_tools": true,
+    "enable_v3_rule3_payment_submission_form": true,
+    "enable_v3_rule4_retail_collections": true
+  },
+  "validation_top1": 0.936
+}

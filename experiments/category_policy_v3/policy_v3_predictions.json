@@ -1,0 +1,2754 @@
+[
+  {
+    "id": "ext2_001",
+    "file": "ext2_001.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Work & Career",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_002",
+    "file": "ext2_002.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Education",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_003",
+    "file": "ext2_003.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Shopping",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_004",
+    "file": "ext2_004.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Communication",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_005",
+    "file": "ext2_005.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_006",
+    "file": "ext2_006.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Entertainment",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_007",
+    "file": "ext2_007.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "General",
+    "top3_category": "Shopping",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_008",
+    "file": "ext2_008.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Connectivity",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_009",
+    "file": "ext2_009.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "General",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_010",
+    "file": "ext2_010.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Work & Career",
+    "top3_category": "Connectivity",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_011",
+    "file": "ext2_011.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_012",
+    "file": "ext2_012.jpg",
+    "ground_truth": "Work & Career",
+    "v2_prediction": "Work & Career",
+    "v3_prediction": "Work & Career",
+    "correct": true,
+    "top2_category": "Education",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_013",
+    "file": "ext2_013.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Work & Career",
+    "v3_prediction": "Work & Career",
+    "correct": false,
+    "top2_category": "Travel",
+    "top3_category": "Education",
+    "v3_rules_fired": [
+      "V2_Rule2_Work_Dashboard_Calib"
+    ]
+  },
+  {
+    "id": "ext2_014",
+    "file": "ext2_014.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Work & Career",
+    "v3_prediction": "Work & Career",
+    "correct": false,
+    "top2_category": "Travel",
+    "top3_category": "Payment",
+    "v3_rules_fired": [
+      "V2_Rule2_Work_Dashboard_Calib"
+    ]
+  },
+  {
+    "id": "ext2_015",
+    "file": "ext2_015.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Payment",
+    "v3_rules_fired": [
+      "V2_Rule2_Work_Dashboard_Calib"
+    ]
+  },
+  {
+    "id": "ext2_016",
+    "file": "ext2_016.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_017",
+    "file": "ext2_017.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_018",
+    "file": "ext2_018.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Work & Career",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_019",
+    "file": "ext2_019.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_020",
+    "file": "ext2_020.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_021",
+    "file": "ext2_021.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Work & Career",
+    "v3_prediction": "Work & Career",
+    "correct": false,
+    "top2_category": "Shopping",
+    "top3_category": "Education",
+    "v3_rules_fired": [
+      "V2_Rule2_Work_Dashboard_Calib"
+    ]
+  },
+  {
+    "id": "ext2_022",
+    "file": "ext2_022.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Payment",
+    "v3_rules_fired": [
+      "V2_Rule2_Work_Dashboard_Calib"
+    ]
+  },
+  {
+    "id": "ext2_023",
+    "file": "ext2_023.jpg",
+    "ground_truth": "Work & Career",
+    "v2_prediction": "Work & Career",
+    "v3_prediction": "Work & Career",
+    "correct": true,
+    "top2_category": "Shopping",
+    "top3_category": "General",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_024",
+    "file": "ext2_024.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Shopping",
+    "top3_category": "Communication",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_025",
+    "file": "ext2_025.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Coding",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_026",
+    "file": "ext2_026.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_027",
+    "file": "ext2_027.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": false,
+    "top2_category": "Communication",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_028",
+    "file": "ext2_028.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_029",
+    "file": "ext2_029.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Entertainment",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_030",
+    "file": "ext2_030.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_031",
+    "file": "ext2_031.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Work & Career",
+    "top3_category": "Entertainment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_032",
+    "file": "ext2_032.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Entertainment",
+    "v3_prediction": "Entertainment",
+    "correct": false,
+    "top2_category": "Shopping",
+    "top3_category": "Travel",
+    "v3_rules_fired": [
+      "V2_Rule5_Shopping_Calib"
+    ]
+  },
+  {
+    "id": "ext2_033",
+    "file": "ext2_033.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Education",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_034",
+    "file": "ext2_034.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": false,
+    "top2_category": "Payment",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_035",
+    "file": "ext2_035.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "General",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_036",
+    "file": "ext2_036.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "General",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_037",
+    "file": "ext2_037.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": false,
+    "top2_category": "Education",
+    "top3_category": "General",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_038",
+    "file": "ext2_038.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Work & Career",
+    "top3_category": "Education",
+    "v3_rules_fired": [
+      "V2_Rule5_Shopping_Calib"
+    ]
+  },
+  {
+    "id": "ext2_039",
+    "file": "ext2_039.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Education",
+    "top3_category": "Communication",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_040",
+    "file": "ext2_040.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_041",
+    "file": "ext2_041.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Shopping",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_042",
+    "file": "ext2_042.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Shopping",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_043",
+    "file": "ext2_043.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_044",
+    "file": "ext2_044.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Shopping",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_045",
+    "file": "ext2_045.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Shopping",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_046",
+    "file": "ext2_046.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "General",
+    "top3_category": "Education",
+    "v3_rules_fired": [
+      "V2_Rule5_Shopping_Calib"
+    ]
+  },
+  {
+    "id": "ext2_047",
+    "file": "ext2_047.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "General",
+    "v3_rules_fired": [
+      "V2_Rule5_Shopping_Calib"
+    ]
+  },
+  {
+    "id": "ext2_048",
+    "file": "ext2_048.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "General",
+    "top3_category": "Education",
+    "v3_rules_fired": [
+      "V2_Rule5_Shopping_Calib"
+    ]
+  },
+  {
+    "id": "ext2_049",
+    "file": "ext2_049.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Education",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": [
+      "V2_Rule5_Shopping_Calib"
+    ]
+  },
+  {
+    "id": "ext2_050",
+    "file": "ext2_050.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Shopping",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_051",
+    "file": "ext2_051.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Education",
+    "top3_category": "Entertainment",
+    "v3_rules_fired": [
+      "V2_Rule5_Shopping_Calib"
+    ]
+  },
+  {
+    "id": "ext2_052",
+    "file": "ext2_052.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Education",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_053",
+    "file": "ext2_053.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Education",
+    "top3_category": "Entertainment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_054",
+    "file": "ext2_054.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Education",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_055",
+    "file": "ext2_055.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Education",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_056",
+    "file": "ext2_056.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Education",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_057",
+    "file": "ext2_057.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Education",
+    "top3_category": "Travel",
+    "v3_rules_fired": [
+      "V2_Rule5_Shopping_Calib"
+    ]
+  },
+  {
+    "id": "ext2_058",
+    "file": "ext2_058.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Shopping",
+    "top3_category": "Education",
+    "v3_rules_fired": [
+      "V2_Rule5_Shopping_Calib"
+    ]
+  },
+  {
+    "id": "ext2_059",
+    "file": "ext2_059.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Work & Career",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_060",
+    "file": "ext2_060.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "General",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_061",
+    "file": "ext2_061.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_062",
+    "file": "ext2_062.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_063",
+    "file": "ext2_063.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "General",
+    "top3_category": "Communication",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_064",
+    "file": "ext2_064.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": false,
+    "top2_category": "Travel",
+    "top3_category": "Communication",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_065",
+    "file": "ext2_065.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "General",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_066",
+    "file": "ext2_066.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Shopping",
+    "top3_category": "Travel",
+    "v3_rules_fired": [
+      "V2_Rule5_Shopping_Calib"
+    ]
+  },
+  {
+    "id": "ext2_067",
+    "file": "ext2_067.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Communication",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_068",
+    "file": "ext2_068.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_069",
+    "file": "ext2_069.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_070",
+    "file": "ext2_070.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "General",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_071",
+    "file": "ext2_071.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_072",
+    "file": "ext2_072.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_073",
+    "file": "ext2_073.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "General",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_074",
+    "file": "ext2_074.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "General",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_075",
+    "file": "ext2_075.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Education",
+    "v3_rules_fired": [
+      "V2_Rule5_Shopping_Calib"
+    ]
+  },
+  {
+    "id": "ext2_076",
+    "file": "ext2_076.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Payment",
+    "v3_rules_fired": [
+      "V2_Rule5_Shopping_Calib"
+    ]
+  },
+  {
+    "id": "ext2_077",
+    "file": "ext2_077.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Education",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_078",
+    "file": "ext2_078.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "General",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_079",
+    "file": "ext2_079.jpg",
+    "ground_truth": "Connectivity",
+    "v2_prediction": "Connectivity",
+    "v3_prediction": "Connectivity",
+    "correct": true,
+    "top2_category": "General",
+    "top3_category": "Communication",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_080",
+    "file": "ext2_080.jpg",
+    "ground_truth": "Connectivity",
+    "v2_prediction": "Connectivity",
+    "v3_prediction": "Connectivity",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_081",
+    "file": "ext2_081.jpg",
+    "ground_truth": "Connectivity",
+    "v2_prediction": "Connectivity",
+    "v3_prediction": "Connectivity",
+    "correct": true,
+    "top2_category": "Education",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_082",
+    "file": "ext2_082.jpg",
+    "ground_truth": "Connectivity",
+    "v2_prediction": "Connectivity",
+    "v3_prediction": "Connectivity",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_083",
+    "file": "ext2_083.jpg",
+    "ground_truth": "Connectivity",
+    "v2_prediction": "Connectivity",
+    "v3_prediction": "Connectivity",
+    "correct": true,
+    "top2_category": "Education",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_084",
+    "file": "ext2_084.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": false,
+    "top2_category": "Travel",
+    "top3_category": "Communication",
+    "v3_rules_fired": [
+      "V2_Rule1_Education_Calib",
+      "V2_Rule5_Shopping_Calib"
+    ]
+  },
+  {
+    "id": "ext2_085",
+    "file": "ext2_085.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Work & Career",
+    "top3_category": "Coding",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_086",
+    "file": "ext2_086.jpg",
+    "ground_truth": "Work & Career",
+    "v2_prediction": "Entertainment",
+    "v3_prediction": "Entertainment",
+    "correct": false,
+    "top2_category": "Work & Career",
+    "top3_category": "Communication",
+    "v3_rules_fired": [
+      "V2_Rule5_Shopping_Calib",
+      "V3_Rule2_Dev_Admin_Tools"
+    ]
+  },
+  {
+    "id": "ext2_087",
+    "file": "ext2_087.jpg",
+    "ground_truth": "Work & Career",
+    "v2_prediction": "General",
+    "v3_prediction": "Work & Career",
+    "correct": true,
+    "top2_category": "General",
+    "top3_category": "Connectivity",
+    "v3_rules_fired": [
+      "V3_Rule2_Dev_Admin_Tools"
+    ]
+  },
+  {
+    "id": "ext2_088",
+    "file": "ext2_088.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_089",
+    "file": "ext2_089.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Connectivity",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_090",
+    "file": "ext2_090.jpg",
+    "ground_truth": "Payment",
+    "v2_prediction": "Payment",
+    "v3_prediction": "Payment",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_091",
+    "file": "ext2_091.jpg",
+    "ground_truth": "Payment",
+    "v2_prediction": "Payment",
+    "v3_prediction": "Payment",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Shopping",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_092",
+    "file": "ext2_092.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Payment",
+    "v3_prediction": "Payment",
+    "correct": false,
+    "top2_category": "Communication",
+    "top3_category": "Travel",
+    "v3_rules_fired": [
+      "V2_Rule4_Payment_Calib"
+    ]
+  },
+  {
+    "id": "ext2_093",
+    "file": "ext2_093.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_094",
+    "file": "ext2_094.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Payment",
+    "v3_prediction": "Payment",
+    "correct": false,
+    "top2_category": "Education",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_095",
+    "file": "ext2_095.jpg",
+    "ground_truth": "Payment",
+    "v2_prediction": "Payment",
+    "v3_prediction": "Payment",
+    "correct": true,
+    "top2_category": "Education",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_096",
+    "file": "ext2_096.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Payment",
+    "v3_prediction": "Payment",
+    "correct": false,
+    "top2_category": "General",
+    "top3_category": "Travel",
+    "v3_rules_fired": [
+      "V3_Rule1_Banking_Dashboard_Safeguard"
+    ]
+  },
+  {
+    "id": "ext2_097",
+    "file": "ext2_097.jpg",
+    "ground_truth": "Payment",
+    "v2_prediction": "Payment",
+    "v3_prediction": "Payment",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_098",
+    "file": "ext2_098.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Payment",
+    "v3_prediction": "Payment",
+    "correct": false,
+    "top2_category": "Education",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_099",
+    "file": "ext2_099.jpg",
+    "ground_truth": "Payment",
+    "v2_prediction": "Payment",
+    "v3_prediction": "Payment",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Shopping",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_100",
+    "file": "ext2_100.jpg",
+    "ground_truth": "Payment",
+    "v2_prediction": "Payment",
+    "v3_prediction": "Payment",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Shopping",
+    "v3_rules_fired": [
+      "V2_Rule4_Payment_Calib"
+    ]
+  },
+  {
+    "id": "ext2_101",
+    "file": "ext2_101.jpg",
+    "ground_truth": "Payment",
+    "v2_prediction": "Payment",
+    "v3_prediction": "Payment",
+    "correct": true,
+    "top2_category": "Shopping",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_102",
+    "file": "ext2_102.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_103",
+    "file": "ext2_103.jpg",
+    "ground_truth": "Payment",
+    "v2_prediction": "Payment",
+    "v3_prediction": "Payment",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Connectivity",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_104",
+    "file": "ext2_104.jpg",
+    "ground_truth": "Payment",
+    "v2_prediction": "Payment",
+    "v3_prediction": "Payment",
+    "correct": true,
+    "top2_category": "Shopping",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_105",
+    "file": "ext2_105.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Payment",
+    "v3_prediction": "Payment",
+    "correct": false,
+    "top2_category": "General",
+    "top3_category": "Education",
+    "v3_rules_fired": [
+      "V3_Rule1_Banking_Dashboard_Safeguard"
+    ]
+  },
+  {
+    "id": "ext2_106",
+    "file": "ext2_106.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Payment",
+    "v3_prediction": "Payment",
+    "correct": false,
+    "top2_category": "Entertainment",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_107",
+    "file": "ext2_107.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Payment",
+    "v3_prediction": "Payment",
+    "correct": false,
+    "top2_category": "Shopping",
+    "top3_category": "Travel",
+    "v3_rules_fired": [
+      "V3_Rule3_Payment_Submission_Form"
+    ]
+  },
+  {
+    "id": "ext2_108",
+    "file": "ext2_108.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Payment",
+    "v3_prediction": "Payment",
+    "correct": false,
+    "top2_category": "Shopping",
+    "top3_category": "Travel",
+    "v3_rules_fired": [
+      "V3_Rule1_Banking_Dashboard_Safeguard"
+    ]
+  },
+  {
+    "id": "ext2_109",
+    "file": "ext2_109.jpg",
+    "ground_truth": "Payment",
+    "v2_prediction": "Payment",
+    "v3_prediction": "Payment",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Shopping",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_110",
+    "file": "ext2_110.jpg",
+    "ground_truth": "Payment",
+    "v2_prediction": "Communication",
+    "v3_prediction": "Payment",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Travel",
+    "v3_rules_fired": [
+      "V3_Rule3_Payment_Submission_Form"
+    ]
+  },
+  {
+    "id": "ext2_111",
+    "file": "ext2_111.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Work & Career",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_112",
+    "file": "ext2_112.jpg",
+    "ground_truth": "Work & Career",
+    "v2_prediction": "Work & Career",
+    "v3_prediction": "Work & Career",
+    "correct": true,
+    "top2_category": "Education",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_113",
+    "file": "ext2_113.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "General",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_114",
+    "file": "ext2_114.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Work & Career",
+    "v3_prediction": "Work & Career",
+    "correct": false,
+    "top2_category": "Payment",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_115",
+    "file": "ext2_115.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Coding",
+    "top3_category": "Connectivity",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_116",
+    "file": "ext2_116.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Coding",
+    "top3_category": "Connectivity",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_117",
+    "file": "ext2_117.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Coding",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_118",
+    "file": "ext2_118.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Coding",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_119",
+    "file": "ext2_119.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_120",
+    "file": "ext2_120.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_121",
+    "file": "ext2_121.jpg",
+    "ground_truth": "Communication",
+    "v2_prediction": "Communication",
+    "v3_prediction": "Communication",
+    "correct": true,
+    "top2_category": "Entertainment",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_122",
+    "file": "ext2_122.jpg",
+    "ground_truth": "Payment",
+    "v2_prediction": "Communication",
+    "v3_prediction": "Communication",
+    "correct": false,
+    "top2_category": "Payment",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_123",
+    "file": "ext2_123.jpg",
+    "ground_truth": "Communication",
+    "v2_prediction": "Communication",
+    "v3_prediction": "Communication",
+    "correct": true,
+    "top2_category": "Education",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_124",
+    "file": "ext2_124.jpg",
+    "ground_truth": "Communication",
+    "v2_prediction": "Communication",
+    "v3_prediction": "Communication",
+    "correct": true,
+    "top2_category": "Work & Career",
+    "top3_category": "Coding",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_125",
+    "file": "ext2_125.jpg",
+    "ground_truth": "Communication",
+    "v2_prediction": "Communication",
+    "v3_prediction": "Communication",
+    "correct": true,
+    "top2_category": "Education",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_126",
+    "file": "ext2_126.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Work & Career",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_127",
+    "file": "ext2_127.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Work & Career",
+    "top3_category": "Communication",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_128",
+    "file": "ext2_128.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Work & Career",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_129",
+    "file": "ext2_129.jpg",
+    "ground_truth": "Work & Career",
+    "v2_prediction": "Work & Career",
+    "v3_prediction": "Work & Career",
+    "correct": true,
+    "top2_category": "Education",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_130",
+    "file": "ext2_130.jpg",
+    "ground_truth": "Communication",
+    "v2_prediction": "Work & Career",
+    "v3_prediction": "Work & Career",
+    "correct": false,
+    "top2_category": "Communication",
+    "top3_category": "Education",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_131",
+    "file": "ext2_131.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Work & Career",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_132",
+    "file": "ext2_132.jpg",
+    "ground_truth": "Work & Career",
+    "v2_prediction": "Work & Career",
+    "v3_prediction": "Work & Career",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Education",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_133",
+    "file": "ext2_133.jpg",
+    "ground_truth": "Communication",
+    "v2_prediction": "Communication",
+    "v3_prediction": "Communication",
+    "correct": true,
+    "top2_category": "Work & Career",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_134",
+    "file": "ext2_134.jpg",
+    "ground_truth": "Work & Career",
+    "v2_prediction": "Work & Career",
+    "v3_prediction": "Work & Career",
+    "correct": true,
+    "top2_category": "Coding",
+    "top3_category": "Education",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_135",
+    "file": "ext2_135.jpg",
+    "ground_truth": "Work & Career",
+    "v2_prediction": "Work & Career",
+    "v3_prediction": "Work & Career",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_136",
+    "file": "ext2_136.jpg",
+    "ground_truth": "Work & Career",
+    "v2_prediction": "Work & Career",
+    "v3_prediction": "Work & Career",
+    "correct": true,
+    "top2_category": "Coding",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_137",
+    "file": "ext2_137.jpg",
+    "ground_truth": "Communication",
+    "v2_prediction": "Communication",
+    "v3_prediction": "Communication",
+    "correct": true,
+    "top2_category": "Work & Career",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_138",
+    "file": "ext2_138.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Work & Career",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_139",
+    "file": "ext2_139.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Entertainment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_140",
+    "file": "ext2_140.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Entertainment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_141",
+    "file": "ext2_141.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_142",
+    "file": "ext2_142.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Work & Career",
+    "v3_prediction": "Work & Career",
+    "correct": false,
+    "top2_category": "General",
+    "top3_category": "Entertainment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_143",
+    "file": "ext2_143.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "General",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_144",
+    "file": "ext2_144.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Entertainment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_145",
+    "file": "ext2_145.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_146",
+    "file": "ext2_146.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Communication",
+    "v3_prediction": "Communication",
+    "correct": false,
+    "top2_category": "General",
+    "top3_category": "Entertainment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_147",
+    "file": "ext2_147.jpg",
+    "ground_truth": "Entertainment",
+    "v2_prediction": "Entertainment",
+    "v3_prediction": "Entertainment",
+    "correct": true,
+    "top2_category": "General",
+    "top3_category": "Communication",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_148",
+    "file": "ext2_148.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Entertainment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_149",
+    "file": "ext2_149.jpg",
+    "ground_truth": "Entertainment",
+    "v2_prediction": "Entertainment",
+    "v3_prediction": "Entertainment",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_150",
+    "file": "ext2_150.jpg",
+    "ground_truth": "Communication",
+    "v2_prediction": "Communication",
+    "v3_prediction": "Communication",
+    "correct": true,
+    "top2_category": "Work & Career",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_151",
+    "file": "ext2_151.jpg",
+    "ground_truth": "Travel",
+    "v2_prediction": "Travel",
+    "v3_prediction": "Travel",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Education",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_152",
+    "file": "ext2_152.jpg",
+    "ground_truth": "Communication",
+    "v2_prediction": "Communication",
+    "v3_prediction": "Communication",
+    "correct": true,
+    "top2_category": "Entertainment",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_153",
+    "file": "ext2_153.jpg",
+    "ground_truth": "Payment",
+    "v2_prediction": "Payment",
+    "v3_prediction": "Payment",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_154",
+    "file": "ext2_154.jpg",
+    "ground_truth": "Travel",
+    "v2_prediction": "Travel",
+    "v3_prediction": "Travel",
+    "correct": true,
+    "top2_category": "Education",
+    "top3_category": "Shopping",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_155",
+    "file": "ext2_155.jpg",
+    "ground_truth": "Travel",
+    "v2_prediction": "Travel",
+    "v3_prediction": "Travel",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Shopping",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_156",
+    "file": "ext2_156.jpg",
+    "ground_truth": "Communication",
+    "v2_prediction": "Communication",
+    "v3_prediction": "Communication",
+    "correct": true,
+    "top2_category": "Work & Career",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_157",
+    "file": "ext2_157.jpg",
+    "ground_truth": "Travel",
+    "v2_prediction": "Travel",
+    "v3_prediction": "Travel",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Education",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_158",
+    "file": "ext2_158.jpg",
+    "ground_truth": "Communication",
+    "v2_prediction": "Work & Career",
+    "v3_prediction": "Work & Career",
+    "correct": false,
+    "top2_category": "Communication",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_159",
+    "file": "ext2_159.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Connectivity",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_160",
+    "file": "ext2_160.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Entertainment",
+    "v3_prediction": "Entertainment",
+    "correct": false,
+    "top2_category": "Shopping",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_161",
+    "file": "ext2_161.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_162",
+    "file": "ext2_162.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Travel",
+    "v3_prediction": "Travel",
+    "correct": false,
+    "top2_category": "Payment",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_163",
+    "file": "ext2_163.jpg",
+    "ground_truth": "Work & Career",
+    "v2_prediction": "Work & Career",
+    "v3_prediction": "Work & Career",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Communication",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_164",
+    "file": "ext2_164.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Entertainment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_165",
+    "file": "ext2_165.jpg",
+    "ground_truth": "Communication",
+    "v2_prediction": "Communication",
+    "v3_prediction": "Communication",
+    "correct": true,
+    "top2_category": "Education",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": [
+      "V2_Rule2_Work_Dashboard_Calib"
+    ]
+  },
+  {
+    "id": "ext2_166",
+    "file": "ext2_166.jpg",
+    "ground_truth": "Communication",
+    "v2_prediction": "Communication",
+    "v3_prediction": "Communication",
+    "correct": true,
+    "top2_category": "Connectivity",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_167",
+    "file": "ext2_167.jpg",
+    "ground_truth": "Communication",
+    "v2_prediction": "Communication",
+    "v3_prediction": "Communication",
+    "correct": true,
+    "top2_category": "Work & Career",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_168",
+    "file": "ext2_168.jpg",
+    "ground_truth": "Travel",
+    "v2_prediction": "Travel",
+    "v3_prediction": "Travel",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_169",
+    "file": "ext2_169.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_170",
+    "file": "ext2_170.jpg",
+    "ground_truth": "Communication",
+    "v2_prediction": "Communication",
+    "v3_prediction": "Communication",
+    "correct": true,
+    "top2_category": "Shopping",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_171",
+    "file": "ext2_171.jpg",
+    "ground_truth": "Communication",
+    "v2_prediction": "Communication",
+    "v3_prediction": "Communication",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Connectivity",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_172",
+    "file": "ext2_172.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_173",
+    "file": "ext2_173.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Education",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_174",
+    "file": "ext2_174.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Payment",
+    "v3_rules_fired": [
+      "V2_Rule5_Shopping_Calib"
+    ]
+  },
+  {
+    "id": "ext2_175",
+    "file": "ext2_175.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Shopping",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_176",
+    "file": "ext2_176.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_177",
+    "file": "ext2_177.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Entertainment",
+    "top3_category": "Communication",
+    "v3_rules_fired": [
+      "V2_Rule5_Shopping_Calib"
+    ]
+  },
+  {
+    "id": "ext2_178",
+    "file": "ext2_178.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_179",
+    "file": "ext2_179.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_180",
+    "file": "ext2_180.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Entertainment",
+    "v3_prediction": "Entertainment",
+    "correct": false,
+    "top2_category": "Travel",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": [
+      "V2_Rule5_Shopping_Calib"
+    ]
+  },
+  {
+    "id": "ext2_181",
+    "file": "ext2_181.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_182",
+    "file": "ext2_182.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Shopping",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_183",
+    "file": "ext2_183.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_184",
+    "file": "ext2_184.jpg",
+    "ground_truth": "Entertainment",
+    "v2_prediction": "Entertainment",
+    "v3_prediction": "Entertainment",
+    "correct": true,
+    "top2_category": "Shopping",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_185",
+    "file": "ext2_185.jpg",
+    "ground_truth": "Entertainment",
+    "v2_prediction": "Entertainment",
+    "v3_prediction": "Entertainment",
+    "correct": true,
+    "top2_category": "Shopping",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_186",
+    "file": "ext2_186.jpg",
+    "ground_truth": "Entertainment",
+    "v2_prediction": "Entertainment",
+    "v3_prediction": "Entertainment",
+    "correct": true,
+    "top2_category": "Shopping",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_187",
+    "file": "ext2_187.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Entertainment",
+    "top3_category": "Communication",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_188",
+    "file": "ext2_188.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Shopping",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_189",
+    "file": "ext2_189.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Work & Career",
+    "top3_category": "Entertainment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_190",
+    "file": "ext2_190.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Coding",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_191",
+    "file": "ext2_191.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Coding",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_192",
+    "file": "ext2_192.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Entertainment",
+    "top3_category": "Communication",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_193",
+    "file": "ext2_193.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Entertainment",
+    "v3_prediction": "Entertainment",
+    "correct": false,
+    "top2_category": "Education",
+    "top3_category": "Communication",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_194",
+    "file": "ext2_194.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Connectivity",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_195",
+    "file": "ext2_195.jpg",
+    "ground_truth": "Communication",
+    "v2_prediction": "Communication",
+    "v3_prediction": "Communication",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_196",
+    "file": "ext2_196.jpg",
+    "ground_truth": "Communication",
+    "v2_prediction": "Communication",
+    "v3_prediction": "Communication",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Entertainment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_197",
+    "file": "ext2_197.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_198",
+    "file": "ext2_198.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Entertainment",
+    "top3_category": "Communication",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_199",
+    "file": "ext2_199.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Entertainment",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_200",
+    "file": "ext2_200.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Entertainment",
+    "v3_prediction": "Entertainment",
+    "correct": false,
+    "top2_category": "Shopping",
+    "top3_category": "Communication",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_201",
+    "file": "ext2_201.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Entertainment",
+    "v3_prediction": "Entertainment",
+    "correct": false,
+    "top2_category": "Work & Career",
+    "top3_category": "Communication",
+    "v3_rules_fired": [
+      "V2_Rule5_Shopping_Calib"
+    ]
+  },
+  {
+    "id": "ext2_202",
+    "file": "ext2_202.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": false,
+    "top2_category": "Travel",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_203",
+    "file": "ext2_203.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Shopping",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_204",
+    "file": "ext2_204.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Shopping",
+    "v3_rules_fired": [
+      "V2_Rule5_Shopping_Calib"
+    ]
+  },
+  {
+    "id": "ext2_205",
+    "file": "ext2_205.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Work & Career",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_206",
+    "file": "ext2_206.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": false,
+    "top2_category": "Coding",
+    "top3_category": "Education",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_207",
+    "file": "ext2_207.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Work & Career",
+    "v3_prediction": "Work & Career",
+    "correct": false,
+    "top2_category": "Communication",
+    "top3_category": "Entertainment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_208",
+    "file": "ext2_208.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_209",
+    "file": "ext2_209.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Connectivity",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_210",
+    "file": "ext2_210.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": false,
+    "top2_category": "General",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_211",
+    "file": "ext2_211.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Coding",
+    "v3_prediction": "Coding",
+    "correct": false,
+    "top2_category": "Shopping",
+    "top3_category": "Education",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_212",
+    "file": "ext2_212.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Entertainment",
+    "v3_prediction": "Entertainment",
+    "correct": false,
+    "top2_category": "Communication",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_213",
+    "file": "ext2_213.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Communication",
+    "v3_prediction": "Communication",
+    "correct": false,
+    "top2_category": "Payment",
+    "top3_category": "Shopping",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_214",
+    "file": "ext2_214.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_215",
+    "file": "ext2_215.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Connectivity",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_216",
+    "file": "ext2_216.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Shopping",
+    "top3_category": "Connectivity",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_217",
+    "file": "ext2_217.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Travel",
+    "v3_prediction": "Travel",
+    "correct": false,
+    "top2_category": "Payment",
+    "top3_category": "Shopping",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_218",
+    "file": "ext2_218.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_219",
+    "file": "ext2_219.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_220",
+    "file": "ext2_220.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_221",
+    "file": "ext2_221.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Shopping",
+    "v3_prediction": "Shopping",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_222",
+    "file": "ext2_222.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_223",
+    "file": "ext2_223.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Shopping",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_224",
+    "file": "ext2_224.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Entertainment",
+    "v3_prediction": "Entertainment",
+    "correct": false,
+    "top2_category": "Communication",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_225",
+    "file": "ext2_225.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Entertainment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_226",
+    "file": "ext2_226.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Entertainment",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_227",
+    "file": "ext2_227.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Entertainment",
+    "v3_prediction": "Entertainment",
+    "correct": false,
+    "top2_category": "Communication",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_228",
+    "file": "ext2_228.jpg",
+    "ground_truth": "Communication",
+    "v2_prediction": "Communication",
+    "v3_prediction": "Communication",
+    "correct": true,
+    "top2_category": "Entertainment",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_229",
+    "file": "ext2_229.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_230",
+    "file": "ext2_230.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_231",
+    "file": "ext2_231.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Work & Career",
+    "v3_prediction": "Work & Career",
+    "correct": false,
+    "top2_category": "Education",
+    "top3_category": "Coding",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_232",
+    "file": "ext2_232.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Work & Career",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_233",
+    "file": "ext2_233.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Work & Career",
+    "v3_prediction": "Work & Career",
+    "correct": false,
+    "top2_category": "Communication",
+    "top3_category": "Education",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_234",
+    "file": "ext2_234.jpg",
+    "ground_truth": "Education",
+    "v2_prediction": "Education",
+    "v3_prediction": "Education",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_235",
+    "file": "ext2_235.jpg",
+    "ground_truth": "Communication",
+    "v2_prediction": "Communication",
+    "v3_prediction": "Communication",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Connectivity",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_236",
+    "file": "ext2_236.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_237",
+    "file": "ext2_237.jpg",
+    "ground_truth": "Shopping",
+    "v2_prediction": "Communication",
+    "v3_prediction": "Communication",
+    "correct": false,
+    "top2_category": "Shopping",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_238",
+    "file": "ext2_238.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Communication",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_239",
+    "file": "ext2_239.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_240",
+    "file": "ext2_240.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "Payment",
+    "v3_prediction": "Payment",
+    "correct": false,
+    "top2_category": "Communication",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_241",
+    "file": "ext2_241.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_242",
+    "file": "ext2_242.jpg",
+    "ground_truth": "Communication",
+    "v2_prediction": "Communication",
+    "v3_prediction": "Communication",
+    "correct": true,
+    "top2_category": "Payment",
+    "top3_category": "Travel",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_243",
+    "file": "ext2_243.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Travel",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  },
+  {
+    "id": "ext2_244",
+    "file": "ext2_244.jpg",
+    "ground_truth": "General",
+    "v2_prediction": "General",
+    "v3_prediction": "General",
+    "correct": true,
+    "top2_category": "Communication",
+    "top3_category": "Payment",
+    "v3_rules_fired": []
+  }
+]

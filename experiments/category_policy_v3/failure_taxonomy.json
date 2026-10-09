@@ -1,0 +1,802 @@
+{
+  "class_counts": {
+    "2. Weak keyword causing a false-positive category promotion": 23,
+    "5. Shopping versus Payment confusion": 1,
+    "11. Genuine ambiguity or insufficient evidence": 11,
+    "4. General versus domain-specific ambiguity (Bank account balance vs P2P receipt)": 9,
+    "7. Communication versus Work & Career confusion": 2
+  },
+  "records": [
+    {
+      "screenshot_id": "ext2_013",
+      "filename": "ext2_013.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Work & Career",
+      "candidate_pool": [
+        "Work & Career",
+        "Travel",
+        "Education",
+        "Coding",
+        "Payment",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "Deuon warka > Proloctt stotur Proline Projects Tasks Cmplo chuln Cel Ei Hony Kothicotons KT Inha Aupdoto FDI Uuilc (tudo 0 Jan 70z7 Ar7tl piun Projects Timeline Foretd7ro HoteetEotut cmyoto chot Crypla choin  D Mcu Wenel ciplo choin I Icoan cuuoelluzic Fnonclo Finnncin Job Nincne Jobhuder otantrooro",
+      "failure_class": "2. Weak keyword causing a false-positive category promotion"
+    },
+    {
+      "screenshot_id": "ext2_014",
+      "filename": "ext2_014.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Work & Career",
+      "candidate_pool": [
+        "Work & Career",
+        "Travel",
+        "Payment",
+        "Education",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "Projccts K Halal TuCplalMOeo Projects Scarch TIvELINE VIEW YN4TH Yiriv CanTT FILTERS Customizalion; 88   Templates ErIn Hannon Bathroom Remnodel OFNFRAL NDREIND Wnanu DVENTHLYE WoR4ER STERT Dachhcetd Fld 77 Time Tracking Ftei T0_ Fu 75 Bochroom Sho 22 Tac Mt Nu 04 Fua C8 Hetnmgmtac Imnnn Lefcam uoar inuetltanim NanoJ Leidd Fipeline Ta aathraamn Tllu Muatur Balhiocne Flenial Bathrocm Showornst Mu Hihtoom CnceIneal Estimatcs M nraniali PM 13 nalhingm Dor Inalkn   Involces Mike Ehrtermtua Tiel Service Projects GEHEAA HCRE INFO Schedule Hte EAE Pnatos Files CVCNTNA MC Worrcp GTART Kuen [1 puc Ca Cetomcn 23 Kuch D1 Kuch Da KmenminiiF A HarIl Eahnnen Cacnnn aukcam Doar hatalatan ( Reports Cn Jathroom Ic Vastcr Batrrcom Iic Floxr Ingtil Kach IC Ualch '9- KRAlruch FIISonhi rafcamn #aerntal Wartee W Dan Inainal mmocInznllaln n Bif Tannen Tile Service",
+      "failure_class": "2. Weak keyword causing a false-positive category promotion"
+    },
+    {
+      "screenshot_id": "ext2_021",
+      "filename": "ext2_021.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Work & Career",
+      "candidate_pool": [
+        "Work & Career",
+        "Education",
+        "Payment",
+        "Travel",
+        "Shopping",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "Business Partner CRM Mex Dulu Update Se ected Futrer Short 120 Resulis Add New Clieni Name Company Listing Price Aodress Status Riya Kapoor Hypcrfnk 512.845,600 Q1 MG Rond; Bongoluru: India Acceolto Karav Sharma Kriritim S10,.054,350 502 Bangr Main Ral Pune: India Ncaolanon Olivia Bonnoti NconFlux 59,842.120 1201. Embcr St Ausiin TX USA ece Hal-At Eihan Colling Nexalytic; 86.784,J00 452 Murin , D. Sun Jose: CA USA Ranavc lt Rohan Iyer NovaStack 812 345,9C0 885. Carter Rd; Mumbal: Indi Acccolto Snoha Pate| ObiOng 68,970,500 Lakohill Rd. Ahmedabad Indiu Dantel Rivera QuaniEcge 511,222,.400 17 Rrge Bvd Oeman CO: USA 'Under Rurrut Nalt Synthora 67,315,750 210. Autrs Avu; Kochi; India Pio Eucind Acilyu Ruo Alpha  mbus 514,6oa,000 660 Hurbour RJ; Churinu , India M Ncnoliahon Ksha Vuritia BiBrioge 55,045,380 79 Seclor 21, Gurguon, India Duvid Jonnion Bluomoltor 613,4180,900 312 , Pino Vium: Scaltlc WA, US4 Under Ranax Tura Mction BlucMairr 610.350,700 4T8. Grayslane Are Irivandium; India Acccpled Jack Thompson Cloud Vortox 86,112,200 92, Solar St; Los Angelas; C4; USA Prospoctia Riya Nombiar GrcLabs 516,480.250 804 Zan Park; Eengu uru: India Nccotiaton Mn",
+      "failure_class": "2. Weak keyword causing a false-positive category promotion"
+    },
+    {
+      "screenshot_id": "ext2_027",
+      "filename": "ext2_027.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Education",
+      "candidate_pool": [
+        "Education",
+        "Work & Career",
+        "Coding",
+        "Communication",
+        "Travel",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "Beyond Technical Knowledge Communication Ethics & Sustainability Engineers spend ~40% of their Every design decision carries time writing reports, presenting; environmental and social and collaborating not just consequences engineers are coding or designing responsible for both Adaptability Half of today's engineering tools didnt exist 10 years ago the ability to learn continuously is non-negotiable",
+      "failure_class": "2. Weak keyword causing a false-positive category promotion"
+    },
+    {
+      "screenshot_id": "ext2_032",
+      "filename": "ext2_032.jpg",
+      "ground_truth": "Shopping",
+      "v2_prediction": "Entertainment",
+      "candidate_pool": [
+        "Entertainment",
+        "Shopping",
+        "Travel",
+        "Education",
+        "General",
+        "Payment"
+      ],
+      "in_pool": true,
+      "ocr_text": "URBAN Nwm cloTAIRO Soes Accessories collections SALE BLoc 8 New season; New Style: Elevate Your Everyday Timeles: detigns Prerium Iabrics, Mado tor thu modorn man Shop New ARRIval$ ExPlore collections nafhmu QunlItY Tcur{ Pathiht Fe(cEinpikc MiebtIuB HS Fdn Dot Luatrunhciqut 60 0n Gu! re{@0 Arerrelun Fujo Uen Shop BY cateGORY Shiris ~Shirts PoLos PANts outcrwear accessories BEST SELLERS Corio Fraatan #ET aandEn Feent (nol Teafindnt Pted Indiee Ltt GaldAaate Nator iaon Ia00 AGeco Adc Oo Ju0 00 Fln 0o nu + 4Eu#u ## E#",
+      "failure_class": "5. Shopping versus Payment confusion"
+    },
+    {
+      "screenshot_id": "ext2_034",
+      "filename": "ext2_034.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Shopping",
+      "candidate_pool": [
+        "Shopping",
+        "Payment",
+        "Travel",
+        "Education",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "BhOL> Lousoutin Christian Louhoulin TMal S67; 889 Vaa AVALANILATT Hcicut; Acd Haugmu connyat 5675 shor Noi DElmg; Pull lLowenbiocr 04RhEY: 5730 shor Now PMIE Fuim 1o*Grr Stoci FIfThKactat 5889 Kninetris Coa No Deal foryou? Get notindolat ndablliy MAT@A0LunJ GFT UPDATE MoMlMTS 6morte Tus search loctnut IDX [ JHARE YQUu VOVEMT Christian Loubcin Latent lozcher ALC0r 43\"coturiu [letto nel Fointad Icu ana eloneatt , Ics Woul toostitol Jrounjrcllji Paddtj kcJtts TniaFerbt Mah Ciua oace Aao oleedailcta 3 aa Minntz~JmnennutLs constiching_rorn coil  Jncle \"n+ [lAcuetclltnuat Mlad4M ILly UEARURENEHTE We thought VOu Ia} also Ctarl like:",
+      "failure_class": "2. Weak keyword causing a false-positive category promotion"
+    },
+    {
+      "screenshot_id": "ext2_037",
+      "filename": "ext2_037.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Shopping",
+      "candidate_pool": [
+        "General",
+        "Shopping",
+        "Travel",
+        "Education",
+        "Entertainment"
+      ],
+      "in_pool": true,
+      "ocr_text": "Clothing Gadgets Home Living Beauty Accessories Footwear More Explore Explare Explore Explore Explore Exolore Explore Free Shipping Easy Returns Secure Payments 24/7 Support On orders over S49 Hassle-iree returns 100% protected We re here for you Recommended For You View All Anidex HiOoM Smart Watch Pro Linen Relaxed Shirt Minimalist Backpack Amber Bloom Wireless Earbud: S79.99 5429.89 534.99 (090) 549.99 Eau de Parfum 539.99 4.8 (.2K] (650) 529.99 4,6 (777) (IIK) Deals You'Il Love Home Makeover Bundle & Save This Weekl Essentials More Together! Up to 50% Off Refresh your space Smalt bulnales Tor in style: every Iifestyle: Shop Deals Shop Now Explore Bundles Trending This Week View All 205 Classic Sneakers Nonstick Cookware Leather Tote Bag Vitamin \u20ac Serum Noise Cancelling Aroma Diffuser Headphones 555.99 869.29 542.99 559.99 524.99 S26.99 589.99 KIAFO ",
+      "failure_class": "2. Weak keyword causing a false-positive category promotion"
+    },
+    {
+      "screenshot_id": "ext2_064",
+      "filename": "ext2_064.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Shopping",
+      "candidate_pool": [
+        "Shopping",
+        "Travel",
+        "Communication",
+        "Education",
+        "General",
+        "Work & Career"
+      ],
+      "in_pool": true,
+      "ocr_text": "17:00 5} @ M mung bean ****r (7) Add To Bag Select Shade i Beauty of Joseon Beauty of Joseon Green Plum Refreshing Green Plum Refreshing Toner Cleanser AHA+BHA 10Oml 150ml 71,150 71,570 ###*# (230) ***r (178) Add To Bag Add To Bag AD BESTSELLER BESTSELLER Glass skin in Shrs 1 Quench Snall Mucin 8 Collagen Boost Mask 1 MRn Relneshlz? Fure Mask nul = ML Sort by Filter Relevance Apply Filters",
+      "failure_class": "2. Weak keyword causing a false-positive category promotion"
+    },
+    {
+      "screenshot_id": "ext2_084",
+      "filename": "ext2_084.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Education",
+      "candidate_pool": [
+        "Education",
+        "Travel",
+        "Communication",
+        "Payment",
+        "Coding",
+        "Entertainment",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "Program Visualle Weka Explorer Preprocess Classily Cluster Assaciate Select attributes Visualze Open fille Open URL Open DB; Generate: Undo Edig: tue choose None Apply Curent relation Selected attribute Relation: None Attributes: None Name: None Weight: None Type: None Instances: None Sum af weights: None Missing: None Dislinc None Unique: Nane Attributes None Unven Pattemn Load Instances File 'ClUsers| KIIIUOUT Documents data tor researci Sheetzcsv' not recognised a5 an dala files' file; Reason: wrong number af values- Read expected 8, read Token[EOL] line 15 Problem encountered on Iine: 15 Visualize All Ok Use Converter Walato Ennronment I0 Vetvon JA6 i91989 n Filter Stom \"CSV",
+      "failure_class": "2. Weak keyword causing a false-positive category promotion"
+    },
+    {
+      "screenshot_id": "ext2_086",
+      "filename": "ext2_086.jpg",
+      "ground_truth": "Work & Career",
+      "v2_prediction": "Entertainment",
+      "candidate_pool": [
+        "Entertainment",
+        "Communication",
+        "Connectivity",
+        "Payment",
+        "Work & Career",
+        "Education",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "XAMPP Control Panel v3.3.0 [Compiled: Apr 6th 2021 XAMPP Control Panel v3.3.0 Conlig c_india_X_( Modules Metstat Service Module PID(s) Port(s) Actions 6060 Shell Apache 45192 80, 443 Stop Admin Config Logs MySQL Stant Admin Config Logs Explorer File Zilla Start Admin Config Logs Services Mercury Start Admin Config Logs Help Tomcat Start Admin Config Logs Qutt 22.04.23 [mysal] Port 3306 in use bys Unable t0 open process 22.04.23 [mysal] MySQL WILL NOT Istart without the configured ports freel 22.04 23 [mysql] You need t0 unnstalldisable reconfigure the blocking application 22.04.23 [mysal] 0r reconfigure MySQL and te Control Panel t0 listen on different 22.04 23 [mysql] Attempting to start MySQL service 22 04.24 [mysql] Status change detected  running 22,04 30 (mysql] Status change detected  stopped 22.04.30 (mysql] Error: MySQL shutdown unexpectedly 22 04 30 (mysqlj This may be due t0 blocked ponil missing dependencies 22.04.30 mvsall improper privileqes ciash 0i shutdown bv another method port",
+      "failure_class": "11. Genuine ambiguity or insufficient evidence"
+    },
+    {
+      "screenshot_id": "ext2_087",
+      "filename": "ext2_087.jpg",
+      "ground_truth": "Work & Career",
+      "v2_prediction": "General",
+      "candidate_pool": [
+        "General",
+        "Connectivity",
+        "Work & Career",
+        "Education",
+        "Travel",
+        "Shopping"
+      ],
+      "in_pool": true,
+      "ocr_text": "Laedd9 2 G 0  localhost/phpmyadmin/ New Chrome Welcome to phpMyAdmin Error MySQL said: Cannot connect: invalid settings. mysqli:real_conneci(): (HYO00/1045): Access denied for user 'pma'@localhost' (using password: Connection tor controluser as defined in your configuration failed. mysali_real_conned(: (HYO00/1045) Access denied for user 'rool @localhost' (using password: NO) phplly Admin tried Io connect t0 the MySOL server; and the server rejected the connection. You should check the host; username and password in your conliguralion and make sure Inai correspond t0 the information given by (he administrator of the MySQL server: Rrllyt0 conncct ENG NO) tne}",
+      "failure_class": "11. Genuine ambiguity or insufficient evidence"
+    },
+    {
+      "screenshot_id": "ext2_092",
+      "filename": "ext2_092.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Payment",
+      "candidate_pool": [
+        "Payment",
+        "Communication",
+        "Travel",
+        "Shopping",
+        "Education",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "You sent S2,685.00 USD to Dirk Magdahl Transaction Details Transaction ID Transaction 8YJ103289E3123810 date August 11 , 2024 Money sent S2,685.00 USD Fee S78.17 USD Paid with: AMEX x-8004 S2,763.17 USD",
+      "failure_class": "4. General versus domain-specific ambiguity (Bank account balance vs P2P receipt)"
+    },
+    {
+      "screenshot_id": "ext2_094",
+      "filename": "ext2_094.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Payment",
+      "candidate_pool": [
+        "Payment",
+        "Education",
+        "Travel",
+        "Work & Career",
+        "Communication",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "Yiuuio Available Set up auto transfers Lia 7 Insights Money in S100,000 Total ecewed Request money Money out S20,000 Total ten6 ef spens Sand monet",
+      "failure_class": "4. General versus domain-specific ambiguity (Bank account balance vs P2P receipt)"
+    },
+    {
+      "screenshot_id": "ext2_096",
+      "filename": "ext2_096.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Payment",
+      "candidate_pool": [
+        "Payment",
+        "Travel",
+        "Shopping",
+        "Work & Career",
+        "Education",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "Good morning Asanda Asanda Net Worth R127,087.15 Total Assets Total Debts R127,087.15 R127,087.15 54 Add Budget Goal Scan Transaction Budget Overview Manage Track your spending Active Budgets Total Budget Total Spent R127,087.15 RO.OO Overall Progress R127,087.15 left 096 On track",
+      "failure_class": "4. General versus domain-specific ambiguity (Bank account balance vs P2P receipt)"
+    },
+    {
+      "screenshot_id": "ext2_098",
+      "filename": "ext2_098.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Payment",
+      "candidate_pool": [
+        "Payment",
+        "Education",
+        "Travel",
+        "Work & Career",
+        "Shopping",
+        "Communication",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "Transfer complete $6,000 From Checking Savings Frequency One-timo Availability Instant",
+      "failure_class": "4. General versus domain-specific ambiguity (Bank account balance vs P2P receipt)"
+    },
+    {
+      "screenshot_id": "ext2_105",
+      "filename": "ext2_105.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Payment",
+      "candidate_pool": [
+        "Payment",
+        "Education",
+        "Travel",
+        "Work & Career",
+        "Coding",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "Invest Account Balances Operations Statement Intormatic Total available balance S760,529.13 Deposit Withdraw Main Account Opened NO RGL001887 30 09.2024 S1,281,539.67 Portfolio Valuation Curreni investment 5521,010.54 Available balance 5700,529.13 Venture Capital Opened VC Ne V984721124 12,07.2022",
+      "failure_class": "4. General versus domain-specific ambiguity (Bank account balance vs P2P receipt)"
+    },
+    {
+      "screenshot_id": "ext2_106",
+      "filename": "ext2_106.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Payment",
+      "candidate_pool": [
+        "Payment",
+        "Entertainment",
+        "Travel",
+        "Shopping",
+        "Education",
+        "Connectivity",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "Bankof America Ualei Ma8 ueled by Yeu Lent Amount: $10,000.00 Reference Dollar Transaction Tipe: Immediate payment Scheduled May 15, 2026 Pay From; Bank 0f AmerIcan Pay To MR Elvira Esparza Bank Naine;   Fith Third Bank Account Nurber; (8000596984) Routing Number: 041200050 Account Type checking account The sum of $300 has to be made to continue this withdrawal Request Charges: $300",
+      "failure_class": "4. General versus domain-specific ambiguity (Bank account balance vs P2P receipt)"
+    },
+    {
+      "screenshot_id": "ext2_107",
+      "filename": "ext2_107.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Payment",
+      "candidate_pool": [
+        "Payment",
+        "Shopping",
+        "Travel",
+        "Education",
+        "Communication",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "Successi Your transfer was successful Transfer details Recelpt Nos 049299825365A1Vw Transfer Amount 600.00 AED Exchange Rate AED 1.0 AED Sho niore Beneficiary details acccunt Njma NAZIRA ISABEKOVA Account Number 119935039200001 Nicknjme Nazira ABU DHABI COMMERCIAL BANK Country UNITED ARAB EMIRATES Address Line Doc DQ +U Bur Dubai Address Line Dubai Address Line - Dubal Buna Naine",
+      "failure_class": "4. General versus domain-specific ambiguity (Bank account balance vs P2P receipt)"
+    },
+    {
+      "screenshot_id": "ext2_108",
+      "filename": "ext2_108.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Payment",
+      "candidate_pool": [
+        "Payment",
+        "Travel",
+        "Shopping",
+        "Work & Career",
+        "Education",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "American First Financial Corporate Operating Balance 525,185,107.28 Business Premier 0*8832 Transfer Pay Bills Deposit History Recent Transactions Logout Overseas Transfer 52,951,910.80 (smelter) May 17, 2025",
+      "failure_class": "4. General versus domain-specific ambiguity (Bank account balance vs P2P receipt)"
+    },
+    {
+      "screenshot_id": "ext2_110",
+      "filename": "ext2_110.jpg",
+      "ground_truth": "Payment",
+      "v2_prediction": "Communication",
+      "candidate_pool": [
+        "Communication",
+        "Payment",
+        "Travel",
+        "Work & Career",
+        "Shopping",
+        "Education",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "Payment Submitted Depositing Amounts: S500,000.00 Recipient Name: GERALD G SWAIM Mobile: +1 (530) 575-8726 Email; JERRYSWAIM@ICLOUDCOM ZIP Code: 95946 Reloadable Dashboard: Process t0 activate Time: 10/03/2025 5.12 PM Status: Pending",
+      "failure_class": "7. Communication versus Work & Career confusion"
+    },
+    {
+      "screenshot_id": "ext2_114",
+      "filename": "ext2_114.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Work & Career",
+      "candidate_pool": [
+        "Work & Career",
+        "Payment",
+        "Travel",
+        "Education",
+        "Connectivity",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "and begin editing it using Power Bl Desktop_ Calfulations Sensitiv Unable to connect We encountered an error while trying to connect: Details: \"An error happened while reading data from the provider: 'The remote certificate is invalid according to the validation procedure: Retry Edit Cancel Ilponr @Ji MC",
+      "failure_class": "2. Weak keyword causing a false-positive category promotion"
+    },
+    {
+      "screenshot_id": "ext2_122",
+      "filename": "ext2_122.jpg",
+      "ground_truth": "Payment",
+      "v2_prediction": "Communication",
+      "candidate_pool": [
+        "Communication",
+        "Work & Career",
+        "Payment",
+        "Education",
+        "Travel",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "21*54 rute blinkit ko9 LTe ull 80% New Notice Chubb Recruitment Drive- L2 Interview on Ist October'2026 in virtrual Mode for 2027 Batch External Inbox Superset 1921 S to me Unsubscribe superset Dear Sludent, This is t0 inform You that Chubb Recruitment Drive- L2 Interview is scheduled on Ist October2026 in virtual Tode Students would have received the Intervlew Ilnk 10 thelr emall Id from the company: Sludents are directed t0 altend the L2 Interview a5 per the schedule mentioned in their email received from the comp-any Process Lz Interview Date Ist October 2026 Time As per Ihe time menlioned in your erail received {rom Ihe company: Note: It is mandatory tO be In foral attire during the interviev Reply Forward",
+      "failure_class": "7. Communication versus Work & Career confusion"
+    },
+    {
+      "screenshot_id": "ext2_130",
+      "filename": "ext2_130.jpg",
+      "ground_truth": "Communication",
+      "v2_prediction": "Work & Career",
+      "candidate_pool": [
+        "Work & Career",
+        "Education",
+        "Communication",
+        "Travel",
+        "Payment",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "< | 2 h   Q  08 KALINGA INSTITUTE QF INDUSTRIAL TECHNOLOGY Daemed [0 Uaitate t Uis ) 0i int Ugc Aci 1856 DEPARTMENT OF TRAINING & PLACEMENT KALINGA INSTITUTE OF INDUSTRIAL TECHNOLOGY (KIIT) DEEMED TO BE UNIVERSITY, BHUBANESWAR (ODISHA) No. KIIT-DU/t&P/26/784 Date: 1*t Sept'2026 Kind Atten 2027 Graduating BTech LAll Branches)Students This is to inform all the above students that   BiteSpeed will conducting an Internship cum PPO Recruitment Drive in virtual mode very shortly. Eligible students would have received the job notification through Superset & are directed to APPLY or before 2n Sept'2026 bv 10.00 AM to participate for the same: Profile Offered HR Operation Intern Eligibility Criteria No Backlogs Process To be notified Stipend 20,000 Per Month Internship Duration: 6 Months Joining Date Month of Sept'2026 Joining Location Bangalore CTC 6.00 LPA to Rs_ 8.00 LPA fixed compensation ESOPs depends on performance Comprehensive employee benefits Required Skills Strong communication skills Fluency in both English and Hindi is mandatory, as the role involves direct customer interactions Note: Students are directed to share 1 minute video per the details mentioned below during the registration: Past experiences (if any) Clubs or groups you have been part of in college Career goals Find below the Job Description Link for your reference https [ Idocsend comIview[8ena9tgsxxxwfgus About the Company: BiteSpeed, a Sequoia-backed SaaS startup that helps commerce brands drive sales and customer support through WhatsApp. Today, our platform powers customer conversations for 2,000+ brands globally and is trusted by some of the fastest-growing D2C companies across India and international markets. Prof: (Dr:) Prachet Bhuyan Professor School of Computer Engineering; Director (TMC) & Dean (T&P), & KiIT-DU NB: The Company will be shortlisting from the registered students list. @, 4, %6 \"u, e83 Edit PDF Comment Highlight Draw Fill & More tools Sign",
+      "failure_class": "11. Genuine ambiguity or insufficient evidence"
+    },
+    {
+      "screenshot_id": "ext2_142",
+      "filename": "ext2_142.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Work & Career",
+      "candidate_pool": [
+        "General",
+        "Entertainment",
+        "Work & Career",
+        "Education",
+        "Travel",
+        "Connectivity"
+      ],
+      "in_pool": true,
+      "ocr_text": "Jonas Brandel Adventure Works Cycles East Heckington Reading; England About Friends Photos Jonas Brandel hour ago kona College",
+      "failure_class": "2. Weak keyword causing a false-positive category promotion"
+    },
+    {
+      "screenshot_id": "ext2_146",
+      "filename": "ext2_146.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Communication",
+      "candidate_pool": [
+        "General",
+        "Entertainment",
+        "Communication",
+        "Education",
+        "Travel",
+        "Work & Career"
+      ],
+      "in_pool": true,
+      "ocr_text": "ittaiamezcua 99 profile visits in the last 7 days 302 435 Post Followers Following Stephania Amezcua Athlete Snap Ittai amezcua See Translation Edit Profile Promotions Contact Newt Baby",
+      "failure_class": "11. Genuine ambiguity or insufficient evidence"
+    },
+    {
+      "screenshot_id": "ext2_158",
+      "filename": "ext2_158.jpg",
+      "ground_truth": "Communication",
+      "v2_prediction": "Work & Career",
+      "candidate_pool": [
+        "Work & Career",
+        "Communication",
+        "Travel",
+        "Shopping",
+        "Education",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "21:59 165 Ve ull 79% DRDO-NPOL Junior Research Fellow Job Notification Inbox DRDO Yesterday D to me Unsubscribe DRDO Recruitment 2026 abalerish Com DRDO-NPOL Recruitment Junior Research Fellow Posts Job Application Eligibility Criteria Apply Now Jobalertshub com DRDO Junior Research Fellow & other posts Job Notification 2026, DRDO announces vacancies for candidates who have completed: More Details >> do nat want to recelve omails from Us click here t0 unsubscribe Reply Forward 99 fyou",
+      "failure_class": "11. Genuine ambiguity or insufficient evidence"
+    },
+    {
+      "screenshot_id": "ext2_160",
+      "filename": "ext2_160.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Entertainment",
+      "candidate_pool": [
+        "Entertainment",
+        "Shopping",
+        "Payment",
+        "Education",
+        "Coding",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "Replay You listened for 2,410 minutes in March: Your Top Artists 2 3 orten O De Your Top Songs Kena",
+      "failure_class": "2. Weak keyword causing a false-positive category promotion"
+    },
+    {
+      "screenshot_id": "ext2_162",
+      "filename": "ext2_162.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Travel",
+      "candidate_pool": [
+        "Travel",
+        "Payment",
+        "Work & Career",
+        "Education",
+        "Entertainment",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "CN #uanAANL Jee ExonAUT Jde GeL field trip Ebriy",
+      "failure_class": "2. Weak keyword causing a false-positive category promotion"
+    },
+    {
+      "screenshot_id": "ext2_180",
+      "filename": "ext2_180.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Entertainment",
+      "candidate_pool": [
+        "Entertainment",
+        "Travel",
+        "Work & Career",
+        "Education",
+        "Shopping",
+        "Coding",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "19.32 00.27 0 34(2 Google Let's driEV Techsofin 2.5 132 reviews Rated for 3+ 22 MB Install Let's driEv Your Seamless Booking Freedom to Roam Refe Ridc; Your Rulcsl Quic  lind ontOnevecotnci Enley Uhelmberty tordenelter Intka aetmumennr Gdes Mrntenantute dema Aceeta NpInol 4 do cry Mn Wmtt rpetnndtneturn [secotet Ocdal needomd Leta OLEv dbon nj dotanltod EFot ducen About this app Your Ride; Your Rules! Explore freely; anytime: Reserve rides in advance. Maps & Navigation N ^ 740+ 88 Games Apps Search Books You III Play",
+      "failure_class": "2. Weak keyword causing a false-positive category promotion"
+    },
+    {
+      "screenshot_id": "ext2_193",
+      "filename": "ext2_193.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Entertainment",
+      "candidate_pool": [
+        "Entertainment",
+        "Education",
+        "Communication",
+        "General",
+        "Payment",
+        "Shopping"
+      ],
+      "in_pool": true,
+      "ocr_text": "12.03 0 8 Shorts Subscriptions (6)) Live Lens 2K Dislike 24 Actual parrots are jealous over how good you made your birds look Share @amarinslyklema Subscribe Painting the Parrots Tropical Banquet 11K Trust the Process Painting Parrots by Classical Music: Bach; Beethoven; M Home Shorts Subscriptions You",
+      "failure_class": "2. Weak keyword causing a false-positive category promotion"
+    },
+    {
+      "screenshot_id": "ext2_200",
+      "filename": "ext2_200.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Entertainment",
+      "candidate_pool": [
+        "Entertainment",
+        "Shopping",
+        "Communication",
+        "Education",
+        "Travel",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "15.01 %, 25 6076 Ni no Kuni: Cross netmarble Worlds Netmarble In-app purchases 3.6 12+ 126K reviews 0 1.4 GB Rated for 12 Install Google Services will install additional components (5.9 MB) needed to use this app Nio KNI LVEL54 5M coi Lagoaati t BEGINS OF ITS EPL About this game Epic Adventure RPG 88 Games Apps Search Books You Play",
+      "failure_class": "2. Weak keyword causing a false-positive category promotion"
+    },
+    {
+      "screenshot_id": "ext2_201",
+      "filename": "ext2_201.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Entertainment",
+      "candidate_pool": [
+        "Entertainment",
+        "Work & Career",
+        "Communication",
+        "Travel",
+        "Shopping",
+        "Coding",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "14.49 7 34679 Evil Lands: Epic Evil MMORPG online Ancns Rage Quit Games Group Contains ads In-app purchases 41 * 12+ 468K reviews 0 122 MB Rated for 12 Install Explore Stunning Open World About this game Multiplayer Open World MMO RPG; PvP action; dark fantasy; magic and epic quests Role Playing MMORPG Battling 88 Games Apps Search Books You",
+      "failure_class": "2. Weak keyword causing a false-positive category promotion"
+    },
+    {
+      "screenshot_id": "ext2_202",
+      "filename": "ext2_202.jpg",
+      "ground_truth": "Shopping",
+      "v2_prediction": "General",
+      "candidate_pool": [
+        "General",
+        "Travel",
+        "Payment",
+        "Education",
+        "Work & Career",
+        "Shopping"
+      ],
+      "in_pool": true,
+      "ocr_text": "12.49 [n 19 uf5v6g Follow hair clips",
+      "failure_class": "11. Genuine ambiguity or insufficient evidence"
+    },
+    {
+      "screenshot_id": "ext2_206",
+      "filename": "ext2_206.jpg",
+      "ground_truth": "Education",
+      "v2_prediction": "Shopping",
+      "candidate_pool": [
+        "Shopping",
+        "Travel",
+        "Education",
+        "Payment",
+        "Coding",
+        "Entertainment",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "printGriavisual (Path, Size) vold bidirecrionalbrs(int star , int goal) Queue 489, de; initqueue(698, initouece sge); Lool VSIMA: NODES] I01 , ve [MAA TODES] I0] ; int ps [MAX_NODES] , pe [MAZ_NODES] for Tint MAZ NoDES: 1 - pS[i] enqueue (48, start' enqucue(60e, goal) Vslatart] [goal] Lrue; Vnle isempty(sqs) lisenptyisde)) int dequere(Lq5) ; (ve [3]' printMergedPach (8 , p8 , e, start, goali recurn; Icr int MAX_NODES; 1t-) Tad][s [1] Jvsti] vs[1] Erlef enquete 598, 1; int dequele(rge) if (VS [F ' printhergedpatn(e, pS, pe, starl, goal) rerurn; Hor tint + MAXNODES; 1+) Yadj[e] [1] Jvelil Ve[i] crue pe[i] enquere  qe, J; void CreategridGradh ) for (int MAETODES; i+ for tint MA:_NODES; ]i) AdJM[J] [or Tint GRID_SIZE; for tint GRID SIZE; Ct) int gerNodetdu, C) ; if GRID_SIZE' int getNodetnr, I ; adj [u][v] ad][v] [u] 1 < GRID_SIZE' int getNodetbr C) ; adj [u][v] ad][v] [u] pe[1] Ps [1]",
+      "failure_class": "11. Genuine ambiguity or insufficient evidence"
+    },
+    {
+      "screenshot_id": "ext2_207",
+      "filename": "ext2_207.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Work & Career",
+      "candidate_pool": [
+        "Work & Career",
+        "Entertainment",
+        "Communication",
+        "Payment",
+        "Education",
+        "Travel",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "00.57 5, LF ,l 69 Priya Singh Glovix Oo Growth Partner igital Era Scaling Brands Driving Real Results 000 Kc Jlorumedacom Priya Singh She/Her 3rd Sales Executive @Glovix Media Empowering Businesses with Digital Growth Tech Tips & free Resources | Open for Collaboration Glovix Media Maihar; Madhya Pradesh; India 37,397 followers 500+ connections Followed by SAINA DAS Message About Hi, Im Priya Singh, working as a Sales Executive at Glovix Media. My role is all about approaching clients,_ see more Featured Post",
+      "failure_class": "2. Weak keyword causing a false-positive category promotion"
+    },
+    {
+      "screenshot_id": "ext2_210",
+      "filename": "ext2_210.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Education",
+      "candidate_pool": [
+        "Education",
+        "General",
+        "Work & Career",
+        "Travel",
+        "Communication"
+      ],
+      "in_pool": true,
+      "ocr_text": "02:14 LTEt ,I| 681 North Central Dental Know Your Teeth The 4 Types Visit of Human Teeth Images may be subject to copyright: Learn more Share Save How To Keep Your Teeth_ Vistadent Model of human teeth Science Photo Library Humans used to have__ National Geographic",
+      "failure_class": "2. Weak keyword causing a false-positive category promotion"
+    },
+    {
+      "screenshot_id": "ext2_211",
+      "filename": "ext2_211.jpg",
+      "ground_truth": "Education",
+      "v2_prediction": "Coding",
+      "candidate_pool": [
+        "Shopping",
+        "Education",
+        "Travel",
+        "Payment",
+        "Coding",
+        "Communication",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "#Lab-3 (Bidirectional DFS) nclude sldio  include  stdlib.h> Tinclude Kstabcok.h> #define GRID SIZE sdefine MAZ NObEs {GRID SIZE GRID_S-ZC1 t ad][MA _NODSS][NAX_KCDES]: typedef Struct int itens [MAXNODES] int front , Teat: Quene; Foid initqueue (Qreue a-front q->rear bool 1SEmbty(Quele \"q) Telurn O->Tear Void enqueue (Quete \"4, int (erear MAZNCDES Teturn: if (- front O->front q- iten nt+q->rear] LL dequeue (Queue #) 1f (iSEnpty(' rctucd Fl; int a-citems [q->front]; if (0- front q->rear) (->front q-rear else 4- fronttt; retucn IL getNodeidtint Ant retucn GRID SIZE void prin Nodekapping(' printf (\"InNode Kapping (Grid Hode IDiin\"); Printfi\" for Kint GRID Size; C) printf \"ied printfi\" n for Tint GRID_SIZE; rtt' printi(a2d| 1 ; Tol Tint GRID Size: 3-) printi \"Bd getNodeId Ci) ; prinf\"n\"; Void printgridvisualiint Path[], int Size) char d[GRID_SIZE] [GRID_SIZE] for (int CRID SIZEP D Hor (int GRID SIZE; Ctt) gridir][e for int 1 < Gizc; 1t 1 int path l GRID_S ZE: int pathi] G?ID_SIZE; 1f gridlee] U gri",
+      "failure_class": "11. Genuine ambiguity or insufficient evidence"
+    },
+    {
+      "screenshot_id": "ext2_212",
+      "filename": "ext2_212.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Entertainment",
+      "candidate_pool": [
+        "Communication",
+        "Entertainment",
+        "Work & Career",
+        "Education",
+        "General",
+        "Payment",
+        "Travel"
+      ],
+      "in_pool": true,
+      "ocr_text": "12.48 5, Jll 981 S Google 0 the himalayan kit Al Mode AII Images Videos Shop Yeti The Himalayan Kitchen, 492+ Bhubaneshwar 4.1 (252) Open Tibetan Overview Menu Photos About Offe Menu highlights POPULAR POPU Jhol Non Veg Momo Chic Momos 8_ Platter Laph View the monn Home Search Notifications Activity yeti Maps Veg",
+      "failure_class": "2. Weak keyword causing a false-positive category promotion"
+    },
+    {
+      "screenshot_id": "ext2_213",
+      "filename": "ext2_213.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Communication",
+      "candidate_pool": [
+        "Communication",
+        "Payment",
+        "Shopping",
+        "General",
+        "Education",
+        "Entertainment",
+        "Work & Career"
+      ],
+      "in_pool": true,
+      "ocr_text": "13.07 @0 5; 3,678 Mohit Kumar a year ago Images may be subject to copyright 2 photos Grilled Butter Fish Call Directions Website Related photos Home Search Notifications Activity",
+      "failure_class": "11. Genuine ambiguity or insufficient evidence"
+    },
+    {
+      "screenshot_id": "ext2_217",
+      "filename": "ext2_217.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Travel",
+      "candidate_pool": [
+        "Travel",
+        "Payment",
+        "Shopping",
+        "Education",
+        "General",
+        "Work & Career"
+      ],
+      "in_pool": true,
+      "ocr_text": "17.31 35,646 Vaashkar Paul a year ago Images may be subject to copyright 6 photos Chicken And Egg Tripple 2345.00 Schezwan Combination of wok tossed schezwan noodles and rice, with sczhewan gravy and crispy noodles Call Directions",
+      "failure_class": "2. Weak keyword causing a false-positive category promotion"
+    },
+    {
+      "screenshot_id": "ext2_224",
+      "filename": "ext2_224.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Entertainment",
+      "candidate_pool": [
+        "Communication",
+        "Entertainment",
+        "Work & Career",
+        "Education",
+        "Payment",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "20.25 5, 3,l 2 Yourtopsongs Oha Moe Bce NECHAEV Shukno Patar_ 000 2 SHUKNO Rhythmic Raj Chatterjee NUPUR PAHE Uplift 3 Pineapple Express Emin Mlyhhaa HOYb EMIN, JONY Baat (From\"Mooo 5 Asim Azhar; Qirat Haider BAAT Aahe CuXt MnR Share this story Knan Fnen",
+      "failure_class": "2. Weak keyword causing a false-positive category promotion"
+    },
+    {
+      "screenshot_id": "ext2_227",
+      "filename": "ext2_227.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Entertainment",
+      "candidate_pool": [
+        "Entertainment",
+        "Communication",
+        "Travel",
+        "Education",
+        "Work & Career",
+        "Payment",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "20.25 5, 3,l 2 V | F 8 6 Your topsong OHa Moe Bce by NECHAEV You listened 174 times: Share this story",
+      "failure_class": "2. Weak keyword causing a false-positive category promotion"
+    },
+    {
+      "screenshot_id": "ext2_231",
+      "filename": "ext2_231.jpg",
+      "ground_truth": "Shopping",
+      "v2_prediction": "Work & Career",
+      "candidate_pool": [
+        "Work & Career",
+        "Education",
+        "Shopping",
+        "Travel",
+        "Payment",
+        "Coding",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "13.17 IJ MM 0 * 309 Vi *Gll 056% Registration_for_Myntra_Inte. 68 KALINGA INSTITUTE OF INDUSTRIAL TECHNOLOGY DEPARTMENT OF TRAINING  PLACEMENT KALINGA INSTITUTE OF INDUSTRIAL TECHNOLOGY (KIIT DEEMED TO BE UNIVERSITY, BHUBANESWAR (ODISHA) No. KIIT-du/T&P/26/904 Date 26th Sept'2026 Kind Atten\" : 2027 Graduating B Tech (CSE[CS& SELCS&CEDTL Students This is to inform all the above students that Myntra will be conducting an Internship cum performance based PPO Recruitment Drive through it'$ 'Myntra Ramp Up SDE Internship Program\" mode__ Interested eligible students are directed to REGISTER in BOTH the links given below on or before 29th Sept'2026 by 11.00 AMto participate for the same: https L linapp hirepro ailv2/registrationImyntra campus[SDEnewlapply?event-25&job-13 https:L [tinyurkcom[Registration-Myntra-2027 Profile Offered Software Engineer Intern Eligibility Criteria No Backlogs Process PPT on 28\" Sept' 2026 in virtual mode at 5.00 PM Online Assessment on 5ui Oct'2026 Functional Interviews on 12t 15th Oct 2026 Internship Duration Months Joining Date Jan'2027 Joining Location Bengaluru Stipend Rs, 70,000 Per Month CTC Will be informed by the Company: Note: This internship includes PPO opportunity; based on performance the number of available   full-time   openings after   internship   completion and successful degree completion_ Important Actions & Update: The Pre-Placement Talk is scheduled on 28 Sep (Mon) from 5 to 6 PM: This PPTwill help  students better understand the process and address their queries; Interested students must complete the registration process before 29 (Tue); 11 AM: No extension will be provided_ applications submitted through the provided registration link will be considered for the next KALINGA INSTITUTE OF LduSTRIAL TEChNOLOGY Vl5 Kl T PPT Details: Date 28' Sept'2026 Time 5,00 PM to 6.00 PM Link to Join the PPT https:g flipkart zoom us/i/89638671901 Passcode- 462067 virtual and Sep Only steps:",
+      "failure_class": "11. Genuine ambiguity or insufficient evidence"
+    },
+    {
+      "screenshot_id": "ext2_233",
+      "filename": "ext2_233.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Work & Career",
+      "candidate_pool": [
+        "Work & Career",
+        "Education",
+        "Communication",
+        "Travel",
+        "Payment",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "14.53 M palf tes % 490  edll 034% PO sgl full Ac Accenture Specific Tr 3585 members, 471 online Pinned Message Accenture Specific Session Summary_13-0. I \"J 1i G\"ourc 4 think can be done that quick for the results since there's many SB sets 10.37 Dr: Rajesh Kumar Panda Owner Companies always look for the best candidates, and every company has its own selection criteria and expectations If you are not selected, don't blame the company, the process; or anyone else Instead;, look within yourself and ask: \"Was | fully prepared?\" Every rejection is an opportunity to identify your gaps, improve your skills, and come back stronger Prepare better; learn from every experience; and keep moving forward. Your preparation today will shape opportunities tomorrow: 69 10.47 123 Anjan Aditya Dr: Rajesh Kumar Panda Camnanies alwavs Innk for the hes Message Somnath 5 Sayandip Bhattacharya your",
+      "failure_class": "2. Weak keyword causing a false-positive category promotion"
+    },
+    {
+      "screenshot_id": "ext2_237",
+      "filename": "ext2_237.jpg",
+      "ground_truth": "Shopping",
+      "v2_prediction": "Communication",
+      "candidate_pool": [
+        "Communication",
+        "Shopping",
+        "Payment",
+        "General",
+        "Education"
+      ],
+      "in_pool": true,
+      "ocr_text": "Messages +1 (833) 429-7135 2*50 PM Temu: Reminder The hoodie you love is almost sold out Back t0 cart > https Ilapp temu comlt gabrielly delusional 9*54 AM Hehe 52927 9.47 Am Temu: We owe you; Adrian $ We sincerely want to compensate you with at least 80% OF_ evellyn Yesterday Aaa +1(254) 330-2314 Yesterday jenzia cousin Yesterday Mamae Tuesday 32665 Saturday 397275: Don\"t share your Instagram code. https Ilig mef OuMjcl3dzvwrrM",
+      "failure_class": "11. Genuine ambiguity or insufficient evidence"
+    },
+    {
+      "screenshot_id": "ext2_240",
+      "filename": "ext2_240.jpg",
+      "ground_truth": "General",
+      "v2_prediction": "Payment",
+      "candidate_pool": [
+        "Payment",
+        "Communication",
+        "Travel",
+        "Education",
+        "Entertainment",
+        "General"
+      ],
+      "in_pool": true,
+      "ocr_text": "0*42 Todn 9 J04u HOw aro you? Tell me the truth  Are you to anyone else?? not; You Dld giri talk to; the Take You | only talk to You Kacnoted Helloooo tking \" Obviously I Just e You E Know that  Paula, Vou e other s MY account? Faadea7a Itold -",
+      "failure_class": "4. General versus domain-specific ambiguity (Bank account balance vs P2P receipt)"
+    }
+  ]
+}

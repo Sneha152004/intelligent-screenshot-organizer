@@ -1,0 +1,84 @@
+{
+  "audit_timestamp": "2026-10-09T19:48:00+05:30",
+  "reproduction": {
+    "v2_control": {
+      "val_top1": 0.936,
+      "holdout_top1": 0.992,
+      "ext_v2_top1": 0.8114754098360656,
+      "ext_v2_correct": 198,
+      "ext_v2_mrr": 0.8592213114754097
+    },
+    "v3_candidate": {
+      "val_top1": 0.936,
+      "holdout_top1": 0.992,
+      "ext_v2_top1": 0.819672131147541,
+      "ext_v2_correct": 200,
+      "ext_v2_mrr": 0.8683060109289618
+    }
+  },
+  "rule_ablation_audit": [
+    {
+      "rule_name": "Rule 1: Banking Dashboard",
+      "val_top1": 0.936,
+      "ext_v2_top1": 0.8115,
+      "ext_v2_correct": 198,
+      "corrections_vs_v2": 0,
+      "harms_vs_v2": 0,
+      "net_improvement": 0
+    },
+    {
+      "rule_name": "Rule 2: Dev Admin Tools",
+      "val_top1": 0.936,
+      "ext_v2_top1": 0.8156,
+      "ext_v2_correct": 199,
+      "corrections_vs_v2": 1,
+      "harms_vs_v2": 0,
+      "net_improvement": 1
+    },
+    {
+      "rule_name": "Rule 3: Payment Submission Forms",
+      "val_top1": 0.936,
+      "ext_v2_top1": 0.8156,
+      "ext_v2_correct": 199,
+      "corrections_vs_v2": 1,
+      "harms_vs_v2": 0,
+      "net_improvement": 1
+    },
+    {
+      "rule_name": "Rule 4: Retail Collections",
+      "val_top1": 0.936,
+      "ext_v2_top1": 0.8115,
+      "ext_v2_correct": 198,
+      "corrections_vs_v2": 0,
+      "harms_vs_v2": 0,
+      "net_improvement": 0
+    },
+    {
+      "rule_name": "Full Policy V3 (Combined)",
+      "val_top1": 0.936,
+      "ext_v2_top1": 0.8197,
+      "ext_v2_correct": 200,
+      "corrections_vs_v2": 2,
+      "harms_vs_v2": 0,
+      "net_improvement": 2
+    }
+  ],
+  "prediction_comparison_summary": {
+    "v2_correct": 198,
+    "v3_correct": 200,
+    "corrections": 2,
+    "harms": 0,
+    "net_improvement": 2,
+    "unchanged": 242,
+    "rule_activations": {
+      "V2_Rule2_Work_Dashboard_Calib": 6,
+      "V2_Rule5_Shopping_Calib": 19,
+      "V2_Rule1_Education_Calib": 1,
+      "V3_Rule2_Dev_Admin_Tools": 2,
+      "V2_Rule4_Payment_Calib": 2,
+      "V3_Rule1_Banking_Dashboard_Safeguard": 3,
+      "V3_Rule3_Payment_Submission_Form": 2
+    }
+  },
+  "determinism_verified": true
+}

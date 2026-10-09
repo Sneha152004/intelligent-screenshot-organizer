@@ -1,0 +1,7 @@
+ablation_id,description,val_top1,val_mrr,corrections,harms,net_improvement
+V2_Control,Policy V2 Control Baseline,0.936,0.9587,0,1,-1
+V3_Rule1_Banking_Dashboard,Rule V3-1: Bank balance / Net worth safeguard for General,0.936,0.9587,0,1,-1
+V3_Rule2_Dev_Admin_Tools,Rule V3-2: Developer control panel & DB admin tools for Work & Career,0.936,0.9587,0,1,-1
+V3_Rule3_Payment_Forms,Rule V3-3: Payment deposit submission forms for Payment,0.936,0.9587,0,1,-1
+V3_Rule4_Retail_Collections,Rule V3-4: Fashion retail collection for Shopping,0.936,0.9587,0,1,-1
+V3_Full_Combined_Set,Full Policy V3 Combined Set,0.936,0.9587,0,1,-1

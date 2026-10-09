@@ -1,0 +1,11 @@
+{
+  "baseline_name": "Category Policy V2 Control",
+  "validation_top1": 0.936,
+  "holdout_top1": 0.992,
+  "external_v2_top1": 0.8114754098360656,
+  "external_v2_correct": 198,
+  "external_v2_top2": 0.8483606557377049,
+  "external_v2_top3": 0.8647540983606558,
+  "external_v2_mrr": 0.8592213114754097,
+  "reproduction_verified": true
+}

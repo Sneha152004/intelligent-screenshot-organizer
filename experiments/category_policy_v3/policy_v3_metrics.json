@@ -1,0 +1,22 @@
+{
+  "dataset_size": 244,
+  "top1_accuracy": 0.819672131147541,
+  "top1_correct": 200,
+  "top2_accuracy": 0.8647540983606558,
+  "top3_accuracy": 0.8770491803278688,
+  "macro_precision": 0.6750720161154944,
+  "macro_recall": 0.8266559366559367,
+  "macro_f1": 0.7188263358947429,
+  "weighted_precision": 0.8858834993225585,
+  "weighted_recall": 0.819672131147541,
+  "weighted_f1": 0.8317819014558951,
+  "balanced_accuracy": 0.9185065962843739,
+  "mrr": 0.8683060109289618,
+  "validation_top1": 0.936,
+  "holdout_top1": 0.992,
+  "impact_over_v2": {
+    "corrections": 30,
+    "harms": 3,
+    "net_improvement": 27
+  }
+}
