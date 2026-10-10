@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-10-10T18:13:23.553897+00:00",
+  "overall_status": "PASSED",
+  "results": [
+    {
+      "scenario_number": 1,
+      "title": "Semantic-Visual Agreement",
+      "status": "PASS",
+      "details": "High-confidence semantic prediction ('Travel') remained authoritative without visual override.",
+      "is_mocked": false,
+      "error_msg": ""
+    },
+    {
+      "scenario_number": 2,
+      "title": "Low-Confidence Ambiguity Resolution (Strategy E Override)",
+      "status": "PASS",
+      "details": "Strategy E layout override successfully applied: low-confidence General overrode to 'Coding' via layout 'code_editor_terminal'.",
+      "is_mocked": true,
+      "error_msg": ""
+    },
+    {
+      "scenario_number": 3,
+      "title": "Sparse or Unavailable OCR Context Fallback",
+      "status": "PASS",
+      "details": "Empty OCR fell back cleanly to notes context ('Travel'), and disabled visual branch produced visual_evidence=None without error.",
+      "is_mocked": false,
+      "error_msg": ""
+    },
+    {
+      "scenario_number": 4,
+      "title": "Graceful Handling of Corrupted or Unreadable Images",
+      "status": "PASS",
+      "details": "Zero-byte corrupted image file was handled gracefully during visual inference. Visual branch caught exception safely, set visual_evidence=None, and predicted category='General' without crashing.",
+      "is_mocked": false,
+      "error_msg": ""
+    },
+    {
+      "scenario_number": 5,
+      "title": "SQLite Metadata Persistence and Two-Stage Retrieval (search_and_enrich)",
+      "status": "PASS",
+      "details": "2-Stage retrieval resolved vector hit to Layer 2 SQLite & Layer 1 FileStore: screenshot_id='ss_val_005', category='Payment', image_uri='ss_val_005.png'.",
+      "is_mocked": false,
+      "error_msg": ""
+    }
+  ]
+}
