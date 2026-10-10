@@ -7,11 +7,13 @@ Layer 2: Application Metadata Storage (SQLiteMetadataStore)
 Layer 3: Vector Retrieval Index (ChromaDB)
 """
 
+import argparse
 import json
 import os
 from pathlib import Path
 from src.config import config
 from src.embedder import SentenceTransformerEmbedder
+from src.organizer import ScreenshotOrganizer
 from src.pipeline import OCRPipeline
 from src.storage.file_store import LocalFileStore
 from src.storage.metadata_store import SQLiteMetadataStore
@@ -19,6 +21,38 @@ from src.vector_store import VectorStoreManager
 
 
 def main():
+    parser = argparse.ArgumentParser(description="Intelligent Screenshot Organizer & Retrieval Pipeline")
+    parser.add_argument("--input-dir", type=str, help="Path to input directory containing unorganized screenshots")
+    parser.add_argument("--output-dir", type=str, help="Path to output library directory for category subfolders")
+    args = parser.parse_args()
+
+    if args.input_dir and args.output_dir:
+        print("=" * 60)
+        print("AUTOMATIC CATEGORY FOLDER ORGANIZER")
+        print("=" * 60)
+        print(f"Input Directory:  {args.input_dir}")
+        print(f"Output Directory: {args.output_dir}\n")
+
+        organizer = ScreenshotOrganizer()
+        summary = organizer.organize_folder(input_dir=args.input_dir, output_dir=args.output_dir)
+
+        print("\n" + "=" * 50)
+        print("ORGANIZATION SUMMARY")
+        print("=" * 50)
+        print(f"Total Processed: {summary['processed']}")
+        print(f"Newly Organized: {summary['organized']}")
+        print(f"Skipped:         {summary['skipped']}")
+        print(f"Failed:          {summary['failed']}")
+        print("\nCategory Breakdown:")
+        for cat, cnt in summary["category_counts"].items():
+            print(f"  - {cat:15s}: {cnt}")
+        if summary["failed_files"]:
+            print("\nFailed Files:")
+            for ff in summary["failed_files"]:
+                print(f"  - {ff['file']}: {ff['error']}")
+        return
+
+    # Default Demo Workflow (when CLI args are omitted)
     # Initialize Storage Managers
     file_store = LocalFileStore(storage_dir=config.screenshots_dir)
     metadata_store = SQLiteMetadataStore(db_path=config.metadata_db_path)
@@ -117,3 +151,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

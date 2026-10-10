@@ -7,12 +7,13 @@ text chunking, SentenceTransformer vector embeddings, and persistent ChromaDB re
 
 from .config import AppConfig, config
 from .embedder import BaseEmbedder, SentenceTransformerEmbedder
-from .loader import load_dataset
+from .loader import load_dataset, discover_screenshots
 from .mock_ocr import BaseOCREngine, MockOCREngine
 from .easy_ocr import EasyOCREngine, get_ocr_engine
 from .vlm import BaseVLM, MockVLM, get_vlm_engine
 from .chunker import ParagraphChunker, chunk_text
 from .pipeline import OCRPipeline
+from .organizer import ScreenshotOrganizer, organize_folder
 from .vector_store import VectorStoreManager
 from .models import Screenshot, ScreenshotMetadata, ScreenshotChunk
 from .storage import BaseFileStore, LocalFileStore, BaseMetadataStore, SQLiteMetadataStore
@@ -23,6 +24,7 @@ __all__ = [
     "BaseEmbedder",
     "SentenceTransformerEmbedder",
     "load_dataset",
+    "discover_screenshots",
     "BaseOCREngine",
     "MockOCREngine",
     "EasyOCREngine",
@@ -33,6 +35,8 @@ __all__ = [
     "ParagraphChunker",
     "chunk_text",
     "OCRPipeline",
+    "ScreenshotOrganizer",
+    "organize_folder",
     "VectorStoreManager",
     "Screenshot",
     "ScreenshotMetadata",
@@ -42,3 +46,4 @@ __all__ = [
     "BaseMetadataStore",
     "SQLiteMetadataStore",
 ]
+

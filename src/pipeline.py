@@ -128,7 +128,15 @@ class OCRPipeline:
             image_col=image_col,
         )
         print(f"Loaded {len(documents)} images.\n")
+        return self.process_documents(documents)
 
+    def process_documents(
+        self,
+        documents: List[Dict[str, Any]],
+    ) -> List[Dict[str, Any]]:
+        """
+        Processes a list of document dictionaries through the multimodal classification pipeline.
+        """
         print(f"Running OCR & Multimodal Classification ({self.ocr_engine.__class__.__name__})...")
         processed_documents: List[Dict[str, Any]] = []
 
@@ -237,6 +245,19 @@ class OCRPipeline:
         print("Done.")
 
         return processed_documents
+
+    def organize_folder(
+        self,
+        input_dir: str,
+        output_dir: str,
+    ) -> Dict[str, Any]:
+        """
+        Organizes screenshots from input_dir into category subdirectories within output_dir.
+        """
+        from .organizer import ScreenshotOrganizer
+        organizer = ScreenshotOrganizer(pipeline=self)
+        return organizer.organize_folder(input_dir=input_dir, output_dir=output_dir)
+
 
     def search_and_enrich(
         self,

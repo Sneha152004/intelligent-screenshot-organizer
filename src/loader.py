@@ -112,3 +112,52 @@ def load_dataset(
         )
 
     return documents
+
+
+SUPPORTED_IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp", ".bmp", ".tiff"}
+
+
+def discover_screenshots(
+    input_dir: str,
+) -> List[Dict[str, Any]]:
+    """
+    Discovers supported screenshot image files in input_dir.
+    If a metadata CSV is present in input_dir, uses load_dataset to load rich metadata notes.
+    Otherwise, scans input_dir for supported image files and builds clean document dicts.
+    """
+    input_path = Path(input_dir).resolve()
+    if not input_path.exists() or not input_path.is_dir():
+        raise FileNotFoundError(f"Input directory does not exist or is not a directory: {input_dir}")
+
+    # Check if a metadata CSV exists in input_dir
+    csv_candidates = [input_path / "metadata.csv", input_path / "metadata_v2.csv"]
+    for csv_file in csv_candidates:
+        if csv_file.exists() and csv_file.is_file():
+            try:
+                return load_dataset(metadata_path=str(csv_file), images_dir=str(input_path))
+            except Exception:
+                pass  # Fallback to direct image discovery
+
+    # Scan directory directly for supported image files
+    image_files: List[Path] = []
+    for file_path in input_path.rglob("*"):
+        if file_path.is_file() and file_path.suffix.lower() in SUPPORTED_IMAGE_EXTENSIONS:
+            image_files.append(file_path)
+
+    # Sort deterministically
+    image_files.sort(key=lambda p: str(p.relative_to(input_path)))
+
+    documents: List[Dict[str, Any]] = []
+    for img_path in image_files:
+        documents.append({
+            "image_path": str(img_path.resolve()),
+            "metadata": {
+                "Screenshot ID": img_path.stem,
+                "filename": img_path.name,
+                "notes": "",
+                "Actual Category": "General",
+            }
+        })
+
+    return documents
+
