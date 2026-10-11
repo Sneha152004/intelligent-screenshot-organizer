@@ -1,0 +1,458 @@
+{
+  "policy_name": "Category Decision Policy V1",
+  "version": "1.0.0",
+  "timestamp": "2026-10-09T00:12:00+05:30",
+  "global_principles": [
+    {
+      "principle_id": "GLOBAL_PRIMARY_PURPOSE",
+      "statement": "Categorize the screenshot according to the primary object/purpose represented by the screenshot, not merely any topic mentioned inside it.",
+      "application_rules": [
+        "Communication vs Topic: If the primary layout is an email thread, chat UI, or inbox list (headers 'From:', 'Subject:', reply buttons, chat bubbles), classify as Communication even if the body text discusses jobs, courses, or products.",
+        "Shopping vs Payment: Product catalogs, product detail pages, and carts with 'Add to cart' or 'Buy now' belong to Shopping. Completed transaction confirmation receipts with 'Transaction ID', 'UPI Ref', or 'Payment Successful' belong to Payment.",
+        "Education vs Work: Course syllabi, lecture slides, academic quizzes, and textbook pages belong to Education. Job vacancy postings, resumes, recruiter outreach, and workplace management dashboards belong to Work & Career.",
+        "Coding vs Text: IDEs, developer terminals, raw source code blocks, and compiler tracebacks belong to Coding. Text articles merely mentioning programming concepts without code layout belong to Education or General."
+      ]
+    }
+  ],
+  "categories": {
+    "Communication": {
+      "primary_purpose": "Direct messaging, email threads, chat conversations, and social comment threads.",
+      "strong_positive_indicators": [
+        "subject:",
+        "reply to",
+        "inbox",
+        "whatsapp",
+        "telegram",
+        "from:",
+        "to:",
+        "cc:",
+        "chat bubble",
+        "unread messages"
+      ],
+      "supporting_indicators": [
+        "message",
+        "email",
+        "sender",
+        "recipient",
+        "conversation",
+        "mail",
+        "regards",
+        "dear"
+      ],
+      "negative_indicators": [
+        "job vacancy",
+        "apply now",
+        "add to cart",
+        "payment successful",
+        "boarding pass",
+        "source code",
+        "def "
+      ],
+      "exclusion_conditions": [
+        "Standalone payment receipt without email/chat frame",
+        "Standalone job posting page",
+        "Standalone flight ticket"
+      ],
+      "confusable_categories": [
+        "Work & Career",
+        "Education",
+        "Shopping",
+        "General"
+      ],
+      "tie_breaking_rules": "If email/chat frame is dominant and intent is messaging, choose Communication over embedded body topic.",
+      "minimum_evidence_requirement": "At least 1 strong positive indicator OR 2 supporting indicators with chat/email frame."
+    },
+    "Work & Career": {
+      "primary_purpose": "Job listings, career applications, recruitment, resumes, professional workplace dashboards, and corporate management.",
+      "strong_positive_indicators": [
+        "job application",
+        "job vacancy",
+        "campus placement",
+        "interview invitation",
+        "applicant",
+        "recruitment",
+        "resume",
+        "cv",
+        "salary",
+        "job title"
+      ],
+      "supporting_indicators": [
+        "job",
+        "career",
+        "hiring",
+        "consultant",
+        "role",
+        "offer",
+        "candidate",
+        "position",
+        "workplace",
+        "employee"
+      ],
+      "negative_indicators": [
+        "academic lecture",
+        "online course",
+        "add to cart",
+        "wifi settings",
+        "boarding pass"
+      ],
+      "exclusion_conditions": [
+        "Academic university course syllabus or assignment",
+        "E-commerce product shopping page"
+      ],
+      "confusable_categories": [
+        "Communication",
+        "Education",
+        "General"
+      ],
+      "tie_breaking_rules": "If the primary view is a job posting or applicant tracking page, choose Work & Career over Education or General.",
+      "minimum_evidence_requirement": "At least 1 strong positive indicator OR 2 supporting indicators."
+    },
+    "Shopping": {
+      "primary_purpose": "E-commerce product listings, shopping carts, product detail pages, and retail catalogs.",
+      "strong_positive_indicators": [
+        "add to cart",
+        "buy now",
+        "product details",
+        "free shipping",
+        "customer reviews",
+        "order summary",
+        "delivery address",
+        "wishlist"
+      ],
+      "supporting_indicators": [
+        "cart",
+        "product",
+        "price",
+        "buy",
+        "order",
+        "shipping",
+        "item",
+        "store",
+        "size",
+        "rupees",
+        "₹",
+        "discount",
+        "rating"
+      ],
+      "negative_indicators": [
+        "transaction successful",
+        "payment successful",
+        "upi ref",
+        "debited from",
+        "boarding pass",
+        "email inbox"
+      ],
+      "exclusion_conditions": [
+        "Completed bank transaction receipt (belongs to Payment)",
+        "Job vacancy posting"
+      ],
+      "confusable_categories": [
+        "Payment",
+        "Communication",
+        "General"
+      ],
+      "tie_breaking_rules": "If the screen shows purchase intent before checkout ('Add to cart', 'Buy now'), choose Shopping over Payment.",
+      "minimum_evidence_requirement": "At least 1 strong positive indicator OR 2 supporting indicators with price/cart context."
+    },
+    "Payment": {
+      "primary_purpose": "Digital payment confirmations, receipts, invoices, bank transfers, and UPI transaction status screens.",
+      "strong_positive_indicators": [
+        "payment successful",
+        "transaction successful",
+        "money transferred",
+        "paid successfully",
+        "upi id",
+        "ref no",
+        "transaction id",
+        "invoice total",
+        "debited from"
+      ],
+      "supporting_indicators": [
+        "paid",
+        "payment",
+        "upi",
+        "transaction",
+        "receipt",
+        "transfer",
+        "bank",
+        "amount",
+        "billing",
+        "invoice",
+        "account",
+        "card"
+      ],
+      "negative_indicators": [
+        "add to cart",
+        "buy now",
+        "product specifications",
+        "job vacancy"
+      ],
+      "exclusion_conditions": [
+        "Shopping cart prior to checkout",
+        "Generic price listing without transaction proof"
+      ],
+      "confusable_categories": [
+        "Shopping",
+        "Work & Career",
+        "General"
+      ],
+      "tie_breaking_rules": "If transaction completion status or banking reference number is present, choose Payment over Shopping.",
+      "minimum_evidence_requirement": "At least 1 strong positive indicator OR 2 supporting indicators with transaction status."
+    },
+    "Education": {
+      "primary_purpose": "Academic course material, lecture slides, textbooks, study notes, flashcards, exams, and educational quizzes.",
+      "strong_positive_indicators": [
+        "online course",
+        "practice questions",
+        "lecture notes",
+        "submit assignment",
+        "syllabus",
+        "quiz",
+        "classroom",
+        "coursera",
+        "udemy",
+        "homework"
+      ],
+      "supporting_indicators": [
+        "lecture",
+        "course",
+        "university",
+        "notes",
+        "exam",
+        "study",
+        "student",
+        "lesson",
+        "algorithm",
+        "learn",
+        "class",
+        "school"
+      ],
+      "negative_indicators": [
+        "job application",
+        "salary",
+        "add to cart",
+        "payment successful",
+        "git commit"
+      ],
+      "exclusion_conditions": [
+        "Raw source code editor or IDE terminal view (belongs to Coding)",
+        "Corporate job posting page"
+      ],
+      "confusable_categories": [
+        "Coding",
+        "Work & Career",
+        "Communication",
+        "General"
+      ],
+      "tie_breaking_rules": "If content is academic or tutorial material explaining concepts, choose Education over Work & Career.",
+      "minimum_evidence_requirement": "At least 1 strong positive indicator OR 2 supporting indicators."
+    },
+    "Coding": {
+      "primary_purpose": "Source code editors, IDE interfaces, developer terminals, git commits, compiler errors, and code tracebacks.",
+      "strong_positive_indicators": [
+        "vs code",
+        "vscode",
+        "error traceback",
+        "commit changes",
+        "pull request",
+        "source code",
+        "code editor",
+        "git commit",
+        "git push",
+        "stack trace",
+        "compiler error",
+        "def ",
+        "class ",
+        "npm install",
+        "pip install"
+      ],
+      "supporting_indicators": [
+        "python",
+        "import",
+        "code",
+        "terminal",
+        "git",
+        "html",
+        "javascript",
+        "repository",
+        "syntax",
+        "developer",
+        "ide",
+        "script"
+      ],
+      "negative_indicators": [
+        "add to cart",
+        "payment successful",
+        "boarding pass",
+        "job application"
+      ],
+      "exclusion_conditions": [
+        "Textbook prose discussing coding conceptually without code syntax/editor layout"
+      ],
+      "confusable_categories": [
+        "Education",
+        "Work & Career",
+        "General"
+      ],
+      "tie_breaking_rules": "If code syntax, IDE controls, terminal traceback, or git operations are visible, choose Coding over Education.",
+      "minimum_evidence_requirement": "At least 1 strong positive indicator OR 2 supporting indicators with code syntax."
+    },
+    "Travel": {
+      "primary_purpose": "Flight tickets, airline bookings, boarding passes, hotel reservations, train/bus tickets, and travel itineraries.",
+      "strong_positive_indicators": [
+        "boarding pass",
+        "pnr",
+        "flight number",
+        "travel itinerary",
+        "flight booking",
+        "hotel booking",
+        "gate number",
+        "seat number",
+        "irctc",
+        "indigo"
+      ],
+      "supporting_indicators": [
+        "flight",
+        "booking",
+        "airline",
+        "hotel",
+        "train",
+        "seat",
+        "itinerary",
+        "trip",
+        "fare",
+        "terminal",
+        "passenger",
+        "ticket"
+      ],
+      "negative_indicators": [
+        "add to cart",
+        "job application",
+        "source code",
+        "wifi settings"
+      ],
+      "exclusion_conditions": [
+        "Generic city news or map screenshot without booking/ticket data"
+      ],
+      "confusable_categories": [
+        "Payment",
+        "Communication",
+        "General"
+      ],
+      "tie_breaking_rules": "If screen displays ticket/PNR itinerary details, choose Travel over Payment or Communication.",
+      "minimum_evidence_requirement": "At least 1 strong positive indicator OR 2 supporting indicators."
+    },
+    "Connectivity": {
+      "primary_purpose": "Network configuration, Wi-Fi settings, Bluetooth pairing, IP/MAC addresses, and connection status.",
+      "strong_positive_indicators": [
+        "connected to wi-fi",
+        "network settings",
+        "bluetooth devices",
+        "available networks",
+        "hotspot settings",
+        "ip address",
+        "mac address",
+        "ssid"
+      ],
+      "supporting_indicators": [
+        "wifi",
+        "network",
+        "signal",
+        "connected",
+        "discovering",
+        "wireless",
+        "device name"
+      ],
+      "negative_indicators": [
+        "job application",
+        "add to cart",
+        "payment successful",
+        "boarding pass"
+      ],
+      "exclusion_conditions": [
+        "Generic phone system settings without network configuration"
+      ],
+      "confusable_categories": [
+        "General",
+        "Work & Career"
+      ],
+      "tie_breaking_rules": "If screen is network/Wi-Fi/Bluetooth setup, choose Connectivity over General.",
+      "minimum_evidence_requirement": "At least 1 strong positive indicator OR 2 supporting indicators."
+    },
+    "Entertainment": {
+      "primary_purpose": "Video streaming, music playback, media player libraries, gaming, movies, and entertainment media.",
+      "strong_positive_indicators": [
+        "watch now",
+        "play episode",
+        "listen now",
+        "now playing",
+        "official soundtrack",
+        "spotify",
+        "youtube",
+        "deviantart"
+      ],
+      "supporting_indicators": [
+        "music",
+        "video",
+        "movie",
+        "play",
+        "song",
+        "game",
+        "artist",
+        "reel",
+        "media",
+        "streaming"
+      ],
+      "negative_indicators": [
+        "online course",
+        "lecture notes",
+        "job application",
+        "add to cart"
+      ],
+      "exclusion_conditions": [
+        "Educational video lecture (belongs to Education)",
+        "Product ad video in shopping app"
+      ],
+      "confusable_categories": [
+        "Education",
+        "General"
+      ],
+      "tie_breaking_rules": "If media player controls or music/movie streaming UI is visible, choose Entertainment over General.",
+      "minimum_evidence_requirement": "At least 1 strong positive indicator OR 2 supporting indicators."
+    },
+    "General": {
+      "primary_purpose": "Default fallback for smartphone home screens, clock, calculator, weather, and unclassified screenshots.",
+      "strong_positive_indicators": [
+        "weather forecast",
+        "alarm set for",
+        "calculator result",
+        "clock",
+        "home screen wallpaper"
+      ],
+      "supporting_indicators": [
+        "weather",
+        "calculator",
+        "alarm",
+        "calendar",
+        "device settings"
+      ],
+      "negative_indicators": [
+        "add to cart",
+        "payment successful",
+        "boarding pass",
+        "vs code",
+        "online course",
+        "job application",
+        "subject:"
+      ],
+      "exclusion_conditions": [
+        "Any screenshot containing strong positive indicators for a domain category"
+      ],
+      "confusable_categories": [
+        "All domain categories"
+      ],
+      "tie_breaking_rules": "General is chosen only when no domain category meets its minimum positive evidence requirement or domain evidence is penalized.",
+      "minimum_evidence_requirement": "Fallback default when domain positive evidence score is zero or penalized."
+    }
+  }
+}

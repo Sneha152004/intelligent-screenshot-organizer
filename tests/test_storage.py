@@ -222,12 +222,35 @@ class TestScreenshotMetadataContract(unittest.TestCase):
         self.assertEqual(retrieved.entities[0]["text"], "Braingrow")
 
     def test_existing_30_records_preserved(self):
-        """Test 14: Existing 30 screenshot metadata records remain readable."""
-        real_store = SQLiteMetadataStore(db_path="data/metadata.sqlite")
-        all_records = real_store.list_all_metadata()
+        """Test 14: Existing 30 screenshot metadata records remain readable from seeded fixture database."""
+        import csv
+
+        fixture_db_path = os.path.join(self.temp_dir, "fixture_metadata.sqlite")
+        seeder_store = SQLiteMetadataStore(db_path=fixture_db_path)
+
+        from pathlib import Path
+        repo_root = Path(__file__).resolve().parent.parent
+        fixture_csv = repo_root / "sample" / "metadata.csv"
+        self.assertTrue(fixture_csv.exists(), f"Fixture {fixture_csv} must exist")
+        with open(fixture_csv, mode="r", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                meta = ScreenshotMetadata(
+                    screenshot_id=row["Screenshot ID"],
+                    filename=row["filename"],
+                    image_uri=f"sample/{row['filename']}",
+                    category=row["Actual Category"],
+                    summary=row.get("Notes"),
+                    tags=["sample", row["Actual Category"].lower()],
+                )
+                seeder_store.save_metadata(meta)
+
+        # Verify cross-instance persistence and reading
+        fixture_store = SQLiteMetadataStore(db_path=fixture_db_path)
+        all_records = fixture_store.list_all_metadata()
         self.assertEqual(len(all_records), 30)
 
-        ss001 = real_store.get_metadata("ss_001")
+        ss001 = fixture_store.get_metadata("ss_001")
         self.assertIsNotNone(ss001)
         self.assertEqual(ss001.screenshot_id, "ss_001")
         self.assertEqual(ss001.filename, "ss_001.jpg")
