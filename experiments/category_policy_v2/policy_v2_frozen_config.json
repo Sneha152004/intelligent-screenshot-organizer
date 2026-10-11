@@ -1,0 +1,15 @@
+{
+  "experiment": "category_policy_v2",
+  "frozen_status": "FROZEN_AND_EVALUATED",
+  "selected_configuration": {
+    "ablation_id": "V2_Ablation_C_Full_Policy_V2",
+    "rule_config": {
+      "enable_rule1_education_calib": true,
+      "enable_rule2_work_dash_calib": true,
+      "enable_rule4_payment_calib": true,
+      "enable_rule5_shopping_calib": true
+    },
+    "enable_general_safeguard": true
+  },
+  "validation_top1": 0.936
+}

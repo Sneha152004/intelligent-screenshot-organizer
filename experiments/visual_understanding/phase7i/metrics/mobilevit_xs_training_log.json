@@ -1,0 +1,75 @@
+{
+  "model_key": "mobilevit_xs",
+  "display_name": "MobileViT-XS",
+  "fp32_parameters": 2317848,
+  "training_time_seconds": 137.51,
+  "fp32_checkpoint_mb": 7.53,
+  "int8_checkpoint_mb": 4.39,
+  "best_calib_loss": 0.597,
+  "epochs_trained": 9,
+  "training_history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.4963,
+      "train_acc": 0.4578,
+      "calib_loss": 1.2243,
+      "calib_acc": 0.5185
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.0841,
+      "train_acc": 0.747,
+      "calib_loss": 0.9279,
+      "calib_acc": 0.5185
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.8048,
+      "train_acc": 0.759,
+      "calib_loss": 0.9515,
+      "calib_acc": 0.6296
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.5968,
+      "train_acc": 0.7831,
+      "calib_loss": 0.597,
+      "calib_acc": 0.6667
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.5193,
+      "train_acc": 0.747,
+      "calib_loss": 1.0888,
+      "calib_acc": 0.5556
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.3957,
+      "train_acc": 0.7831,
+      "calib_loss": 1.0504,
+      "calib_acc": 0.5556
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.3444,
+      "train_acc": 0.8313,
+      "calib_loss": 1.0436,
+      "calib_acc": 0.6296
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.3973,
+      "train_acc": 0.7952,
+      "calib_loss": 0.6636,
+      "calib_acc": 0.6667
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.3932,
+      "train_acc": 0.8554,
+      "calib_loss": 0.7188,
+      "calib_acc": 0.7037
+    }
+  ]
+}

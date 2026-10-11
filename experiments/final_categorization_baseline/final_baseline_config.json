@@ -1,0 +1,24 @@
+{
+  "experiment_name": "final_categorization_baseline",
+  "status": "AUDITED_AND_FROZEN",
+  "timestamp": "2026-10-08T22:34:01+05:30",
+  "deterministic": true,
+  "candidate_pool_rule": "Classifier Top-5 UNION MiniLM Top-5 UNION {'General'}",
+  "pipeline_components": {
+    "base_classifier": "RecoverySemanticCandidate (Variant C)",
+    "embedder": "sentence-transformers/all-MiniLM-L6-v2 (shared instance)",
+    "reranker": "BestOfAllCandidateReranker (unscaled score fusion + High-Conf Guardrail)"
+  },
+  "weights": {
+    "w_clf": 0.55,
+    "w_minilm": 0.25,
+    "w_agree": 0.15,
+    "w_ocr": 0.2,
+    "w_vis": 0.15
+  },
+  "splits_evaluated": [
+    "Internal Validation (n=125)",
+    "Internal Holdout (n=125)",
+    "External V2 Benchmark (n=244)"
+  ]
+}

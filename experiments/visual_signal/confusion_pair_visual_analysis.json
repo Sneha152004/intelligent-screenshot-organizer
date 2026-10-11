@@ -1,0 +1,181 @@
+{
+  "total_baseline_confusion_pairs": 25,
+  "total_visual_signal_confusion_pairs": 25,
+  "pair_breakdown": [
+    {
+      "confusion_pair": "General -> Payment",
+      "baseline_error_count": 9,
+      "visual_signal_error_count": 9,
+      "delta": 0,
+      "impact_status": "UNCHANGED"
+    },
+    {
+      "confusion_pair": "Education -> Work & Career",
+      "baseline_error_count": 6,
+      "visual_signal_error_count": 6,
+      "delta": 0,
+      "impact_status": "UNCHANGED"
+    },
+    {
+      "confusion_pair": "General -> Entertainment",
+      "baseline_error_count": 6,
+      "visual_signal_error_count": 6,
+      "delta": 0,
+      "impact_status": "UNCHANGED"
+    },
+    {
+      "confusion_pair": "General -> Work & Career",
+      "baseline_error_count": 6,
+      "visual_signal_error_count": 6,
+      "delta": 0,
+      "impact_status": "UNCHANGED"
+    },
+    {
+      "confusion_pair": "Communication -> Work & Career",
+      "baseline_error_count": 4,
+      "visual_signal_error_count": 4,
+      "delta": 0,
+      "impact_status": "UNCHANGED"
+    },
+    {
+      "confusion_pair": "Shopping -> General",
+      "baseline_error_count": 4,
+      "visual_signal_error_count": 4,
+      "delta": 0,
+      "impact_status": "UNCHANGED"
+    },
+    {
+      "confusion_pair": "Shopping -> Travel",
+      "baseline_error_count": 4,
+      "visual_signal_error_count": 4,
+      "delta": 0,
+      "impact_status": "UNCHANGED"
+    },
+    {
+      "confusion_pair": "Education -> Shopping",
+      "baseline_error_count": 3,
+      "visual_signal_error_count": 3,
+      "delta": 0,
+      "impact_status": "UNCHANGED"
+    },
+    {
+      "confusion_pair": "General -> Communication",
+      "baseline_error_count": 3,
+      "visual_signal_error_count": 3,
+      "delta": 0,
+      "impact_status": "UNCHANGED"
+    },
+    {
+      "confusion_pair": "General -> Education",
+      "baseline_error_count": 3,
+      "visual_signal_error_count": 3,
+      "delta": 0,
+      "impact_status": "UNCHANGED"
+    },
+    {
+      "confusion_pair": "General -> Shopping",
+      "baseline_error_count": 3,
+      "visual_signal_error_count": 3,
+      "delta": 0,
+      "impact_status": "UNCHANGED"
+    },
+    {
+      "confusion_pair": "General -> Travel",
+      "baseline_error_count": 3,
+      "visual_signal_error_count": 3,
+      "delta": 0,
+      "impact_status": "UNCHANGED"
+    },
+    {
+      "confusion_pair": "Education -> General",
+      "baseline_error_count": 2,
+      "visual_signal_error_count": 2,
+      "delta": 0,
+      "impact_status": "UNCHANGED"
+    },
+    {
+      "confusion_pair": "Payment -> Communication",
+      "baseline_error_count": 2,
+      "visual_signal_error_count": 2,
+      "delta": 0,
+      "impact_status": "UNCHANGED"
+    },
+    {
+      "confusion_pair": "Work & Career -> General",
+      "baseline_error_count": 2,
+      "visual_signal_error_count": 2,
+      "delta": 0,
+      "impact_status": "UNCHANGED"
+    },
+    {
+      "confusion_pair": "Communication -> Entertainment",
+      "baseline_error_count": 1,
+      "visual_signal_error_count": 1,
+      "delta": 0,
+      "impact_status": "UNCHANGED"
+    },
+    {
+      "confusion_pair": "Connectivity -> General",
+      "baseline_error_count": 1,
+      "visual_signal_error_count": 1,
+      "delta": 0,
+      "impact_status": "UNCHANGED"
+    },
+    {
+      "confusion_pair": "Education -> Payment",
+      "baseline_error_count": 1,
+      "visual_signal_error_count": 1,
+      "delta": 0,
+      "impact_status": "UNCHANGED"
+    },
+    {
+      "confusion_pair": "Entertainment -> General",
+      "baseline_error_count": 1,
+      "visual_signal_error_count": 1,
+      "delta": 0,
+      "impact_status": "UNCHANGED"
+    },
+    {
+      "confusion_pair": "Payment -> Travel",
+      "baseline_error_count": 1,
+      "visual_signal_error_count": 1,
+      "delta": 0,
+      "impact_status": "UNCHANGED"
+    },
+    {
+      "confusion_pair": "Shopping -> Communication",
+      "baseline_error_count": 1,
+      "visual_signal_error_count": 1,
+      "delta": 0,
+      "impact_status": "UNCHANGED"
+    },
+    {
+      "confusion_pair": "Shopping -> Entertainment",
+      "baseline_error_count": 1,
+      "visual_signal_error_count": 1,
+      "delta": 0,
+      "impact_status": "UNCHANGED"
+    },
+    {
+      "confusion_pair": "Shopping -> Work & Career",
+      "baseline_error_count": 1,
+      "visual_signal_error_count": 1,
+      "delta": 0,
+      "impact_status": "UNCHANGED"
+    },
+    {
+      "confusion_pair": "Work & Career -> Entertainment",
+      "baseline_error_count": 1,
+      "visual_signal_error_count": 1,
+      "delta": 0,
+      "impact_status": "UNCHANGED"
+    },
+    {
+      "confusion_pair": "Work & Career -> Payment",
+      "baseline_error_count": 1,
+      "visual_signal_error_count": 1,
+      "delta": 0,
+      "impact_status": "UNCHANGED"
+    }
+  ]
+}

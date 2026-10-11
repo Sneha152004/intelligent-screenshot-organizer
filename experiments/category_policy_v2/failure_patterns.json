@@ -1,0 +1,45 @@
+[
+  {
+    "pattern_id": "PAT_01",
+    "description": "General homepage / UI browsing misclassified into domain category via weak single keyword",
+    "affected_count": 30,
+    "categories_involved": [
+      "General",
+      "Shopping",
+      "Payment",
+      "Work & Career"
+    ],
+    "potential_rule": "Rule 3: Calibrated General Safeguard (Require >= 2 OCR matches or strong policy score before penalizing General)"
+  },
+  {
+    "pattern_id": "PAT_02",
+    "description": "Coursework and software tool screenshots misclassified as General or Entertainment",
+    "affected_count": 5,
+    "categories_involved": [
+      "Education",
+      "General",
+      "Entertainment"
+    ],
+    "potential_rule": "Rule 1: Coursework platform indicator boost for Education"
+  },
+  {
+    "pattern_id": "PAT_03",
+    "description": "Dashboard task management misclassified as Work & Career",
+    "affected_count": 7,
+    "categories_involved": [
+      "Work & Career",
+      "General"
+    ],
+    "potential_rule": "Rule 2: Dashboard UI vs Career vacancy disambiguation"
+  },
+  {
+    "pattern_id": "PAT_04",
+    "description": "Invoice/Money references misclassified as Payment without completed transaction status",
+    "affected_count": 8,
+    "categories_involved": [
+      "Payment",
+      "General"
+    ],
+    "potential_rule": "Rule 4: Payment completion status vs currency reference disambiguation"
+  }
+]

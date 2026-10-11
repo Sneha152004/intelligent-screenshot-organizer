@@ -1,0 +1,788 @@
+{
+  "validation_errors_count": 8,
+  "external_v2_errors_count": 70,
+  "validation_errors": [
+    {
+      "file": "ss_294.png",
+      "ground_truth": "Work & Career",
+      "base_semantic_pred": "General",
+      "final_category": "General",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'General' retained (score=0.5910)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ss_296.png",
+      "ground_truth": "Work & Career",
+      "base_semantic_pred": "General",
+      "final_category": "General",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'General' retained (score=0.5910)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ss_302.png",
+      "ground_truth": "Work & Career",
+      "base_semantic_pred": "General",
+      "final_category": "General",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'General' retained (score=0.5910)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ss_306.png",
+      "ground_truth": "Work & Career",
+      "base_semantic_pred": "General",
+      "final_category": "General",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'General' retained (score=0.5910)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ss_308.png",
+      "ground_truth": "Work & Career",
+      "base_semantic_pred": "General",
+      "final_category": "General",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'General' retained (score=0.5910)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ss_328.png",
+      "ground_truth": "Work & Career",
+      "base_semantic_pred": "General",
+      "final_category": "General",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'General' retained (score=0.5910)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ss_337.png",
+      "ground_truth": "Work & Career",
+      "base_semantic_pred": "General",
+      "final_category": "General",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'General' retained (score=0.5910)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ss_359.png",
+      "ground_truth": "Communication",
+      "base_semantic_pred": "Communication",
+      "final_category": "General",
+      "reranked": true,
+      "reranking_reason": "Promoted 'General' (score=0.2889) over base Top-1 'Communication' via Multi-Signal Evidence",
+      "correct": false,
+      "in_pool": true
+    }
+  ],
+  "external_v2_errors": [
+    {
+      "file": "ext2_013.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Work & Career",
+      "final_category": "Work & Career",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.5793)",
+      "correct": false,
+      "in_pool": false
+    },
+    {
+      "file": "ext2_014.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Work & Career",
+      "final_category": "Work & Career",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.4090)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_021.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Work & Career",
+      "final_category": "Work & Career",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.5900)",
+      "correct": false,
+      "in_pool": false
+    },
+    {
+      "file": "ext2_023.jpg",
+      "ground_truth": "Work & Career",
+      "base_semantic_pred": "General",
+      "final_category": "General",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'General' retained via High-Confidence Guardrail",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_024.jpg",
+      "ground_truth": "Education",
+      "base_semantic_pred": "Shopping",
+      "final_category": "Shopping",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Shopping' retained (score=0.4895)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_027.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Education",
+      "final_category": "Education",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Education' retained (score=0.5928)",
+      "correct": false,
+      "in_pool": false
+    },
+    {
+      "file": "ext2_032.jpg",
+      "ground_truth": "Shopping",
+      "base_semantic_pred": "Entertainment",
+      "final_category": "Entertainment",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Entertainment' retained (score=0.3580)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_034.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Shopping",
+      "final_category": "Shopping",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Shopping' retained (score=0.3762)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_042.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "General",
+      "final_category": "Shopping",
+      "reranked": true,
+      "reranking_reason": "Promoted 'Shopping' (score=0.3417) over base Top-1 'General' via Multi-Signal Evidence",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_046.jpg",
+      "ground_truth": "Shopping",
+      "base_semantic_pred": "General",
+      "final_category": "General",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'General' retained (score=0.2672)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_047.jpg",
+      "ground_truth": "Shopping",
+      "base_semantic_pred": "General",
+      "final_category": "General",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'General' retained (score=0.2696)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_048.jpg",
+      "ground_truth": "Shopping",
+      "base_semantic_pred": "General",
+      "final_category": "General",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'General' retained (score=0.2711)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_064.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Shopping",
+      "final_category": "Shopping",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Shopping' retained (score=0.5396)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_068.jpg",
+      "ground_truth": "Shopping",
+      "base_semantic_pred": "Travel",
+      "final_category": "Travel",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Travel' retained (score=0.3326)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_069.jpg",
+      "ground_truth": "Shopping",
+      "base_semantic_pred": "Travel",
+      "final_category": "Travel",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Travel' retained (score=0.3176)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_070.jpg",
+      "ground_truth": "Shopping",
+      "base_semantic_pred": "Travel",
+      "final_category": "Travel",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Travel' retained (score=0.3989)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_071.jpg",
+      "ground_truth": "Shopping",
+      "base_semantic_pred": "Travel",
+      "final_category": "Travel",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Travel' retained (score=0.3034)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_079.jpg",
+      "ground_truth": "Connectivity",
+      "base_semantic_pred": "General",
+      "final_category": "General",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'General' retained (score=0.3607)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_084.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Education",
+      "final_category": "Education",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Education' retained (score=0.3926)",
+      "correct": false,
+      "in_pool": false
+    },
+    {
+      "file": "ext2_086.jpg",
+      "ground_truth": "Work & Career",
+      "base_semantic_pred": "Entertainment",
+      "final_category": "Entertainment",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Entertainment' retained (score=0.3644)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_087.jpg",
+      "ground_truth": "Work & Career",
+      "base_semantic_pred": "General",
+      "final_category": "General",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'General' retained (score=0.2400)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_092.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Payment",
+      "final_category": "Payment",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Payment' retained (score=0.6045)",
+      "correct": false,
+      "in_pool": false
+    },
+    {
+      "file": "ext2_093.jpg",
+      "ground_truth": "Education",
+      "base_semantic_pred": "Payment",
+      "final_category": "Payment",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Payment' retained (score=0.5889)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_094.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Payment",
+      "final_category": "Payment",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Payment' retained (score=0.4779)",
+      "correct": false,
+      "in_pool": false
+    },
+    {
+      "file": "ext2_096.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Payment",
+      "final_category": "Payment",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Payment' retained (score=0.4011)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_098.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Payment",
+      "final_category": "Payment",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Payment' retained (score=0.4814)",
+      "correct": false,
+      "in_pool": false
+    },
+    {
+      "file": "ext2_105.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Payment",
+      "final_category": "Payment",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Payment' retained (score=0.4490)",
+      "correct": false,
+      "in_pool": false
+    },
+    {
+      "file": "ext2_106.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Payment",
+      "final_category": "Payment",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Payment' retained (score=0.6380)",
+      "correct": false,
+      "in_pool": false
+    },
+    {
+      "file": "ext2_107.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Payment",
+      "final_category": "Payment",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Payment' retained (score=0.6413)",
+      "correct": false,
+      "in_pool": false
+    },
+    {
+      "file": "ext2_108.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Payment",
+      "final_category": "Payment",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Payment' retained (score=0.6151)",
+      "correct": false,
+      "in_pool": false
+    },
+    {
+      "file": "ext2_110.jpg",
+      "ground_truth": "Payment",
+      "base_semantic_pred": "Communication",
+      "final_category": "Communication",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Communication' retained (score=0.2835)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_111.jpg",
+      "ground_truth": "Education",
+      "base_semantic_pred": "Work & Career",
+      "final_category": "Work & Career",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.4487)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_113.jpg",
+      "ground_truth": "Education",
+      "base_semantic_pred": "General",
+      "final_category": "General",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'General' retained (score=0.5534)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_114.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Work & Career",
+      "final_category": "Work & Career",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.4236)",
+      "correct": false,
+      "in_pool": false
+    },
+    {
+      "file": "ext2_122.jpg",
+      "ground_truth": "Payment",
+      "base_semantic_pred": "Communication",
+      "final_category": "Communication",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Communication' retained (score=0.5850)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_126.jpg",
+      "ground_truth": "Education",
+      "base_semantic_pred": "Work & Career",
+      "final_category": "Work & Career",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.5221)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_127.jpg",
+      "ground_truth": "Education",
+      "base_semantic_pred": "Work & Career",
+      "final_category": "Work & Career",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.5173)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_128.jpg",
+      "ground_truth": "Education",
+      "base_semantic_pred": "Work & Career",
+      "final_category": "Work & Career",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.6620)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_130.jpg",
+      "ground_truth": "Communication",
+      "base_semantic_pred": "Work & Career",
+      "final_category": "Work & Career",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.5146)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_133.jpg",
+      "ground_truth": "Communication",
+      "base_semantic_pred": "Work & Career",
+      "final_category": "Work & Career",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.6234)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_138.jpg",
+      "ground_truth": "Education",
+      "base_semantic_pred": "Work & Career",
+      "final_category": "Work & Career",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.4565)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_139.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "General",
+      "final_category": "Travel",
+      "reranked": true,
+      "reranking_reason": "Promoted 'Travel' (score=0.3048) over base Top-1 'General' via Multi-Signal Evidence",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_143.jpg",
+      "ground_truth": "Education",
+      "base_semantic_pred": "General",
+      "final_category": "General",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'General' retained (score=0.3476)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_147.jpg",
+      "ground_truth": "Entertainment",
+      "base_semantic_pred": "General",
+      "final_category": "General",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'General' retained (score=0.3628)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_150.jpg",
+      "ground_truth": "Communication",
+      "base_semantic_pred": "Work & Career",
+      "final_category": "Work & Career",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.4680)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_153.jpg",
+      "ground_truth": "Payment",
+      "base_semantic_pred": "Travel",
+      "final_category": "Travel",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Travel' retained (score=0.4388)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_158.jpg",
+      "ground_truth": "Communication",
+      "base_semantic_pred": "Work & Career",
+      "final_category": "Work & Career",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.6379)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_160.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Entertainment",
+      "final_category": "Entertainment",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Entertainment' retained (score=0.4237)",
+      "correct": false,
+      "in_pool": false
+    },
+    {
+      "file": "ext2_162.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Travel",
+      "final_category": "Travel",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Travel' retained (score=0.4525)",
+      "correct": false,
+      "in_pool": false
+    },
+    {
+      "file": "ext2_163.jpg",
+      "ground_truth": "Work & Career",
+      "base_semantic_pred": "Payment",
+      "final_category": "Payment",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Payment' retained (score=0.3703)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_180.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Entertainment",
+      "final_category": "Entertainment",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Entertainment' retained (score=0.5316)",
+      "correct": false,
+      "in_pool": false
+    },
+    {
+      "file": "ext2_193.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Entertainment",
+      "final_category": "Entertainment",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Entertainment' retained (score=0.3029)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_200.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Entertainment",
+      "final_category": "Entertainment",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Entertainment' retained (score=0.5435)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_201.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Entertainment",
+      "final_category": "Entertainment",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Entertainment' retained (score=0.5533)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_202.jpg",
+      "ground_truth": "Shopping",
+      "base_semantic_pred": "General",
+      "final_category": "General",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'General' retained (score=0.3817)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_206.jpg",
+      "ground_truth": "Education",
+      "base_semantic_pred": "Shopping",
+      "final_category": "Shopping",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Shopping' retained (score=0.3743)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_207.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Work & Career",
+      "final_category": "Work & Career",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.3902)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_210.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Education",
+      "final_category": "Education",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Education' retained (score=0.3905)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_211.jpg",
+      "ground_truth": "Education",
+      "base_semantic_pred": "Shopping",
+      "final_category": "Shopping",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Shopping' retained (score=0.3671)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_212.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Communication",
+      "final_category": "Communication",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Communication' retained (score=0.2711)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_213.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Communication",
+      "final_category": "Communication",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Communication' retained (score=0.3575)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_217.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Travel",
+      "final_category": "Travel",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Travel' retained (score=0.4159)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_224.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Communication",
+      "final_category": "Communication",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Communication' retained (score=0.2785)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_227.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Entertainment",
+      "final_category": "Entertainment",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Entertainment' retained (score=0.4139)",
+      "correct": false,
+      "in_pool": false
+    },
+    {
+      "file": "ext2_228.jpg",
+      "ground_truth": "Communication",
+      "base_semantic_pred": "Entertainment",
+      "final_category": "Entertainment",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Entertainment' retained (score=0.3014)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_231.jpg",
+      "ground_truth": "Shopping",
+      "base_semantic_pred": "Work & Career",
+      "final_category": "Work & Career",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.5135)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_232.jpg",
+      "ground_truth": "Education",
+      "base_semantic_pred": "Work & Career",
+      "final_category": "Work & Career",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.3963)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_233.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Work & Career",
+      "final_category": "Work & Career",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.4530)",
+      "correct": false,
+      "in_pool": false
+    },
+    {
+      "file": "ext2_237.jpg",
+      "ground_truth": "Shopping",
+      "base_semantic_pred": "Communication",
+      "final_category": "Communication",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Communication' retained (score=0.3092)",
+      "correct": false,
+      "in_pool": true
+    },
+    {
+      "file": "ext2_240.jpg",
+      "ground_truth": "General",
+      "base_semantic_pred": "Payment",
+      "final_category": "Payment",
+      "reranked": false,
+      "reranking_reason": "Base Top-1 'Payment' retained (score=0.4149)",
+      "correct": false,
+      "in_pool": false
+    }
+  ]
+}

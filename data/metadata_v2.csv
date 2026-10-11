@@ -1,0 +1,837 @@
+file,category,old_category,tags,confidence,notes,migration_reason
+ss_001.jpg,Work & Career,Coding,"Coding, Software Development, Python, VS Code",high,VS Code screenshot showing the RAGNOVA document-ingestion/embedding pipeline in Python.,"Professional software development project, repository, or workspace."
+ss_002.jpg,Work & Career,Coding,"Coding, Software Development, VS Code, Payment",high,VS Code screenshot showing RAGNOVA document-processing code for chunking and embeddings.,"Professional software development project, repository, or workspace."
+ss_003.jpg,Education,Coding,"Coding, Software Development, Python, VS Code",high,VS Code screenshot showing Python code from the RAGNOVA document-intelligence project.,"Educational programming assignment, LeetCode practice, or course material."
+ss_004.jpg,Work & Career,Coding,"Coding, Software Development, VS Code",high,VS Code screenshot showing RAGNOVA project source code and document-processing files.,"Professional software development project, repository, or workspace."
+ss_005.jpg,Work & Career,Coding,"Coding, Software Development, Python, Payment",high,Python/Matplotlib code generating a product-sales bar chart for January through May.,Software project codebase or data science development.
+ss_006.jpg,General,Coding,"Coding, Software Development",high,Screenshot showing programming or software-development content.,Coding content without distinct educational or workplace context.
+ss_007.jpg,Education,Coding,"Coding, Software Development",high,Screenshot showing programming or software-development content.,"Educational programming assignment, LeetCode practice, or course material."
+ss_008.jpg,Education,Coding,"Coding, Software Development, Shopping",high,Screenshot showing programming or software-development content.,"Educational programming assignment, LeetCode practice, or course material."
+ss_009.jpg,General,Coding,"Coding, Software Development, Web Development",high,Screenshot showing programming or software-development content.,Coding content without distinct educational or workplace context.
+ss_010.jpg,General,Coding,"Coding, Software Development",high,Screenshot showing programming or software-development content.,Coding content without distinct educational or workplace context.
+ss_011.jpg,General,Coding,"Coding, Software Development",high,Screenshot showing programming or software-development content.,Coding content without distinct educational or workplace context.
+ss_012.jpg,Work & Career,Coding,"Coding, Software Development, Python, Web Development",high,Screenshot showing Python data-science code using common ML/data libraries.,Software project codebase or data science development.
+ss_013.jpg,Work & Career,Coding,"Coding, Software Development, Python, Payment",high,Screenshot showing Python data-science code using common ML/data libraries.,Software project codebase or data science development.
+ss_014.jpg,Work & Career,Coding,"Coding, Software Development, Python",high,Screenshot showing Python data-science code using common ML/data libraries.,Software project codebase or data science development.
+ss_015.jpg,Work & Career,Coding,"Coding, Software Development, Python, Payment",high,Screenshot showing Python data-science code using common ML/data libraries.,Software project codebase or data science development.
+ss_016.jpg,Work & Career,Coding,"Coding, Software Development, Python",high,Screenshot showing Python data-science code using common ML/data libraries.,Software project codebase or data science development.
+ss_017.jpg,Work & Career,Coding,"Coding, Software Development, Python, Web Development",high,Screenshot showing Python data-science code using common ML/data libraries.,Software project codebase or data science development.
+ss_018.jpg,Education,Coding,"Coding, Software Development, Python",high,Screenshot showing Python data-science code using common ML/data libraries.,"Educational programming assignment, LeetCode practice, or course material."
+ss_019.jpg,General,Coding,"Coding, Software Development",high,Screenshot showing programming or software-development content.,Coding content without distinct educational or workplace context.
+ss_020.jpg,Work & Career,Coding,"Coding, Software Development, Python",high,Screenshot showing Python data-science code using common ML/data libraries.,Software project codebase or data science development.
+ss_021.jpg,General,Coding,"Coding, Software Development",high,Screenshot showing Java programming code.,Coding content without distinct educational or workplace context.
+ss_022.jpg,General,Coding,"Coding, Software Development, Payment, Shopping",high,Screenshot showing Java programming code.,Coding content without distinct educational or workplace context.
+ss_023.jpg,General,Coding,"Coding, Software Development",high,Screenshot showing programming or software-development content.,Coding content without distinct educational or workplace context.
+ss_024.jpg,General,Coding,"Coding, Software Development",high,Screenshot showing programming or software-development content.,Coding content without distinct educational or workplace context.
+ss_025.jpg,General,Coding,"Coding, Software Development",high,Screenshot showing programming or software-development content.,Coding content without distinct educational or workplace context.
+ss_026.jpg,Education,Coding,"Coding, Software Development",high,Screenshot showing programming or software-development content.,"Educational programming assignment, LeetCode practice, or course material."
+ss_027.jpg,General,Coding,"Coding, Software Development",high,Screenshot showing programming or software-development content.,Coding content without distinct educational or workplace context.
+ss_028.jpg,General,Coding,"Coding, Software Development, JavaScript",high,Screenshot showing programming or software-development content.,Coding content without distinct educational or workplace context.
+ss_029.jpg,Work & Career,Coding,"Coding, Software Development, JavaScript",high,Screenshot showing programming or software-development content.,"Professional software development project, repository, or workspace."
+ss_030.jpg,General,Coding,"Coding, Software Development",high,Screenshot showing programming or software-development content.,Coding content without distinct educational or workplace context.
+ss_031.jpg,General,Coding,"Coding, Software Development, JavaScript",high,Screenshot showing programming or software-development content.,Coding content without distinct educational or workplace context.
+ss_032.jpg,General,Coding,"Coding, Software Development, JavaScript",high,Screenshot showing programming or software-development content.,Coding content without distinct educational or workplace context.
+ss_033.jpg,Work & Career,Coding,"Coding, Software Development, JavaScript, Web Development",high,Screenshot showing programming or software-development content.,"Professional software development project, repository, or workspace."
+ss_034.jpg,Work & Career,Coding,"Coding, Software Development, Python, JavaScript",high,Screenshot showing programming or software-development content.,"Professional software development project, repository, or workspace."
+ss_035.jpg,Work & Career,Coding,"Coding, Software Development, Python, JavaScript, GitHub, Git, Web Development",high,Screenshot showing programming or software-development content.,"Professional software development project, repository, or workspace."
+ss_036.jpg,Work & Career,Coding,"Coding, Software Development, Python, JavaScript, GitHub, Git, Terminal",high,Screenshot showing programming or software-development content.,"Professional software development project, repository, or workspace."
+ss_037.jpg,Work & Career,Coding,"Coding, Software Development, JavaScript, Terminal, Web Development",high,Screenshot showing programming or software-development content.,"Professional software development project, repository, or workspace."
+ss_038.jpg,General,Coding,"Coding, Software Development, JavaScript, Web Development",high,Screenshot showing programming or software-development content.,Coding content without distinct educational or workplace context.
+ss_039.jpg,Work & Career,Coding,"Coding, Software Development",high,Screenshot showing programming or software-development content.,"Professional software development project, repository, or workspace."
+ss_040.jpg,Work & Career,Coding,"Coding, Software Development, GitHub, Git",high,Screenshot showing programming or software-development content.,"Professional software development project, repository, or workspace."
+ss_041.jpg,Education,Coding,"Coding, Software Development, GitHub, Git, Web Development",high,Screenshot showing programming or software-development content.,"Educational programming assignment, LeetCode practice, or course material."
+ss_042.jpg,Education,Coding,"Coding, Software Development, GitHub, Git, Web Development",high,Screenshot showing programming or software-development content.,"Educational programming assignment, LeetCode practice, or course material."
+ss_043.jpg,Work & Career,Coding,"Coding, Software Development, Terminal, Web Development",high,Screenshot showing programming or software-development content.,Software project codebase or data science development.
+ss_044.jpg,Work & Career,Coding,"Coding, Software Development, Terminal, Web Development",high,Screenshot showing programming or software-development content.,Software project codebase or data science development.
+ss_045.jpg,Work & Career,Coding,"Coding, Software Development, Terminal, Web Development",high,Screenshot showing programming or software-development content.,Software project codebase or data science development.
+ss_046.jpg,Education,Coding,"Coding, Software Development, GitHub, Git, LeetCode, Algorithm",high,Screenshot showing programming or software-development content.,"Educational programming assignment, LeetCode practice, or course material."
+ss_047.jpg,Education,Coding,"Coding, Software Development, Python, LeetCode, Algorithm",high,Screenshot showing programming or software-development content.,"Educational programming assignment, LeetCode practice, or course material."
+ss_048.jpg,Education,Coding,"Coding, Software Development, Python, LeetCode, Algorithm",high,Screenshot showing programming or software-development content.,"Educational programming assignment, LeetCode practice, or course material."
+ss_049.jpg,Work & Career,Coding,"Coding, Software Development, Python, GitHub, Git",high,Screenshot showing programming or software-development content.,"Professional software development project, repository, or workspace."
+ss_050.jpg,Education,Coding,"Coding, Software Development, Python, Kaggle, Machine Learning",high,"Kaggle notebook showing a linear-regression workflow, including data preparation and model evaluation.","Educational programming assignment, LeetCode practice, or course material."
+ss_051.jpg,Education,Coding,"Coding, Software Development, Python, Kaggle, Machine Learning, Shopping",high,Screenshot showing programming or software-development content.,"Educational programming assignment, LeetCode practice, or course material."
+ss_052.jpg,Education,Coding,"Coding, Software Development, Python, Kaggle, Machine Learning, Shopping",high,Screenshot showing programming or software-development content.,"Educational programming assignment, LeetCode practice, or course material."
+ss_053.jpg,Education,Education,"Coding, Software Development, Kaggle, Machine Learning",high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_054.jpg,Education,Coding,"Coding, Software Development",high,Screenshot showing programming or software-development content.,"Educational programming assignment, LeetCode practice, or course material."
+ss_055.jpg,Education,Coding,"Coding, Software Development",high,Screenshot showing programming or software-development content.,"Educational programming assignment, LeetCode practice, or course material."
+ss_056.jpg,Education,Coding,"Coding, Software Development, Python",high,Screenshot showing programming or software-development content.,"Educational programming assignment, LeetCode practice, or course material."
+ss_057.jpg,General,Coding,"Coding, Software Development",high,Screenshot showing programming or software-development content.,Coding content without distinct educational or workplace context.
+ss_058.jpg,Education,Coding,"Coding, Software Development",high,Screenshot showing programming or software-development content.,"Educational programming assignment, LeetCode practice, or course material."
+ss_059.jpg,Education,Coding,"Coding, Software Development",high,Screenshot showing programming or software-development content.,"Educational programming assignment, LeetCode practice, or course material."
+ss_060.jpg,Education,Coding,"Coding, Software Development",high,Screenshot showing programming or software-development content.,"Educational programming assignment, LeetCode practice, or course material."
+ss_061.jpg,Connectivity,Connectivity,Connectivity,high,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",Retained original 9-taxonomy category.
+ss_062.jpg,Work & Career,Coding,"Coding, Software Development, GitHub, Git, Web Development",high,Screenshot showing programming or software-development content.,"Professional software development project, repository, or workspace."
+ss_063.jpg,Connectivity,Connectivity,"Coding, Software Development, JavaScript, Connectivity",high,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",Retained original 9-taxonomy category.
+ss_064.jpg,Connectivity,Connectivity,Connectivity,high,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",Retained original 9-taxonomy category.
+ss_065.jpg,Connectivity,Connectivity,Connectivity,high,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",Retained original 9-taxonomy category.
+ss_066.jpg,Connectivity,Connectivity,Connectivity,high,Screenshot showing Wi-Fi/mobile-network or device connectivity.,Retained original 9-taxonomy category.
+ss_067.jpg,Connectivity,Connectivity,Connectivity,high,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",Retained original 9-taxonomy category.
+ss_068.jpg,Connectivity,Connectivity,Connectivity,high,Screenshot showing Wi-Fi/mobile-network or device connectivity.,Retained original 9-taxonomy category.
+ss_069.jpg,Connectivity,Connectivity,Connectivity,high,Screenshot showing Wi-Fi/mobile-network or device connectivity.,Retained original 9-taxonomy category.
+ss_070.jpg,Work & Career,Coding,"Coding, Software Development, GitHub, Git",high,Screenshot showing programming or software-development content.,"Professional software development project, repository, or workspace."
+ss_071.jpg,Connectivity,Connectivity,"Coding, Software Development, Web Development, Connectivity",high,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",Retained original 9-taxonomy category.
+ss_072.jpg,Connectivity,Connectivity,Connectivity,high,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",Retained original 9-taxonomy category.
+ss_073.jpg,Connectivity,Connectivity,Connectivity,high,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",Retained original 9-taxonomy category.
+ss_074.jpg,Connectivity,Connectivity,Connectivity,high,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",Retained original 9-taxonomy category.
+ss_075.jpg,Connectivity,Connectivity,Connectivity,high,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",Retained original 9-taxonomy category.
+ss_076.jpg,Connectivity,Connectivity,Connectivity,high,Screenshot showing network connectivity/error status.,Retained original 9-taxonomy category.
+ss_077.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_078.jpg,Connectivity,Connectivity,"Coding, Software Development, Web Development, Connectivity",low,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",Retained original 9-taxonomy category.
+ss_079.jpg,Connectivity,Connectivity,Connectivity,high,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",Retained original 9-taxonomy category.
+ss_080.jpg,General,General,,low,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_081.jpg,Connectivity,Connectivity,Connectivity,high,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",Retained original 9-taxonomy category.
+ss_082.jpg,Connectivity,Connectivity,Connectivity,low,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",Retained original 9-taxonomy category.
+ss_083.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_084.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_085.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_086.jpg,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_087.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_088.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_089.jpg,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_090.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_091.jpg,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_092.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_093.jpg,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_094.png,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_095.jpg,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_096.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_097.jpg,Payment,Payment,Payment,high,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",Retained original 9-taxonomy category.
+ss_098.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_099.jpg,Payment,Payment,Payment,high,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",Retained original 9-taxonomy category.
+ss_100.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_101.jpg,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_102.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_103.jpg,Entertainment,Entertainment,,high,Screenshot showing music/player content.,Retained original 9-taxonomy category.
+ss_104.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_105.jpg,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_106.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_107.jpg,General,General,,low,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_108.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_109.jpg,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_110.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_111.jpg,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_112.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_113.jpg,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_114.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_115.jpg,Payment,Payment,Payment,high,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",Retained original 9-taxonomy category.
+ss_116.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_117.jpg,Payment,Payment,Payment,high,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",Retained original 9-taxonomy category.
+ss_118.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_119.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_120.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_121.jpg,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_122.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_123.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_124.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_125.jpg,Travel,Travel,,high,Screenshot showing travel booking or ticket information.,Retained original 9-taxonomy category.
+ss_126.png,Payment,Payment,Payment,low,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",Retained original 9-taxonomy category.
+ss_127.jpg,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_128.png,Entertainment,Entertainment,,high,Screenshot showing music/player content.,Retained original 9-taxonomy category.
+ss_129.jpg,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_130.png,Entertainment,Entertainment,,high,Screenshot showing music/player content.,Retained original 9-taxonomy category.
+ss_131.jpg,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_132.png,Entertainment,Entertainment,,high,Screenshot showing music/player content.,Retained original 9-taxonomy category.
+ss_133.jpg,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_134.png,Entertainment,Entertainment,,high,Screenshot showing music/player content.,Retained original 9-taxonomy category.
+ss_135.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_136.png,Entertainment,Entertainment,,high,Screenshot showing music/player content.,Retained original 9-taxonomy category.
+ss_137.png,Entertainment,Entertainment,,high,Screenshot showing music/player content.,Retained original 9-taxonomy category.
+ss_138.png,Entertainment,Entertainment,,high,Screenshot showing music/player content.,Retained original 9-taxonomy category.
+ss_139.png,Entertainment,Entertainment,,high,Screenshot showing music/player content.,Retained original 9-taxonomy category.
+ss_140.png,Entertainment,Entertainment,,high,Screenshot showing music/player content.,Retained original 9-taxonomy category.
+ss_141.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_142.png,Payment,Payment,Payment,low,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",Retained original 9-taxonomy category.
+ss_143.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_144.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_145.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_146.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_147.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_148.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_149.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_150.png,Shopping,Shopping,Shopping,high,Health-service booking screen showing full-body test packages and options for creating or selecting a package.,Retained original 9-taxonomy category.
+ss_151.png,Shopping,Shopping,Shopping,high,Screenshot showing product listing/details.,Retained original 9-taxonomy category.
+ss_152.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_153.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_154.png,Shopping,Shopping,Shopping,high,Screenshot showing product listing/details.,Retained original 9-taxonomy category.
+ss_155.jpg,Payment,Payment,Payment,high,Screenshot showing payment or transaction details.,Retained original 9-taxonomy category.
+ss_156.jpg,Travel,Travel,,high,Screenshot showing flight/boarding-pass details.,Retained original 9-taxonomy category.
+ss_157.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_158.jpg,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_159.jpg,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_160.jpg,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_161.jpg,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_162.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_163.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_164.jpg,Shopping,Shopping,Shopping,high,"Screenshot showing product pricing, offers, or discounts.",Retained original 9-taxonomy category.
+ss_165.jpg,Shopping,Shopping,Shopping,high,"Screenshot showing product pricing, offers, or discounts.",Retained original 9-taxonomy category.
+ss_166.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_167.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_168.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_169.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_170.jpg,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_171.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_172.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_173.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_174.png,Shopping,Shopping,Shopping,high,Screenshot showing product listing/details.,Retained original 9-taxonomy category.
+ss_175.jpg,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_176.png,Shopping,Shopping,Shopping,high,Screenshot showing product listing/details.,Retained original 9-taxonomy category.
+ss_177.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_178.png,Shopping,Shopping,Shopping,high,Screenshot showing product listing/details.,Retained original 9-taxonomy category.
+ss_179.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_180.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_181.jpg,Education,Education,,high,Screenshot showing college/academic information.,Retained original 9-taxonomy category.
+ss_182.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_183.png,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_184.png,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_185.png,Shopping,Shopping,Shopping,high,"Screenshot showing order, delivery, or review details.",Retained original 9-taxonomy category.
+ss_186.png,Shopping,Shopping,Shopping,high,"Screenshot showing order, delivery, or review details.",Retained original 9-taxonomy category.
+ss_187.png,Shopping,Shopping,Shopping,high,"Screenshot showing order, delivery, or review details.",Retained original 9-taxonomy category.
+ss_188.png,Shopping,Shopping,Shopping,high,"Screenshot showing order, delivery, or review details.",Retained original 9-taxonomy category.
+ss_189.png,Shopping,Shopping,Shopping,high,"Screenshot showing order, delivery, or review details.",Retained original 9-taxonomy category.
+ss_190.png,Shopping,Shopping,Shopping,high,"Screenshot showing order, delivery, or review details.",Retained original 9-taxonomy category.
+ss_191.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_192.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_193.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_194.png,Entertainment,Entertainment,,high,Screenshot showing Spotify/music subscription screen.,Retained original 9-taxonomy category.
+ss_195.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_196.png,Entertainment,Entertainment,,high,Screenshot showing music/player content.,Retained original 9-taxonomy category.
+ss_197.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_198.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_199.png,Entertainment,Entertainment,,high,Screenshot showing Spotify/music subscription screen.,Retained original 9-taxonomy category.
+ss_200.png,Entertainment,Entertainment,,high,Spotify screen promoting a three-month Premium Standard offer with music playback and subscription details.,Retained original 9-taxonomy category.
+ss_201.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_202.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_203.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_204.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_205.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_206.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_207.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_208.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_209.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_210.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_211.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_212.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_213.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_214.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_215.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_216.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_217.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_218.png,Payment,Payment,Payment,high,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",Retained original 9-taxonomy category.
+ss_219.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_220.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_221.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_222.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_223.jpg,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_224.png,Shopping,Shopping,Shopping,low,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_225.jpg,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_226.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_227.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_228.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_229.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_230.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_231.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_232.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_233.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_234.png,Shopping,Shopping,Shopping,high,"Screenshot showing order, delivery, or review details.",Retained original 9-taxonomy category.
+ss_235.jpg,Education,Education,,high,"Screenshot showing exam, assignment, or question content.",Retained original 9-taxonomy category.
+ss_236.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_237.jpg,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_238.png,Shopping,Shopping,Shopping,low,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_239.jpg,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_240.png,Shopping,Shopping,Shopping,low,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_241.jpg,Education,Education,,high,"Screenshot showing exam, assignment, or question content.",Retained original 9-taxonomy category.
+ss_242.png,Shopping,Shopping,Shopping,low,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_243.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_244.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_245.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_246.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_247.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_248.png,Shopping,Shopping,Shopping,low,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_249.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_250.png,Shopping,Shopping,Shopping,low,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_251.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_252.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_253.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_254.png,Shopping,Shopping,Shopping,high,"Screenshot showing product pricing, offers, or discounts.",Retained original 9-taxonomy category.
+ss_255.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_256.png,Shopping,Shopping,Shopping,low,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_257.jpg,General,General,,high,Screenshot showing account/settings or login screen.,Retained original 9-taxonomy category.
+ss_258.png,Shopping,Shopping,Shopping,low,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_259.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_260.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_261.jpg,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_262.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_263.jpg,Education,Education,,high,Screenshot showing study or course material.,Retained original 9-taxonomy category.
+ss_264.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_265.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_266.png,Work & Career,Work & Career,,low,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_267.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_268.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_269.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_270.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_271.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_272.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_273.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_274.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_275.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_276.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_277.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_278.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_279.jpg,Payment,Payment,Payment,low,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",Retained original 9-taxonomy category.
+ss_280.png,General,Coding,"Coding, Software Development",high,Screenshot showing programming or software-development content.,Coding content without distinct educational or workplace context.
+ss_281.jpg,Shopping,Shopping,Shopping,high,"Screenshot showing product pricing, offers, or discounts.",Retained original 9-taxonomy category.
+ss_282.png,Shopping,Shopping,Shopping,high,Screenshot showing product listing/details.,Retained original 9-taxonomy category.
+ss_283.jpg,General,General,,high,Screenshot showing health-service information screen.,Retained original 9-taxonomy category.
+ss_284.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_285.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_286.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_287.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_288.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_289.jpg,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_290.png,Work & Career,Work & Career,,high,Screenshot showing job/career application content.,Retained original 9-taxonomy category.
+ss_291.jpg,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_292.png,Work & Career,Work & Career,,high,Screenshot showing job/career application content.,Retained original 9-taxonomy category.
+ss_293.jpg,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_294.png,Work & Career,Work & Career,,high,Screenshot showing work or service-management dashboard.,Retained original 9-taxonomy category.
+ss_295.jpg,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_296.png,Work & Career,Work & Career,,high,Screenshot showing work or service-management dashboard.,Retained original 9-taxonomy category.
+ss_297.jpg,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_298.png,Work & Career,Work & Career,,high,Screenshot showing job/career application content.,Retained original 9-taxonomy category.
+ss_299.jpg,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_300.png,Work & Career,Work & Career,"Coding, Software Development, JavaScript",high,iMaintenance work-management screen showing a welcome/onboarding message and work-order functionality.,Retained original 9-taxonomy category.
+ss_301.jpg,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_302.png,Work & Career,Work & Career,,high,Screenshot showing work or service-management dashboard.,Retained original 9-taxonomy category.
+ss_303.jpg,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_304.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_305.jpg,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_306.png,Work & Career,Work & Career,,high,Screenshot showing work or service-management dashboard.,Retained original 9-taxonomy category.
+ss_307.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_308.png,Work & Career,Work & Career,,high,Screenshot showing work or service-management dashboard.,Retained original 9-taxonomy category.
+ss_309.jpg,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_310.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_311.jpg,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_312.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_313.jpg,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_314.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_315.jpg,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_316.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_317.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_318.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_319.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_320.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_321.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_322.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_323.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_324.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_325.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_326.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_327.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_328.png,Work & Career,Work & Career,,high,Screenshot showing work or service-management dashboard.,Retained original 9-taxonomy category.
+ss_329.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_330.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_331.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_332.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_333.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_334.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_335.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_336.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_337.png,Work & Career,Work & Career,,high,Screenshot showing work or service-management dashboard.,Retained original 9-taxonomy category.
+ss_338.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_339.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_340.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_341.png,Payment,Payment,Payment,high,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",Retained original 9-taxonomy category.
+ss_342.png,Work & Career,Work & Career,,low,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_343.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_344.png,Work & Career,Work & Career,,high,Screenshot showing job/career application content.,Retained original 9-taxonomy category.
+ss_345.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_346.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_347.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_348.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_349.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_350.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_351.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_352.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_353.png,Payment,Payment,Payment,high,Screenshot showing payment or transaction details.,Retained original 9-taxonomy category.
+ss_354.png,Payment,Payment,Payment,high,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",Retained original 9-taxonomy category.
+ss_355.png,Payment,Payment,Payment,high,Screenshot showing payment or transaction details.,Retained original 9-taxonomy category.
+ss_356.png,Payment,Payment,Payment,high,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",Retained original 9-taxonomy category.
+ss_357.png,Payment,Payment,Payment,high,Screenshot showing payment or transaction details.,Retained original 9-taxonomy category.
+ss_358.jpg,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_359.png,Communication,Communication,,low,"Screenshot showing social activity, comments, or posts.",Retained original 9-taxonomy category.
+ss_360.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_361.jpg,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_362.png,Shopping,Shopping,Shopping,high,"Screenshot showing product pricing, offers, or discounts.",Retained original 9-taxonomy category.
+ss_363.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_364.jpg,Payment,Payment,Payment,low,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",Retained original 9-taxonomy category.
+ss_365.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_366.png,Shopping,Shopping,Shopping,high,"Screenshot showing product pricing, offers, or discounts.",Retained original 9-taxonomy category.
+ss_367.jpg,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_368.png,Shopping,Shopping,Shopping,high,"Screenshot showing product pricing, offers, or discounts.",Retained original 9-taxonomy category.
+ss_369.png,Shopping,Shopping,Shopping,high,"Screenshot showing product pricing, offers, or discounts.",Retained original 9-taxonomy category.
+ss_370.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_371.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_372.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_373.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_374.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_375.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_376.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_377.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_378.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_379.jpg,Payment,Payment,Payment,high,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",Retained original 9-taxonomy category.
+ss_380.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_381.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_382.jpg,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_383.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_384.png,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_385.jpg,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_386.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_387.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_388.jpg,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_389.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_390.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_391.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_392.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_393.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_394.jpg,Education,Education,,high,Screenshot showing study or course material.,Retained original 9-taxonomy category.
+ss_395.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_396.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_397.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_398.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_399.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_400.jpg,General,General,,high,"Bedtime utility screen for setting a consistent bedtime, with alarm/timer navigation visible.",Retained original 9-taxonomy category.
+ss_401.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_402.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_403.jpg,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_404.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_405.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_406.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_407.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_408.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_409.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_410.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_411.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_412.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_413.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_414.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_415.jpg,Communication,Communication,,high,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_416.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_417.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_418.jpg,General,General,,high,"Screenshot showing clock, alarm, or bedtime utility.",Retained original 9-taxonomy category.
+ss_419.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_420.png,Shopping,Shopping,Shopping,high,"Screenshot showing product pricing, offers, or discounts.",Retained original 9-taxonomy category.
+ss_421.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_422.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_423.png,Shopping,Shopping,Shopping,high,"Screenshot showing product pricing, offers, or discounts.",Retained original 9-taxonomy category.
+ss_424.jpg,General,General,,high,"Screenshot showing clock, alarm, or bedtime utility.",Retained original 9-taxonomy category.
+ss_425.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_426.png,Work & Career,Work & Career,,high,Screenshot showing job/career application content.,Retained original 9-taxonomy category.
+ss_427.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_428.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_429.png,Work & Career,Work & Career,,high,Screenshot showing job/career application content.,Retained original 9-taxonomy category.
+ss_430.jpg,Connectivity,Connectivity,Connectivity,high,Screenshot showing Wi-Fi/mobile-network or device connectivity.,Retained original 9-taxonomy category.
+ss_431.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_432.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_433.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_434.png,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_435.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_436.jpg,Communication,Communication,,high,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_437.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_438.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_439.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_440.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_441.png,General,General,,low,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_442.jpg,General,General,,high,"Screenshot showing clock, alarm, or bedtime utility.",Retained original 9-taxonomy category.
+ss_443.png,General,General,,low,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_444.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_445.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_446.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_447.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_448.jpg,Work & Career,Work & Career,,high,Screenshot showing job/career application content.,Retained original 9-taxonomy category.
+ss_449.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_450.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_451.jpg,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_452.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_453.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_454.jpg,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_455.png,Shopping,Shopping,Shopping,high,"Screenshot showing product pricing, offers, or discounts.",Retained original 9-taxonomy category.
+ss_456.png,Shopping,Shopping,Shopping,high,Screenshot showing product listing/details.,Retained original 9-taxonomy category.
+ss_457.jpg,Work & Career,Work & Career,,high,Screenshot showing job/career application content.,Retained original 9-taxonomy category.
+ss_458.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_459.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_460.jpg,Work & Career,Work & Career,,low,Screenshot showing work-related email content.,Retained original 9-taxonomy category.
+ss_461.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_462.png,Shopping,Shopping,Shopping,high,"Screenshot showing product pricing, offers, or discounts.",Retained original 9-taxonomy category.
+ss_463.jpg,Work & Career,Work & Career,,high,Screenshot showing job/career application content.,Retained original 9-taxonomy category.
+ss_464.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_465.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_466.jpg,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_467.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_468.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_469.jpg,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_470.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_471.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_472.jpg,Work & Career,Work & Career,,high,Screenshot showing job/career application content.,Retained original 9-taxonomy category.
+ss_473.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_474.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_475.jpg,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_476.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_477.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_478.jpg,Work & Career,Work & Career,,low,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_479.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_480.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_481.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_482.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_483.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_484.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_485.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_486.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_487.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_488.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_489.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_490.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_491.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_492.png,Shopping,Shopping,Shopping,high,"Screenshot showing order, delivery, or review details.",Retained original 9-taxonomy category.
+ss_493.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_494.png,Shopping,Shopping,Shopping,high,"Screenshot showing order, delivery, or review details.",Retained original 9-taxonomy category.
+ss_495.png,Shopping,Shopping,Shopping,high,"Screenshot showing product pricing, offers, or discounts.",Retained original 9-taxonomy category.
+ss_496.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_497.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_498.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_499.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_500.png,Shopping,Shopping,Shopping,high,"Online shopping screen showing Dabur and other health products, prices, delivery information, and deals.",Retained original 9-taxonomy category.
+ss_501.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_502.png,Shopping,Shopping,Shopping,high,"Screenshot showing product pricing, offers, or discounts.",Retained original 9-taxonomy category.
+ss_503.png,Shopping,Shopping,Shopping,high,"Screenshot showing product pricing, offers, or discounts.",Retained original 9-taxonomy category.
+ss_504.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_505.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_506.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_507.png,Shopping,Shopping,Shopping,high,"Screenshot showing product pricing, offers, or discounts.",Retained original 9-taxonomy category.
+ss_508.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_509.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_510.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_511.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_512.png,Shopping,Shopping,Shopping,high,"Screenshot showing product pricing, offers, or discounts.",Retained original 9-taxonomy category.
+ss_513.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_514.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_515.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_516.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_517.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_518.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_519.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_520.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_521.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_522.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_523.png,Shopping,Shopping,Shopping,high,"Screenshot showing product pricing, offers, or discounts.",Retained original 9-taxonomy category.
+ss_524.png,Shopping,Shopping,Shopping,high,"Screenshot showing order, delivery, or review details.",Retained original 9-taxonomy category.
+ss_525.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_526.png,Shopping,Shopping,Shopping,high,"Screenshot showing order, delivery, or review details.",Retained original 9-taxonomy category.
+ss_527.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_528.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_529.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_530.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_531.png,Shopping,Shopping,Shopping,high,"Screenshot showing product pricing, offers, or discounts.",Retained original 9-taxonomy category.
+ss_532.png,Shopping,Shopping,Shopping,high,"Screenshot showing product pricing, offers, or discounts.",Retained original 9-taxonomy category.
+ss_533.png,Shopping,Shopping,Shopping,high,"Screenshot showing product pricing, offers, or discounts.",Retained original 9-taxonomy category.
+ss_534.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_535.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_536.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_537.png,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_538.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_539.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_540.png,Travel,Travel,,high,Screenshot showing travel booking or ticket information.,Retained original 9-taxonomy category.
+ss_541.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_542.png,Travel,Travel,,high,Screenshot showing travel booking or ticket information.,Retained original 9-taxonomy category.
+ss_543.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_544.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_545.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_546.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_547.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_548.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_549.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_550.png,Travel,Travel,,high,"Screenshot showing pickup, route, or location information.",Retained original 9-taxonomy category.
+ss_551.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_552.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_553.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_554.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_555.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_556.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_557.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_558.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_559.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_560.png,General,General,,low,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_561.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_562.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_563.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_564.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_565.png,Work & Career,Work & Career,,high,Screenshot showing workplace/professional information.,Retained original 9-taxonomy category.
+ss_566.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_567.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_568.png,Work & Career,Work & Career,,high,Screenshot showing workplace/professional information.,Retained original 9-taxonomy category.
+ss_569.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_570.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_571.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_572.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_573.png,Work & Career,Work & Career,,high,Screenshot showing workplace/professional information.,Retained original 9-taxonomy category.
+ss_574.png,Work & Career,Work & Career,,high,Screenshot showing workplace/professional information.,Retained original 9-taxonomy category.
+ss_575.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_576.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_577.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_578.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_579.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_580.png,Work & Career,Work & Career,,high,Screenshot showing workplace/professional information.,Retained original 9-taxonomy category.
+ss_581.png,Work & Career,Work & Career,,high,Screenshot showing workplace/professional information.,Retained original 9-taxonomy category.
+ss_582.png,Work & Career,Work & Career,,high,Screenshot showing workplace/professional information.,Retained original 9-taxonomy category.
+ss_583.png,Work & Career,Work & Career,,high,Screenshot showing workplace/professional information.,Retained original 9-taxonomy category.
+ss_584.png,Work & Career,Work & Career,,high,Screenshot showing workplace/professional information.,Retained original 9-taxonomy category.
+ss_585.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_586.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_587.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_588.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_589.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_590.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_591.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_592.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_593.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_594.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_595.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_596.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_597.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_598.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_599.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_600.png,Work & Career,Work & Career,,low,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_601.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_602.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_603.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_604.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_605.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_606.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_607.png,Work & Career,Work & Career,,high,Screenshot showing job/career application content.,Retained original 9-taxonomy category.
+ss_608.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_609.png,Work & Career,Work & Career,,high,Screenshot showing job/career application content.,Retained original 9-taxonomy category.
+ss_610.png,Work & Career,Work & Career,,high,Screenshot showing job/career application content.,Retained original 9-taxonomy category.
+ss_611.png,Work & Career,Work & Career,,high,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_612.png,Work & Career,Work & Career,,high,Screenshot showing job/career application content.,Retained original 9-taxonomy category.
+ss_613.png,Work & Career,Work & Career,,high,Screenshot showing job/career application content.,Retained original 9-taxonomy category.
+ss_614.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_615.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_616.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_617.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_618.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_619.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_620.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_621.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_622.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_623.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_624.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_625.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_626.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_627.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_628.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_629.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_630.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_631.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_632.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_633.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_634.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_635.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_636.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_637.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_638.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_639.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_640.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_641.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_642.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_643.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_644.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_645.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_646.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_647.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_648.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_649.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_650.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_651.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_652.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_653.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_654.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_655.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_656.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_657.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_658.png,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_659.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_660.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_661.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_662.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_663.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_664.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_665.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_666.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_667.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_668.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_669.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_670.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_671.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_672.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_673.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_674.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_675.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_676.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_677.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_678.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_679.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_680.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_681.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_682.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_683.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_684.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_685.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_686.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_687.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_688.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_689.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_690.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_691.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_692.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_693.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_694.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_695.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_696.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_697.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_698.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_699.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_700.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_701.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_702.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_703.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_704.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_705.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_706.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_707.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_708.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_709.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_710.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_711.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_712.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_713.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_714.png,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_715.png,Communication,Communication,,high,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_716.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_717.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_718.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_719.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_720.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_721.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_722.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_723.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_724.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_725.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_726.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_727.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_728.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_729.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_730.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_731.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_732.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_733.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_734.png,Communication,Communication,,low,"Screenshot showing social activity, comments, or posts.",Retained original 9-taxonomy category.
+ss_735.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_736.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_737.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_738.png,Communication,Communication,,low,"Screenshot showing social activity, comments, or posts.",Retained original 9-taxonomy category.
+ss_739.png,Communication,Communication,,low,"Screenshot showing social activity, comments, or posts.",Retained original 9-taxonomy category.
+ss_740.png,Communication,Communication,,low,"Screenshot showing social activity, comments, or posts.",Retained original 9-taxonomy category.
+ss_741.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_742.png,Communication,Communication,,low,"Screenshot showing social activity, comments, or posts.",Retained original 9-taxonomy category.
+ss_743.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_744.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_745.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_746.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_747.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_748.png,Entertainment,Entertainment,,low,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_749.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_750.png,Communication,Communication,,low,"Screenshot showing social activity, comments, or posts.",Retained original 9-taxonomy category.
+ss_751.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_752.png,Communication,Communication,,low,"Screenshot showing social activity, comments, or posts.",Retained original 9-taxonomy category.
+ss_753.png,Communication,Communication,,low,"Screenshot showing social activity, comments, or posts.",Retained original 9-taxonomy category.
+ss_754.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_755.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_756.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_757.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_758.png,Communication,Communication,,low,"Screenshot showing social activity, comments, or posts.",Retained original 9-taxonomy category.
+ss_759.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_760.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_761.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_762.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_763.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_764.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_765.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_766.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_767.png,Communication,Communication,,low,"Screenshot showing social activity, comments, or posts.",Retained original 9-taxonomy category.
+ss_768.png,Payment,Payment,Payment,low,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",Retained original 9-taxonomy category.
+ss_769.png,Communication,Communication,,low,"Screenshot showing social activity, comments, or posts.",Retained original 9-taxonomy category.
+ss_770.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_771.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_772.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_773.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_774.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_775.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_776.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_777.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_778.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_779.png,Payment,Payment,Payment,low,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",Retained original 9-taxonomy category.
+ss_780.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_781.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_782.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_783.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_784.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_785.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_786.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_787.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_788.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_789.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_790.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_791.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_792.png,Communication,Communication,,low,Screenshot showing messaging or contact content.,Retained original 9-taxonomy category.
+ss_793.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_794.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_795.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_796.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_797.png,Communication,Communication,,low,"Screenshot showing email, messaging, social activity, comments, or communication content.",Retained original 9-taxonomy category.
+ss_798.png,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_799.jpg,Connectivity,Connectivity,Connectivity,high,Screenshot showing Wi-Fi/mobile-network or device connectivity.,Retained original 9-taxonomy category.
+ss_800.jpg,Payment,Payment,Payment,high,"UPI payment details screen showing a paid transaction, payment ID, amount, and payment timestamp.",Retained original 9-taxonomy category.
+ss_801.jpg,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_802.jpg,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_803.jpg,Payment,Payment,Payment,high,Screenshot showing payment or transaction details.,Retained original 9-taxonomy category.
+ss_804.jpg,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_805.jpg,Education,Education,,high,Screenshot showing college/academic information.,Retained original 9-taxonomy category.
+ss_806.jpg,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_807.jpg,Entertainment,Entertainment,,high,Screenshot showing streaming/movie content.,Retained original 9-taxonomy category.
+ss_808.jpg,Shopping,Shopping,Shopping,high,"Screenshot showing product pricing, offers, or discounts.",Retained original 9-taxonomy category.
+ss_809.jpg,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_810.jpg,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_811.jpg,Payment,Payment,Payment,high,Screenshot showing payment or transaction details.,Retained original 9-taxonomy category.
+ss_812.jpg,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_813.jpg,Payment,Payment,Payment,high,Screenshot showing payment or transaction details.,Retained original 9-taxonomy category.
+ss_814.jpg,Travel,Travel,,high,Screenshot showing travel booking or ticket information.,Retained original 9-taxonomy category.
+ss_815.jpg,Payment,Payment,Payment,high,Screenshot showing payment or transaction details.,Retained original 9-taxonomy category.
+ss_816.jpg,Education,Education,,high,Screenshot showing college/academic information.,Retained original 9-taxonomy category.
+ss_817.jpg,Travel,Travel,,high,"Screenshot showing travel, ticket, booking, route, or transport information.",Retained original 9-taxonomy category.
+ss_818.jpg,Shopping,Shopping,Shopping,high,"Screenshot showing order, delivery, or review details.",Retained original 9-taxonomy category.
+ss_819.jpg,General,General,,high,"Screenshot showing general app, utility, account, settings, or system content.",Retained original 9-taxonomy category.
+ss_820.jpg,Shopping,Shopping,Shopping,high,"Screenshot showing a product, shopping, offer, order, or delivery page.",Retained original 9-taxonomy category.
+ss_821.jpg,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_822.jpg,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_823.jpg,Entertainment,Entertainment,,high,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Retained original 9-taxonomy category.
+ss_824.jpg,Payment,Payment,Payment,low,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",Retained original 9-taxonomy category.
+ss_825.jpg,Education,Education,,high,"Screenshot showing academic, study, course, or learning-related content.",Retained original 9-taxonomy category.
+ss_826.jpg,General,Coding,"Coding, Software Development",high,Screenshot showing programming or software-development content.,Coding content without distinct educational or workplace context.
+ss_827.jpg,General,Coding,"Coding, Software Development",high,Screenshot showing programming or software-development content.,Coding content without distinct educational or workplace context.
+ss_828.jpg,Work & Career,Work & Career,,low,"Screenshot showing work, professional, job, office, or career-related content.",Retained original 9-taxonomy category.
+ss_829.jpg,Connectivity,Connectivity,Connectivity,low,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",Retained original 9-taxonomy category.
+ss_830.jpg,Connectivity,Connectivity,Connectivity,high,Screenshot showing Wi-Fi/mobile-network or device connectivity.,Retained original 9-taxonomy category.
+ss_831.jpg,Connectivity,Connectivity,Connectivity,high,Screenshot showing network connectivity/error status.,Retained original 9-taxonomy category.
+ss_832.jpg,Connectivity,Connectivity,Connectivity,high,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",Retained original 9-taxonomy category.
+ss_833.jpg,Connectivity,Connectivity,Connectivity,high,Screenshot showing network connectivity/error status.,Retained original 9-taxonomy category.
+ss_834.jpg,Connectivity,Connectivity,Connectivity,high,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",Retained original 9-taxonomy category.
+ss_835.jpg,Connectivity,Connectivity,Connectivity,high,Screenshot showing network connectivity/error status.,Retained original 9-taxonomy category.
+ss_836.jpg,Connectivity,Connectivity,Connectivity,high,Network-error dialog asking the user to check network connectivity and try again.,Retained original 9-taxonomy category.

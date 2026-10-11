@@ -1,0 +1,53 @@
+[
+  {
+    "ablation_id": "V1_Control",
+    "rule_config": {},
+    "enable_general_safeguard": false,
+    "val_top1": 0.936,
+    "val_mrr": 0.9586666666666667,
+    "corrections": 0,
+    "harms": 1
+  },
+  {
+    "ablation_id": "V2_Ablation_A_General_Safeguard",
+    "rule_config": {
+      "enable_rule1_education_calib": false,
+      "enable_rule2_work_dash_calib": false,
+      "enable_rule4_payment_calib": false,
+      "enable_rule5_shopping_calib": false
+    },
+    "enable_general_safeguard": true,
+    "val_top1": 0.936,
+    "val_mrr": 0.9586666666666667,
+    "corrections": 0,
+    "harms": 1
+  },
+  {
+    "ablation_id": "V2_Ablation_B_Education_Work_Calib",
+    "rule_config": {
+      "enable_rule1_education_calib": true,
+      "enable_rule2_work_dash_calib": true,
+      "enable_rule4_payment_calib": false,
+      "enable_rule5_shopping_calib": false
+    },
+    "enable_general_safeguard": true,
+    "val_top1": 0.936,
+    "val_mrr": 0.9586666666666667,
+    "corrections": 0,
+    "harms": 1
+  },
+  {
+    "ablation_id": "V2_Ablation_C_Full_Policy_V2",
+    "rule_config": {
+      "enable_rule1_education_calib": true,
+      "enable_rule2_work_dash_calib": true,
+      "enable_rule4_payment_calib": true,
+      "enable_rule5_shopping_calib": true
+    },
+    "enable_general_safeguard": true,
+    "val_top1": 0.936,
+    "val_mrr": 0.9586666666666667,
+    "corrections": 0,
+    "harms": 1
+  }
+]

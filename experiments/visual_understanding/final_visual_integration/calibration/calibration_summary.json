@@ -1,0 +1,5 @@
+{
+  "optimal_temperature": 1.4625,
+  "pre_calibration_ece": 0.232,
+  "post_calibration_ece": 0.3103
+}

@@ -1,0 +1,454 @@
+{
+  "semantic": {
+    "validation": {
+      "v2_baseline": {
+        "count": 125,
+        "correct_count": 117,
+        "top1_accuracy": 0.936,
+        "balanced_accuracy": 0.9795918367346939,
+        "macro_precision": 0.9350961538461539,
+        "macro_recall": 0.9795918367346939,
+        "macro_f1": 0.9515873015873015,
+        "weighted_precision": 0.953076923076923,
+        "weighted_recall": 0.936,
+        "weighted_f1": 0.9380825396825396,
+        "per_class": {
+          "Coding": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "Shopping": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 17
+          },
+          "Travel": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 2
+          },
+          "Education": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 2
+          },
+          "Communication": {
+            "precision": 0.75,
+            "recall": 1.0,
+            "f1": 0.8571428571428571,
+            "support": 3
+          },
+          "Entertainment": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 25
+          },
+          "Work & Career": {
+            "precision": 1.0,
+            "recall": 0.8367346938775511,
+            "f1": 0.9111111111111111,
+            "support": 49
+          },
+          "Payment": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 8
+          },
+          "Connectivity": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "General": {
+            "precision": 0.7307692307692307,
+            "recall": 1.0,
+            "f1": 0.8444444444444444,
+            "support": 19
+          }
+        }
+      },
+      "v3_web_candidate": {
+        "count": 125,
+        "correct_count": 117,
+        "top1_accuracy": 0.936,
+        "balanced_accuracy": 0.9795918367346939,
+        "macro_precision": 0.9350961538461539,
+        "macro_recall": 0.9795918367346939,
+        "macro_f1": 0.9515873015873015,
+        "weighted_precision": 0.953076923076923,
+        "weighted_recall": 0.936,
+        "weighted_f1": 0.9380825396825396,
+        "per_class": {
+          "Coding": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "Shopping": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 17
+          },
+          "Travel": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 2
+          },
+          "Education": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 2
+          },
+          "Communication": {
+            "precision": 0.75,
+            "recall": 1.0,
+            "f1": 0.8571428571428571,
+            "support": 3
+          },
+          "Entertainment": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 25
+          },
+          "Work & Career": {
+            "precision": 1.0,
+            "recall": 0.8367346938775511,
+            "f1": 0.9111111111111111,
+            "support": 49
+          },
+          "Payment": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 8
+          },
+          "Connectivity": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "General": {
+            "precision": 0.7307692307692307,
+            "recall": 1.0,
+            "f1": 0.8444444444444444,
+            "support": 19
+          }
+        }
+      }
+    },
+    "internal_holdout": {
+      "v2_baseline": {
+        "count": 125,
+        "correct_count": 124,
+        "top1_accuracy": 0.992,
+        "balanced_accuracy": 0.9941520467836258,
+        "macro_precision": 0.9629629629629629,
+        "macro_recall": 0.9941520467836258,
+        "macro_f1": 0.9747747747747747,
+        "weighted_precision": 0.9946666666666666,
+        "weighted_recall": 0.992,
+        "weighted_f1": 0.9926918918918918,
+        "per_class": {
+          "Coding": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "Shopping": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 46
+          },
+          "Travel": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 27
+          },
+          "Education": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 4
+          },
+          "Communication": {
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1": 0.8,
+            "support": 2
+          },
+          "Entertainment": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 8
+          },
+          "Work & Career": {
+            "precision": 1.0,
+            "recall": 0.9473684210526315,
+            "f1": 0.972972972972973,
+            "support": 19
+          },
+          "Payment": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          },
+          "Connectivity": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          },
+          "General": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 17
+          }
+        }
+      },
+      "v3_web_candidate": {
+        "count": 125,
+        "correct_count": 124,
+        "top1_accuracy": 0.992,
+        "balanced_accuracy": 0.9941520467836258,
+        "macro_precision": 0.9629629629629629,
+        "macro_recall": 0.9941520467836258,
+        "macro_f1": 0.9747747747747747,
+        "weighted_precision": 0.9946666666666666,
+        "weighted_recall": 0.992,
+        "weighted_f1": 0.9926918918918918,
+        "per_class": {
+          "Coding": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "Shopping": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 46
+          },
+          "Travel": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 27
+          },
+          "Education": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 4
+          },
+          "Communication": {
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1": 0.8,
+            "support": 2
+          },
+          "Entertainment": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 8
+          },
+          "Work & Career": {
+            "precision": 1.0,
+            "recall": 0.9473684210526315,
+            "f1": 0.972972972972973,
+            "support": 19
+          },
+          "Payment": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          },
+          "Connectivity": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          },
+          "General": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 17
+          }
+        }
+      }
+    },
+    "external_benchmark": {
+      "v2_baseline": {
+        "count": 60,
+        "correct_count": 37,
+        "top1_accuracy": 0.6166666666666667,
+        "balanced_accuracy": 0.6606142951251647,
+        "macro_precision": 0.5877425044091711,
+        "macro_recall": 0.5872127067779241,
+        "macro_f1": 0.5521521521521522,
+        "weighted_precision": 0.7902116402116403,
+        "weighted_recall": 0.6166666666666667,
+        "weighted_f1": 0.6721471471471472,
+        "per_class": {
+          "Coding": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "Shopping": {
+            "precision": 0.7777777777777778,
+            "recall": 0.6363636363636364,
+            "f1": 0.7,
+            "support": 11
+          },
+          "Travel": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 5
+          },
+          "Education": {
+            "precision": 0.9285714285714286,
+            "recall": 0.5652173913043478,
+            "f1": 0.7027027027027027,
+            "support": 23
+          },
+          "Communication": {
+            "precision": 0.25,
+            "recall": 1.0,
+            "f1": 0.4,
+            "support": 2
+          },
+          "Entertainment": {
+            "precision": 0.5,
+            "recall": 0.25,
+            "f1": 0.3333333333333333,
+            "support": 8
+          },
+          "Work & Career": {
+            "precision": 0.8333333333333334,
+            "recall": 0.8333333333333334,
+            "f1": 0.8333333333333334,
+            "support": 6
+          },
+          "Payment": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 3
+          },
+          "Connectivity": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "General": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 2
+          }
+        }
+      },
+      "v3_web_candidate": {
+        "count": 60,
+        "correct_count": 47,
+        "top1_accuracy": 0.7833333333333333,
+        "balanced_accuracy": 0.7573904808959158,
+        "macro_precision": 0.6961722488038278,
+        "macro_recall": 0.6732359830185917,
+        "macro_f1": 0.668923668923669,
+        "weighted_precision": 0.8964912280701753,
+        "weighted_recall": 0.7833333333333333,
+        "weighted_f1": 0.8276001776001775,
+        "per_class": {
+          "Coding": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "Shopping": {
+            "precision": 0.8181818181818182,
+            "recall": 0.8181818181818182,
+            "f1": 0.8181818181818182,
+            "support": 11
+          },
+          "Travel": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 5
+          },
+          "Education": {
+            "precision": 0.9473684210526315,
+            "recall": 0.782608695652174,
+            "f1": 0.8571428571428571,
+            "support": 23
+          },
+          "Communication": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666,
+            "support": 2
+          },
+          "Entertainment": {
+            "precision": 1.0,
+            "recall": 0.625,
+            "f1": 0.7692307692307693,
+            "support": 8
+          },
+          "Work & Career": {
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1": 0.9090909090909091,
+            "support": 6
+          },
+          "Payment": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 3
+          },
+          "Connectivity": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "General": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 2
+          }
+        }
+      }
+    }
+  }
+}

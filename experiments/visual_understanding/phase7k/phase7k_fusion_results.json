@@ -1,0 +1,321 @@
+{
+  "strategies": {
+    "Strategy A (Semantic Baseline)": {
+      "top1_accuracy": 0.68,
+      "macro_f1": 0.5714,
+      "weighted_f1": 0.68,
+      "balanced_accuracy": 0.8,
+      "corrected_samples": 0,
+      "harmed_samples": 0
+    },
+    "Strategy B (Visual Baseline Mapped)": {
+      "top1_accuracy": 0.68,
+      "macro_f1": 0.3698,
+      "weighted_f1": 0.6612,
+      "balanced_accuracy": 0.445,
+      "corrected_samples": 5,
+      "harmed_samples": 5
+    },
+    "Strategy C (Rule-Based Agreement)": {
+      "top1_accuracy": 0.88,
+      "macro_f1": 0.6813,
+      "weighted_f1": 0.9262,
+      "balanced_accuracy": 0.925,
+      "corrected_samples": 5,
+      "harmed_samples": 0
+    },
+    "Strategy D (Weighted Score Fusion)": {
+      "top1_accuracy": 0.68,
+      "macro_f1": 0.5714,
+      "weighted_f1": 0.68,
+      "balanced_accuracy": 0.8,
+      "corrected_samples": 0,
+      "harmed_samples": 0
+    },
+    "Strategy E (Selective Overriding)": {
+      "top1_accuracy": 0.88,
+      "macro_f1": 0.6813,
+      "weighted_f1": 0.9262,
+      "balanced_accuracy": 0.925,
+      "corrected_samples": 5,
+      "harmed_samples": 0
+    }
+  },
+  "detailed_samples": [
+    {
+      "screenshot_id": "ss_001.jpg",
+      "filename": "ss_001.jpg",
+      "ground_truth_semantic": "Coding",
+      "ground_truth_visual": "code_editor_terminal",
+      "semantic_baseline_pred": "Work & Career",
+      "visual_model_pred": "travel_booking",
+      "visual_mapped_pred": "Travel",
+      "winning_fusion_pred": "Work & Career",
+      "evidence_category": "Both Branches Wrong"
+    },
+    {
+      "screenshot_id": "ss_028.jpg",
+      "filename": "ss_028.jpg",
+      "ground_truth_semantic": "Coding",
+      "ground_truth_visual": "document_article_view",
+      "semantic_baseline_pred": "General",
+      "visual_model_pred": "code_editor_terminal",
+      "visual_mapped_pred": "Coding",
+      "winning_fusion_pred": "Coding",
+      "evidence_category": "Semantic Wrong, Visual Provides Correcting Evidence"
+    },
+    {
+      "screenshot_id": "ss_037.jpg",
+      "filename": "ss_037.jpg",
+      "ground_truth_semantic": "Coding",
+      "ground_truth_visual": "code_editor_terminal",
+      "semantic_baseline_pred": "General",
+      "visual_model_pred": "code_editor_terminal",
+      "visual_mapped_pred": "Coding",
+      "winning_fusion_pred": "Coding",
+      "evidence_category": "Semantic Wrong, Visual Provides Correcting Evidence"
+    },
+    {
+      "screenshot_id": "ss_041.jpg",
+      "filename": "ss_041.jpg",
+      "ground_truth_semantic": "Coding",
+      "ground_truth_visual": "code_editor_terminal",
+      "semantic_baseline_pred": "General",
+      "visual_model_pred": "code_editor_terminal",
+      "visual_mapped_pred": "Coding",
+      "winning_fusion_pred": "Coding",
+      "evidence_category": "Semantic Wrong, Visual Provides Correcting Evidence"
+    },
+    {
+      "screenshot_id": "ss_045.jpg",
+      "filename": "ss_045.jpg",
+      "ground_truth_semantic": "Coding",
+      "ground_truth_visual": "code_editor_terminal",
+      "semantic_baseline_pred": "General",
+      "visual_model_pred": "code_editor_terminal",
+      "visual_mapped_pred": "Coding",
+      "winning_fusion_pred": "Coding",
+      "evidence_category": "Semantic Wrong, Visual Provides Correcting Evidence"
+    },
+    {
+      "screenshot_id": "ss_059.jpg",
+      "filename": "ss_059.jpg",
+      "ground_truth_semantic": "Coding",
+      "ground_truth_visual": "document_article_view",
+      "semantic_baseline_pred": "General",
+      "visual_model_pred": "document_article_view",
+      "visual_mapped_pred": "Education",
+      "winning_fusion_pred": "General",
+      "evidence_category": "Both Branches Wrong"
+    },
+    {
+      "screenshot_id": "ss_060.jpg",
+      "filename": "ss_060.jpg",
+      "ground_truth_semantic": "Coding",
+      "ground_truth_visual": "document_article_view",
+      "semantic_baseline_pred": "General",
+      "visual_model_pred": "document_article_view",
+      "visual_mapped_pred": "Education",
+      "winning_fusion_pred": "General",
+      "evidence_category": "Both Branches Wrong"
+    },
+    {
+      "screenshot_id": "ss_062.jpg",
+      "filename": "ss_062.jpg",
+      "ground_truth_semantic": "Coding",
+      "ground_truth_visual": "code_editor_terminal",
+      "semantic_baseline_pred": "General",
+      "visual_model_pred": "code_editor_terminal",
+      "visual_mapped_pred": "Coding",
+      "winning_fusion_pred": "Coding",
+      "evidence_category": "Semantic Wrong, Visual Provides Correcting Evidence"
+    },
+    {
+      "screenshot_id": "ss_093.jpg",
+      "filename": "ss_093.jpg",
+      "ground_truth_semantic": "Entertainment",
+      "ground_truth_visual": "media_player_library",
+      "semantic_baseline_pred": "Entertainment",
+      "visual_model_pred": "media_player_library",
+      "visual_mapped_pred": "Entertainment",
+      "winning_fusion_pred": "Entertainment",
+      "evidence_category": "Semantic Correct, Visual Agrees"
+    },
+    {
+      "screenshot_id": "ss_132.png",
+      "filename": "ss_132.png",
+      "ground_truth_semantic": "Entertainment",
+      "ground_truth_visual": "media_player_library",
+      "semantic_baseline_pred": "Entertainment",
+      "visual_model_pred": "media_player_library",
+      "visual_mapped_pred": "Entertainment",
+      "winning_fusion_pred": "Entertainment",
+      "evidence_category": "Semantic Correct, Visual Agrees"
+    },
+    {
+      "screenshot_id": "ss_158.jpg",
+      "filename": "ss_158.jpg",
+      "ground_truth_semantic": "Communication",
+      "ground_truth_visual": "document_article_view",
+      "semantic_baseline_pred": "Communication",
+      "visual_model_pred": "media_player_library",
+      "visual_mapped_pred": "Entertainment",
+      "winning_fusion_pred": "Communication",
+      "evidence_category": "Semantic Correct, Visual Disagrees"
+    },
+    {
+      "screenshot_id": "ss_195.png",
+      "filename": "ss_195.png",
+      "ground_truth_semantic": "Entertainment",
+      "ground_truth_visual": "media_player_library",
+      "semantic_baseline_pred": "Entertainment",
+      "visual_model_pred": "media_player_library",
+      "visual_mapped_pred": "Entertainment",
+      "winning_fusion_pred": "Entertainment",
+      "evidence_category": "Semantic Correct, Visual Agrees"
+    },
+    {
+      "screenshot_id": "ss_206.png",
+      "filename": "ss_206.png",
+      "ground_truth_semantic": "Entertainment",
+      "ground_truth_visual": "media_player_library",
+      "semantic_baseline_pred": "Entertainment",
+      "visual_model_pred": "travel_booking",
+      "visual_mapped_pred": "Travel",
+      "winning_fusion_pred": "Entertainment",
+      "evidence_category": "Semantic Correct, Visual Disagrees"
+    },
+    {
+      "screenshot_id": "ss_210.png",
+      "filename": "ss_210.png",
+      "ground_truth_semantic": "Travel",
+      "ground_truth_visual": "travel_booking",
+      "semantic_baseline_pred": "Travel",
+      "visual_model_pred": "travel_booking",
+      "visual_mapped_pred": "Travel",
+      "winning_fusion_pred": "Travel",
+      "evidence_category": "Semantic Correct, Visual Agrees"
+    },
+    {
+      "screenshot_id": "ss_211.png",
+      "filename": "ss_211.png",
+      "ground_truth_semantic": "Travel",
+      "ground_truth_visual": "travel_booking",
+      "semantic_baseline_pred": "Travel",
+      "visual_model_pred": "travel_booking",
+      "visual_mapped_pred": "Travel",
+      "winning_fusion_pred": "Travel",
+      "evidence_category": "Semantic Correct, Visual Agrees"
+    },
+    {
+      "screenshot_id": "ss_297.jpg",
+      "filename": "ss_297.jpg",
+      "ground_truth_semantic": "Entertainment",
+      "ground_truth_visual": "media_player_library",
+      "semantic_baseline_pred": "Entertainment",
+      "visual_model_pred": "travel_booking",
+      "visual_mapped_pred": "Travel",
+      "winning_fusion_pred": "Entertainment",
+      "evidence_category": "Semantic Correct, Visual Disagrees"
+    },
+    {
+      "screenshot_id": "ss_393.png",
+      "filename": "ss_393.png",
+      "ground_truth_semantic": "Travel",
+      "ground_truth_visual": "travel_booking",
+      "semantic_baseline_pred": "Travel",
+      "visual_model_pred": "travel_booking",
+      "visual_mapped_pred": "Travel",
+      "winning_fusion_pred": "Travel",
+      "evidence_category": "Semantic Correct, Visual Agrees"
+    },
+    {
+      "screenshot_id": "ss_395.png",
+      "filename": "ss_395.png",
+      "ground_truth_semantic": "Travel",
+      "ground_truth_visual": "travel_booking",
+      "semantic_baseline_pred": "Travel",
+      "visual_model_pred": "travel_booking",
+      "visual_mapped_pred": "Travel",
+      "winning_fusion_pred": "Travel",
+      "evidence_category": "Semantic Correct, Visual Agrees"
+    },
+    {
+      "screenshot_id": "ss_398.png",
+      "filename": "ss_398.png",
+      "ground_truth_semantic": "Travel",
+      "ground_truth_visual": "travel_booking",
+      "semantic_baseline_pred": "Travel",
+      "visual_model_pred": "travel_booking",
+      "visual_mapped_pred": "Travel",
+      "winning_fusion_pred": "Travel",
+      "evidence_category": "Semantic Correct, Visual Agrees"
+    },
+    {
+      "screenshot_id": "ss_430.jpg",
+      "filename": "ss_430.jpg",
+      "ground_truth_semantic": "Connectivity",
+      "ground_truth_visual": "dashboard_settings",
+      "semantic_baseline_pred": "Connectivity",
+      "visual_model_pred": "travel_booking",
+      "visual_mapped_pred": "Travel",
+      "winning_fusion_pred": "Connectivity",
+      "evidence_category": "Semantic Correct, Visual Disagrees"
+    },
+    {
+      "screenshot_id": "ss_547.png",
+      "filename": "ss_547.png",
+      "ground_truth_semantic": "Travel",
+      "ground_truth_visual": "travel_booking",
+      "semantic_baseline_pred": "Travel",
+      "visual_model_pred": "travel_booking",
+      "visual_mapped_pred": "Travel",
+      "winning_fusion_pred": "Travel",
+      "evidence_category": "Semantic Correct, Visual Agrees"
+    },
+    {
+      "screenshot_id": "ss_663.png",
+      "filename": "ss_663.png",
+      "ground_truth_semantic": "Travel",
+      "ground_truth_visual": "travel_booking",
+      "semantic_baseline_pred": "Travel",
+      "visual_model_pred": "travel_booking",
+      "visual_mapped_pred": "Travel",
+      "winning_fusion_pred": "Travel",
+      "evidence_category": "Semantic Correct, Visual Agrees"
+    },
+    {
+      "screenshot_id": "ss_665.png",
+      "filename": "ss_665.png",
+      "ground_truth_semantic": "Travel",
+      "ground_truth_visual": "travel_booking",
+      "semantic_baseline_pred": "Travel",
+      "visual_model_pred": "travel_booking",
+      "visual_mapped_pred": "Travel",
+      "winning_fusion_pred": "Travel",
+      "evidence_category": "Semantic Correct, Visual Agrees"
+    },
+    {
+      "screenshot_id": "ss_673.png",
+      "filename": "ss_673.png",
+      "ground_truth_semantic": "Travel",
+      "ground_truth_visual": "travel_booking",
+      "semantic_baseline_pred": "Travel",
+      "visual_model_pred": "travel_booking",
+      "visual_mapped_pred": "Travel",
+      "winning_fusion_pred": "Travel",
+      "evidence_category": "Semantic Correct, Visual Agrees"
+    },
+    {
+      "screenshot_id": "ss_799.jpg",
+      "filename": "ss_799.jpg",
+      "ground_truth_semantic": "Connectivity",
+      "ground_truth_visual": "code_editor_terminal",
+      "semantic_baseline_pred": "Connectivity",
+      "visual_model_pred": "travel_booking",
+      "visual_mapped_pred": "Travel",
+      "winning_fusion_pred": "Connectivity",
+      "evidence_category": "Semantic Correct, Visual Disagrees"
+    }
+  ]
+}

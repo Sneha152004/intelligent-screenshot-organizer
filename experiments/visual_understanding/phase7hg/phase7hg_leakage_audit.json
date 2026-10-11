@@ -1,0 +1,94 @@
+{
+  "audit_timestamp": "2026-10-03 22:32:36",
+  "primary_benchmark_audit": {
+    "benchmark_name": "Primary 5-Class Benchmark",
+    "overall_leakage_audit_pass": true,
+    "checks": {
+      "group_overlap_check": {
+        "pass": true,
+        "conflicts": 0
+      },
+      "md5_overlap_check": {
+        "pass": true,
+        "conflicts": 0
+      },
+      "screenshot_id_overlap_check": {
+        "pass": true,
+        "conflicts": 0
+      },
+      "filename_overlap_check": {
+        "pass": true,
+        "conflicts": 0
+      },
+      "missing_files_check": {
+        "pass": true,
+        "missing_count": 0
+      },
+      "corrupted_files_check": {
+        "pass": true,
+        "corrupted_count": 0
+      },
+      "invalid_taxonomy_check": {
+        "pass": true,
+        "invalid_count": 0
+      },
+      "non_human_verified_check": {
+        "pass": true,
+        "unverified_count": 0
+      },
+      "multi_partition_check": {
+        "pass": true,
+        "multi_assigned_count": 0
+      },
+      "unreasoned_omission_check": {
+        "pass": true
+      }
+    }
+  },
+  "extended_benchmark_audit": {
+    "benchmark_name": "Extended 8-Class Benchmark",
+    "overall_leakage_audit_pass": true,
+    "checks": {
+      "group_overlap_check": {
+        "pass": true,
+        "conflicts": 0
+      },
+      "md5_overlap_check": {
+        "pass": true,
+        "conflicts": 0
+      },
+      "screenshot_id_overlap_check": {
+        "pass": true,
+        "conflicts": 0
+      },
+      "filename_overlap_check": {
+        "pass": true,
+        "conflicts": 0
+      },
+      "missing_files_check": {
+        "pass": true,
+        "missing_count": 0
+      },
+      "corrupted_files_check": {
+        "pass": true,
+        "corrupted_count": 0
+      },
+      "invalid_taxonomy_check": {
+        "pass": true,
+        "invalid_count": 0
+      },
+      "non_human_verified_check": {
+        "pass": true,
+        "unverified_count": 0
+      },
+      "multi_partition_check": {
+        "pass": true,
+        "multi_assigned_count": 0
+      },
+      "unreasoned_omission_check": {
+        "pass": true
+      }
+    }
+  },
+  "overall_leakage_audit_status": "PASSED"
+}

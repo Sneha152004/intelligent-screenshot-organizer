@@ -1,0 +1,823 @@
+[
+  {
+    "screenshot_id": "ext2_013",
+    "file": "ext2_013.jpg",
+    "image_path": "C:\\Users\\KIIT0001\\Documents\\intelligent-screenshot-organizer\\experiments\\intelligence\\external_v2\\images\\ext2_013.jpg",
+    "ground_truth_category": "General",
+    "label_reason": "Miscellaneous UI screen with low domain-specific context.",
+    "classifier_top1": "Work & Career",
+    "classifier_top3": [
+      "Work & Career",
+      "Travel",
+      "Education"
+    ],
+    "classifier_top_candidates": [
+      "Work & Career",
+      "Travel",
+      "Education"
+    ],
+    "minilm_candidates": [
+      "Work & Career",
+      "Education",
+      "Coding",
+      "Travel",
+      "Payment"
+    ],
+    "final_candidate_pool": [
+      "Work & Career",
+      "Travel",
+      "Education",
+      "Coding",
+      "Payment"
+    ],
+    "yolo_visual_prediction": {
+      "screen_type": "other_screen",
+      "confidence": 0.0
+    },
+    "ocr_text": "Deuon warka > Proloctt stotur Proline Projects Tasks Cmplo chuln Cel Ei Hony Kothicotons KT Inha Aupdoto FDI Uuilc (tudo 0 Jan 70z7 Ar7tl piun Projects Timeline Foretd7ro HoteetEotut cmyoto chot Crypla choin  D Mcu Wenel ciplo choin I Icoan cuuoelluzic Fnonclo Finnncin Job Nincne Jobhuder otantrooro",
+    "ocr_density": "rich_text",
+    "word_count": 47,
+    "in_intermediate_sources": {
+      "in_clf_top3": false,
+      "in_clf_all": false,
+      "in_minilm_top5": false
+    },
+    "final_best_of_all_prediction": "Work & Career",
+    "failure_stage": "both_miss"
+  },
+  {
+    "screenshot_id": "ext2_021",
+    "file": "ext2_021.jpg",
+    "image_path": "C:\\Users\\KIIT0001\\Documents\\intelligent-screenshot-organizer\\experiments\\intelligence\\external_v2\\images\\ext2_021.jpg",
+    "ground_truth_category": "General",
+    "label_reason": "Miscellaneous UI screen with low domain-specific context.",
+    "classifier_top1": "Work & Career",
+    "classifier_top3": [
+      "Work & Career"
+    ],
+    "classifier_top_candidates": [],
+    "minilm_candidates": [
+      "Work & Career",
+      "Education",
+      "Payment",
+      "Travel",
+      "Shopping"
+    ],
+    "final_candidate_pool": [
+      "Work & Career",
+      "Education",
+      "Payment",
+      "Travel",
+      "Shopping"
+    ],
+    "yolo_visual_prediction": {
+      "screen_type": "other_screen",
+      "confidence": 0.0
+    },
+    "ocr_text": "Business Partner CRM Mex Dulu Update Se ected Futrer Short 120 Resulis Add New Clieni Name Company Listing Price Aodress Status Riya Kapoor Hypcrfnk 512.845,600 Q1 MG Rond; Bongoluru: India Acceolto Karav Sharma Kriritim S10,.054,350 502 Bangr Main Ral Pune: India Ncaolanon Olivia Bonnoti NconFlux 59,842.120 1201. Embcr St Ausiin TX USA ece Hal-At Eihan Colling Nexalytic; 86.784,J00 452 Murin , D. Sun Jose: CA USA Ranavc lt Rohan Iyer NovaStack 812 345,9C0 885. Carter Rd; Mumbal: Indi Acccolto Snoha Pate| ObiOng 68,970,500 Lakohill Rd. Ahmedabad Indiu Dantel Rivera QuaniEcge 511,222,.400 17 Rrge Bvd Oeman CO: USA 'Under Rurrut Nalt Synthora 67,315,750 210. Autrs Avu; Kochi; India Pio Eucind Acilyu Ruo Alpha  mbus 514,6oa,000 660 Hurbour RJ; Churinu , India M Ncnoliahon Ksha Vuritia BiBrioge 55,045,380 79 Seclor 21, Gurguon, India Duvid Jonnion Bluomoltor 613,4180,900 312 , Pino Vium: Scaltlc WA, US4 Under Ranax Tura Mction BlucMairr 610.350,700 4T8. Grayslane Are Irivandium; India Acccpled Jack Thompson Cloud Vortox 86,112,200 92, Solar St; Los Angelas; C4; USA Prospoctia Riya Nombiar GrcLabs 516,480.250 804 Zan Park; Eengu uru: India Nccotiaton Mn",
+    "ocr_density": "rich_text",
+    "word_count": 179,
+    "in_intermediate_sources": {
+      "in_clf_top3": false,
+      "in_clf_all": false,
+      "in_minilm_top5": false
+    },
+    "final_best_of_all_prediction": "Work & Career",
+    "failure_stage": "both_miss"
+  },
+  {
+    "screenshot_id": "ext2_027",
+    "file": "ext2_027.jpg",
+    "image_path": "C:\\Users\\KIIT0001\\Documents\\intelligent-screenshot-organizer\\experiments\\intelligence\\external_v2\\images\\ext2_027.jpg",
+    "ground_truth_category": "General",
+    "label_reason": "Miscellaneous UI screen with low domain-specific context.",
+    "classifier_top1": "Education",
+    "classifier_top3": [
+      "Education"
+    ],
+    "classifier_top_candidates": [],
+    "minilm_candidates": [
+      "Work & Career",
+      "Coding",
+      "Communication",
+      "Education",
+      "Travel"
+    ],
+    "final_candidate_pool": [
+      "Education",
+      "Work & Career",
+      "Coding",
+      "Communication",
+      "Travel"
+    ],
+    "yolo_visual_prediction": {
+      "screen_type": "other_screen",
+      "confidence": 0.0
+    },
+    "ocr_text": "Beyond Technical Knowledge Communication Ethics & Sustainability Engineers spend ~40% of their Every design decision carries time writing reports, presenting; environmental and social and collaborating not just consequences engineers are coding or designing responsible for both Adaptability Half of today's engineering tools didnt exist 10 years ago the ability to learn continuously is non-negotiable",
+    "ocr_density": "rich_text",
+    "word_count": 54,
+    "in_intermediate_sources": {
+      "in_clf_top3": false,
+      "in_clf_all": false,
+      "in_minilm_top5": false
+    },
+    "final_best_of_all_prediction": "Education",
+    "failure_stage": "both_miss"
+  },
+  {
+    "screenshot_id": "ext2_084",
+    "file": "ext2_084.jpg",
+    "image_path": "C:\\Users\\KIIT0001\\Documents\\intelligent-screenshot-organizer\\experiments\\intelligence\\external_v2\\images\\ext2_084.jpg",
+    "ground_truth_category": "General",
+    "label_reason": "Miscellaneous UI screen with low domain-specific context.",
+    "classifier_top1": "Education",
+    "classifier_top3": [
+      "Education",
+      "Travel",
+      "Communication"
+    ],
+    "classifier_top_candidates": [
+      "Education",
+      "Travel",
+      "Communication"
+    ],
+    "minilm_candidates": [
+      "Education",
+      "Payment",
+      "Travel",
+      "Coding",
+      "Entertainment"
+    ],
+    "final_candidate_pool": [
+      "Education",
+      "Travel",
+      "Communication",
+      "Payment",
+      "Coding",
+      "Entertainment"
+    ],
+    "yolo_visual_prediction": {
+      "screen_type": "other_screen",
+      "confidence": 0.0
+    },
+    "ocr_text": "Program Visualle Weka Explorer Preprocess Classily Cluster Assaciate Select attributes Visualze Open fille Open URL Open DB; Generate: Undo Edig: tue choose None Apply Curent relation Selected attribute Relation: None Attributes: None Name: None Weight: None Type: None Instances: None Sum af weights: None Missing: None Dislinc None Unique: Nane Attributes None Unven Pattemn Load Instances File 'ClUsers| KIIIUOUT Documents data tor researci Sheetzcsv' not recognised a5 an dala files' file; Reason: wrong number af values- Read expected 8, read Token[EOL] line 15 Problem encountered on Iine: 15 Visualize All Ok Use Converter Walato Ennronment I0 Vetvon JA6 i91989 n Filter Stom \"CSV",
+    "ocr_density": "rich_text",
+    "word_count": 103,
+    "in_intermediate_sources": {
+      "in_clf_top3": false,
+      "in_clf_all": false,
+      "in_minilm_top5": false
+    },
+    "final_best_of_all_prediction": "Education",
+    "failure_stage": "both_miss"
+  },
+  {
+    "screenshot_id": "ext2_092",
+    "file": "ext2_092.jpg",
+    "image_path": "C:\\Users\\KIIT0001\\Documents\\intelligent-screenshot-organizer\\experiments\\intelligence\\external_v2\\images\\ext2_092.jpg",
+    "ground_truth_category": "General",
+    "label_reason": "Miscellaneous UI screen with low domain-specific context.",
+    "classifier_top1": "Payment",
+    "classifier_top3": [
+      "Payment",
+      "Communication",
+      "Travel"
+    ],
+    "classifier_top_candidates": [
+      "Payment",
+      "Communication",
+      "Travel"
+    ],
+    "minilm_candidates": [
+      "Shopping",
+      "Payment",
+      "Communication",
+      "Travel",
+      "Education"
+    ],
+    "final_candidate_pool": [
+      "Payment",
+      "Communication",
+      "Travel",
+      "Shopping",
+      "Education"
+    ],
+    "yolo_visual_prediction": {
+      "screen_type": "other_screen",
+      "confidence": 0.0
+    },
+    "ocr_text": "You sent S2,685.00 USD to Dirk Magdahl Transaction Details Transaction ID Transaction 8YJ103289E3123810 date August 11 , 2024 Money sent S2,685.00 USD Fee S78.17 USD Paid with: AMEX x-8004 S2,763.17 USD",
+    "ocr_density": "rich_text",
+    "word_count": 31,
+    "in_intermediate_sources": {
+      "in_clf_top3": false,
+      "in_clf_all": false,
+      "in_minilm_top5": false
+    },
+    "final_best_of_all_prediction": "Payment",
+    "failure_stage": "both_miss"
+  },
+  {
+    "screenshot_id": "ext2_094",
+    "file": "ext2_094.jpg",
+    "image_path": "C:\\Users\\KIIT0001\\Documents\\intelligent-screenshot-organizer\\experiments\\intelligence\\external_v2\\images\\ext2_094.jpg",
+    "ground_truth_category": "General",
+    "label_reason": "Miscellaneous UI screen with low domain-specific context.",
+    "classifier_top1": "Payment",
+    "classifier_top3": [
+      "Payment",
+      "Education",
+      "Travel"
+    ],
+    "classifier_top_candidates": [
+      "Payment",
+      "Education",
+      "Travel"
+    ],
+    "minilm_candidates": [
+      "Payment",
+      "Work & Career",
+      "Education",
+      "Travel",
+      "Communication"
+    ],
+    "final_candidate_pool": [
+      "Payment",
+      "Education",
+      "Travel",
+      "Work & Career",
+      "Communication"
+    ],
+    "yolo_visual_prediction": {
+      "screen_type": "other_screen",
+      "confidence": 0.0
+    },
+    "ocr_text": "Yiuuio Available Set up auto transfers Lia 7 Insights Money in S100,000 Total ecewed Request money Money out S20,000 Total ten6 ef spens Sand monet",
+    "ocr_density": "rich_text",
+    "word_count": 25,
+    "in_intermediate_sources": {
+      "in_clf_top3": false,
+      "in_clf_all": false,
+      "in_minilm_top5": false
+    },
+    "final_best_of_all_prediction": "Payment",
+    "failure_stage": "both_miss"
+  },
+  {
+    "screenshot_id": "ext2_098",
+    "file": "ext2_098.jpg",
+    "image_path": "C:\\Users\\KIIT0001\\Documents\\intelligent-screenshot-organizer\\experiments\\intelligence\\external_v2\\images\\ext2_098.jpg",
+    "ground_truth_category": "General",
+    "label_reason": "Miscellaneous UI screen with low domain-specific context.",
+    "classifier_top1": "Payment",
+    "classifier_top3": [
+      "Payment",
+      "Education",
+      "Travel"
+    ],
+    "classifier_top_candidates": [
+      "Payment",
+      "Education",
+      "Travel"
+    ],
+    "minilm_candidates": [
+      "Payment",
+      "Work & Career",
+      "Shopping",
+      "Travel",
+      "Communication"
+    ],
+    "final_candidate_pool": [
+      "Payment",
+      "Education",
+      "Travel",
+      "Work & Career",
+      "Shopping",
+      "Communication"
+    ],
+    "yolo_visual_prediction": {
+      "screen_type": "other_screen",
+      "confidence": 0.0
+    },
+    "ocr_text": "Transfer complete $6,000 From Checking Savings Frequency One-timo Availability Instant",
+    "ocr_density": "moderate_text",
+    "word_count": 10,
+    "in_intermediate_sources": {
+      "in_clf_top3": false,
+      "in_clf_all": false,
+      "in_minilm_top5": false
+    },
+    "final_best_of_all_prediction": "Payment",
+    "failure_stage": "both_miss"
+  },
+  {
+    "screenshot_id": "ext2_105",
+    "file": "ext2_105.jpg",
+    "image_path": "C:\\Users\\KIIT0001\\Documents\\intelligent-screenshot-organizer\\experiments\\intelligence\\external_v2\\images\\ext2_105.jpg",
+    "ground_truth_category": "General",
+    "label_reason": "Miscellaneous UI screen with low domain-specific context.",
+    "classifier_top1": "Payment",
+    "classifier_top3": [
+      "Payment",
+      "Education",
+      "Travel"
+    ],
+    "classifier_top_candidates": [
+      "Payment",
+      "Education",
+      "Travel"
+    ],
+    "minilm_candidates": [
+      "Payment",
+      "Travel",
+      "Education",
+      "Work & Career",
+      "Coding"
+    ],
+    "final_candidate_pool": [
+      "Payment",
+      "Education",
+      "Travel",
+      "Work & Career",
+      "Coding"
+    ],
+    "yolo_visual_prediction": {
+      "screen_type": "other_screen",
+      "confidence": 0.0
+    },
+    "ocr_text": "Invest Account Balances Operations Statement Intormatic Total available balance S760,529.13 Deposit Withdraw Main Account Opened NO RGL001887 30 09.2024 S1,281,539.67 Portfolio Valuation Curreni investment 5521,010.54 Available balance 5700,529.13 Venture Capital Opened VC Ne V984721124 12,07.2022",
+    "ocr_density": "rich_text",
+    "word_count": 35,
+    "in_intermediate_sources": {
+      "in_clf_top3": false,
+      "in_clf_all": false,
+      "in_minilm_top5": false
+    },
+    "final_best_of_all_prediction": "Payment",
+    "failure_stage": "both_miss"
+  },
+  {
+    "screenshot_id": "ext2_106",
+    "file": "ext2_106.jpg",
+    "image_path": "C:\\Users\\KIIT0001\\Documents\\intelligent-screenshot-organizer\\experiments\\intelligence\\external_v2\\images\\ext2_106.jpg",
+    "ground_truth_category": "General",
+    "label_reason": "Miscellaneous UI screen with low domain-specific context.",
+    "classifier_top1": "Payment",
+    "classifier_top3": [
+      "Payment",
+      "Entertainment",
+      "Travel"
+    ],
+    "classifier_top_candidates": [
+      "Payment",
+      "Entertainment",
+      "Travel"
+    ],
+    "minilm_candidates": [
+      "Payment",
+      "Travel",
+      "Shopping",
+      "Education",
+      "Connectivity"
+    ],
+    "final_candidate_pool": [
+      "Payment",
+      "Entertainment",
+      "Travel",
+      "Shopping",
+      "Education",
+      "Connectivity"
+    ],
+    "yolo_visual_prediction": {
+      "screen_type": "other_screen",
+      "confidence": 0.0
+    },
+    "ocr_text": "Bankof America Ualei Ma8 ueled by Yeu Lent Amount: $10,000.00 Reference Dollar Transaction Tipe: Immediate payment Scheduled May 15, 2026 Pay From; Bank 0f AmerIcan Pay To MR Elvira Esparza Bank Naine;   Fith Third Bank Account Nurber; (8000596984) Routing Number: 041200050 Account Type checking account The sum of $300 has to be made to continue this withdrawal Request Charges: $300",
+    "ocr_density": "rich_text",
+    "word_count": 60,
+    "in_intermediate_sources": {
+      "in_clf_top3": false,
+      "in_clf_all": false,
+      "in_minilm_top5": false
+    },
+    "final_best_of_all_prediction": "Payment",
+    "failure_stage": "both_miss"
+  },
+  {
+    "screenshot_id": "ext2_107",
+    "file": "ext2_107.jpg",
+    "image_path": "C:\\Users\\KIIT0001\\Documents\\intelligent-screenshot-organizer\\experiments\\intelligence\\external_v2\\images\\ext2_107.jpg",
+    "ground_truth_category": "General",
+    "label_reason": "Miscellaneous UI screen with low domain-specific context.",
+    "classifier_top1": "Payment",
+    "classifier_top3": [
+      "Payment",
+      "Shopping",
+      "Travel"
+    ],
+    "classifier_top_candidates": [
+      "Payment",
+      "Shopping",
+      "Travel"
+    ],
+    "minilm_candidates": [
+      "Payment",
+      "Travel",
+      "Shopping",
+      "Education",
+      "Communication"
+    ],
+    "final_candidate_pool": [
+      "Payment",
+      "Shopping",
+      "Travel",
+      "Education",
+      "Communication"
+    ],
+    "yolo_visual_prediction": {
+      "screen_type": "other_screen",
+      "confidence": 0.0
+    },
+    "ocr_text": "Successi Your transfer was successful Transfer details Recelpt Nos 049299825365A1Vw Transfer Amount 600.00 AED Exchange Rate AED 1.0 AED Sho niore Beneficiary details acccunt Njma NAZIRA ISABEKOVA Account Number 119935039200001 Nicknjme Nazira ABU DHABI COMMERCIAL BANK Country UNITED ARAB EMIRATES Address Line Doc DQ +U Bur Dubai Address Line Dubai Address Line - Dubal Buna Naine",
+    "ocr_density": "rich_text",
+    "word_count": 56,
+    "in_intermediate_sources": {
+      "in_clf_top3": false,
+      "in_clf_all": false,
+      "in_minilm_top5": false
+    },
+    "final_best_of_all_prediction": "Payment",
+    "failure_stage": "both_miss"
+  },
+  {
+    "screenshot_id": "ext2_108",
+    "file": "ext2_108.jpg",
+    "image_path": "C:\\Users\\KIIT0001\\Documents\\intelligent-screenshot-organizer\\experiments\\intelligence\\external_v2\\images\\ext2_108.jpg",
+    "ground_truth_category": "General",
+    "label_reason": "Miscellaneous UI screen with low domain-specific context.",
+    "classifier_top1": "Payment",
+    "classifier_top3": [
+      "Payment",
+      "Travel",
+      "Shopping"
+    ],
+    "classifier_top_candidates": [
+      "Payment",
+      "Travel",
+      "Shopping"
+    ],
+    "minilm_candidates": [
+      "Payment",
+      "Work & Career",
+      "Education",
+      "Travel",
+      "Shopping"
+    ],
+    "final_candidate_pool": [
+      "Payment",
+      "Travel",
+      "Shopping",
+      "Work & Career",
+      "Education"
+    ],
+    "yolo_visual_prediction": {
+      "screen_type": "other_screen",
+      "confidence": 0.0
+    },
+    "ocr_text": "American First Financial Corporate Operating Balance 525,185,107.28 Business Premier 0*8832 Transfer Pay Bills Deposit History Recent Transactions Logout Overseas Transfer 52,951,910.80 (smelter) May 17, 2025",
+    "ocr_density": "rich_text",
+    "word_count": 25,
+    "in_intermediate_sources": {
+      "in_clf_top3": false,
+      "in_clf_all": false,
+      "in_minilm_top5": false
+    },
+    "final_best_of_all_prediction": "Payment",
+    "failure_stage": "both_miss"
+  },
+  {
+    "screenshot_id": "ext2_114",
+    "file": "ext2_114.jpg",
+    "image_path": "C:\\Users\\KIIT0001\\Documents\\intelligent-screenshot-organizer\\experiments\\intelligence\\external_v2\\images\\ext2_114.jpg",
+    "ground_truth_category": "General",
+    "label_reason": "Miscellaneous UI screen with low domain-specific context.",
+    "classifier_top1": "Work & Career",
+    "classifier_top3": [
+      "Work & Career",
+      "Payment",
+      "Travel"
+    ],
+    "classifier_top_candidates": [
+      "Work & Career",
+      "Payment",
+      "Travel"
+    ],
+    "minilm_candidates": [
+      "Travel",
+      "Payment",
+      "Education",
+      "Connectivity",
+      "Work & Career"
+    ],
+    "final_candidate_pool": [
+      "Work & Career",
+      "Payment",
+      "Travel",
+      "Education",
+      "Connectivity"
+    ],
+    "yolo_visual_prediction": {
+      "screen_type": "other_screen",
+      "confidence": 0.0
+    },
+    "ocr_text": "and begin editing it using Power Bl Desktop_ Calfulations Sensitiv Unable to connect We encountered an error while trying to connect: Details: \"An error happened while reading data from the provider: 'The remote certificate is invalid according to the validation procedure: Retry Edit Cancel Ilponr @Ji MC",
+    "ocr_density": "rich_text",
+    "word_count": 47,
+    "in_intermediate_sources": {
+      "in_clf_top3": false,
+      "in_clf_all": false,
+      "in_minilm_top5": false
+    },
+    "final_best_of_all_prediction": "Work & Career",
+    "failure_stage": "both_miss"
+  },
+  {
+    "screenshot_id": "ext2_160",
+    "file": "ext2_160.jpg",
+    "image_path": "C:\\Users\\KIIT0001\\Documents\\intelligent-screenshot-organizer\\experiments\\intelligence\\external_v2\\images\\ext2_160.jpg",
+    "ground_truth_category": "General",
+    "label_reason": "Miscellaneous UI screen with low domain-specific context.",
+    "classifier_top1": "Entertainment",
+    "classifier_top3": [
+      "Entertainment",
+      "Shopping",
+      "Payment"
+    ],
+    "classifier_top_candidates": [
+      "Entertainment",
+      "Shopping",
+      "Payment"
+    ],
+    "minilm_candidates": [
+      "Entertainment",
+      "Education",
+      "Shopping",
+      "Payment",
+      "Coding"
+    ],
+    "final_candidate_pool": [
+      "Entertainment",
+      "Shopping",
+      "Payment",
+      "Education",
+      "Coding"
+    ],
+    "yolo_visual_prediction": {
+      "screen_type": "other_screen",
+      "confidence": 0.0
+    },
+    "ocr_text": "Replay You listened for 2,410 minutes in March: Your Top Artists 2 3 orten O De Your Top Songs Kena",
+    "ocr_density": "moderate_text",
+    "word_count": 20,
+    "in_intermediate_sources": {
+      "in_clf_top3": false,
+      "in_clf_all": false,
+      "in_minilm_top5": false
+    },
+    "final_best_of_all_prediction": "Entertainment",
+    "failure_stage": "both_miss"
+  },
+  {
+    "screenshot_id": "ext2_162",
+    "file": "ext2_162.jpg",
+    "image_path": "C:\\Users\\KIIT0001\\Documents\\intelligent-screenshot-organizer\\experiments\\intelligence\\external_v2\\images\\ext2_162.jpg",
+    "ground_truth_category": "General",
+    "label_reason": "Miscellaneous UI screen with low domain-specific context.",
+    "classifier_top1": "Travel",
+    "classifier_top3": [
+      "Travel",
+      "Payment",
+      "Work & Career"
+    ],
+    "classifier_top_candidates": [
+      "Travel",
+      "Payment",
+      "Work & Career"
+    ],
+    "minilm_candidates": [
+      "Education",
+      "Travel",
+      "Payment",
+      "Entertainment",
+      "Work & Career"
+    ],
+    "final_candidate_pool": [
+      "Travel",
+      "Payment",
+      "Work & Career",
+      "Education",
+      "Entertainment"
+    ],
+    "yolo_visual_prediction": {
+      "screen_type": "other_screen",
+      "confidence": 0.0
+    },
+    "ocr_text": "CN #uanAANL Jee ExonAUT Jde GeL field trip Ebriy",
+    "ocr_density": "moderate_text",
+    "word_count": 9,
+    "in_intermediate_sources": {
+      "in_clf_top3": false,
+      "in_clf_all": false,
+      "in_minilm_top5": false
+    },
+    "final_best_of_all_prediction": "Travel",
+    "failure_stage": "both_miss"
+  },
+  {
+    "screenshot_id": "ext2_180",
+    "file": "ext2_180.jpg",
+    "image_path": "C:\\Users\\KIIT0001\\Documents\\intelligent-screenshot-organizer\\experiments\\intelligence\\external_v2\\images\\ext2_180.jpg",
+    "ground_truth_category": "General",
+    "label_reason": "Miscellaneous UI screen with low domain-specific context.",
+    "classifier_top1": "Entertainment",
+    "classifier_top3": [
+      "Entertainment",
+      "Travel",
+      "Work & Career"
+    ],
+    "classifier_top_candidates": [
+      "Entertainment",
+      "Travel",
+      "Work & Career"
+    ],
+    "minilm_candidates": [
+      "Travel",
+      "Education",
+      "Entertainment",
+      "Shopping",
+      "Coding"
+    ],
+    "final_candidate_pool": [
+      "Entertainment",
+      "Travel",
+      "Work & Career",
+      "Education",
+      "Shopping",
+      "Coding"
+    ],
+    "yolo_visual_prediction": {
+      "screen_type": "other_screen",
+      "confidence": 0.0
+    },
+    "ocr_text": "19.32 00.27 0 34(2 Google Let's driEV Techsofin 2.5 132 reviews Rated for 3+ 22 MB Install Let's driEv Your Seamless Booking Freedom to Roam Refe Ridc; Your Rulcsl Quic  lind ontOnevecotnci Enley Uhelmberty tordenelter Intka aetmumennr Gdes Mrntenantute dema Aceeta NpInol 4 do cry Mn Wmtt rpetnndtneturn [secotet Ocdal needomd Leta OLEv dbon nj dotanltod EFot ducen About this app Your Ride; Your Rules! Explore freely; anytime: Reserve rides in advance. Maps & Navigation N ^ 740+ 88 Games Apps Search Books You III Play",
+    "ocr_density": "rich_text",
+    "word_count": 86,
+    "in_intermediate_sources": {
+      "in_clf_top3": false,
+      "in_clf_all": false,
+      "in_minilm_top5": false
+    },
+    "final_best_of_all_prediction": "Entertainment",
+    "failure_stage": "both_miss"
+  },
+  {
+    "screenshot_id": "ext2_227",
+    "file": "ext2_227.jpg",
+    "image_path": "C:\\Users\\KIIT0001\\Documents\\intelligent-screenshot-organizer\\experiments\\intelligence\\external_v2\\images\\ext2_227.jpg",
+    "ground_truth_category": "General",
+    "label_reason": "Miscellaneous UI screen with low domain-specific context.",
+    "classifier_top1": "Entertainment",
+    "classifier_top3": [
+      "Entertainment",
+      "Communication",
+      "Travel"
+    ],
+    "classifier_top_candidates": [
+      "Entertainment",
+      "Communication",
+      "Travel"
+    ],
+    "minilm_candidates": [
+      "Entertainment",
+      "Education",
+      "Work & Career",
+      "Communication",
+      "Payment"
+    ],
+    "final_candidate_pool": [
+      "Entertainment",
+      "Communication",
+      "Travel",
+      "Education",
+      "Work & Career",
+      "Payment"
+    ],
+    "yolo_visual_prediction": {
+      "screen_type": "other_screen",
+      "confidence": 0.0
+    },
+    "ocr_text": "20.25 5, 3,l 2 V | F 8 6 Your topsong OHa Moe Bce by NECHAEV You listened 174 times: Share this story",
+    "ocr_density": "rich_text",
+    "word_count": 23,
+    "in_intermediate_sources": {
+      "in_clf_top3": false,
+      "in_clf_all": false,
+      "in_minilm_top5": false
+    },
+    "final_best_of_all_prediction": "Entertainment",
+    "failure_stage": "both_miss"
+  },
+  {
+    "screenshot_id": "ext2_233",
+    "file": "ext2_233.jpg",
+    "image_path": "C:\\Users\\KIIT0001\\Documents\\intelligent-screenshot-organizer\\experiments\\intelligence\\external_v2\\images\\ext2_233.jpg",
+    "ground_truth_category": "General",
+    "label_reason": "Miscellaneous UI screen with low domain-specific context.",
+    "classifier_top1": "Work & Career",
+    "classifier_top3": [
+      "Work & Career",
+      "Education",
+      "Communication"
+    ],
+    "classifier_top_candidates": [
+      "Work & Career",
+      "Education",
+      "Communication"
+    ],
+    "minilm_candidates": [
+      "Education",
+      "Work & Career",
+      "Travel",
+      "Communication",
+      "Payment"
+    ],
+    "final_candidate_pool": [
+      "Work & Career",
+      "Education",
+      "Communication",
+      "Travel",
+      "Payment"
+    ],
+    "yolo_visual_prediction": {
+      "screen_type": "other_screen",
+      "confidence": 0.0
+    },
+    "ocr_text": "14.53 M palf tes % 490  edll 034% PO sgl full Ac Accenture Specific Tr 3585 members, 471 online Pinned Message Accenture Specific Session Summary_13-0. I \"J 1i G\"ourc 4 think can be done that quick for the results since there's many SB sets 10.37 Dr: Rajesh Kumar Panda Owner Companies always look for the best candidates, and every company has its own selection criteria and expectations If you are not selected, don't blame the company, the process; or anyone else Instead;, look within yourself and ask: \"Was | fully prepared?\" Every rejection is an opportunity to identify your gaps, improve your skills, and come back stronger Prepare better; learn from every experience; and keep moving forward. Your preparation today will shape opportunities tomorrow: 69 10.47 123 Anjan Aditya Dr: Rajesh Kumar Panda Camnanies alwavs Innk for the hes Message Somnath 5 Sayandip Bhattacharya your",
+    "ocr_density": "rich_text",
+    "word_count": 145,
+    "in_intermediate_sources": {
+      "in_clf_top3": false,
+      "in_clf_all": false,
+      "in_minilm_top5": false
+    },
+    "final_best_of_all_prediction": "Work & Career",
+    "failure_stage": "both_miss"
+  },
+  {
+    "screenshot_id": "ext2_240",
+    "file": "ext2_240.jpg",
+    "image_path": "C:\\Users\\KIIT0001\\Documents\\intelligent-screenshot-organizer\\experiments\\intelligence\\external_v2\\images\\ext2_240.jpg",
+    "ground_truth_category": "General",
+    "label_reason": "Miscellaneous UI screen with low domain-specific context.",
+    "classifier_top1": "Payment",
+    "classifier_top3": [
+      "Payment",
+      "Communication",
+      "Travel"
+    ],
+    "classifier_top_candidates": [
+      "Payment",
+      "Communication",
+      "Travel"
+    ],
+    "minilm_candidates": [
+      "Education",
+      "Payment",
+      "Communication",
+      "Travel",
+      "Entertainment"
+    ],
+    "final_candidate_pool": [
+      "Payment",
+      "Communication",
+      "Travel",
+      "Education",
+      "Entertainment"
+    ],
+    "yolo_visual_prediction": {
+      "screen_type": "other_screen",
+      "confidence": 0.0
+    },
+    "ocr_text": "0*42 Todn 9 J04u HOw aro you? Tell me the truth  Are you to anyone else?? not; You Dld giri talk to; the Take You | only talk to You Kacnoted Helloooo tking \" Obviously I Just e You E Know that  Paula, Vou e other s MY account? Faadea7a Itold -",
+    "ocr_density": "rich_text",
+    "word_count": 52,
+    "in_intermediate_sources": {
+      "in_clf_top3": false,
+      "in_clf_all": false,
+      "in_minilm_top5": false
+    },
+    "final_best_of_all_prediction": "Payment",
+    "failure_stage": "both_miss"
+  }
+]

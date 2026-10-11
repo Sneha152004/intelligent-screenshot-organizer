@@ -1,0 +1,767 @@
+[
+  {
+    "id": "ext2_002",
+    "file": "ext2_002.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3776)"
+  },
+  {
+    "id": "ext2_003",
+    "file": "ext2_003.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3509)"
+  },
+  {
+    "id": "ext2_004",
+    "file": "ext2_004.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3694)"
+  },
+  {
+    "id": "ext2_005",
+    "file": "ext2_005.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3716)"
+  },
+  {
+    "id": "ext2_011",
+    "file": "ext2_011.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.4055)"
+  },
+  {
+    "id": "ext2_015",
+    "file": "ext2_015.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3724)"
+  },
+  {
+    "id": "ext2_016",
+    "file": "ext2_016.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3683)"
+  },
+  {
+    "id": "ext2_017",
+    "file": "ext2_017.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3838)"
+  },
+  {
+    "id": "ext2_019",
+    "file": "ext2_019.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3700)"
+  },
+  {
+    "id": "ext2_020",
+    "file": "ext2_020.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3538)"
+  },
+  {
+    "id": "ext2_022",
+    "file": "ext2_022.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3737)"
+  },
+  {
+    "id": "ext2_023",
+    "file": "ext2_023.jpg",
+    "ground_truth": "Work & Career",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained via High-Confidence Guardrail"
+  },
+  {
+    "id": "ext2_030",
+    "file": "ext2_030.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3593)"
+  },
+  {
+    "id": "ext2_037",
+    "file": "ext2_037.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.1363)"
+  },
+  {
+    "id": "ext2_038",
+    "file": "ext2_038.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.1353)"
+  },
+  {
+    "id": "ext2_041",
+    "file": "ext2_041.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.4019)"
+  },
+  {
+    "id": "ext2_044",
+    "file": "ext2_044.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.4004)"
+  },
+  {
+    "id": "ext2_045",
+    "file": "ext2_045.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3903)"
+  },
+  {
+    "id": "ext2_046",
+    "file": "ext2_046.jpg",
+    "ground_truth": "Shopping",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.2672)"
+  },
+  {
+    "id": "ext2_047",
+    "file": "ext2_047.jpg",
+    "ground_truth": "Shopping",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.2696)"
+  },
+  {
+    "id": "ext2_048",
+    "file": "ext2_048.jpg",
+    "ground_truth": "Shopping",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.2711)"
+  },
+  {
+    "id": "ext2_049",
+    "file": "ext2_049.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.2751)"
+  },
+  {
+    "id": "ext2_050",
+    "file": "ext2_050.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3890)"
+  },
+  {
+    "id": "ext2_051",
+    "file": "ext2_051.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3020)"
+  },
+  {
+    "id": "ext2_057",
+    "file": "ext2_057.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.2902)"
+  },
+  {
+    "id": "ext2_058",
+    "file": "ext2_058.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.2823)"
+  },
+  {
+    "id": "ext2_066",
+    "file": "ext2_066.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.2831)"
+  },
+  {
+    "id": "ext2_075",
+    "file": "ext2_075.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.2813)"
+  },
+  {
+    "id": "ext2_076",
+    "file": "ext2_076.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.2723)"
+  },
+  {
+    "id": "ext2_079",
+    "file": "ext2_079.jpg",
+    "ground_truth": "Connectivity",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3607)"
+  },
+  {
+    "id": "ext2_087",
+    "file": "ext2_087.jpg",
+    "ground_truth": "Work & Career",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.2400)"
+  },
+  {
+    "id": "ext2_088",
+    "file": "ext2_088.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3477)"
+  },
+  {
+    "id": "ext2_089",
+    "file": "ext2_089.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3494)"
+  },
+  {
+    "id": "ext2_102",
+    "file": "ext2_102.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3469)"
+  },
+  {
+    "id": "ext2_113",
+    "file": "ext2_113.jpg",
+    "ground_truth": "Education",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.5534)"
+  },
+  {
+    "id": "ext2_120",
+    "file": "ext2_120.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3810)"
+  },
+  {
+    "id": "ext2_140",
+    "file": "ext2_140.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3620)"
+  },
+  {
+    "id": "ext2_141",
+    "file": "ext2_141.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.5887)"
+  },
+  {
+    "id": "ext2_142",
+    "file": "ext2_142.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3826)"
+  },
+  {
+    "id": "ext2_143",
+    "file": "ext2_143.jpg",
+    "ground_truth": "Education",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3476)"
+  },
+  {
+    "id": "ext2_144",
+    "file": "ext2_144.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3745)"
+  },
+  {
+    "id": "ext2_145",
+    "file": "ext2_145.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3813)"
+  },
+  {
+    "id": "ext2_146",
+    "file": "ext2_146.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3720)"
+  },
+  {
+    "id": "ext2_147",
+    "file": "ext2_147.jpg",
+    "ground_truth": "Entertainment",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3628)"
+  },
+  {
+    "id": "ext2_148",
+    "file": "ext2_148.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3654)"
+  },
+  {
+    "id": "ext2_159",
+    "file": "ext2_159.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3587)"
+  },
+  {
+    "id": "ext2_161",
+    "file": "ext2_161.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3836)"
+  },
+  {
+    "id": "ext2_164",
+    "file": "ext2_164.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3650)"
+  },
+  {
+    "id": "ext2_169",
+    "file": "ext2_169.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3763)"
+  },
+  {
+    "id": "ext2_172",
+    "file": "ext2_172.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3928)"
+  },
+  {
+    "id": "ext2_173",
+    "file": "ext2_173.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3697)"
+  },
+  {
+    "id": "ext2_174",
+    "file": "ext2_174.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3809)"
+  },
+  {
+    "id": "ext2_175",
+    "file": "ext2_175.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3835)"
+  },
+  {
+    "id": "ext2_176",
+    "file": "ext2_176.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3763)"
+  },
+  {
+    "id": "ext2_177",
+    "file": "ext2_177.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3750)"
+  },
+  {
+    "id": "ext2_178",
+    "file": "ext2_178.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3837)"
+  },
+  {
+    "id": "ext2_179",
+    "file": "ext2_179.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3571)"
+  },
+  {
+    "id": "ext2_181",
+    "file": "ext2_181.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3629)"
+  },
+  {
+    "id": "ext2_182",
+    "file": "ext2_182.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3912)"
+  },
+  {
+    "id": "ext2_183",
+    "file": "ext2_183.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3954)"
+  },
+  {
+    "id": "ext2_188",
+    "file": "ext2_188.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3740)"
+  },
+  {
+    "id": "ext2_192",
+    "file": "ext2_192.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3898)"
+  },
+  {
+    "id": "ext2_194",
+    "file": "ext2_194.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3896)"
+  },
+  {
+    "id": "ext2_197",
+    "file": "ext2_197.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3906)"
+  },
+  {
+    "id": "ext2_198",
+    "file": "ext2_198.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3865)"
+  },
+  {
+    "id": "ext2_199",
+    "file": "ext2_199.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3918)"
+  },
+  {
+    "id": "ext2_202",
+    "file": "ext2_202.jpg",
+    "ground_truth": "Shopping",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3817)"
+  },
+  {
+    "id": "ext2_203",
+    "file": "ext2_203.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.4026)"
+  },
+  {
+    "id": "ext2_204",
+    "file": "ext2_204.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3969)"
+  },
+  {
+    "id": "ext2_209",
+    "file": "ext2_209.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.4122)"
+  },
+  {
+    "id": "ext2_214",
+    "file": "ext2_214.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3892)"
+  },
+  {
+    "id": "ext2_215",
+    "file": "ext2_215.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3869)"
+  },
+  {
+    "id": "ext2_216",
+    "file": "ext2_216.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3867)"
+  },
+  {
+    "id": "ext2_218",
+    "file": "ext2_218.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.4065)"
+  },
+  {
+    "id": "ext2_220",
+    "file": "ext2_220.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.5887)"
+  },
+  {
+    "id": "ext2_222",
+    "file": "ext2_222.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3844)"
+  },
+  {
+    "id": "ext2_223",
+    "file": "ext2_223.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3703)"
+  },
+  {
+    "id": "ext2_225",
+    "file": "ext2_225.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3980)"
+  },
+  {
+    "id": "ext2_226",
+    "file": "ext2_226.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3545)"
+  },
+  {
+    "id": "ext2_236",
+    "file": "ext2_236.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3623)"
+  },
+  {
+    "id": "ext2_238",
+    "file": "ext2_238.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3695)"
+  },
+  {
+    "id": "ext2_239",
+    "file": "ext2_239.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3911)"
+  },
+  {
+    "id": "ext2_241",
+    "file": "ext2_241.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3703)"
+  },
+  {
+    "id": "ext2_243",
+    "file": "ext2_243.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3668)"
+  },
+  {
+    "id": "ext2_244",
+    "file": "ext2_244.jpg",
+    "ground_truth": "General",
+    "old_prediction": "General",
+    "new_prediction": "General",
+    "shift_type": "neutral",
+    "reason": "Base Top-1 'General' retained (score=0.3653)"
+  }
+]

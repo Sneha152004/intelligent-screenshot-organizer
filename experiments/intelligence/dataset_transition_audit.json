@@ -1,0 +1,299 @@
+{
+  "audit_1_dataset_size": {
+    "expected_image_count": 836,
+    "actual_image_files_count": 836,
+    "actual_metadata_csv_rows": 836,
+    "one_to_one_correspondence": true,
+    "missing_in_csv_count": 0,
+    "missing_in_csv": [],
+    "missing_in_folder_count": 0,
+    "missing_in_folder": [],
+    "duplicate_filenames_in_csv": 0,
+    "duplicate_filenames": [],
+    "format_breakdown": {
+      ".jpg": 264,
+      ".png": 572
+    },
+    "corrupt_images_count": 3,
+    "corrupt_images": [
+      {
+        "filename": "ss_441.png",
+        "error": "cannot identify image file 'C:\\\\Users\\\\KIIT0001\\\\Documents\\\\intelligent-screenshot-organizer\\\\data\\\\screenshots\\\\ss_441.png'"
+      },
+      {
+        "filename": "ss_443.png",
+        "error": "cannot identify image file 'C:\\\\Users\\\\KIIT0001\\\\Documents\\\\intelligent-screenshot-organizer\\\\data\\\\screenshots\\\\ss_443.png'"
+      },
+      {
+        "filename": "ss_560.png",
+        "error": "cannot identify image file 'C:\\\\Users\\\\KIIT0001\\\\Documents\\\\intelligent-screenshot-organizer\\\\data\\\\screenshots\\\\ss_560.png'"
+      }
+    ]
+  },
+  "audit_2_category_distribution": {
+    "total_canonical_categories": 10,
+    "category_counts": {
+      "Shopping": 133,
+      "Entertainment": 127,
+      "Travel": 122,
+      "Work & Career": 116,
+      "General": 76,
+      "Communication": 73,
+      "Education": 72,
+      "Coding": 64,
+      "Connectivity": 28,
+      "Payment": 25
+    },
+    "category_percentages": {
+      "Shopping": 15.91,
+      "Entertainment": 15.19,
+      "Travel": 14.59,
+      "Work & Career": 13.88,
+      "General": 9.09,
+      "Communication": 8.73,
+      "Education": 8.61,
+      "Coding": 7.66,
+      "Connectivity": 3.35,
+      "Payment": 2.99
+    },
+    "unexpected_categories": [],
+    "missing_categories": [],
+    "is_distribution_valid": true
+  },
+  "audit_3_original_30_data": {
+    "expected_original_count": 30,
+    "found_original_count": 30,
+    "found_original_filenames": [
+      "ss_001.jpg",
+      "ss_002.jpg",
+      "ss_003.jpg",
+      "ss_004.jpg",
+      "ss_005.jpg",
+      "ss_006.jpg",
+      "ss_007.jpg",
+      "ss_008.jpg",
+      "ss_009.jpg",
+      "ss_010.jpg",
+      "ss_011.jpg",
+      "ss_012.jpg",
+      "ss_013.jpg",
+      "ss_014.jpg",
+      "ss_015.jpg",
+      "ss_016.jpg",
+      "ss_017.jpg",
+      "ss_018.jpg",
+      "ss_019.jpg",
+      "ss_020.jpg",
+      "ss_021.jpg",
+      "ss_022.jpg",
+      "ss_023.jpg",
+      "ss_024.jpg",
+      "ss_025.jpg",
+      "ss_026.jpg",
+      "ss_027.jpg",
+      "ss_028.jpg",
+      "ss_029.jpg",
+      "ss_030.jpg"
+    ],
+    "are_all_30_included": true,
+    "sample_labels": [
+      {
+        "file": "ss_001.jpg",
+        "category": "Coding",
+        "confidence": "high",
+        "notes": "VS Code screenshot showing the RAGNOVA document-ingestion/embedding pipeline in Python."
+      },
+      {
+        "file": "ss_002.jpg",
+        "category": "Coding",
+        "confidence": "high",
+        "notes": "VS Code screenshot showing RAGNOVA document-processing code for chunking and embeddings."
+      },
+      {
+        "file": "ss_003.jpg",
+        "category": "Coding",
+        "confidence": "high",
+        "notes": "VS Code screenshot showing Python code from the RAGNOVA document-intelligence project."
+      },
+      {
+        "file": "ss_004.jpg",
+        "category": "Coding",
+        "confidence": "high",
+        "notes": "VS Code screenshot showing RAGNOVA project source code and document-processing files."
+      },
+      {
+        "file": "ss_005.jpg",
+        "category": "Coding",
+        "confidence": "high",
+        "notes": "Python/Matplotlib code generating a product-sales bar chart for January through May."
+      }
+    ]
+  },
+  "audit_4_external_60_leakage": {
+    "total_external_images_checked": 60,
+    "filename_overlap_count": 0,
+    "filename_overlaps": [],
+    "exact_sha256_duplicates_count": 0,
+    "exact_sha256_duplicates": [],
+    "near_duplicates_count": 0,
+    "near_duplicates": [],
+    "similarity_method": "SHA-256 byte match + Perceptual aHash & dHash (Hamming distance <= 4)",
+    "has_data_leakage": false
+  },
+  "audit_5_source_distribution": {
+    "has_explicit_source_column": false,
+    "inferred_source_breakdown": {
+      "original_project_pool": 30,
+      "expanded_pool": 806
+    },
+    "notes": "Dataset expands original 30 screenshot pool to 836 organized screenshot samples across the same 10 categories."
+  },
+  "audit_6_old_code_assumptions": {
+    "total_issues_found": 48,
+    "issues": [
+      {
+        "file": "experiments\\intelligence\\transfer_learning_visual.py",
+        "line": 9,
+        "pattern_desc": "Hardcoded '30' sample size reference",
+        "snippet": "- Training Pool: 30 Screenshots (8 Dev Benchmark + 22 Internal Validation Holdout)"
+      },
+      {
+        "file": "experiments\\intelligence\\transfer_learning_visual.py",
+        "line": 9,
+        "pattern_desc": "Hardcoded '8 Dev / 22 Internal' split reference",
+        "snippet": "- Training Pool: 30 Screenshots (8 Dev Benchmark + 22 Internal Validation Holdout)"
+      },
+      {
+        "file": "experiments\\intelligence\\transfer_learning_visual.py",
+        "line": 11,
+        "pattern_desc": "Hardcoded '30' sample size reference",
+        "snippet": "- Model Selection: 5-Fold Cross-Validation on the 30-sample training pool"
+      },
+      {
+        "file": "experiments\\intelligence\\transfer_learning_visual.py",
+        "line": 52,
+        "pattern_desc": "Hardcoded 22 Internal targets dictionary reference",
+        "snippet": "from experiments.intelligence.unseen.evaluation_targets import UNSEEN_GROUND_TRUTH_ANNOTATIONS"
+      },
+      {
+        "file": "experiments\\intelligence\\transfer_learning_visual.py",
+        "line": 60,
+        "pattern_desc": "Hardcoded 8 Dev targets array reference",
+        "snippet": "DEV_TARGETS = ["
+      },
+      {
+        "file": "experiments\\intelligence\\transfer_learning_visual.py",
+        "line": 151,
+        "pattern_desc": "Hardcoded 8 Dev targets array reference",
+        "snippet": "dev_data = [process_item(item[\"filename\"], item[\"category\"], PROJECT_ROOT / \"data\" / \"screenshots\" /"
+      },
+      {
+        "file": "experiments\\intelligence\\transfer_learning_visual.py",
+        "line": 154,
+        "pattern_desc": "Hardcoded 22 Internal targets dictionary reference",
+        "snippet": "for fname, gt in UNSEEN_GROUND_TRUTH_ANNOTATIONS.items():"
+      },
+      {
+        "file": "experiments\\intelligence\\transfer_learning_visual.py",
+        "line": 222,
+        "pattern_desc": "Hardcoded '30' sample size reference",
+        "snippet": "\"\"\"Ensemble of lightweight classifiers trained on stratified resampled subsets of 30 training sample"
+      },
+      {
+        "file": "experiments\\intelligence\\transfer_learning_visual.py",
+        "line": 382,
+        "pattern_desc": "Hardcoded '30' sample size reference",
+        "snippet": "\"\"\"Runs 5-Fold Cross-Validation on the 30-sample training pool (`Dev + Internal`).\"\"\""
+      },
+      {
+        "file": "experiments\\intelligence\\transfer_learning_visual.py",
+        "line": 383,
+        "pattern_desc": "Hardcoded '30' sample size reference",
+        "snippet": "print(\"\\n[2/5] Running 5-Fold Cross-Validation on 30 training samples across experiments...\")"
+      },
+      {
+        "file": "experiments\\intelligence\\transfer_learning_visual.py",
+        "line": 452,
+        "pattern_desc": "Hardcoded '30' sample size reference",
+        "snippet": "# 30 Training Screenshots"
+      },
+      {
+        "file": "experiments\\intelligence\\transfer_learning_visual.py",
+        "line": 502,
+        "pattern_desc": "Hardcoded '30' sample size reference",
+        "snippet": "print(f\"\\n[3/5] MODEL SELECTION COMPLETE (Based ONLY on 5-Fold CV on 30 training samples):\")"
+      },
+      {
+        "file": "experiments\\intelligence\\transfer_learning_visual.py",
+        "line": 506,
+        "pattern_desc": "Hardcoded '30' sample size reference",
+        "snippet": "# 2. Train on Full 30 Training Pool & Single-Pass Frozen External Benchmark Evaluation"
+      },
+      {
+        "file": "experiments\\intelligence\\transfer_learning_visual.py",
+        "line": 555,
+        "pattern_desc": "Hardcoded '30' sample size reference",
+        "snippet": "\"selection_protocol\": \"5-Fold Cross-Validation on 30 Dev+Internal screenshots (zero external leakage"
+      },
+      {
+        "file": "experiments\\intelligence\\transfer_learning_visual.py",
+        "line": 648,
+        "pattern_desc": "Hardcoded '30' sample size reference",
+        "snippet": "- **Training Pool:** 30 Screenshots (8 Development Benchmark + 22 Internal Validation Holdout)."
+      }
+    ],
+    "summary": "Found 48 instances of hardcoded 30-sample dataset assumptions across legacy experiment scripts."
+  },
+  "audit_7_evaluation_design": {
+    "total_training_samples": 836,
+    "recommended_folds": 5,
+    "smallest_category": "Payment",
+    "smallest_category_count": 25,
+    "min_samples_per_fold_smallest_cat": 5,
+    "is_stratified_cv_feasible": true,
+    "external_data_used_for_cv": false,
+    "reproducible_seed_recommended": 42
+  },
+  "audit_8_label_quality": {
+    "has_confidence_column": true,
+    "total_labels_with_confidence": 836,
+    "high_confidence_count": 697,
+    "medium_confidence_count": 0,
+    "low_confidence_count": 139,
+    "ambiguous_notes_count": 0,
+    "sample_ambiguous_notes": []
+  },
+  "audit_9_image_integrity": {
+    "total_images_processed": 833,
+    "width_range": [
+      69,
+      1600
+    ],
+    "width_mean": 1026.2,
+    "height_range": [
+      13,
+      3120
+    ],
+    "height_mean": 2049.1,
+    "color_modes": {
+      "RGB": 530,
+      "RGBA": 303
+    },
+    "file_size_bytes_range": [
+      0,
+      3666647
+    ],
+    "file_size_mb_mean": 0.36,
+    "unusually_small_files_count": 5,
+    "unusually_large_files_count": 0
+  },
+  "audit_10_production_safety": {
+    "production_ocr_code_modified": false,
+    "production_storage_code_modified": false,
+    "chromadb_modified": false,
+    "external_60_benchmark_modified": false,
+    "production_model_replaced": false,
+    "git_commit_or_push_performed": false,
+    "model_training_performed": false
+  }
+}

@@ -1,0 +1,837 @@
+screenshot_id,filename,training_eligibility_status,assigned_screen_type,duplicate_group_id,eligibility_rationale
+ss_001.jpg,ss_001.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,DUPE_GROUP_002,Human-verified clean visual screen type label
+ss_002.jpg,ss_002.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,DUPE_GROUP_003,Human-verified clean visual screen type label
+ss_003.jpg,ss_003.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,DUPE_GROUP_004,Human-verified clean visual screen type label
+ss_004.jpg,ss_004.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,DUPE_GROUP_005,Human-verified clean visual screen type label
+ss_005.jpg,ss_005.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,DUPE_GROUP_006,Human-verified clean visual screen type label
+ss_006.jpg,ss_006.jpg,EXCLUDED_REJECTED,,DUPE_GROUP_006,Rejected unclassifiable valid screenshot
+ss_007.jpg,ss_007.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,DUPE_GROUP_007,Human-verified clean visual screen type label
+ss_008.jpg,ss_008.jpg,EXCLUDED_AMBIGUOUS,,DUPE_GROUP_007,Flagged ambiguous / pending second opinion
+ss_009.jpg,ss_009.jpg,EXCLUDED_REJECTED,,DUPE_GROUP_008,Rejected unclassifiable valid screenshot
+ss_010.jpg,ss_010.jpg,EXCLUDED_PENDING,,DUPE_GROUP_009,Unreviewed pending screenshot
+ss_011.jpg,ss_011.jpg,EXCLUDED_REJECTED,,DUPE_GROUP_009,Rejected unclassifiable valid screenshot
+ss_012.jpg,ss_012.jpg,EXCLUDED_REJECTED,,DUPE_GROUP_010,Rejected unclassifiable valid screenshot
+ss_013.jpg,ss_013.jpg,EXCLUDED_REJECTED,,DUPE_GROUP_011,Rejected unclassifiable valid screenshot
+ss_014.jpg,ss_014.jpg,EXCLUDED_REJECTED,,DUPE_GROUP_012,Rejected unclassifiable valid screenshot
+ss_015.jpg,ss_015.jpg,EXCLUDED_PENDING,,DUPE_GROUP_013,Unreviewed pending screenshot
+ss_016.jpg,ss_016.jpg,EXCLUDED_REJECTED,,DUPE_GROUP_014,Rejected unclassifiable valid screenshot
+ss_017.jpg,ss_017.jpg,EXCLUDED_REJECTED,,DUPE_GROUP_015,Rejected unclassifiable valid screenshot
+ss_018.jpg,ss_018.jpg,EXCLUDED_REJECTED,,DUPE_GROUP_016,Rejected unclassifiable valid screenshot
+ss_019.jpg,ss_019.jpg,EXCLUDED_PENDING,,DUPE_GROUP_016,Unreviewed pending screenshot
+ss_020.jpg,ss_020.jpg,EXCLUDED_REJECTED,,DUPE_GROUP_017,Rejected unclassifiable valid screenshot
+ss_021.jpg,ss_021.jpg,EXCLUDED_PENDING,,DUPE_GROUP_017,Unreviewed pending screenshot
+ss_022.jpg,ss_022.jpg,EXCLUDED_PENDING,,DUPE_GROUP_018,Unreviewed pending screenshot
+ss_023.jpg,ss_023.jpg,EXCLUDED_REJECTED,,DUPE_GROUP_018,Rejected unclassifiable valid screenshot
+ss_024.jpg,ss_024.jpg,EXCLUDED_REJECTED,,DUPE_GROUP_018,Rejected unclassifiable valid screenshot
+ss_025.jpg,ss_025.jpg,EXCLUDED_PENDING,,DUPE_GROUP_018,Unreviewed pending screenshot
+ss_026.jpg,ss_026.jpg,EXCLUDED_REJECTED,,DUPE_GROUP_019,Rejected unclassifiable valid screenshot
+ss_027.jpg,ss_027.jpg,EXCLUDED_REJECTED,,DUPE_GROUP_019,Rejected unclassifiable valid screenshot
+ss_028.jpg,ss_028.jpg,ELIGIBLE_GROUND_TRUTH,document_article_view,DUPE_GROUP_019,Human-verified clean visual screen type label
+ss_029.jpg,ss_029.jpg,ELIGIBLE_GROUND_TRUTH,document_article_view,DUPE_GROUP_019,Human-verified clean visual screen type label
+ss_030.jpg,ss_030.jpg,EXCLUDED_REJECTED,,DUPE_GROUP_019,Rejected unclassifiable valid screenshot
+ss_031.jpg,ss_031.jpg,ELIGIBLE_GROUND_TRUTH,document_article_view,UNIQUE,Human-verified clean visual screen type label
+ss_032.jpg,ss_032.jpg,ELIGIBLE_GROUND_TRUTH,document_article_view,UNIQUE,Human-verified clean visual screen type label
+ss_033.jpg,ss_033.jpg,ELIGIBLE_GROUND_TRUTH,document_article_view,UNIQUE,Human-verified clean visual screen type label
+ss_034.jpg,ss_034.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,UNIQUE,Human-verified clean visual screen type label
+ss_035.jpg,ss_035.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,UNIQUE,Human-verified clean visual screen type label
+ss_036.jpg,ss_036.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,UNIQUE,Human-verified clean visual screen type label
+ss_037.jpg,ss_037.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,UNIQUE,Human-verified clean visual screen type label
+ss_038.jpg,ss_038.jpg,ELIGIBLE_GROUND_TRUTH,document_article_view,UNIQUE,Human-verified clean visual screen type label
+ss_039.jpg,ss_039.jpg,ELIGIBLE_GROUND_TRUTH,document_article_view,UNIQUE,Human-verified clean visual screen type label
+ss_040.jpg,ss_040.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,UNIQUE,Human-verified clean visual screen type label
+ss_041.jpg,ss_041.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,UNIQUE,Human-verified clean visual screen type label
+ss_042.jpg,ss_042.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,UNIQUE,Human-verified clean visual screen type label
+ss_043.jpg,ss_043.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,UNIQUE,Human-verified clean visual screen type label
+ss_044.jpg,ss_044.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,UNIQUE,Human-verified clean visual screen type label
+ss_045.jpg,ss_045.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,UNIQUE,Human-verified clean visual screen type label
+ss_046.jpg,ss_046.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,UNIQUE,Human-verified clean visual screen type label
+ss_047.jpg,ss_047.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,UNIQUE,Human-verified clean visual screen type label
+ss_048.jpg,ss_048.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,UNIQUE,Human-verified clean visual screen type label
+ss_049.jpg,ss_049.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,UNIQUE,Human-verified clean visual screen type label
+ss_050.jpg,ss_050.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,UNIQUE,Human-verified clean visual screen type label
+ss_051.jpg,ss_051.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,UNIQUE,Human-verified clean visual screen type label
+ss_052.jpg,ss_052.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,UNIQUE,Human-verified clean visual screen type label
+ss_053.jpg,ss_053.jpg,ELIGIBLE_GROUND_TRUTH,document_article_view,UNIQUE,Human-verified clean visual screen type label
+ss_054.jpg,ss_054.jpg,ELIGIBLE_GROUND_TRUTH,document_article_view,UNIQUE,Human-verified clean visual screen type label
+ss_055.jpg,ss_055.jpg,ELIGIBLE_GROUND_TRUTH,document_article_view,UNIQUE,Human-verified clean visual screen type label
+ss_056.jpg,ss_056.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,UNIQUE,Human-verified clean visual screen type label
+ss_057.jpg,ss_057.jpg,ELIGIBLE_GROUND_TRUTH,document_article_view,UNIQUE,Human-verified clean visual screen type label
+ss_058.jpg,ss_058.jpg,ELIGIBLE_GROUND_TRUTH,document_article_view,UNIQUE,Human-verified clean visual screen type label
+ss_059.jpg,ss_059.jpg,ELIGIBLE_GROUND_TRUTH,document_article_view,UNIQUE,Human-verified clean visual screen type label
+ss_060.jpg,ss_060.jpg,ELIGIBLE_GROUND_TRUTH,document_article_view,UNIQUE,Human-verified clean visual screen type label
+ss_061.jpg,ss_061.jpg,ELIGIBLE_GROUND_TRUTH,error_dialog_alert,UNIQUE,Human-verified clean visual screen type label
+ss_062.jpg,ss_062.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,UNIQUE,Human-verified clean visual screen type label
+ss_063.jpg,ss_063.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_064.jpg,ss_064.jpg,ELIGIBLE_GROUND_TRUTH,dashboard_settings,UNIQUE,Human-verified clean visual screen type label
+ss_065.jpg,ss_065.jpg,ELIGIBLE_GROUND_TRUTH,dashboard_settings,UNIQUE,Human-verified clean visual screen type label
+ss_066.jpg,ss_066.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_067.jpg,ss_067.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_068.jpg,ss_068.jpg,ELIGIBLE_GROUND_TRUTH,dashboard_settings,UNIQUE,Human-verified clean visual screen type label
+ss_069.jpg,ss_069.jpg,ELIGIBLE_GROUND_TRUTH,dashboard_settings,UNIQUE,Human-verified clean visual screen type label
+ss_070.jpg,ss_070.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_071.jpg,ss_071.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_072.jpg,ss_072.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_073.jpg,ss_073.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_074.jpg,ss_074.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_075.jpg,ss_075.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_076.jpg,ss_076.jpg,ELIGIBLE_GROUND_TRUTH,error_dialog_alert,UNIQUE,Human-verified clean visual screen type label
+ss_077.jpg,ss_077.jpg,ELIGIBLE_GROUND_TRUTH,error_dialog_alert,UNIQUE,Human-verified clean visual screen type label
+ss_078.jpg,ss_078.jpg,ELIGIBLE_GROUND_TRUTH,error_dialog_alert,UNIQUE,Human-verified clean visual screen type label
+ss_079.jpg,ss_079.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_080.jpg,ss_080.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_081.jpg,ss_081.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_082.jpg,ss_082.jpg,ELIGIBLE_GROUND_TRUTH,dashboard_settings,UNIQUE,Human-verified clean visual screen type label
+ss_083.jpg,ss_083.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_084.jpg,ss_084.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_085.jpg,ss_085.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_086.jpg,ss_086.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_087.jpg,ss_087.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_088.jpg,ss_088.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_089.jpg,ss_089.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_090.jpg,ss_090.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_091.jpg,ss_091.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_092.png,ss_092.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_093.jpg,ss_093.jpg,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_094.png,ss_094.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_095.jpg,ss_095.jpg,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_096.png,ss_096.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_097.jpg,ss_097.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_098.png,ss_098.png,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_099.jpg,ss_099.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_100.png,ss_100.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_101.jpg,ss_101.jpg,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_102.png,ss_102.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_103.jpg,ss_103.jpg,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_104.png,ss_104.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_105.jpg,ss_105.jpg,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_106.png,ss_106.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_107.jpg,ss_107.jpg,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_108.png,ss_108.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_109.jpg,ss_109.jpg,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_110.png,ss_110.png,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_111.jpg,ss_111.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_112.png,ss_112.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_113.jpg,ss_113.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_114.png,ss_114.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_115.jpg,ss_115.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_116.png,ss_116.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_117.jpg,ss_117.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_118.png,ss_118.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_119.jpg,ss_119.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_120.png,ss_120.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_121.jpg,ss_121.jpg,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_122.png,ss_122.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_123.jpg,ss_123.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_124.png,ss_124.png,ELIGIBLE_GROUND_TRUTH,login_authentication,UNIQUE,Human-verified clean visual screen type label
+ss_125.jpg,ss_125.jpg,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_126.png,ss_126.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_127.jpg,ss_127.jpg,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_128.png,ss_128.png,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_129.jpg,ss_129.jpg,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_130.png,ss_130.png,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_131.jpg,ss_131.jpg,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_132.png,ss_132.png,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_133.jpg,ss_133.jpg,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_134.png,ss_134.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_135.jpg,ss_135.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_136.png,ss_136.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_137.png,ss_137.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_138.png,ss_138.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_139.png,ss_139.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_140.png,ss_140.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_141.png,ss_141.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_142.png,ss_142.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_143.png,ss_143.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_144.png,ss_144.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_145.png,ss_145.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_146.png,ss_146.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_147.png,ss_147.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_148.png,ss_148.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_149.png,ss_149.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_150.png,ss_150.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_151.png,ss_151.png,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_152.png,ss_152.png,ELIGIBLE_GROUND_TRUTH,product_detail,UNIQUE,Human-verified clean visual screen type label
+ss_153.png,ss_153.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_154.png,ss_154.png,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_155.jpg,ss_155.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_156.jpg,ss_156.jpg,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_157.jpg,ss_157.jpg,ELIGIBLE_GROUND_TRUTH,dashboard_settings,UNIQUE,Human-verified clean visual screen type label
+ss_158.jpg,ss_158.jpg,ELIGIBLE_GROUND_TRUTH,document_article_view,UNIQUE,Human-verified clean visual screen type label
+ss_159.jpg,ss_159.jpg,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_160.jpg,ss_160.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_161.jpg,ss_161.jpg,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_162.jpg,ss_162.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_163.jpg,ss_163.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_164.jpg,ss_164.jpg,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_165.jpg,ss_165.jpg,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_166.jpg,ss_166.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_167.jpg,ss_167.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_168.jpg,ss_168.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_169.jpg,ss_169.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_170.jpg,ss_170.jpg,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_171.jpg,ss_171.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_172.jpg,ss_172.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_173.jpg,ss_173.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_174.png,ss_174.png,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_175.jpg,ss_175.jpg,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_176.png,ss_176.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_177.jpg,ss_177.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_178.png,ss_178.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_179.jpg,ss_179.jpg,ELIGIBLE_GROUND_TRUTH,product_detail,UNIQUE,Human-verified clean visual screen type label
+ss_180.png,ss_180.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_181.jpg,ss_181.jpg,ELIGIBLE_GROUND_TRUTH,document_article_view,UNIQUE,Human-verified clean visual screen type label
+ss_182.png,ss_182.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_183.png,ss_183.png,ELIGIBLE_GROUND_TRUTH,login_authentication,UNIQUE,Human-verified clean visual screen type label
+ss_184.png,ss_184.png,ELIGIBLE_GROUND_TRUTH,login_authentication,UNIQUE,Human-verified clean visual screen type label
+ss_185.png,ss_185.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_186.png,ss_186.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_187.png,ss_187.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_188.png,ss_188.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_189.png,ss_189.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_190.png,ss_190.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_191.png,ss_191.png,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_192.png,ss_192.png,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_193.png,ss_193.png,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_194.png,ss_194.png,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_195.png,ss_195.png,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_196.png,ss_196.png,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_197.png,ss_197.png,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_198.png,ss_198.png,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_199.png,ss_199.png,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_200.png,ss_200.png,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_201.png,ss_201.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_202.png,ss_202.png,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_203.png,ss_203.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_204.png,ss_204.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_205.png,ss_205.png,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_206.png,ss_206.png,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_207.png,ss_207.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_208.png,ss_208.png,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_209.png,ss_209.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_210.png,ss_210.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_211.png,ss_211.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_212.png,ss_212.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_213.png,ss_213.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_214.png,ss_214.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_215.png,ss_215.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_216.png,ss_216.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_217.png,ss_217.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_218.png,ss_218.png,ELIGIBLE_GROUND_TRUTH,cart_checkout_payment,UNIQUE,Human-verified clean visual screen type label
+ss_219.jpg,ss_219.jpg,ELIGIBLE_GROUND_TRUTH,product_detail,UNIQUE,Human-verified clean visual screen type label
+ss_220.png,ss_220.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_221.jpg,ss_221.jpg,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_222.png,ss_222.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_223.jpg,ss_223.jpg,ELIGIBLE_GROUND_TRUTH,document_article_view,UNIQUE,Human-verified clean visual screen type label
+ss_224.png,ss_224.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_225.jpg,ss_225.jpg,ELIGIBLE_GROUND_TRUTH,document_article_view,UNIQUE,Human-verified clean visual screen type label
+ss_226.png,ss_226.png,EXCLUDED_PENDING,,DUPE_GROUP_019,Unreviewed pending screenshot
+ss_227.jpg,ss_227.jpg,ELIGIBLE_GROUND_TRUTH,product_detail,UNIQUE,Human-verified clean visual screen type label
+ss_228.png,ss_228.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_229.jpg,ss_229.jpg,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_230.png,ss_230.png,ELIGIBLE_GROUND_TRUTH,product_detail,UNIQUE,Human-verified clean visual screen type label
+ss_231.jpg,ss_231.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_232.png,ss_232.png,ELIGIBLE_GROUND_TRUTH,product_detail,UNIQUE,Human-verified clean visual screen type label
+ss_233.jpg,ss_233.jpg,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_234.png,ss_234.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_235.jpg,ss_235.jpg,ELIGIBLE_GROUND_TRUTH,document_article_view,UNIQUE,Human-verified clean visual screen type label
+ss_236.png,ss_236.png,EXCLUDED_PENDING,,DUPE_GROUP_019,Unreviewed pending screenshot
+ss_237.jpg,ss_237.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_238.png,ss_238.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_239.jpg,ss_239.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_240.png,ss_240.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_241.jpg,ss_241.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_242.png,ss_242.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_243.jpg,ss_243.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_244.png,ss_244.png,ELIGIBLE_GROUND_TRUTH,product_detail,UNIQUE,Human-verified clean visual screen type label
+ss_245.jpg,ss_245.jpg,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_246.png,ss_246.png,ELIGIBLE_GROUND_TRUTH,product_detail,UNIQUE,Human-verified clean visual screen type label
+ss_247.jpg,ss_247.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_248.png,ss_248.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_249.jpg,ss_249.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_250.png,ss_250.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_251.jpg,ss_251.jpg,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_252.png,ss_252.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_253.jpg,ss_253.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_254.png,ss_254.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_255.jpg,ss_255.jpg,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_256.png,ss_256.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_257.jpg,ss_257.jpg,ELIGIBLE_GROUND_TRUTH,login_authentication,UNIQUE,Human-verified clean visual screen type label
+ss_258.png,ss_258.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_259.jpg,ss_259.jpg,ELIGIBLE_GROUND_TRUTH,login_authentication,UNIQUE,Human-verified clean visual screen type label
+ss_260.png,ss_260.png,ELIGIBLE_GROUND_TRUTH,product_detail,UNIQUE,Human-verified clean visual screen type label
+ss_261.jpg,ss_261.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_262.png,ss_262.png,ELIGIBLE_GROUND_TRUTH,travel_booking,DUPE_GROUP_019,Human-verified clean visual screen type label
+ss_263.jpg,ss_263.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_264.png,ss_264.png,EXCLUDED_PENDING,,DUPE_GROUP_019,Unreviewed pending screenshot
+ss_265.jpg,ss_265.jpg,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_266.png,ss_266.png,ELIGIBLE_GROUND_TRUTH,document_article_view,UNIQUE,Human-verified clean visual screen type label
+ss_267.jpg,ss_267.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_268.png,ss_268.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_269.jpg,ss_269.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_270.png,ss_270.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_271.jpg,ss_271.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_272.png,ss_272.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_273.jpg,ss_273.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_274.png,ss_274.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_275.jpg,ss_275.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_276.png,ss_276.png,ELIGIBLE_GROUND_TRUTH,product_detail,UNIQUE,Human-verified clean visual screen type label
+ss_277.jpg,ss_277.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_278.png,ss_278.png,ELIGIBLE_GROUND_TRUTH,product_detail,UNIQUE,Human-verified clean visual screen type label
+ss_279.jpg,ss_279.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_280.png,ss_280.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_281.jpg,ss_281.jpg,ELIGIBLE_GROUND_TRUTH,product_detail,UNIQUE,Human-verified clean visual screen type label
+ss_282.png,ss_282.png,ELIGIBLE_GROUND_TRUTH,login_authentication,UNIQUE,Human-verified clean visual screen type label
+ss_283.jpg,ss_283.jpg,ELIGIBLE_GROUND_TRUTH,document_article_view,UNIQUE,Human-verified clean visual screen type label
+ss_284.png,ss_284.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_285.jpg,ss_285.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_286.png,ss_286.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_287.jpg,ss_287.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_288.png,ss_288.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_289.jpg,ss_289.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_290.png,ss_290.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_291.jpg,ss_291.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_292.png,ss_292.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_293.jpg,ss_293.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_294.png,ss_294.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_295.jpg,ss_295.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_296.png,ss_296.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_297.jpg,ss_297.jpg,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_298.png,ss_298.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_299.jpg,ss_299.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_300.png,ss_300.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_301.jpg,ss_301.jpg,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_302.png,ss_302.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_303.jpg,ss_303.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_304.png,ss_304.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_305.jpg,ss_305.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_306.png,ss_306.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_307.jpg,ss_307.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_308.png,ss_308.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_309.jpg,ss_309.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_310.png,ss_310.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_311.jpg,ss_311.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_312.png,ss_312.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_313.jpg,ss_313.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_314.png,ss_314.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_315.jpg,ss_315.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_316.png,ss_316.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_317.png,ss_317.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_318.png,ss_318.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_319.png,ss_319.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_320.png,ss_320.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_321.png,ss_321.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_322.png,ss_322.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_323.png,ss_323.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_324.png,ss_324.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_325.png,ss_325.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_326.png,ss_326.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_327.png,ss_327.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_328.png,ss_328.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_329.png,ss_329.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_330.png,ss_330.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_331.png,ss_331.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_332.png,ss_332.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_333.png,ss_333.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_334.png,ss_334.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_335.png,ss_335.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_336.png,ss_336.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_337.png,ss_337.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_338.png,ss_338.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_339.png,ss_339.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_340.png,ss_340.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_341.png,ss_341.png,ELIGIBLE_GROUND_TRUTH,cart_checkout_payment,UNIQUE,Human-verified clean visual screen type label
+ss_342.png,ss_342.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_343.png,ss_343.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_344.png,ss_344.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_345.png,ss_345.png,ELIGIBLE_GROUND_TRUTH,login_authentication,UNIQUE,Human-verified clean visual screen type label
+ss_346.png,ss_346.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_347.png,ss_347.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_348.png,ss_348.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_349.png,ss_349.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_350.png,ss_350.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_351.png,ss_351.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_352.png,ss_352.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_353.png,ss_353.png,ELIGIBLE_GROUND_TRUTH,cart_checkout_payment,UNIQUE,Human-verified clean visual screen type label
+ss_354.png,ss_354.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_355.png,ss_355.png,ELIGIBLE_GROUND_TRUTH,cart_checkout_payment,UNIQUE,Human-verified clean visual screen type label
+ss_356.png,ss_356.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_357.png,ss_357.png,ELIGIBLE_GROUND_TRUTH,cart_checkout_payment,UNIQUE,Human-verified clean visual screen type label
+ss_358.jpg,ss_358.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_359.png,ss_359.png,ELIGIBLE_GROUND_TRUTH,messaging_chat,UNIQUE,Human-verified clean visual screen type label
+ss_360.png,ss_360.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_361.jpg,ss_361.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_362.png,ss_362.png,ELIGIBLE_GROUND_TRUTH,product_detail,UNIQUE,Human-verified clean visual screen type label
+ss_363.png,ss_363.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_364.jpg,ss_364.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_365.png,ss_365.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_366.png,ss_366.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_367.jpg,ss_367.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_368.png,ss_368.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_369.png,ss_369.png,ELIGIBLE_GROUND_TRUTH,product_detail,UNIQUE,Human-verified clean visual screen type label
+ss_370.jpg,ss_370.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_371.png,ss_371.png,ELIGIBLE_GROUND_TRUTH,product_detail,UNIQUE,Human-verified clean visual screen type label
+ss_372.png,ss_372.png,ELIGIBLE_GROUND_TRUTH,product_detail,UNIQUE,Human-verified clean visual screen type label
+ss_373.jpg,ss_373.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_374.png,ss_374.png,ELIGIBLE_GROUND_TRUTH,product_detail,UNIQUE,Human-verified clean visual screen type label
+ss_375.png,ss_375.png,ELIGIBLE_GROUND_TRUTH,travel_booking,DUPE_GROUP_019,Human-verified clean visual screen type label
+ss_376.jpg,ss_376.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_377.png,ss_377.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_378.png,ss_378.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_379.jpg,ss_379.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_380.png,ss_380.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_381.png,ss_381.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_382.jpg,ss_382.jpg,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_383.png,ss_383.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_384.png,ss_384.png,ELIGIBLE_GROUND_TRUTH,login_authentication,UNIQUE,Human-verified clean visual screen type label
+ss_385.jpg,ss_385.jpg,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_386.png,ss_386.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_387.png,ss_387.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_388.jpg,ss_388.jpg,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_389.png,ss_389.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_390.png,ss_390.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_391.jpg,ss_391.jpg,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_392.png,ss_392.png,ELIGIBLE_GROUND_TRUTH,login_authentication,UNIQUE,Human-verified clean visual screen type label
+ss_393.png,ss_393.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_394.jpg,ss_394.jpg,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_395.png,ss_395.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_396.png,ss_396.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_397.jpg,ss_397.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_398.png,ss_398.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_399.png,ss_399.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_400.jpg,ss_400.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_401.png,ss_401.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_402.png,ss_402.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_403.jpg,ss_403.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_404.png,ss_404.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_405.png,ss_405.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_406.jpg,ss_406.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_407.png,ss_407.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_408.png,ss_408.png,ELIGIBLE_GROUND_TRUTH,travel_booking,DUPE_GROUP_019,Human-verified clean visual screen type label
+ss_409.jpg,ss_409.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_410.png,ss_410.png,EXCLUDED_PENDING,,DUPE_GROUP_019,Unreviewed pending screenshot
+ss_411.png,ss_411.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_412.jpg,ss_412.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_413.png,ss_413.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_414.png,ss_414.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_415.jpg,ss_415.jpg,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_416.png,ss_416.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_417.png,ss_417.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_418.jpg,ss_418.jpg,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_419.png,ss_419.png,ELIGIBLE_GROUND_TRUTH,product_detail,UNIQUE,Human-verified clean visual screen type label
+ss_420.png,ss_420.png,ELIGIBLE_GROUND_TRUTH,product_detail,UNIQUE,Human-verified clean visual screen type label
+ss_421.jpg,ss_421.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_422.png,ss_422.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_423.png,ss_423.png,ELIGIBLE_GROUND_TRUTH,product_detail,UNIQUE,Human-verified clean visual screen type label
+ss_424.jpg,ss_424.jpg,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_425.png,ss_425.png,EXCLUDED_PENDING,,DUPE_GROUP_019,Unreviewed pending screenshot
+ss_426.png,ss_426.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_427.jpg,ss_427.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_428.png,ss_428.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_429.png,ss_429.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_430.jpg,ss_430.jpg,ELIGIBLE_GROUND_TRUTH,dashboard_settings,UNIQUE,Human-verified clean visual screen type label
+ss_431.png,ss_431.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_432.png,ss_432.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_433.jpg,ss_433.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_434.png,ss_434.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_435.png,ss_435.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_436.jpg,ss_436.jpg,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_437.png,ss_437.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_438.png,ss_438.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_439.jpg,ss_439.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_440.png,ss_440.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_441.png,ss_441.png,EXCLUDED_CORRUPTED,,singleton_ss_441,Corrupted 0-byte image file
+ss_442.jpg,ss_442.jpg,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_443.png,ss_443.png,EXCLUDED_CORRUPTED,,singleton_ss_443,Corrupted 0-byte image file
+ss_444.png,ss_444.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_445.jpg,ss_445.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_446.png,ss_446.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_447.png,ss_447.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_448.jpg,ss_448.jpg,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_449.png,ss_449.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_450.png,ss_450.png,ELIGIBLE_GROUND_TRUTH,login_authentication,UNIQUE,Human-verified clean visual screen type label
+ss_451.jpg,ss_451.jpg,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_452.png,ss_452.png,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_453.png,ss_453.png,ELIGIBLE_GROUND_TRUTH,product_detail,UNIQUE,Human-verified clean visual screen type label
+ss_454.jpg,ss_454.jpg,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_455.png,ss_455.png,ELIGIBLE_GROUND_TRUTH,product_detail,UNIQUE,Human-verified clean visual screen type label
+ss_456.png,ss_456.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_457.jpg,ss_457.jpg,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_458.png,ss_458.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_459.png,ss_459.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_460.jpg,ss_460.jpg,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_461.png,ss_461.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_462.png,ss_462.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_463.jpg,ss_463.jpg,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_464.png,ss_464.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_465.png,ss_465.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_466.jpg,ss_466.jpg,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_467.png,ss_467.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_468.png,ss_468.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_469.jpg,ss_469.jpg,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_470.png,ss_470.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_471.png,ss_471.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_472.jpg,ss_472.jpg,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_473.png,ss_473.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_474.png,ss_474.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_475.jpg,ss_475.jpg,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_476.png,ss_476.png,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_477.png,ss_477.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_478.jpg,ss_478.jpg,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_479.png,ss_479.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_480.png,ss_480.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_481.png,ss_481.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_482.png,ss_482.png,ELIGIBLE_GROUND_TRUTH,product_detail,UNIQUE,Human-verified clean visual screen type label
+ss_483.png,ss_483.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_484.png,ss_484.png,ELIGIBLE_GROUND_TRUTH,product_detail,UNIQUE,Human-verified clean visual screen type label
+ss_485.png,ss_485.png,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_486.png,ss_486.png,ELIGIBLE_GROUND_TRUTH,product_detail,UNIQUE,Human-verified clean visual screen type label
+ss_487.png,ss_487.png,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_488.png,ss_488.png,ELIGIBLE_GROUND_TRUTH,product_detail,UNIQUE,Human-verified clean visual screen type label
+ss_489.png,ss_489.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_490.png,ss_490.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_491.png,ss_491.png,ELIGIBLE_GROUND_TRUTH,product_detail,UNIQUE,Human-verified clean visual screen type label
+ss_492.png,ss_492.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_493.png,ss_493.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_494.png,ss_494.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_495.png,ss_495.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_496.png,ss_496.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_497.png,ss_497.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_498.png,ss_498.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_499.png,ss_499.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_500.png,ss_500.png,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_501.png,ss_501.png,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_502.png,ss_502.png,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_503.png,ss_503.png,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_504.png,ss_504.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_505.png,ss_505.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_506.png,ss_506.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_507.png,ss_507.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_508.png,ss_508.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_509.png,ss_509.png,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_510.png,ss_510.png,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_511.png,ss_511.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_512.png,ss_512.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_513.png,ss_513.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_514.png,ss_514.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_515.png,ss_515.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_516.png,ss_516.png,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_517.png,ss_517.png,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_518.png,ss_518.png,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_519.png,ss_519.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_520.png,ss_520.png,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_521.png,ss_521.png,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_522.png,ss_522.png,ELIGIBLE_GROUND_TRUTH,product_listing,UNIQUE,Human-verified clean visual screen type label
+ss_523.png,ss_523.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_524.png,ss_524.png,ELIGIBLE_GROUND_TRUTH,cart_checkout_payment,DUPE_GROUP_019,Human-verified clean visual screen type label
+ss_525.png,ss_525.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_526.png,ss_526.png,ELIGIBLE_GROUND_TRUTH,cart_checkout_payment,DUPE_GROUP_019,Human-verified clean visual screen type label
+ss_527.png,ss_527.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_528.png,ss_528.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_529.png,ss_529.png,ELIGIBLE_GROUND_TRUTH,cart_checkout_payment,UNIQUE,Human-verified clean visual screen type label
+ss_530.png,ss_530.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_531.png,ss_531.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_532.png,ss_532.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_533.png,ss_533.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_534.png,ss_534.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_535.png,ss_535.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_536.png,ss_536.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_537.png,ss_537.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_538.png,ss_538.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_539.png,ss_539.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_540.png,ss_540.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_541.png,ss_541.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_542.png,ss_542.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_543.png,ss_543.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_544.png,ss_544.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_545.png,ss_545.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_546.png,ss_546.png,ELIGIBLE_GROUND_TRUTH,login_authentication,UNIQUE,Human-verified clean visual screen type label
+ss_547.png,ss_547.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_548.png,ss_548.png,ELIGIBLE_GROUND_TRUTH,login_authentication,UNIQUE,Human-verified clean visual screen type label
+ss_549.png,ss_549.png,ELIGIBLE_GROUND_TRUTH,login_authentication,UNIQUE,Human-verified clean visual screen type label
+ss_550.png,ss_550.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_551.png,ss_551.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_552.png,ss_552.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_553.png,ss_553.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_554.png,ss_554.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_555.png,ss_555.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_556.png,ss_556.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_557.png,ss_557.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_558.png,ss_558.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_559.png,ss_559.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_560.png,ss_560.png,EXCLUDED_CORRUPTED,,singleton_ss_560,Corrupted 0-byte image file
+ss_561.png,ss_561.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_562.png,ss_562.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_563.png,ss_563.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_564.png,ss_564.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_565.png,ss_565.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_566.png,ss_566.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_567.png,ss_567.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_568.png,ss_568.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_569.png,ss_569.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_570.png,ss_570.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_571.png,ss_571.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_572.png,ss_572.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_573.png,ss_573.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_574.png,ss_574.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_575.png,ss_575.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_576.png,ss_576.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_577.png,ss_577.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_578.png,ss_578.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_579.png,ss_579.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_580.png,ss_580.png,EXCLUDED_PENDING,,DUPE_GROUP_019,Unreviewed pending screenshot
+ss_581.png,ss_581.png,EXCLUDED_PENDING,,DUPE_GROUP_019,Unreviewed pending screenshot
+ss_582.png,ss_582.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_583.png,ss_583.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_584.png,ss_584.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_585.png,ss_585.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_586.png,ss_586.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_587.png,ss_587.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_588.png,ss_588.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_589.png,ss_589.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_590.png,ss_590.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_591.png,ss_591.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_592.png,ss_592.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_593.png,ss_593.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_594.png,ss_594.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_595.png,ss_595.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_596.png,ss_596.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_597.png,ss_597.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_598.png,ss_598.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_599.png,ss_599.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_600.png,ss_600.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_601.png,ss_601.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_602.png,ss_602.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_603.png,ss_603.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_604.png,ss_604.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_605.png,ss_605.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_606.png,ss_606.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_607.png,ss_607.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_608.png,ss_608.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_609.png,ss_609.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_610.png,ss_610.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_611.png,ss_611.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_612.png,ss_612.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_613.png,ss_613.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_614.png,ss_614.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_615.png,ss_615.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_616.png,ss_616.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_617.png,ss_617.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_618.png,ss_618.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_619.png,ss_619.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_620.png,ss_620.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_621.png,ss_621.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_622.png,ss_622.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_623.png,ss_623.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_624.png,ss_624.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_625.png,ss_625.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_626.png,ss_626.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_627.png,ss_627.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_628.png,ss_628.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_629.png,ss_629.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_630.png,ss_630.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_631.png,ss_631.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_632.png,ss_632.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_633.png,ss_633.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_634.png,ss_634.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_635.png,ss_635.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_636.png,ss_636.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_637.png,ss_637.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_638.png,ss_638.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_639.png,ss_639.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_640.png,ss_640.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_641.png,ss_641.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_642.png,ss_642.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_643.png,ss_643.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_644.png,ss_644.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_645.png,ss_645.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_646.png,ss_646.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_647.png,ss_647.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_648.png,ss_648.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_649.png,ss_649.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_650.png,ss_650.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_651.png,ss_651.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_652.png,ss_652.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_653.png,ss_653.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_654.png,ss_654.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_655.png,ss_655.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_656.png,ss_656.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_657.png,ss_657.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_658.png,ss_658.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_659.png,ss_659.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_660.png,ss_660.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_661.png,ss_661.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_662.png,ss_662.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_663.png,ss_663.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_664.png,ss_664.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_665.png,ss_665.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_666.png,ss_666.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_667.png,ss_667.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_668.png,ss_668.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_669.png,ss_669.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_670.png,ss_670.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_671.png,ss_671.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_672.png,ss_672.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_673.png,ss_673.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_674.png,ss_674.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_675.png,ss_675.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_676.png,ss_676.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_677.png,ss_677.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_678.png,ss_678.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_679.png,ss_679.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_680.png,ss_680.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_681.png,ss_681.png,EXCLUDED_PENDING,,DUPE_GROUP_019,Unreviewed pending screenshot
+ss_682.png,ss_682.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_683.png,ss_683.png,EXCLUDED_PENDING,,DUPE_GROUP_019,Unreviewed pending screenshot
+ss_684.png,ss_684.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_685.png,ss_685.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_686.png,ss_686.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_687.png,ss_687.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_688.png,ss_688.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_689.png,ss_689.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_690.png,ss_690.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_691.png,ss_691.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_692.png,ss_692.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_693.png,ss_693.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_694.png,ss_694.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_695.png,ss_695.png,ELIGIBLE_GROUND_TRUTH,travel_booking,UNIQUE,Human-verified clean visual screen type label
+ss_696.png,ss_696.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_697.png,ss_697.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_698.png,ss_698.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_699.png,ss_699.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_700.png,ss_700.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_701.png,ss_701.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_702.png,ss_702.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_703.png,ss_703.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_704.png,ss_704.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_705.png,ss_705.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_706.png,ss_706.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_707.png,ss_707.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_708.png,ss_708.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_709.png,ss_709.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_710.png,ss_710.png,ELIGIBLE_GROUND_TRUTH,login_authentication,UNIQUE,Human-verified clean visual screen type label
+ss_711.png,ss_711.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_712.png,ss_712.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_713.png,ss_713.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_714.png,ss_714.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_715.png,ss_715.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_716.png,ss_716.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_717.png,ss_717.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_718.png,ss_718.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_719.png,ss_719.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_720.png,ss_720.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_721.png,ss_721.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_722.png,ss_722.png,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_723.png,ss_723.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_724.png,ss_724.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_725.png,ss_725.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_726.png,ss_726.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_727.png,ss_727.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_728.png,ss_728.png,EXCLUDED_PENDING,,DUPE_GROUP_019,Unreviewed pending screenshot
+ss_729.png,ss_729.png,EXCLUDED_PENDING,,DUPE_GROUP_019,Unreviewed pending screenshot
+ss_730.png,ss_730.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_731.png,ss_731.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_732.png,ss_732.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_733.png,ss_733.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_734.png,ss_734.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_735.png,ss_735.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_736.png,ss_736.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_737.png,ss_737.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_738.png,ss_738.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_739.png,ss_739.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_740.png,ss_740.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_741.png,ss_741.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_742.png,ss_742.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_743.png,ss_743.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_744.png,ss_744.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_745.png,ss_745.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_746.png,ss_746.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_747.png,ss_747.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_748.png,ss_748.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_749.png,ss_749.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_750.png,ss_750.png,EXCLUDED_REJECTED,,UNIQUE,Rejected unclassifiable valid screenshot
+ss_751.png,ss_751.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_752.png,ss_752.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_753.png,ss_753.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_754.png,ss_754.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_755.png,ss_755.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_756.png,ss_756.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_757.png,ss_757.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_758.png,ss_758.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_759.png,ss_759.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_760.png,ss_760.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_761.png,ss_761.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_762.png,ss_762.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_763.png,ss_763.png,EXCLUDED_PENDING,,DUPE_GROUP_019,Unreviewed pending screenshot
+ss_764.png,ss_764.png,EXCLUDED_PENDING,,DUPE_GROUP_019,Unreviewed pending screenshot
+ss_765.png,ss_765.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_766.png,ss_766.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_767.png,ss_767.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_768.png,ss_768.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_769.png,ss_769.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_770.png,ss_770.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_771.png,ss_771.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_772.png,ss_772.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_773.png,ss_773.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_774.png,ss_774.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_775.png,ss_775.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_776.png,ss_776.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_777.png,ss_777.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_778.png,ss_778.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_779.png,ss_779.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_780.png,ss_780.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_781.png,ss_781.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_782.png,ss_782.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_783.png,ss_783.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_784.png,ss_784.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_785.png,ss_785.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_786.png,ss_786.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_787.png,ss_787.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_788.png,ss_788.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_789.png,ss_789.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_790.png,ss_790.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_791.png,ss_791.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_792.png,ss_792.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_793.png,ss_793.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_794.png,ss_794.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_795.png,ss_795.png,ELIGIBLE_GROUND_TRUTH,media_player_library,UNIQUE,Human-verified clean visual screen type label
+ss_796.png,ss_796.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_797.png,ss_797.png,EXCLUDED_PENDING,,UNIQUE,Unreviewed pending screenshot
+ss_798.png,ss_798.png,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_799.jpg,ss_799.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,DUPE_GROUP_002,Human-verified clean visual screen type label
+ss_800.jpg,ss_800.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,DUPE_GROUP_003,Human-verified clean visual screen type label
+ss_801.jpg,ss_801.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,DUPE_GROUP_004,Human-verified clean visual screen type label
+ss_802.jpg,ss_802.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,DUPE_GROUP_005,Human-verified clean visual screen type label
+ss_803.jpg,ss_803.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,DUPE_GROUP_006,Human-verified clean visual screen type label
+ss_804.jpg,ss_804.jpg,EXCLUDED_PENDING,,DUPE_GROUP_006,Unreviewed pending screenshot
+ss_805.jpg,ss_805.jpg,ELIGIBLE_GROUND_TRUTH,code_editor_terminal,DUPE_GROUP_007,Human-verified clean visual screen type label
+ss_806.jpg,ss_806.jpg,EXCLUDED_PENDING,,DUPE_GROUP_007,Unreviewed pending screenshot
+ss_807.jpg,ss_807.jpg,EXCLUDED_PENDING,,DUPE_GROUP_008,Unreviewed pending screenshot
+ss_808.jpg,ss_808.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,DUPE_GROUP_009,Human-verified clean visual screen type label
+ss_809.jpg,ss_809.jpg,ELIGIBLE_GROUND_TRUTH,travel_booking,DUPE_GROUP_009,Human-verified clean visual screen type label
+ss_810.jpg,ss_810.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,DUPE_GROUP_010,Human-verified clean visual screen type label
+ss_811.jpg,ss_811.jpg,ELIGIBLE_GROUND_TRUTH,cart_checkout_payment,DUPE_GROUP_011,Human-verified clean visual screen type label
+ss_812.jpg,ss_812.jpg,ELIGIBLE_GROUND_TRUTH,travel_booking,DUPE_GROUP_012,Human-verified clean visual screen type label
+ss_813.jpg,ss_813.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,DUPE_GROUP_013,Human-verified clean visual screen type label
+ss_814.jpg,ss_814.jpg,ELIGIBLE_GROUND_TRUTH,travel_booking,DUPE_GROUP_014,Human-verified clean visual screen type label
+ss_815.jpg,ss_815.jpg,ELIGIBLE_GROUND_TRUTH,cart_checkout_payment,DUPE_GROUP_015,Human-verified clean visual screen type label
+ss_816.jpg,ss_816.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,DUPE_GROUP_016,Human-verified clean visual screen type label
+ss_817.jpg,ss_817.jpg,ELIGIBLE_GROUND_TRUTH,travel_booking,DUPE_GROUP_016,Human-verified clean visual screen type label
+ss_818.jpg,ss_818.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,DUPE_GROUP_017,Human-verified clean visual screen type label
+ss_819.jpg,ss_819.jpg,ELIGIBLE_GROUND_TRUTH,messaging_chat,DUPE_GROUP_017,Human-verified clean visual screen type label
+ss_820.jpg,ss_820.jpg,ELIGIBLE_GROUND_TRUTH,product_listing,DUPE_GROUP_018,Human-verified clean visual screen type label
+ss_821.jpg,ss_821.jpg,EXCLUDED_PENDING,,DUPE_GROUP_018,Unreviewed pending screenshot
+ss_822.jpg,ss_822.jpg,EXCLUDED_PENDING,,DUPE_GROUP_018,Unreviewed pending screenshot
+ss_823.jpg,ss_823.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,DUPE_GROUP_018,Human-verified clean visual screen type label
+ss_824.jpg,ss_824.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,DUPE_GROUP_019,Human-verified clean visual screen type label
+ss_825.jpg,ss_825.jpg,EXCLUDED_PENDING,,DUPE_GROUP_019,Unreviewed pending screenshot
+ss_826.jpg,ss_826.jpg,EXCLUDED_PENDING,,DUPE_GROUP_019,Unreviewed pending screenshot
+ss_827.jpg,ss_827.jpg,EXCLUDED_PENDING,,DUPE_GROUP_019,Unreviewed pending screenshot
+ss_828.jpg,ss_828.jpg,EXCLUDED_PENDING,,DUPE_GROUP_019,Unreviewed pending screenshot
+ss_829.jpg,ss_829.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_830.jpg,ss_830.jpg,ELIGIBLE_GROUND_TRUTH,dashboard_settings,UNIQUE,Human-verified clean visual screen type label
+ss_831.jpg,ss_831.jpg,ELIGIBLE_GROUND_TRUTH,other_screen,UNIQUE,Human-verified clean visual screen type label
+ss_832.jpg,ss_832.jpg,ELIGIBLE_GROUND_TRUTH,login_authentication,UNIQUE,Human-verified clean visual screen type label
+ss_833.jpg,ss_833.jpg,ELIGIBLE_GROUND_TRUTH,error_dialog_alert,UNIQUE,Human-verified clean visual screen type label
+ss_834.jpg,ss_834.jpg,ELIGIBLE_GROUND_TRUTH,error_dialog_alert,UNIQUE,Human-verified clean visual screen type label
+ss_835.jpg,ss_835.jpg,ELIGIBLE_GROUND_TRUTH,error_dialog_alert,UNIQUE,Human-verified clean visual screen type label
+ss_836.jpg,ss_836.jpg,ELIGIBLE_GROUND_TRUTH,error_dialog_alert,UNIQUE,Human-verified clean visual screen type label

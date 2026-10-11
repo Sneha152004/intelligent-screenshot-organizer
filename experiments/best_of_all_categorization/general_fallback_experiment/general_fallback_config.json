@@ -1,0 +1,15 @@
+{
+  "experiment_name": "general_fallback_experiment",
+  "status": "EVALUATED",
+  "timestamp": "2026-10-08T22:13:02+05:30",
+  "deterministic": true,
+  "intervention": {
+    "mandatory_category": "General",
+    "rule": "Classifier Top-5 UNION MiniLM Top-5 UNION {'General'}"
+  },
+  "frozen_components_reused": {
+    "base_classifier": "RecoverySemanticCandidate (Variant C)",
+    "embedder": "sentence-transformers/all-MiniLM-L6-v2 (shared instance)",
+    "reranker": "BestOfAllCandidateReranker (unscaled score fusion + High-Conf Guardrail)"
+  }
+}

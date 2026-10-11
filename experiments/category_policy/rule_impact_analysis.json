@@ -1,0 +1,1839 @@
+{
+  "total_prediction_changes": 34,
+  "total_corrections": 26,
+  "total_harms": 6,
+  "changes": [
+    {
+      "id": "ext2_023",
+      "filename": "ext2_023.jpg",
+      "baseline_category": "General",
+      "new_category": "Work & Career",
+      "ground_truth": "Work & Career",
+      "impact_status": "CORRECTED",
+      "policy_reasons": [
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career"
+      ],
+      "top_candidate_scores": [
+        {
+          "category": "Work & Career",
+          "score": 0.5846,
+          "s_clf": 0.0,
+          "s_minilm": 0.2382,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 3.5,
+          "sources": [
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Shopping",
+          "score": 0.4232,
+          "s_clf": 0.63,
+          "s_minilm": 0.1468,
+          "s_ocr": 0.2,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 1
+        },
+        {
+          "category": "General",
+          "score": 0.2741,
+          "s_clf": 0.9,
+          "s_minilm": 0.2128,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_024",
+      "filename": "ext2_024.jpg",
+      "baseline_category": "Shopping",
+      "new_category": "Education",
+      "ground_truth": "Education",
+      "impact_status": "CORRECTED",
+      "policy_reasons": [
+        "Academic lecture / Course syllabus primary object",
+        "General vs Communication: Messaging context tiebreaker applied to Communication",
+        "General vs Shopping: Retail item context tiebreaker applied to Shopping"
+      ],
+      "top_candidate_scores": [
+        {
+          "category": "Education",
+          "score": 0.9537,
+          "s_clf": 0.0,
+          "s_minilm": 0.2147,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 6.0,
+          "sources": [
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Shopping",
+          "score": 0.8645,
+          "s_clf": 0.65,
+          "s_minilm": 0.248,
+          "s_ocr": 0.35,
+          "s_vis": 0.0,
+          "s_policy": 2.5,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 2
+        },
+        {
+          "category": "Communication",
+          "score": 0.5177,
+          "s_clf": 0.455,
+          "s_minilm": 0.1697,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 1.5,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_032",
+      "filename": "ext2_032.jpg",
+      "baseline_category": "Entertainment",
+      "new_category": "Shopping",
+      "ground_truth": "Shopping",
+      "impact_status": "CORRECTED",
+      "policy_reasons": [],
+      "top_candidate_scores": [
+        {
+          "category": "Shopping",
+          "score": 0.4796,
+          "s_clf": 0.455,
+          "s_minilm": 0.1572,
+          "s_ocr": 0.2,
+          "s_vis": 0.0,
+          "s_policy": 1.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 1
+        },
+        {
+          "category": "Entertainment",
+          "score": 0.358,
+          "s_clf": 0.65,
+          "s_minilm": 0.0021,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Travel",
+          "score": 0.1864,
+          "s_clf": 0.2925,
+          "s_minilm": 0.102,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_037",
+      "filename": "ext2_037.jpg",
+      "baseline_category": "General",
+      "new_category": "Shopping",
+      "ground_truth": "General",
+      "impact_status": "HARMED",
+      "policy_reasons": [
+        "E-commerce product catalog / cart primary object",
+        "General vs Communication: Messaging context tiebreaker applied to Communication",
+        "General vs Shopping: Retail item context tiebreaker applied to Shopping"
+      ],
+      "top_candidate_scores": [
+        {
+          "category": "Shopping",
+          "score": 0.9341,
+          "s_clf": 0.0,
+          "s_minilm": 0.1564,
+          "s_ocr": 0.35,
+          "s_vis": 0.0,
+          "s_policy": 5.5,
+          "sources": [
+            "minilm"
+          ],
+          "n_ocr_matches": 2
+        },
+        {
+          "category": "Education",
+          "score": 0.1818,
+          "s_clf": 0.0,
+          "s_minilm": 0.1272,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 1.0,
+          "sources": [
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "General",
+          "score": 0.1363,
+          "s_clf": 0.45,
+          "s_minilm": 0.1005,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_038",
+      "filename": "ext2_038.jpg",
+      "baseline_category": "General",
+      "new_category": "Shopping",
+      "ground_truth": "General",
+      "impact_status": "HARMED",
+      "policy_reasons": [],
+      "top_candidate_scores": [
+        {
+          "category": "Shopping",
+          "score": 0.1828,
+          "s_clf": 0.0,
+          "s_minilm": 0.1312,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 1.0,
+          "sources": [
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "General",
+          "score": 0.1353,
+          "s_clf": 0.45,
+          "s_minilm": 0.0921,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Work & Career",
+          "score": 0.0627,
+          "s_clf": 0.0,
+          "s_minilm": 0.0909,
+          "s_ocr": 0.2,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "minilm"
+          ],
+          "n_ocr_matches": 1
+        }
+      ]
+    },
+    {
+      "id": "ext2_046",
+      "filename": "ext2_046.jpg",
+      "baseline_category": "General",
+      "new_category": "Shopping",
+      "ground_truth": "Shopping",
+      "impact_status": "CORRECTED",
+      "policy_reasons": [
+        "General vs Shopping: Retail item context tiebreaker applied to Shopping"
+      ],
+      "top_candidate_scores": [
+        {
+          "category": "Shopping",
+          "score": 0.8464,
+          "s_clf": 0.0,
+          "s_minilm": 0.0856,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 5.5,
+          "sources": [
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "General",
+          "score": 0.2672,
+          "s_clf": 0.45,
+          "s_minilm": 0.0789,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Education",
+          "score": 0.0541,
+          "s_clf": 0.0,
+          "s_minilm": 0.2162,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_047",
+      "filename": "ext2_047.jpg",
+      "baseline_category": "General",
+      "new_category": "Shopping",
+      "ground_truth": "Shopping",
+      "impact_status": "CORRECTED",
+      "policy_reasons": [
+        "General vs Shopping: Retail item context tiebreaker applied to Shopping"
+      ],
+      "top_candidate_scores": [
+        {
+          "category": "Shopping",
+          "score": 0.732,
+          "s_clf": 0.0,
+          "s_minilm": 0.2279,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 4.5,
+          "sources": [
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "General",
+          "score": 0.2696,
+          "s_clf": 0.45,
+          "s_minilm": 0.0882,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Travel",
+          "score": 0.1796,
+          "s_clf": 0.0,
+          "s_minilm": 0.1184,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 1.0,
+          "sources": [
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_048",
+      "filename": "ext2_048.jpg",
+      "baseline_category": "General",
+      "new_category": "Shopping",
+      "ground_truth": "Shopping",
+      "impact_status": "CORRECTED",
+      "policy_reasons": [
+        "General vs Shopping: Retail item context tiebreaker applied to Shopping"
+      ],
+      "top_candidate_scores": [
+        {
+          "category": "Shopping",
+          "score": 0.8514,
+          "s_clf": 0.0,
+          "s_minilm": 0.1057,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 5.5,
+          "sources": [
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "General",
+          "score": 0.2711,
+          "s_clf": 0.45,
+          "s_minilm": 0.0943,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Education",
+          "score": 0.0414,
+          "s_clf": 0.0,
+          "s_minilm": 0.1657,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_058",
+      "filename": "ext2_058.jpg",
+      "baseline_category": "General",
+      "new_category": "Shopping",
+      "ground_truth": "General",
+      "impact_status": "HARMED",
+      "policy_reasons": [
+        "General vs Shopping: Retail item context tiebreaker applied to Shopping"
+      ],
+      "top_candidate_scores": [
+        {
+          "category": "Shopping",
+          "score": 0.5615,
+          "s_clf": 0.0,
+          "s_minilm": 0.1462,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 3.5,
+          "sources": [
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "General",
+          "score": 0.2823,
+          "s_clf": 0.45,
+          "s_minilm": 0.139,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Education",
+          "score": 0.0429,
+          "s_clf": 0.0,
+          "s_minilm": 0.1716,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_066",
+      "filename": "ext2_066.jpg",
+      "baseline_category": "General",
+      "new_category": "Shopping",
+      "ground_truth": "General",
+      "impact_status": "HARMED",
+      "policy_reasons": [],
+      "top_candidate_scores": [
+        {
+          "category": "Shopping",
+          "score": 0.3394,
+          "s_clf": 0.0,
+          "s_minilm": 0.1578,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 2.0,
+          "sources": [
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "General",
+          "score": 0.2831,
+          "s_clf": 0.45,
+          "s_minilm": 0.1423,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Travel",
+          "score": 0.0333,
+          "s_clf": 0.0,
+          "s_minilm": 0.1333,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_068",
+      "filename": "ext2_068.jpg",
+      "baseline_category": "Travel",
+      "new_category": "Shopping",
+      "ground_truth": "Shopping",
+      "impact_status": "CORRECTED",
+      "policy_reasons": [
+        "General vs Shopping: Retail item context tiebreaker applied to Shopping"
+      ],
+      "top_candidate_scores": [
+        {
+          "category": "Shopping",
+          "score": 0.909,
+          "s_clf": 0.315,
+          "s_minilm": 0.2429,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 4.5,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Travel",
+          "score": 0.4826,
+          "s_clf": 0.45,
+          "s_minilm": 0.3402,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 1.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Payment",
+          "score": 0.1289,
+          "s_clf": 0.2025,
+          "s_minilm": 0.0702,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_069",
+      "filename": "ext2_069.jpg",
+      "baseline_category": "Travel",
+      "new_category": "Shopping",
+      "ground_truth": "Shopping",
+      "impact_status": "CORRECTED",
+      "policy_reasons": [
+        "General vs Shopping: Retail item context tiebreaker applied to Shopping"
+      ],
+      "top_candidate_scores": [
+        {
+          "category": "Shopping",
+          "score": 0.9031,
+          "s_clf": 0.315,
+          "s_minilm": 0.2195,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 4.5,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Travel",
+          "score": 0.4676,
+          "s_clf": 0.45,
+          "s_minilm": 0.2803,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 1.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Payment",
+          "score": 0.113,
+          "s_clf": 0.2025,
+          "s_minilm": 0.0066,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_070",
+      "filename": "ext2_070.jpg",
+      "baseline_category": "Travel",
+      "new_category": "Shopping",
+      "ground_truth": "Shopping",
+      "impact_status": "CORRECTED",
+      "policy_reasons": [],
+      "top_candidate_scores": [
+        {
+          "category": "Shopping",
+          "score": 0.5826,
+          "s_clf": 0.455,
+          "s_minilm": 0.1293,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 2.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Travel",
+          "score": 0.5489,
+          "s_clf": 0.65,
+          "s_minilm": 0.1655,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 1.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "General",
+          "score": 0.1922,
+          "s_clf": 0.2925,
+          "s_minilm": 0.1252,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_071",
+      "filename": "ext2_071.jpg",
+      "baseline_category": "Travel",
+      "new_category": "Shopping",
+      "ground_truth": "Shopping",
+      "impact_status": "CORRECTED",
+      "policy_reasons": [
+        "General vs Shopping: Retail item context tiebreaker applied to Shopping"
+      ],
+      "top_candidate_scores": [
+        {
+          "category": "Shopping",
+          "score": 0.8935,
+          "s_clf": 0.315,
+          "s_minilm": 0.181,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 4.5,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Travel",
+          "score": 0.4534,
+          "s_clf": 0.45,
+          "s_minilm": 0.2236,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 1.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Payment",
+          "score": 0.108,
+          "s_clf": 0.2025,
+          "s_minilm": -0.0134,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_079",
+      "filename": "ext2_079.jpg",
+      "baseline_category": "General",
+      "new_category": "Connectivity",
+      "ground_truth": "Connectivity",
+      "impact_status": "CORRECTED",
+      "policy_reasons": [
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career"
+      ],
+      "top_candidate_scores": [
+        {
+          "category": "Connectivity",
+          "score": 0.4388,
+          "s_clf": 0.455,
+          "s_minilm": 0.1543,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 1.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "General",
+          "score": 0.3607,
+          "s_clf": 0.65,
+          "s_minilm": 0.0128,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Communication",
+          "score": 0.1762,
+          "s_clf": 0.2925,
+          "s_minilm": 0.0615,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_093",
+      "filename": "ext2_093.jpg",
+      "baseline_category": "Payment",
+      "new_category": "Education",
+      "ground_truth": "Education",
+      "impact_status": "CORRECTED",
+      "policy_reasons": [
+        "Academic lecture / Course syllabus primary object"
+      ],
+      "top_candidate_scores": [
+        {
+          "category": "Education",
+          "score": 1.1814,
+          "s_clf": 0.405,
+          "s_minilm": 0.2346,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 6.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Payment",
+          "score": 0.7389,
+          "s_clf": 0.9,
+          "s_minilm": 0.2155,
+          "s_ocr": 0.2,
+          "s_vis": 0.0,
+          "s_policy": 1.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 1
+        },
+        {
+          "category": "Travel",
+          "score": 0.3762,
+          "s_clf": 0.63,
+          "s_minilm": 0.1186,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_111",
+      "filename": "ext2_111.jpg",
+      "baseline_category": "Work & Career",
+      "new_category": "Education",
+      "ground_truth": "Education",
+      "impact_status": "CORRECTED",
+      "policy_reasons": [
+        "Academic lecture / Course syllabus primary object",
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career"
+      ],
+      "top_candidate_scores": [
+        {
+          "category": "Education",
+          "score": 0.9657,
+          "s_clf": 0.0,
+          "s_minilm": 0.2629,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 6.0,
+          "sources": [
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Work & Career",
+          "score": 0.6737,
+          "s_clf": 0.65,
+          "s_minilm": 0.2046,
+          "s_ocr": 0.2,
+          "s_vis": 0.0,
+          "s_policy": 1.5,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 1
+        },
+        {
+          "category": "Travel",
+          "score": 0.3007,
+          "s_clf": 0.455,
+          "s_minilm": 0.2019,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_113",
+      "filename": "ext2_113.jpg",
+      "baseline_category": "General",
+      "new_category": "Education",
+      "ground_truth": "Education",
+      "impact_status": "CORRECTED",
+      "policy_reasons": [
+        "Academic lecture / Course syllabus primary object"
+      ],
+      "top_candidate_scores": [
+        {
+          "category": "Education",
+          "score": 0.9578,
+          "s_clf": 0.0,
+          "s_minilm": 0.2311,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 6.0,
+          "sources": [
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "General",
+          "score": 0.5534,
+          "s_clf": 0.9,
+          "s_minilm": 0.2337,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Travel",
+          "score": 0.3866,
+          "s_clf": 0.63,
+          "s_minilm": 0.1603,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_126",
+      "filename": "ext2_126.jpg",
+      "baseline_category": "Work & Career",
+      "new_category": "Education",
+      "ground_truth": "Education",
+      "impact_status": "CORRECTED",
+      "policy_reasons": [
+        "Academic lecture / Course syllabus primary object",
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career"
+      ],
+      "top_candidate_scores": [
+        {
+          "category": "Education",
+          "score": 1.5497,
+          "s_clf": 0.455,
+          "s_minilm": 0.3979,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 8.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Work & Career",
+          "score": 0.8971,
+          "s_clf": 0.65,
+          "s_minilm": 0.3782,
+          "s_ocr": 0.35,
+          "s_vis": 0.0,
+          "s_policy": 2.5,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 2
+        },
+        {
+          "category": "Payment",
+          "score": 0.3514,
+          "s_clf": 0.2925,
+          "s_minilm": 0.1622,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 1.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_127",
+      "filename": "ext2_127.jpg",
+      "baseline_category": "Work & Career",
+      "new_category": "Education",
+      "ground_truth": "Education",
+      "impact_status": "CORRECTED",
+      "policy_reasons": [
+        "Academic lecture / Course syllabus primary object",
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career",
+        "General vs Communication: Messaging context tiebreaker applied to Communication"
+      ],
+      "top_candidate_scores": [
+        {
+          "category": "Education",
+          "score": 1.6979,
+          "s_clf": 0.455,
+          "s_minilm": 0.3907,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 9.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Work & Career",
+          "score": 1.4923,
+          "s_clf": 0.65,
+          "s_minilm": 0.3591,
+          "s_ocr": 0.35,
+          "s_vis": 0.0,
+          "s_policy": 6.5,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 3
+        },
+        {
+          "category": "Communication",
+          "score": 0.5373,
+          "s_clf": 0.0,
+          "s_minilm": 0.0494,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 3.5,
+          "sources": [
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_128",
+      "filename": "ext2_128.jpg",
+      "baseline_category": "Work & Career",
+      "new_category": "Education",
+      "ground_truth": "Education",
+      "impact_status": "CORRECTED",
+      "policy_reasons": [
+        "Academic lecture / Course syllabus primary object",
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career"
+      ],
+      "top_candidate_scores": [
+        {
+          "category": "Education",
+          "score": 1.7921,
+          "s_clf": 0.63,
+          "s_minilm": 0.3823,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 9.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Work & Career",
+          "score": 1.187,
+          "s_clf": 0.9,
+          "s_minilm": 0.388,
+          "s_ocr": 0.35,
+          "s_vis": 0.0,
+          "s_policy": 3.5,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 2
+        },
+        {
+          "category": "Travel",
+          "score": 0.435,
+          "s_clf": 0.405,
+          "s_minilm": 0.2488,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 1.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_133",
+      "filename": "ext2_133.jpg",
+      "baseline_category": "Work & Career",
+      "new_category": "Communication",
+      "ground_truth": "Communication",
+      "impact_status": "CORRECTED",
+      "policy_reasons": [
+        "Email/Chat correspondence layout primary object",
+        "General vs Communication: Messaging context tiebreaker applied to Communication"
+      ],
+      "top_candidate_scores": [
+        {
+          "category": "Communication",
+          "score": 1.1757,
+          "s_clf": 0.63,
+          "s_minilm": 0.1567,
+          "s_ocr": 0.2,
+          "s_vis": 0.0,
+          "s_policy": 5.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 1
+        },
+        {
+          "category": "Work & Career",
+          "score": 0.7734,
+          "s_clf": 0.9,
+          "s_minilm": 0.3536,
+          "s_ocr": 0.2,
+          "s_vis": 0.0,
+          "s_policy": 1.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 1
+        },
+        {
+          "category": "Payment",
+          "score": 0.2622,
+          "s_clf": 0.405,
+          "s_minilm": 0.1576,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_138",
+      "filename": "ext2_138.jpg",
+      "baseline_category": "Work & Career",
+      "new_category": "Education",
+      "ground_truth": "Education",
+      "impact_status": "CORRECTED",
+      "policy_reasons": [
+        "Academic lecture / Course syllabus primary object",
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career"
+      ],
+      "top_candidate_scores": [
+        {
+          "category": "Education",
+          "score": 1.1985,
+          "s_clf": 0.455,
+          "s_minilm": 0.1929,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 6.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Work & Career",
+          "score": 0.6815,
+          "s_clf": 0.65,
+          "s_minilm": 0.2359,
+          "s_ocr": 0.2,
+          "s_vis": 0.0,
+          "s_policy": 1.5,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 1
+        },
+        {
+          "category": "Payment",
+          "score": 0.3462,
+          "s_clf": 0.2925,
+          "s_minilm": 0.1414,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 1.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_142",
+      "filename": "ext2_142.jpg",
+      "baseline_category": "General",
+      "new_category": "Work & Career",
+      "ground_truth": "General",
+      "impact_status": "HARMED",
+      "policy_reasons": [
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career"
+      ],
+      "top_candidate_scores": [
+        {
+          "category": "Work & Career",
+          "score": 0.4062,
+          "s_clf": 0.2925,
+          "s_minilm": 0.0812,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 1.5,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "General",
+          "score": 0.3826,
+          "s_clf": 0.65,
+          "s_minilm": 0.1004,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Entertainment",
+          "score": 0.2436,
+          "s_clf": 0.455,
+          "s_minilm": -0.0266,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_143",
+      "filename": "ext2_143.jpg",
+      "baseline_category": "General",
+      "new_category": "Education",
+      "ground_truth": "Education",
+      "impact_status": "CORRECTED",
+      "policy_reasons": [
+        "Academic lecture / Course syllabus primary object"
+      ],
+      "top_candidate_scores": [
+        {
+          "category": "Education",
+          "score": 0.9619,
+          "s_clf": 0.0,
+          "s_minilm": 0.2476,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 6.0,
+          "sources": [
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "General",
+          "score": 0.3476,
+          "s_clf": 0.65,
+          "s_minilm": -0.0398,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Travel",
+          "score": 0.2869,
+          "s_clf": 0.455,
+          "s_minilm": 0.1464,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_146",
+      "filename": "ext2_146.jpg",
+      "baseline_category": "General",
+      "new_category": "Communication",
+      "ground_truth": "General",
+      "impact_status": "HARMED",
+      "policy_reasons": [
+        "General vs Communication: Messaging context tiebreaker applied to Communication"
+      ],
+      "top_candidate_scores": [
+        {
+          "category": "Communication",
+          "score": 0.4105,
+          "s_clf": 0.2925,
+          "s_minilm": 0.0986,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 1.5,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "General",
+          "score": 0.372,
+          "s_clf": 0.65,
+          "s_minilm": 0.058,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Entertainment",
+          "score": 0.2666,
+          "s_clf": 0.455,
+          "s_minilm": 0.0653,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_147",
+      "filename": "ext2_147.jpg",
+      "baseline_category": "General",
+      "new_category": "Entertainment",
+      "ground_truth": "Entertainment",
+      "impact_status": "CORRECTED",
+      "policy_reasons": [],
+      "top_candidate_scores": [
+        {
+          "category": "Entertainment",
+          "score": 0.8816,
+          "s_clf": 0.455,
+          "s_minilm": 0.1255,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 4.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "General",
+          "score": 0.3628,
+          "s_clf": 0.65,
+          "s_minilm": 0.0213,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Communication",
+          "score": 0.1632,
+          "s_clf": 0.2925,
+          "s_minilm": 0.0095,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_150",
+      "filename": "ext2_150.jpg",
+      "baseline_category": "Work & Career",
+      "new_category": "Communication",
+      "ground_truth": "Communication",
+      "impact_status": "CORRECTED",
+      "policy_reasons": [
+        "Email/Chat correspondence layout primary object",
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career",
+        "General vs Communication: Messaging context tiebreaker applied to Communication"
+      ],
+      "top_candidate_scores": [
+        {
+          "category": "Communication",
+          "score": 1.3105,
+          "s_clf": 0.455,
+          "s_minilm": 0.1809,
+          "s_ocr": 0.2,
+          "s_vis": 0.0,
+          "s_policy": 6.5,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 1
+        },
+        {
+          "category": "Work & Career",
+          "score": 0.843,
+          "s_clf": 0.65,
+          "s_minilm": 0.2821,
+          "s_ocr": 0.2,
+          "s_vis": 0.0,
+          "s_policy": 2.5,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 1
+        },
+        {
+          "category": "Payment",
+          "score": 0.2073,
+          "s_clf": 0.2925,
+          "s_minilm": 0.1858,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_153",
+      "filename": "ext2_153.jpg",
+      "baseline_category": "Travel",
+      "new_category": "Payment",
+      "ground_truth": "Payment",
+      "impact_status": "CORRECTED",
+      "policy_reasons": [],
+      "top_candidate_scores": [
+        {
+          "category": "Payment",
+          "score": 0.9651,
+          "s_clf": 0.2925,
+          "s_minilm": 0.217,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 5.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Travel",
+          "score": 0.5888,
+          "s_clf": 0.65,
+          "s_minilm": 0.3252,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 1.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Work & Career",
+          "score": 0.3422,
+          "s_clf": 0.455,
+          "s_minilm": 0.2078,
+          "s_ocr": 0.2,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 1
+        }
+      ]
+    },
+    {
+      "id": "ext2_163",
+      "filename": "ext2_163.jpg",
+      "baseline_category": "Payment",
+      "new_category": "Work & Career",
+      "ground_truth": "Work & Career",
+      "impact_status": "CORRECTED",
+      "policy_reasons": [
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career"
+      ],
+      "top_candidate_scores": [
+        {
+          "category": "Work & Career",
+          "score": 0.5954,
+          "s_clf": 0.0,
+          "s_minilm": 0.2817,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 3.5,
+          "sources": [
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Payment",
+          "score": 0.5203,
+          "s_clf": 0.65,
+          "s_minilm": 0.0511,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 1.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Communication",
+          "score": 0.2615,
+          "s_clf": 0.455,
+          "s_minilm": 0.0451,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_212",
+      "filename": "ext2_212.jpg",
+      "baseline_category": "Communication",
+      "new_category": "Entertainment",
+      "ground_truth": "General",
+      "impact_status": "OTHER_CHANGE",
+      "policy_reasons": [],
+      "top_candidate_scores": [
+        {
+          "category": "Entertainment",
+          "score": 0.3135,
+          "s_clf": 0.315,
+          "s_minilm": -0.0389,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 1.0,
+          "sources": [
+            "classifier"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Communication",
+          "score": 0.2711,
+          "s_clf": 0.45,
+          "s_minilm": 0.0944,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Work & Career",
+          "score": 0.1765,
+          "s_clf": 0.2025,
+          "s_minilm": 0.1005,
+          "s_ocr": 0.2,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 1
+        }
+      ]
+    },
+    {
+      "id": "ext2_224",
+      "filename": "ext2_224.jpg",
+      "baseline_category": "Communication",
+      "new_category": "Entertainment",
+      "ground_truth": "General",
+      "impact_status": "OTHER_CHANGE",
+      "policy_reasons": [],
+      "top_candidate_scores": [
+        {
+          "category": "Entertainment",
+          "score": 0.3604,
+          "s_clf": 0.315,
+          "s_minilm": 0.1487,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 1.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Communication",
+          "score": 0.2785,
+          "s_clf": 0.45,
+          "s_minilm": 0.124,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Work & Career",
+          "score": 0.1712,
+          "s_clf": 0.2025,
+          "s_minilm": 0.0793,
+          "s_ocr": 0.2,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier"
+          ],
+          "n_ocr_matches": 1
+        }
+      ]
+    },
+    {
+      "id": "ext2_228",
+      "filename": "ext2_228.jpg",
+      "baseline_category": "Entertainment",
+      "new_category": "Communication",
+      "ground_truth": "Communication",
+      "impact_status": "CORRECTED",
+      "policy_reasons": [
+        "General vs Communication: Messaging context tiebreaker applied to Communication"
+      ],
+      "top_candidate_scores": [
+        {
+          "category": "Communication",
+          "score": 0.8858,
+          "s_clf": 0.315,
+          "s_minilm": 0.1503,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 4.5,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Entertainment",
+          "score": 0.7514,
+          "s_clf": 0.45,
+          "s_minilm": 0.2156,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 3.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Travel",
+          "score": 0.1562,
+          "s_clf": 0.2025,
+          "s_minilm": 0.1793,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ext2_232",
+      "filename": "ext2_232.jpg",
+      "baseline_category": "Work & Career",
+      "new_category": "Education",
+      "ground_truth": "Education",
+      "impact_status": "CORRECTED",
+      "policy_reasons": [
+        "Academic lecture / Course syllabus primary object",
+        "General vs Communication: Messaging context tiebreaker applied to Communication"
+      ],
+      "top_candidate_scores": [
+        {
+          "category": "Education",
+          "score": 1.4186,
+          "s_clf": 0.455,
+          "s_minilm": 0.4733,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 7.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Communication",
+          "score": 0.5532,
+          "s_clf": 0.2925,
+          "s_minilm": 0.0692,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 2.5,
+          "sources": [
+            "classifier"
+          ],
+          "n_ocr_matches": 0
+        },
+        {
+          "category": "Work & Career",
+          "score": 0.3963,
+          "s_clf": 0.65,
+          "s_minilm": 0.1552,
+          "s_ocr": 0.0,
+          "s_vis": 0.0,
+          "s_policy": 0.0,
+          "sources": [
+            "classifier",
+            "minilm"
+          ],
+          "n_ocr_matches": 0
+        }
+      ]
+    }
+  ]
+}

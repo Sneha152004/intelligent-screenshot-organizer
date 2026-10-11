@@ -1,0 +1,6 @@
+strategy,top1_accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,balanced_accuracy,corrected_samples,harmed_samples,net_improvement
+Strategy A (Semantic Baseline),0.68,0.5714,0.5714,0.5714,0.68,0.8,0,0,0
+Strategy B (Visual Baseline Mapped),0.68,0.3988,0.3708,0.3698,0.6612,0.445,5,5,0
+Strategy C (Rule-Based Agreement),0.88,0.7143,0.6607,0.6813,0.9262,0.925,5,0,5
+Strategy D (Weighted Score Fusion),0.68,0.5714,0.5714,0.5714,0.68,0.8,0,0,0
+Strategy E (Selective Overriding),0.88,0.7143,0.6607,0.6813,0.9262,0.925,5,0,5

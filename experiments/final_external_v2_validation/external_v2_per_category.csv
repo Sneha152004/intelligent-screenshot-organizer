@@ -1,0 +1,10 @@
+category,support,correct,incorrect,precision,recall,f1
+Education,36,24,12,0.8889,0.6667,0.7619
+Shopping,40,29,11,0.8056,0.725,0.7632
+Payment,13,10,3,0.4762,0.7692,0.5882
+Travel,5,4,1,0.3636,0.8,0.5
+Communication,21,16,5,0.6957,0.7619,0.7273
+Entertainment,5,4,1,0.3077,0.8,0.4444
+Work & Career,11,7,4,0.2917,0.6364,0.4
+Connectivity,5,4,1,1.0,0.8,0.8889
+General,108,76,32,0.8941,0.7037,0.7876

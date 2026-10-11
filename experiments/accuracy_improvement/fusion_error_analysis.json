@@ -1,0 +1,55 @@
+{
+  "validation_opportunity_cases_count": 5,
+  "opportunity_cases": [
+    {
+      "filename": "ss_028.jpg",
+      "true_category": "Coding",
+      "semantic_prediction": "Work & Career",
+      "semantic_confidence": "Medium",
+      "visual_screen_type": "code_editor_terminal",
+      "visual_confidence": 0.3165,
+      "visual_mapped_category": "Coding",
+      "opportunity_reason": "Visual model identified layout correctly, but fusion trigger was not met or override threshold was too conservative"
+    },
+    {
+      "filename": "ss_037.jpg",
+      "true_category": "Coding",
+      "semantic_prediction": "Work & Career",
+      "semantic_confidence": "Medium",
+      "visual_screen_type": "code_editor_terminal",
+      "visual_confidence": 0.2804,
+      "visual_mapped_category": "Coding",
+      "opportunity_reason": "Visual model identified layout correctly, but fusion trigger was not met or override threshold was too conservative"
+    },
+    {
+      "filename": "ss_041.jpg",
+      "true_category": "Coding",
+      "semantic_prediction": "Shopping",
+      "semantic_confidence": "Low",
+      "visual_screen_type": "code_editor_terminal",
+      "visual_confidence": 0.2977,
+      "visual_mapped_category": "Coding",
+      "opportunity_reason": "Visual model identified layout correctly, but fusion trigger was not met or override threshold was too conservative"
+    },
+    {
+      "filename": "ss_045.jpg",
+      "true_category": "Coding",
+      "semantic_prediction": "Communication",
+      "semantic_confidence": "Medium",
+      "visual_screen_type": "code_editor_terminal",
+      "visual_confidence": 0.3707,
+      "visual_mapped_category": "Coding",
+      "opportunity_reason": "Visual model identified layout correctly, but fusion trigger was not met or override threshold was too conservative"
+    },
+    {
+      "filename": "ss_062.jpg",
+      "true_category": "Coding",
+      "semantic_prediction": "Work & Career",
+      "semantic_confidence": "High",
+      "visual_screen_type": "code_editor_terminal",
+      "visual_confidence": 0.2542,
+      "visual_mapped_category": "Coding",
+      "opportunity_reason": "Visual model identified layout correctly, but fusion trigger was not met or override threshold was too conservative"
+    }
+  ]
+}

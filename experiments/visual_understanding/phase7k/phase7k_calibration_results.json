@@ -1,0 +1,27 @@
+{
+  "model_name": "YOLOv8n-cls",
+  "calibration_samples": 27,
+  "validation_samples": 25,
+  "optimal_temperature_T": 1.5,
+  "pre_calibration": {
+    "temperature_T": 1.0,
+    "ece": 0.3719,
+    "nll": 1.2786,
+    "brier_score": 0.6416,
+    "accuracy": 0.72,
+    "mean_max_confidence": 0.3481
+  },
+  "post_calibration": {
+    "temperature_T": 1.5,
+    "ece": 0.4269,
+    "nll": 1.3747,
+    "brier_score": 0.6929,
+    "accuracy": 0.72,
+    "mean_max_confidence": 0.2931
+  },
+  "impact_summary": {
+    "ece_change": 0.055,
+    "nll_change": 0.0961,
+    "accuracy_changed": false
+  }
+}

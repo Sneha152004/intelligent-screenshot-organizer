@@ -1,0 +1,70 @@
+{
+  "mobilenet_v3_small": {
+    "display_name": "MobileNetV3-Small",
+    "quantization_method": "torch.ao.quantization.quantize_dynamic",
+    "target_module_types": [
+      "torch.nn.Linear"
+    ],
+    "quantized_operators": [
+      "DynamicLinearQuantized"
+    ],
+    "fp32_total_parameters": 1522981,
+    "linear_parameters": 5125,
+    "linear_param_percentage": 0.34,
+    "fp32_checkpoint_mb": 5.94,
+    "int8_checkpoint_mb": 5.95,
+    "size_reduction_explanation": "MobileViT-XS contains 57.7% of its parameters in nn.Linear layers within its Transformer blocks, yielding a 41.7% checkpoint size reduction. In contrast, MobileNetV3-Small, EfficientNet-Lite0, and YOLOv8n-cls are pure CNN models with 98.6%-99.1% of parameters in nn.Conv2d layers; since quantize_dynamic targeted only nn.Linear, their Conv2d weights remained FP32 resulting in negligible size change.",
+    "fp32_vs_int8_agreement_pct": 100.0
+  },
+  "efficientnet_lite0": {
+    "display_name": "EfficientNet-Lite0",
+    "quantization_method": "torch.ao.quantization.quantize_dynamic",
+    "target_module_types": [
+      "torch.nn.Linear"
+    ],
+    "quantized_operators": [
+      "DynamicLinearQuantized"
+    ],
+    "fp32_total_parameters": 3377413,
+    "linear_parameters": 6405,
+    "linear_param_percentage": 0.19,
+    "fp32_checkpoint_mb": 13.15,
+    "int8_checkpoint_mb": 13.13,
+    "size_reduction_explanation": "MobileViT-XS contains 57.7% of its parameters in nn.Linear layers within its Transformer blocks, yielding a 41.7% checkpoint size reduction. In contrast, MobileNetV3-Small, EfficientNet-Lite0, and YOLOv8n-cls are pure CNN models with 98.6%-99.1% of parameters in nn.Conv2d layers; since quantize_dynamic targeted only nn.Linear, their Conv2d weights remained FP32 resulting in negligible size change.",
+    "fp32_vs_int8_agreement_pct": 100.0
+  },
+  "mobilevit_xs": {
+    "display_name": "MobileViT-XS",
+    "quantization_method": "torch.ao.quantization.quantize_dynamic",
+    "target_module_types": [
+      "torch.nn.Linear"
+    ],
+    "quantized_operators": [
+      "DynamicLinearQuantized"
+    ],
+    "fp32_total_parameters": 1934773,
+    "linear_parameters": 1115573,
+    "linear_param_percentage": 57.66,
+    "fp32_checkpoint_mb": 7.53,
+    "int8_checkpoint_mb": 4.39,
+    "size_reduction_explanation": "MobileViT-XS contains 57.7% of its parameters in nn.Linear layers within its Transformer blocks, yielding a 41.7% checkpoint size reduction. In contrast, MobileNetV3-Small, EfficientNet-Lite0, and YOLOv8n-cls are pure CNN models with 98.6%-99.1% of parameters in nn.Conv2d layers; since quantize_dynamic targeted only nn.Linear, their Conv2d weights remained FP32 resulting in negligible size change.",
+    "fp32_vs_int8_agreement_pct": 100.0
+  },
+  "yolo26n_cls": {
+    "display_name": "YOLO26n-cls (YOLOv8n-cls)",
+    "quantization_method": "torch.ao.quantization.quantize_dynamic",
+    "target_module_types": [
+      "torch.nn.Linear"
+    ],
+    "quantized_operators": [
+      "DynamicLinearQuantized"
+    ],
+    "fp32_total_parameters": 1444693,
+    "linear_parameters": 6405,
+    "linear_param_percentage": 0.44,
+    "fp32_checkpoint_mb": 5.59,
+    "int8_checkpoint_mb": 5.58,
+    "size_reduction_explanation": "MobileViT-XS contains 57.7% of its parameters in nn.Linear layers within its Transformer blocks, yielding a 41.7% checkpoint size reduction. In contrast, MobileNetV3-Small, EfficientNet-Lite0, and YOLOv8n-cls are pure CNN models with 98.6%-99.1% of parameters in nn.Conv2d layers; since quantize_dynamic targeted only nn.Linear, their Conv2d weights remained FP32 resulting in negligible size change.",
+    "fp32_vs_int8_agreement_pct": 100.0
+  }
+}

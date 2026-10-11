@@ -1,0 +1,837 @@
+screenshot_id,filename,original_semantic_category,phase7hc_proposed_screen_type,final_human_screen_type,human_decision,reviewer,review_notes,verification_date,duplicate_group_id,priority_tier,contact_sheet_name,is_corrupted,review_status
+ss_001.jpg,ss_001.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator_phase7e,Preserved human-verified decision from Phase 7E harmonization.,2026-10-02,DUPE_GROUP_002,Tier 9,contact_sheet_code_editor_terminal.png,False,verified
+ss_002.jpg,ss_002.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator_phase7e,Preserved human-verified decision from Phase 7E harmonization.,2026-10-02,DUPE_GROUP_003,Tier 9,contact_sheet_code_editor_terminal.png,False,verified
+ss_003.jpg,ss_003.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator_phase7e,Preserved human-verified decision from Phase 7E harmonization.,2026-10-02,DUPE_GROUP_004,Tier 9,contact_sheet_code_editor_terminal.png,False,verified
+ss_004.jpg,ss_004.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator_phase7e,Preserved human-verified decision from Phase 7E harmonization.,2026-10-02,DUPE_GROUP_005,Tier 9,contact_sheet_code_editor_terminal.png,False,verified
+ss_005.jpg,ss_005.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator_phase7e,Preserved human-verified decision from Phase 7E harmonization.,2026-10-02,DUPE_GROUP_006,Tier 9,contact_sheet_code_editor_terminal.png,False,verified
+ss_006.jpg,ss_006.jpg,Coding,document_article_view,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 22:05:37,DUPE_GROUP_006,Tier 12,contact_sheet_document_article_view.png,False,rejected
+ss_007.jpg,ss_007.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator_phase7e,Preserved human-verified decision from Phase 7E harmonization.,2026-10-02,DUPE_GROUP_007,Tier 9,contact_sheet_code_editor_terminal.png,False,verified
+ss_008.jpg,ss_008.jpg,Coding,product_detail,product_detail,ambiguous,human_annotator,Shopping,2026-10-03 20:35:43,DUPE_GROUP_007,Tier 7,contact_sheet_product_detail.png,False,ambiguous
+ss_009.jpg,ss_009.jpg,Coding,code_editor_terminal,unclassifiable,reject,human_annotator,WROMG CATEGORY,2026-10-03 21:28:39,DUPE_GROUP_008,Tier 9,contact_sheet_code_editor_terminal.png,False,rejected
+ss_010.jpg,ss_010.jpg,Coding,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_009,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_011.jpg,ss_011.jpg,Coding,document_article_view,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 22:05:49,DUPE_GROUP_009,Tier 12,contact_sheet_document_article_view.png,False,rejected
+ss_012.jpg,ss_012.jpg,Coding,code_editor_terminal,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 21:28:52,DUPE_GROUP_010,Tier 9,contact_sheet_code_editor_terminal.png,False,rejected
+ss_013.jpg,ss_013.jpg,Coding,code_editor_terminal,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 21:29:05,DUPE_GROUP_011,Tier 9,contact_sheet_code_editor_terminal.png,False,rejected
+ss_014.jpg,ss_014.jpg,Coding,code_editor_terminal,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 21:29:23,DUPE_GROUP_012,Tier 9,contact_sheet_code_editor_terminal.png,False,rejected
+ss_015.jpg,ss_015.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,DUPE_GROUP_013,Tier 9,contact_sheet_code_editor_terminal.png,False,pending
+ss_016.jpg,ss_016.jpg,Coding,code_editor_terminal,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 21:29:36,DUPE_GROUP_014,Tier 9,contact_sheet_code_editor_terminal.png,False,rejected
+ss_017.jpg,ss_017.jpg,Coding,code_editor_terminal,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 21:29:44,DUPE_GROUP_015,Tier 9,contact_sheet_code_editor_terminal.png,False,rejected
+ss_018.jpg,ss_018.jpg,Coding,code_editor_terminal,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 21:29:55,DUPE_GROUP_016,Tier 9,contact_sheet_code_editor_terminal.png,False,rejected
+ss_019.jpg,ss_019.jpg,Coding,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_016,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_020.jpg,ss_020.jpg,Coding,code_editor_terminal,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 21:30:13,DUPE_GROUP_017,Tier 9,contact_sheet_code_editor_terminal.png,False,rejected
+ss_021.jpg,ss_021.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,DUPE_GROUP_017,Tier 9,contact_sheet_code_editor_terminal.png,False,pending
+ss_022.jpg,ss_022.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,DUPE_GROUP_018,Tier 9,contact_sheet_code_editor_terminal.png,False,pending
+ss_023.jpg,ss_023.jpg,Coding,document_article_view,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 22:06:03,DUPE_GROUP_018,Tier 12,contact_sheet_document_article_view.png,False,rejected
+ss_024.jpg,ss_024.jpg,Coding,document_article_view,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 22:06:13,DUPE_GROUP_018,Tier 12,contact_sheet_document_article_view.png,False,rejected
+ss_025.jpg,ss_025.jpg,Coding,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_018,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_026.jpg,ss_026.jpg,Coding,product_detail,unclassifiable,reject,human_annotator,wrong category,2026-10-03 20:40:43,DUPE_GROUP_019,Tier 7,contact_sheet_product_detail.png,False,rejected
+ss_027.jpg,ss_027.jpg,Coding,document_article_view,unclassifiable,reject,human_annotator,Decision set to reject,2026-10-03 22:06:34,DUPE_GROUP_019,Tier 12,contact_sheet_document_article_view.png,False,rejected
+ss_028.jpg,ss_028.jpg,Coding,document_article_view,document_article_view,approve,human_annotator,Decision set to approve,2026-10-03 22:07:24,DUPE_GROUP_019,Tier 12,contact_sheet_document_article_view.png,False,completed
+ss_029.jpg,ss_029.jpg,Coding,document_article_view,document_article_view,approve,human_annotator,Decision set to approve,2026-10-03 22:07:27,DUPE_GROUP_019,Tier 12,contact_sheet_document_article_view.png,False,completed
+ss_030.jpg,ss_030.jpg,Coding,document_article_view,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 22:07:40,DUPE_GROUP_019,Tier 12,contact_sheet_document_article_view.png,False,rejected
+ss_031.jpg,ss_031.jpg,Coding,document_article_view,document_article_view,approve,human_annotator,Decision set to approve,2026-10-03 22:07:43,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,completed
+ss_032.jpg,ss_032.jpg,Coding,document_article_view,document_article_view,approve,human_annotator,Decision set to approve,2026-10-03 22:07:46,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,completed
+ss_033.jpg,ss_033.jpg,Coding,document_article_view,document_article_view,approve,human_annotator,Decision set to approve,2026-10-03 22:07:49,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,completed
+ss_034.jpg,ss_034.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator,Decision set to approve,2026-10-03 21:30:24,UNIQUE,Tier 9,contact_sheet_code_editor_terminal.png,False,completed
+ss_035.jpg,ss_035.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator,Decision set to approve,2026-10-03 21:30:28,UNIQUE,Tier 9,contact_sheet_code_editor_terminal.png,False,completed
+ss_036.jpg,ss_036.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator,Decision set to approve,2026-10-03 21:30:33,UNIQUE,Tier 9,contact_sheet_code_editor_terminal.png,False,completed
+ss_037.jpg,ss_037.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator,Decision set to approve,2026-10-03 21:30:37,UNIQUE,Tier 9,contact_sheet_code_editor_terminal.png,False,completed
+ss_038.jpg,ss_038.jpg,Coding,document_article_view,document_article_view,approve,human_annotator,Decision set to approve,2026-10-03 22:07:53,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,completed
+ss_039.jpg,ss_039.jpg,Coding,document_article_view,document_article_view,approve,human_annotator,Decision set to approve,2026-10-03 22:07:59,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,completed
+ss_040.jpg,ss_040.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator,Decision set to approve,2026-10-03 21:30:41,UNIQUE,Tier 9,contact_sheet_code_editor_terminal.png,False,completed
+ss_041.jpg,ss_041.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator,Decision set to approve,2026-10-03 21:30:47,UNIQUE,Tier 9,contact_sheet_code_editor_terminal.png,False,completed
+ss_042.jpg,ss_042.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator,Decision set to approve,2026-10-03 21:30:49,UNIQUE,Tier 9,contact_sheet_code_editor_terminal.png,False,completed
+ss_043.jpg,ss_043.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator,Decision set to approve,2026-10-03 21:30:55,UNIQUE,Tier 9,contact_sheet_code_editor_terminal.png,False,completed
+ss_044.jpg,ss_044.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator,Decision set to approve,2026-10-03 21:31:00,UNIQUE,Tier 9,contact_sheet_code_editor_terminal.png,False,completed
+ss_045.jpg,ss_045.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator,Decision set to approve,2026-10-03 21:31:07,UNIQUE,Tier 9,contact_sheet_code_editor_terminal.png,False,completed
+ss_046.jpg,ss_046.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator,Decision set to approve,2026-10-03 21:31:15,UNIQUE,Tier 9,contact_sheet_code_editor_terminal.png,False,completed
+ss_047.jpg,ss_047.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator,Decision set to approve,2026-10-03 21:31:33,UNIQUE,Tier 9,contact_sheet_code_editor_terminal.png,False,completed
+ss_048.jpg,ss_048.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator,Decision set to approve,2026-10-03 21:31:36,UNIQUE,Tier 9,contact_sheet_code_editor_terminal.png,False,completed
+ss_049.jpg,ss_049.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator,Decision set to approve,2026-10-03 21:31:39,UNIQUE,Tier 9,contact_sheet_code_editor_terminal.png,False,completed
+ss_050.jpg,ss_050.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator,Decision set to approve,2026-10-03 21:31:42,UNIQUE,Tier 9,contact_sheet_code_editor_terminal.png,False,completed
+ss_051.jpg,ss_051.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator,Decision set to approve,2026-10-03 21:31:45,UNIQUE,Tier 9,contact_sheet_code_editor_terminal.png,False,completed
+ss_052.jpg,ss_052.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator,Decision set to approve,2026-10-03 21:31:48,UNIQUE,Tier 9,contact_sheet_code_editor_terminal.png,False,completed
+ss_053.jpg,ss_053.jpg,Education,document_article_view,document_article_view,approve,human_annotator,Decision set to approve,2026-10-03 22:08:03,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,completed
+ss_054.jpg,ss_054.jpg,Coding,document_article_view,document_article_view,approve,human_annotator,Decision set to approve,2026-10-03 22:08:06,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,completed
+ss_055.jpg,ss_055.jpg,Coding,document_article_view,document_article_view,approve,human_annotator,Decision set to approve,2026-10-03 22:08:11,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,completed
+ss_056.jpg,ss_056.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator,Decision set to approve,2026-10-03 21:31:51,UNIQUE,Tier 9,contact_sheet_code_editor_terminal.png,False,completed
+ss_057.jpg,ss_057.jpg,Coding,document_article_view,document_article_view,approve,human_annotator,Decision set to approve,2026-10-03 22:08:17,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,completed
+ss_058.jpg,ss_058.jpg,Coding,document_article_view,document_article_view,approve,human_annotator,Decision set to approve,2026-10-03 22:08:22,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,completed
+ss_059.jpg,ss_059.jpg,Coding,document_article_view,document_article_view,approve,human_annotator,Decision set to approve,2026-10-03 22:08:24,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,completed
+ss_060.jpg,ss_060.jpg,Coding,document_article_view,document_article_view,approve,human_annotator,Decision set to approve,2026-10-03 22:08:31,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,completed
+ss_061.jpg,ss_061.jpg,Connectivity,dashboard_settings,error_dialog_alert,correct,human_annotator,connectivity related error,2026-10-03 19:54:05,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_062.jpg,ss_062.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator,Decision set to approve,2026-10-03 21:31:56,UNIQUE,Tier 9,contact_sheet_code_editor_terminal.png,False,completed
+ss_063.jpg,ss_063.jpg,Connectivity,dashboard_settings,other_screen,correct,human_annotator,wifi connectivity,2026-10-03 19:55:13,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_064.jpg,ss_064.jpg,Connectivity,dashboard_settings,dashboard_settings,correct,human_annotator,Decision set to correct,2026-10-03 19:56:05,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_065.jpg,ss_065.jpg,Connectivity,dashboard_settings,dashboard_settings,correct,human_annotator,Decision set to correct,2026-10-03 19:56:24,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_066.jpg,ss_066.jpg,Connectivity,dashboard_settings,other_screen,correct,human_annotator,wifi,2026-10-03 19:56:44,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_067.jpg,ss_067.jpg,Connectivity,dashboard_settings,other_screen,correct,human_annotator,connecting alert,2026-10-03 19:57:10,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_068.jpg,ss_068.jpg,Connectivity,dashboard_settings,dashboard_settings,correct,human_annotator,Decision set to correct,2026-10-03 19:57:24,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_069.jpg,ss_069.jpg,Connectivity,dashboard_settings,dashboard_settings,correct,human_annotator,Decision set to correct,2026-10-03 19:57:39,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_070.jpg,ss_070.jpg,Coding,code_editor_terminal,other_screen,correct,human_annotator,THEORY CODING,2026-10-03 21:32:15,UNIQUE,Tier 9,contact_sheet_code_editor_terminal.png,False,completed
+ss_071.jpg,ss_071.jpg,Connectivity,dashboard_settings,other_screen,correct,human_annotator,components of connectivity,2026-10-03 19:58:00,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_072.jpg,ss_072.jpg,Connectivity,dashboard_settings,other_screen,correct,human_annotator,types of ports,2026-10-03 19:58:17,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_073.jpg,ss_073.jpg,Connectivity,dashboard_settings,other_screen,correct,human_annotator,Physical connection of components,2026-10-03 19:58:36,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_074.jpg,ss_074.jpg,Connectivity,dashboard_settings,other_screen,correct,human_annotator,digital connection of components,2026-10-03 19:59:13,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_075.jpg,ss_075.jpg,Connectivity,dashboard_settings,other_screen,correct,human_annotator,networks,2026-10-03 19:59:33,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_076.jpg,ss_076.jpg,Connectivity,error_dialog_alert,error_dialog_alert,approve,human_annotator,Decision set to approve,2026-10-03 20:34:48,UNIQUE,Tier 6,contact_sheet_error_dialog_alert.png,False,completed
+ss_077.jpg,ss_077.jpg,General,dashboard_settings,error_dialog_alert,correct,human_annotator,Decision set to correct,2026-10-03 19:59:49,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_078.jpg,ss_078.jpg,Connectivity,dashboard_settings,error_dialog_alert,correct,human_annotator,Decision set to correct,2026-10-03 20:00:06,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_079.jpg,ss_079.jpg,Connectivity,dashboard_settings,other_screen,correct,human_annotator,physical connectivity component,2026-10-03 20:00:25,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_080.jpg,ss_080.jpg,General,dashboard_settings,other_screen,correct,human_annotator,Decision set to correct,2026-10-03 20:00:36,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_081.jpg,ss_081.jpg,Connectivity,dashboard_settings,other_screen,correct,human_annotator,Decision set to correct,2026-10-03 20:00:55,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_082.jpg,ss_082.jpg,Connectivity,dashboard_settings,dashboard_settings,correct,human_annotator,Decision set to correct,2026-10-03 20:01:18,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_083.jpg,ss_083.jpg,General,dashboard_settings,other_screen,correct,human_annotator,news,2026-10-03 20:02:09,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_084.jpg,ss_084.jpg,General,dashboard_settings,other_screen,correct,human_annotator,news,2026-10-03 20:02:20,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_085.jpg,ss_085.jpg,General,dashboard_settings,other_screen,correct,human_annotator,news,2026-10-03 20:02:29,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_086.jpg,ss_086.jpg,Entertainment,media_player_library,other_screen,correct,human_annotator,RANDOM,2026-10-03 21:33:10,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_087.jpg,ss_087.jpg,General,dashboard_settings,other_screen,correct,human_annotator,news,2026-10-03 20:02:39,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_088.jpg,ss_088.jpg,General,dashboard_settings,other_screen,correct,human_annotator,news,2026-10-03 20:02:46,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_089.jpg,ss_089.jpg,Entertainment,media_player_library,other_screen,correct,human_annotator,LISTS,2026-10-03 21:33:21,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_090.jpg,ss_090.jpg,General,dashboard_settings,other_screen,correct,human_annotator,news,2026-10-03 20:02:55,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_091.jpg,ss_091.jpg,Entertainment,media_player_library,other_screen,correct,human_annotator,LISTS,2026-10-03 21:33:31,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_092.png,ss_092.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:53:45,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_093.jpg,ss_093.jpg,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:33:37,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_094.png,ss_094.png,General,dashboard_settings,other_screen,correct,human_annotator,dashboard,2026-10-03 20:03:35,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_095.jpg,ss_095.jpg,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:33:41,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_096.png,ss_096.png,Entertainment,media_player_library,other_screen,correct,human_annotator,VIDEO,2026-10-03 21:33:52,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_097.jpg,ss_097.jpg,Payment,cart_checkout_payment,other_screen,correct,human_annotator,recommendations,2026-10-03 20:25:28,UNIQUE,Tier 5,contact_sheet_cart_checkout_payment.png,False,completed
+ss_098.png,ss_098.png,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:34:02,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_099.jpg,ss_099.jpg,Payment,cart_checkout_payment,other_screen,correct,human_annotator,app opening screen,2026-10-03 20:26:01,UNIQUE,Tier 5,contact_sheet_cart_checkout_payment.png,False,completed
+ss_100.png,ss_100.png,Entertainment,media_player_library,other_screen,correct,human_annotator,VIDEO,2026-10-03 21:34:10,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_101.jpg,ss_101.jpg,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:34:15,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_102.png,ss_102.png,Entertainment,media_player_library,other_screen,correct,human_annotator,VIDEO,2026-10-03 21:34:38,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_103.jpg,ss_103.jpg,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:34:46,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_104.png,ss_104.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_105.jpg,ss_105.jpg,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:34:55,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_106.png,ss_106.png,Entertainment,media_player_library,other_screen,correct,human_annotator,VIDEO,2026-10-03 21:35:06,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_107.jpg,ss_107.jpg,General,dashboard_settings,product_listing,correct,human_annotator,random products,2026-10-03 20:04:03,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_108.png,ss_108.png,Entertainment,media_player_library,other_screen,correct,human_annotator,VIDEO,2026-10-03 21:35:13,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_109.jpg,ss_109.jpg,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:35:20,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_110.png,ss_110.png,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:35:26,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_111.jpg,ss_111.jpg,Entertainment,media_player_library,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 21:35:37,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_112.png,ss_112.png,Entertainment,media_player_library,other_screen,correct,human_annotator,VIDEO,2026-10-03 21:35:49,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_113.jpg,ss_113.jpg,Entertainment,media_player_library,other_screen,correct,human_annotator,VIDEO,2026-10-03 21:36:05,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_114.png,ss_114.png,Entertainment,media_player_library,other_screen,correct,human_annotator,VIDEO,2026-10-03 21:36:13,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_115.jpg,ss_115.jpg,Payment,cart_checkout_payment,other_screen,correct,human_annotator,dashboard,2026-10-03 20:26:14,UNIQUE,Tier 5,contact_sheet_cart_checkout_payment.png,False,completed
+ss_116.png,ss_116.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_117.jpg,ss_117.jpg,Payment,cart_checkout_payment,other_screen,correct,human_annotator,portfolio,2026-10-03 20:26:27,UNIQUE,Tier 5,contact_sheet_cart_checkout_payment.png,False,completed
+ss_118.png,ss_118.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_119.jpg,ss_119.jpg,General,dashboard_settings,other_screen,correct,human_annotator,homescreen phone,2026-10-03 20:05:12,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_120.png,ss_120.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_121.jpg,ss_121.jpg,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:53:49,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_122.png,ss_122.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_123.jpg,ss_123.jpg,General,dashboard_settings,other_screen,correct,human_annotator,notification,2026-10-03 20:05:49,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_124.png,ss_124.png,Entertainment,media_player_library,login_authentication,correct,human_annotator,Decision set to correct,2026-10-03 21:36:37,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_125.jpg,ss_125.jpg,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:53:54,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_126.png,ss_126.png,Payment,cart_checkout_payment,other_screen,correct,human_annotator,transaction history,2026-10-03 20:26:52,UNIQUE,Tier 5,contact_sheet_cart_checkout_payment.png,False,completed
+ss_127.jpg,ss_127.jpg,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:53:57,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_128.png,ss_128.png,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:36:46,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_129.jpg,ss_129.jpg,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:54:01,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_130.png,ss_130.png,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:36:58,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_131.jpg,ss_131.jpg,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:54:04,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_132.png,ss_132.png,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:37:01,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_133.jpg,ss_133.jpg,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:54:10,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_134.png,ss_134.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_135.jpg,ss_135.jpg,General,dashboard_settings,other_screen,correct,human_annotator,phonescreen,2026-10-03 20:06:03,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_136.png,ss_136.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_137.png,ss_137.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_138.png,ss_138.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_139.png,ss_139.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_140.png,ss_140.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_141.png,ss_141.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_142.png,ss_142.png,Payment,cart_checkout_payment,other_screen,correct,human_annotator,transaction history,2026-10-03 20:27:40,UNIQUE,Tier 5,contact_sheet_cart_checkout_payment.png,False,completed
+ss_143.png,ss_143.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_144.png,ss_144.png,Shopping,product_detail,other_screen,correct,human_annotator,dashboard,2026-10-03 20:40:59,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_145.png,ss_145.png,Shopping,product_detail,other_screen,correct,human_annotator,dashboard,2026-10-03 20:41:08,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_146.png,ss_146.png,Shopping,product_detail,other_screen,correct,human_annotator,dashboard,2026-10-03 20:41:18,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_147.png,ss_147.png,Shopping,product_detail,other_screen,correct,human_annotator,dashboard,2026-10-03 20:41:26,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_148.png,ss_148.png,Shopping,product_detail,other_screen,correct,human_annotator,dashboard,2026-10-03 20:41:35,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_149.png,ss_149.png,Shopping,product_detail,other_screen,correct,human_annotator,dashboard,2026-10-03 20:41:46,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_150.png,ss_150.png,Shopping,product_detail,other_screen,correct,human_annotator,recommendations,2026-10-03 20:42:16,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_151.png,ss_151.png,Shopping,product_listing,product_listing,correct,human_annotator,Decision set to correct,2026-10-03 20:22:51,UNIQUE,Tier 3,contact_sheet_product_listing.png,False,completed
+ss_152.png,ss_152.png,Shopping,product_detail,product_detail,approve,human_annotator,Decision set to approve,2026-10-03 20:42:24,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_153.png,ss_153.png,Entertainment,media_player_library,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 21:37:40,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,rejected
+ss_154.png,ss_154.png,Shopping,product_listing,product_listing,correct,human_annotator,Decision set to correct,2026-10-03 20:22:59,UNIQUE,Tier 3,contact_sheet_product_listing.png,False,completed
+ss_155.jpg,ss_155.jpg,Payment,cart_checkout_payment,other_screen,correct,human_annotator,FAQ for an app,2026-10-03 20:28:29,UNIQUE,Tier 5,contact_sheet_cart_checkout_payment.png,False,completed
+ss_156.jpg,ss_156.jpg,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:54:14,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_157.jpg,ss_157.jpg,General,dashboard_settings,dashboard_settings,correct,human_annotator,Decision set to correct,2026-10-03 20:06:13,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_158.jpg,ss_158.jpg,Communication,document_article_view,document_article_view,approve,human_annotator,Decision set to approve,2026-10-03 22:08:42,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,completed
+ss_159.jpg,ss_159.jpg,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:54:22,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_160.jpg,ss_160.jpg,Travel,travel_booking,other_screen,correct,human_annotator,TRAVEL APP DASHBOARD,2026-10-03 21:54:33,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_161.jpg,ss_161.jpg,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:54:45,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_162.jpg,ss_162.jpg,General,dashboard_settings,other_screen,correct,human_annotator,health,2026-10-03 20:06:28,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_163.jpg,ss_163.jpg,General,dashboard_settings,other_screen,correct,human_annotator,health,2026-10-03 20:06:41,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_164.jpg,ss_164.jpg,Shopping,product_detail,product_listing,correct,human_annotator,Decision set to correct,2026-10-03 20:42:33,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_165.jpg,ss_165.jpg,Shopping,product_detail,product_listing,correct,human_annotator,Decision set to correct,2026-10-03 20:42:49,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_166.jpg,ss_166.jpg,General,dashboard_settings,other_screen,correct,human_annotator,health,2026-10-03 20:06:56,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_167.jpg,ss_167.jpg,General,dashboard_settings,other_screen,correct,human_annotator,health,2026-10-03 20:07:08,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_168.jpg,ss_168.jpg,General,dashboard_settings,other_screen,correct,human_annotator,health,2026-10-03 20:07:16,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_169.jpg,ss_169.jpg,General,dashboard_settings,other_screen,correct,human_annotator,health,2026-10-03 20:07:29,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_170.jpg,ss_170.jpg,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:54:49,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_171.jpg,ss_171.jpg,General,dashboard_settings,other_screen,correct,human_annotator,health,2026-10-03 20:07:42,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_172.jpg,ss_172.jpg,General,dashboard_settings,other_screen,correct,human_annotator,health,2026-10-03 20:08:02,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_173.jpg,ss_173.jpg,General,dashboard_settings,other_screen,correct,human_annotator,health,2026-10-03 20:08:13,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_174.png,ss_174.png,Shopping,product_listing,product_listing,correct,human_annotator,Decision set to correct,2026-10-03 20:23:10,UNIQUE,Tier 3,contact_sheet_product_listing.png,False,completed
+ss_175.jpg,ss_175.jpg,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:54:54,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_176.png,ss_176.png,Shopping,product_listing,other_screen,correct,human_annotator,dashboard,2026-10-03 20:23:23,UNIQUE,Tier 3,contact_sheet_product_listing.png,False,completed
+ss_177.jpg,ss_177.jpg,General,dashboard_settings,other_screen,correct,human_annotator,dashboard housing app,2026-10-03 20:08:38,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_178.png,ss_178.png,Shopping,product_listing,other_screen,correct,human_annotator,dashboard,2026-10-03 20:23:32,UNIQUE,Tier 3,contact_sheet_product_listing.png,False,completed
+ss_179.jpg,ss_179.jpg,General,dashboard_settings,product_detail,correct,human_annotator,housing,2026-10-03 20:09:01,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_180.png,ss_180.png,Shopping,product_detail,other_screen,correct,human_annotator,helpdesk,2026-10-03 20:43:03,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_181.jpg,ss_181.jpg,Education,document_article_view,document_article_view,approve,human_annotator,Decision set to approve,2026-10-03 22:08:49,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,completed
+ss_182.png,ss_182.png,Shopping,product_detail,unclassifiable,reject,human_annotator,wrong category,2026-10-03 20:43:18,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,rejected
+ss_183.png,ss_183.png,General,dashboard_settings,login_authentication,correct,human_annotator,Decision set to correct,2026-10-03 20:09:09,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_184.png,ss_184.png,General,dashboard_settings,login_authentication,correct,human_annotator,Decision set to correct,2026-10-03 20:09:17,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_185.png,ss_185.png,Shopping,product_detail,other_screen,correct,human_annotator,delivery location,2026-10-03 20:43:48,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_186.png,ss_186.png,Shopping,product_detail,other_screen,correct,human_annotator,delivery,2026-10-03 20:44:02,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_187.png,ss_187.png,Shopping,product_detail,other_screen,correct,human_annotator,delivery location,2026-10-03 20:44:13,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_188.png,ss_188.png,Shopping,product_detail,other_screen,correct,human_annotator,delivery,2026-10-03 20:44:30,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_189.png,ss_189.png,Shopping,product_detail,other_screen,correct,human_annotator,delivery location,2026-10-03 20:44:50,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_190.png,ss_190.png,Shopping,product_detail,other_screen,correct,human_annotator,delivery location,2026-10-03 20:45:04,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_191.png,ss_191.png,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:37:51,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_192.png,ss_192.png,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:37:55,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_193.png,ss_193.png,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:37:59,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_194.png,ss_194.png,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:38:14,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_195.png,ss_195.png,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:38:17,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_196.png,ss_196.png,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:38:22,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_197.png,ss_197.png,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:38:26,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_198.png,ss_198.png,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:38:29,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_199.png,ss_199.png,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:38:40,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_200.png,ss_200.png,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:38:44,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_201.png,ss_201.png,Entertainment,media_player_library,other_screen,correct,human_annotator,RANDOM,2026-10-03 21:38:54,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_202.png,ss_202.png,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:38:59,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_203.png,ss_203.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_204.png,ss_204.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_205.png,ss_205.png,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:39:10,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_206.png,ss_206.png,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:39:19,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_207.png,ss_207.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_208.png,ss_208.png,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:39:28,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_209.png,ss_209.png,Entertainment,media_player_library,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 21:39:49,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_210.png,ss_210.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:54:58,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_211.png,ss_211.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:55:02,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_212.png,ss_212.png,Entertainment,media_player_library,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 21:40:13,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_213.png,ss_213.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:55:12,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_214.png,ss_214.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:55:16,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_215.png,ss_215.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:55:20,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_216.png,ss_216.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:55:23,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_217.png,ss_217.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_218.png,ss_218.png,Payment,cart_checkout_payment,cart_checkout_payment,correct,human_annotator,Decision set to correct,2026-10-03 20:29:00,UNIQUE,Tier 5,contact_sheet_cart_checkout_payment.png,False,completed
+ss_219.jpg,ss_219.jpg,General,dashboard_settings,product_detail,correct,human_annotator,Decision set to correct,2026-10-03 20:09:33,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_220.png,ss_220.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:55:26,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_221.jpg,ss_221.jpg,General,dashboard_settings,product_listing,correct,human_annotator,housing,2026-10-03 20:09:45,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_222.png,ss_222.png,Travel,travel_booking,other_screen,correct,human_annotator,PARCEL DROP,2026-10-03 21:55:44,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_223.jpg,ss_223.jpg,Education,document_article_view,document_article_view,approve,human_annotator,Decision set to approve,2026-10-03 22:08:53,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,completed
+ss_224.png,ss_224.png,Shopping,product_detail,other_screen,correct,human_annotator,delivery location,2026-10-03 20:45:15,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_225.jpg,ss_225.jpg,Education,document_article_view,document_article_view,approve,human_annotator,Decision set to approve,2026-10-03 22:08:57,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,completed
+ss_226.png,ss_226.png,Entertainment,media_player_library,,pending,,Pending human review.,,DUPE_GROUP_019,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_227.jpg,ss_227.jpg,General,dashboard_settings,product_detail,correct,human_annotator,rent price,2026-10-03 20:10:03,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_228.png,ss_228.png,Shopping,product_detail,other_screen,correct,human_annotator,food,2026-10-03 20:45:25,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_229.jpg,ss_229.jpg,General,dashboard_settings,product_listing,correct,human_annotator,flat prices,2026-10-03 20:10:18,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_230.png,ss_230.png,Shopping,product_detail,product_detail,approve,human_annotator,Decision set to approve,2026-10-03 20:45:32,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_231.jpg,ss_231.jpg,General,dashboard_settings,other_screen,correct,human_annotator,dashboard of an app,2026-10-03 20:10:45,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_232.png,ss_232.png,Shopping,product_detail,product_detail,approve,human_annotator,Decision set to approve,2026-10-03 20:45:37,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_233.jpg,ss_233.jpg,General,dashboard_settings,product_listing,correct,human_annotator,Decision set to correct,2026-10-03 20:10:53,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_234.png,ss_234.png,Shopping,product_detail,other_screen,correct,human_annotator,dashboard,2026-10-03 20:45:46,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_235.jpg,ss_235.jpg,Education,document_article_view,document_article_view,approve,human_annotator,Decision set to approve,2026-10-03 22:09:00,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,completed
+ss_236.png,ss_236.png,Entertainment,media_player_library,,pending,,Pending human review.,,DUPE_GROUP_019,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_237.jpg,ss_237.jpg,Education,document_article_view,other_screen,correct,human_annotator,OPTIONS,2026-10-03 22:09:10,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,completed
+ss_238.png,ss_238.png,Shopping,product_detail,other_screen,correct,human_annotator,delivery loaction,2026-10-03 20:45:56,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_239.jpg,ss_239.jpg,Education,document_article_view,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 22:09:18,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,completed
+ss_240.png,ss_240.png,Shopping,product_detail,other_screen,correct,human_annotator,delivery location,2026-10-03 20:46:09,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_241.jpg,ss_241.jpg,Education,document_article_view,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 22:09:26,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,completed
+ss_242.png,ss_242.png,Shopping,product_detail,other_screen,correct,human_annotator,delivery location,2026-10-03 20:46:19,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_243.jpg,ss_243.jpg,General,dashboard_settings,other_screen,correct,human_annotator,search bar for an app,2026-10-03 20:11:23,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_244.png,ss_244.png,Shopping,product_detail,product_detail,approve,human_annotator,Decision set to approve,2026-10-03 20:46:27,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_245.jpg,ss_245.jpg,General,dashboard_settings,product_listing,correct,human_annotator,house lists,2026-10-03 20:11:35,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_246.png,ss_246.png,Shopping,product_detail,product_detail,approve,human_annotator,Decision set to approve,2026-10-03 20:46:32,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_247.jpg,ss_247.jpg,General,dashboard_settings,other_screen,correct,human_annotator,random,2026-10-03 20:11:47,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_248.png,ss_248.png,Shopping,product_detail,other_screen,correct,human_annotator,delivery location,2026-10-03 20:46:46,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_249.jpg,ss_249.jpg,General,dashboard_settings,other_screen,correct,human_annotator,random,2026-10-03 20:12:03,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_250.png,ss_250.png,Shopping,product_detail,other_screen,correct,human_annotator,delivery location,2026-10-03 20:47:02,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_251.jpg,ss_251.jpg,General,dashboard_settings,product_listing,correct,human_annotator,Decision set to correct,2026-10-03 20:12:18,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_252.png,ss_252.png,Shopping,product_detail,other_screen,correct,human_annotator,dashboard,2026-10-03 20:47:12,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_253.jpg,ss_253.jpg,General,dashboard_settings,other_screen,correct,human_annotator,random pitures,2026-10-03 20:12:30,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_254.png,ss_254.png,Shopping,product_detail,other_screen,correct,human_annotator,booking,2026-10-03 20:47:23,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_255.jpg,ss_255.jpg,General,dashboard_settings,product_listing,correct,human_annotator,Decision set to correct,2026-10-03 20:12:37,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_256.png,ss_256.png,Shopping,product_detail,other_screen,correct,human_annotator,delivery location,2026-10-03 20:47:33,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_257.jpg,ss_257.jpg,General,login_authentication,login_authentication,approve,human_annotator,Decision set to approve,2026-10-03 20:24:39,UNIQUE,Tier 4,contact_sheet_login_authentication.png,False,completed
+ss_258.png,ss_258.png,Shopping,product_detail,other_screen,correct,human_annotator,delivery location,2026-10-03 20:47:42,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_259.jpg,ss_259.jpg,General,dashboard_settings,login_authentication,correct,human_annotator,Decision set to correct,2026-10-03 20:12:52,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_260.png,ss_260.png,Shopping,product_detail,product_detail,approve,human_annotator,Decision set to approve,2026-10-03 20:47:48,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_261.jpg,ss_261.jpg,Education,document_article_view,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 22:09:39,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,completed
+ss_262.png,ss_262.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:55:49,DUPE_GROUP_019,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_263.jpg,ss_263.jpg,Education,document_article_view,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 22:09:50,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,completed
+ss_264.png,ss_264.png,Entertainment,media_player_library,,pending,,Pending human review.,,DUPE_GROUP_019,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_265.jpg,ss_265.jpg,General,dashboard_settings,product_listing,correct,human_annotator,Decision set to correct,2026-10-03 20:13:02,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_266.png,ss_266.png,Work and career,document_article_view,document_article_view,approve,human_annotator,Decision set to approve,2026-10-03 22:09:59,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,completed
+ss_267.jpg,ss_267.jpg,General,dashboard_settings,other_screen,correct,human_annotator,dashboard,2026-10-03 20:13:15,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_268.png,ss_268.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_269.jpg,ss_269.jpg,General,dashboard_settings,other_screen,correct,human_annotator,random,2026-10-03 20:13:24,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_270.png,ss_270.png,Entertainment,media_player_library,other_screen,correct,human_annotator,RANDOM,2026-10-03 21:41:33,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_271.jpg,ss_271.jpg,General,dashboard_settings,other_screen,correct,human_annotator,dashboard of an app,2026-10-03 20:13:46,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_272.png,ss_272.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_273.jpg,ss_273.jpg,General,dashboard_settings,other_screen,correct,human_annotator,dashboard,2026-10-03 20:14:05,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_274.png,ss_274.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_275.jpg,ss_275.jpg,General,dashboard_settings,other_screen,correct,human_annotator,dashboard,2026-10-03 20:14:14,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_276.png,ss_276.png,Shopping,product_detail,product_detail,approve,human_annotator,Decision set to approve,2026-10-03 20:47:54,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_277.jpg,ss_277.jpg,General,dashboard_settings,other_screen,correct,human_annotator,community,2026-10-03 20:14:53,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_278.png,ss_278.png,Shopping,product_detail,product_detail,approve,human_annotator,Decision set to approve,2026-10-03 20:47:58,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_279.jpg,ss_279.jpg,Payment,cart_checkout_payment,other_screen,correct,human_annotator,options,2026-10-03 20:29:14,UNIQUE,Tier 5,contact_sheet_cart_checkout_payment.png,False,completed
+ss_280.png,ss_280.png,Coding,document_article_view,other_screen,correct,human_annotator,Decision set to correct,2026-10-03 22:10:24,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,completed
+ss_281.jpg,ss_281.jpg,Shopping,product_detail,product_detail,approve,human_annotator,Decision set to approve,2026-10-03 20:48:07,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_282.png,ss_282.png,Shopping,product_listing,login_authentication,correct,human_annotator,Decision set to correct,2026-10-03 20:23:51,UNIQUE,Tier 3,contact_sheet_product_listing.png,False,completed
+ss_283.jpg,ss_283.jpg,General,document_article_view,document_article_view,approve,human_annotator,Decision set to approve,2026-10-03 22:10:45,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,completed
+ss_284.png,ss_284.png,Entertainment,media_player_library,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 21:42:03,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,rejected
+ss_285.jpg,ss_285.jpg,General,dashboard_settings,other_screen,correct,human_annotator,dashboard,2026-10-03 20:15:05,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_286.png,ss_286.png,Work and career,document_article_view,unclassifiable,reject,human_annotator,WRONG CAREGORY,2026-10-03 22:10:59,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,rejected
+ss_287.jpg,ss_287.jpg,General,dashboard_settings,other_screen,correct,human_annotator,dashboard actions,2026-10-03 20:15:21,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_288.png,ss_288.png,Work and career,document_article_view,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 22:11:11,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,rejected
+ss_289.jpg,ss_289.jpg,Entertainment,media_player_library,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 21:42:30,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_290.png,ss_290.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_291.jpg,ss_291.jpg,Entertainment,media_player_library,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 21:42:40,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_292.png,ss_292.png,Work and career,document_article_view,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 22:11:32,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,rejected
+ss_293.jpg,ss_293.jpg,Entertainment,media_player_library,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 21:42:50,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_294.png,ss_294.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_295.jpg,ss_295.jpg,Entertainment,media_player_library,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 21:43:00,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_296.png,ss_296.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_297.jpg,ss_297.jpg,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:43:06,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_298.png,ss_298.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_299.jpg,ss_299.jpg,Entertainment,media_player_library,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 21:43:35,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_300.png,ss_300.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_301.jpg,ss_301.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_302.png,ss_302.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_303.jpg,ss_303.jpg,Entertainment,media_player_library,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 21:43:49,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_304.png,ss_304.png,Work and career,document_article_view,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 22:12:00,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,rejected
+ss_305.jpg,ss_305.jpg,Entertainment,media_player_library,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 21:44:00,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_306.png,ss_306.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_307.jpg,ss_307.jpg,General,dashboard_settings,other_screen,correct,human_annotator,random,2026-10-03 20:15:55,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_308.png,ss_308.png,Work and career,document_article_view,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 22:12:11,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,rejected
+ss_309.jpg,ss_309.jpg,Entertainment,media_player_library,other_screen,correct,human_annotator,NEWS,2026-10-03 21:44:16,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_310.png,ss_310.png,Work and career,document_article_view,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 22:12:18,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,rejected
+ss_311.jpg,ss_311.jpg,Entertainment,media_player_library,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 21:46:03,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_312.png,ss_312.png,Work and career,document_article_view,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 22:12:26,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,rejected
+ss_313.jpg,ss_313.jpg,Entertainment,media_player_library,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 21:46:34,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_314.png,ss_314.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_315.jpg,ss_315.jpg,Entertainment,media_player_library,other_screen,correct,human_annotator,LISTS,2026-10-03 21:47:23,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_316.png,ss_316.png,Work and career,document_article_view,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 22:12:37,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,rejected
+ss_317.png,ss_317.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_318.png,ss_318.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_319.png,ss_319.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_320.png,ss_320.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_321.png,ss_321.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_322.png,ss_322.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_323.png,ss_323.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_324.png,ss_324.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_325.png,ss_325.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_326.png,ss_326.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_327.png,ss_327.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_328.png,ss_328.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_329.png,ss_329.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_330.png,ss_330.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_331.png,ss_331.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_332.png,ss_332.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_333.png,ss_333.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_334.png,ss_334.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_335.png,ss_335.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_336.png,ss_336.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_337.png,ss_337.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_338.png,ss_338.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_339.png,ss_339.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_340.png,ss_340.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_341.png,ss_341.png,Payment,cart_checkout_payment,cart_checkout_payment,approve,human_annotator,Decision set to approve,2026-10-03 20:29:20,UNIQUE,Tier 5,contact_sheet_cart_checkout_payment.png,False,completed
+ss_342.png,ss_342.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_343.png,ss_343.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_344.png,ss_344.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_345.png,ss_345.png,Entertainment,media_player_library,login_authentication,correct,human_annotator,Decision set to correct,2026-10-03 21:47:39,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_346.png,ss_346.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_347.png,ss_347.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_348.png,ss_348.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_349.png,ss_349.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_350.png,ss_350.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_351.png,ss_351.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_352.png,ss_352.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_353.png,ss_353.png,Payment,cart_checkout_payment,cart_checkout_payment,approve,human_annotator,Decision set to approve,2026-10-03 20:29:30,UNIQUE,Tier 5,contact_sheet_cart_checkout_payment.png,False,completed
+ss_354.png,ss_354.png,Payment,cart_checkout_payment,other_screen,correct,human_annotator,price options,2026-10-03 20:31:41,UNIQUE,Tier 5,contact_sheet_cart_checkout_payment.png,False,completed
+ss_355.png,ss_355.png,Payment,cart_checkout_payment,cart_checkout_payment,approve,human_annotator,Decision set to approve,2026-10-03 20:31:46,UNIQUE,Tier 5,contact_sheet_cart_checkout_payment.png,False,completed
+ss_356.png,ss_356.png,Payment,cart_checkout_payment,other_screen,correct,human_annotator,price options,2026-10-03 20:32:02,UNIQUE,Tier 5,contact_sheet_cart_checkout_payment.png,False,completed
+ss_357.png,ss_357.png,Payment,cart_checkout_payment,cart_checkout_payment,approve,human_annotator,Decision set to approve,2026-10-03 20:32:10,UNIQUE,Tier 5,contact_sheet_cart_checkout_payment.png,False,completed
+ss_358.jpg,ss_358.jpg,Entertainment,media_player_library,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 21:47:49,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_359.png,ss_359.png,Communication,messaging_chat,messaging_chat,approve,human_annotator,Decision set to approve,2026-10-03 21:04:25,UNIQUE,Tier 8,contact_sheet_messaging_chat.png,False,completed
+ss_360.png,ss_360.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_361.jpg,ss_361.jpg,Entertainment,media_player_library,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 21:47:59,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_362.png,ss_362.png,Shopping,product_detail,product_detail,approve,human_annotator,Decision set to approve,2026-10-03 20:48:12,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_363.png,ss_363.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_364.jpg,ss_364.jpg,Payment,cart_checkout_payment,other_screen,correct,human_annotator,stock market,2026-10-03 20:32:27,UNIQUE,Tier 5,contact_sheet_cart_checkout_payment.png,False,completed
+ss_365.png,ss_365.png,Shopping,product_detail,other_screen,correct,human_annotator,search bar,2026-10-03 20:48:23,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_366.png,ss_366.png,Shopping,product_detail,other_screen,correct,human_annotator,search bar,2026-10-03 20:48:31,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_367.jpg,ss_367.jpg,Entertainment,media_player_library,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 21:48:15,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_368.png,ss_368.png,Shopping,product_detail,other_screen,correct,human_annotator,search bar,2026-10-03 20:48:44,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_369.png,ss_369.png,Shopping,product_detail,product_detail,approve,human_annotator,Decision set to approve,2026-10-03 20:48:50,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_370.jpg,ss_370.jpg,General,dashboard_settings,other_screen,correct,human_annotator,about of an app,2026-10-03 20:16:13,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_371.png,ss_371.png,Shopping,product_detail,product_detail,approve,human_annotator,Decision set to approve,2026-10-03 20:48:54,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_372.png,ss_372.png,Shopping,product_detail,product_detail,approve,human_annotator,Decision set to approve,2026-10-03 20:48:59,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_373.jpg,ss_373.jpg,General,dashboard_settings,other_screen,correct,human_annotator,dashboard,2026-10-03 20:16:28,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_374.png,ss_374.png,Shopping,product_detail,product_detail,approve,human_annotator,Decision set to approve,2026-10-03 20:49:03,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_375.png,ss_375.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:55:52,DUPE_GROUP_019,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_376.jpg,ss_376.jpg,General,dashboard_settings,other_screen,correct,human_annotator,dashboard,2026-10-03 20:17:45,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_377.png,ss_377.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:55:55,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_378.png,ss_378.png,Travel,travel_booking,other_screen,correct,human_annotator,PARCEL,2026-10-03 21:56:04,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_379.jpg,ss_379.jpg,Payment,cart_checkout_payment,other_screen,correct,human_annotator,dashboard,2026-10-03 20:32:38,UNIQUE,Tier 5,contact_sheet_cart_checkout_payment.png,False,completed
+ss_380.png,ss_380.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:56:06,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_381.png,ss_381.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:56:10,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_382.jpg,ss_382.jpg,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_383.png,ss_383.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_384.png,ss_384.png,General,dashboard_settings,login_authentication,correct,human_annotator,Decision set to correct,2026-10-03 20:17:57,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_385.jpg,ss_385.jpg,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_386.png,ss_386.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_387.png,ss_387.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_388.jpg,ss_388.jpg,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_389.png,ss_389.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_390.png,ss_390.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_391.jpg,ss_391.jpg,General,dashboard_settings,product_listing,correct,human_annotator,Decision set to correct,2026-10-03 20:18:41,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_392.png,ss_392.png,Travel,travel_booking,login_authentication,correct,human_annotator,Decision set to correct,2026-10-03 21:56:36,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_393.png,ss_393.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:56:39,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_394.jpg,ss_394.jpg,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_395.png,ss_395.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:56:42,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_396.png,ss_396.png,Entertainment,media_player_library,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 21:48:24,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_397.jpg,ss_397.jpg,General,dashboard_settings,other_screen,correct,human_annotator,calender,2026-10-03 20:18:55,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_398.png,ss_398.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:56:45,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_399.png,ss_399.png,Travel,travel_booking,other_screen,correct,human_annotator,LISTS,2026-10-03 21:56:57,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_400.jpg,ss_400.jpg,General,dashboard_settings,other_screen,correct,human_annotator,health,2026-10-03 20:19:07,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_401.png,ss_401.png,Travel,travel_booking,other_screen,correct,human_annotator,DETAILS,2026-10-03 21:57:10,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_402.png,ss_402.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_403.jpg,ss_403.jpg,Entertainment,media_player_library,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 21:48:37,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_404.png,ss_404.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_405.png,ss_405.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_406.jpg,ss_406.jpg,General,dashboard_settings,other_screen,correct,human_annotator,calender,2026-10-03 20:19:17,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_407.png,ss_407.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_408.png,ss_408.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:57:27,DUPE_GROUP_019,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_409.jpg,ss_409.jpg,General,dashboard_settings,other_screen,correct,human_annotator,notes app,2026-10-03 20:19:29,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_410.png,ss_410.png,Travel,travel_booking,,pending,,Pending human review.,,DUPE_GROUP_019,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_411.png,ss_411.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_412.jpg,ss_412.jpg,General,dashboard_settings,other_screen,correct,human_annotator,timer,2026-10-03 20:19:38,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_413.png,ss_413.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_414.png,ss_414.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_415.jpg,ss_415.jpg,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_416.png,ss_416.png,Travel,travel_booking,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 21:57:53,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,rejected
+ss_417.png,ss_417.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_418.jpg,ss_418.jpg,General,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_419.png,ss_419.png,Shopping,product_detail,product_detail,approve,human_annotator,Decision set to approve,2026-10-03 20:49:07,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_420.png,ss_420.png,Shopping,product_detail,product_detail,approve,human_annotator,Decision set to approve,2026-10-03 20:49:12,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_421.jpg,ss_421.jpg,General,dashboard_settings,other_screen,correct,human_annotator,calender,2026-10-03 20:19:50,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_422.png,ss_422.png,Shopping,product_detail,other_screen,correct,human_annotator,search bar,2026-10-03 20:49:27,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_423.png,ss_423.png,Shopping,product_detail,product_detail,approve,human_annotator,Decision set to approve,2026-10-03 20:49:32,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_424.jpg,ss_424.jpg,General,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_425.png,ss_425.png,Entertainment,media_player_library,,pending,,Pending human review.,,DUPE_GROUP_019,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_426.png,ss_426.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_427.jpg,ss_427.jpg,General,dashboard_settings,other_screen,correct,human_annotator,weather,2026-10-03 20:20:00,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_428.png,ss_428.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_429.png,ss_429.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_430.jpg,ss_430.jpg,Connectivity,dashboard_settings,dashboard_settings,correct,human_annotator,Decision set to correct,2026-10-03 20:20:16,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_431.png,ss_431.png,Entertainment,media_player_library,other_screen,correct,human_annotator,RANDOM,2026-10-03 21:48:58,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_432.png,ss_432.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_433.jpg,ss_433.jpg,General,dashboard_settings,other_screen,correct,human_annotator,weather,2026-10-03 20:20:25,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_434.png,ss_434.png,General,dashboard_settings,other_screen,correct,human_annotator,random,2026-10-03 20:20:41,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_435.png,ss_435.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_436.jpg,ss_436.jpg,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_437.png,ss_437.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_438.png,ss_438.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_439.jpg,ss_439.jpg,General,dashboard_settings,other_screen,correct,human_annotator,calender,2026-10-03 20:20:51,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_440.png,ss_440.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_441.png,ss_441.png,General,other_screen,other_screen,reject,system_audit,Corrupted 0-byte file.,2026-10-02,singleton_ss_441,Tier 13 (Other),contact_sheet_other_screen.png,True,rejected
+ss_442.jpg,ss_442.jpg,General,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_443.png,ss_443.png,General,other_screen,other_screen,reject,system_audit,Corrupted 0-byte file.,2026-10-02,singleton_ss_443,Tier 13 (Other),contact_sheet_other_screen.png,True,rejected
+ss_444.png,ss_444.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_445.jpg,ss_445.jpg,General,dashboard_settings,other_screen,correct,human_annotator,clock app,2026-10-03 20:21:07,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_446.png,ss_446.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_447.png,ss_447.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_448.jpg,ss_448.jpg,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_449.png,ss_449.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_450.png,ss_450.png,Shopping,product_detail,login_authentication,correct,human_annotator,Decision set to correct,2026-10-03 20:49:41,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_451.jpg,ss_451.jpg,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_452.png,ss_452.png,Shopping,product_detail,product_listing,correct,human_annotator,Decision set to correct,2026-10-03 20:49:51,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_453.png,ss_453.png,Shopping,product_detail,product_detail,approve,human_annotator,Decision set to approve,2026-10-03 20:49:57,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_454.jpg,ss_454.jpg,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_455.png,ss_455.png,Shopping,product_detail,product_detail,approve,human_annotator,Decision set to approve,2026-10-03 20:50:03,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_456.png,ss_456.png,Shopping,product_listing,other_screen,correct,human_annotator,dashboard,2026-10-03 20:24:07,UNIQUE,Tier 3,contact_sheet_product_listing.png,False,completed
+ss_457.jpg,ss_457.jpg,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_458.png,ss_458.png,Shopping,product_detail,other_screen,correct,human_annotator,search bar,2026-10-03 20:50:17,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_459.png,ss_459.png,Shopping,product_detail,other_screen,correct,human_annotator,search bar,2026-10-03 20:50:28,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_460.jpg,ss_460.jpg,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_461.png,ss_461.png,Shopping,product_detail,other_screen,correct,human_annotator,dashboard,2026-10-03 20:50:52,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_462.png,ss_462.png,Shopping,product_detail,other_screen,correct,human_annotator,delivery location,2026-10-03 20:51:05,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_463.jpg,ss_463.jpg,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_464.png,ss_464.png,Shopping,product_detail,other_screen,correct,human_annotator,search,2026-10-03 20:51:26,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_465.png,ss_465.png,Shopping,product_detail,other_screen,correct,human_annotator,delivery loaction,2026-10-03 20:51:38,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_466.jpg,ss_466.jpg,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_467.png,ss_467.png,Shopping,product_detail,other_screen,correct,human_annotator,dashboard,2026-10-03 20:52:14,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_468.png,ss_468.png,Shopping,product_detail,other_screen,correct,human_annotator,delivery location,2026-10-03 20:52:25,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_469.jpg,ss_469.jpg,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_470.png,ss_470.png,Shopping,product_detail,other_screen,correct,human_annotator,dashboard,2026-10-03 20:52:35,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_471.png,ss_471.png,Shopping,product_detail,other_screen,correct,human_annotator,dashboard,2026-10-03 20:52:44,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_472.jpg,ss_472.jpg,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_473.png,ss_473.png,Shopping,product_detail,other_screen,correct,human_annotator,search bar,2026-10-03 20:52:57,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_474.png,ss_474.png,Shopping,product_detail,other_screen,correct,human_annotator,dashboard,2026-10-03 20:53:11,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_475.jpg,ss_475.jpg,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_476.png,ss_476.png,Shopping,product_detail,product_listing,correct,human_annotator,Decision set to correct,2026-10-03 20:53:18,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_477.png,ss_477.png,Shopping,product_detail,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 20:53:55,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_478.jpg,ss_478.jpg,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_479.png,ss_479.png,Shopping,product_detail,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 20:54:04,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_480.png,ss_480.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_481.png,ss_481.png,Shopping,product_detail,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 20:54:12,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_482.png,ss_482.png,Shopping,product_detail,product_detail,approve,human_annotator,Decision set to approve,2026-10-03 20:54:20,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_483.png,ss_483.png,Shopping,product_detail,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 20:54:27,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_484.png,ss_484.png,Shopping,product_detail,product_detail,approve,human_annotator,Decision set to approve,2026-10-03 20:54:32,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_485.png,ss_485.png,Shopping,product_detail,product_listing,correct,human_annotator,Decision set to correct,2026-10-03 20:54:49,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_486.png,ss_486.png,Shopping,product_detail,product_detail,approve,human_annotator,Decision set to approve,2026-10-03 20:54:55,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_487.png,ss_487.png,Shopping,product_detail,product_listing,correct,human_annotator,Decision set to correct,2026-10-03 20:55:01,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_488.png,ss_488.png,Shopping,product_detail,product_detail,approve,human_annotator,Decision set to approve,2026-10-03 20:55:08,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_489.png,ss_489.png,Shopping,product_detail,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 20:55:17,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_490.png,ss_490.png,Shopping,product_detail,other_screen,correct,human_annotator,DELIVERY LOCATION,2026-10-03 20:55:28,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_491.png,ss_491.png,Shopping,product_detail,product_detail,approve,human_annotator,Decision set to approve,2026-10-03 20:55:33,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_492.png,ss_492.png,Shopping,product_detail,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 20:55:43,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_493.png,ss_493.png,Shopping,product_detail,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 20:55:59,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_494.png,ss_494.png,Shopping,product_detail,other_screen,correct,human_annotator,DELIVERY LOCATION,2026-10-03 20:56:09,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_495.png,ss_495.png,Shopping,product_detail,other_screen,correct,human_annotator,SEARCH BAR,2026-10-03 20:56:19,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_496.png,ss_496.png,Shopping,product_detail,other_screen,correct,human_annotator,PRODUCT FILTERS,2026-10-03 20:56:36,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_497.png,ss_497.png,Shopping,product_detail,other_screen,correct,human_annotator,PRODUCT FILTER,2026-10-03 20:56:46,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_498.png,ss_498.png,Shopping,product_detail,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 20:56:55,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_499.png,ss_499.png,Shopping,product_detail,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 20:57:11,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_500.png,ss_500.png,Shopping,product_listing,product_listing,correct,human_annotator,Decision set to correct,2026-10-03 20:24:19,UNIQUE,Tier 3,contact_sheet_product_listing.png,False,completed
+ss_501.png,ss_501.png,Shopping,product_detail,product_listing,correct,human_annotator,Decision set to correct,2026-10-03 20:57:25,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_502.png,ss_502.png,Shopping,product_detail,product_listing,correct,human_annotator,Decision set to correct,2026-10-03 20:58:00,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_503.png,ss_503.png,Shopping,product_detail,product_listing,correct,human_annotator,Decision set to correct,2026-10-03 20:58:18,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_504.png,ss_504.png,Shopping,product_detail,other_screen,correct,human_annotator,PRODUCT FILTER,2026-10-03 20:58:48,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_505.png,ss_505.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_506.png,ss_506.png,Shopping,product_detail,other_screen,correct,human_annotator,PRODUCT FILTER,2026-10-03 20:58:57,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_507.png,ss_507.png,Shopping,product_detail,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 20:59:05,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_508.png,ss_508.png,Shopping,product_detail,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 20:59:39,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_509.png,ss_509.png,Shopping,product_detail,product_listing,correct,human_annotator,Decision set to correct,2026-10-03 20:59:50,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_510.png,ss_510.png,Shopping,product_detail,product_listing,correct,human_annotator,Decision set to correct,2026-10-03 20:59:58,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_511.png,ss_511.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,pending
+ss_512.png,ss_512.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,pending
+ss_513.png,ss_513.png,Shopping,product_detail,other_screen,correct,human_annotator,SEARCH BAR,2026-10-03 21:00:20,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_514.png,ss_514.png,Shopping,product_detail,other_screen,correct,human_annotator,SEARCH BAR,2026-10-03 21:00:36,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_515.png,ss_515.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,pending
+ss_516.png,ss_516.png,Shopping,product_detail,product_listing,correct,human_annotator,Decision set to correct,2026-10-03 21:00:46,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_517.png,ss_517.png,Shopping,product_detail,product_listing,correct,human_annotator,Decision set to correct,2026-10-03 21:00:52,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_518.png,ss_518.png,Shopping,product_detail,product_listing,correct,human_annotator,Decision set to correct,2026-10-03 21:00:56,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_519.png,ss_519.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_520.png,ss_520.png,Shopping,product_detail,product_listing,correct,human_annotator,Decision set to correct,2026-10-03 21:01:01,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_521.png,ss_521.png,Shopping,product_detail,product_listing,correct,human_annotator,Decision set to correct,2026-10-03 21:01:07,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_522.png,ss_522.png,Shopping,product_detail,product_listing,correct,human_annotator,Decision set to correct,2026-10-03 21:01:11,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_523.png,ss_523.png,Shopping,product_detail,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 21:01:25,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_524.png,ss_524.png,Shopping,product_detail,cart_checkout_payment,correct,human_annotator,Decision set to correct,2026-10-03 21:01:38,DUPE_GROUP_019,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_525.png,ss_525.png,Shopping,product_detail,other_screen,correct,human_annotator,PROFILE,2026-10-03 21:01:54,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_526.png,ss_526.png,Shopping,product_detail,cart_checkout_payment,correct,human_annotator,Decision set to correct,2026-10-03 21:02:04,DUPE_GROUP_019,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_527.png,ss_527.png,Shopping,product_detail,other_screen,correct,human_annotator,PROFILE,2026-10-03 21:02:31,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_528.png,ss_528.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,pending
+ss_529.png,ss_529.png,Shopping,product_detail,cart_checkout_payment,correct,human_annotator,Decision set to correct,2026-10-03 21:02:42,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_530.png,ss_530.png,Entertainment,media_player_library,other_screen,correct,human_annotator,RANDOM,2026-10-03 21:49:22,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_531.png,ss_531.png,Shopping,product_detail,other_screen,correct,human_annotator,ORDERS,2026-10-03 21:02:51,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_532.png,ss_532.png,Shopping,product_detail,other_screen,correct,human_annotator,SUBSCRIPTION,2026-10-03 21:03:04,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_533.png,ss_533.png,Shopping,product_detail,other_screen,correct,human_annotator,SUBSCRIPTION,2026-10-03 21:03:18,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_534.png,ss_534.png,Shopping,product_detail,other_screen,correct,human_annotator,PLANS,2026-10-03 21:03:28,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_535.png,ss_535.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,pending
+ss_536.png,ss_536.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_537.png,ss_537.png,Shopping,product_detail,other_screen,correct,human_annotator,SUBSCRIPTION PAGE,2026-10-03 21:03:44,UNIQUE,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_538.png,ss_538.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:58:07,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_539.png,ss_539.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:58:10,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_540.png,ss_540.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:58:13,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_541.png,ss_541.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:58:17,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_542.png,ss_542.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:58:19,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_543.png,ss_543.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_544.png,ss_544.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:58:26,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_545.png,ss_545.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_546.png,ss_546.png,Travel,travel_booking,login_authentication,correct,human_annotator,Decision set to correct,2026-10-03 21:58:32,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_547.png,ss_547.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:58:37,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_548.png,ss_548.png,Travel,travel_booking,login_authentication,correct,human_annotator,Decision set to correct,2026-10-03 21:58:43,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_549.png,ss_549.png,Travel,travel_booking,login_authentication,correct,human_annotator,Decision set to correct,2026-10-03 21:58:49,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_550.png,ss_550.png,Travel,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_551.png,ss_551.png,Travel,travel_booking,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 21:59:05,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,rejected
+ss_552.png,ss_552.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_553.png,ss_553.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_554.png,ss_554.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_555.png,ss_555.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_556.png,ss_556.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_557.png,ss_557.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_558.png,ss_558.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_559.png,ss_559.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_560.png,ss_560.png,General,other_screen,other_screen,reject,system_audit,Corrupted 0-byte file.,2026-10-02,singleton_ss_560,Tier 13 (Other),contact_sheet_other_screen.png,True,rejected
+ss_561.png,ss_561.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_562.png,ss_562.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_563.png,ss_563.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_564.png,ss_564.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_565.png,ss_565.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_566.png,ss_566.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_567.png,ss_567.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_568.png,ss_568.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_569.png,ss_569.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_570.png,ss_570.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_571.png,ss_571.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_572.png,ss_572.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_573.png,ss_573.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_574.png,ss_574.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_575.png,ss_575.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_576.png,ss_576.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_577.png,ss_577.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_578.png,ss_578.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_579.png,ss_579.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_580.png,ss_580.png,Work and career,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_019,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_581.png,ss_581.png,Work and career,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_019,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_582.png,ss_582.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_583.png,ss_583.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_584.png,ss_584.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_585.png,ss_585.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_586.png,ss_586.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_587.png,ss_587.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_588.png,ss_588.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_589.png,ss_589.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_590.png,ss_590.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_591.png,ss_591.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_592.png,ss_592.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_593.png,ss_593.png,Entertainment,media_player_library,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 21:49:47,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,rejected
+ss_594.png,ss_594.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_595.png,ss_595.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_596.png,ss_596.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_597.png,ss_597.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_598.png,ss_598.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_599.png,ss_599.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_600.png,ss_600.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_601.png,ss_601.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_602.png,ss_602.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_603.png,ss_603.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_604.png,ss_604.png,Entertainment,media_player_library,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 21:49:59,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,rejected
+ss_605.png,ss_605.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_606.png,ss_606.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_607.png,ss_607.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_608.png,ss_608.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_609.png,ss_609.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_610.png,ss_610.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_611.png,ss_611.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_612.png,ss_612.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_613.png,ss_613.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_614.png,ss_614.png,Entertainment,media_player_library,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 21:50:31,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,rejected
+ss_615.png,ss_615.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_616.png,ss_616.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_617.png,ss_617.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_618.png,ss_618.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_619.png,ss_619.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_620.png,ss_620.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_621.png,ss_621.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_622.png,ss_622.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_623.png,ss_623.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_624.png,ss_624.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_625.png,ss_625.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_626.png,ss_626.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_627.png,ss_627.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_628.png,ss_628.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_629.png,ss_629.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_630.png,ss_630.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_631.png,ss_631.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_632.png,ss_632.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_633.png,ss_633.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_634.png,ss_634.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_635.png,ss_635.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_636.png,ss_636.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_637.png,ss_637.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_638.png,ss_638.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_639.png,ss_639.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_640.png,ss_640.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_641.png,ss_641.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_642.png,ss_642.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_643.png,ss_643.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_644.png,ss_644.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_645.png,ss_645.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_646.png,ss_646.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_647.png,ss_647.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_648.png,ss_648.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_649.png,ss_649.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_650.png,ss_650.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_651.png,ss_651.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_652.png,ss_652.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_653.png,ss_653.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_654.png,ss_654.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_655.png,ss_655.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_656.png,ss_656.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_657.png,ss_657.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_658.png,ss_658.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_659.png,ss_659.png,Travel,travel_booking,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 21:59:22,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,rejected
+ss_660.png,ss_660.png,Travel,travel_booking,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 21:59:30,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,rejected
+ss_661.png,ss_661.png,Travel,travel_booking,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 21:59:39,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,rejected
+ss_662.png,ss_662.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:59:46,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_663.png,ss_663.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:59:48,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_664.png,ss_664.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_665.png,ss_665.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 21:59:57,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_666.png,ss_666.png,Travel,travel_booking,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 22:00:11,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_667.png,ss_667.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_668.png,ss_668.png,Travel,travel_booking,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 22:00:20,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,rejected
+ss_669.png,ss_669.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_670.png,ss_670.png,Travel,travel_booking,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 22:00:33,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,rejected
+ss_671.png,ss_671.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 22:00:37,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_672.png,ss_672.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_673.png,ss_673.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 22:00:47,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_674.png,ss_674.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_675.png,ss_675.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 22:00:56,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_676.png,ss_676.png,Travel,travel_booking,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 22:01:04,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,rejected
+ss_677.png,ss_677.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_678.png,ss_678.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_679.png,ss_679.png,Travel,travel_booking,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 22:01:16,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,rejected
+ss_680.png,ss_680.png,Travel,travel_booking,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 22:01:26,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,rejected
+ss_681.png,ss_681.png,Travel,travel_booking,,pending,,Pending human review.,,DUPE_GROUP_019,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_682.png,ss_682.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_683.png,ss_683.png,Travel,travel_booking,,pending,,Pending human review.,,DUPE_GROUP_019,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_684.png,ss_684.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_685.png,ss_685.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_686.png,ss_686.png,Travel,travel_booking,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 22:02:11,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,rejected
+ss_687.png,ss_687.png,Travel,travel_booking,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 22:02:28,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,rejected
+ss_688.png,ss_688.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_689.png,ss_689.png,Travel,travel_booking,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 22:02:40,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,rejected
+ss_690.png,ss_690.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_691.png,ss_691.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_692.png,ss_692.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_693.png,ss_693.png,Travel,travel_booking,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 22:03:01,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,rejected
+ss_694.png,ss_694.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 22:03:06,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_695.png,ss_695.png,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 22:03:11,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_696.png,ss_696.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_697.png,ss_697.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_698.png,ss_698.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_699.png,ss_699.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_700.png,ss_700.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_701.png,ss_701.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_702.png,ss_702.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_703.png,ss_703.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_704.png,ss_704.png,Travel,travel_booking,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 22:03:53,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,rejected
+ss_705.png,ss_705.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_706.png,ss_706.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_707.png,ss_707.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_708.png,ss_708.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,pending
+ss_709.png,ss_709.png,Travel,travel_booking,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 22:04:15,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,rejected
+ss_710.png,ss_710.png,Travel,travel_booking,login_authentication,correct,human_annotator,Decision set to correct,2026-10-03 22:04:27,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_711.png,ss_711.png,Travel,travel_booking,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 22:04:35,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,rejected
+ss_712.png,ss_712.png,Travel,travel_booking,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 22:04:45,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,rejected
+ss_713.png,ss_713.png,Travel,travel_booking,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 22:04:52,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,rejected
+ss_714.png,ss_714.png,Travel,travel_booking,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 22:05:02,UNIQUE,Tier 11,contact_sheet_travel_booking.png,False,rejected
+ss_715.png,ss_715.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_716.png,ss_716.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_717.png,ss_717.png,Entertainment,media_player_library,other_screen,correct,human_annotator,RANDOM,2026-10-03 21:51:00,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_718.png,ss_718.png,Entertainment,media_player_library,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 21:51:11,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_719.png,ss_719.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_720.png,ss_720.png,Entertainment,media_player_library,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 21:51:26,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_721.png,ss_721.png,Entertainment,media_player_library,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 21:51:37,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_722.png,ss_722.png,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:51:44,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_723.png,ss_723.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_724.png,ss_724.png,Entertainment,media_player_library,other_screen,correct,human_annotator,PROFILE,2026-10-03 21:51:59,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_725.png,ss_725.png,Entertainment,media_player_library,other_screen,correct,human_annotator,POST,2026-10-03 21:52:14,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_726.png,ss_726.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_727.png,ss_727.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_728.png,ss_728.png,Communication,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_019,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_729.png,ss_729.png,Communication,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_019,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_730.png,ss_730.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_731.png,ss_731.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_732.png,ss_732.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_733.png,ss_733.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_734.png,ss_734.png,Communication,messaging_chat,unclassifiable,reject,human_annotator,WRONG CATEGORY,2026-10-03 21:04:41,UNIQUE,Tier 8,contact_sheet_messaging_chat.png,False,rejected
+ss_735.png,ss_735.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_736.png,ss_736.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_737.png,ss_737.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_738.png,ss_738.png,Communication,messaging_chat,other_screen,correct,human_annotator,SEARCH,2026-10-03 21:05:13,UNIQUE,Tier 8,contact_sheet_messaging_chat.png,False,completed
+ss_739.png,ss_739.png,Communication,messaging_chat,other_screen,correct,human_annotator,Decision set to correct,2026-10-03 21:05:24,UNIQUE,Tier 8,contact_sheet_messaging_chat.png,False,completed
+ss_740.png,ss_740.png,Communication,messaging_chat,,pending,,Pending human review.,,UNIQUE,Tier 8,contact_sheet_messaging_chat.png,False,pending
+ss_741.png,ss_741.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_742.png,ss_742.png,Communication,messaging_chat,other_screen,correct,human_annotator,RANDOM,2026-10-03 21:05:42,UNIQUE,Tier 8,contact_sheet_messaging_chat.png,False,completed
+ss_743.png,ss_743.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_744.png,ss_744.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_745.png,ss_745.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_746.png,ss_746.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_747.png,ss_747.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_748.png,ss_748.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_749.png,ss_749.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_750.png,ss_750.png,Communication,messaging_chat,unclassifiable,reject,human_annotator,WROMG CATEGORY,2026-10-03 21:05:58,UNIQUE,Tier 8,contact_sheet_messaging_chat.png,False,rejected
+ss_751.png,ss_751.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_752.png,ss_752.png,Communication,messaging_chat,,pending,,Pending human review.,,UNIQUE,Tier 8,contact_sheet_messaging_chat.png,False,pending
+ss_753.png,ss_753.png,Communication,messaging_chat,,pending,,Pending human review.,,UNIQUE,Tier 8,contact_sheet_messaging_chat.png,False,pending
+ss_754.png,ss_754.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_755.png,ss_755.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_756.png,ss_756.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_757.png,ss_757.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_758.png,ss_758.png,Communication,messaging_chat,,pending,,Pending human review.,,UNIQUE,Tier 8,contact_sheet_messaging_chat.png,False,pending
+ss_759.png,ss_759.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_760.png,ss_760.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_761.png,ss_761.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_762.png,ss_762.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_763.png,ss_763.png,Communication,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_019,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_764.png,ss_764.png,Communication,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_019,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_765.png,ss_765.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_766.png,ss_766.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_767.png,ss_767.png,Communication,messaging_chat,,pending,,Pending human review.,,UNIQUE,Tier 8,contact_sheet_messaging_chat.png,False,pending
+ss_768.png,ss_768.png,Payment,cart_checkout_payment,other_screen,correct,human_annotator,payment slot,2026-10-03 20:33:22,UNIQUE,Tier 5,contact_sheet_cart_checkout_payment.png,False,completed
+ss_769.png,ss_769.png,Communication,messaging_chat,other_screen,correct,human_annotator,RECOMMENDATIONS,2026-10-03 21:06:45,UNIQUE,Tier 8,contact_sheet_messaging_chat.png,False,completed
+ss_770.png,ss_770.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_771.png,ss_771.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_772.png,ss_772.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_773.png,ss_773.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_774.png,ss_774.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_775.png,ss_775.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_776.png,ss_776.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_777.png,ss_777.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_778.png,ss_778.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_779.png,ss_779.png,Payment,cart_checkout_payment,other_screen,correct,human_annotator,investment settings,2026-10-03 20:33:56,UNIQUE,Tier 5,contact_sheet_cart_checkout_payment.png,False,completed
+ss_780.png,ss_780.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_781.png,ss_781.png,Entertainment,media_player_library,other_screen,correct,human_annotator,DASHBOARD,2026-10-03 21:52:49,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_782.png,ss_782.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_783.png,ss_783.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_784.png,ss_784.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_785.png,ss_785.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_786.png,ss_786.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_787.png,ss_787.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_788.png,ss_788.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_789.png,ss_789.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_790.png,ss_790.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_791.png,ss_791.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_792.png,ss_792.png,Communication,messaging_chat,other_screen,correct,human_annotator,PROFILE,2026-10-03 21:28:27,UNIQUE,Tier 8,contact_sheet_messaging_chat.png,False,completed
+ss_793.png,ss_793.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_794.png,ss_794.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_795.png,ss_795.png,Entertainment,media_player_library,media_player_library,approve,human_annotator,Decision set to approve,2026-10-03 21:53:00,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_796.png,ss_796.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_797.png,ss_797.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_798.png,ss_798.png,Entertainment,media_player_library,other_screen,correct,human_annotator,VIDEO,2026-10-03 21:53:21,UNIQUE,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_799.jpg,ss_799.jpg,Connectivity,code_editor_terminal,code_editor_terminal,approve,human_annotator_phase7e,Preserved human-verified decision from Phase 7E harmonization.,2026-10-02,DUPE_GROUP_002,Tier 9,contact_sheet_code_editor_terminal.png,False,verified
+ss_800.jpg,ss_800.jpg,Payment,code_editor_terminal,code_editor_terminal,approve,human_annotator_phase7e,Preserved human-verified decision from Phase 7E harmonization.,2026-10-02,DUPE_GROUP_003,Tier 9,contact_sheet_code_editor_terminal.png,False,verified
+ss_801.jpg,ss_801.jpg,Education,code_editor_terminal,code_editor_terminal,approve,human_annotator_phase7e,Preserved human-verified decision from Phase 7E harmonization.,2026-10-02,DUPE_GROUP_004,Tier 9,contact_sheet_code_editor_terminal.png,False,verified
+ss_802.jpg,ss_802.jpg,Entertainment,code_editor_terminal,code_editor_terminal,approve,human_annotator_phase7e,Preserved human-verified decision from Phase 7E harmonization.,2026-10-02,DUPE_GROUP_005,Tier 9,contact_sheet_code_editor_terminal.png,False,verified
+ss_803.jpg,ss_803.jpg,Payment,code_editor_terminal,code_editor_terminal,approve,human_annotator_phase7e,Preserved human-verified decision from Phase 7E harmonization.,2026-10-02,DUPE_GROUP_006,Tier 9,contact_sheet_code_editor_terminal.png,False,verified
+ss_804.jpg,ss_804.jpg,Education,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_006,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_805.jpg,ss_805.jpg,Education,code_editor_terminal,code_editor_terminal,approve,human_annotator_phase7e,Preserved human-verified decision from Phase 7E harmonization.,2026-10-02,DUPE_GROUP_007,Tier 9,contact_sheet_code_editor_terminal.png,False,verified
+ss_806.jpg,ss_806.jpg,Shopping,product_detail,,pending,,Pending human review.,,DUPE_GROUP_007,Tier 7,contact_sheet_product_detail.png,False,pending
+ss_807.jpg,ss_807.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,DUPE_GROUP_008,Tier 10,contact_sheet_media_player_library.png,False,pending
+ss_808.jpg,ss_808.jpg,Shopping,product_detail,other_screen,correct,human_annotator,ORDERS,2026-10-03 21:04:00,DUPE_GROUP_009,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_809.jpg,ss_809.jpg,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 22:05:06,DUPE_GROUP_009,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_810.jpg,ss_810.jpg,Education,code_editor_terminal,other_screen,correct,human_annotator,NOTICE,2026-10-03 21:32:30,DUPE_GROUP_010,Tier 9,contact_sheet_code_editor_terminal.png,False,completed
+ss_811.jpg,ss_811.jpg,Payment,cart_checkout_payment,cart_checkout_payment,approve,human_annotator,Decision set to approve,2026-10-03 20:34:04,DUPE_GROUP_011,Tier 5,contact_sheet_cart_checkout_payment.png,False,completed
+ss_812.jpg,ss_812.jpg,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 22:05:09,DUPE_GROUP_012,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_813.jpg,ss_813.jpg,Payment,cart_checkout_payment,other_screen,correct,human_annotator,coupon,2026-10-03 20:34:16,DUPE_GROUP_013,Tier 5,contact_sheet_cart_checkout_payment.png,False,completed
+ss_814.jpg,ss_814.jpg,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 22:05:12,DUPE_GROUP_014,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_815.jpg,ss_815.jpg,Payment,cart_checkout_payment,cart_checkout_payment,approve,human_annotator,Decision set to approve,2026-10-03 20:34:25,DUPE_GROUP_015,Tier 5,contact_sheet_cart_checkout_payment.png,False,completed
+ss_816.jpg,ss_816.jpg,Education,code_editor_terminal,other_screen,correct,human_annotator,NOTICE,2026-10-03 21:32:41,DUPE_GROUP_016,Tier 9,contact_sheet_code_editor_terminal.png,False,completed
+ss_817.jpg,ss_817.jpg,Travel,travel_booking,travel_booking,approve,human_annotator,Decision set to approve,2026-10-03 22:05:15,DUPE_GROUP_016,Tier 11,contact_sheet_travel_booking.png,False,completed
+ss_818.jpg,ss_818.jpg,Shopping,product_detail,other_screen,correct,human_annotator,ORDER DETAIL,2026-10-03 21:04:11,DUPE_GROUP_017,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_819.jpg,ss_819.jpg,General,dashboard_settings,messaging_chat,correct,human_annotator,Decision set to correct,2026-10-03 20:21:35,DUPE_GROUP_017,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_820.jpg,ss_820.jpg,Shopping,product_detail,product_listing,correct,human_annotator,Decision set to correct,2026-10-03 21:04:17,DUPE_GROUP_018,Tier 7,contact_sheet_product_detail.png,False,completed
+ss_821.jpg,ss_821.jpg,Education,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_018,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_822.jpg,ss_822.jpg,Education,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_018,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_823.jpg,ss_823.jpg,Entertainment,media_player_library,other_screen,correct,human_annotator,POSTER,2026-10-03 21:53:36,DUPE_GROUP_018,Tier 10,contact_sheet_media_player_library.png,False,completed
+ss_824.jpg,ss_824.jpg,Payment,cart_checkout_payment,other_screen,correct,human_annotator,payment receipt,2026-10-03 20:34:42,DUPE_GROUP_019,Tier 5,contact_sheet_cart_checkout_payment.png,False,completed
+ss_825.jpg,ss_825.jpg,Education,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_019,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_826.jpg,ss_826.jpg,Coding,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_019,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_827.jpg,ss_827.jpg,Coding,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_019,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_828.jpg,ss_828.jpg,Work and career,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_019,Tier 12,contact_sheet_document_article_view.png,False,pending
+ss_829.jpg,ss_829.jpg,Connectivity,dashboard_settings,other_screen,correct,human_annotator,random,2026-10-03 20:21:44,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_830.jpg,ss_830.jpg,Connectivity,dashboard_settings,dashboard_settings,correct,human_annotator,Decision set to correct,2026-10-03 20:22:00,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_831.jpg,ss_831.jpg,Connectivity,error_dialog_alert,other_screen,correct,human_annotator,wifi,2026-10-03 20:35:00,UNIQUE,Tier 6,contact_sheet_error_dialog_alert.png,False,completed
+ss_832.jpg,ss_832.jpg,Connectivity,dashboard_settings,login_authentication,correct,human_annotator,Decision set to correct,2026-10-03 20:22:08,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_833.jpg,ss_833.jpg,Connectivity,error_dialog_alert,error_dialog_alert,approve,human_annotator,Decision set to approve,2026-10-03 20:35:04,UNIQUE,Tier 6,contact_sheet_error_dialog_alert.png,False,completed
+ss_834.jpg,ss_834.jpg,Connectivity,dashboard_settings,error_dialog_alert,correct,human_annotator,Decision set to correct,2026-10-03 20:22:33,UNIQUE,Tier 1,contact_sheet_dashboard_settings.png,False,completed
+ss_835.jpg,ss_835.jpg,Connectivity,error_dialog_alert,error_dialog_alert,approve,human_annotator,Decision set to approve,2026-10-03 20:35:08,UNIQUE,Tier 6,contact_sheet_error_dialog_alert.png,False,completed
+ss_836.jpg,ss_836.jpg,Connectivity,error_dialog_alert,error_dialog_alert,approve,human_annotator,Decision set to approve,2026-10-03 20:35:12,UNIQUE,Tier 6,contact_sheet_error_dialog_alert.png,False,completed

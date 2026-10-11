@@ -1,0 +1,14 @@
+visual_screen_type,primary_train_items,primary_train_groups,primary_calib_items,primary_calib_groups,primary_val_items,primary_val_groups,extended_train_items,extended_train_groups,extended_calib_items,extended_calib_groups,extended_val_items,extended_val_groups
+product_listing,0,0,0,0,0,0,0,0,0,0,0,0
+product_detail,0,0,0,0,0,0,0,0,0,0,0,0
+cart_checkout_payment,0,0,0,0,0,0,5,5,3,2,2,2
+login_authentication,0,0,0,0,0,0,0,0,0,0,0,0
+messaging_chat,0,0,0,0,0,0,1,1,0,0,1,1
+email_view,0,0,0,0,0,0,0,0,0,0,0,0
+media_player_library,17,17,6,6,5,5,17,17,6,6,5,5
+code_editor_terminal,19,15,6,5,6,5,19,15,6,5,6,5
+document_article_view,13,13,4,4,4,4,13,13,4,4,4,4
+travel_booking,29,28,9,9,9,9,29,28,9,9,9,9
+dashboard_settings,5,5,2,2,1,1,5,5,2,2,1,1
+error_dialog_alert,0,0,0,0,0,0,0,0,0,0,0,0
+other_screen,0,0,0,0,0,0,0,0,0,0,0,0

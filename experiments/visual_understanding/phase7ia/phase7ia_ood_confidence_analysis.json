@@ -1,0 +1,254 @@
+{
+  "mobilenet_v3_small": {
+    "display_name": "MobileNetV3-Small",
+    "zero_shot_probe_samples": 31,
+    "in_distribution_validation": {
+      "mean_max_confidence": 0.8135,
+      "median_max_confidence": 0.8743,
+      "mean_entropy": 0.4249
+    },
+    "out_of_distribution_probe": {
+      "mean_max_confidence": 0.8526,
+      "median_max_confidence": 0.9545,
+      "std_max_confidence": 0.196,
+      "min_max_confidence": 0.4378,
+      "q25_max_confidence": 0.7817,
+      "q75_max_confidence": 0.9961,
+      "max_max_confidence": 1.0,
+      "mean_entropy": 0.3559,
+      "median_entropy": 0.2151,
+      "confidence_histogram": [
+        {
+          "bin_range": [
+            0.0,
+            0.2
+          ],
+          "count": 0
+        },
+        {
+          "bin_range": [
+            0.2,
+            0.4
+          ],
+          "count": 0
+        },
+        {
+          "bin_range": [
+            0.4,
+            0.6
+          ],
+          "count": 6
+        },
+        {
+          "bin_range": [
+            0.6,
+            0.8
+          ],
+          "count": 2
+        },
+        {
+          "bin_range": [
+            0.8,
+            1.0
+          ],
+          "count": 23
+        }
+      ],
+      "predicted_class_distribution": {
+        "document_article_view": 12,
+        "travel_booking": 18,
+        "code_editor_terminal": 1
+      }
+    },
+    "ood_rejection_viability": "YOLOv8n-cls produces low max softmax confidence (~0.35) on both ID and OOD samples due to uncalibrated output logits. MobileNetV3-Small is overconfident on OOD samples (0.85 mean max conf vs 0.81 ID). Static softmax confidence thresholding alone is insufficient for robust OOD rejection without temperature scaling or multi-modal corroboration."
+  },
+  "efficientnet_lite0": {
+    "display_name": "EfficientNet-Lite0",
+    "zero_shot_probe_samples": 31,
+    "in_distribution_validation": {
+      "mean_max_confidence": 0.9088,
+      "median_max_confidence": 0.9921,
+      "mean_entropy": 0.2264
+    },
+    "out_of_distribution_probe": {
+      "mean_max_confidence": 0.7568,
+      "median_max_confidence": 0.7677,
+      "std_max_confidence": 0.2003,
+      "min_max_confidence": 0.3943,
+      "q25_max_confidence": 0.5416,
+      "q75_max_confidence": 0.9577,
+      "max_max_confidence": 0.9988,
+      "mean_entropy": 0.6166,
+      "median_entropy": 0.8109,
+      "confidence_histogram": [
+        {
+          "bin_range": [
+            0.0,
+            0.2
+          ],
+          "count": 0
+        },
+        {
+          "bin_range": [
+            0.2,
+            0.4
+          ],
+          "count": 1
+        },
+        {
+          "bin_range": [
+            0.4,
+            0.6
+          ],
+          "count": 8
+        },
+        {
+          "bin_range": [
+            0.6,
+            0.8
+          ],
+          "count": 7
+        },
+        {
+          "bin_range": [
+            0.8,
+            1.0
+          ],
+          "count": 15
+        }
+      ],
+      "predicted_class_distribution": {
+        "document_article_view": 3,
+        "travel_booking": 15,
+        "media_player_library": 8,
+        "code_editor_terminal": 5
+      }
+    },
+    "ood_rejection_viability": "YOLOv8n-cls produces low max softmax confidence (~0.35) on both ID and OOD samples due to uncalibrated output logits. MobileNetV3-Small is overconfident on OOD samples (0.85 mean max conf vs 0.81 ID). Static softmax confidence thresholding alone is insufficient for robust OOD rejection without temperature scaling or multi-modal corroboration."
+  },
+  "mobilevit_xs": {
+    "display_name": "MobileViT-XS",
+    "zero_shot_probe_samples": 31,
+    "in_distribution_validation": {
+      "mean_max_confidence": 0.6752,
+      "median_max_confidence": 0.5823,
+      "mean_entropy": 0.8647
+    },
+    "out_of_distribution_probe": {
+      "mean_max_confidence": 0.6185,
+      "median_max_confidence": 0.5201,
+      "std_max_confidence": 0.1912,
+      "min_max_confidence": 0.3563,
+      "q25_max_confidence": 0.4771,
+      "q75_max_confidence": 0.7773,
+      "max_max_confidence": 0.9699,
+      "mean_entropy": 1.0741,
+      "median_entropy": 1.296,
+      "confidence_histogram": [
+        {
+          "bin_range": [
+            0.0,
+            0.2
+          ],
+          "count": 0
+        },
+        {
+          "bin_range": [
+            0.2,
+            0.4
+          ],
+          "count": 1
+        },
+        {
+          "bin_range": [
+            0.4,
+            0.6
+          ],
+          "count": 19
+        },
+        {
+          "bin_range": [
+            0.6,
+            0.8
+          ],
+          "count": 4
+        },
+        {
+          "bin_range": [
+            0.8,
+            1.0
+          ],
+          "count": 7
+        }
+      ],
+      "predicted_class_distribution": {
+        "travel_booking": 12,
+        "media_player_library": 19
+      }
+    },
+    "ood_rejection_viability": "YOLOv8n-cls produces low max softmax confidence (~0.35) on both ID and OOD samples due to uncalibrated output logits. MobileNetV3-Small is overconfident on OOD samples (0.85 mean max conf vs 0.81 ID). Static softmax confidence thresholding alone is insufficient for robust OOD rejection without temperature scaling or multi-modal corroboration."
+  },
+  "yolo26n_cls": {
+    "display_name": "YOLO26n-cls (YOLOv8n-cls)",
+    "zero_shot_probe_samples": 31,
+    "in_distribution_validation": {
+      "mean_max_confidence": 0.3481,
+      "median_max_confidence": 0.3632,
+      "mean_entropy": 1.5433
+    },
+    "out_of_distribution_probe": {
+      "mean_max_confidence": 0.3488,
+      "median_max_confidence": 0.3685,
+      "std_max_confidence": 0.0458,
+      "min_max_confidence": 0.2321,
+      "q25_max_confidence": 0.3342,
+      "q75_max_confidence": 0.3831,
+      "max_max_confidence": 0.3931,
+      "mean_entropy": 1.5434,
+      "median_entropy": 1.5333,
+      "confidence_histogram": [
+        {
+          "bin_range": [
+            0.0,
+            0.2
+          ],
+          "count": 0
+        },
+        {
+          "bin_range": [
+            0.2,
+            0.4
+          ],
+          "count": 31
+        },
+        {
+          "bin_range": [
+            0.4,
+            0.6
+          ],
+          "count": 0
+        },
+        {
+          "bin_range": [
+            0.6,
+            0.8
+          ],
+          "count": 0
+        },
+        {
+          "bin_range": [
+            0.8,
+            1.0
+          ],
+          "count": 0
+        }
+      ],
+      "predicted_class_distribution": {
+        "document_article_view": 2,
+        "travel_booking": 27,
+        "media_player_library": 2
+      }
+    },
+    "ood_rejection_viability": "YOLOv8n-cls produces low max softmax confidence (~0.35) on both ID and OOD samples due to uncalibrated output logits. MobileNetV3-Small is overconfident on OOD samples (0.85 mean max conf vs 0.81 ID). Static softmax confidence thresholding alone is insufficient for robust OOD rejection without temperature scaling or multi-modal corroboration."
+  }
+}

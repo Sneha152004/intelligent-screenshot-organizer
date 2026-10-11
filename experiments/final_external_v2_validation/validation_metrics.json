@@ -1,0 +1,14 @@
+{
+  "internal_validation_split": {
+    "range": "lines 250-375",
+    "top1_accuracy": 0.944,
+    "macro_f1": 0.970940170940171,
+    "total_samples": 125
+  },
+  "internal_holdout_test_split": {
+    "range": "lines 375-500",
+    "top1_accuracy": 0.992,
+    "macro_f1": 0.9747747747747747,
+    "total_samples": 125
+  }
+}

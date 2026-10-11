@@ -1,0 +1,4 @@
+system,candidate_coverage,top1_acc,top2_acc,top3_acc,mrr,macro_f1,balanced_acc
+Baseline A (Previous Best),92.62%,71.31%,80.33%,84.02%,0.7880,0.6586,0.7615
+Baseline B (Recovery V2),88.93%,47.54%,73.36%,83.20%,0.6496,0.5147,0.7304
+Best-of-All Categorizer,92.62%,71.31%,80.33%,84.02%,0.7880,0.6593,0.7615

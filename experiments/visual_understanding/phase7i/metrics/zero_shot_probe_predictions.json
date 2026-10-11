@@ -1,0 +1,150 @@
+{
+  "mobilenet_v3_small": {
+    "model_name": "MobileNetV3-Small",
+    "total_probe_samples": 31,
+    "mean_confidence": 0.8526,
+    "predicted_class_distribution": {
+      "code_editor_terminal": 1,
+      "document_article_view": 12,
+      "travel_booking": 18
+    },
+    "sample_predictions": [
+      {
+        "filename": "ss_107.jpg",
+        "predicted_class": "code_editor_terminal",
+        "confidence": 0.9886
+      },
+      {
+        "filename": "ss_151.png",
+        "predicted_class": "document_article_view",
+        "confidence": 0.44
+      },
+      {
+        "filename": "ss_154.png",
+        "predicted_class": "document_article_view",
+        "confidence": 0.4378
+      },
+      {
+        "filename": "ss_164.jpg",
+        "predicted_class": "travel_booking",
+        "confidence": 0.9968
+      },
+      {
+        "filename": "ss_165.jpg",
+        "predicted_class": "travel_booking",
+        "confidence": 0.7023
+      }
+    ]
+  },
+  "efficientnet_lite0": {
+    "model_name": "EfficientNet-Lite0",
+    "total_probe_samples": 31,
+    "mean_confidence": 0.7568,
+    "predicted_class_distribution": {
+      "code_editor_terminal": 5,
+      "document_article_view": 3,
+      "media_player_library": 8,
+      "travel_booking": 15
+    },
+    "sample_predictions": [
+      {
+        "filename": "ss_107.jpg",
+        "predicted_class": "code_editor_terminal",
+        "confidence": 0.7069
+      },
+      {
+        "filename": "ss_151.png",
+        "predicted_class": "code_editor_terminal",
+        "confidence": 0.5478
+      },
+      {
+        "filename": "ss_154.png",
+        "predicted_class": "document_article_view",
+        "confidence": 0.4807
+      },
+      {
+        "filename": "ss_164.jpg",
+        "predicted_class": "media_player_library",
+        "confidence": 0.9929
+      },
+      {
+        "filename": "ss_165.jpg",
+        "predicted_class": "document_article_view",
+        "confidence": 0.7537
+      }
+    ]
+  },
+  "mobilevit_xs": {
+    "model_name": "MobileViT-XS",
+    "total_probe_samples": 31,
+    "mean_confidence": 0.6185,
+    "predicted_class_distribution": {
+      "media_player_library": 19,
+      "travel_booking": 12
+    },
+    "sample_predictions": [
+      {
+        "filename": "ss_107.jpg",
+        "predicted_class": "media_player_library",
+        "confidence": 0.5551
+      },
+      {
+        "filename": "ss_151.png",
+        "predicted_class": "travel_booking",
+        "confidence": 0.9558
+      },
+      {
+        "filename": "ss_154.png",
+        "predicted_class": "travel_booking",
+        "confidence": 0.9555
+      },
+      {
+        "filename": "ss_164.jpg",
+        "predicted_class": "media_player_library",
+        "confidence": 0.5484
+      },
+      {
+        "filename": "ss_165.jpg",
+        "predicted_class": "travel_booking",
+        "confidence": 0.9699
+      }
+    ]
+  },
+  "yolo26n_cls": {
+    "model_name": "YOLO26n-cls (YOLOv8n-cls)",
+    "total_probe_samples": 31,
+    "mean_confidence": 0.3488,
+    "predicted_class_distribution": {
+      "document_article_view": 2,
+      "travel_booking": 27,
+      "media_player_library": 2
+    },
+    "sample_predictions": [
+      {
+        "filename": "ss_107.jpg",
+        "predicted_class": "document_article_view",
+        "confidence": 0.2321
+      },
+      {
+        "filename": "ss_151.png",
+        "predicted_class": "travel_booking",
+        "confidence": 0.3888
+      },
+      {
+        "filename": "ss_154.png",
+        "predicted_class": "travel_booking",
+        "confidence": 0.3889
+      },
+      {
+        "filename": "ss_164.jpg",
+        "predicted_class": "travel_booking",
+        "confidence": 0.3055
+      },
+      {
+        "filename": "ss_165.jpg",
+        "predicted_class": "travel_booking",
+        "confidence": 0.3421
+      }
+    ]
+  }
+}

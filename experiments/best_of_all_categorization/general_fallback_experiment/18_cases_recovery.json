@@ -1,0 +1,534 @@
+[
+  {
+    "screenshot_id": "ext2_013",
+    "file": "ext2_013.jpg",
+    "ground_truth": "General",
+    "old_candidate_pool": [
+      "Work & Career",
+      "Travel",
+      "Education",
+      "Coding",
+      "Payment"
+    ],
+    "new_candidate_pool": [
+      "Work & Career",
+      "Travel",
+      "Education",
+      "Coding",
+      "Payment",
+      "General"
+    ],
+    "general_added": true,
+    "old_final_prediction": "Work & Career",
+    "new_final_prediction": "Work & Career",
+    "old_rank_of_gt": "missing",
+    "new_rank_of_general": 6,
+    "new_score_of_general": 0.0,
+    "corrected": false,
+    "harm": false,
+    "classification": "UNCHANGED_INCORRECT"
+  },
+  {
+    "screenshot_id": "ext2_021",
+    "file": "ext2_021.jpg",
+    "ground_truth": "General",
+    "old_candidate_pool": [
+      "Work & Career",
+      "Education",
+      "Payment",
+      "Travel",
+      "Shopping"
+    ],
+    "new_candidate_pool": [
+      "Work & Career",
+      "Education",
+      "Payment",
+      "Travel",
+      "Shopping",
+      "General"
+    ],
+    "general_added": true,
+    "old_final_prediction": "Work & Career",
+    "new_final_prediction": "Work & Career",
+    "old_rank_of_gt": "missing",
+    "new_rank_of_general": 6,
+    "new_score_of_general": 0.0,
+    "corrected": false,
+    "harm": false,
+    "classification": "UNCHANGED_INCORRECT"
+  },
+  {
+    "screenshot_id": "ext2_027",
+    "file": "ext2_027.jpg",
+    "ground_truth": "General",
+    "old_candidate_pool": [
+      "Education",
+      "Work & Career",
+      "Coding",
+      "Communication",
+      "Travel"
+    ],
+    "new_candidate_pool": [
+      "Education",
+      "Work & Career",
+      "Coding",
+      "Communication",
+      "Travel",
+      "General"
+    ],
+    "general_added": true,
+    "old_final_prediction": "Education",
+    "new_final_prediction": "Education",
+    "old_rank_of_gt": "missing",
+    "new_rank_of_general": 6,
+    "new_score_of_general": 0.0,
+    "corrected": false,
+    "harm": false,
+    "classification": "UNCHANGED_INCORRECT"
+  },
+  {
+    "screenshot_id": "ext2_084",
+    "file": "ext2_084.jpg",
+    "ground_truth": "General",
+    "old_candidate_pool": [
+      "Education",
+      "Travel",
+      "Communication",
+      "Payment",
+      "Coding",
+      "Entertainment"
+    ],
+    "new_candidate_pool": [
+      "Education",
+      "Travel",
+      "Communication",
+      "Payment",
+      "Coding",
+      "Entertainment",
+      "General"
+    ],
+    "general_added": true,
+    "old_final_prediction": "Education",
+    "new_final_prediction": "Education",
+    "old_rank_of_gt": "missing",
+    "new_rank_of_general": 7,
+    "new_score_of_general": 0.0,
+    "corrected": false,
+    "harm": false,
+    "classification": "UNCHANGED_INCORRECT"
+  },
+  {
+    "screenshot_id": "ext2_092",
+    "file": "ext2_092.jpg",
+    "ground_truth": "General",
+    "old_candidate_pool": [
+      "Payment",
+      "Communication",
+      "Travel",
+      "Shopping",
+      "Education"
+    ],
+    "new_candidate_pool": [
+      "Payment",
+      "Communication",
+      "Travel",
+      "Shopping",
+      "Education",
+      "General"
+    ],
+    "general_added": true,
+    "old_final_prediction": "Payment",
+    "new_final_prediction": "Payment",
+    "old_rank_of_gt": "missing",
+    "new_rank_of_general": 6,
+    "new_score_of_general": 0.0,
+    "corrected": false,
+    "harm": false,
+    "classification": "UNCHANGED_INCORRECT"
+  },
+  {
+    "screenshot_id": "ext2_094",
+    "file": "ext2_094.jpg",
+    "ground_truth": "General",
+    "old_candidate_pool": [
+      "Payment",
+      "Education",
+      "Travel",
+      "Work & Career",
+      "Communication"
+    ],
+    "new_candidate_pool": [
+      "Payment",
+      "Education",
+      "Travel",
+      "Work & Career",
+      "Communication",
+      "General"
+    ],
+    "general_added": true,
+    "old_final_prediction": "Payment",
+    "new_final_prediction": "Payment",
+    "old_rank_of_gt": "missing",
+    "new_rank_of_general": 6,
+    "new_score_of_general": 0.0,
+    "corrected": false,
+    "harm": false,
+    "classification": "UNCHANGED_INCORRECT"
+  },
+  {
+    "screenshot_id": "ext2_098",
+    "file": "ext2_098.jpg",
+    "ground_truth": "General",
+    "old_candidate_pool": [
+      "Payment",
+      "Education",
+      "Travel",
+      "Work & Career",
+      "Shopping",
+      "Communication"
+    ],
+    "new_candidate_pool": [
+      "Payment",
+      "Education",
+      "Travel",
+      "Work & Career",
+      "Shopping",
+      "Communication",
+      "General"
+    ],
+    "general_added": true,
+    "old_final_prediction": "Payment",
+    "new_final_prediction": "Payment",
+    "old_rank_of_gt": "missing",
+    "new_rank_of_general": 7,
+    "new_score_of_general": 0.0,
+    "corrected": false,
+    "harm": false,
+    "classification": "UNCHANGED_INCORRECT"
+  },
+  {
+    "screenshot_id": "ext2_105",
+    "file": "ext2_105.jpg",
+    "ground_truth": "General",
+    "old_candidate_pool": [
+      "Payment",
+      "Education",
+      "Travel",
+      "Work & Career",
+      "Coding"
+    ],
+    "new_candidate_pool": [
+      "Payment",
+      "Education",
+      "Travel",
+      "Work & Career",
+      "Coding",
+      "General"
+    ],
+    "general_added": true,
+    "old_final_prediction": "Payment",
+    "new_final_prediction": "Payment",
+    "old_rank_of_gt": "missing",
+    "new_rank_of_general": 6,
+    "new_score_of_general": 0.0,
+    "corrected": false,
+    "harm": false,
+    "classification": "UNCHANGED_INCORRECT"
+  },
+  {
+    "screenshot_id": "ext2_106",
+    "file": "ext2_106.jpg",
+    "ground_truth": "General",
+    "old_candidate_pool": [
+      "Payment",
+      "Entertainment",
+      "Travel",
+      "Shopping",
+      "Education",
+      "Connectivity"
+    ],
+    "new_candidate_pool": [
+      "Payment",
+      "Entertainment",
+      "Travel",
+      "Shopping",
+      "Education",
+      "Connectivity",
+      "General"
+    ],
+    "general_added": true,
+    "old_final_prediction": "Payment",
+    "new_final_prediction": "Payment",
+    "old_rank_of_gt": "missing",
+    "new_rank_of_general": 7,
+    "new_score_of_general": 0.0,
+    "corrected": false,
+    "harm": false,
+    "classification": "UNCHANGED_INCORRECT"
+  },
+  {
+    "screenshot_id": "ext2_107",
+    "file": "ext2_107.jpg",
+    "ground_truth": "General",
+    "old_candidate_pool": [
+      "Payment",
+      "Shopping",
+      "Travel",
+      "Education",
+      "Communication"
+    ],
+    "new_candidate_pool": [
+      "Payment",
+      "Shopping",
+      "Travel",
+      "Education",
+      "Communication",
+      "General"
+    ],
+    "general_added": true,
+    "old_final_prediction": "Payment",
+    "new_final_prediction": "Payment",
+    "old_rank_of_gt": "missing",
+    "new_rank_of_general": 6,
+    "new_score_of_general": 0.0,
+    "corrected": false,
+    "harm": false,
+    "classification": "UNCHANGED_INCORRECT"
+  },
+  {
+    "screenshot_id": "ext2_108",
+    "file": "ext2_108.jpg",
+    "ground_truth": "General",
+    "old_candidate_pool": [
+      "Payment",
+      "Travel",
+      "Shopping",
+      "Work & Career",
+      "Education"
+    ],
+    "new_candidate_pool": [
+      "Payment",
+      "Travel",
+      "Shopping",
+      "Work & Career",
+      "Education",
+      "General"
+    ],
+    "general_added": true,
+    "old_final_prediction": "Payment",
+    "new_final_prediction": "Payment",
+    "old_rank_of_gt": "missing",
+    "new_rank_of_general": 6,
+    "new_score_of_general": 0.0,
+    "corrected": false,
+    "harm": false,
+    "classification": "UNCHANGED_INCORRECT"
+  },
+  {
+    "screenshot_id": "ext2_114",
+    "file": "ext2_114.jpg",
+    "ground_truth": "General",
+    "old_candidate_pool": [
+      "Work & Career",
+      "Payment",
+      "Travel",
+      "Education",
+      "Connectivity"
+    ],
+    "new_candidate_pool": [
+      "Work & Career",
+      "Payment",
+      "Travel",
+      "Education",
+      "Connectivity",
+      "General"
+    ],
+    "general_added": true,
+    "old_final_prediction": "Work & Career",
+    "new_final_prediction": "Work & Career",
+    "old_rank_of_gt": "missing",
+    "new_rank_of_general": 6,
+    "new_score_of_general": 0.0,
+    "corrected": false,
+    "harm": false,
+    "classification": "UNCHANGED_INCORRECT"
+  },
+  {
+    "screenshot_id": "ext2_160",
+    "file": "ext2_160.jpg",
+    "ground_truth": "General",
+    "old_candidate_pool": [
+      "Entertainment",
+      "Shopping",
+      "Payment",
+      "Education",
+      "Coding"
+    ],
+    "new_candidate_pool": [
+      "Entertainment",
+      "Shopping",
+      "Payment",
+      "Education",
+      "Coding",
+      "General"
+    ],
+    "general_added": true,
+    "old_final_prediction": "Entertainment",
+    "new_final_prediction": "Entertainment",
+    "old_rank_of_gt": "missing",
+    "new_rank_of_general": 6,
+    "new_score_of_general": 0.0,
+    "corrected": false,
+    "harm": false,
+    "classification": "UNCHANGED_INCORRECT"
+  },
+  {
+    "screenshot_id": "ext2_162",
+    "file": "ext2_162.jpg",
+    "ground_truth": "General",
+    "old_candidate_pool": [
+      "Travel",
+      "Payment",
+      "Work & Career",
+      "Education",
+      "Entertainment"
+    ],
+    "new_candidate_pool": [
+      "Travel",
+      "Payment",
+      "Work & Career",
+      "Education",
+      "Entertainment",
+      "General"
+    ],
+    "general_added": true,
+    "old_final_prediction": "Travel",
+    "new_final_prediction": "Travel",
+    "old_rank_of_gt": "missing",
+    "new_rank_of_general": 6,
+    "new_score_of_general": 0.0,
+    "corrected": false,
+    "harm": false,
+    "classification": "UNCHANGED_INCORRECT"
+  },
+  {
+    "screenshot_id": "ext2_180",
+    "file": "ext2_180.jpg",
+    "ground_truth": "General",
+    "old_candidate_pool": [
+      "Entertainment",
+      "Travel",
+      "Work & Career",
+      "Education",
+      "Shopping",
+      "Coding"
+    ],
+    "new_candidate_pool": [
+      "Entertainment",
+      "Travel",
+      "Work & Career",
+      "Education",
+      "Shopping",
+      "Coding",
+      "General"
+    ],
+    "general_added": true,
+    "old_final_prediction": "Entertainment",
+    "new_final_prediction": "Entertainment",
+    "old_rank_of_gt": "missing",
+    "new_rank_of_general": 7,
+    "new_score_of_general": 0.0,
+    "corrected": false,
+    "harm": false,
+    "classification": "UNCHANGED_INCORRECT"
+  },
+  {
+    "screenshot_id": "ext2_227",
+    "file": "ext2_227.jpg",
+    "ground_truth": "General",
+    "old_candidate_pool": [
+      "Entertainment",
+      "Communication",
+      "Travel",
+      "Education",
+      "Work & Career",
+      "Payment"
+    ],
+    "new_candidate_pool": [
+      "Entertainment",
+      "Communication",
+      "Travel",
+      "Education",
+      "Work & Career",
+      "Payment",
+      "General"
+    ],
+    "general_added": true,
+    "old_final_prediction": "Entertainment",
+    "new_final_prediction": "Entertainment",
+    "old_rank_of_gt": "missing",
+    "new_rank_of_general": 7,
+    "new_score_of_general": 0.0,
+    "corrected": false,
+    "harm": false,
+    "classification": "UNCHANGED_INCORRECT"
+  },
+  {
+    "screenshot_id": "ext2_233",
+    "file": "ext2_233.jpg",
+    "ground_truth": "General",
+    "old_candidate_pool": [
+      "Work & Career",
+      "Education",
+      "Communication",
+      "Travel",
+      "Payment"
+    ],
+    "new_candidate_pool": [
+      "Work & Career",
+      "Education",
+      "Communication",
+      "Travel",
+      "Payment",
+      "General"
+    ],
+    "general_added": true,
+    "old_final_prediction": "Work & Career",
+    "new_final_prediction": "Work & Career",
+    "old_rank_of_gt": "missing",
+    "new_rank_of_general": 6,
+    "new_score_of_general": 0.0,
+    "corrected": false,
+    "harm": false,
+    "classification": "UNCHANGED_INCORRECT"
+  },
+  {
+    "screenshot_id": "ext2_240",
+    "file": "ext2_240.jpg",
+    "ground_truth": "General",
+    "old_candidate_pool": [
+      "Payment",
+      "Communication",
+      "Travel",
+      "Education",
+      "Entertainment"
+    ],
+    "new_candidate_pool": [
+      "Payment",
+      "Communication",
+      "Travel",
+      "Education",
+      "Entertainment",
+      "General"
+    ],
+    "general_added": true,
+    "old_final_prediction": "Payment",
+    "new_final_prediction": "Payment",
+    "old_rank_of_gt": "missing",
+    "new_rank_of_general": 6,
+    "new_score_of_general": 0.0,
+    "corrected": false,
+    "harm": false,
+    "classification": "UNCHANGED_INCORRECT"
+  }
+]

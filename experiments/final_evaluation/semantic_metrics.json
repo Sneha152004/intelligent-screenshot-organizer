@@ -1,0 +1,788 @@
+{
+  "model_name": "FinalRefinedClassifier",
+  "train": {
+    "count": 250,
+    "top1_accuracy": 0.676,
+    "balanced_accuracy": 0.7504879482657261,
+    "macro_precision": 0.5839622583006705,
+    "macro_recall": 0.7504879482657261,
+    "macro_f1": 0.6008377306667454,
+    "weighted_precision": 0.6572540286942854,
+    "weighted_recall": 0.676,
+    "weighted_f1": 0.6318520747270827,
+    "per_class": {
+      "Coding": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      },
+      "Shopping": {
+        "precision": 0.7555555555555555,
+        "recall": 0.9714285714285714,
+        "f1": 0.85,
+        "support": 35
+      },
+      "Travel": {
+        "precision": 0.7241379310344828,
+        "recall": 1.0,
+        "f1": 0.84,
+        "support": 21
+      },
+      "Education": {
+        "precision": 0.7931034482758621,
+        "recall": 0.8518518518518519,
+        "f1": 0.8214285714285714,
+        "support": 27
+      },
+      "Communication": {
+        "precision": 0.16666666666666666,
+        "recall": 1.0,
+        "f1": 0.2857142857142857,
+        "support": 1
+      },
+      "Entertainment": {
+        "precision": 0.9682539682539683,
+        "recall": 1.0,
+        "f1": 0.9838709677419355,
+        "support": 61
+      },
+      "Work & Career": {
+        "precision": 0.7272727272727273,
+        "recall": 0.32,
+        "f1": 0.4444444444444444,
+        "support": 25
+      },
+      "Payment": {
+        "precision": 0.6153846153846154,
+        "recall": 1.0,
+        "f1": 0.7619047619047619,
+        "support": 8
+      },
+      "Connectivity": {
+        "precision": 0.23255813953488372,
+        "recall": 0.5555555555555556,
+        "f1": 0.32786885245901637,
+        "support": 18
+      },
+      "General": {
+        "precision": 0.2727272727272727,
+        "recall": 0.05555555555555555,
+        "f1": 0.09230769230769231,
+        "support": 54
+      }
+    },
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        34,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        21,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        1,
+        23,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        61,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        3,
+        1,
+        3,
+        0,
+        8,
+        5,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        10,
+        6
+      ],
+      [
+        0,
+        6,
+        2,
+        5,
+        2,
+        1,
+        3,
+        0,
+        32,
+        3
+      ]
+    ]
+  },
+  "validation": {
+    "count": 125,
+    "top1_accuracy": 0.8,
+    "balanced_accuracy": 0.8677497314715359,
+    "macro_precision": 0.7746913580246914,
+    "macro_recall": 0.7713330946413652,
+    "macro_f1": 0.7679012345679013,
+    "weighted_precision": 0.8757777777777779,
+    "weighted_recall": 0.8,
+    "weighted_f1": 0.8314412698412698,
+    "per_class": {
+      "Coding": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      },
+      "Shopping": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 17
+      },
+      "Travel": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2
+      },
+      "Education": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2
+      },
+      "Communication": {
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571428571428571,
+        "support": 3
+      },
+      "Entertainment": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 25
+      },
+      "Work & Career": {
+        "precision": 1.0,
+        "recall": 0.8367346938775511,
+        "f1": 0.9111111111111111,
+        "support": 49
+      },
+      "Payment": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 8
+      },
+      "Connectivity": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      },
+      "General": {
+        "precision": 0.2222222222222222,
+        "recall": 0.10526315789473684,
+        "f1": 0.14285714285714285,
+        "support": 19
+      }
+    },
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        17,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        25,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        41,
+        0,
+        0,
+        7
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        17,
+        2
+      ]
+    ]
+  },
+  "internal_holdout": {
+    "count": 125,
+    "top1_accuracy": 0.888,
+    "balanced_accuracy": 0.9091847265221877,
+    "macro_precision": 0.8597883597883598,
+    "macro_recall": 0.9091847265221877,
+    "macro_f1": 0.8096954096954098,
+    "weighted_precision": 0.9872380952380951,
+    "weighted_recall": 0.888,
+    "weighted_f1": 0.9015680823680824,
+    "per_class": {
+      "Coding": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      },
+      "Shopping": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 46
+      },
+      "Travel": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 27
+      },
+      "Education": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 4
+      },
+      "Communication": {
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1": 0.8,
+        "support": 2
+      },
+      "Entertainment": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 8
+      },
+      "Work & Career": {
+        "precision": 1.0,
+        "recall": 0.9473684210526315,
+        "f1": 0.972972972972973,
+        "support": 19
+      },
+      "Payment": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1
+      },
+      "Connectivity": {
+        "precision": 0.07142857142857142,
+        "recall": 1.0,
+        "f1": 0.13333333333333333,
+        "support": 1
+      },
+      "General": {
+        "precision": 1.0,
+        "recall": 0.23529411764705882,
+        "f1": 0.38095238095238093,
+        "support": 17
+      }
+    },
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        46,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        27,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        18,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        13,
+        4
+      ]
+    ]
+  },
+  "external_test": {
+    "count": 60,
+    "top1_accuracy": 0.6166666666666667,
+    "balanced_accuracy": 0.6606142951251647,
+    "macro_precision": 0.5877425044091711,
+    "macro_recall": 0.5872127067779241,
+    "macro_f1": 0.5521521521521522,
+    "weighted_precision": 0.7902116402116403,
+    "weighted_recall": 0.6166666666666667,
+    "weighted_f1": 0.6721471471471472,
+    "per_class": {
+      "Coding": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      },
+      "Shopping": {
+        "precision": 0.7777777777777778,
+        "recall": 0.6363636363636364,
+        "f1": 0.7,
+        "support": 11
+      },
+      "Travel": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5
+      },
+      "Education": {
+        "precision": 0.9285714285714286,
+        "recall": 0.5652173913043478,
+        "f1": 0.7027027027027027,
+        "support": 23
+      },
+      "Communication": {
+        "precision": 0.25,
+        "recall": 1.0,
+        "f1": 0.4,
+        "support": 2
+      },
+      "Entertainment": {
+        "precision": 0.5,
+        "recall": 0.25,
+        "f1": 0.3333333333333333,
+        "support": 8
+      },
+      "Work & Career": {
+        "precision": 0.8333333333333334,
+        "recall": 0.8333333333333334,
+        "f1": 0.8333333333333334,
+        "support": 6
+      },
+      "Payment": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      "Connectivity": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      },
+      "General": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 2
+      }
+    },
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        7,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        13,
+        4,
+        1,
+        1,
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        5
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "generalization_gap": {
+    "train_to_val_top1_gap": -0.124,
+    "val_to_holdout_top1_gap": -0.08799999999999997,
+    "internal_to_external_top1_gap": 0.2713333333333333
+  }
+}

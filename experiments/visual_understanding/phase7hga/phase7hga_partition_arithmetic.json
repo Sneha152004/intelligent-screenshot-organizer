@@ -1,0 +1,87 @@
+{
+  "audit_timestamp": "2026-10-03 22:56:48",
+  "primary_benchmark_arithmetic": {
+    "train": {
+      "screenshot_count": 83,
+      "group_count": 78,
+      "class_breakdown": {
+        "travel_booking": 29,
+        "code_editor_terminal": 19,
+        "media_player_library": 17,
+        "document_article_view": 13,
+        "dashboard_settings": 5
+      }
+    },
+    "calibration": {
+      "screenshot_count": 27,
+      "group_count": 26,
+      "class_breakdown": {
+        "travel_booking": 9,
+        "code_editor_terminal": 6,
+        "media_player_library": 6,
+        "document_article_view": 4,
+        "dashboard_settings": 2
+      }
+    },
+    "validation": {
+      "screenshot_count": 25,
+      "group_count": 24,
+      "class_breakdown": {
+        "travel_booking": 9,
+        "code_editor_terminal": 6,
+        "media_player_library": 5,
+        "document_article_view": 4,
+        "dashboard_settings": 1
+      }
+    },
+    "total_screenshots": 135,
+    "total_groups": 128
+  },
+  "extended_benchmark_arithmetic": {
+    "train": {
+      "screenshot_count": 89,
+      "group_count": 84,
+      "class_breakdown": {
+        "travel_booking": 29,
+        "code_editor_terminal": 19,
+        "media_player_library": 17,
+        "document_article_view": 13,
+        "dashboard_settings": 5,
+        "cart_checkout_payment": 5,
+        "messaging_chat": 1
+      }
+    },
+    "calibration": {
+      "screenshot_count": 30,
+      "group_count": 28,
+      "class_breakdown": {
+        "travel_booking": 9,
+        "code_editor_terminal": 6,
+        "media_player_library": 6,
+        "document_article_view": 4,
+        "cart_checkout_payment": 3,
+        "dashboard_settings": 2
+      }
+    },
+    "validation": {
+      "screenshot_count": 28,
+      "group_count": 27,
+      "class_breakdown": {
+        "travel_booking": 9,
+        "code_editor_terminal": 6,
+        "media_player_library": 5,
+        "document_article_view": 4,
+        "cart_checkout_payment": 2,
+        "dashboard_settings": 1,
+        "messaging_chat": 1
+      }
+    },
+    "total_screenshots": 147,
+    "total_groups": 139
+  },
+  "zero_shot_probe_arithmetic": {
+    "total_screenshots": 31,
+    "total_groups": 31,
+    "class": "product_listing"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "random_seed": 42,
+  "total_eligible_ground_truth_screenshots": 443,
+  "primary_benchmark_summary": {
+    "classes_included": [
+      "document_article_view",
+      "travel_booking",
+      "dashboard_settings",
+      "media_player_library",
+      "code_editor_terminal"
+    ],
+    "total_screenshots": 135,
+    "total_unique_groups": 128,
+    "partition_breakdown": {
+      "train": {
+        "screenshots": 83,
+        "groups": 78,
+        "pct": 61.48
+      },
+      "calibration": {
+        "screenshots": 27,
+        "groups": 26,
+        "pct": 20.0
+      },
+      "validation": {
+        "screenshots": 25,
+        "groups": 24,
+        "pct": 18.52
+      }
+    }
+  },
+  "extended_benchmark_summary": {
+    "classes_included": [
+      "document_article_view",
+      "travel_booking",
+      "dashboard_settings",
+      "media_player_library",
+      "code_editor_terminal",
+      "email_view",
+      "cart_checkout_payment",
+      "messaging_chat"
+    ],
+    "total_screenshots": 147,
+    "total_unique_groups": 139,
+    "partition_breakdown": {
+      "train": {
+        "screenshots": 89,
+        "groups": 84,
+        "pct": 60.54
+      },
+      "calibration": {
+        "screenshots": 30,
+        "groups": 28,
+        "pct": 20.41
+      },
+      "validation": {
+        "screenshots": 28,
+        "groups": 27,
+        "pct": 19.05
+      }
+    }
+  },
+  "zero_shot_probe_summary": {
+    "class": "product_listing",
+    "total_screenshots": 31,
+    "total_groups": 31
+  }
+}

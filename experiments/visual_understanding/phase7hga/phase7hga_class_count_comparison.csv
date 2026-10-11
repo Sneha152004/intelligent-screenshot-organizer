@@ -1,0 +1,14 @@
+visual_screen_type,phase7hc_proposed_count,authoritative_ground_truth_count,primary_manifest_count,extended_manifest_count,zero_shot_probe_count,reconciliation_status
+product_listing,8,31,0,0,31,MATCHED
+product_detail,127,27,0,0,0,MATCHED
+cart_checkout_payment,23,10,0,10,0,MATCHED
+login_authentication,1,15,0,0,0,MATCHED
+messaging_chat,13,2,0,2,0,MATCHED
+email_view,0,0,0,0,0,MATCHED
+media_player_library,126,28,28,28,0,MATCHED
+code_editor_terminal,45,31,31,31,0,MATCHED
+document_article_view,274,21,21,21,0,MATCHED
+travel_booking,121,47,47,47,0,MATCHED
+dashboard_settings,90,8,8,8,0,MATCHED
+error_dialog_alert,5,8,0,0,0,MATCHED
+other_screen,3,215,0,0,0,MATCHED

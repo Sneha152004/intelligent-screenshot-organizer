@@ -1,0 +1,3 @@
+file,actual_category,primary_prediction,shufflenet_v2_prediction,final_prediction,status,visual_confidence,reason_for_change
+ss_079.jpg,Connectivity,General,Connectivity,Connectivity,CORRECTED,0.6324,Visual evidence corrected text misclassification due to sparse/missing OCR keywords.
+ss_080.jpg,General,General,Work & Career,Work & Career,DAMAGED,0.431,Visual misclassification overrode correct text prediction on sparse text.

@@ -1,0 +1,2046 @@
+{
+  "selected_winner": "MiniLM + CLIP-Base + LogReg (Reference)",
+  "best_compact_candidate": "MiniLM + TinyCLIP-8M + LogReg",
+  "selection_protocol": "5-Fold Cross-Validation on 30 Dev+Internal screenshots (zero external leakage).",
+  "target_200mb_achieved": true,
+  "cross_validation_results": {
+    "Bagged MiniLM + SVM (Text Control)": {
+      "top1_accuracy": 0.5,
+      "top2_recall": 0.7667,
+      "top3_recall": 0.8333,
+      "macro_precision": 0.4167,
+      "macro_recall": 0.3413,
+      "macro_f1": 0.3686,
+      "per_category": {
+        "Coding": {
+          "total_images": 2,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Communication": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Connectivity": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Education": {
+          "total_images": 7,
+          "correct_images": 4,
+          "accuracy": 0.5714,
+          "precision": 1.0,
+          "recall": 0.5714,
+          "f1": 0.7273
+        },
+        "Entertainment": {
+          "total_images": 4,
+          "correct_images": 3,
+          "accuracy": 0.75,
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571
+        },
+        "Payment": {
+          "total_images": 5,
+          "correct_images": 3,
+          "accuracy": 0.6,
+          "precision": 0.75,
+          "recall": 0.6,
+          "f1": 0.6667
+        },
+        "Shopping": {
+          "total_images": 5,
+          "correct_images": 2,
+          "accuracy": 0.4,
+          "precision": 0.4,
+          "recall": 0.4,
+          "f1": 0.4
+        },
+        "Travel": {
+          "total_images": 4,
+          "correct_images": 3,
+          "accuracy": 0.75,
+          "precision": 0.6,
+          "recall": 0.75,
+          "f1": 0.6667
+        },
+        "Work & Career": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "MiniLM + CLIP-Base + LogReg (Reference)": {
+      "top1_accuracy": 0.6333,
+      "top2_recall": 0.6667,
+      "top3_recall": 0.7667,
+      "macro_precision": 0.4092,
+      "macro_recall": 0.4,
+      "macro_f1": 0.3897,
+      "per_category": {
+        "Coding": {
+          "total_images": 2,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Communication": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Connectivity": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Education": {
+          "total_images": 7,
+          "correct_images": 7,
+          "accuracy": 1.0,
+          "precision": 0.7778,
+          "recall": 1.0,
+          "f1": 0.875
+        },
+        "Entertainment": {
+          "total_images": 4,
+          "correct_images": 2,
+          "accuracy": 0.5,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6667
+        },
+        "Payment": {
+          "total_images": 5,
+          "correct_images": 4,
+          "accuracy": 0.8,
+          "precision": 0.5714,
+          "recall": 0.8,
+          "f1": 0.6667
+        },
+        "Shopping": {
+          "total_images": 5,
+          "correct_images": 4,
+          "accuracy": 0.8,
+          "precision": 0.6667,
+          "recall": 0.8,
+          "f1": 0.7273
+        },
+        "Travel": {
+          "total_images": 4,
+          "correct_images": 2,
+          "accuracy": 0.5,
+          "precision": 0.6667,
+          "recall": 0.5,
+          "f1": 0.5714
+        },
+        "Work & Career": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "TinyCLIP-8M zero-shot": {
+      "top1_accuracy": 0.2,
+      "top2_recall": 0.3333,
+      "top3_recall": 0.4333,
+      "macro_precision": 0.3611,
+      "macro_recall": 0.2611,
+      "macro_f1": 0.2296,
+      "per_category": {
+        "Coding": {
+          "total_images": 2,
+          "correct_images": 1,
+          "accuracy": 0.5,
+          "precision": 0.25,
+          "recall": 0.5,
+          "f1": 0.3333
+        },
+        "Communication": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Connectivity": {
+          "total_images": 1,
+          "correct_images": 1,
+          "accuracy": 1.0,
+          "precision": 0.3333,
+          "recall": 1.0,
+          "f1": 0.5
+        },
+        "Education": {
+          "total_images": 7,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Entertainment": {
+          "total_images": 4,
+          "correct_images": 1,
+          "accuracy": 0.25,
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4
+        },
+        "Payment": {
+          "total_images": 5,
+          "correct_images": 1,
+          "accuracy": 0.2,
+          "precision": 1.0,
+          "recall": 0.2,
+          "f1": 0.3333
+        },
+        "Shopping": {
+          "total_images": 5,
+          "correct_images": 2,
+          "accuracy": 0.4,
+          "precision": 0.6667,
+          "recall": 0.4,
+          "f1": 0.5
+        },
+        "Travel": {
+          "total_images": 4,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Work & Career": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "TinyCLIP-8M embedding + LogReg": {
+      "top1_accuracy": 0.2,
+      "top2_recall": 0.4333,
+      "top3_recall": 0.4333,
+      "macro_precision": 0.1025,
+      "macro_recall": 0.1317,
+      "macro_f1": 0.1117,
+      "per_category": {
+        "Coding": {
+          "total_images": 2,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Communication": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Connectivity": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Education": {
+          "total_images": 7,
+          "correct_images": 2,
+          "accuracy": 0.2857,
+          "precision": 0.2222,
+          "recall": 0.2857,
+          "f1": 0.25
+        },
+        "Entertainment": {
+          "total_images": 4,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Payment": {
+          "total_images": 5,
+          "correct_images": 1,
+          "accuracy": 0.2,
+          "precision": 0.2,
+          "recall": 0.2,
+          "f1": 0.2
+        },
+        "Shopping": {
+          "total_images": 5,
+          "correct_images": 1,
+          "accuracy": 0.2,
+          "precision": 0.25,
+          "recall": 0.2,
+          "f1": 0.2222
+        },
+        "Travel": {
+          "total_images": 4,
+          "correct_images": 2,
+          "accuracy": 0.5,
+          "precision": 0.25,
+          "recall": 0.5,
+          "f1": 0.3333
+        },
+        "Work & Career": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "TinyCLIP-8M embedding + SVM": {
+      "top1_accuracy": 0.2333,
+      "top2_recall": 0.3333,
+      "top3_recall": 0.3667,
+      "macro_precision": 0.1503,
+      "macro_recall": 0.154,
+      "macro_f1": 0.1493,
+      "per_category": {
+        "Coding": {
+          "total_images": 2,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Communication": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Connectivity": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Education": {
+          "total_images": 7,
+          "correct_images": 2,
+          "accuracy": 0.2857,
+          "precision": 0.2857,
+          "recall": 0.2857,
+          "f1": 0.2857
+        },
+        "Entertainment": {
+          "total_images": 4,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Payment": {
+          "total_images": 5,
+          "correct_images": 2,
+          "accuracy": 0.4,
+          "precision": 0.3333,
+          "recall": 0.4,
+          "f1": 0.3636
+        },
+        "Shopping": {
+          "total_images": 5,
+          "correct_images": 1,
+          "accuracy": 0.2,
+          "precision": 0.3333,
+          "recall": 0.2,
+          "f1": 0.25
+        },
+        "Travel": {
+          "total_images": 4,
+          "correct_images": 2,
+          "accuracy": 0.5,
+          "precision": 0.4,
+          "recall": 0.5,
+          "f1": 0.4444
+        },
+        "Work & Career": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "MiniLM + TinyCLIP-8M + LogReg": {
+      "top1_accuracy": 0.5333,
+      "top2_recall": 0.5333,
+      "top3_recall": 0.6,
+      "macro_precision": 0.3635,
+      "macro_recall": 0.3341,
+      "macro_f1": 0.3192,
+      "per_category": {
+        "Coding": {
+          "total_images": 2,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Communication": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Connectivity": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Education": {
+          "total_images": 7,
+          "correct_images": 6,
+          "accuracy": 0.8571,
+          "precision": 0.6,
+          "recall": 0.8571,
+          "f1": 0.7059
+        },
+        "Entertainment": {
+          "total_images": 4,
+          "correct_images": 1,
+          "accuracy": 0.25,
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4
+        },
+        "Payment": {
+          "total_images": 5,
+          "correct_images": 4,
+          "accuracy": 0.8,
+          "precision": 0.5714,
+          "recall": 0.8,
+          "f1": 0.6667
+        },
+        "Shopping": {
+          "total_images": 5,
+          "correct_images": 3,
+          "accuracy": 0.6,
+          "precision": 0.6,
+          "recall": 0.6,
+          "f1": 0.6
+        },
+        "Travel": {
+          "total_images": 4,
+          "correct_images": 2,
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5
+        },
+        "Work & Career": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "MiniLM + TinyCLIP-8M + SVM": {
+      "top1_accuracy": 0.3667,
+      "top2_recall": 0.6,
+      "top3_recall": 0.6667,
+      "macro_precision": 0.2183,
+      "macro_recall": 0.2238,
+      "macro_f1": 0.2202,
+      "per_category": {
+        "Coding": {
+          "total_images": 2,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Communication": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Connectivity": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Education": {
+          "total_images": 7,
+          "correct_images": 5,
+          "accuracy": 0.7143,
+          "precision": 0.7143,
+          "recall": 0.7143,
+          "f1": 0.7143
+        },
+        "Entertainment": {
+          "total_images": 4,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Payment": {
+          "total_images": 5,
+          "correct_images": 3,
+          "accuracy": 0.6,
+          "precision": 0.5,
+          "recall": 0.6,
+          "f1": 0.5455
+        },
+        "Shopping": {
+          "total_images": 5,
+          "correct_images": 1,
+          "accuracy": 0.2,
+          "precision": 0.25,
+          "recall": 0.2,
+          "f1": 0.2222
+        },
+        "Travel": {
+          "total_images": 4,
+          "correct_images": 2,
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5
+        },
+        "Work & Career": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "MiniLM + TinyCLIP-40M + LogReg": {
+      "top1_accuracy": 0.5667,
+      "top2_recall": 0.7,
+      "top3_recall": 0.7,
+      "macro_precision": 0.3753,
+      "macro_recall": 0.35,
+      "macro_f1": 0.3323,
+      "per_category": {
+        "Coding": {
+          "total_images": 2,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Communication": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Connectivity": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Education": {
+          "total_images": 7,
+          "correct_images": 7,
+          "accuracy": 1.0,
+          "precision": 0.7778,
+          "recall": 1.0,
+          "f1": 0.875
+        },
+        "Entertainment": {
+          "total_images": 4,
+          "correct_images": 1,
+          "accuracy": 0.25,
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4
+        },
+        "Payment": {
+          "total_images": 5,
+          "correct_images": 4,
+          "accuracy": 0.8,
+          "precision": 0.5,
+          "recall": 0.8,
+          "f1": 0.6154
+        },
+        "Shopping": {
+          "total_images": 5,
+          "correct_images": 3,
+          "accuracy": 0.6,
+          "precision": 0.6,
+          "recall": 0.6,
+          "f1": 0.6
+        },
+        "Travel": {
+          "total_images": 4,
+          "correct_images": 2,
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5
+        },
+        "Work & Career": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    }
+  },
+  "external_benchmark_results": {
+    "Bagged MiniLM + SVM (Text Control)": {
+      "top1_accuracy": 0.55,
+      "top2_recall": 0.7167,
+      "top3_recall": 0.8,
+      "macro_precision": 0.4039,
+      "macro_recall": 0.4777,
+      "macro_f1": 0.4108,
+      "per_category": {
+        "Coding": {
+          "total_images": 1,
+          "correct_images": 1,
+          "accuracy": 1.0,
+          "precision": 0.25,
+          "recall": 1.0,
+          "f1": 0.4
+        },
+        "Communication": {
+          "total_images": 2,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Education": {
+          "total_images": 22,
+          "correct_images": 9,
+          "accuracy": 0.4091,
+          "precision": 0.75,
+          "recall": 0.4091,
+          "f1": 0.5294
+        },
+        "Entertainment": {
+          "total_images": 8,
+          "correct_images": 5,
+          "accuracy": 0.625,
+          "precision": 0.625,
+          "recall": 0.625,
+          "f1": 0.625
+        },
+        "General": {
+          "total_images": 2,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Payment": {
+          "total_images": 3,
+          "correct_images": 2,
+          "accuracy": 0.6667,
+          "precision": 0.5,
+          "recall": 0.6667,
+          "f1": 0.5714
+        },
+        "Shopping": {
+          "total_images": 11,
+          "correct_images": 10,
+          "accuracy": 0.9091,
+          "precision": 0.7143,
+          "recall": 0.9091,
+          "f1": 0.8
+        },
+        "Travel": {
+          "total_images": 5,
+          "correct_images": 5,
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "Work & Career": {
+          "total_images": 6,
+          "correct_images": 1,
+          "accuracy": 0.1667,
+          "precision": 0.2,
+          "recall": 0.1667,
+          "f1": 0.1818
+        }
+      },
+      "latency_breakdown_ms": {
+        "ocr_latency": 7642.19,
+        "minilm_embedding_latency": 40.89,
+        "visual_encoder_latency": 0.0,
+        "fusion_latency": 0.0,
+        "classifier_latency": 0.1251,
+        "total_end_to_end_latency": 7683.21
+      },
+      "footprint_mb": 0.0,
+      "predictions": [
+        "Coding",
+        "Shopping",
+        "Entertainment",
+        "Payment",
+        "Education",
+        "Education",
+        "Education",
+        "Work & Career",
+        "Entertainment",
+        "Education",
+        "Communication",
+        "Payment",
+        "Communication",
+        "Education",
+        "Work & Career",
+        "Education",
+        "Shopping",
+        "Shopping",
+        "Shopping",
+        "Work & Career",
+        "Coding",
+        "Entertainment",
+        "Connectivity",
+        "Education",
+        "Education",
+        "Shopping",
+        "Shopping",
+        "Education",
+        "Shopping",
+        "Shopping",
+        "Work & Career",
+        "Shopping",
+        "Connectivity",
+        "Entertainment",
+        "Travel",
+        "Shopping",
+        "Shopping",
+        "Entertainment",
+        "Connectivity",
+        "Shopping",
+        "Work & Career",
+        "Travel",
+        "Communication",
+        "Education",
+        "Shopping",
+        "Travel",
+        "Travel",
+        "Travel",
+        "Payment",
+        "Coding",
+        "Entertainment",
+        "Education",
+        "Entertainment",
+        "Entertainment",
+        "Payment",
+        "Education",
+        "Shopping",
+        "Coding",
+        "Communication",
+        "Communication"
+      ]
+    },
+    "MiniLM + CLIP-Base + LogReg (Reference)": {
+      "top1_accuracy": 0.7167,
+      "top2_recall": 0.8167,
+      "top3_recall": 0.8333,
+      "macro_precision": 0.4259,
+      "macro_recall": 0.5364,
+      "macro_f1": 0.466,
+      "per_category": {
+        "Coding": {
+          "total_images": 1,
+          "correct_images": 1,
+          "accuracy": 1.0,
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667
+        },
+        "Communication": {
+          "total_images": 2,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Education": {
+          "total_images": 22,
+          "correct_images": 19,
+          "accuracy": 0.8636,
+          "precision": 0.8261,
+          "recall": 0.8636,
+          "f1": 0.8444
+        },
+        "Entertainment": {
+          "total_images": 8,
+          "correct_images": 4,
+          "accuracy": 0.5,
+          "precision": 0.5714,
+          "recall": 0.5,
+          "f1": 0.5333
+        },
+        "General": {
+          "total_images": 2,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Payment": {
+          "total_images": 3,
+          "correct_images": 3,
+          "accuracy": 1.0,
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571
+        },
+        "Shopping": {
+          "total_images": 11,
+          "correct_images": 11,
+          "accuracy": 1.0,
+          "precision": 0.6111,
+          "recall": 1.0,
+          "f1": 0.7586
+        },
+        "Travel": {
+          "total_images": 5,
+          "correct_images": 5,
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "Work & Career": {
+          "total_images": 6,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "latency_breakdown_ms": {
+        "ocr_latency": 7642.19,
+        "minilm_embedding_latency": 40.89,
+        "visual_encoder_latency": 113.49,
+        "fusion_latency": 0.01,
+        "classifier_latency": 0.2035,
+        "total_end_to_end_latency": 7796.78
+      },
+      "footprint_mb": 605.0,
+      "predictions": [
+        "Education",
+        "Shopping",
+        "Entertainment",
+        "Payment",
+        "Education",
+        "Education",
+        "Education",
+        "Education",
+        "Entertainment",
+        "Education",
+        "Education",
+        "Education",
+        "Education",
+        "Payment",
+        "Education",
+        "Education",
+        "Shopping",
+        "Shopping",
+        "Shopping",
+        "Education",
+        "Coding",
+        "Shopping",
+        "Entertainment",
+        "Education",
+        "Education",
+        "Shopping",
+        "Shopping",
+        "Education",
+        "Shopping",
+        "Payment",
+        "Education",
+        "Shopping",
+        "Shopping",
+        "Shopping",
+        "Travel",
+        "Shopping",
+        "Shopping",
+        "Entertainment",
+        "Connectivity",
+        "Shopping",
+        "Shopping",
+        "Travel",
+        "Education",
+        "Education",
+        "Shopping",
+        "Travel",
+        "Travel",
+        "Travel",
+        "Payment",
+        "Coding",
+        "Entertainment",
+        "Education",
+        "Entertainment",
+        "Entertainment",
+        "Education",
+        "Education",
+        "Shopping",
+        "Education",
+        "Education",
+        "Shopping"
+      ]
+    },
+    "TinyCLIP-8M zero-shot": {
+      "top1_accuracy": 0.2333,
+      "top2_recall": 0.4167,
+      "top3_recall": 0.5667,
+      "macro_precision": 0.2827,
+      "macro_recall": 0.2292,
+      "macro_f1": 0.1668,
+      "per_category": {
+        "Coding": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Communication": {
+          "total_images": 2,
+          "correct_images": 2,
+          "accuracy": 1.0,
+          "precision": 0.0769,
+          "recall": 1.0,
+          "f1": 0.1429
+        },
+        "Education": {
+          "total_images": 22,
+          "correct_images": 1,
+          "accuracy": 0.0455,
+          "precision": 1.0,
+          "recall": 0.0455,
+          "f1": 0.087
+        },
+        "Entertainment": {
+          "total_images": 8,
+          "correct_images": 5,
+          "accuracy": 0.625,
+          "precision": 1.0,
+          "recall": 0.625,
+          "f1": 0.7692
+        },
+        "General": {
+          "total_images": 2,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Payment": {
+          "total_images": 3,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Shopping": {
+          "total_images": 11,
+          "correct_images": 5,
+          "accuracy": 0.4545,
+          "precision": 0.625,
+          "recall": 0.4545,
+          "f1": 0.5263
+        },
+        "Travel": {
+          "total_images": 5,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Work & Career": {
+          "total_images": 6,
+          "correct_images": 1,
+          "accuracy": 0.1667,
+          "precision": 0.125,
+          "recall": 0.1667,
+          "f1": 0.1429
+        }
+      },
+      "latency_breakdown_ms": {
+        "ocr_latency": 7642.19,
+        "minilm_embedding_latency": 40.89,
+        "visual_encoder_latency": 75.05,
+        "fusion_latency": 0.0,
+        "classifier_latency": 0.0033,
+        "total_end_to_end_latency": 7758.14
+      },
+      "footprint_mb": 89.4,
+      "predictions": [
+        "Communication",
+        "Shopping",
+        "Shopping",
+        "Communication",
+        "Work & Career",
+        "Communication",
+        "Communication",
+        "Communication",
+        "Work & Career",
+        "Education",
+        "Communication",
+        "Communication",
+        "General",
+        "Work & Career",
+        "Work & Career",
+        "Communication",
+        "Shopping",
+        "General",
+        "Shopping",
+        "Communication",
+        "Connectivity",
+        "Entertainment",
+        "Connectivity",
+        "Communication",
+        "Communication",
+        "Entertainment",
+        "Shopping",
+        "Work & Career",
+        "Communication",
+        "Communication",
+        "Communication",
+        "Shopping",
+        "Connectivity",
+        "Communication",
+        "Work & Career",
+        "Connectivity",
+        "Communication",
+        "Connectivity",
+        "Connectivity",
+        "Communication",
+        "Shopping",
+        "Connectivity",
+        "General",
+        "Communication",
+        "Communication",
+        "Communication",
+        "Communication",
+        "Work & Career",
+        "Communication",
+        "Entertainment",
+        "Entertainment",
+        "Communication",
+        "General",
+        "Entertainment",
+        "Communication",
+        "Communication",
+        "Communication",
+        "Work & Career",
+        "Shopping",
+        "Connectivity"
+      ]
+    },
+    "TinyCLIP-8M embedding + LogReg": {
+      "top1_accuracy": 0.2667,
+      "top2_recall": 0.5667,
+      "top3_recall": 0.65,
+      "macro_precision": 0.1169,
+      "macro_recall": 0.1628,
+      "macro_f1": 0.1239,
+      "per_category": {
+        "Coding": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Communication": {
+          "total_images": 2,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Education": {
+          "total_images": 22,
+          "correct_images": 10,
+          "accuracy": 0.4545,
+          "precision": 0.5263,
+          "recall": 0.4545,
+          "f1": 0.4878
+        },
+        "Entertainment": {
+          "total_images": 8,
+          "correct_images": 1,
+          "accuracy": 0.125,
+          "precision": 0.1111,
+          "recall": 0.125,
+          "f1": 0.1176
+        },
+        "General": {
+          "total_images": 2,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Payment": {
+          "total_images": 3,
+          "correct_images": 2,
+          "accuracy": 0.6667,
+          "precision": 0.1667,
+          "recall": 0.6667,
+          "f1": 0.2667
+        },
+        "Shopping": {
+          "total_images": 11,
+          "correct_images": 2,
+          "accuracy": 0.1818,
+          "precision": 0.2222,
+          "recall": 0.1818,
+          "f1": 0.2
+        },
+        "Travel": {
+          "total_images": 5,
+          "correct_images": 1,
+          "accuracy": 0.2,
+          "precision": 0.1429,
+          "recall": 0.2,
+          "f1": 0.1667
+        },
+        "Work & Career": {
+          "total_images": 6,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "latency_breakdown_ms": {
+        "ocr_latency": 7642.19,
+        "minilm_embedding_latency": 40.89,
+        "visual_encoder_latency": 75.05,
+        "fusion_latency": 0.0,
+        "classifier_latency": 0.7738,
+        "total_end_to_end_latency": 7758.91
+      },
+      "footprint_mb": 89.4,
+      "predictions": [
+        "Education",
+        "Travel",
+        "Shopping",
+        "Payment",
+        "Education",
+        "Entertainment",
+        "Education",
+        "Shopping",
+        "Entertainment",
+        "Entertainment",
+        "Travel",
+        "Entertainment",
+        "Entertainment",
+        "Education",
+        "Payment",
+        "Entertainment",
+        "Travel",
+        "Coding",
+        "Shopping",
+        "Payment",
+        "Shopping",
+        "Travel",
+        "Coding",
+        "Payment",
+        "Education",
+        "Entertainment",
+        "Shopping",
+        "Payment",
+        "Payment",
+        "Payment",
+        "Education",
+        "Coding",
+        "Connectivity",
+        "Entertainment",
+        "Travel",
+        "Payment",
+        "Travel",
+        "Shopping",
+        "Shopping",
+        "Education",
+        "Shopping",
+        "Shopping",
+        "Education",
+        "Education",
+        "Education",
+        "Payment",
+        "Payment",
+        "Education",
+        "Entertainment",
+        "Education",
+        "Education",
+        "Education",
+        "Education",
+        "Education",
+        "Education",
+        "Education",
+        "Travel",
+        "Payment",
+        "Education",
+        "Payment"
+      ]
+    },
+    "TinyCLIP-8M embedding + SVM": {
+      "top1_accuracy": 0.3333,
+      "top2_recall": 0.4667,
+      "top3_recall": 0.6167,
+      "macro_precision": 0.2015,
+      "macro_recall": 0.3123,
+      "macro_f1": 0.2098,
+      "per_category": {
+        "Coding": {
+          "total_images": 1,
+          "correct_images": 1,
+          "accuracy": 1.0,
+          "precision": 0.1667,
+          "recall": 1.0,
+          "f1": 0.2857
+        },
+        "Communication": {
+          "total_images": 2,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Education": {
+          "total_images": 22,
+          "correct_images": 9,
+          "accuracy": 0.4091,
+          "precision": 0.6923,
+          "recall": 0.4091,
+          "f1": 0.5143
+        },
+        "Entertainment": {
+          "total_images": 8,
+          "correct_images": 3,
+          "accuracy": 0.375,
+          "precision": 0.2727,
+          "recall": 0.375,
+          "f1": 0.3158
+        },
+        "General": {
+          "total_images": 2,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Payment": {
+          "total_images": 3,
+          "correct_images": 2,
+          "accuracy": 0.6667,
+          "precision": 0.2222,
+          "recall": 0.6667,
+          "f1": 0.3333
+        },
+        "Shopping": {
+          "total_images": 11,
+          "correct_images": 3,
+          "accuracy": 0.2727,
+          "precision": 0.375,
+          "recall": 0.2727,
+          "f1": 0.3158
+        },
+        "Travel": {
+          "total_images": 5,
+          "correct_images": 2,
+          "accuracy": 0.4,
+          "precision": 0.2857,
+          "recall": 0.4,
+          "f1": 0.3333
+        },
+        "Work & Career": {
+          "total_images": 6,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "latency_breakdown_ms": {
+        "ocr_latency": 7642.19,
+        "minilm_embedding_latency": 40.89,
+        "visual_encoder_latency": 75.05,
+        "fusion_latency": 0.0,
+        "classifier_latency": 7.7648,
+        "total_end_to_end_latency": 7765.9
+      },
+      "footprint_mb": 89.4,
+      "predictions": [
+        "Education",
+        "Travel",
+        "Shopping",
+        "Payment",
+        "Education",
+        "Entertainment",
+        "Education",
+        "Payment",
+        "Entertainment",
+        "Entertainment",
+        "Travel",
+        "Entertainment",
+        "Coding",
+        "Travel",
+        "Payment",
+        "Entertainment",
+        "Payment",
+        "Shopping",
+        "Shopping",
+        "Connectivity",
+        "Coding",
+        "Connectivity",
+        "Coding",
+        "Payment",
+        "Coding",
+        "Entertainment",
+        "Connectivity",
+        "Connectivity",
+        "Payment",
+        "Payment",
+        "Education",
+        "Shopping",
+        "Connectivity",
+        "Entertainment",
+        "Travel",
+        "Coding",
+        "Travel",
+        "Shopping",
+        "Payment",
+        "Education",
+        "Entertainment",
+        "Shopping",
+        "Education",
+        "Education",
+        "Education",
+        "Travel",
+        "Payment",
+        "Coding",
+        "Entertainment",
+        "Education",
+        "Entertainment",
+        "Education",
+        "Education",
+        "Entertainment",
+        "Education",
+        "Education",
+        "Travel",
+        "Connectivity",
+        "Shopping",
+        "Shopping"
+      ]
+    },
+    "MiniLM + TinyCLIP-8M + LogReg": {
+      "top1_accuracy": 0.55,
+      "top2_recall": 0.7333,
+      "top3_recall": 0.8,
+      "macro_precision": 0.2784,
+      "macro_recall": 0.3418,
+      "macro_f1": 0.2922,
+      "per_category": {
+        "Coding": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Communication": {
+          "total_images": 2,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Education": {
+          "total_images": 22,
+          "correct_images": 17,
+          "accuracy": 0.7727,
+          "precision": 0.7391,
+          "recall": 0.7727,
+          "f1": 0.7556
+        },
+        "Entertainment": {
+          "total_images": 8,
+          "correct_images": 4,
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5
+        },
+        "General": {
+          "total_images": 2,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Payment": {
+          "total_images": 3,
+          "correct_images": 3,
+          "accuracy": 1.0,
+          "precision": 0.3333,
+          "recall": 1.0,
+          "f1": 0.5
+        },
+        "Shopping": {
+          "total_images": 11,
+          "correct_images": 6,
+          "accuracy": 0.5455,
+          "precision": 0.4615,
+          "recall": 0.5455,
+          "f1": 0.5
+        },
+        "Travel": {
+          "total_images": 5,
+          "correct_images": 3,
+          "accuracy": 0.6,
+          "precision": 0.75,
+          "recall": 0.6,
+          "f1": 0.6667
+        },
+        "Work & Career": {
+          "total_images": 6,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "latency_breakdown_ms": {
+        "ocr_latency": 7642.19,
+        "minilm_embedding_latency": 40.89,
+        "visual_encoder_latency": 75.05,
+        "fusion_latency": 0.01,
+        "classifier_latency": 0.453,
+        "total_end_to_end_latency": 7758.6
+      },
+      "footprint_mb": 89.4,
+      "predictions": [
+        "Education",
+        "Coding",
+        "Entertainment",
+        "Payment",
+        "Education",
+        "Education",
+        "Education",
+        "Shopping",
+        "Entertainment",
+        "Entertainment",
+        "Payment",
+        "Payment",
+        "Education",
+        "Education",
+        "Payment",
+        "Education",
+        "Entertainment",
+        "Shopping",
+        "Shopping",
+        "Education",
+        "Shopping",
+        "Travel",
+        "Education",
+        "Education",
+        "Education",
+        "Entertainment",
+        "Shopping",
+        "Education",
+        "Payment",
+        "Payment",
+        "Education",
+        "Shopping",
+        "Connectivity",
+        "Entertainment",
+        "Travel",
+        "Payment",
+        "Shopping",
+        "Shopping",
+        "Shopping",
+        "Education",
+        "Shopping",
+        "Shopping",
+        "Education",
+        "Education",
+        "Education",
+        "Travel",
+        "Payment",
+        "Travel",
+        "Payment",
+        "Coding",
+        "Entertainment",
+        "Education",
+        "Entertainment",
+        "Education",
+        "Education",
+        "Education",
+        "Shopping",
+        "Education",
+        "Education",
+        "Shopping"
+      ]
+    },
+    "MiniLM + TinyCLIP-8M + SVM": {
+      "top1_accuracy": 0.45,
+      "top2_recall": 0.6667,
+      "top3_recall": 0.75,
+      "macro_precision": 0.3388,
+      "macro_recall": 0.4089,
+      "macro_f1": 0.3186,
+      "per_category": {
+        "Coding": {
+          "total_images": 1,
+          "correct_images": 1,
+          "accuracy": 1.0,
+          "precision": 0.1667,
+          "recall": 1.0,
+          "f1": 0.2857
+        },
+        "Communication": {
+          "total_images": 2,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Education": {
+          "total_images": 22,
+          "correct_images": 11,
+          "accuracy": 0.5,
+          "precision": 0.8462,
+          "recall": 0.5,
+          "f1": 0.6286
+        },
+        "Entertainment": {
+          "total_images": 8,
+          "correct_images": 5,
+          "accuracy": 0.625,
+          "precision": 0.5,
+          "recall": 0.625,
+          "f1": 0.5556
+        },
+        "General": {
+          "total_images": 2,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Payment": {
+          "total_images": 3,
+          "correct_images": 3,
+          "accuracy": 1.0,
+          "precision": 0.375,
+          "recall": 1.0,
+          "f1": 0.5455
+        },
+        "Shopping": {
+          "total_images": 11,
+          "correct_images": 4,
+          "accuracy": 0.3636,
+          "precision": 0.5,
+          "recall": 0.3636,
+          "f1": 0.4211
+        },
+        "Travel": {
+          "total_images": 5,
+          "correct_images": 3,
+          "accuracy": 0.6,
+          "precision": 1.0,
+          "recall": 0.6,
+          "f1": 0.75
+        },
+        "Work & Career": {
+          "total_images": 6,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "latency_breakdown_ms": {
+        "ocr_latency": 7642.19,
+        "minilm_embedding_latency": 40.89,
+        "visual_encoder_latency": 75.05,
+        "fusion_latency": 0.01,
+        "classifier_latency": 0.4011,
+        "total_end_to_end_latency": 7758.54
+      },
+      "footprint_mb": 89.4,
+      "predictions": [
+        "Education",
+        "Work & Career",
+        "Entertainment",
+        "Payment",
+        "Education",
+        "Entertainment",
+        "Education",
+        "Shopping",
+        "Entertainment",
+        "Entertainment",
+        "Communication",
+        "Payment",
+        "Coding",
+        "Education",
+        "Payment",
+        "Connectivity",
+        "Entertainment",
+        "Shopping",
+        "Shopping",
+        "Work & Career",
+        "Coding",
+        "Connectivity",
+        "Connectivity",
+        "Payment",
+        "Coding",
+        "Entertainment",
+        "Connectivity",
+        "Education",
+        "Payment",
+        "Payment",
+        "Education",
+        "Connectivity",
+        "Connectivity",
+        "Entertainment",
+        "Travel",
+        "Coding",
+        "Shopping",
+        "Shopping",
+        "Connectivity",
+        "Education",
+        "Connectivity",
+        "Shopping",
+        "Education",
+        "Education",
+        "Coding",
+        "Travel",
+        "Payment",
+        "Travel",
+        "Payment",
+        "Coding",
+        "Entertainment",
+        "Education",
+        "Entertainment",
+        "Entertainment",
+        "Education",
+        "Education",
+        "Shopping",
+        "Education",
+        "Communication",
+        "Shopping"
+      ]
+    },
+    "MiniLM + TinyCLIP-40M + LogReg": {
+      "top1_accuracy": 0.6333,
+      "top2_recall": 0.8167,
+      "top3_recall": 0.8333,
+      "macro_precision": 0.3317,
+      "macro_recall": 0.4136,
+      "macro_f1": 0.3573,
+      "per_category": {
+        "Coding": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Communication": {
+          "total_images": 2,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Education": {
+          "total_images": 22,
+          "correct_images": 16,
+          "accuracy": 0.7273,
+          "precision": 0.7273,
+          "recall": 0.7273,
+          "f1": 0.7273
+        },
+        "Entertainment": {
+          "total_images": 8,
+          "correct_images": 4,
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5
+        },
+        "General": {
+          "total_images": 2,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Payment": {
+          "total_images": 3,
+          "correct_images": 3,
+          "accuracy": 1.0,
+          "precision": 0.375,
+          "recall": 1.0,
+          "f1": 0.5455
+        },
+        "Shopping": {
+          "total_images": 11,
+          "correct_images": 10,
+          "accuracy": 0.9091,
+          "precision": 0.7143,
+          "recall": 0.9091,
+          "f1": 0.8
+        },
+        "Travel": {
+          "total_images": 5,
+          "correct_images": 5,
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "Work & Career": {
+          "total_images": 6,
+          "correct_images": 0,
+          "accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "latency_breakdown_ms": {
+        "ocr_latency": 7642.19,
+        "minilm_embedding_latency": 40.89,
+        "visual_encoder_latency": 76.67,
+        "fusion_latency": 0.01,
+        "classifier_latency": 0.2088,
+        "total_end_to_end_latency": 7759.97
+      },
+      "footprint_mb": 321.2,
+      "predictions": [
+        "Education",
+        "Shopping",
+        "Entertainment",
+        "Payment",
+        "Education",
+        "Education",
+        "Education",
+        "Education",
+        "Entertainment",
+        "Education",
+        "Education",
+        "Education",
+        "Coding",
+        "Education",
+        "Education",
+        "Education",
+        "Shopping",
+        "Shopping",
+        "Shopping",
+        "Payment",
+        "Shopping",
+        "Shopping",
+        "Education",
+        "Education",
+        "Education",
+        "Shopping",
+        "Shopping",
+        "Education",
+        "Shopping",
+        "Payment",
+        "Payment",
+        "Shopping",
+        "Education",
+        "Entertainment",
+        "Travel",
+        "Payment",
+        "Shopping",
+        "Entertainment",
+        "Connectivity",
+        "Entertainment",
+        "Shopping",
+        "Travel",
+        "Education",
+        "Education",
+        "Shopping",
+        "Travel",
+        "Travel",
+        "Travel",
+        "Payment",
+        "Coding",
+        "Entertainment",
+        "Education",
+        "Entertainment",
+        "Entertainment",
+        "Payment",
+        "Education",
+        "Shopping",
+        "Payment",
+        "Education",
+        "Education"
+      ]
+    }
+  },
+  "error_analysis": {
+    "best_compact_candidate": "MiniLM + TinyCLIP-8M + LogReg",
+    "total_external_images": 60,
+    "baseline_correct": 33,
+    "full_clip_correct": 43,
+    "compact_candidate_correct": 33,
+    "corrected_by_compact_count": 11,
+    "introduced_by_compact_count": 11,
+    "unchanged_error_count": 16,
+    "errors_corrected": [
+      {
+        "filename": "ext_001.jpg",
+        "ground_truth": "Education",
+        "baseline": "Coding",
+        "compact": "Education"
+      },
+      {
+        "filename": "ext_013.jpg",
+        "ground_truth": "Education",
+        "baseline": "Communication",
+        "compact": "Education"
+      },
+      {
+        "filename": "ext_020.jpg",
+        "ground_truth": "Education",
+        "baseline": "Work & Career",
+        "compact": "Education"
+      },
+      {
+        "filename": "ext_023.jpg",
+        "ground_truth": "Education",
+        "baseline": "Connectivity",
+        "compact": "Education"
+      },
+      {
+        "filename": "ext_026.jpg",
+        "ground_truth": "Entertainment",
+        "baseline": "Shopping",
+        "compact": "Entertainment"
+      },
+      {
+        "filename": "ext_030.jpg",
+        "ground_truth": "Payment",
+        "baseline": "Shopping",
+        "compact": "Payment"
+      },
+      {
+        "filename": "ext_031.jpg",
+        "ground_truth": "Education",
+        "baseline": "Work & Career",
+        "compact": "Education"
+      },
+      {
+        "filename": "ext_043.jpg",
+        "ground_truth": "Education",
+        "baseline": "Communication",
+        "compact": "Education"
+      },
+      {
+        "filename": "ext_055.jpg",
+        "ground_truth": "Education",
+        "baseline": "Payment",
+        "compact": "Education"
+      },
+      {
+        "filename": "ext_058.jpg",
+        "ground_truth": "Education",
+        "baseline": "Coding",
+        "compact": "Education"
+      },
+      {
+        "filename": "ext_059.jpg",
+        "ground_truth": "Education",
+        "baseline": "Communication",
+        "compact": "Education"
+      }
+    ],
+    "errors_introduced": [
+      {
+        "filename": "ext_002.jpg",
+        "ground_truth": "Shopping",
+        "baseline": "Shopping",
+        "compact": "Coding"
+      },
+      {
+        "filename": "ext_010.jpg",
+        "ground_truth": "Education",
+        "baseline": "Education",
+        "compact": "Entertainment"
+      },
+      {
+        "filename": "ext_017.jpg",
+        "ground_truth": "Shopping",
+        "baseline": "Shopping",
+        "compact": "Entertainment"
+      },
+      {
+        "filename": "ext_021.jpg",
+        "ground_truth": "Coding",
+        "baseline": "Coding",
+        "compact": "Shopping"
+      },
+      {
+        "filename": "ext_022.jpg",
+        "ground_truth": "Entertainment",
+        "baseline": "Entertainment",
+        "compact": "Travel"
+      },
+      {
+        "filename": "ext_029.jpg",
+        "ground_truth": "Shopping",
+        "baseline": "Shopping",
+        "compact": "Payment"
+      },
+      {
+        "filename": "ext_041.jpg",
+        "ground_truth": "Work & Career",
+        "baseline": "Work & Career",
+        "compact": "Shopping"
+      },
+      {
+        "filename": "ext_042.jpg",
+        "ground_truth": "Travel",
+        "baseline": "Travel",
+        "compact": "Shopping"
+      },
+      {
+        "filename": "ext_045.jpg",
+        "ground_truth": "Shopping",
+        "baseline": "Shopping",
+        "compact": "Education"
+      },
+      {
+        "filename": "ext_047.jpg",
+        "ground_truth": "Travel",
+        "baseline": "Travel",
+        "compact": "Payment"
+      },
+      {
+        "filename": "ext_054.jpg",
+        "ground_truth": "Entertainment",
+        "baseline": "Entertainment",
+        "compact": "Education"
+      }
+    ]
+  },
+  "integrity_checklist": {
+    "external_images_modified": false,
+    "external_labels_modified": false,
+    "external_data_used_for_training": false,
+    "external_data_used_for_model_selection": false,
+    "production_classifier_modified": false,
+    "chromadb_modified": false,
+    "new_dataset_added": false,
+    "commit_or_push": false
+  }
+}

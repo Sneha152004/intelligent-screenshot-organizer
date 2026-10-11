@@ -1,0 +1,14 @@
+visual_screen_type,existing_verified_count,candidate_metadata_count,candidates_requiring_human_review,unannotated_candidates_count,coverage_status
+product_listing,0,8,8,8,CANDIDATE_UNVERIFIED
+product_detail,137,125,1,0,VERIFIED_TRAINABLE
+cart_checkout_payment,19,25,6,6,VERIFIED_LIMITED
+login_authentication,0,1,1,1,CANDIDATE_UNVERIFIED
+messaging_chat,0,13,13,13,CANDIDATE_UNVERIFIED
+email_view,0,60,60,60,CANDIDATE_UNVERIFIED
+media_player_library,0,127,127,127,CANDIDATE_UNVERIFIED
+code_editor_terminal,48,16,3,0,VERIFIED_TRAINABLE
+document_article_view,602,234,0,0,VERIFIED_TRAINABLE
+travel_booking,0,121,121,121,CANDIDATE_UNVERIFIED
+dashboard_settings,27,101,93,74,VERIFIED_LIMITED
+error_dialog_alert,0,5,5,5,CANDIDATE_UNVERIFIED
+other_screen,0,0,0,0,UNSUPPORTED_NO_DATA

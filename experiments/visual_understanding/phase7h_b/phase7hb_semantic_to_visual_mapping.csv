@@ -1,0 +1,837 @@
+screenshot_id,image_path,semantic_category,semantic_notes,current_visual_screen_type,proposed_candidate_screen_type,match_status
+ss_001.jpg,data/screenshots/ss_001.jpg,Coding,VS Code screenshot showing the RAGNOVA document-ingestion/embedding pipeline in Python.,code_editor_terminal,code_editor_terminal,EXACT_MATCH
+ss_002.jpg,data/screenshots/ss_002.jpg,Coding,VS Code screenshot showing RAGNOVA document-processing code for chunking and embeddings.,code_editor_terminal,code_editor_terminal,EXACT_MATCH
+ss_003.jpg,data/screenshots/ss_003.jpg,Coding,VS Code screenshot showing Python code from the RAGNOVA document-intelligence project.,code_editor_terminal,code_editor_terminal,EXACT_MATCH
+ss_004.jpg,data/screenshots/ss_004.jpg,Coding,VS Code screenshot showing RAGNOVA project source code and document-processing files.,code_editor_terminal,code_editor_terminal,EXACT_MATCH
+ss_005.jpg,data/screenshots/ss_005.jpg,Coding,Python/Matplotlib code generating a product-sales bar chart for January through May.,code_editor_terminal,code_editor_terminal,EXACT_MATCH
+ss_006.jpg,data/screenshots/ss_006.jpg,Coding,Screenshot showing programming or software-development content.,document_article_view,document_article_view,EXACT_MATCH
+ss_007.jpg,data/screenshots/ss_007.jpg,Coding,Screenshot showing programming or software-development content.,code_editor_terminal,document_article_view,RECONCILIATION_CANDIDATE
+ss_008.jpg,data/screenshots/ss_008.jpg,Coding,Screenshot showing programming or software-development content.,product_detail,document_article_view,RECONCILIATION_CANDIDATE
+ss_009.jpg,data/screenshots/ss_009.jpg,Coding,Screenshot showing programming or software-development content.,code_editor_terminal,document_article_view,RECONCILIATION_CANDIDATE
+ss_010.jpg,data/screenshots/ss_010.jpg,Coding,Screenshot showing programming or software-development content.,document_article_view,document_article_view,EXACT_MATCH
+ss_011.jpg,data/screenshots/ss_011.jpg,Coding,Screenshot showing programming or software-development content.,document_article_view,document_article_view,EXACT_MATCH
+ss_012.jpg,data/screenshots/ss_012.jpg,Coding,Screenshot showing Python data-science code using common ML/data libraries.,code_editor_terminal,code_editor_terminal,EXACT_MATCH
+ss_013.jpg,data/screenshots/ss_013.jpg,Coding,Screenshot showing Python data-science code using common ML/data libraries.,code_editor_terminal,code_editor_terminal,EXACT_MATCH
+ss_014.jpg,data/screenshots/ss_014.jpg,Coding,Screenshot showing Python data-science code using common ML/data libraries.,code_editor_terminal,code_editor_terminal,EXACT_MATCH
+ss_015.jpg,data/screenshots/ss_015.jpg,Coding,Screenshot showing Python data-science code using common ML/data libraries.,code_editor_terminal,code_editor_terminal,EXACT_MATCH
+ss_016.jpg,data/screenshots/ss_016.jpg,Coding,Screenshot showing Python data-science code using common ML/data libraries.,code_editor_terminal,code_editor_terminal,EXACT_MATCH
+ss_017.jpg,data/screenshots/ss_017.jpg,Coding,Screenshot showing Python data-science code using common ML/data libraries.,code_editor_terminal,code_editor_terminal,EXACT_MATCH
+ss_018.jpg,data/screenshots/ss_018.jpg,Coding,Screenshot showing Python data-science code using common ML/data libraries.,code_editor_terminal,code_editor_terminal,EXACT_MATCH
+ss_019.jpg,data/screenshots/ss_019.jpg,Coding,Screenshot showing programming or software-development content.,document_article_view,document_article_view,EXACT_MATCH
+ss_020.jpg,data/screenshots/ss_020.jpg,Coding,Screenshot showing Python data-science code using common ML/data libraries.,product_detail,code_editor_terminal,RECONCILIATION_CANDIDATE
+ss_021.jpg,data/screenshots/ss_021.jpg,Coding,Screenshot showing Java programming code.,document_article_view,code_editor_terminal,RECONCILIATION_CANDIDATE
+ss_022.jpg,data/screenshots/ss_022.jpg,Coding,Screenshot showing Java programming code.,product_detail,code_editor_terminal,RECONCILIATION_CANDIDATE
+ss_023.jpg,data/screenshots/ss_023.jpg,Coding,Screenshot showing programming or software-development content.,document_article_view,document_article_view,EXACT_MATCH
+ss_024.jpg,data/screenshots/ss_024.jpg,Coding,Screenshot showing programming or software-development content.,document_article_view,document_article_view,EXACT_MATCH
+ss_025.jpg,data/screenshots/ss_025.jpg,Coding,Screenshot showing programming or software-development content.,document_article_view,document_article_view,EXACT_MATCH
+ss_026.jpg,data/screenshots/ss_026.jpg,Coding,Screenshot showing programming or software-development content.,product_detail,document_article_view,RECONCILIATION_CANDIDATE
+ss_027.jpg,data/screenshots/ss_027.jpg,Coding,Screenshot showing programming or software-development content.,document_article_view,document_article_view,EXACT_MATCH
+ss_028.jpg,data/screenshots/ss_028.jpg,Coding,Screenshot showing programming or software-development content.,document_article_view,document_article_view,EXACT_MATCH
+ss_029.jpg,data/screenshots/ss_029.jpg,Coding,Screenshot showing programming or software-development content.,document_article_view,document_article_view,EXACT_MATCH
+ss_030.jpg,data/screenshots/ss_030.jpg,Coding,Screenshot showing programming or software-development content.,document_article_view,document_article_view,EXACT_MATCH
+ss_031.jpg,data/screenshots/ss_031.jpg,Coding,Screenshot showing programming or software-development content.,document_article_view,document_article_view,EXACT_MATCH
+ss_032.jpg,data/screenshots/ss_032.jpg,Coding,Screenshot showing programming or software-development content.,document_article_view,document_article_view,EXACT_MATCH
+ss_033.jpg,data/screenshots/ss_033.jpg,Coding,Screenshot showing programming or software-development content.,document_article_view,document_article_view,EXACT_MATCH
+ss_034.jpg,data/screenshots/ss_034.jpg,Coding,Screenshot showing programming or software-development content.,code_editor_terminal,document_article_view,RECONCILIATION_CANDIDATE
+ss_035.jpg,data/screenshots/ss_035.jpg,Coding,Screenshot showing programming or software-development content.,code_editor_terminal,document_article_view,RECONCILIATION_CANDIDATE
+ss_036.jpg,data/screenshots/ss_036.jpg,Coding,Screenshot showing programming or software-development content.,code_editor_terminal,document_article_view,RECONCILIATION_CANDIDATE
+ss_037.jpg,data/screenshots/ss_037.jpg,Coding,Screenshot showing programming or software-development content.,code_editor_terminal,document_article_view,RECONCILIATION_CANDIDATE
+ss_038.jpg,data/screenshots/ss_038.jpg,Coding,Screenshot showing programming or software-development content.,document_article_view,document_article_view,EXACT_MATCH
+ss_039.jpg,data/screenshots/ss_039.jpg,Coding,Screenshot showing programming or software-development content.,document_article_view,document_article_view,EXACT_MATCH
+ss_040.jpg,data/screenshots/ss_040.jpg,Coding,Screenshot showing programming or software-development content.,code_editor_terminal,document_article_view,RECONCILIATION_CANDIDATE
+ss_041.jpg,data/screenshots/ss_041.jpg,Coding,Screenshot showing programming or software-development content.,code_editor_terminal,document_article_view,RECONCILIATION_CANDIDATE
+ss_042.jpg,data/screenshots/ss_042.jpg,Coding,Screenshot showing programming or software-development content.,code_editor_terminal,document_article_view,RECONCILIATION_CANDIDATE
+ss_043.jpg,data/screenshots/ss_043.jpg,Coding,Screenshot showing programming or software-development content.,code_editor_terminal,document_article_view,RECONCILIATION_CANDIDATE
+ss_044.jpg,data/screenshots/ss_044.jpg,Coding,Screenshot showing programming or software-development content.,code_editor_terminal,document_article_view,RECONCILIATION_CANDIDATE
+ss_045.jpg,data/screenshots/ss_045.jpg,Coding,Screenshot showing programming or software-development content.,code_editor_terminal,document_article_view,RECONCILIATION_CANDIDATE
+ss_046.jpg,data/screenshots/ss_046.jpg,Coding,Screenshot showing programming or software-development content.,code_editor_terminal,document_article_view,RECONCILIATION_CANDIDATE
+ss_047.jpg,data/screenshots/ss_047.jpg,Coding,Screenshot showing programming or software-development content.,code_editor_terminal,document_article_view,RECONCILIATION_CANDIDATE
+ss_048.jpg,data/screenshots/ss_048.jpg,Coding,Screenshot showing programming or software-development content.,code_editor_terminal,document_article_view,RECONCILIATION_CANDIDATE
+ss_049.jpg,data/screenshots/ss_049.jpg,Coding,Screenshot showing programming or software-development content.,code_editor_terminal,document_article_view,RECONCILIATION_CANDIDATE
+ss_050.jpg,data/screenshots/ss_050.jpg,Coding,"Kaggle notebook showing a linear-regression workflow, including data preparation and model evaluation.",code_editor_terminal,code_editor_terminal,EXACT_MATCH
+ss_051.jpg,data/screenshots/ss_051.jpg,Coding,Screenshot showing programming or software-development content.,code_editor_terminal,document_article_view,RECONCILIATION_CANDIDATE
+ss_052.jpg,data/screenshots/ss_052.jpg,Coding,Screenshot showing programming or software-development content.,code_editor_terminal,document_article_view,RECONCILIATION_CANDIDATE
+ss_053.jpg,data/screenshots/ss_053.jpg,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_054.jpg,data/screenshots/ss_054.jpg,Coding,Screenshot showing programming or software-development content.,document_article_view,document_article_view,EXACT_MATCH
+ss_055.jpg,data/screenshots/ss_055.jpg,Coding,Screenshot showing programming or software-development content.,document_article_view,document_article_view,EXACT_MATCH
+ss_056.jpg,data/screenshots/ss_056.jpg,Coding,Screenshot showing programming or software-development content.,code_editor_terminal,document_article_view,RECONCILIATION_CANDIDATE
+ss_057.jpg,data/screenshots/ss_057.jpg,Coding,Screenshot showing programming or software-development content.,document_article_view,document_article_view,EXACT_MATCH
+ss_058.jpg,data/screenshots/ss_058.jpg,Coding,Screenshot showing programming or software-development content.,document_article_view,document_article_view,EXACT_MATCH
+ss_059.jpg,data/screenshots/ss_059.jpg,Coding,Screenshot showing programming or software-development content.,document_article_view,document_article_view,EXACT_MATCH
+ss_060.jpg,data/screenshots/ss_060.jpg,Coding,Screenshot showing programming or software-development content.,document_article_view,document_article_view,EXACT_MATCH
+ss_061.jpg,data/screenshots/ss_061.jpg,Connectivity,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_062.jpg,data/screenshots/ss_062.jpg,Coding,Screenshot showing programming or software-development content.,code_editor_terminal,document_article_view,RECONCILIATION_CANDIDATE
+ss_063.jpg,data/screenshots/ss_063.jpg,Connectivity,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_064.jpg,data/screenshots/ss_064.jpg,Connectivity,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_065.jpg,data/screenshots/ss_065.jpg,Connectivity,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_066.jpg,data/screenshots/ss_066.jpg,Connectivity,Screenshot showing Wi-Fi/mobile-network or device connectivity.,document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_067.jpg,data/screenshots/ss_067.jpg,Connectivity,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",dashboard_settings,dashboard_settings,EXACT_MATCH
+ss_068.jpg,data/screenshots/ss_068.jpg,Connectivity,Screenshot showing Wi-Fi/mobile-network or device connectivity.,document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_069.jpg,data/screenshots/ss_069.jpg,Connectivity,Screenshot showing Wi-Fi/mobile-network or device connectivity.,document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_070.jpg,data/screenshots/ss_070.jpg,Coding,Screenshot showing programming or software-development content.,code_editor_terminal,document_article_view,RECONCILIATION_CANDIDATE
+ss_071.jpg,data/screenshots/ss_071.jpg,Connectivity,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_072.jpg,data/screenshots/ss_072.jpg,Connectivity,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_073.jpg,data/screenshots/ss_073.jpg,Connectivity,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",dashboard_settings,dashboard_settings,EXACT_MATCH
+ss_074.jpg,data/screenshots/ss_074.jpg,Connectivity,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_075.jpg,data/screenshots/ss_075.jpg,Connectivity,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_076.jpg,data/screenshots/ss_076.jpg,Connectivity,Screenshot showing network connectivity/error status.,document_article_view,error_dialog_alert,RECONCILIATION_CANDIDATE
+ss_077.jpg,data/screenshots/ss_077.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_078.jpg,data/screenshots/ss_078.jpg,Connectivity,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_079.jpg,data/screenshots/ss_079.jpg,Connectivity,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",dashboard_settings,dashboard_settings,EXACT_MATCH
+ss_080.jpg,data/screenshots/ss_080.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",dashboard_settings,dashboard_settings,EXACT_MATCH
+ss_081.jpg,data/screenshots/ss_081.jpg,Connectivity,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",dashboard_settings,dashboard_settings,EXACT_MATCH
+ss_082.jpg,data/screenshots/ss_082.jpg,Connectivity,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_083.jpg,data/screenshots/ss_083.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_084.jpg,data/screenshots/ss_084.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_085.jpg,data/screenshots/ss_085.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_086.jpg,data/screenshots/ss_086.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_087.jpg,data/screenshots/ss_087.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_088.jpg,data/screenshots/ss_088.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_089.jpg,data/screenshots/ss_089.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_090.jpg,data/screenshots/ss_090.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_091.jpg,data/screenshots/ss_091.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_092.png,data/screenshots/ss_092.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_093.jpg,data/screenshots/ss_093.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_094.png,data/screenshots/ss_094.png,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_095.jpg,data/screenshots/ss_095.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_096.png,data/screenshots/ss_096.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_097.jpg,data/screenshots/ss_097.jpg,Payment,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",cart_checkout_payment,cart_checkout_payment,EXACT_MATCH
+ss_098.png,data/screenshots/ss_098.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_099.jpg,data/screenshots/ss_099.jpg,Payment,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",cart_checkout_payment,cart_checkout_payment,EXACT_MATCH
+ss_100.png,data/screenshots/ss_100.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_101.jpg,data/screenshots/ss_101.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_102.png,data/screenshots/ss_102.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_103.jpg,data/screenshots/ss_103.jpg,Entertainment,Screenshot showing music/player content.,dashboard_settings,media_player_library,RECONCILIATION_CANDIDATE
+ss_104.png,data/screenshots/ss_104.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_105.jpg,data/screenshots/ss_105.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_106.png,data/screenshots/ss_106.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_107.jpg,data/screenshots/ss_107.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_108.png,data/screenshots/ss_108.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_109.jpg,data/screenshots/ss_109.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_110.png,data/screenshots/ss_110.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_111.jpg,data/screenshots/ss_111.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_112.png,data/screenshots/ss_112.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_113.jpg,data/screenshots/ss_113.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_114.png,data/screenshots/ss_114.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_115.jpg,data/screenshots/ss_115.jpg,Payment,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",cart_checkout_payment,cart_checkout_payment,EXACT_MATCH
+ss_116.png,data/screenshots/ss_116.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_117.jpg,data/screenshots/ss_117.jpg,Payment,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",cart_checkout_payment,cart_checkout_payment,EXACT_MATCH
+ss_118.png,data/screenshots/ss_118.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_119.jpg,data/screenshots/ss_119.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_120.png,data/screenshots/ss_120.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_121.jpg,data/screenshots/ss_121.jpg,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_122.png,data/screenshots/ss_122.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_123.jpg,data/screenshots/ss_123.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_124.png,data/screenshots/ss_124.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_125.jpg,data/screenshots/ss_125.jpg,Travel,Screenshot showing travel booking or ticket information.,document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_126.png,data/screenshots/ss_126.png,Payment,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",cart_checkout_payment,cart_checkout_payment,EXACT_MATCH
+ss_127.jpg,data/screenshots/ss_127.jpg,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_128.png,data/screenshots/ss_128.png,Entertainment,Screenshot showing music/player content.,dashboard_settings,media_player_library,RECONCILIATION_CANDIDATE
+ss_129.jpg,data/screenshots/ss_129.jpg,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_130.png,data/screenshots/ss_130.png,Entertainment,Screenshot showing music/player content.,dashboard_settings,media_player_library,RECONCILIATION_CANDIDATE
+ss_131.jpg,data/screenshots/ss_131.jpg,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_132.png,data/screenshots/ss_132.png,Entertainment,Screenshot showing music/player content.,dashboard_settings,media_player_library,RECONCILIATION_CANDIDATE
+ss_133.jpg,data/screenshots/ss_133.jpg,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_134.png,data/screenshots/ss_134.png,Entertainment,Screenshot showing music/player content.,dashboard_settings,media_player_library,RECONCILIATION_CANDIDATE
+ss_135.jpg,data/screenshots/ss_135.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_136.png,data/screenshots/ss_136.png,Entertainment,Screenshot showing music/player content.,dashboard_settings,media_player_library,RECONCILIATION_CANDIDATE
+ss_137.png,data/screenshots/ss_137.png,Entertainment,Screenshot showing music/player content.,dashboard_settings,media_player_library,RECONCILIATION_CANDIDATE
+ss_138.png,data/screenshots/ss_138.png,Entertainment,Screenshot showing music/player content.,dashboard_settings,media_player_library,RECONCILIATION_CANDIDATE
+ss_139.png,data/screenshots/ss_139.png,Entertainment,Screenshot showing music/player content.,dashboard_settings,media_player_library,RECONCILIATION_CANDIDATE
+ss_140.png,data/screenshots/ss_140.png,Entertainment,Screenshot showing music/player content.,dashboard_settings,media_player_library,RECONCILIATION_CANDIDATE
+ss_141.png,data/screenshots/ss_141.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_142.png,data/screenshots/ss_142.png,Payment,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",cart_checkout_payment,cart_checkout_payment,EXACT_MATCH
+ss_143.png,data/screenshots/ss_143.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_144.png,data/screenshots/ss_144.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_145.png,data/screenshots/ss_145.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_146.png,data/screenshots/ss_146.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_147.png,data/screenshots/ss_147.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_148.png,data/screenshots/ss_148.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_149.png,data/screenshots/ss_149.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_150.png,data/screenshots/ss_150.png,Shopping,Health-service booking screen showing full-body test packages and options for creating or selecting a package.,product_detail,product_detail,EXACT_MATCH
+ss_151.png,data/screenshots/ss_151.png,Shopping,Screenshot showing product listing/details.,product_detail,product_listing,RECONCILIATION_CANDIDATE
+ss_152.png,data/screenshots/ss_152.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_153.png,data/screenshots/ss_153.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_154.png,data/screenshots/ss_154.png,Shopping,Screenshot showing product listing/details.,product_detail,product_listing,RECONCILIATION_CANDIDATE
+ss_155.jpg,data/screenshots/ss_155.jpg,Payment,Screenshot showing payment or transaction details.,cart_checkout_payment,cart_checkout_payment,EXACT_MATCH
+ss_156.jpg,data/screenshots/ss_156.jpg,Travel,Screenshot showing flight/boarding-pass details.,dashboard_settings,travel_booking,RECONCILIATION_CANDIDATE
+ss_157.jpg,data/screenshots/ss_157.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_158.jpg,data/screenshots/ss_158.jpg,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_159.jpg,data/screenshots/ss_159.jpg,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_160.jpg,data/screenshots/ss_160.jpg,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_161.jpg,data/screenshots/ss_161.jpg,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_162.jpg,data/screenshots/ss_162.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_163.jpg,data/screenshots/ss_163.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_164.jpg,data/screenshots/ss_164.jpg,Shopping,"Screenshot showing product pricing, offers, or discounts.",product_detail,product_detail,EXACT_MATCH
+ss_165.jpg,data/screenshots/ss_165.jpg,Shopping,"Screenshot showing product pricing, offers, or discounts.",product_detail,product_detail,EXACT_MATCH
+ss_166.jpg,data/screenshots/ss_166.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_167.jpg,data/screenshots/ss_167.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_168.jpg,data/screenshots/ss_168.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_169.jpg,data/screenshots/ss_169.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_170.jpg,data/screenshots/ss_170.jpg,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_171.jpg,data/screenshots/ss_171.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_172.jpg,data/screenshots/ss_172.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_173.jpg,data/screenshots/ss_173.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_174.png,data/screenshots/ss_174.png,Shopping,Screenshot showing product listing/details.,product_detail,product_listing,RECONCILIATION_CANDIDATE
+ss_175.jpg,data/screenshots/ss_175.jpg,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_176.png,data/screenshots/ss_176.png,Shopping,Screenshot showing product listing/details.,product_detail,product_listing,RECONCILIATION_CANDIDATE
+ss_177.jpg,data/screenshots/ss_177.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_178.png,data/screenshots/ss_178.png,Shopping,Screenshot showing product listing/details.,product_detail,product_listing,RECONCILIATION_CANDIDATE
+ss_179.jpg,data/screenshots/ss_179.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_180.png,data/screenshots/ss_180.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_181.jpg,data/screenshots/ss_181.jpg,Education,Screenshot showing college/academic information.,dashboard_settings,document_article_view,RECONCILIATION_CANDIDATE
+ss_182.png,data/screenshots/ss_182.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_183.png,data/screenshots/ss_183.png,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_184.png,data/screenshots/ss_184.png,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_185.png,data/screenshots/ss_185.png,Shopping,"Screenshot showing order, delivery, or review details.",product_detail,product_detail,EXACT_MATCH
+ss_186.png,data/screenshots/ss_186.png,Shopping,"Screenshot showing order, delivery, or review details.",product_detail,product_detail,EXACT_MATCH
+ss_187.png,data/screenshots/ss_187.png,Shopping,"Screenshot showing order, delivery, or review details.",product_detail,product_detail,EXACT_MATCH
+ss_188.png,data/screenshots/ss_188.png,Shopping,"Screenshot showing order, delivery, or review details.",product_detail,product_detail,EXACT_MATCH
+ss_189.png,data/screenshots/ss_189.png,Shopping,"Screenshot showing order, delivery, or review details.",product_detail,product_detail,EXACT_MATCH
+ss_190.png,data/screenshots/ss_190.png,Shopping,"Screenshot showing order, delivery, or review details.",product_detail,product_detail,EXACT_MATCH
+ss_191.png,data/screenshots/ss_191.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_192.png,data/screenshots/ss_192.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_193.png,data/screenshots/ss_193.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_194.png,data/screenshots/ss_194.png,Entertainment,Screenshot showing Spotify/music subscription screen.,document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_195.png,data/screenshots/ss_195.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_196.png,data/screenshots/ss_196.png,Entertainment,Screenshot showing music/player content.,dashboard_settings,media_player_library,RECONCILIATION_CANDIDATE
+ss_197.png,data/screenshots/ss_197.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_198.png,data/screenshots/ss_198.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_199.png,data/screenshots/ss_199.png,Entertainment,Screenshot showing Spotify/music subscription screen.,document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_200.png,data/screenshots/ss_200.png,Entertainment,Spotify screen promoting a three-month Premium Standard offer with music playback and subscription details.,document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_201.png,data/screenshots/ss_201.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_202.png,data/screenshots/ss_202.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_203.png,data/screenshots/ss_203.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_204.png,data/screenshots/ss_204.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_205.png,data/screenshots/ss_205.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_206.png,data/screenshots/ss_206.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_207.png,data/screenshots/ss_207.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_208.png,data/screenshots/ss_208.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_209.png,data/screenshots/ss_209.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_210.png,data/screenshots/ss_210.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_211.png,data/screenshots/ss_211.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_212.png,data/screenshots/ss_212.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_213.png,data/screenshots/ss_213.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_214.png,data/screenshots/ss_214.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_215.png,data/screenshots/ss_215.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_216.png,data/screenshots/ss_216.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_217.png,data/screenshots/ss_217.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_218.png,data/screenshots/ss_218.png,Payment,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",cart_checkout_payment,cart_checkout_payment,EXACT_MATCH
+ss_219.jpg,data/screenshots/ss_219.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_220.png,data/screenshots/ss_220.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_221.jpg,data/screenshots/ss_221.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_222.png,data/screenshots/ss_222.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_223.jpg,data/screenshots/ss_223.jpg,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_224.png,data/screenshots/ss_224.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_225.jpg,data/screenshots/ss_225.jpg,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_226.png,data/screenshots/ss_226.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_227.jpg,data/screenshots/ss_227.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_228.png,data/screenshots/ss_228.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_229.jpg,data/screenshots/ss_229.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_230.png,data/screenshots/ss_230.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_231.jpg,data/screenshots/ss_231.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_232.png,data/screenshots/ss_232.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_233.jpg,data/screenshots/ss_233.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_234.png,data/screenshots/ss_234.png,Shopping,"Screenshot showing order, delivery, or review details.",product_detail,product_detail,EXACT_MATCH
+ss_235.jpg,data/screenshots/ss_235.jpg,Education,"Screenshot showing exam, assignment, or question content.",document_article_view,document_article_view,EXACT_MATCH
+ss_236.png,data/screenshots/ss_236.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_237.jpg,data/screenshots/ss_237.jpg,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_238.png,data/screenshots/ss_238.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_239.jpg,data/screenshots/ss_239.jpg,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_240.png,data/screenshots/ss_240.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_241.jpg,data/screenshots/ss_241.jpg,Education,"Screenshot showing exam, assignment, or question content.",document_article_view,document_article_view,EXACT_MATCH
+ss_242.png,data/screenshots/ss_242.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_243.jpg,data/screenshots/ss_243.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_244.png,data/screenshots/ss_244.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_245.jpg,data/screenshots/ss_245.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_246.png,data/screenshots/ss_246.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_247.jpg,data/screenshots/ss_247.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_248.png,data/screenshots/ss_248.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_249.jpg,data/screenshots/ss_249.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_250.png,data/screenshots/ss_250.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_251.jpg,data/screenshots/ss_251.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_252.png,data/screenshots/ss_252.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_253.jpg,data/screenshots/ss_253.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_254.png,data/screenshots/ss_254.png,Shopping,"Screenshot showing product pricing, offers, or discounts.",product_detail,product_detail,EXACT_MATCH
+ss_255.jpg,data/screenshots/ss_255.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_256.png,data/screenshots/ss_256.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_257.jpg,data/screenshots/ss_257.jpg,General,Screenshot showing account/settings or login screen.,document_article_view,login_authentication,RECONCILIATION_CANDIDATE
+ss_258.png,data/screenshots/ss_258.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_259.jpg,data/screenshots/ss_259.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_260.png,data/screenshots/ss_260.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_261.jpg,data/screenshots/ss_261.jpg,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_262.png,data/screenshots/ss_262.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_263.jpg,data/screenshots/ss_263.jpg,Education,Screenshot showing study or course material.,document_article_view,document_article_view,EXACT_MATCH
+ss_264.png,data/screenshots/ss_264.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_265.jpg,data/screenshots/ss_265.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_266.png,data/screenshots/ss_266.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_267.jpg,data/screenshots/ss_267.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_268.png,data/screenshots/ss_268.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_269.jpg,data/screenshots/ss_269.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_270.png,data/screenshots/ss_270.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_271.jpg,data/screenshots/ss_271.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_272.png,data/screenshots/ss_272.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_273.jpg,data/screenshots/ss_273.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_274.png,data/screenshots/ss_274.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_275.jpg,data/screenshots/ss_275.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_276.png,data/screenshots/ss_276.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_277.jpg,data/screenshots/ss_277.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_278.png,data/screenshots/ss_278.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_279.jpg,data/screenshots/ss_279.jpg,Payment,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",cart_checkout_payment,cart_checkout_payment,EXACT_MATCH
+ss_280.png,data/screenshots/ss_280.png,Coding,Screenshot showing programming or software-development content.,document_article_view,document_article_view,EXACT_MATCH
+ss_281.jpg,data/screenshots/ss_281.jpg,Shopping,"Screenshot showing product pricing, offers, or discounts.",product_detail,product_detail,EXACT_MATCH
+ss_282.png,data/screenshots/ss_282.png,Shopping,Screenshot showing product listing/details.,product_detail,product_listing,RECONCILIATION_CANDIDATE
+ss_283.jpg,data/screenshots/ss_283.jpg,General,Screenshot showing health-service information screen.,document_article_view,document_article_view,EXACT_MATCH
+ss_284.png,data/screenshots/ss_284.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_285.jpg,data/screenshots/ss_285.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_286.png,data/screenshots/ss_286.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_287.jpg,data/screenshots/ss_287.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_288.png,data/screenshots/ss_288.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_289.jpg,data/screenshots/ss_289.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_290.png,data/screenshots/ss_290.png,Work and career,Screenshot showing job/career application content.,document_article_view,document_article_view,EXACT_MATCH
+ss_291.jpg,data/screenshots/ss_291.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_292.png,data/screenshots/ss_292.png,Work and career,Screenshot showing job/career application content.,document_article_view,document_article_view,EXACT_MATCH
+ss_293.jpg,data/screenshots/ss_293.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_294.png,data/screenshots/ss_294.png,Work and career,Screenshot showing work or service-management dashboard.,document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_295.jpg,data/screenshots/ss_295.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_296.png,data/screenshots/ss_296.png,Work and career,Screenshot showing work or service-management dashboard.,document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_297.jpg,data/screenshots/ss_297.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_298.png,data/screenshots/ss_298.png,Work and career,Screenshot showing job/career application content.,document_article_view,document_article_view,EXACT_MATCH
+ss_299.jpg,data/screenshots/ss_299.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_300.png,data/screenshots/ss_300.png,Work and career,iMaintenance work-management screen showing a welcome/onboarding message and work-order functionality.,document_article_view,document_article_view,EXACT_MATCH
+ss_301.jpg,data/screenshots/ss_301.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_302.png,data/screenshots/ss_302.png,Work and career,Screenshot showing work or service-management dashboard.,document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_303.jpg,data/screenshots/ss_303.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_304.png,data/screenshots/ss_304.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_305.jpg,data/screenshots/ss_305.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_306.png,data/screenshots/ss_306.png,Work and career,Screenshot showing work or service-management dashboard.,document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_307.jpg,data/screenshots/ss_307.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_308.png,data/screenshots/ss_308.png,Work and career,Screenshot showing work or service-management dashboard.,document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_309.jpg,data/screenshots/ss_309.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_310.png,data/screenshots/ss_310.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_311.jpg,data/screenshots/ss_311.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_312.png,data/screenshots/ss_312.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_313.jpg,data/screenshots/ss_313.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_314.png,data/screenshots/ss_314.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_315.jpg,data/screenshots/ss_315.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_316.png,data/screenshots/ss_316.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_317.png,data/screenshots/ss_317.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_318.png,data/screenshots/ss_318.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_319.png,data/screenshots/ss_319.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_320.png,data/screenshots/ss_320.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_321.png,data/screenshots/ss_321.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_322.png,data/screenshots/ss_322.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_323.png,data/screenshots/ss_323.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_324.png,data/screenshots/ss_324.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_325.png,data/screenshots/ss_325.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_326.png,data/screenshots/ss_326.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_327.png,data/screenshots/ss_327.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_328.png,data/screenshots/ss_328.png,Work and career,Screenshot showing work or service-management dashboard.,document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_329.png,data/screenshots/ss_329.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_330.png,data/screenshots/ss_330.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_331.png,data/screenshots/ss_331.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_332.png,data/screenshots/ss_332.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_333.png,data/screenshots/ss_333.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_334.png,data/screenshots/ss_334.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_335.png,data/screenshots/ss_335.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_336.png,data/screenshots/ss_336.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_337.png,data/screenshots/ss_337.png,Work and career,Screenshot showing work or service-management dashboard.,document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_338.png,data/screenshots/ss_338.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_339.png,data/screenshots/ss_339.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_340.png,data/screenshots/ss_340.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_341.png,data/screenshots/ss_341.png,Payment,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",cart_checkout_payment,cart_checkout_payment,EXACT_MATCH
+ss_342.png,data/screenshots/ss_342.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_343.png,data/screenshots/ss_343.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_344.png,data/screenshots/ss_344.png,Work and career,Screenshot showing job/career application content.,document_article_view,document_article_view,EXACT_MATCH
+ss_345.png,data/screenshots/ss_345.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_346.png,data/screenshots/ss_346.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_347.png,data/screenshots/ss_347.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_348.png,data/screenshots/ss_348.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_349.png,data/screenshots/ss_349.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_350.png,data/screenshots/ss_350.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_351.png,data/screenshots/ss_351.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_352.png,data/screenshots/ss_352.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_353.png,data/screenshots/ss_353.png,Payment,Screenshot showing payment or transaction details.,cart_checkout_payment,cart_checkout_payment,EXACT_MATCH
+ss_354.png,data/screenshots/ss_354.png,Payment,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",cart_checkout_payment,cart_checkout_payment,EXACT_MATCH
+ss_355.png,data/screenshots/ss_355.png,Payment,Screenshot showing payment or transaction details.,cart_checkout_payment,cart_checkout_payment,EXACT_MATCH
+ss_356.png,data/screenshots/ss_356.png,Payment,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",cart_checkout_payment,cart_checkout_payment,EXACT_MATCH
+ss_357.png,data/screenshots/ss_357.png,Payment,Screenshot showing payment or transaction details.,cart_checkout_payment,cart_checkout_payment,EXACT_MATCH
+ss_358.jpg,data/screenshots/ss_358.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_359.png,data/screenshots/ss_359.png,Communication,"Screenshot showing social activity, comments, or posts.",document_article_view,messaging_chat,RECONCILIATION_CANDIDATE
+ss_360.png,data/screenshots/ss_360.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_361.jpg,data/screenshots/ss_361.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_362.png,data/screenshots/ss_362.png,Shopping,"Screenshot showing product pricing, offers, or discounts.",product_detail,product_detail,EXACT_MATCH
+ss_363.png,data/screenshots/ss_363.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_364.jpg,data/screenshots/ss_364.jpg,Payment,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",cart_checkout_payment,cart_checkout_payment,EXACT_MATCH
+ss_365.png,data/screenshots/ss_365.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_366.png,data/screenshots/ss_366.png,Shopping,"Screenshot showing product pricing, offers, or discounts.",product_detail,product_detail,EXACT_MATCH
+ss_367.jpg,data/screenshots/ss_367.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_368.png,data/screenshots/ss_368.png,Shopping,"Screenshot showing product pricing, offers, or discounts.",product_detail,product_detail,EXACT_MATCH
+ss_369.png,data/screenshots/ss_369.png,Shopping,"Screenshot showing product pricing, offers, or discounts.",product_detail,product_detail,EXACT_MATCH
+ss_370.jpg,data/screenshots/ss_370.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_371.png,data/screenshots/ss_371.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_372.png,data/screenshots/ss_372.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_373.jpg,data/screenshots/ss_373.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_374.png,data/screenshots/ss_374.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_375.png,data/screenshots/ss_375.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_376.jpg,data/screenshots/ss_376.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_377.png,data/screenshots/ss_377.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_378.png,data/screenshots/ss_378.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_379.jpg,data/screenshots/ss_379.jpg,Payment,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",cart_checkout_payment,cart_checkout_payment,EXACT_MATCH
+ss_380.png,data/screenshots/ss_380.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_381.png,data/screenshots/ss_381.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_382.jpg,data/screenshots/ss_382.jpg,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_383.png,data/screenshots/ss_383.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_384.png,data/screenshots/ss_384.png,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_385.jpg,data/screenshots/ss_385.jpg,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_386.png,data/screenshots/ss_386.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_387.png,data/screenshots/ss_387.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_388.jpg,data/screenshots/ss_388.jpg,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_389.png,data/screenshots/ss_389.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_390.png,data/screenshots/ss_390.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_391.jpg,data/screenshots/ss_391.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_392.png,data/screenshots/ss_392.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_393.png,data/screenshots/ss_393.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_394.jpg,data/screenshots/ss_394.jpg,Education,Screenshot showing study or course material.,document_article_view,document_article_view,EXACT_MATCH
+ss_395.png,data/screenshots/ss_395.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_396.png,data/screenshots/ss_396.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_397.jpg,data/screenshots/ss_397.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_398.png,data/screenshots/ss_398.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_399.png,data/screenshots/ss_399.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_400.jpg,data/screenshots/ss_400.jpg,General,"Bedtime utility screen for setting a consistent bedtime, with alarm/timer navigation visible.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_401.png,data/screenshots/ss_401.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_402.png,data/screenshots/ss_402.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_403.jpg,data/screenshots/ss_403.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_404.png,data/screenshots/ss_404.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_405.png,data/screenshots/ss_405.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_406.jpg,data/screenshots/ss_406.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_407.png,data/screenshots/ss_407.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_408.png,data/screenshots/ss_408.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_409.jpg,data/screenshots/ss_409.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_410.png,data/screenshots/ss_410.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_411.png,data/screenshots/ss_411.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_412.jpg,data/screenshots/ss_412.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_413.png,data/screenshots/ss_413.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_414.png,data/screenshots/ss_414.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_415.jpg,data/screenshots/ss_415.jpg,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_416.png,data/screenshots/ss_416.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_417.png,data/screenshots/ss_417.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_418.jpg,data/screenshots/ss_418.jpg,General,"Screenshot showing clock, alarm, or bedtime utility.",document_article_view,document_article_view,EXACT_MATCH
+ss_419.png,data/screenshots/ss_419.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_420.png,data/screenshots/ss_420.png,Shopping,"Screenshot showing product pricing, offers, or discounts.",product_detail,product_detail,EXACT_MATCH
+ss_421.jpg,data/screenshots/ss_421.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_422.png,data/screenshots/ss_422.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_423.png,data/screenshots/ss_423.png,Shopping,"Screenshot showing product pricing, offers, or discounts.",product_detail,product_detail,EXACT_MATCH
+ss_424.jpg,data/screenshots/ss_424.jpg,General,"Screenshot showing clock, alarm, or bedtime utility.",document_article_view,document_article_view,EXACT_MATCH
+ss_425.png,data/screenshots/ss_425.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_426.png,data/screenshots/ss_426.png,Work and career,Screenshot showing job/career application content.,document_article_view,document_article_view,EXACT_MATCH
+ss_427.jpg,data/screenshots/ss_427.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_428.png,data/screenshots/ss_428.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_429.png,data/screenshots/ss_429.png,Work and career,Screenshot showing job/career application content.,document_article_view,document_article_view,EXACT_MATCH
+ss_430.jpg,data/screenshots/ss_430.jpg,Connectivity,Screenshot showing Wi-Fi/mobile-network or device connectivity.,document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_431.png,data/screenshots/ss_431.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_432.png,data/screenshots/ss_432.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_433.jpg,data/screenshots/ss_433.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_434.png,data/screenshots/ss_434.png,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_435.png,data/screenshots/ss_435.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_436.jpg,data/screenshots/ss_436.jpg,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_437.png,data/screenshots/ss_437.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_438.png,data/screenshots/ss_438.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_439.jpg,data/screenshots/ss_439.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_440.png,data/screenshots/ss_440.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_441.png,data/screenshots/ss_441.png,General,"Screenshot showing general app, utility, account, settings, or system content.",other_screen,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_442.jpg,data/screenshots/ss_442.jpg,General,"Screenshot showing clock, alarm, or bedtime utility.",document_article_view,document_article_view,EXACT_MATCH
+ss_443.png,data/screenshots/ss_443.png,General,"Screenshot showing general app, utility, account, settings, or system content.",other_screen,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_444.png,data/screenshots/ss_444.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_445.jpg,data/screenshots/ss_445.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_446.png,data/screenshots/ss_446.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_447.png,data/screenshots/ss_447.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_448.jpg,data/screenshots/ss_448.jpg,Work and career,Screenshot showing job/career application content.,document_article_view,document_article_view,EXACT_MATCH
+ss_449.png,data/screenshots/ss_449.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_450.png,data/screenshots/ss_450.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_451.jpg,data/screenshots/ss_451.jpg,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_452.png,data/screenshots/ss_452.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_453.png,data/screenshots/ss_453.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_454.jpg,data/screenshots/ss_454.jpg,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_455.png,data/screenshots/ss_455.png,Shopping,"Screenshot showing product pricing, offers, or discounts.",product_detail,product_detail,EXACT_MATCH
+ss_456.png,data/screenshots/ss_456.png,Shopping,Screenshot showing product listing/details.,product_detail,product_listing,RECONCILIATION_CANDIDATE
+ss_457.jpg,data/screenshots/ss_457.jpg,Work and career,Screenshot showing job/career application content.,document_article_view,document_article_view,EXACT_MATCH
+ss_458.png,data/screenshots/ss_458.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_459.png,data/screenshots/ss_459.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_460.jpg,data/screenshots/ss_460.jpg,Work and career,Screenshot showing work-related email content.,document_article_view,document_article_view,EXACT_MATCH
+ss_461.png,data/screenshots/ss_461.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_462.png,data/screenshots/ss_462.png,Shopping,"Screenshot showing product pricing, offers, or discounts.",product_detail,product_detail,EXACT_MATCH
+ss_463.jpg,data/screenshots/ss_463.jpg,Work and career,Screenshot showing job/career application content.,document_article_view,document_article_view,EXACT_MATCH
+ss_464.png,data/screenshots/ss_464.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_465.png,data/screenshots/ss_465.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_466.jpg,data/screenshots/ss_466.jpg,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_467.png,data/screenshots/ss_467.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_468.png,data/screenshots/ss_468.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_469.jpg,data/screenshots/ss_469.jpg,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_470.png,data/screenshots/ss_470.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_471.png,data/screenshots/ss_471.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_472.jpg,data/screenshots/ss_472.jpg,Work and career,Screenshot showing job/career application content.,document_article_view,document_article_view,EXACT_MATCH
+ss_473.png,data/screenshots/ss_473.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_474.png,data/screenshots/ss_474.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_475.jpg,data/screenshots/ss_475.jpg,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_476.png,data/screenshots/ss_476.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_477.png,data/screenshots/ss_477.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_478.jpg,data/screenshots/ss_478.jpg,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_479.png,data/screenshots/ss_479.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_480.png,data/screenshots/ss_480.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_481.png,data/screenshots/ss_481.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_482.png,data/screenshots/ss_482.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_483.png,data/screenshots/ss_483.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_484.png,data/screenshots/ss_484.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_485.png,data/screenshots/ss_485.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_486.png,data/screenshots/ss_486.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_487.png,data/screenshots/ss_487.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_488.png,data/screenshots/ss_488.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_489.png,data/screenshots/ss_489.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_490.png,data/screenshots/ss_490.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_491.png,data/screenshots/ss_491.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_492.png,data/screenshots/ss_492.png,Shopping,"Screenshot showing order, delivery, or review details.",product_detail,product_detail,EXACT_MATCH
+ss_493.png,data/screenshots/ss_493.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_494.png,data/screenshots/ss_494.png,Shopping,"Screenshot showing order, delivery, or review details.",product_detail,product_detail,EXACT_MATCH
+ss_495.png,data/screenshots/ss_495.png,Shopping,"Screenshot showing product pricing, offers, or discounts.",product_detail,product_detail,EXACT_MATCH
+ss_496.png,data/screenshots/ss_496.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_497.png,data/screenshots/ss_497.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_498.png,data/screenshots/ss_498.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_499.png,data/screenshots/ss_499.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_500.png,data/screenshots/ss_500.png,Shopping,"Online shopping screen showing Dabur and other health products, prices, delivery information, and deals.",product_detail,product_listing,RECONCILIATION_CANDIDATE
+ss_501.png,data/screenshots/ss_501.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_502.png,data/screenshots/ss_502.png,Shopping,"Screenshot showing product pricing, offers, or discounts.",product_detail,product_detail,EXACT_MATCH
+ss_503.png,data/screenshots/ss_503.png,Shopping,"Screenshot showing product pricing, offers, or discounts.",product_detail,product_detail,EXACT_MATCH
+ss_504.png,data/screenshots/ss_504.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_505.png,data/screenshots/ss_505.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_506.png,data/screenshots/ss_506.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_507.png,data/screenshots/ss_507.png,Shopping,"Screenshot showing product pricing, offers, or discounts.",product_detail,product_detail,EXACT_MATCH
+ss_508.png,data/screenshots/ss_508.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_509.png,data/screenshots/ss_509.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_510.png,data/screenshots/ss_510.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_511.png,data/screenshots/ss_511.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_512.png,data/screenshots/ss_512.png,Shopping,"Screenshot showing product pricing, offers, or discounts.",product_detail,product_detail,EXACT_MATCH
+ss_513.png,data/screenshots/ss_513.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_514.png,data/screenshots/ss_514.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_515.png,data/screenshots/ss_515.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_516.png,data/screenshots/ss_516.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_517.png,data/screenshots/ss_517.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_518.png,data/screenshots/ss_518.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_519.png,data/screenshots/ss_519.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_520.png,data/screenshots/ss_520.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_521.png,data/screenshots/ss_521.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_522.png,data/screenshots/ss_522.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_523.png,data/screenshots/ss_523.png,Shopping,"Screenshot showing product pricing, offers, or discounts.",product_detail,product_detail,EXACT_MATCH
+ss_524.png,data/screenshots/ss_524.png,Shopping,"Screenshot showing order, delivery, or review details.",product_detail,product_detail,EXACT_MATCH
+ss_525.png,data/screenshots/ss_525.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_526.png,data/screenshots/ss_526.png,Shopping,"Screenshot showing order, delivery, or review details.",product_detail,product_detail,EXACT_MATCH
+ss_527.png,data/screenshots/ss_527.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_528.png,data/screenshots/ss_528.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_529.png,data/screenshots/ss_529.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_530.png,data/screenshots/ss_530.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_531.png,data/screenshots/ss_531.png,Shopping,"Screenshot showing product pricing, offers, or discounts.",product_detail,product_detail,EXACT_MATCH
+ss_532.png,data/screenshots/ss_532.png,Shopping,"Screenshot showing product pricing, offers, or discounts.",product_detail,product_detail,EXACT_MATCH
+ss_533.png,data/screenshots/ss_533.png,Shopping,"Screenshot showing product pricing, offers, or discounts.",product_detail,product_detail,EXACT_MATCH
+ss_534.png,data/screenshots/ss_534.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_535.png,data/screenshots/ss_535.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_536.png,data/screenshots/ss_536.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_537.png,data/screenshots/ss_537.png,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_538.png,data/screenshots/ss_538.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_539.png,data/screenshots/ss_539.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_540.png,data/screenshots/ss_540.png,Travel,Screenshot showing travel booking or ticket information.,document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_541.png,data/screenshots/ss_541.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_542.png,data/screenshots/ss_542.png,Travel,Screenshot showing travel booking or ticket information.,document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_543.png,data/screenshots/ss_543.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_544.png,data/screenshots/ss_544.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_545.png,data/screenshots/ss_545.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_546.png,data/screenshots/ss_546.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_547.png,data/screenshots/ss_547.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_548.png,data/screenshots/ss_548.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_549.png,data/screenshots/ss_549.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_550.png,data/screenshots/ss_550.png,Travel,"Screenshot showing pickup, route, or location information.",document_article_view,document_article_view,EXACT_MATCH
+ss_551.png,data/screenshots/ss_551.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_552.png,data/screenshots/ss_552.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_553.png,data/screenshots/ss_553.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_554.png,data/screenshots/ss_554.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_555.png,data/screenshots/ss_555.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_556.png,data/screenshots/ss_556.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_557.png,data/screenshots/ss_557.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_558.png,data/screenshots/ss_558.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_559.png,data/screenshots/ss_559.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_560.png,data/screenshots/ss_560.png,General,"Screenshot showing general app, utility, account, settings, or system content.",other_screen,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_561.png,data/screenshots/ss_561.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_562.png,data/screenshots/ss_562.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_563.png,data/screenshots/ss_563.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_564.png,data/screenshots/ss_564.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_565.png,data/screenshots/ss_565.png,Work and career,Screenshot showing workplace/professional information.,dashboard_settings,document_article_view,RECONCILIATION_CANDIDATE
+ss_566.png,data/screenshots/ss_566.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_567.png,data/screenshots/ss_567.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_568.png,data/screenshots/ss_568.png,Work and career,Screenshot showing workplace/professional information.,dashboard_settings,document_article_view,RECONCILIATION_CANDIDATE
+ss_569.png,data/screenshots/ss_569.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_570.png,data/screenshots/ss_570.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_571.png,data/screenshots/ss_571.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_572.png,data/screenshots/ss_572.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_573.png,data/screenshots/ss_573.png,Work and career,Screenshot showing workplace/professional information.,dashboard_settings,document_article_view,RECONCILIATION_CANDIDATE
+ss_574.png,data/screenshots/ss_574.png,Work and career,Screenshot showing workplace/professional information.,dashboard_settings,document_article_view,RECONCILIATION_CANDIDATE
+ss_575.png,data/screenshots/ss_575.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_576.png,data/screenshots/ss_576.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_577.png,data/screenshots/ss_577.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_578.png,data/screenshots/ss_578.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_579.png,data/screenshots/ss_579.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_580.png,data/screenshots/ss_580.png,Work and career,Screenshot showing workplace/professional information.,dashboard_settings,document_article_view,RECONCILIATION_CANDIDATE
+ss_581.png,data/screenshots/ss_581.png,Work and career,Screenshot showing workplace/professional information.,dashboard_settings,document_article_view,RECONCILIATION_CANDIDATE
+ss_582.png,data/screenshots/ss_582.png,Work and career,Screenshot showing workplace/professional information.,dashboard_settings,document_article_view,RECONCILIATION_CANDIDATE
+ss_583.png,data/screenshots/ss_583.png,Work and career,Screenshot showing workplace/professional information.,dashboard_settings,document_article_view,RECONCILIATION_CANDIDATE
+ss_584.png,data/screenshots/ss_584.png,Work and career,Screenshot showing workplace/professional information.,dashboard_settings,document_article_view,RECONCILIATION_CANDIDATE
+ss_585.png,data/screenshots/ss_585.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_586.png,data/screenshots/ss_586.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_587.png,data/screenshots/ss_587.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_588.png,data/screenshots/ss_588.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_589.png,data/screenshots/ss_589.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_590.png,data/screenshots/ss_590.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_591.png,data/screenshots/ss_591.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_592.png,data/screenshots/ss_592.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_593.png,data/screenshots/ss_593.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_594.png,data/screenshots/ss_594.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_595.png,data/screenshots/ss_595.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_596.png,data/screenshots/ss_596.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_597.png,data/screenshots/ss_597.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_598.png,data/screenshots/ss_598.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_599.png,data/screenshots/ss_599.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_600.png,data/screenshots/ss_600.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_601.png,data/screenshots/ss_601.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_602.png,data/screenshots/ss_602.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_603.png,data/screenshots/ss_603.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_604.png,data/screenshots/ss_604.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_605.png,data/screenshots/ss_605.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_606.png,data/screenshots/ss_606.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_607.png,data/screenshots/ss_607.png,Work and career,Screenshot showing job/career application content.,document_article_view,document_article_view,EXACT_MATCH
+ss_608.png,data/screenshots/ss_608.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_609.png,data/screenshots/ss_609.png,Work and career,Screenshot showing job/career application content.,document_article_view,document_article_view,EXACT_MATCH
+ss_610.png,data/screenshots/ss_610.png,Work and career,Screenshot showing job/career application content.,document_article_view,document_article_view,EXACT_MATCH
+ss_611.png,data/screenshots/ss_611.png,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_612.png,data/screenshots/ss_612.png,Work and career,Screenshot showing job/career application content.,document_article_view,document_article_view,EXACT_MATCH
+ss_613.png,data/screenshots/ss_613.png,Work and career,Screenshot showing job/career application content.,document_article_view,document_article_view,EXACT_MATCH
+ss_614.png,data/screenshots/ss_614.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_615.png,data/screenshots/ss_615.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_616.png,data/screenshots/ss_616.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_617.png,data/screenshots/ss_617.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_618.png,data/screenshots/ss_618.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_619.png,data/screenshots/ss_619.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_620.png,data/screenshots/ss_620.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_621.png,data/screenshots/ss_621.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_622.png,data/screenshots/ss_622.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_623.png,data/screenshots/ss_623.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_624.png,data/screenshots/ss_624.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_625.png,data/screenshots/ss_625.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_626.png,data/screenshots/ss_626.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_627.png,data/screenshots/ss_627.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_628.png,data/screenshots/ss_628.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_629.png,data/screenshots/ss_629.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_630.png,data/screenshots/ss_630.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_631.png,data/screenshots/ss_631.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_632.png,data/screenshots/ss_632.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_633.png,data/screenshots/ss_633.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_634.png,data/screenshots/ss_634.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_635.png,data/screenshots/ss_635.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_636.png,data/screenshots/ss_636.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_637.png,data/screenshots/ss_637.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_638.png,data/screenshots/ss_638.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_639.png,data/screenshots/ss_639.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_640.png,data/screenshots/ss_640.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_641.png,data/screenshots/ss_641.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_642.png,data/screenshots/ss_642.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_643.png,data/screenshots/ss_643.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_644.png,data/screenshots/ss_644.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_645.png,data/screenshots/ss_645.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_646.png,data/screenshots/ss_646.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_647.png,data/screenshots/ss_647.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_648.png,data/screenshots/ss_648.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_649.png,data/screenshots/ss_649.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_650.png,data/screenshots/ss_650.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_651.png,data/screenshots/ss_651.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_652.png,data/screenshots/ss_652.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_653.png,data/screenshots/ss_653.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_654.png,data/screenshots/ss_654.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_655.png,data/screenshots/ss_655.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_656.png,data/screenshots/ss_656.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_657.png,data/screenshots/ss_657.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_658.png,data/screenshots/ss_658.png,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_659.png,data/screenshots/ss_659.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_660.png,data/screenshots/ss_660.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_661.png,data/screenshots/ss_661.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_662.png,data/screenshots/ss_662.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_663.png,data/screenshots/ss_663.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_664.png,data/screenshots/ss_664.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_665.png,data/screenshots/ss_665.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_666.png,data/screenshots/ss_666.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_667.png,data/screenshots/ss_667.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_668.png,data/screenshots/ss_668.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_669.png,data/screenshots/ss_669.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_670.png,data/screenshots/ss_670.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_671.png,data/screenshots/ss_671.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_672.png,data/screenshots/ss_672.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_673.png,data/screenshots/ss_673.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_674.png,data/screenshots/ss_674.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_675.png,data/screenshots/ss_675.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_676.png,data/screenshots/ss_676.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_677.png,data/screenshots/ss_677.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_678.png,data/screenshots/ss_678.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_679.png,data/screenshots/ss_679.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_680.png,data/screenshots/ss_680.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_681.png,data/screenshots/ss_681.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_682.png,data/screenshots/ss_682.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_683.png,data/screenshots/ss_683.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_684.png,data/screenshots/ss_684.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_685.png,data/screenshots/ss_685.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_686.png,data/screenshots/ss_686.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_687.png,data/screenshots/ss_687.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_688.png,data/screenshots/ss_688.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_689.png,data/screenshots/ss_689.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_690.png,data/screenshots/ss_690.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_691.png,data/screenshots/ss_691.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_692.png,data/screenshots/ss_692.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_693.png,data/screenshots/ss_693.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_694.png,data/screenshots/ss_694.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_695.png,data/screenshots/ss_695.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_696.png,data/screenshots/ss_696.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_697.png,data/screenshots/ss_697.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_698.png,data/screenshots/ss_698.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_699.png,data/screenshots/ss_699.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_700.png,data/screenshots/ss_700.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_701.png,data/screenshots/ss_701.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_702.png,data/screenshots/ss_702.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_703.png,data/screenshots/ss_703.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_704.png,data/screenshots/ss_704.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_705.png,data/screenshots/ss_705.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_706.png,data/screenshots/ss_706.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_707.png,data/screenshots/ss_707.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_708.png,data/screenshots/ss_708.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_709.png,data/screenshots/ss_709.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_710.png,data/screenshots/ss_710.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_711.png,data/screenshots/ss_711.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_712.png,data/screenshots/ss_712.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_713.png,data/screenshots/ss_713.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_714.png,data/screenshots/ss_714.png,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_715.png,data/screenshots/ss_715.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_716.png,data/screenshots/ss_716.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_717.png,data/screenshots/ss_717.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_718.png,data/screenshots/ss_718.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_719.png,data/screenshots/ss_719.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_720.png,data/screenshots/ss_720.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_721.png,data/screenshots/ss_721.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_722.png,data/screenshots/ss_722.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_723.png,data/screenshots/ss_723.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_724.png,data/screenshots/ss_724.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_725.png,data/screenshots/ss_725.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_726.png,data/screenshots/ss_726.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_727.png,data/screenshots/ss_727.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_728.png,data/screenshots/ss_728.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_729.png,data/screenshots/ss_729.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_730.png,data/screenshots/ss_730.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_731.png,data/screenshots/ss_731.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_732.png,data/screenshots/ss_732.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_733.png,data/screenshots/ss_733.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_734.png,data/screenshots/ss_734.png,Communication,"Screenshot showing social activity, comments, or posts.",document_article_view,messaging_chat,RECONCILIATION_CANDIDATE
+ss_735.png,data/screenshots/ss_735.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_736.png,data/screenshots/ss_736.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_737.png,data/screenshots/ss_737.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_738.png,data/screenshots/ss_738.png,Communication,"Screenshot showing social activity, comments, or posts.",document_article_view,messaging_chat,RECONCILIATION_CANDIDATE
+ss_739.png,data/screenshots/ss_739.png,Communication,"Screenshot showing social activity, comments, or posts.",document_article_view,messaging_chat,RECONCILIATION_CANDIDATE
+ss_740.png,data/screenshots/ss_740.png,Communication,"Screenshot showing social activity, comments, or posts.",document_article_view,messaging_chat,RECONCILIATION_CANDIDATE
+ss_741.png,data/screenshots/ss_741.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_742.png,data/screenshots/ss_742.png,Communication,"Screenshot showing social activity, comments, or posts.",document_article_view,messaging_chat,RECONCILIATION_CANDIDATE
+ss_743.png,data/screenshots/ss_743.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_744.png,data/screenshots/ss_744.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_745.png,data/screenshots/ss_745.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_746.png,data/screenshots/ss_746.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_747.png,data/screenshots/ss_747.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_748.png,data/screenshots/ss_748.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_749.png,data/screenshots/ss_749.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_750.png,data/screenshots/ss_750.png,Communication,"Screenshot showing social activity, comments, or posts.",document_article_view,messaging_chat,RECONCILIATION_CANDIDATE
+ss_751.png,data/screenshots/ss_751.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_752.png,data/screenshots/ss_752.png,Communication,"Screenshot showing social activity, comments, or posts.",document_article_view,messaging_chat,RECONCILIATION_CANDIDATE
+ss_753.png,data/screenshots/ss_753.png,Communication,"Screenshot showing social activity, comments, or posts.",document_article_view,messaging_chat,RECONCILIATION_CANDIDATE
+ss_754.png,data/screenshots/ss_754.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_755.png,data/screenshots/ss_755.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_756.png,data/screenshots/ss_756.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_757.png,data/screenshots/ss_757.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_758.png,data/screenshots/ss_758.png,Communication,"Screenshot showing social activity, comments, or posts.",document_article_view,messaging_chat,RECONCILIATION_CANDIDATE
+ss_759.png,data/screenshots/ss_759.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_760.png,data/screenshots/ss_760.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_761.png,data/screenshots/ss_761.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_762.png,data/screenshots/ss_762.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_763.png,data/screenshots/ss_763.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_764.png,data/screenshots/ss_764.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_765.png,data/screenshots/ss_765.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_766.png,data/screenshots/ss_766.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_767.png,data/screenshots/ss_767.png,Communication,"Screenshot showing social activity, comments, or posts.",document_article_view,messaging_chat,RECONCILIATION_CANDIDATE
+ss_768.png,data/screenshots/ss_768.png,Payment,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",cart_checkout_payment,cart_checkout_payment,EXACT_MATCH
+ss_769.png,data/screenshots/ss_769.png,Communication,"Screenshot showing social activity, comments, or posts.",document_article_view,messaging_chat,RECONCILIATION_CANDIDATE
+ss_770.png,data/screenshots/ss_770.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_771.png,data/screenshots/ss_771.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_772.png,data/screenshots/ss_772.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_773.png,data/screenshots/ss_773.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_774.png,data/screenshots/ss_774.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_775.png,data/screenshots/ss_775.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_776.png,data/screenshots/ss_776.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_777.png,data/screenshots/ss_777.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_778.png,data/screenshots/ss_778.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_779.png,data/screenshots/ss_779.png,Payment,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",cart_checkout_payment,cart_checkout_payment,EXACT_MATCH
+ss_780.png,data/screenshots/ss_780.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_781.png,data/screenshots/ss_781.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_782.png,data/screenshots/ss_782.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_783.png,data/screenshots/ss_783.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_784.png,data/screenshots/ss_784.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_785.png,data/screenshots/ss_785.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_786.png,data/screenshots/ss_786.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_787.png,data/screenshots/ss_787.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_788.png,data/screenshots/ss_788.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_789.png,data/screenshots/ss_789.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_790.png,data/screenshots/ss_790.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_791.png,data/screenshots/ss_791.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_792.png,data/screenshots/ss_792.png,Communication,Screenshot showing messaging or contact content.,document_article_view,messaging_chat,RECONCILIATION_CANDIDATE
+ss_793.png,data/screenshots/ss_793.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_794.png,data/screenshots/ss_794.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_795.png,data/screenshots/ss_795.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_796.png,data/screenshots/ss_796.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_797.png,data/screenshots/ss_797.png,Communication,"Screenshot showing email, messaging, social activity, comments, or communication content.",document_article_view,email_view,RECONCILIATION_CANDIDATE
+ss_798.png,data/screenshots/ss_798.png,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_799.jpg,data/screenshots/ss_799.jpg,Connectivity,Screenshot showing Wi-Fi/mobile-network or device connectivity.,code_editor_terminal,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_800.jpg,data/screenshots/ss_800.jpg,Payment,"UPI payment details screen showing a paid transaction, payment ID, amount, and payment timestamp.",code_editor_terminal,cart_checkout_payment,RECONCILIATION_CANDIDATE
+ss_801.jpg,data/screenshots/ss_801.jpg,Education,"Screenshot showing academic, study, course, or learning-related content.",code_editor_terminal,document_article_view,RECONCILIATION_CANDIDATE
+ss_802.jpg,data/screenshots/ss_802.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",code_editor_terminal,media_player_library,RECONCILIATION_CANDIDATE
+ss_803.jpg,data/screenshots/ss_803.jpg,Payment,Screenshot showing payment or transaction details.,code_editor_terminal,cart_checkout_payment,RECONCILIATION_CANDIDATE
+ss_804.jpg,data/screenshots/ss_804.jpg,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_805.jpg,data/screenshots/ss_805.jpg,Education,Screenshot showing college/academic information.,code_editor_terminal,document_article_view,RECONCILIATION_CANDIDATE
+ss_806.jpg,data/screenshots/ss_806.jpg,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_807.jpg,data/screenshots/ss_807.jpg,Entertainment,Screenshot showing streaming/movie content.,code_editor_terminal,media_player_library,RECONCILIATION_CANDIDATE
+ss_808.jpg,data/screenshots/ss_808.jpg,Shopping,"Screenshot showing product pricing, offers, or discounts.",document_article_view,product_detail,RECONCILIATION_CANDIDATE
+ss_809.jpg,data/screenshots/ss_809.jpg,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_810.jpg,data/screenshots/ss_810.jpg,Education,"Screenshot showing academic, study, course, or learning-related content.",code_editor_terminal,document_article_view,RECONCILIATION_CANDIDATE
+ss_811.jpg,data/screenshots/ss_811.jpg,Payment,Screenshot showing payment or transaction details.,code_editor_terminal,cart_checkout_payment,RECONCILIATION_CANDIDATE
+ss_812.jpg,data/screenshots/ss_812.jpg,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",code_editor_terminal,travel_booking,RECONCILIATION_CANDIDATE
+ss_813.jpg,data/screenshots/ss_813.jpg,Payment,Screenshot showing payment or transaction details.,code_editor_terminal,cart_checkout_payment,RECONCILIATION_CANDIDATE
+ss_814.jpg,data/screenshots/ss_814.jpg,Travel,Screenshot showing travel booking or ticket information.,code_editor_terminal,travel_booking,RECONCILIATION_CANDIDATE
+ss_815.jpg,data/screenshots/ss_815.jpg,Payment,Screenshot showing payment or transaction details.,code_editor_terminal,cart_checkout_payment,RECONCILIATION_CANDIDATE
+ss_816.jpg,data/screenshots/ss_816.jpg,Education,Screenshot showing college/academic information.,code_editor_terminal,document_article_view,RECONCILIATION_CANDIDATE
+ss_817.jpg,data/screenshots/ss_817.jpg,Travel,"Screenshot showing travel, ticket, booking, route, or transport information.",document_article_view,travel_booking,RECONCILIATION_CANDIDATE
+ss_818.jpg,data/screenshots/ss_818.jpg,Shopping,"Screenshot showing order, delivery, or review details.",product_detail,product_detail,EXACT_MATCH
+ss_819.jpg,data/screenshots/ss_819.jpg,General,"Screenshot showing general app, utility, account, settings, or system content.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_820.jpg,data/screenshots/ss_820.jpg,Shopping,"Screenshot showing a product, shopping, offer, order, or delivery page.",product_detail,product_detail,EXACT_MATCH
+ss_821.jpg,data/screenshots/ss_821.jpg,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_822.jpg,data/screenshots/ss_822.jpg,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_823.jpg,data/screenshots/ss_823.jpg,Entertainment,"Screenshot showing music, video, movie, streaming, or other entertainment content.",document_article_view,media_player_library,RECONCILIATION_CANDIDATE
+ss_824.jpg,data/screenshots/ss_824.jpg,Payment,"Screenshot showing payment, transaction, UPI, receipt, or billing information.",product_detail,cart_checkout_payment,RECONCILIATION_CANDIDATE
+ss_825.jpg,data/screenshots/ss_825.jpg,Education,"Screenshot showing academic, study, course, or learning-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_826.jpg,data/screenshots/ss_826.jpg,Coding,Screenshot showing programming or software-development content.,document_article_view,document_article_view,EXACT_MATCH
+ss_827.jpg,data/screenshots/ss_827.jpg,Coding,Screenshot showing programming or software-development content.,document_article_view,document_article_view,EXACT_MATCH
+ss_828.jpg,data/screenshots/ss_828.jpg,Work and career,"Screenshot showing work, professional, job, office, or career-related content.",document_article_view,document_article_view,EXACT_MATCH
+ss_829.jpg,data/screenshots/ss_829.jpg,Connectivity,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_830.jpg,data/screenshots/ss_830.jpg,Connectivity,Screenshot showing Wi-Fi/mobile-network or device connectivity.,document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_831.jpg,data/screenshots/ss_831.jpg,Connectivity,Screenshot showing network connectivity/error status.,document_article_view,error_dialog_alert,RECONCILIATION_CANDIDATE
+ss_832.jpg,data/screenshots/ss_832.jpg,Connectivity,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_833.jpg,data/screenshots/ss_833.jpg,Connectivity,Screenshot showing network connectivity/error status.,document_article_view,error_dialog_alert,RECONCILIATION_CANDIDATE
+ss_834.jpg,data/screenshots/ss_834.jpg,Connectivity,"Screenshot showing network, Wi-Fi, internet, or device connectivity information.",document_article_view,dashboard_settings,RECONCILIATION_CANDIDATE
+ss_835.jpg,data/screenshots/ss_835.jpg,Connectivity,Screenshot showing network connectivity/error status.,document_article_view,error_dialog_alert,RECONCILIATION_CANDIDATE
+ss_836.jpg,data/screenshots/ss_836.jpg,Connectivity,Network-error dialog asking the user to check network connectivity and try again.,document_article_view,error_dialog_alert,RECONCILIATION_CANDIDATE

@@ -1,0 +1,2586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>External Dataset Manual Quality Audit (60 Screenshots)</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --border-color: #334155;
+            --accent-blue: #38bdf8;
+            --accent-green: #4ade80;
+            --accent-yellow: #facc15;
+            --accent-red: #f87171;
+            --accent-purple: #c084fc;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            max-width: 1200px;
+            margin: 0 auto 30px auto;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 20px;
+        }
+        h1 {
+            margin: 0 0 10px 0;
+            color: var(--accent-blue);
+        }
+        .summary-bar {
+            display: flex;
+            gap: 20px;
+            background-color: var(--card-bg);
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+        .stat-item {
+            flex: 1;
+            text-align: center;
+        }
+        .stat-val {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--accent-green);
+        }
+        .stat-lbl {
+            font-size: 12px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+        }
+        .card-header {
+            background-color: #0f172a;
+            padding: 15px 20px;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .card-header h3 {
+            margin: 0;
+            font-size: 18px;
+            flex: 1;
+        }
+        .card-body {
+            display: flex;
+            padding: 20px;
+            gap: 25px;
+        }
+        .image-column {
+            width: 320px;
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .image-column img {
+            max-width: 100%;
+            max-height: 420px;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+            object-fit: contain;
+            background: #000;
+        }
+        .image-dims {
+            font-size: 12px;
+            color: var(--text-muted);
+            margin-top: 8px;
+        }
+        .info-column {
+            flex: 1;
+        }
+        .detail-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .detail-table th {
+            text-align: left;
+            width: 130px;
+            padding: 8px 12px;
+            font-size: 13px;
+            color: var(--text-muted);
+            vertical-align: top;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        .detail-table td {
+            padding: 8px 12px;
+            font-size: 14px;
+            vertical-align: top;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        .badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .badge.cat { background-color: #0284c7; color: #fff; }
+        .badge.ctype { background-color: #0d9488; color: #fff; }
+        .badge.tag { background-color: #334155; color: var(--accent-blue); margin-right: 4px; margin-bottom: 4px; }
+        .badge.danger { background-color: #991b1b; color: #fecaca; }
+        .badge.warning { background-color: #854d0e; color: #fef08a; }
+        .badge.safe { background-color: #166534; color: #bbf7d0; }
+        pre {
+            margin: 0;
+            font-family: monospace;
+            font-size: 12px;
+            background-color: #0f172a;
+            padding: 6px 10px;
+            border-radius: 4px;
+            color: #cbd5e1;
+            white-space: pre-wrap;
+            max-height: 120px;
+            overflow-y: auto;
+        }
+        .intent-text {
+            color: var(--accent-yellow);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Phase 4A.1: External Dataset Ground-Truth Manual Audit</h1>
+        <p style="color: var(--text-muted); margin: 0 0 15px 0;">
+            Offline visual review interface for auditing ground-truth annotations across all 60 external screenshots.
+        </p>
+        <div class="summary-bar">
+            <div class="stat-item">
+                <div class="stat-val">60</div>
+                <div class="stat-lbl">Total Screenshots</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-val">100%</div>
+                <div class="stat-lbl">Target Coverage</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-val">0</div>
+                <div class="stat-lbl">SHA-256 Overlaps</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-val">Frozen</div>
+                <div class="stat-lbl">Audit Status</div>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        
+        <div class="card" id="ext_001">
+            <div class="card-header">
+                <h3>ext_001 &mdash; ext_001.jpg</h3>
+                <span class="badge cat">Education</span>
+                <span class="badge ctype">notes</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_001.jpg" alt="ext_001.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 736 × 1288 (116.35 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Education</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>notes</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">idioms</span> <span class="badge tag">vocabulary</span> <span class="badge tag">english</span> <span class="badge tag">study</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Study English vocabulary and idioms"</em></td></tr>
+                        <tr><th>Summary</th><td>English idioms reference list with meanings and examples.</td></tr>
+                        <tr><th>Importance</th><td>★★★☆☆ (3/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Idioms",
+    "type": "topic"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>None</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_002">
+            <div class="card-header">
+                <h3>ext_002 &mdash; ext_002.jpg</h3>
+                <span class="badge cat">Shopping</span>
+                <span class="badge ctype">product_page</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_002.jpg" alt="ext_002.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 736 × 1181 (183.32 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Shopping</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>product_page</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">fashion</span> <span class="badge tag">dress</span> <span class="badge tag">clothing</span> <span class="badge tag">product</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Evaluate a clothing purchase"</em></td></tr>
+                        <tr><th>Summary</th><td>Product image of a formal or bridal dress.</td></tr>
+                        <tr><th>Importance</th><td>★★☆☆☆ (2/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "dress",
+    "type": "product"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>None</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_003">
+            <div class="card-header">
+                <h3>ext_003 &mdash; ext_003.jpg</h3>
+                <span class="badge cat">Entertainment</span>
+                <span class="badge ctype">movie</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_003.jpg" alt="ext_003.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1080 × 1315 (563.96 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Entertainment</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>movie</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">marvel</span> <span class="badge tag">superheroes</span> <span class="badge tag">movies</span> <span class="badge tag">characters</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Reference entertainment content"</em></td></tr>
+                        <tr><th>Summary</th><td>Marvel superhero character and movie reference graphic.</td></tr>
+                        <tr><th>Importance</th><td>★★☆☆☆ (2/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Marvel",
+    "type": "organization"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>None</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_004">
+            <div class="card-header">
+                <h3>ext_004 &mdash; ext_004.jpg</h3>
+                <span class="badge cat">Payment</span>
+                <span class="badge ctype">transaction</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_004.jpg" alt="ext_004.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1080 × 3003 (229.68 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Payment</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>transaction</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">upi</span> <span class="badge tag">payment</span> <span class="badge tag">gpay</span> <span class="badge tag">transaction</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Keep a payment record"</em></td></tr>
+                        <tr><th>Summary</th><td>Google Pay UPI transaction record with recipient and transaction identifiers.</td></tr>
+                        <tr><th>Importance</th><td>★★★★★ (5/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge danger">💳 Payment Info</span> <span class="badge warning">📱 Personal Contact</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "IPSITA DILIP WAKHARKAR",
+    "type": "recipient"
+  },
+  {
+    "text": "660821714104",
+    "type": "transaction_id"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>[
+  {
+    "text": "30 Aug 2026, 11:54am",
+    "type": "transaction_date"
+  }
+]</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>None</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_005">
+            <div class="card-header">
+                <h3>ext_005 &mdash; ext_005.jpg</h3>
+                <span class="badge cat">Education</span>
+                <span class="badge ctype">course_material</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_005.jpg" alt="ext_005.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 757 × 793 (108.23 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Education</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>course_material</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">deep-learning</span> <span class="badge tag">neural-networks</span> <span class="badge tag">syllabus</span> <span class="badge tag">course</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Study deep learning course material"</em></td></tr>
+                        <tr><th>Summary</th><td>Deep learning syllabus covering neural networks, backpropagation and optimizers.</td></tr>
+                        <tr><th>Importance</th><td>★★★★☆ (4/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Deep Learning",
+    "type": "subject"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Study course units",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_006">
+            <div class="card-header">
+                <h3>ext_006 &mdash; ext_006.jpg</h3>
+                <span class="badge cat">Education</span>
+                <span class="badge ctype">notes</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_006.jpg" alt="ext_006.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 781 × 265 (45.8 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Education</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>notes</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">softmax</span> <span class="badge tag">loss</span> <span class="badge tag">gradient-descent</span> <span class="badge tag">deep-learning</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Study machine learning concepts"</em></td></tr>
+                        <tr><th>Summary</th><td>Lecture notes explaining softmax, cross-entropy loss and gradients.</td></tr>
+                        <tr><th>Importance</th><td>★★★☆☆ (3/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Softmax",
+    "type": "concept"
+  },
+  {
+    "text": "Cross-entropy",
+    "type": "concept"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>None</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_007">
+            <div class="card-header">
+                <h3>ext_007 &mdash; ext_007.jpg</h3>
+                <span class="badge cat">Education</span>
+                <span class="badge ctype">notes</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_007.jpg" alt="ext_007.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 729 × 727 (104.65 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Education</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>notes</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">machine-learning</span> <span class="badge tag">ensemble-learning</span> <span class="badge tag">bagging</span> <span class="badge tag">boosting</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Study machine learning concepts"</em></td></tr>
+                        <tr><th>Summary</th><td>Notes comparing bagging and boosting training approaches.</td></tr>
+                        <tr><th>Importance</th><td>★★★☆☆ (3/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Bagging",
+    "type": "concept"
+  },
+  {
+    "text": "Boosting",
+    "type": "concept"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>None</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_008">
+            <div class="card-header">
+                <h3>ext_008 &mdash; ext_008.jpg</h3>
+                <span class="badge cat">Communication</span>
+                <span class="badge ctype">email</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_008.jpg" alt="ext_008.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 540 × 1200 (53.62 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Communication</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>email</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">email</span> <span class="badge tag">academic</span> <span class="badge tag">paper</span> <span class="badge tag">approval</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Review an academic email"</em></td></tr>
+                        <tr><th>Summary</th><td>Email containing a paper approval and publication schedule update.</td></tr>
+                        <tr><th>Importance</th><td>★★★★☆ (4/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge warning">📱 Personal Contact</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Deepika Suresh",
+    "type": "sender"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>[
+  {
+    "text": "17 Sep 2026, 7:38pm",
+    "type": "email_date"
+  }
+]</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Review paper approval schedule",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_009">
+            <div class="card-header">
+                <h3>ext_009 &mdash; ext_009.jpg</h3>
+                <span class="badge cat">Education</span>
+                <span class="badge ctype">notes</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_009.jpg" alt="ext_009.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1280 × 720 (100.54 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Education</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>notes</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">handwritten-notes</span> <span class="badge tag">mathematics</span> <span class="badge tag">study</span> <span class="badge tag">notes</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Study handwritten notes"</em></td></tr>
+                        <tr><th>Summary</th><td>Handwritten mathematical or technical study notes.</td></tr>
+                        <tr><th>Importance</th><td>★★★☆☆ (3/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>None</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>None</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_010">
+            <div class="card-header">
+                <h3>ext_010 &mdash; ext_010.jpg</h3>
+                <span class="badge cat">Education</span>
+                <span class="badge ctype">notes</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_010.jpg" alt="ext_010.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 403 × 526 (46.67 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Education</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>notes</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">handwritten-notes</span> <span class="badge tag">mathematics</span> <span class="badge tag">study</span> <span class="badge tag">notes</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Study handwritten notes"</em></td></tr>
+                        <tr><th>Summary</th><td>Scanned handwritten mathematical or technical notes.</td></tr>
+                        <tr><th>Importance</th><td>★★★☆☆ (3/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>None</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>None</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_011">
+            <div class="card-header">
+                <h3>ext_011 &mdash; ext_011.jpg</h3>
+                <span class="badge cat">Education</span>
+                <span class="badge ctype">notes</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_011.jpg" alt="ext_011.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1001 × 317 (31.94 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Education</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>notes</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">quiz</span> <span class="badge tag">computer-science</span> <span class="badge tag">google-forms</span> <span class="badge tag">assessment</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Record a completed quiz"</em></td></tr>
+                        <tr><th>Summary</th><td>Google Forms quiz submission confirmation for a computer science activity.</td></tr>
+                        <tr><th>Importance</th><td>★★★☆☆ (3/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "DLT Quiz CS-16",
+    "type": "assessment"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>None</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_012">
+            <div class="card-header">
+                <h3>ext_012 &mdash; ext_012.jpg</h3>
+                <span class="badge cat">Work & Career</span>
+                <span class="badge ctype">job_posting</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_012.jpg" alt="ext_012.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1206 × 382 (45.04 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Work & Career</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>job_posting</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">deloitte</span> <span class="badge tag">recruitment</span> <span class="badge tag">campus-drive</span> <span class="badge tag">application</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Track a recruitment application"</em></td></tr>
+                        <tr><th>Summary</th><td>Deloitte campus recruitment drive registration confirmation.</td></tr>
+                        <tr><th>Importance</th><td>★★★★☆ (4/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Deloitte",
+    "type": "organization"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>[
+  {
+    "text": "2027",
+    "type": "recruitment_year"
+  }
+]</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Track recruitment opportunity",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_013">
+            <div class="card-header">
+                <h3>ext_013 &mdash; ext_013.jpg</h3>
+                <span class="badge cat">Education</span>
+                <span class="badge ctype">notes</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_013.jpg" alt="ext_013.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 573 × 968 (113.88 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Education</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>notes</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">operating-systems</span> <span class="badge tag">memory-management</span> <span class="badge tag">notes</span> <span class="badge tag">study</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Study operating systems"</em></td></tr>
+                        <tr><th>Summary</th><td>Notes explaining fixed partition memory allocation.</td></tr>
+                        <tr><th>Importance</th><td>★★★☆☆ (3/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Fixed Partition Scheme",
+    "type": "topic"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>None</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_014">
+            <div class="card-header">
+                <h3>ext_014 &mdash; ext_014.jpg</h3>
+                <span class="badge cat">Work & Career</span>
+                <span class="badge ctype">job_posting</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_014.jpg" alt="ext_014.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1446 × 1600 (139.9 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Work & Career</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>job_posting</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">entry-pass</span> <span class="badge tag">internship</span> <span class="badge tag">identity</span> <span class="badge tag">iit</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Keep an internship entry pass"</em></td></tr>
+                        <tr><th>Summary</th><td>Institutional entry pass identifying an intern and validity period.</td></tr>
+                        <tr><th>Importance</th><td>★★★★★ (5/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge warning">📱 Personal Contact</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Entry Pass",
+    "type": "document"
+  },
+  {
+    "text": "20251809754256207",
+    "type": "id_number"
+  },
+  {
+    "text": "NAFISA HASAN",
+    "type": "person"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>[
+  {
+    "text": "04-05-2025",
+    "type": "date_of_birth"
+  },
+  {
+    "text": "15-05-2025 to 30-06-2025",
+    "type": "validity_period"
+  }
+]</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Carry valid entry pass",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_015">
+            <div class="card-header">
+                <h3>ext_015 &mdash; ext_015.jpg</h3>
+                <span class="badge cat">Education</span>
+                <span class="badge ctype">notes</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_015.jpg" alt="ext_015.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1600 × 900 (180.2 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Education</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>notes</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">online-degree</span> <span class="badge tag">university</span> <span class="badge tag">coursera</span> <span class="badge tag">course</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Research online degree programs"</em></td></tr>
+                        <tr><th>Summary</th><td>Browser page listing accredited online degree programs and study options.</td></tr>
+                        <tr><th>Importance</th><td>★★★☆☆ (3/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Coursera",
+    "type": "platform"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Compare online degree programs",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_016">
+            <div class="card-header">
+                <h3>ext_016 &mdash; ext_016.jpg</h3>
+                <span class="badge cat">Work & Career</span>
+                <span class="badge ctype">job_posting</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_016.jpg" alt="ext_016.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 720 × 1600 (47.43 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Work & Career</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>job_posting</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">job</span> <span class="badge tag">internship</span> <span class="badge tag">recruitment</span> <span class="badge tag">application</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Explore a job opportunity"</em></td></tr>
+                        <tr><th>Summary</th><td>Job application page for a Solutions Consultant pre-sales role.</td></tr>
+                        <tr><th>Importance</th><td>★★★★☆ (4/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Solutions Consultant",
+    "type": "job_role"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>[
+  {
+    "text": "2026",
+    "type": "college_code_year"
+  }
+]</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Apply for the job",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_017">
+            <div class="card-header">
+                <h3>ext_017 &mdash; ext_017.jpg</h3>
+                <span class="badge cat">Shopping</span>
+                <span class="badge ctype">product_page</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_017.jpg" alt="ext_017.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 720 × 1600 (115.09 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Shopping</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>product_page</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">accessories</span> <span class="badge tag">watch</span> <span class="badge tag">amazon</span> <span class="badge tag">product</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Evaluate a product purchase"</em></td></tr>
+                        <tr><th>Summary</th><td>Amazon product listing for a vintage pocket watch.</td></tr>
+                        <tr><th>Importance</th><td>★★☆☆☆ (2/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Pocket Watch",
+    "type": "product"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Compare product before purchase",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_018">
+            <div class="card-header">
+                <h3>ext_018 &mdash; ext_018.jpg</h3>
+                <span class="badge cat">Shopping</span>
+                <span class="badge ctype">product_page</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_018.jpg" alt="ext_018.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 720 × 1600 (68.09 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Shopping</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>product_page</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">shoes</span> <span class="badge tag">boots</span> <span class="badge tag">fashion</span> <span class="badge tag">product</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Evaluate a footwear purchase"</em></td></tr>
+                        <tr><th>Summary</th><td>Online product page for black boots with size and purchase controls.</td></tr>
+                        <tr><th>Importance</th><td>★★☆☆☆ (2/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "black boots",
+    "type": "product"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Select size and purchase",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_019">
+            <div class="card-header">
+                <h3>ext_019 &mdash; ext_019.jpg</h3>
+                <span class="badge cat">Shopping</span>
+                <span class="badge ctype">product_page</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_019.jpg" alt="ext_019.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 720 × 1600 (106.56 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Shopping</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>product_page</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">restaurant</span> <span class="badge tag">cafe</span> <span class="badge tag">food</span> <span class="badge tag">dining</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Find a place to eat"</em></td></tr>
+                        <tr><th>Summary</th><td>Restaurant listing with menu, reviews, directions and dining offers.</td></tr>
+                        <tr><th>Importance</th><td>★★☆☆☆ (2/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "La Cafeotheque",
+    "type": "restaurant"
+  },
+  {
+    "text": "Bhubaneswar",
+    "type": "location"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Check restaurant details",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_020">
+            <div class="card-header">
+                <h3>ext_020 &mdash; ext_020.jpg</h3>
+                <span class="badge cat">Education</span>
+                <span class="badge ctype">notes</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_020.jpg" alt="ext_020.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 720 × 1600 (85.67 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Education</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>notes</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">servicenow</span> <span class="badge tag">course</span> <span class="badge tag">certification</span> <span class="badge tag">learning</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Continue professional learning"</em></td></tr>
+                        <tr><th>Summary</th><td>Completed ServiceNow Administration fundamentals course page.</td></tr>
+                        <tr><th>Importance</th><td>★★★★☆ (4/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "ServiceNow Administration Fundamentals",
+    "type": "course"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>[
+  {
+    "text": "16 Jul 2026",
+    "type": "completion_date"
+  }
+]</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Use completed course for learning or career reference",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_021">
+            <div class="card-header">
+                <h3>ext_021 &mdash; ext_021.jpg</h3>
+                <span class="badge cat">Coding</span>
+                <span class="badge ctype">documentation</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_021.jpg" alt="ext_021.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1600 × 720 (69.57 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Coding</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>documentation</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">algorithms</span> <span class="badge tag">sorting</span> <span class="badge tag">complexity</span> <span class="badge tag">computer-science</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Reference sorting algorithm complexity"</em></td></tr>
+                        <tr><th>Summary</th><td>Comparison table of sorting algorithms and time/space complexity.</td></tr>
+                        <tr><th>Importance</th><td>★★★★☆ (4/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Bubble Sort",
+    "type": "algorithm"
+  },
+  {
+    "text": "Merge Sort",
+    "type": "algorithm"
+  },
+  {
+    "text": "Quick Sort",
+    "type": "algorithm"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>None</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_022">
+            <div class="card-header">
+                <h3>ext_022 &mdash; ext_022.jpg</h3>
+                <span class="badge cat">Entertainment</span>
+                <span class="badge ctype">video</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_022.jpg" alt="ext_022.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 720 × 1600 (103.6 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Entertainment</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>video</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">social-media</span> <span class="badge tag">video</span> <span class="badge tag">comments</span> <span class="badge tag">reel</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Watch or save entertainment content"</em></td></tr>
+                        <tr><th>Summary</th><td>Social media video/reel with comments and reactions.</td></tr>
+                        <tr><th>Importance</th><td>★★☆☆☆ (2/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>None</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>None</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_023">
+            <div class="card-header">
+                <h3>ext_023 &mdash; ext_023.jpg</h3>
+                <span class="badge cat">Education</span>
+                <span class="badge ctype">notes</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_023.jpg" alt="ext_023.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 720 × 1600 (31.2 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Education</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>notes</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">class-schedule</span> <span class="badge tag">timetable</span> <span class="badge tag">college</span> <span class="badge tag">classes</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Check class schedule"</em></td></tr>
+                        <tr><th>Summary</th><td>Weekly academic timetable with class times and rooms.</td></tr>
+                        <tr><th>Importance</th><td>★★★★☆ (4/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>None</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Attend scheduled classes",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_024">
+            <div class="card-header">
+                <h3>ext_024 &mdash; ext_024.jpg</h3>
+                <span class="badge cat">Education</span>
+                <span class="badge ctype">notes</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_024.jpg" alt="ext_024.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 720 × 1600 (184.58 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Education</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>notes</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">gate</span> <span class="badge tag">exam</span> <span class="badge tag">admissions</span> <span class="badge tag">engineering</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Research GATE examination information"</em></td></tr>
+                        <tr><th>Summary</th><td>GATE 2027 eligibility and examination information shared on social media.</td></tr>
+                        <tr><th>Importance</th><td>★★★★☆ (4/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "GATE 2027",
+    "type": "exam"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>[
+  {
+    "text": "2027",
+    "type": "exam_year"
+  }
+]</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Check GATE eligibility and dates",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_025">
+            <div class="card-header">
+                <h3>ext_025 &mdash; ext_025.jpg</h3>
+                <span class="badge cat">Work & Career</span>
+                <span class="badge ctype">job_posting</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_025.jpg" alt="ext_025.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1080 × 561 (104.52 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Work & Career</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>job_posting</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">placement</span> <span class="badge tag">recruitment</span> <span class="badge tag">campus</span> <span class="badge tag">schedule</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Track a campus recruitment schedule"</em></td></tr>
+                        <tr><th>Summary</th><td>Campus placement presentation and online-test venue schedule.</td></tr>
+                        <tr><th>Importance</th><td>★★★★☆ (4/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Campus Recruitment",
+    "type": "event"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>[
+  {
+    "text": "23 July 2026",
+    "type": "event_date"
+  },
+  {
+    "text": "24 July 2026",
+    "type": "event_date"
+  }
+]</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Attend assigned recruitment slot",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_026">
+            <div class="card-header">
+                <h3>ext_026 &mdash; ext_026.jpg</h3>
+                <span class="badge cat">Entertainment</span>
+                <span class="badge ctype">video</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_026.jpg" alt="ext_026.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 720 × 1600 (88.54 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Entertainment</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>video</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">music</span> <span class="badge tag">spotify</span> <span class="badge tag">song</span> <span class="badge tag">audio</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Listen to music"</em></td></tr>
+                        <tr><th>Summary</th><td>Music player screen showing a track and artist.</td></tr>
+                        <tr><th>Importance</th><td>★★☆☆☆ (2/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "David Guetta",
+    "type": "artist"
+  },
+  {
+    "text": "Sia",
+    "type": "artist"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>None</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_027">
+            <div class="card-header">
+                <h3>ext_027 &mdash; ext_027.jpg</h3>
+                <span class="badge cat">Shopping</span>
+                <span class="badge ctype">product_page</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_027.jpg" alt="ext_027.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 720 × 1600 (107.72 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Shopping</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>product_page</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">home-decor</span> <span class="badge tag">bedroom</span> <span class="badge tag">product</span> <span class="badge tag">social-media</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Browse home-decor inspiration"</em></td></tr>
+                        <tr><th>Summary</th><td>Social media post showing a bedroom interior and related recommendations.</td></tr>
+                        <tr><th>Importance</th><td>★★☆☆☆ (2/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Bedroom",
+    "type": "product_context"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Save home-decor idea",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_028">
+            <div class="card-header">
+                <h3>ext_028 &mdash; ext_028.jpg</h3>
+                <span class="badge cat">Education</span>
+                <span class="badge ctype">notes</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_028.jpg" alt="ext_028.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 980 × 1380 (51.36 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Education</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>notes</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">assignment</span> <span class="badge tag">mechanical-engineering</span> <span class="badge tag">kiit</span> <span class="badge tag">coursework</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Reference an academic assignment"</em></td></tr>
+                        <tr><th>Summary</th><td>KIIT Mechanical Engineering Assignment-I cover page.</td></tr>
+                        <tr><th>Importance</th><td>★★★★☆ (4/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "KIIT",
+    "type": "institution"
+  },
+  {
+    "text": "Assignment-I",
+    "type": "academic_document"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Complete academic assignment",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_029">
+            <div class="card-header">
+                <h3>ext_029 &mdash; ext_029.jpg</h3>
+                <span class="badge cat">Shopping</span>
+                <span class="badge ctype">shopping_order</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_029.jpg" alt="ext_029.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1080 × 2400 (151.16 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Shopping</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>shopping_order</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">order</span> <span class="badge tag">ecommerce</span> <span class="badge tag">delivery</span> <span class="badge tag">purchase</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Track an online order"</em></td></tr>
+                        <tr><th>Summary</th><td>E-commerce order confirmation showing that an order was placed.</td></tr>
+                        <tr><th>Importance</th><td>★★★☆☆ (3/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Order Placed",
+    "type": "order_status"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Track order delivery",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_030">
+            <div class="card-header">
+                <h3>ext_030 &mdash; ext_030.jpg</h3>
+                <span class="badge cat">Payment</span>
+                <span class="badge ctype">transaction</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_030.jpg" alt="ext_030.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 720 × 1600 (49.58 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Payment</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>transaction</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">payment</span> <span class="badge tag">upi</span> <span class="badge tag">zapvi</span> <span class="badge tag">transaction</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Keep a successful payment record"</em></td></tr>
+                        <tr><th>Summary</th><td>Zapvi checkout screen confirming successful payment of ₹259.</td></tr>
+                        <tr><th>Importance</th><td>★★★★☆ (4/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge danger">💳 Payment Info</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Zapvi",
+    "type": "merchant"
+  },
+  {
+    "text": "\u20b9259",
+    "type": "amount"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>None</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_031">
+            <div class="card-header">
+                <h3>ext_031 &mdash; ext_031.jpg</h3>
+                <span class="badge cat">Education</span>
+                <span class="badge ctype">notes</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_031.jpg" alt="ext_031.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 720 × 1600 (87.85 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Education</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>notes</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">servicenow</span> <span class="badge tag">course</span> <span class="badge tag">learning</span> <span class="badge tag">certification</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Review completed training"</em></td></tr>
+                        <tr><th>Summary</th><td>Completed ServiceNow introductory course and skills page.</td></tr>
+                        <tr><th>Importance</th><td>★★★★☆ (4/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Welcome to ServiceNow",
+    "type": "course"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>[
+  {
+    "text": "14 Jul 2026",
+    "type": "completion_date"
+  }
+]</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>None</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_032">
+            <div class="card-header">
+                <h3>ext_032 &mdash; ext_032.jpg</h3>
+                <span class="badge cat">Shopping</span>
+                <span class="badge ctype">product_page</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_032.jpg" alt="ext_032.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 720 × 1600 (65.25 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Shopping</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>product_page</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">footwear</span> <span class="badge tag">boot</span> <span class="badge tag">fashion</span> <span class="badge tag">product</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Choose a footwear product"</em></td></tr>
+                        <tr><th>Summary</th><td>Online shopping page for a black boot with size selection.</td></tr>
+                        <tr><th>Importance</th><td>★★☆☆☆ (2/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "black boot",
+    "type": "product"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Select size",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_033">
+            <div class="card-header">
+                <h3>ext_033 &mdash; ext_033.jpg</h3>
+                <span class="badge cat">Entertainment</span>
+                <span class="badge ctype">video</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_033.jpg" alt="ext_033.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 720 × 1600 (61.48 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Entertainment</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>video</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">game</span> <span class="badge tag">word-game</span> <span class="badge tag">mobile-app</span> <span class="badge tag">play</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Play or reference a word game"</em></td></tr>
+                        <tr><th>Summary</th><td>Mobile word puzzle/game interface.</td></tr>
+                        <tr><th>Importance</th><td>★★☆☆☆ (2/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "word game",
+    "type": "game"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>None</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_034">
+            <div class="card-header">
+                <h3>ext_034 &mdash; ext_034.jpg</h3>
+                <span class="badge cat">Shopping</span>
+                <span class="badge ctype">product_page</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_034.jpg" alt="ext_034.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 720 × 1600 (91.53 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Shopping</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>product_page</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">marvel</span> <span class="badge tag">action-figure</span> <span class="badge tag">toy</span> <span class="badge tag">amazon</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Evaluate a collectible purchase"</em></td></tr>
+                        <tr><th>Summary</th><td>Online listing for a Captain America themed action figure.</td></tr>
+                        <tr><th>Importance</th><td>★★☆☆☆ (2/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Captain America",
+    "type": "character"
+  },
+  {
+    "text": "Action Figure",
+    "type": "product"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Evaluate collectible purchase",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_035">
+            <div class="card-header">
+                <h3>ext_035 &mdash; ext_035.jpg</h3>
+                <span class="badge cat">Travel</span>
+                <span class="badge ctype">flight_ticket</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_035.jpg" alt="ext_035.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 720 × 1600 (76.11 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Travel</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>flight_ticket</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">flight</span> <span class="badge tag">boarding-pass</span> <span class="badge tag">indigo</span> <span class="badge tag">guwahati</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Prepare for a flight"</em></td></tr>
+                        <tr><th>Summary</th><td>IndiGo boarding pass from Bhubaneswar to Guwahati.</td></tr>
+                        <tr><th>Importance</th><td>★★★★★ (5/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge warning">📱 Personal Contact</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "IndiGo",
+    "type": "airline"
+  },
+  {
+    "text": "Guwahati",
+    "type": "destination"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>[
+  {
+    "text": "12 Jul 2026",
+    "type": "travel_date"
+  },
+  {
+    "text": "17:55",
+    "type": "departure_time"
+  }
+]</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Report for flight boarding",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_036">
+            <div class="card-header">
+                <h3>ext_036 &mdash; ext_036.jpg</h3>
+                <span class="badge cat">Work & Career</span>
+                <span class="badge ctype">job_posting</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_036.jpg" alt="ext_036.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 720 × 1600 (54.45 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Work & Career</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>job_posting</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">job-offer</span> <span class="badge tag">salary</span> <span class="badge tag">marketing</span> <span class="badge tag">recruitment</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Evaluate a job offer"</em></td></tr>
+                        <tr><th>Summary</th><td>Video-call screen discussing a Marketing Management Trainee opportunity and compensation.</td></tr>
+                        <tr><th>Importance</th><td>★★★★★ (5/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge warning">📱 Personal Contact</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Marketing Management Trainee",
+    "type": "job_role"
+  },
+  {
+    "text": "Zycus",
+    "type": "organization"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Evaluate job offer",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_037">
+            <div class="card-header">
+                <h3>ext_037 &mdash; ext_037.jpg</h3>
+                <span class="badge cat">Shopping</span>
+                <span class="badge ctype">shopping_order</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_037.jpg" alt="ext_037.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 720 × 1600 (86.06 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Shopping</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>shopping_order</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">amazon</span> <span class="badge tag">order</span> <span class="badge tag">delivery</span> <span class="badge tag">ecommerce</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Track an Amazon order"</em></td></tr>
+                        <tr><th>Summary</th><td>Amazon order details showing delivery date, item, price and order number.</td></tr>
+                        <tr><th>Importance</th><td>★★★★☆ (4/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge danger">💳 Payment Info</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Wings Star Transparent Table",
+    "type": "product"
+  },
+  {
+    "text": "408-0970395-9107525",
+    "type": "order_number"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>[
+  {
+    "text": "24 September 2026",
+    "type": "order_date"
+  },
+  {
+    "text": "Tuesday",
+    "type": "delivery_date"
+  }
+]</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Track delivery",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_038">
+            <div class="card-header">
+                <h3>ext_038 &mdash; ext_038.jpg</h3>
+                <span class="badge cat">General</span>
+                <span class="badge ctype">unknown</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_038.jpg" alt="ext_038.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 720 × 1600 (70.81 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>General</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>unknown</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">weather</span> <span class="badge tag">forecast</span> <span class="badge tag">bhubaneswar</span> <span class="badge tag">temperature</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Check weather conditions"</em></td></tr>
+                        <tr><th>Summary</th><td>Weather forecast for Bhubaneswar showing current conditions and upcoming temperatures.</td></tr>
+                        <tr><th>Importance</th><td>★★☆☆☆ (2/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Bhubaneswar",
+    "type": "location"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>None</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_039">
+            <div class="card-header">
+                <h3>ext_039 &mdash; ext_039.jpg</h3>
+                <span class="badge cat">General</span>
+                <span class="badge ctype">unknown</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_039.jpg" alt="ext_039.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 720 × 1600 (52.35 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>General</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>unknown</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">settings</span> <span class="badge tag">wifi</span> <span class="badge tag">android</span> <span class="badge tag">device</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Reference device settings"</em></td></tr>
+                        <tr><th>Summary</th><td>Android settings screen with connectivity and device configuration options.</td></tr>
+                        <tr><th>Importance</th><td>★☆☆☆☆ (1/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "KIIT-WIFI-DU",
+    "type": "network_name"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>None</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_040">
+            <div class="card-header">
+                <h3>ext_040 &mdash; ext_040.jpg</h3>
+                <span class="badge cat">Communication</span>
+                <span class="badge ctype">email</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_040.jpg" alt="ext_040.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 720 × 1600 (66.7 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Communication</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>email</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">viki</span> <span class="badge tag">notification</span> <span class="badge tag">terms</span> <span class="badge tag">policy</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Review a service notification"</em></td></tr>
+                        <tr><th>Summary</th><td>Rakuten Viki terms-of-use update notification.</td></tr>
+                        <tr><th>Importance</th><td>★★★☆☆ (3/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Rakuten Viki",
+    "type": "application"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Review updated terms",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_041">
+            <div class="card-header">
+                <h3>ext_041 &mdash; ext_041.jpg</h3>
+                <span class="badge cat">Work & Career</span>
+                <span class="badge ctype">job_posting</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_041.jpg" alt="ext_041.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 720 × 1600 (95.85 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Work & Career</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>job_posting</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">linkedin</span> <span class="badge tag">career</span> <span class="badge tag">professional</span> <span class="badge tag">job</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Reference a professional post"</em></td></tr>
+                        <tr><th>Summary</th><td>LinkedIn post about a backend and ML engineering project or career update.</td></tr>
+                        <tr><th>Importance</th><td>★★★☆☆ (3/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "LinkedIn",
+    "type": "platform"
+  },
+  {
+    "text": "Backend & ML Engineer",
+    "type": "job_role"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>None</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_042">
+            <div class="card-header">
+                <h3>ext_042 &mdash; ext_042.jpg</h3>
+                <span class="badge cat">Travel</span>
+                <span class="badge ctype">travel_itinerary</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_042.jpg" alt="ext_042.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1080 × 2400 (416.84 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Travel</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>travel_itinerary</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">train</span> <span class="badge tag">railway</span> <span class="badge tag">ticket</span> <span class="badge tag">guwahati</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Plan a train journey"</em></td></tr>
+                        <tr><th>Summary</th><td>Train search results from Silchar to Guwahati with availability and fares.</td></tr>
+                        <tr><th>Importance</th><td>★★★★☆ (4/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge danger">💳 Payment Info</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Silchar",
+    "type": "origin"
+  },
+  {
+    "text": "Guwahati",
+    "type": "destination"
+  },
+  {
+    "text": "15616",
+    "type": "train_number"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>[
+  {
+    "text": "21 June",
+    "type": "travel_date"
+  }
+]</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Book or confirm train ticket",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_043">
+            <div class="card-header">
+                <h3>ext_043 &mdash; ext_043.jpg</h3>
+                <span class="badge cat">Education</span>
+                <span class="badge ctype">notes</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_043.jpg" alt="ext_043.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1080 × 2400 (526.18 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Education</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>notes</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">reasoning</span> <span class="badge tag">aptitude</span> <span class="badge tag">exam-prep</span> <span class="badge tag">study</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Practice reasoning questions"</em></td></tr>
+                        <tr><th>Summary</th><td>Reasoning aptitude question for exam preparation.</td></tr>
+                        <tr><th>Importance</th><td>★★★☆☆ (3/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge warning">📱 Personal Contact</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Reasoning",
+    "type": "subject"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Solve reasoning problem",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_044">
+            <div class="card-header">
+                <h3>ext_044 &mdash; ext_044.jpg</h3>
+                <span class="badge cat">Education</span>
+                <span class="badge ctype">notes</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_044.jpg" alt="ext_044.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1080 × 2400 (348.57 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Education</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>notes</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">exam</span> <span class="badge tag">mid-semester</span> <span class="badge tag">google-forms</span> <span class="badge tag">consent</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Record exam consent"</em></td></tr>
+                        <tr><th>Summary</th><td>Google Forms confirmation for consent to appear in regular mid-semester examinations.</td></tr>
+                        <tr><th>Importance</th><td>★★★★☆ (4/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Mid-Semester Examinations",
+    "type": "exam"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>[
+  {
+    "text": "10/9/26",
+    "type": "exam_date"
+  },
+  {
+    "text": "12/9/26",
+    "type": "exam_date"
+  }
+]</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Attend scheduled examinations",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_045">
+            <div class="card-header">
+                <h3>ext_045 &mdash; ext_045.jpg</h3>
+                <span class="badge cat">Shopping</span>
+                <span class="badge ctype">shopping_order</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_045.jpg" alt="ext_045.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1080 × 2400 (359.55 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Shopping</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>shopping_order</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">netmeds</span> <span class="badge tag">medicine</span> <span class="badge tag">order</span> <span class="badge tag">delivery</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Track a medicine order"</em></td></tr>
+                        <tr><th>Summary</th><td>Netmeds order and delivery messages for Mucolite SR with payment-on-delivery information.</td></tr>
+                        <tr><th>Importance</th><td>★★★★☆ (4/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge danger">💳 Payment Info</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Mucolite SR Capsule",
+    "type": "product"
+  },
+  {
+    "text": "Netmeds",
+    "type": "merchant"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>[
+  {
+    "text": "13 August",
+    "type": "order_date"
+  },
+  {
+    "text": "19 August",
+    "type": "delivery_date"
+  }
+]</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Receive medicine delivery",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_046">
+            <div class="card-header">
+                <h3>ext_046 &mdash; ext_046.jpg</h3>
+                <span class="badge cat">Travel</span>
+                <span class="badge ctype">flight_ticket</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_046.jpg" alt="ext_046.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1080 × 2400 (242.34 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Travel</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>flight_ticket</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">flight</span> <span class="badge tag">trip</span> <span class="badge tag">booking</span> <span class="badge tag">itinerary</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Review a flight itinerary"</em></td></tr>
+                        <tr><th>Summary</th><td>Trip summary for a flight from Bhubaneswar to Silchar.</td></tr>
+                        <tr><th>Importance</th><td>★★★★★ (5/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Bhubaneswar",
+    "type": "origin"
+  },
+  {
+    "text": "Silchar",
+    "type": "destination"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>[
+  {
+    "text": "14 Oct",
+    "type": "travel_date"
+  }
+]</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Prepare for flight",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_047">
+            <div class="card-header">
+                <h3>ext_047 &mdash; ext_047.jpg</h3>
+                <span class="badge cat">Travel</span>
+                <span class="badge ctype">flight_ticket</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_047.jpg" alt="ext_047.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1080 × 2400 (445.58 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Travel</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>flight_ticket</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">flight</span> <span class="badge tag">seat</span> <span class="badge tag">payment</span> <span class="badge tag">booking</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Resolve a flight booking/payment issue"</em></td></tr>
+                        <tr><th>Summary</th><td>Flight seat-selection screen showing turbulence notice, transaction ID and payment-status controls.</td></tr>
+                        <tr><th>Importance</th><td>★★★★★ (5/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge danger">💳 Payment Info</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "JFTMA5D7A260823142853",
+    "type": "transaction_id"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Recheck payment status and complete seat selection",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_048">
+            <div class="card-header">
+                <h3>ext_048 &mdash; ext_048.jpg</h3>
+                <span class="badge cat">Travel</span>
+                <span class="badge ctype">flight_ticket</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_048.jpg" alt="ext_048.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1080 × 2400 (499.85 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Travel</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>flight_ticket</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">indigo</span> <span class="badge tag">flight</span> <span class="badge tag">booking</span> <span class="badge tag">pnr</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Keep a flight booking record"</em></td></tr>
+                        <tr><th>Summary</th><td>Confirmed IndiGo itinerary with booking reference, flight numbers and timings.</td></tr>
+                        <tr><th>Importance</th><td>★★★★★ (5/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge danger">💳 Payment Info</span> <span class="badge warning">📱 Personal Contact</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "A9PMQM",
+    "type": "pnr"
+  },
+  {
+    "text": "IndiGo",
+    "type": "airline"
+  },
+  {
+    "text": "6E6913",
+    "type": "flight_number"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>[
+  {
+    "text": "14 Oct 26",
+    "type": "travel_date"
+  }
+]</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Check in and travel",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_049">
+            <div class="card-header">
+                <h3>ext_049 &mdash; ext_049.jpg</h3>
+                <span class="badge cat">Payment</span>
+                <span class="badge ctype">payment_receipt</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_049.jpg" alt="ext_049.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1080 × 2400 (453.85 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Payment</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>payment_receipt</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">payment</span> <span class="badge tag">kiit</span> <span class="badge tag">transaction</span> <span class="badge tag">receipt</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Keep a successful payment receipt"</em></td></tr>
+                        <tr><th>Summary</th><td>KIIT SAP payment confirmation showing successful transaction and amount.</td></tr>
+                        <tr><th>Importance</th><td>★★★★★ (5/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge danger">💳 Payment Info</span> <span class="badge warning">📱 Personal Contact</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "KIIT SAP",
+    "type": "merchant"
+  },
+  {
+    "text": "KIIT2608293016555",
+    "type": "order_id"
+  },
+  {
+    "text": "114778263043",
+    "type": "tracking_id"
+  },
+  {
+    "text": "\u20b910000.00",
+    "type": "amount"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>None</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_050">
+            <div class="card-header">
+                <h3>ext_050 &mdash; ext_050.jpg</h3>
+                <span class="badge cat">Entertainment</span>
+                <span class="badge ctype">video</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_050.jpg" alt="ext_050.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1080 × 2400 (294.0 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Entertainment</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>video</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">photo</span> <span class="badge tag">art</span> <span class="badge tag">visual</span> <span class="badge tag">media</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Keep a visual reference"</em></td></tr>
+                        <tr><th>Summary</th><td>Standalone artistic or photographic image with minimal text.</td></tr>
+                        <tr><th>Importance</th><td>★☆☆☆☆ (1/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>None</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>None</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_051">
+            <div class="card-header">
+                <h3>ext_051 &mdash; ext_051.jpg</h3>
+                <span class="badge cat">Entertainment</span>
+                <span class="badge ctype">video</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_051.jpg" alt="ext_051.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1080 × 2400 (990.08 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Entertainment</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>video</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">youtube</span> <span class="badge tag">music</span> <span class="badge tag">celebrity</span> <span class="badge tag">video</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Watch entertainment videos"</em></td></tr>
+                        <tr><th>Summary</th><td>YouTube entertainment feed with Michael Jackson and other video content.</td></tr>
+                        <tr><th>Importance</th><td>★★☆☆☆ (2/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Michael Jackson",
+    "type": "artist"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>None</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_052">
+            <div class="card-header">
+                <h3>ext_052 &mdash; ext_052.jpg</h3>
+                <span class="badge cat">Education</span>
+                <span class="badge ctype">notes</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_052.jpg" alt="ext_052.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1080 × 2400 (658.24 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Education</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>notes</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">exam-preparation</span> <span class="badge tag">study-strategy</span> <span class="badge tag">current-affairs</span> <span class="badge tag">revision</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Reference an exam preparation strategy"</em></td></tr>
+                        <tr><th>Summary</th><td>Study advice covering revision, current affairs, English, quantitative aptitude and reasoning.</td></tr>
+                        <tr><th>Importance</th><td>★★★★☆ (4/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "exam preparation",
+    "type": "topic"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Revise study material and take mocks",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_053">
+            <div class="card-header">
+                <h3>ext_053 &mdash; ext_053.jpg</h3>
+                <span class="badge cat">Entertainment</span>
+                <span class="badge ctype">video</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_053.jpg" alt="ext_053.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1080 × 2400 (849.51 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Entertainment</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>video</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">deviantart</span> <span class="badge tag">anime</span> <span class="badge tag">my-hero-academia</span> <span class="badge tag">art</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Save anime artwork"</em></td></tr>
+                        <tr><th>Summary</th><td>DeviantArt artwork featuring Dark Deku from My Hero Academia.</td></tr>
+                        <tr><th>Importance</th><td>★★☆☆☆ (2/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Dark Deku",
+    "type": "character"
+  },
+  {
+    "text": "My Hero Academia",
+    "type": "franchise"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>None</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_054">
+            <div class="card-header">
+                <h3>ext_054 &mdash; ext_054.jpg</h3>
+                <span class="badge cat">Entertainment</span>
+                <span class="badge ctype">video</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_054.jpg" alt="ext_054.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1080 × 2400 (902.26 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Entertainment</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>video</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">michael-jackson</span> <span class="badge tag">documentary</span> <span class="badge tag">music</span> <span class="badge tag">video</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Reference music documentary content"</em></td></tr>
+                        <tr><th>Summary</th><td>Video/documentary search results about Michael Jackson and related media.</td></tr>
+                        <tr><th>Importance</th><td>★★☆☆☆ (2/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Michael Jackson",
+    "type": "artist"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>None</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_055">
+            <div class="card-header">
+                <h3>ext_055 &mdash; ext_055.jpg</h3>
+                <span class="badge cat">Education</span>
+                <span class="badge ctype">notes</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_055.jpg" alt="ext_055.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1080 × 2400 (581.05 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Education</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>notes</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">scholarship</span> <span class="badge tag">kiit</span> <span class="badge tag">student</span> <span class="badge tag">bank-details</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Act on a scholarship renewal request"</em></td></tr>
+                        <tr><th>Summary</th><td>KIIT scholarship renewal email requesting bank details for scholarship payment.</td></tr>
+                        <tr><th>Importance</th><td>★★★★★ (5/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge danger">💳 Payment Info</span> <span class="badge warning">📱 Personal Contact</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "KIITEE Merit Scholarship",
+    "type": "scholarship"
+  },
+  {
+    "text": "pujalin.panda@kiit.ac.in",
+    "type": "email"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>[
+  {
+    "text": "11th September 2026",
+    "type": "deadline"
+  }
+]</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Submit bank account details if required",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_056">
+            <div class="card-header">
+                <h3>ext_056 &mdash; ext_056.jpg</h3>
+                <span class="badge cat">Education</span>
+                <span class="badge ctype">notes</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_056.jpg" alt="ext_056.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1080 × 2400 (387.87 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Education</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>notes</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">exam</span> <span class="badge tag">deep-learning</span> <span class="badge tag">timetable</span> <span class="badge tag">kiit</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Prepare for scheduled exams"</em></td></tr>
+                        <tr><th>Summary</th><td>KIIT mid-semester exam schedule for Deep Learning Techniques and Engineering Professional Practice.</td></tr>
+                        <tr><th>Importance</th><td>★★★★★ (5/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge warning">📱 Personal Contact</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "CS40001 - Deep Learning Techniques",
+    "type": "course"
+  },
+  {
+    "text": "EX40003 - Engineering Professional Practice",
+    "type": "course"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>[
+  {
+    "text": "11-09-2026",
+    "type": "exam_date"
+  },
+  {
+    "text": "12-09-2026",
+    "type": "exam_date"
+  }
+]</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Verify venue and attend exams",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_057">
+            <div class="card-header">
+                <h3>ext_057 &mdash; ext_057.jpg</h3>
+                <span class="badge cat">Shopping</span>
+                <span class="badge ctype">shopping_order</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_057.jpg" alt="ext_057.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1080 × 1372 (183.56 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Shopping</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>shopping_order</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">exchange</span> <span class="badge tag">ecommerce</span> <span class="badge tag">order</span> <span class="badge tag">delivery</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Track an exchanged product"</em></td></tr>
+                        <tr><th>Summary</th><td>The Souled Store exchange request with product, recipient and delivery date.</td></tr>
+                        <tr><th>Importance</th><td>★★★★☆ (4/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge danger">💳 Payment Info</span> <span class="badge warning">📱 Personal Contact</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "The Souled Store",
+    "type": "merchant"
+  },
+  {
+    "text": "Women Slim Fit",
+    "type": "product"
+  },
+  {
+    "text": "Cousin Runu Sinha",
+    "type": "recipient"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>[
+  {
+    "text": "17 Sep 2026",
+    "type": "delivery_date"
+  }
+]</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Track exchange delivery",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_058">
+            <div class="card-header">
+                <h3>ext_058 &mdash; ext_058.jpg</h3>
+                <span class="badge cat">Education</span>
+                <span class="badge ctype">notes</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_058.jpg" alt="ext_058.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1080 × 2400 (284.96 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Education</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>notes</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">professional-practice</span> <span class="badge tag">engineering</span> <span class="badge tag">assignment</span> <span class="badge tag">course</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Reference professional practice coursework"</em></td></tr>
+                        <tr><th>Summary</th><td>Coursework document listing engineering standards, organizations, employment contracts and intellectual property topics.</td></tr>
+                        <tr><th>Importance</th><td>★★★★☆ (4/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Engineering Professional Practice",
+    "type": "course"
+  },
+  {
+    "text": "Intellectual Property Rights",
+    "type": "topic"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Study professional practice topics",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_059">
+            <div class="card-header">
+                <h3>ext_059 &mdash; ext_059.jpg</h3>
+                <span class="badge cat">Education</span>
+                <span class="badge ctype">notes</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_059.jpg" alt="ext_059.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1080 × 2400 (478.64 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Education</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>notes</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">vocabulary</span> <span class="badge tag">english</span> <span class="badge tag">word-meanings</span> <span class="badge tag">study</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Study English vocabulary"</em></td></tr>
+                        <tr><th>Summary</th><td>Vocabulary lesson explaining words such as prolix and impolite with synonyms and examples.</td></tr>
+                        <tr><th>Importance</th><td>★★★☆☆ (3/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Prolix",
+    "type": "vocabulary"
+  },
+  {
+    "text": "Impolite",
+    "type": "vocabulary"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Review vocabulary meanings",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="ext_060">
+            <div class="card-header">
+                <h3>ext_060 &mdash; ext_060.jpg</h3>
+                <span class="badge cat">Education</span>
+                <span class="badge ctype">notes</span>
+            </div>
+            <div class="card-body">
+                <div class="image-column">
+                    <img src="images/ext_060.jpg" alt="ext_060.jpg" loading="lazy" />
+                    <div class="image-dims">Dimensions: 1080 × 2400 (854.03 KB)</div>
+                </div>
+                <div class="info-column">
+                    <table class="detail-table">
+                        <tr><th>Category</th><td><strong>Education</strong></td></tr>
+                        <tr><th>Content Type</th><td><code>notes</code></td></tr>
+                        <tr><th>Tags</th><td><span class="badge tag">vocabulary</span> <span class="badge tag">idioms</span> <span class="badge tag">phrasal-verbs</span> <span class="badge tag">english</span></td></tr>
+                        <tr><th>Intent</th><td><em class="intent-text">"Study English vocabulary and idioms"</em></td></tr>
+                        <tr><th>Summary</th><td>English vocabulary, one-word substitutions, phrasal verbs and idioms study material.</td></tr>
+                        <tr><th>Importance</th><td>★★★☆☆ (3/5)</td></tr>
+                        <tr><th>Sensitive Info</th><td><span class="badge safe">None</span></td></tr>
+                        <tr><th>Entities</th><td><pre>[
+  {
+    "text": "Vocabulary",
+    "type": "topic"
+  },
+  {
+    "text": "Phrasal Verbs",
+    "type": "topic"
+  },
+  {
+    "text": "Idioms & Phrases",
+    "type": "topic"
+  }
+]</pre></td></tr>
+                        <tr><th>Dates</th><td><pre>None</pre></td></tr>
+                        <tr><th>Action Items</th><td><pre>[
+  {
+    "text": "Review vocabulary and idioms",
+    "status": "pending"
+  }
+]</pre></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+</body>
+</html>

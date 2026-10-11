@@ -1,0 +1,245 @@
+id,filename,image_path,category,tags,label_confidence,label_reason,source
+ext2_001,ext2_001.jpg,images/ext2_001.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_002,ext2_002.jpg,images/ext2_002.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_003,ext2_003.jpg,images/ext2_003.jpg,General,,Low,Sparse or generic launcher UI screen lacking clear domain context.,UNKNOWN
+ext2_004,ext2_004.jpg,images/ext2_004.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_005,ext2_005.jpg,images/ext2_005.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_006,ext2_006.jpg,images/ext2_006.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_007,ext2_007.jpg,images/ext2_007.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_008,ext2_008.jpg,images/ext2_008.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_009,ext2_009.jpg,images/ext2_009.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_010,ext2_010.jpg,images/ext2_010.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_011,ext2_011.jpg,images/ext2_011.jpg,General,,Low,Sparse or generic launcher UI screen lacking clear domain context.,UNKNOWN
+ext2_012,ext2_012.jpg,images/ext2_012.jpg,Work & Career,,High,"Professional workplace dashboard, job appointment onboarding, developer IDE, or project workspace.",UNKNOWN
+ext2_013,ext2_013.jpg,images/ext2_013.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_014,ext2_014.jpg,images/ext2_014.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_015,ext2_015.jpg,images/ext2_015.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_016,ext2_016.jpg,images/ext2_016.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_017,ext2_017.jpg,images/ext2_017.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_018,ext2_018.jpg,images/ext2_018.jpg,Shopping,,High,"E-commerce product catalog listing, promotional offer, or shopping filter screen.",UNKNOWN
+ext2_019,ext2_019.jpg,images/ext2_019.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_020,ext2_020.jpg,images/ext2_020.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_021,ext2_021.jpg,images/ext2_021.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_022,ext2_022.jpg,images/ext2_022.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_023,ext2_023.jpg,images/ext2_023.jpg,Work & Career,,High,"Professional workplace dashboard, job appointment onboarding, developer IDE, or project workspace.",UNKNOWN
+ext2_024,ext2_024.jpg,images/ext2_024.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_025,ext2_025.jpg,images/ext2_025.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_026,ext2_026.jpg,images/ext2_026.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_027,ext2_027.jpg,images/ext2_027.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_028,ext2_028.jpg,images/ext2_028.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_029,ext2_029.jpg,images/ext2_029.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_030,ext2_030.jpg,images/ext2_030.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_031,ext2_031.jpg,images/ext2_031.jpg,Shopping,,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_032,ext2_032.jpg,images/ext2_032.jpg,Shopping,,High,Urban accessories and fashion collection sale product page.,UNKNOWN
+ext2_033,ext2_033.jpg,images/ext2_033.jpg,Shopping,,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_034,ext2_034.jpg,images/ext2_034.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_035,ext2_035.jpg,images/ext2_035.jpg,Shopping,,High,"E-commerce product catalog listing, promotional offer, or shopping filter screen.",UNKNOWN
+ext2_036,ext2_036.jpg,images/ext2_036.jpg,Shopping,,High,"E-commerce product catalog listing, promotional offer, or shopping filter screen.",UNKNOWN
+ext2_037,ext2_037.jpg,images/ext2_037.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_038,ext2_038.jpg,images/ext2_038.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_039,ext2_039.jpg,images/ext2_039.jpg,Shopping,,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_040,ext2_040.jpg,images/ext2_040.jpg,Shopping,,High,"E-commerce product catalog listing, promotional offer, or shopping filter screen.",UNKNOWN
+ext2_041,ext2_041.jpg,images/ext2_041.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_042,ext2_042.jpg,images/ext2_042.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_043,ext2_043.jpg,images/ext2_043.jpg,Shopping,,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_044,ext2_044.jpg,images/ext2_044.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_045,ext2_045.jpg,images/ext2_045.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_046,ext2_046.jpg,images/ext2_046.jpg,Shopping,Amazon,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_047,ext2_047.jpg,images/ext2_047.jpg,Shopping,Amazon,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_048,ext2_048.jpg,images/ext2_048.jpg,Shopping,Amazon,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_049,ext2_049.jpg,images/ext2_049.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_050,ext2_050.jpg,images/ext2_050.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_051,ext2_051.jpg,images/ext2_051.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_052,ext2_052.jpg,images/ext2_052.jpg,Shopping,,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_053,ext2_053.jpg,images/ext2_053.jpg,Shopping,,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_054,ext2_054.jpg,images/ext2_054.jpg,Shopping,,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_055,ext2_055.jpg,images/ext2_055.jpg,Shopping,,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_056,ext2_056.jpg,images/ext2_056.jpg,Shopping,,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_057,ext2_057.jpg,images/ext2_057.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_058,ext2_058.jpg,images/ext2_058.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_059,ext2_059.jpg,images/ext2_059.jpg,Shopping,,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_060,ext2_060.jpg,images/ext2_060.jpg,Shopping,,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_061,ext2_061.jpg,images/ext2_061.jpg,Shopping,,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_062,ext2_062.jpg,images/ext2_062.jpg,Shopping,,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_063,ext2_063.jpg,images/ext2_063.jpg,Shopping,,High,"E-commerce product catalog listing, promotional offer, or shopping filter screen.",UNKNOWN
+ext2_064,ext2_064.jpg,images/ext2_064.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_065,ext2_065.jpg,images/ext2_065.jpg,Shopping,,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_066,ext2_066.jpg,images/ext2_066.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_067,ext2_067.jpg,images/ext2_067.jpg,Shopping,,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_068,ext2_068.jpg,images/ext2_068.jpg,Shopping,,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_069,ext2_069.jpg,images/ext2_069.jpg,Shopping,,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_070,ext2_070.jpg,images/ext2_070.jpg,Shopping,IKEA,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_071,ext2_071.jpg,images/ext2_071.jpg,Shopping,IKEA,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_072,ext2_072.jpg,images/ext2_072.jpg,Shopping,IKEA,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_073,ext2_073.jpg,images/ext2_073.jpg,Shopping,,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_074,ext2_074.jpg,images/ext2_074.jpg,Shopping,,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_075,ext2_075.jpg,images/ext2_075.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_076,ext2_076.jpg,images/ext2_076.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_077,ext2_077.jpg,images/ext2_077.jpg,Shopping,Flipkart,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_078,ext2_078.jpg,images/ext2_078.jpg,Shopping,,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_079,ext2_079.jpg,images/ext2_079.jpg,Connectivity,Wi-Fi,High,Network connection session attempt popup screen.,UNKNOWN
+ext2_080,ext2_080.jpg,images/ext2_080.jpg,Connectivity,Wi-Fi,High,"Wi-Fi, Bluetooth, VPN, or network settings and device connection configuration screen.",UNKNOWN
+ext2_081,ext2_081.jpg,images/ext2_081.jpg,Connectivity,"Wi-Fi, Hotspot",High,"Wi-Fi, Bluetooth, VPN, or network settings and device connection configuration screen.",UNKNOWN
+ext2_082,ext2_082.jpg,images/ext2_082.jpg,Connectivity,"Wi-Fi, Hotspot",High,"Wi-Fi, Bluetooth, VPN, or network settings and device connection configuration screen.",UNKNOWN
+ext2_083,ext2_083.jpg,images/ext2_083.jpg,Connectivity,"Wi-Fi, Hotspot",High,"Wi-Fi, Bluetooth, VPN, or network settings and device connection configuration screen.",UNKNOWN
+ext2_084,ext2_084.jpg,images/ext2_084.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_085,ext2_085.jpg,images/ext2_085.jpg,Education,"Coding, Programming, Git",High,DAA lab and COA notes folder with Git repository materials.,UNKNOWN
+ext2_086,ext2_086.jpg,images/ext2_086.jpg,Work & Career,"Coding, Software Development, SQL",High,XAMPP / phpMyAdmin web developer local database management control panel.,UNKNOWN
+ext2_087,ext2_087.jpg,images/ext2_087.jpg,Work & Career,"Coding, Software Development, SQL",High,XAMPP / phpMyAdmin web developer local database management control panel.,UNKNOWN
+ext2_088,ext2_088.jpg,images/ext2_088.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_089,ext2_089.jpg,images/ext2_089.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_090,ext2_090.jpg,images/ext2_090.jpg,Payment,Banking,High,"Financial transaction receipt, bank transfer statement, or payment confirmation screen.",UNKNOWN
+ext2_091,ext2_091.jpg,images/ext2_091.jpg,Payment,,High,"Financial transaction receipt, bank transfer statement, or payment confirmation screen.",UNKNOWN
+ext2_092,ext2_092.jpg,images/ext2_092.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_093,ext2_093.jpg,images/ext2_093.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_094,ext2_094.jpg,images/ext2_094.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_095,ext2_095.jpg,images/ext2_095.jpg,Payment,Banking,High,"Financial transaction receipt, bank transfer statement, or payment confirmation screen.",UNKNOWN
+ext2_096,ext2_096.jpg,images/ext2_096.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_097,ext2_097.jpg,images/ext2_097.jpg,Payment,Banking,High,"Financial transaction receipt, bank transfer statement, or payment confirmation screen.",UNKNOWN
+ext2_098,ext2_098.jpg,images/ext2_098.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_099,ext2_099.jpg,images/ext2_099.jpg,Payment,Banking,High,"Financial transaction receipt, bank transfer statement, or payment confirmation screen.",UNKNOWN
+ext2_100,ext2_100.jpg,images/ext2_100.jpg,Payment,QuickBooks,High,"Financial transaction receipt, bank transfer statement, or payment confirmation screen.",UNKNOWN
+ext2_101,ext2_101.jpg,images/ext2_101.jpg,Payment,Banking,High,"Financial transaction receipt, bank transfer statement, or payment confirmation screen.",UNKNOWN
+ext2_102,ext2_102.jpg,images/ext2_102.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_103,ext2_103.jpg,images/ext2_103.jpg,Payment,,High,"Financial transaction receipt, bank transfer statement, or payment confirmation screen.",UNKNOWN
+ext2_104,ext2_104.jpg,images/ext2_104.jpg,Payment,,High,"Financial transaction receipt, bank transfer statement, or payment confirmation screen.",UNKNOWN
+ext2_105,ext2_105.jpg,images/ext2_105.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_106,ext2_106.jpg,images/ext2_106.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_107,ext2_107.jpg,images/ext2_107.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_108,ext2_108.jpg,images/ext2_108.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_109,ext2_109.jpg,images/ext2_109.jpg,Payment,"PayPal, Banking",High,"Financial transaction receipt, bank transfer statement, or payment confirmation screen.",UNKNOWN
+ext2_110,ext2_110.jpg,images/ext2_110.jpg,Payment,Banking,High,"Payment submitted deposit confirmation receipt ($500,000.00).",UNKNOWN
+ext2_111,ext2_111.jpg,images/ext2_111.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_112,ext2_112.jpg,images/ext2_112.jpg,Work & Career,,High,"Professional workplace dashboard, job appointment onboarding, developer IDE, or project workspace.",UNKNOWN
+ext2_113,ext2_113.jpg,images/ext2_113.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_114,ext2_114.jpg,images/ext2_114.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_115,ext2_115.jpg,images/ext2_115.jpg,Education,"Coding, Programming, HTML",High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_116,ext2_116.jpg,images/ext2_116.jpg,Education,"Coding, Programming, HTML",High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_117,ext2_117.jpg,images/ext2_117.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_118,ext2_118.jpg,images/ext2_118.jpg,Education,"Coding, Programming, Python",High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_119,ext2_119.jpg,images/ext2_119.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_120,ext2_120.jpg,images/ext2_120.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_121,ext2_121.jpg,images/ext2_121.jpg,Communication,Email,High,"Direct SMS thread, instant chat message, or email communication interface.",UNKNOWN
+ext2_122,ext2_122.jpg,images/ext2_122.jpg,Payment,,High,"Financial transaction receipt, bank transfer statement, or payment confirmation screen.",UNKNOWN
+ext2_123,ext2_123.jpg,images/ext2_123.jpg,Communication,Email,High,"Direct SMS thread, instant chat message, or email communication interface.",UNKNOWN
+ext2_124,ext2_124.jpg,images/ext2_124.jpg,Communication,Email,High,"Direct SMS thread, instant chat message, or email communication interface.",UNKNOWN
+ext2_125,ext2_125.jpg,images/ext2_125.jpg,Communication,Email,High,"Direct SMS thread, instant chat message, or email communication interface.",UNKNOWN
+ext2_126,ext2_126.jpg,images/ext2_126.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_127,ext2_127.jpg,images/ext2_127.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_128,ext2_128.jpg,images/ext2_128.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_129,ext2_129.jpg,images/ext2_129.jpg,Work & Career,,High,Internship job listing application details.,UNKNOWN
+ext2_130,ext2_130.jpg,images/ext2_130.jpg,Communication,WhatsApp,High,"Direct SMS thread, instant chat message, or email communication interface.",UNKNOWN
+ext2_131,ext2_131.jpg,images/ext2_131.jpg,Education,,High,Kalinga Institute of Industrial Technology (KIIT) university website.,UNKNOWN
+ext2_132,ext2_132.jpg,images/ext2_132.jpg,Work & Career,,High,Internship job listing application details.,UNKNOWN
+ext2_133,ext2_133.jpg,images/ext2_133.jpg,Communication,Email,High,"Direct SMS thread, instant chat message, or email communication interface.",UNKNOWN
+ext2_134,ext2_134.jpg,images/ext2_134.jpg,Work & Career,,High,"Professional workplace dashboard, job appointment onboarding, developer IDE, or project workspace.",UNKNOWN
+ext2_135,ext2_135.jpg,images/ext2_135.jpg,Work & Career,,High,"Professional workplace dashboard, job appointment onboarding, developer IDE, or project workspace.",UNKNOWN
+ext2_136,ext2_136.jpg,images/ext2_136.jpg,Work & Career,,High,"Professional workplace dashboard, job appointment onboarding, developer IDE, or project workspace.",UNKNOWN
+ext2_137,ext2_137.jpg,images/ext2_137.jpg,Communication,Email,High,"Direct SMS thread, instant chat message, or email communication interface.",UNKNOWN
+ext2_138,ext2_138.jpg,images/ext2_138.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_139,ext2_139.jpg,images/ext2_139.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_140,ext2_140.jpg,images/ext2_140.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_141,ext2_141.jpg,images/ext2_141.jpg,General,,Low,Sparse or generic launcher UI screen lacking clear domain context.,UNKNOWN
+ext2_142,ext2_142.jpg,images/ext2_142.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_143,ext2_143.jpg,images/ext2_143.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_144,ext2_144.jpg,images/ext2_144.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_145,ext2_145.jpg,images/ext2_145.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_146,ext2_146.jpg,images/ext2_146.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_147,ext2_147.jpg,images/ext2_147.jpg,Entertainment,,High,"Streaming entertainment video, music playback, or gaming application interface.",UNKNOWN
+ext2_148,ext2_148.jpg,images/ext2_148.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_149,ext2_149.jpg,images/ext2_149.jpg,Entertainment,Netflix,High,"Streaming entertainment video, music playback, or gaming application interface.",UNKNOWN
+ext2_150,ext2_150.jpg,images/ext2_150.jpg,Communication,Email,High,"Direct SMS thread, instant chat message, or email communication interface.",UNKNOWN
+ext2_151,ext2_151.jpg,images/ext2_151.jpg,Travel,Flight,High,"Flight itinerary, hotel reservation, train ticket, or travel booking confirmation.",UNKNOWN
+ext2_152,ext2_152.jpg,images/ext2_152.jpg,Communication,Email,High,"Direct SMS thread, instant chat message, or email communication interface.",UNKNOWN
+ext2_153,ext2_153.jpg,images/ext2_153.jpg,Payment,,High,"Financial transaction receipt, bank transfer statement, or payment confirmation screen.",UNKNOWN
+ext2_154,ext2_154.jpg,images/ext2_154.jpg,Travel,Train,High,"Flight itinerary, hotel reservation, train ticket, or travel booking confirmation.",UNKNOWN
+ext2_155,ext2_155.jpg,images/ext2_155.jpg,Travel,"Hotel, Train",High,"Flight itinerary, hotel reservation, train ticket, or travel booking confirmation.",UNKNOWN
+ext2_156,ext2_156.jpg,images/ext2_156.jpg,Communication,Email,High,"Direct SMS thread, instant chat message, or email communication interface.",UNKNOWN
+ext2_157,ext2_157.jpg,images/ext2_157.jpg,Travel,,High,"Flight itinerary, hotel reservation, train ticket, or travel booking confirmation.",UNKNOWN
+ext2_158,ext2_158.jpg,images/ext2_158.jpg,Communication,Email,High,"Direct SMS thread, instant chat message, or email communication interface.",UNKNOWN
+ext2_159,ext2_159.jpg,images/ext2_159.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_160,ext2_160.jpg,images/ext2_160.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_161,ext2_161.jpg,images/ext2_161.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_162,ext2_162.jpg,images/ext2_162.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_163,ext2_163.jpg,images/ext2_163.jpg,Work & Career,,High,"Professional workplace dashboard, job appointment onboarding, developer IDE, or project workspace.",UNKNOWN
+ext2_164,ext2_164.jpg,images/ext2_164.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_165,ext2_165.jpg,images/ext2_165.jpg,Communication,Email,High,"Direct SMS thread, instant chat message, or email communication interface.",UNKNOWN
+ext2_166,ext2_166.jpg,images/ext2_166.jpg,Communication,Email,High,"Direct SMS thread, instant chat message, or email communication interface.",UNKNOWN
+ext2_167,ext2_167.jpg,images/ext2_167.jpg,Communication,Email,High,"Direct SMS thread, instant chat message, or email communication interface.",UNKNOWN
+ext2_168,ext2_168.jpg,images/ext2_168.jpg,Travel,Flight,High,"Flight itinerary, hotel reservation, train ticket, or travel booking confirmation.",UNKNOWN
+ext2_169,ext2_169.jpg,images/ext2_169.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_170,ext2_170.jpg,images/ext2_170.jpg,Communication,,High,"Direct SMS thread, instant chat message, or email communication interface.",UNKNOWN
+ext2_171,ext2_171.jpg,images/ext2_171.jpg,Communication,,High,"Direct SMS thread, instant chat message, or email communication interface.",UNKNOWN
+ext2_172,ext2_172.jpg,images/ext2_172.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_173,ext2_173.jpg,images/ext2_173.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_174,ext2_174.jpg,images/ext2_174.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_175,ext2_175.jpg,images/ext2_175.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_176,ext2_176.jpg,images/ext2_176.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_177,ext2_177.jpg,images/ext2_177.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_178,ext2_178.jpg,images/ext2_178.jpg,General,,Low,Sparse or generic launcher UI screen lacking clear domain context.,UNKNOWN
+ext2_179,ext2_179.jpg,images/ext2_179.jpg,General,,Low,Sparse or generic launcher UI screen lacking clear domain context.,UNKNOWN
+ext2_180,ext2_180.jpg,images/ext2_180.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_181,ext2_181.jpg,images/ext2_181.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_182,ext2_182.jpg,images/ext2_182.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_183,ext2_183.jpg,images/ext2_183.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_184,ext2_184.jpg,images/ext2_184.jpg,Entertainment,,High,"Streaming entertainment video, music playback, or gaming application interface.",UNKNOWN
+ext2_185,ext2_185.jpg,images/ext2_185.jpg,Entertainment,,High,"Streaming entertainment video, music playback, or gaming application interface.",UNKNOWN
+ext2_186,ext2_186.jpg,images/ext2_186.jpg,Entertainment,,High,"Streaming entertainment video, music playback, or gaming application interface.",UNKNOWN
+ext2_187,ext2_187.jpg,images/ext2_187.jpg,Shopping,,High,"E-commerce product catalog listing, promotional offer, or shopping filter screen.",UNKNOWN
+ext2_188,ext2_188.jpg,images/ext2_188.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_189,ext2_189.jpg,images/ext2_189.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_190,ext2_190.jpg,images/ext2_190.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_191,ext2_191.jpg,images/ext2_191.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_192,ext2_192.jpg,images/ext2_192.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_193,ext2_193.jpg,images/ext2_193.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_194,ext2_194.jpg,images/ext2_194.jpg,General,,Low,Sparse or generic launcher UI screen lacking clear domain context.,UNKNOWN
+ext2_195,ext2_195.jpg,images/ext2_195.jpg,Communication,SMS,High,Direct SMS messaging thread or social share-to-chat screen.,UNKNOWN
+ext2_196,ext2_196.jpg,images/ext2_196.jpg,Communication,SMS,High,Direct SMS messaging thread or social share-to-chat screen.,UNKNOWN
+ext2_197,ext2_197.jpg,images/ext2_197.jpg,General,,Low,Sparse or generic launcher UI screen lacking clear domain context.,UNKNOWN
+ext2_198,ext2_198.jpg,images/ext2_198.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_199,ext2_199.jpg,images/ext2_199.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_200,ext2_200.jpg,images/ext2_200.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_201,ext2_201.jpg,images/ext2_201.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_202,ext2_202.jpg,images/ext2_202.jpg,Shopping,,High,"E-commerce product catalog listing, promotional offer, or shopping filter screen.",UNKNOWN
+ext2_203,ext2_203.jpg,images/ext2_203.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_204,ext2_204.jpg,images/ext2_204.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_205,ext2_205.jpg,images/ext2_205.jpg,Shopping,,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_206,ext2_206.jpg,images/ext2_206.jpg,Education,"Coding, Programming, Algorithm, C++",High,C++ Bidirectional BFS algorithm source code lab exercise.,UNKNOWN
+ext2_207,ext2_207.jpg,images/ext2_207.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_208,ext2_208.jpg,images/ext2_208.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_209,ext2_209.jpg,images/ext2_209.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_210,ext2_210.jpg,images/ext2_210.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_211,ext2_211.jpg,images/ext2_211.jpg,Education,"Coding, Programming, Algorithm, C++",High,C++ Bidirectional BFS algorithm source code lab exercise.,UNKNOWN
+ext2_212,ext2_212.jpg,images/ext2_212.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_213,ext2_213.jpg,images/ext2_213.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_214,ext2_214.jpg,images/ext2_214.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_215,ext2_215.jpg,images/ext2_215.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_216,ext2_216.jpg,images/ext2_216.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_217,ext2_217.jpg,images/ext2_217.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_218,ext2_218.jpg,images/ext2_218.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_219,ext2_219.jpg,images/ext2_219.jpg,Shopping,,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_220,ext2_220.jpg,images/ext2_220.jpg,General,,Low,Sparse or generic launcher UI screen lacking clear domain context.,UNKNOWN
+ext2_221,ext2_221.jpg,images/ext2_221.jpg,Shopping,,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_222,ext2_222.jpg,images/ext2_222.jpg,General,,Low,Sparse or generic launcher UI screen lacking clear domain context.,UNKNOWN
+ext2_223,ext2_223.jpg,images/ext2_223.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_224,ext2_224.jpg,images/ext2_224.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_225,ext2_225.jpg,images/ext2_225.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_226,ext2_226.jpg,images/ext2_226.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_227,ext2_227.jpg,images/ext2_227.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_228,ext2_228.jpg,images/ext2_228.jpg,Communication,,High,"Direct SMS thread, instant chat message, or email communication interface.",UNKNOWN
+ext2_229,ext2_229.jpg,images/ext2_229.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_230,ext2_230.jpg,images/ext2_230.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_231,ext2_231.jpg,images/ext2_231.jpg,Shopping,Flipkart,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_232,ext2_232.jpg,images/ext2_232.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_233,ext2_233.jpg,images/ext2_233.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_234,ext2_234.jpg,images/ext2_234.jpg,Education,,High,"Academic lecture slide, educational quiz score, or online course tutorial.",UNKNOWN
+ext2_235,ext2_235.jpg,images/ext2_235.jpg,Communication,,High,"Direct SMS thread, instant chat message, or email communication interface.",UNKNOWN
+ext2_236,ext2_236.jpg,images/ext2_236.jpg,General,,Low,Sparse or generic launcher UI screen lacking clear domain context.,UNKNOWN
+ext2_237,ext2_237.jpg,images/ext2_237.jpg,Shopping,,High,"E-commerce product catalog, online shopping page, or shopping cart interface.",UNKNOWN
+ext2_238,ext2_238.jpg,images/ext2_238.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_239,ext2_239.jpg,images/ext2_239.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_240,ext2_240.jpg,images/ext2_240.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_241,ext2_241.jpg,images/ext2_241.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_242,ext2_242.jpg,images/ext2_242.jpg,Communication,,High,"Direct SMS thread, instant chat message, or email communication interface.",UNKNOWN
+ext2_243,ext2_243.jpg,images/ext2_243.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN
+ext2_244,ext2_244.jpg,images/ext2_244.jpg,General,,Medium,Miscellaneous UI screen with low domain-specific context.,UNKNOWN

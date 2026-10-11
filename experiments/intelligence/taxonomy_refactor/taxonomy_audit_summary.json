@@ -1,0 +1,755 @@
+{
+  "total_records": 836,
+  "valid_records_count": 833,
+  "old_coding_count": 64,
+  "coding_remap_breakdown": {
+    "Work & Career": 25,
+    "Education": 19,
+    "General": 20
+  },
+  "new_category_distribution": {
+    "Work & Career": 141,
+    "Shopping": 133,
+    "Entertainment": 127,
+    "Travel": 122,
+    "General": 96,
+    "Education": 91,
+    "Communication": 73,
+    "Connectivity": 28,
+    "Payment": 25
+  },
+  "audited_coding_details": [
+    {
+      "file": "ss_001.jpg",
+      "old_category": "Coding",
+      "new_category": "Work & Career",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "Python",
+        "VS Code"
+      ],
+      "reason": "Professional software development project, repository, or workspace."
+    },
+    {
+      "file": "ss_002.jpg",
+      "old_category": "Coding",
+      "new_category": "Work & Career",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "VS Code",
+        "Payment"
+      ],
+      "reason": "Professional software development project, repository, or workspace."
+    },
+    {
+      "file": "ss_003.jpg",
+      "old_category": "Coding",
+      "new_category": "Education",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "Python",
+        "VS Code"
+      ],
+      "reason": "Educational programming assignment, LeetCode practice, or course material."
+    },
+    {
+      "file": "ss_004.jpg",
+      "old_category": "Coding",
+      "new_category": "Work & Career",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "VS Code"
+      ],
+      "reason": "Professional software development project, repository, or workspace."
+    },
+    {
+      "file": "ss_005.jpg",
+      "old_category": "Coding",
+      "new_category": "Work & Career",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "Python",
+        "Payment"
+      ],
+      "reason": "Software project codebase or data science development."
+    },
+    {
+      "file": "ss_006.jpg",
+      "old_category": "Coding",
+      "new_category": "General",
+      "tags": [
+        "Coding",
+        "Software Development"
+      ],
+      "reason": "Coding content without distinct educational or workplace context."
+    },
+    {
+      "file": "ss_007.jpg",
+      "old_category": "Coding",
+      "new_category": "Education",
+      "tags": [
+        "Coding",
+        "Software Development"
+      ],
+      "reason": "Educational programming assignment, LeetCode practice, or course material."
+    },
+    {
+      "file": "ss_008.jpg",
+      "old_category": "Coding",
+      "new_category": "Education",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "Shopping"
+      ],
+      "reason": "Educational programming assignment, LeetCode practice, or course material."
+    },
+    {
+      "file": "ss_009.jpg",
+      "old_category": "Coding",
+      "new_category": "General",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "Web Development"
+      ],
+      "reason": "Coding content without distinct educational or workplace context."
+    },
+    {
+      "file": "ss_010.jpg",
+      "old_category": "Coding",
+      "new_category": "General",
+      "tags": [
+        "Coding",
+        "Software Development"
+      ],
+      "reason": "Coding content without distinct educational or workplace context."
+    },
+    {
+      "file": "ss_011.jpg",
+      "old_category": "Coding",
+      "new_category": "General",
+      "tags": [
+        "Coding",
+        "Software Development"
+      ],
+      "reason": "Coding content without distinct educational or workplace context."
+    },
+    {
+      "file": "ss_012.jpg",
+      "old_category": "Coding",
+      "new_category": "Work & Career",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "Python",
+        "Web Development"
+      ],
+      "reason": "Software project codebase or data science development."
+    },
+    {
+      "file": "ss_013.jpg",
+      "old_category": "Coding",
+      "new_category": "Work & Career",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "Python",
+        "Payment"
+      ],
+      "reason": "Software project codebase or data science development."
+    },
+    {
+      "file": "ss_014.jpg",
+      "old_category": "Coding",
+      "new_category": "Work & Career",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "Python"
+      ],
+      "reason": "Software project codebase or data science development."
+    },
+    {
+      "file": "ss_015.jpg",
+      "old_category": "Coding",
+      "new_category": "Work & Career",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "Python",
+        "Payment"
+      ],
+      "reason": "Software project codebase or data science development."
+    },
+    {
+      "file": "ss_016.jpg",
+      "old_category": "Coding",
+      "new_category": "Work & Career",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "Python"
+      ],
+      "reason": "Software project codebase or data science development."
+    },
+    {
+      "file": "ss_017.jpg",
+      "old_category": "Coding",
+      "new_category": "Work & Career",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "Python",
+        "Web Development"
+      ],
+      "reason": "Software project codebase or data science development."
+    },
+    {
+      "file": "ss_018.jpg",
+      "old_category": "Coding",
+      "new_category": "Education",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "Python"
+      ],
+      "reason": "Educational programming assignment, LeetCode practice, or course material."
+    },
+    {
+      "file": "ss_019.jpg",
+      "old_category": "Coding",
+      "new_category": "General",
+      "tags": [
+        "Coding",
+        "Software Development"
+      ],
+      "reason": "Coding content without distinct educational or workplace context."
+    },
+    {
+      "file": "ss_020.jpg",
+      "old_category": "Coding",
+      "new_category": "Work & Career",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "Python"
+      ],
+      "reason": "Software project codebase or data science development."
+    },
+    {
+      "file": "ss_021.jpg",
+      "old_category": "Coding",
+      "new_category": "General",
+      "tags": [
+        "Coding",
+        "Software Development"
+      ],
+      "reason": "Coding content without distinct educational or workplace context."
+    },
+    {
+      "file": "ss_022.jpg",
+      "old_category": "Coding",
+      "new_category": "General",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "Payment",
+        "Shopping"
+      ],
+      "reason": "Coding content without distinct educational or workplace context."
+    },
+    {
+      "file": "ss_023.jpg",
+      "old_category": "Coding",
+      "new_category": "General",
+      "tags": [
+        "Coding",
+        "Software Development"
+      ],
+      "reason": "Coding content without distinct educational or workplace context."
+    },
+    {
+      "file": "ss_024.jpg",
+      "old_category": "Coding",
+      "new_category": "General",
+      "tags": [
+        "Coding",
+        "Software Development"
+      ],
+      "reason": "Coding content without distinct educational or workplace context."
+    },
+    {
+      "file": "ss_025.jpg",
+      "old_category": "Coding",
+      "new_category": "General",
+      "tags": [
+        "Coding",
+        "Software Development"
+      ],
+      "reason": "Coding content without distinct educational or workplace context."
+    },
+    {
+      "file": "ss_026.jpg",
+      "old_category": "Coding",
+      "new_category": "Education",
+      "tags": [
+        "Coding",
+        "Software Development"
+      ],
+      "reason": "Educational programming assignment, LeetCode practice, or course material."
+    },
+    {
+      "file": "ss_027.jpg",
+      "old_category": "Coding",
+      "new_category": "General",
+      "tags": [
+        "Coding",
+        "Software Development"
+      ],
+      "reason": "Coding content without distinct educational or workplace context."
+    },
+    {
+      "file": "ss_028.jpg",
+      "old_category": "Coding",
+      "new_category": "General",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "JavaScript"
+      ],
+      "reason": "Coding content without distinct educational or workplace context."
+    },
+    {
+      "file": "ss_029.jpg",
+      "old_category": "Coding",
+      "new_category": "Work & Career",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "JavaScript"
+      ],
+      "reason": "Professional software development project, repository, or workspace."
+    },
+    {
+      "file": "ss_030.jpg",
+      "old_category": "Coding",
+      "new_category": "General",
+      "tags": [
+        "Coding",
+        "Software Development"
+      ],
+      "reason": "Coding content without distinct educational or workplace context."
+    },
+    {
+      "file": "ss_031.jpg",
+      "old_category": "Coding",
+      "new_category": "General",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "JavaScript"
+      ],
+      "reason": "Coding content without distinct educational or workplace context."
+    },
+    {
+      "file": "ss_032.jpg",
+      "old_category": "Coding",
+      "new_category": "General",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "JavaScript"
+      ],
+      "reason": "Coding content without distinct educational or workplace context."
+    },
+    {
+      "file": "ss_033.jpg",
+      "old_category": "Coding",
+      "new_category": "Work & Career",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "JavaScript",
+        "Web Development"
+      ],
+      "reason": "Professional software development project, repository, or workspace."
+    },
+    {
+      "file": "ss_034.jpg",
+      "old_category": "Coding",
+      "new_category": "Work & Career",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "Python",
+        "JavaScript"
+      ],
+      "reason": "Professional software development project, repository, or workspace."
+    },
+    {
+      "file": "ss_035.jpg",
+      "old_category": "Coding",
+      "new_category": "Work & Career",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "Python",
+        "JavaScript",
+        "GitHub",
+        "Git",
+        "Web Development"
+      ],
+      "reason": "Professional software development project, repository, or workspace."
+    },
+    {
+      "file": "ss_036.jpg",
+      "old_category": "Coding",
+      "new_category": "Work & Career",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "Python",
+        "JavaScript",
+        "GitHub",
+        "Git",
+        "Terminal"
+      ],
+      "reason": "Professional software development project, repository, or workspace."
+    },
+    {
+      "file": "ss_037.jpg",
+      "old_category": "Coding",
+      "new_category": "Work & Career",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "JavaScript",
+        "Terminal",
+        "Web Development"
+      ],
+      "reason": "Professional software development project, repository, or workspace."
+    },
+    {
+      "file": "ss_038.jpg",
+      "old_category": "Coding",
+      "new_category": "General",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "JavaScript",
+        "Web Development"
+      ],
+      "reason": "Coding content without distinct educational or workplace context."
+    },
+    {
+      "file": "ss_039.jpg",
+      "old_category": "Coding",
+      "new_category": "Work & Career",
+      "tags": [
+        "Coding",
+        "Software Development"
+      ],
+      "reason": "Professional software development project, repository, or workspace."
+    },
+    {
+      "file": "ss_040.jpg",
+      "old_category": "Coding",
+      "new_category": "Work & Career",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "GitHub",
+        "Git"
+      ],
+      "reason": "Professional software development project, repository, or workspace."
+    },
+    {
+      "file": "ss_041.jpg",
+      "old_category": "Coding",
+      "new_category": "Education",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "GitHub",
+        "Git",
+        "Web Development"
+      ],
+      "reason": "Educational programming assignment, LeetCode practice, or course material."
+    },
+    {
+      "file": "ss_042.jpg",
+      "old_category": "Coding",
+      "new_category": "Education",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "GitHub",
+        "Git",
+        "Web Development"
+      ],
+      "reason": "Educational programming assignment, LeetCode practice, or course material."
+    },
+    {
+      "file": "ss_043.jpg",
+      "old_category": "Coding",
+      "new_category": "Work & Career",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "Terminal",
+        "Web Development"
+      ],
+      "reason": "Software project codebase or data science development."
+    },
+    {
+      "file": "ss_044.jpg",
+      "old_category": "Coding",
+      "new_category": "Work & Career",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "Terminal",
+        "Web Development"
+      ],
+      "reason": "Software project codebase or data science development."
+    },
+    {
+      "file": "ss_045.jpg",
+      "old_category": "Coding",
+      "new_category": "Work & Career",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "Terminal",
+        "Web Development"
+      ],
+      "reason": "Software project codebase or data science development."
+    },
+    {
+      "file": "ss_046.jpg",
+      "old_category": "Coding",
+      "new_category": "Education",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "GitHub",
+        "Git",
+        "LeetCode",
+        "Algorithm"
+      ],
+      "reason": "Educational programming assignment, LeetCode practice, or course material."
+    },
+    {
+      "file": "ss_047.jpg",
+      "old_category": "Coding",
+      "new_category": "Education",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "Python",
+        "LeetCode",
+        "Algorithm"
+      ],
+      "reason": "Educational programming assignment, LeetCode practice, or course material."
+    },
+    {
+      "file": "ss_048.jpg",
+      "old_category": "Coding",
+      "new_category": "Education",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "Python",
+        "LeetCode",
+        "Algorithm"
+      ],
+      "reason": "Educational programming assignment, LeetCode practice, or course material."
+    },
+    {
+      "file": "ss_049.jpg",
+      "old_category": "Coding",
+      "new_category": "Work & Career",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "Python",
+        "GitHub",
+        "Git"
+      ],
+      "reason": "Professional software development project, repository, or workspace."
+    },
+    {
+      "file": "ss_050.jpg",
+      "old_category": "Coding",
+      "new_category": "Education",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "Python",
+        "Kaggle",
+        "Machine Learning"
+      ],
+      "reason": "Educational programming assignment, LeetCode practice, or course material."
+    },
+    {
+      "file": "ss_051.jpg",
+      "old_category": "Coding",
+      "new_category": "Education",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "Python",
+        "Kaggle",
+        "Machine Learning",
+        "Shopping"
+      ],
+      "reason": "Educational programming assignment, LeetCode practice, or course material."
+    },
+    {
+      "file": "ss_052.jpg",
+      "old_category": "Coding",
+      "new_category": "Education",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "Python",
+        "Kaggle",
+        "Machine Learning",
+        "Shopping"
+      ],
+      "reason": "Educational programming assignment, LeetCode practice, or course material."
+    },
+    {
+      "file": "ss_054.jpg",
+      "old_category": "Coding",
+      "new_category": "Education",
+      "tags": [
+        "Coding",
+        "Software Development"
+      ],
+      "reason": "Educational programming assignment, LeetCode practice, or course material."
+    },
+    {
+      "file": "ss_055.jpg",
+      "old_category": "Coding",
+      "new_category": "Education",
+      "tags": [
+        "Coding",
+        "Software Development"
+      ],
+      "reason": "Educational programming assignment, LeetCode practice, or course material."
+    },
+    {
+      "file": "ss_056.jpg",
+      "old_category": "Coding",
+      "new_category": "Education",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "Python"
+      ],
+      "reason": "Educational programming assignment, LeetCode practice, or course material."
+    },
+    {
+      "file": "ss_057.jpg",
+      "old_category": "Coding",
+      "new_category": "General",
+      "tags": [
+        "Coding",
+        "Software Development"
+      ],
+      "reason": "Coding content without distinct educational or workplace context."
+    },
+    {
+      "file": "ss_058.jpg",
+      "old_category": "Coding",
+      "new_category": "Education",
+      "tags": [
+        "Coding",
+        "Software Development"
+      ],
+      "reason": "Educational programming assignment, LeetCode practice, or course material."
+    },
+    {
+      "file": "ss_059.jpg",
+      "old_category": "Coding",
+      "new_category": "Education",
+      "tags": [
+        "Coding",
+        "Software Development"
+      ],
+      "reason": "Educational programming assignment, LeetCode practice, or course material."
+    },
+    {
+      "file": "ss_060.jpg",
+      "old_category": "Coding",
+      "new_category": "Education",
+      "tags": [
+        "Coding",
+        "Software Development"
+      ],
+      "reason": "Educational programming assignment, LeetCode practice, or course material."
+    },
+    {
+      "file": "ss_062.jpg",
+      "old_category": "Coding",
+      "new_category": "Work & Career",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "GitHub",
+        "Git",
+        "Web Development"
+      ],
+      "reason": "Professional software development project, repository, or workspace."
+    },
+    {
+      "file": "ss_070.jpg",
+      "old_category": "Coding",
+      "new_category": "Work & Career",
+      "tags": [
+        "Coding",
+        "Software Development",
+        "GitHub",
+        "Git"
+      ],
+      "reason": "Professional software development project, repository, or workspace."
+    },
+    {
+      "file": "ss_280.png",
+      "old_category": "Coding",
+      "new_category": "General",
+      "tags": [
+        "Coding",
+        "Software Development"
+      ],
+      "reason": "Coding content without distinct educational or workplace context."
+    },
+    {
+      "file": "ss_826.jpg",
+      "old_category": "Coding",
+      "new_category": "General",
+      "tags": [
+        "Coding",
+        "Software Development"
+      ],
+      "reason": "Coding content without distinct educational or workplace context."
+    },
+    {
+      "file": "ss_827.jpg",
+      "old_category": "Coding",
+      "new_category": "General",
+      "tags": [
+        "Coding",
+        "Software Development"
+      ],
+      "reason": "Coding content without distinct educational or workplace context."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+experiment_id,candidate,validation_top1,validation_macro_f1,external_v2_top1,external_v2_macro_f1,status
+EXP-000,Baseline FinalRefinedClassifier,0.8,0.7679,0.6639,0.6082,baseline
+EXP-004,RefinedSemanticCandidate,0.936,0.9516,0.6639,0.6177,baseline_v2
+EXP-010,RecoverySemanticCandidate (Base Top-1),0.944,0.9709,0.709,0.6492,accepted_base
+EXP-012,TwoStageEvidenceReranker (Top-3 Restricted),0.944,0.9709,0.7131,0.6513,accepted_production_final

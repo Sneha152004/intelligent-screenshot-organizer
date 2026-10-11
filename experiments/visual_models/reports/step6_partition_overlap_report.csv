@@ -1,0 +1,5 @@
+Partition_A,Partition_B,Count_A,Count_B,Overlap_Count,Status
+Train,Calibration,499,167,0,PASSED (ISOLATED)
+Train,Validation,499,167,0,PASSED (ISOLATED)
+Calibration,Validation,167,167,0,PASSED (ISOLATED)
+All Split IDs,Metadata & Disk,833,836,0,PASSED (READABLE & VALID)

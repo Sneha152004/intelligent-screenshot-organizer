@@ -1,0 +1,80 @@
+[
+  {
+    "ablation_id": "A",
+    "ablation_name": "A: Existing Production Baseline",
+    "top1_accuracy": 0.936,
+    "top2_accuracy": 0.944,
+    "top3_accuracy": 0.944,
+    "mrr": 0.954,
+    "macro_f1": 0.9436454849498328,
+    "balanced_accuracy": 0.9404761904761905,
+    "corrections": 0,
+    "harms": 1,
+    "net_improvement": -1
+  },
+  {
+    "ablation_id": "B",
+    "ablation_name": "B: + Positive Evidence Rules",
+    "top1_accuracy": 0.936,
+    "top2_accuracy": 0.944,
+    "top3_accuracy": 0.944,
+    "mrr": 0.954,
+    "macro_f1": 0.9436454849498328,
+    "balanced_accuracy": 0.9404761904761905,
+    "corrections": 0,
+    "harms": 1,
+    "net_improvement": -1
+  },
+  {
+    "ablation_id": "C",
+    "ablation_name": "C: + Positive + Negative Evidence Rules",
+    "top1_accuracy": 0.936,
+    "top2_accuracy": 0.944,
+    "top3_accuracy": 0.944,
+    "mrr": 0.954,
+    "macro_f1": 0.9436454849498328,
+    "balanced_accuracy": 0.9404761904761905,
+    "corrections": 0,
+    "harms": 1,
+    "net_improvement": -1
+  },
+  {
+    "ablation_id": "D",
+    "ablation_name": "D: + Primary-Object Reasoning",
+    "top1_accuracy": 0.936,
+    "top2_accuracy": 0.944,
+    "top3_accuracy": 0.944,
+    "mrr": 0.954,
+    "macro_f1": 0.9436454849498328,
+    "balanced_accuracy": 0.9404761904761905,
+    "corrections": 0,
+    "harms": 1,
+    "net_improvement": -1
+  },
+  {
+    "ablation_id": "E",
+    "ablation_name": "E: + Confusion-Pair Tie-Breakers",
+    "top1_accuracy": 0.936,
+    "top2_accuracy": 0.944,
+    "top3_accuracy": 1.0,
+    "mrr": 0.9586666666666667,
+    "macro_f1": 0.9436454849498328,
+    "balanced_accuracy": 0.9404761904761905,
+    "corrections": 0,
+    "harms": 1,
+    "net_improvement": -1
+  },
+  {
+    "ablation_id": "F",
+    "ablation_name": "F: Full Category Policy V1",
+    "top1_accuracy": 0.936,
+    "top2_accuracy": 0.944,
+    "top3_accuracy": 1.0,
+    "mrr": 0.9586666666666667,
+    "macro_f1": 0.9436454849498328,
+    "balanced_accuracy": 0.9404761904761905,
+    "corrections": 0,
+    "harms": 1,
+    "net_improvement": -1
+  }
+]

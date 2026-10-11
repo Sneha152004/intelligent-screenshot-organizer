@@ -1,0 +1,309 @@
+{
+  "summary": {
+    "G. Existing policy overrode correct evidence": 34,
+    "E. Ambiguous category": 15,
+    "D. Sparse OCR": 1
+  },
+  "records": [
+    {
+      "screenshot_id": "ext2_013",
+      "ground_truth": "General",
+      "v1_prediction": "Work & Career",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_014",
+      "ground_truth": "General",
+      "v1_prediction": "Work & Career",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_021",
+      "ground_truth": "General",
+      "v1_prediction": "Work & Career",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_027",
+      "ground_truth": "General",
+      "v1_prediction": "Education",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_034",
+      "ground_truth": "General",
+      "v1_prediction": "Shopping",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_037",
+      "ground_truth": "General",
+      "v1_prediction": "Shopping",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_038",
+      "ground_truth": "General",
+      "v1_prediction": "Shopping",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_042",
+      "ground_truth": "General",
+      "v1_prediction": "Shopping",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_058",
+      "ground_truth": "General",
+      "v1_prediction": "Shopping",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_064",
+      "ground_truth": "General",
+      "v1_prediction": "Shopping",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_066",
+      "ground_truth": "General",
+      "v1_prediction": "Shopping",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_084",
+      "ground_truth": "General",
+      "v1_prediction": "Education",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_086",
+      "ground_truth": "Work & Career",
+      "v1_prediction": "Entertainment",
+      "taxonomic_root_cause": "E. Ambiguous category"
+    },
+    {
+      "screenshot_id": "ext2_087",
+      "ground_truth": "Work & Career",
+      "v1_prediction": "General",
+      "taxonomic_root_cause": "D. Sparse OCR"
+    },
+    {
+      "screenshot_id": "ext2_092",
+      "ground_truth": "General",
+      "v1_prediction": "Payment",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_094",
+      "ground_truth": "General",
+      "v1_prediction": "Payment",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_096",
+      "ground_truth": "General",
+      "v1_prediction": "Payment",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_098",
+      "ground_truth": "General",
+      "v1_prediction": "Payment",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_105",
+      "ground_truth": "General",
+      "v1_prediction": "Payment",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_106",
+      "ground_truth": "General",
+      "v1_prediction": "Payment",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_107",
+      "ground_truth": "General",
+      "v1_prediction": "Payment",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_108",
+      "ground_truth": "General",
+      "v1_prediction": "Payment",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_110",
+      "ground_truth": "Payment",
+      "v1_prediction": "Communication",
+      "taxonomic_root_cause": "E. Ambiguous category"
+    },
+    {
+      "screenshot_id": "ext2_114",
+      "ground_truth": "General",
+      "v1_prediction": "Work & Career",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_122",
+      "ground_truth": "Payment",
+      "v1_prediction": "Communication",
+      "taxonomic_root_cause": "E. Ambiguous category"
+    },
+    {
+      "screenshot_id": "ext2_130",
+      "ground_truth": "Communication",
+      "v1_prediction": "Work & Career",
+      "taxonomic_root_cause": "E. Ambiguous category"
+    },
+    {
+      "screenshot_id": "ext2_139",
+      "ground_truth": "General",
+      "v1_prediction": "Travel",
+      "taxonomic_root_cause": "E. Ambiguous category"
+    },
+    {
+      "screenshot_id": "ext2_142",
+      "ground_truth": "General",
+      "v1_prediction": "Work & Career",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_146",
+      "ground_truth": "General",
+      "v1_prediction": "Communication",
+      "taxonomic_root_cause": "E. Ambiguous category"
+    },
+    {
+      "screenshot_id": "ext2_158",
+      "ground_truth": "Communication",
+      "v1_prediction": "Work & Career",
+      "taxonomic_root_cause": "E. Ambiguous category"
+    },
+    {
+      "screenshot_id": "ext2_160",
+      "ground_truth": "General",
+      "v1_prediction": "Entertainment",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_162",
+      "ground_truth": "General",
+      "v1_prediction": "Travel",
+      "taxonomic_root_cause": "E. Ambiguous category"
+    },
+    {
+      "screenshot_id": "ext2_180",
+      "ground_truth": "General",
+      "v1_prediction": "Entertainment",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_193",
+      "ground_truth": "General",
+      "v1_prediction": "Entertainment",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_200",
+      "ground_truth": "General",
+      "v1_prediction": "Entertainment",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_201",
+      "ground_truth": "General",
+      "v1_prediction": "Entertainment",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_202",
+      "ground_truth": "Shopping",
+      "v1_prediction": "General",
+      "taxonomic_root_cause": "E. Ambiguous category"
+    },
+    {
+      "screenshot_id": "ext2_206",
+      "ground_truth": "Education",
+      "v1_prediction": "Shopping",
+      "taxonomic_root_cause": "E. Ambiguous category"
+    },
+    {
+      "screenshot_id": "ext2_207",
+      "ground_truth": "General",
+      "v1_prediction": "Work & Career",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_210",
+      "ground_truth": "General",
+      "v1_prediction": "Education",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_211",
+      "ground_truth": "Education",
+      "v1_prediction": "Coding",
+      "taxonomic_root_cause": "E. Ambiguous category"
+    },
+    {
+      "screenshot_id": "ext2_212",
+      "ground_truth": "General",
+      "v1_prediction": "Entertainment",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_213",
+      "ground_truth": "General",
+      "v1_prediction": "Communication",
+      "taxonomic_root_cause": "E. Ambiguous category"
+    },
+    {
+      "screenshot_id": "ext2_217",
+      "ground_truth": "General",
+      "v1_prediction": "Travel",
+      "taxonomic_root_cause": "E. Ambiguous category"
+    },
+    {
+      "screenshot_id": "ext2_224",
+      "ground_truth": "General",
+      "v1_prediction": "Entertainment",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_227",
+      "ground_truth": "General",
+      "v1_prediction": "Entertainment",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_231",
+      "ground_truth": "Shopping",
+      "v1_prediction": "Work & Career",
+      "taxonomic_root_cause": "E. Ambiguous category"
+    },
+    {
+      "screenshot_id": "ext2_233",
+      "ground_truth": "General",
+      "v1_prediction": "Work & Career",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    },
+    {
+      "screenshot_id": "ext2_237",
+      "ground_truth": "Shopping",
+      "v1_prediction": "Communication",
+      "taxonomic_root_cause": "E. Ambiguous category"
+    },
+    {
+      "screenshot_id": "ext2_240",
+      "ground_truth": "General",
+      "v1_prediction": "Payment",
+      "taxonomic_root_cause": "G. Existing policy overrode correct evidence"
+    }
+  ]
+}

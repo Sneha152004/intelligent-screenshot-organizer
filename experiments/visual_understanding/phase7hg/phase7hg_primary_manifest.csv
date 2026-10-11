@@ -1,0 +1,136 @@
+screenshot_id,filename,screen_type,partition,canonical_group_id,md5_hash,original_semantic_category,phase7hc_proposed_screen_type,human_decision,reviewer,verification_date
+ss_001.jpg,ss_001.jpg,code_editor_terminal,validation,GRP_d25c39050d15,d25c39050d159c00acb45e5cc17cc52b,Coding,code_editor_terminal,approve,human_annotator_phase7e,2026-10-02
+ss_002.jpg,ss_002.jpg,code_editor_terminal,train,GRP_61f9111dd439,61f9111dd4398468abcb4ca30091c9ee,Coding,code_editor_terminal,approve,human_annotator_phase7e,2026-10-02
+ss_003.jpg,ss_003.jpg,code_editor_terminal,train,GRP_f2b56bb2c9fd,f2b56bb2c9fd5260dc8ce05e39b2dc94,Coding,code_editor_terminal,approve,human_annotator_phase7e,2026-10-02
+ss_004.jpg,ss_004.jpg,code_editor_terminal,calibration,GRP_8186222b8f99,8186222b8f99ea2564bf72ae5497461b,Coding,code_editor_terminal,approve,human_annotator_phase7e,2026-10-02
+ss_005.jpg,ss_005.jpg,code_editor_terminal,train,GRP_85edffd3c4ea,85edffd3c4ea260c636b49a6e43f1a23,Coding,code_editor_terminal,approve,human_annotator_phase7e,2026-10-02
+ss_007.jpg,ss_007.jpg,code_editor_terminal,train,GRP_d9b602774275,d9b6027742759f505a8a8536cc945241,Coding,code_editor_terminal,approve,human_annotator_phase7e,2026-10-02
+ss_028.jpg,ss_028.jpg,document_article_view,validation,GRP_5cd82eddd18e,5cd82eddd18e3005d8e96a996cfe11a7,Coding,document_article_view,approve,human_annotator,2026-10-03 22:07:24
+ss_029.jpg,ss_029.jpg,document_article_view,train,GRP_472569e62dbe,472569e62dbeeba08132499f65cd2a2b,Coding,document_article_view,approve,human_annotator,2026-10-03 22:07:27
+ss_031.jpg,ss_031.jpg,document_article_view,calibration,GRP_923efcfc7613,923efcfc7613e2f08a39bd6766911e81,Coding,document_article_view,approve,human_annotator,2026-10-03 22:07:43
+ss_032.jpg,ss_032.jpg,document_article_view,calibration,GRP_d11883399552,d1188339955232df1a0b326677e7e94d,Coding,document_article_view,approve,human_annotator,2026-10-03 22:07:46
+ss_033.jpg,ss_033.jpg,document_article_view,train,GRP_cbdcd5def63e,cbdcd5def63e443919af51b322ca11e6,Coding,document_article_view,approve,human_annotator,2026-10-03 22:07:49
+ss_034.jpg,ss_034.jpg,code_editor_terminal,train,GRP_498a4780f7ab,498a4780f7ab5e313fdc310c4ced0458,Coding,code_editor_terminal,approve,human_annotator,2026-10-03 21:30:24
+ss_035.jpg,ss_035.jpg,code_editor_terminal,calibration,GRP_4869629d10f2,4869629d10f2a27bd511aa493567754e,Coding,code_editor_terminal,approve,human_annotator,2026-10-03 21:30:28
+ss_036.jpg,ss_036.jpg,code_editor_terminal,train,GRP_08d8c474814d,08d8c474814d42e10a3212f399014e96,Coding,code_editor_terminal,approve,human_annotator,2026-10-03 21:30:33
+ss_037.jpg,ss_037.jpg,code_editor_terminal,validation,GRP_fbd4b57daf40,fbd4b57daf40a189a4be6c964ff6bfa8,Coding,code_editor_terminal,approve,human_annotator,2026-10-03 21:30:37
+ss_038.jpg,ss_038.jpg,document_article_view,train,GRP_a9c4f1712ed5,a9c4f1712ed5fd6f64a0d927eecc1635,Coding,document_article_view,approve,human_annotator,2026-10-03 22:07:53
+ss_039.jpg,ss_039.jpg,document_article_view,calibration,GRP_1d9cf503f6fa,1d9cf503f6fac590538ce91edac547c1,Coding,document_article_view,approve,human_annotator,2026-10-03 22:07:59
+ss_040.jpg,ss_040.jpg,code_editor_terminal,calibration,GRP_942e4138e05e,942e4138e05e133f7ea0f8675753a5d4,Coding,code_editor_terminal,approve,human_annotator,2026-10-03 21:30:41
+ss_041.jpg,ss_041.jpg,code_editor_terminal,validation,GRP_41abd56174fc,41abd56174fc6c60b049c1787d05217d,Coding,code_editor_terminal,approve,human_annotator,2026-10-03 21:30:47
+ss_042.jpg,ss_042.jpg,code_editor_terminal,train,GRP_140ee029d7f5,140ee029d7f5c03e04a6d82a43cecc1d,Coding,code_editor_terminal,approve,human_annotator,2026-10-03 21:30:49
+ss_043.jpg,ss_043.jpg,code_editor_terminal,train,GRP_4311412ee9c0,4311412ee9c0f8b37135741a04ea9209,Coding,code_editor_terminal,approve,human_annotator,2026-10-03 21:30:55
+ss_044.jpg,ss_044.jpg,code_editor_terminal,train,GRP_a15eb2ce6d9c,a15eb2ce6d9cabac3b661b24040906c1,Coding,code_editor_terminal,approve,human_annotator,2026-10-03 21:31:00
+ss_045.jpg,ss_045.jpg,code_editor_terminal,validation,GRP_f783058ac489,f783058ac489e05456db21c77ad982d4,Coding,code_editor_terminal,approve,human_annotator,2026-10-03 21:31:07
+ss_046.jpg,ss_046.jpg,code_editor_terminal,train,GRP_ed1ea132286d,ed1ea132286d5a5d50d1e1a8ed4d190e,Coding,code_editor_terminal,approve,human_annotator,2026-10-03 21:31:15
+ss_047.jpg,ss_047.jpg,code_editor_terminal,calibration,GRP_99abb620fd89,99abb620fd895c8a18b41e45b01da3b1,Coding,code_editor_terminal,approve,human_annotator,2026-10-03 21:31:33
+ss_048.jpg,ss_048.jpg,code_editor_terminal,train,GRP_0d78167b7ce3,0d78167b7ce3ff2804424d9b7fcf5cf1,Coding,code_editor_terminal,approve,human_annotator,2026-10-03 21:31:36
+ss_049.jpg,ss_049.jpg,code_editor_terminal,train,GRP_1259ca92c570,1259ca92c570ef0ada35076c059e39af,Coding,code_editor_terminal,approve,human_annotator,2026-10-03 21:31:39
+ss_050.jpg,ss_050.jpg,code_editor_terminal,train,GRP_9f5202fc8fa0,9f5202fc8fa06055ef89c7147b42fc56,Coding,code_editor_terminal,approve,human_annotator,2026-10-03 21:31:42
+ss_051.jpg,ss_051.jpg,code_editor_terminal,train,GRP_f847ea4f1ec8,f847ea4f1ec8ebd9b4ac6720e403ba77,Coding,code_editor_terminal,approve,human_annotator,2026-10-03 21:31:45
+ss_052.jpg,ss_052.jpg,code_editor_terminal,calibration,GRP_18390e8d3e9c,18390e8d3e9cdfbbafe3bb3d257e6964,Coding,code_editor_terminal,approve,human_annotator,2026-10-03 21:31:48
+ss_053.jpg,ss_053.jpg,document_article_view,train,GRP_e22f48d8b584,e22f48d8b584ede37a6c16b6b7b3bbfe,Education,document_article_view,approve,human_annotator,2026-10-03 22:08:03
+ss_054.jpg,ss_054.jpg,document_article_view,train,GRP_3f2385296e8d,3f2385296e8d5dc26452f2a56bd382dd,Coding,document_article_view,approve,human_annotator,2026-10-03 22:08:06
+ss_055.jpg,ss_055.jpg,document_article_view,train,GRP_edc902a57779,edc902a57779e99fbbfaf3bc6aaaf887,Coding,document_article_view,approve,human_annotator,2026-10-03 22:08:11
+ss_056.jpg,ss_056.jpg,code_editor_terminal,train,GRP_3b510c457cae,3b510c457caef5f9b05cd3361a8e625c,Coding,code_editor_terminal,approve,human_annotator,2026-10-03 21:31:51
+ss_057.jpg,ss_057.jpg,document_article_view,calibration,GRP_4d6983d49f80,4d6983d49f80386348e61ef9ae2ca352,Coding,document_article_view,approve,human_annotator,2026-10-03 22:08:17
+ss_058.jpg,ss_058.jpg,document_article_view,train,GRP_919094cfaa96,919094cfaa9673636c1b059e45a1cc3b,Coding,document_article_view,approve,human_annotator,2026-10-03 22:08:22
+ss_059.jpg,ss_059.jpg,document_article_view,validation,GRP_02a531060d62,02a531060d621c1e071a279aa00d140f,Coding,document_article_view,approve,human_annotator,2026-10-03 22:08:24
+ss_060.jpg,ss_060.jpg,document_article_view,validation,GRP_eecf649958a3,eecf649958a377e5d6aab29395308282,Coding,document_article_view,approve,human_annotator,2026-10-03 22:08:31
+ss_062.jpg,ss_062.jpg,code_editor_terminal,validation,GRP_4c2e59c0385a,4c2e59c0385a413960dc1dac7063f308,Coding,code_editor_terminal,approve,human_annotator,2026-10-03 21:31:56
+ss_064.jpg,ss_064.jpg,dashboard_settings,train,GRP_6bb50653e261,6bb50653e261d1b597cb612088abcc86,Connectivity,dashboard_settings,correct,human_annotator,2026-10-03 19:56:05
+ss_065.jpg,ss_065.jpg,dashboard_settings,train,GRP_579e2199b682,579e2199b68216aa7956e6a26f6a9675,Connectivity,dashboard_settings,correct,human_annotator,2026-10-03 19:56:24
+ss_068.jpg,ss_068.jpg,dashboard_settings,train,GRP_9bbed852a5f2,9bbed852a5f248236ddde78f315bdec6,Connectivity,dashboard_settings,correct,human_annotator,2026-10-03 19:57:24
+ss_069.jpg,ss_069.jpg,dashboard_settings,train,GRP_f7bc8a6bc65f,f7bc8a6bc65fc02a3a9f5605290c7396,Connectivity,dashboard_settings,correct,human_annotator,2026-10-03 19:57:39
+ss_082.jpg,ss_082.jpg,dashboard_settings,train,GRP_081ef0b3c6db,081ef0b3c6db3a82a84bc9fd7212af5f,Connectivity,dashboard_settings,correct,human_annotator,2026-10-03 20:01:18
+ss_092.png,ss_092.png,travel_booking,train,GRP_ebd6f0b991b1,ebd6f0b991b1af9b7e47be978feaebe5,Travel,travel_booking,approve,human_annotator,2026-10-03 21:53:45
+ss_093.jpg,ss_093.jpg,media_player_library,validation,GRP_68af294cd0c7,68af294cd0c7444c9a061eb54b7c4007,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:33:37
+ss_095.jpg,ss_095.jpg,media_player_library,train,GRP_fbb0668dd14a,fbb0668dd14aed2615bb2a11a9a821b7,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:33:41
+ss_098.png,ss_098.png,media_player_library,train,GRP_1a25510c29c8,1a25510c29c86a3342b4e797200b61dd,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:34:02
+ss_101.jpg,ss_101.jpg,media_player_library,calibration,GRP_3ba5d23998e1,3ba5d23998e1ef3d8b21bdce42ff4537,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:34:15
+ss_103.jpg,ss_103.jpg,media_player_library,train,GRP_8646695bc522,8646695bc522880815d12f0f37e8d556,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:34:46
+ss_105.jpg,ss_105.jpg,media_player_library,calibration,GRP_bf7327cb7365,bf7327cb73656fbbf58b18c3b131e0ba,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:34:55
+ss_109.jpg,ss_109.jpg,media_player_library,train,GRP_1eaa207a38da,1eaa207a38dad5c635ef930ee5da91a4,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:35:20
+ss_110.png,ss_110.png,media_player_library,calibration,GRP_c84a95184ee4,c84a95184ee44d3ec09493d735fd9de1,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:35:26
+ss_121.jpg,ss_121.jpg,travel_booking,train,GRP_77d1f68ffdf5,77d1f68ffdf54f2a2d276369ee5681af,Travel,travel_booking,approve,human_annotator,2026-10-03 21:53:49
+ss_125.jpg,ss_125.jpg,travel_booking,train,GRP_dba047e29a4a,dba047e29a4a2971988860b55a747a19,Travel,travel_booking,approve,human_annotator,2026-10-03 21:53:54
+ss_127.jpg,ss_127.jpg,travel_booking,train,GRP_ba072808ae23,ba072808ae2378b45d1c767ceff7f63b,Travel,travel_booking,approve,human_annotator,2026-10-03 21:53:57
+ss_128.png,ss_128.png,media_player_library,train,GRP_873f70a90807,873f70a90807246e82ba147c033b632f,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:36:46
+ss_129.jpg,ss_129.jpg,travel_booking,calibration,GRP_02cb2312be65,02cb2312be6592a7002457a080758702,Travel,travel_booking,approve,human_annotator,2026-10-03 21:54:01
+ss_130.png,ss_130.png,media_player_library,calibration,GRP_b48d54c4af0a,b48d54c4af0ae92ea186a19cf2ab25d4,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:36:58
+ss_131.jpg,ss_131.jpg,travel_booking,train,GRP_ef4c24650669,ef4c24650669e70b8aa8291f3a916dc6,Travel,travel_booking,approve,human_annotator,2026-10-03 21:54:04
+ss_132.png,ss_132.png,media_player_library,validation,GRP_3f1499d817d6,3f1499d817d60d01a34cbf6ad934d895,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:37:01
+ss_133.jpg,ss_133.jpg,travel_booking,train,GRP_91089e781fdf,91089e781fdfd5dfbf01768c706de15b,Travel,travel_booking,approve,human_annotator,2026-10-03 21:54:10
+ss_156.jpg,ss_156.jpg,travel_booking,train,GRP_1bffba139795,1bffba139795e047b9df516d88ad631a,Travel,travel_booking,approve,human_annotator,2026-10-03 21:54:14
+ss_157.jpg,ss_157.jpg,dashboard_settings,calibration,GRP_3827f4e6f77f,3827f4e6f77fe98ca3b0d2fe5f15fd01,General,dashboard_settings,correct,human_annotator,2026-10-03 20:06:13
+ss_158.jpg,ss_158.jpg,document_article_view,validation,GRP_35bc03b5e9fc,35bc03b5e9fcd92166ac75125d7d3640,Communication,document_article_view,approve,human_annotator,2026-10-03 22:08:42
+ss_159.jpg,ss_159.jpg,travel_booking,train,GRP_788230dcc4bd,788230dcc4bd93cceae8197a9feb1f29,Travel,travel_booking,approve,human_annotator,2026-10-03 21:54:22
+ss_161.jpg,ss_161.jpg,travel_booking,train,GRP_8b2ecf36537f,8b2ecf36537f97cabe43d267c932f67f,Travel,travel_booking,approve,human_annotator,2026-10-03 21:54:45
+ss_170.jpg,ss_170.jpg,travel_booking,calibration,GRP_f6aec12b2c33,f6aec12b2c3355a972ad8f8189f179d8,Travel,travel_booking,approve,human_annotator,2026-10-03 21:54:49
+ss_175.jpg,ss_175.jpg,travel_booking,calibration,GRP_97803de1b34d,97803de1b34de4ddcb92db63012e513c,Travel,travel_booking,approve,human_annotator,2026-10-03 21:54:54
+ss_181.jpg,ss_181.jpg,document_article_view,train,GRP_a3a259500b91,a3a259500b916692375050c95a7d0234,Education,document_article_view,approve,human_annotator,2026-10-03 22:08:49
+ss_191.png,ss_191.png,media_player_library,train,GRP_f42eb20f7fef,f42eb20f7fefb5c42ee2f8e05b946e6d,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:37:51
+ss_192.png,ss_192.png,media_player_library,train,GRP_4132dd58c97a,4132dd58c97aa7ae7b9f4f71f0d68063,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:37:55
+ss_193.png,ss_193.png,media_player_library,train,GRP_5f7d56158e8c,5f7d56158e8c0278f1afb1fb54ea307d,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:37:59
+ss_194.png,ss_194.png,media_player_library,train,GRP_e6a0debf360f,e6a0debf360f2dd898f07a7660062484,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:38:14
+ss_195.png,ss_195.png,media_player_library,validation,GRP_48c5f699106e,48c5f699106e7f40be96a4377ca17cd4,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:38:17
+ss_196.png,ss_196.png,media_player_library,train,GRP_a4f1176a0f0e,a4f1176a0f0e3ec619dd8695042536f1,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:38:22
+ss_197.png,ss_197.png,media_player_library,train,GRP_527caf392c77,527caf392c77978715b4fa643fd0c39f,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:38:26
+ss_198.png,ss_198.png,media_player_library,train,GRP_b53a405056ab,b53a405056ab301e8faccbbaf2321ee4,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:38:29
+ss_199.png,ss_199.png,media_player_library,train,GRP_320f12baa13d,320f12baa13d4a31a5ef6d68415b3e5f,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:38:40
+ss_200.png,ss_200.png,media_player_library,train,GRP_a2cbe23174d3,a2cbe23174d334b36e46c2b827916abf,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:38:44
+ss_202.png,ss_202.png,media_player_library,train,GRP_33f4f5222453,33f4f5222453fc523a5ce1eb6bc9d38e,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:38:59
+ss_205.png,ss_205.png,media_player_library,calibration,GRP_ec65b69d95d8,ec65b69d95d80c115f0d4528ec906b3b,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:39:10
+ss_206.png,ss_206.png,media_player_library,validation,GRP_cadb65aaad90,cadb65aaad901714adcd647263693d55,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:39:19
+ss_208.png,ss_208.png,media_player_library,train,GRP_aac010ffa82f,aac010ffa82f33e8c82a15f1a1d9b730,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:39:28
+ss_210.png,ss_210.png,travel_booking,validation,GRP_780580a95ce0,780580a95ce04f43fe9c31c8ea9d1039,Travel,travel_booking,approve,human_annotator,2026-10-03 21:54:58
+ss_211.png,ss_211.png,travel_booking,validation,GRP_a7fde81962f5,a7fde81962f54a0cb43ae1e155f057ab,Travel,travel_booking,approve,human_annotator,2026-10-03 21:55:02
+ss_213.png,ss_213.png,travel_booking,train,GRP_d9038b9d235a,d9038b9d235a7511a6414934563e2de9,Travel,travel_booking,approve,human_annotator,2026-10-03 21:55:12
+ss_214.png,ss_214.png,travel_booking,train,GRP_156f77cfba76,156f77cfba762b88be73cc3662504627,Travel,travel_booking,approve,human_annotator,2026-10-03 21:55:16
+ss_215.png,ss_215.png,travel_booking,train,GRP_a34b62f4410c,a34b62f4410c4a214bade14cf949143b,Travel,travel_booking,approve,human_annotator,2026-10-03 21:55:20
+ss_216.png,ss_216.png,travel_booking,train,GRP_45574fe21b9a,45574fe21b9ac6b31b36592ba793f957,Travel,travel_booking,approve,human_annotator,2026-10-03 21:55:23
+ss_220.png,ss_220.png,travel_booking,calibration,GRP_a9203bfc0894,a9203bfc0894ab9e5e2124664bfe5dce,Travel,travel_booking,approve,human_annotator,2026-10-03 21:55:26
+ss_223.jpg,ss_223.jpg,document_article_view,train,GRP_440a902d5ac1,440a902d5ac1482c88510614e3054c23,Education,document_article_view,approve,human_annotator,2026-10-03 22:08:53
+ss_225.jpg,ss_225.jpg,document_article_view,train,GRP_eb3024e89186,eb3024e891863b1a03ab6287507097d7,Education,document_article_view,approve,human_annotator,2026-10-03 22:08:57
+ss_235.jpg,ss_235.jpg,document_article_view,train,GRP_76bd3e032ce2,76bd3e032ce290eb701bc4887bf02113,Education,document_article_view,approve,human_annotator,2026-10-03 22:09:00
+ss_262.png,ss_262.png,travel_booking,train,GRP_c2977fcfeeff,c2977fcfeeff0daab4965e9d307f48fd,Travel,travel_booking,approve,human_annotator,2026-10-03 21:55:49
+ss_266.png,ss_266.png,document_article_view,train,GRP_c61b85b061f1,c61b85b061f103ffdf8488770fc639f0,Work and career,document_article_view,approve,human_annotator,2026-10-03 22:09:59
+ss_283.jpg,ss_283.jpg,document_article_view,train,GRP_0c644f0697b8,0c644f0697b80467a6735cfcd0d1b977,General,document_article_view,approve,human_annotator,2026-10-03 22:10:45
+ss_297.jpg,ss_297.jpg,media_player_library,validation,GRP_d0c4d0d8ec30,d0c4d0d8ec30b29019d22b8909cf1dc5,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:43:06
+ss_375.png,ss_375.png,travel_booking,train,GRP_c2977fcfeeff,c2977fcfeeff0daab4965e9d307f48fd,Travel,travel_booking,approve,human_annotator,2026-10-03 21:55:52
+ss_377.png,ss_377.png,travel_booking,calibration,GRP_2434a6a70dc7,2434a6a70dc79e7361f76d4c77f0e44a,Travel,travel_booking,approve,human_annotator,2026-10-03 21:55:55
+ss_380.png,ss_380.png,travel_booking,train,GRP_232fd50520ea,232fd50520ea123ed7ad5a688e41a9fb,Travel,travel_booking,approve,human_annotator,2026-10-03 21:56:06
+ss_381.png,ss_381.png,travel_booking,calibration,GRP_d35a860d72b5,d35a860d72b5d2a0d5659f6af9a3845e,Travel,travel_booking,approve,human_annotator,2026-10-03 21:56:10
+ss_393.png,ss_393.png,travel_booking,validation,GRP_49fc7ef70b33,49fc7ef70b335b43971ffce376966093,Travel,travel_booking,approve,human_annotator,2026-10-03 21:56:39
+ss_395.png,ss_395.png,travel_booking,validation,GRP_5c367207f4c0,5c367207f4c0043ef9dc1f98d3c085e0,Travel,travel_booking,approve,human_annotator,2026-10-03 21:56:42
+ss_398.png,ss_398.png,travel_booking,validation,GRP_ea17d6576e56,ea17d6576e562dd5db9a3d2d58d46496,Travel,travel_booking,approve,human_annotator,2026-10-03 21:56:45
+ss_408.png,ss_408.png,travel_booking,calibration,GRP_3e6ff37eff96,3e6ff37eff96601a982c1c9d267d219a,Travel,travel_booking,approve,human_annotator,2026-10-03 21:57:27
+ss_430.jpg,ss_430.jpg,dashboard_settings,validation,GRP_0fef46197c08,0fef46197c082acd6328a4d88c2e3d1d,Connectivity,dashboard_settings,correct,human_annotator,2026-10-03 20:20:16
+ss_538.png,ss_538.png,travel_booking,train,GRP_13f45967c964,13f45967c964fb97ae95741a3d8ca8cf,Travel,travel_booking,approve,human_annotator,2026-10-03 21:58:07
+ss_539.png,ss_539.png,travel_booking,train,GRP_b1ea50ceba1a,b1ea50ceba1a85eb6196e81f03c537f4,Travel,travel_booking,approve,human_annotator,2026-10-03 21:58:10
+ss_540.png,ss_540.png,travel_booking,train,GRP_7a332aacb9a4,7a332aacb9a4be5d89e60404cdea93cb,Travel,travel_booking,approve,human_annotator,2026-10-03 21:58:13
+ss_541.png,ss_541.png,travel_booking,train,GRP_35965f75b1d4,35965f75b1d4a7f23f3f1b3c480bac7d,Travel,travel_booking,approve,human_annotator,2026-10-03 21:58:17
+ss_542.png,ss_542.png,travel_booking,train,GRP_75505f17b9cb,75505f17b9cb441756deaa502fa449f2,Travel,travel_booking,approve,human_annotator,2026-10-03 21:58:19
+ss_544.png,ss_544.png,travel_booking,calibration,GRP_44d154bc5696,44d154bc5696d7d9cccebb068fbf2783,Travel,travel_booking,approve,human_annotator,2026-10-03 21:58:26
+ss_547.png,ss_547.png,travel_booking,validation,GRP_d02f6007c407,d02f6007c4073f9e7e34f0d5ee4c7447,Travel,travel_booking,approve,human_annotator,2026-10-03 21:58:37
+ss_662.png,ss_662.png,travel_booking,calibration,GRP_7de843b9c9e6,7de843b9c9e6c8e8ed3aafa5a4424e5a,Travel,travel_booking,approve,human_annotator,2026-10-03 21:59:46
+ss_663.png,ss_663.png,travel_booking,validation,GRP_ac509f31d7fc,ac509f31d7fc4979157555b8f2c172b5,Travel,travel_booking,approve,human_annotator,2026-10-03 21:59:48
+ss_665.png,ss_665.png,travel_booking,validation,GRP_c6fb78a35c96,c6fb78a35c96056e9e96bf57076a624f,Travel,travel_booking,approve,human_annotator,2026-10-03 21:59:57
+ss_671.png,ss_671.png,travel_booking,train,GRP_29e01277889c,29e01277889c19634f6805f05f497f95,Travel,travel_booking,approve,human_annotator,2026-10-03 22:00:37
+ss_673.png,ss_673.png,travel_booking,validation,GRP_c29d6ee64b49,c29d6ee64b49940ade97dd7293283ca3,Travel,travel_booking,approve,human_annotator,2026-10-03 22:00:47
+ss_675.png,ss_675.png,travel_booking,train,GRP_ae6b400c5ebf,ae6b400c5ebf34e1c6d3713eb248a95e,Travel,travel_booking,approve,human_annotator,2026-10-03 22:00:56
+ss_694.png,ss_694.png,travel_booking,train,GRP_f6acb9e981cb,f6acb9e981cb41640083a7c36c67c1e8,Travel,travel_booking,approve,human_annotator,2026-10-03 22:03:06
+ss_695.png,ss_695.png,travel_booking,train,GRP_780ec19e6d59,780ec19e6d592e189793579592a22e56,Travel,travel_booking,approve,human_annotator,2026-10-03 22:03:11
+ss_722.png,ss_722.png,media_player_library,train,GRP_d73ecaa38739,d73ecaa38739d2f78c4fd1ce8e6d0764,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:51:44
+ss_795.png,ss_795.png,media_player_library,calibration,GRP_23ecc975323f,23ecc975323f762fc3d0b35933097365,Entertainment,media_player_library,approve,human_annotator,2026-10-03 21:53:00
+ss_799.jpg,ss_799.jpg,code_editor_terminal,validation,GRP_d25c39050d15,d25c39050d159c00acb45e5cc17cc52b,Connectivity,code_editor_terminal,approve,human_annotator_phase7e,2026-10-02
+ss_800.jpg,ss_800.jpg,code_editor_terminal,train,GRP_61f9111dd439,61f9111dd4398468abcb4ca30091c9ee,Payment,code_editor_terminal,approve,human_annotator_phase7e,2026-10-02
+ss_801.jpg,ss_801.jpg,code_editor_terminal,train,GRP_f2b56bb2c9fd,f2b56bb2c9fd5260dc8ce05e39b2dc94,Education,code_editor_terminal,approve,human_annotator_phase7e,2026-10-02
+ss_802.jpg,ss_802.jpg,code_editor_terminal,calibration,GRP_8186222b8f99,8186222b8f99ea2564bf72ae5497461b,Entertainment,code_editor_terminal,approve,human_annotator_phase7e,2026-10-02
+ss_803.jpg,ss_803.jpg,code_editor_terminal,train,GRP_85edffd3c4ea,85edffd3c4ea260c636b49a6e43f1a23,Payment,code_editor_terminal,approve,human_annotator_phase7e,2026-10-02
+ss_805.jpg,ss_805.jpg,code_editor_terminal,train,GRP_d9b602774275,d9b6027742759f505a8a8536cc945241,Education,code_editor_terminal,approve,human_annotator_phase7e,2026-10-02
+ss_809.jpg,ss_809.jpg,travel_booking,train,GRP_17bb7efaad0d,17bb7efaad0df25803a9bfc64cab5f6a,Travel,travel_booking,approve,human_annotator,2026-10-03 22:05:06
+ss_812.jpg,ss_812.jpg,travel_booking,train,GRP_517956b529cf,517956b529cf2f502f83b5af8f2a70f7,Travel,travel_booking,approve,human_annotator,2026-10-03 22:05:09
+ss_814.jpg,ss_814.jpg,travel_booking,train,GRP_b4d3ecea0253,b4d3ecea02539b2abb6471a80031ca55,Travel,travel_booking,approve,human_annotator,2026-10-03 22:05:12
+ss_817.jpg,ss_817.jpg,travel_booking,train,GRP_c889c003d64d,c889c003d64d21b963d566f523ba7024,Travel,travel_booking,approve,human_annotator,2026-10-03 22:05:15
+ss_830.jpg,ss_830.jpg,dashboard_settings,calibration,GRP_512e1e86fc59,512e1e86fc59359992bc1c30ac2335d8,Connectivity,dashboard_settings,correct,human_annotator,2026-10-03 20:22:00

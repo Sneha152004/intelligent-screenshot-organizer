@@ -1,0 +1,269 @@
+{
+  "selected_candidate": "Experiment B: TF-IDF + Linear SVM",
+  "selection_rationale": "Chosen based on 22-image internal validation set performance (Top-1: 100.0%).",
+  "internal_validation_results": {
+    "Experiment A: TF-IDF + Logistic Regression": {
+      "top1_accuracy": 0.9545,
+      "top2_recall": 1.0,
+      "macro_f1": 0.8205,
+      "macro_precision": 0.8095,
+      "macro_recall": 0.8333,
+      "per_category": {
+        "Coding": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0
+        },
+        "Education": {
+          "total_images": 6,
+          "correct_images": 6,
+          "accuracy": 1.0
+        },
+        "Entertainment": {
+          "total_images": 4,
+          "correct_images": 4,
+          "accuracy": 1.0
+        },
+        "Payment": {
+          "total_images": 4,
+          "correct_images": 4,
+          "accuracy": 1.0
+        },
+        "Shopping": {
+          "total_images": 4,
+          "correct_images": 4,
+          "accuracy": 1.0
+        },
+        "Travel": {
+          "total_images": 3,
+          "correct_images": 3,
+          "accuracy": 1.0
+        }
+      },
+      "mean_latency_ms": 0.02
+    },
+    "Experiment B: TF-IDF + Linear SVM": {
+      "top1_accuracy": 1.0,
+      "top2_recall": 1.0,
+      "macro_f1": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "per_category": {
+        "Coding": {
+          "total_images": 1,
+          "correct_images": 1,
+          "accuracy": 1.0
+        },
+        "Education": {
+          "total_images": 6,
+          "correct_images": 6,
+          "accuracy": 1.0
+        },
+        "Entertainment": {
+          "total_images": 4,
+          "correct_images": 4,
+          "accuracy": 1.0
+        },
+        "Payment": {
+          "total_images": 4,
+          "correct_images": 4,
+          "accuracy": 1.0
+        },
+        "Shopping": {
+          "total_images": 4,
+          "correct_images": 4,
+          "accuracy": 1.0
+        },
+        "Travel": {
+          "total_images": 3,
+          "correct_images": 3,
+          "accuracy": 1.0
+        }
+      },
+      "mean_latency_ms": 0.01
+    },
+    "Experiment C: MiniLM Embeddings + Logistic Regression": {
+      "top1_accuracy": 0.9091,
+      "top2_recall": 0.9545,
+      "macro_f1": 0.7857,
+      "macro_precision": 0.7917,
+      "macro_recall": 0.7917,
+      "per_category": {
+        "Coding": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0
+        },
+        "Education": {
+          "total_images": 6,
+          "correct_images": 6,
+          "accuracy": 1.0
+        },
+        "Entertainment": {
+          "total_images": 4,
+          "correct_images": 4,
+          "accuracy": 1.0
+        },
+        "Payment": {
+          "total_images": 4,
+          "correct_images": 3,
+          "accuracy": 0.75
+        },
+        "Shopping": {
+          "total_images": 4,
+          "correct_images": 4,
+          "accuracy": 1.0
+        },
+        "Travel": {
+          "total_images": 3,
+          "correct_images": 3,
+          "accuracy": 1.0
+        }
+      },
+      "mean_latency_ms": 0.02
+    },
+    "Experiment D: MiniLM Embeddings + Linear SVM": {
+      "top1_accuracy": 1.0,
+      "top2_recall": 1.0,
+      "macro_f1": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "per_category": {
+        "Coding": {
+          "total_images": 1,
+          "correct_images": 1,
+          "accuracy": 1.0
+        },
+        "Education": {
+          "total_images": 6,
+          "correct_images": 6,
+          "accuracy": 1.0
+        },
+        "Entertainment": {
+          "total_images": 4,
+          "correct_images": 4,
+          "accuracy": 1.0
+        },
+        "Payment": {
+          "total_images": 4,
+          "correct_images": 4,
+          "accuracy": 1.0
+        },
+        "Shopping": {
+          "total_images": 4,
+          "correct_images": 4,
+          "accuracy": 1.0
+        },
+        "Travel": {
+          "total_images": 3,
+          "correct_images": 3,
+          "accuracy": 1.0
+        }
+      },
+      "mean_latency_ms": 0.02
+    },
+    "Experiment E: Current Multi-Signal Classifier Baseline": {
+      "top1_accuracy": 0.8182,
+      "top2_recall": 0.9545,
+      "macro_f1": 0.6926,
+      "macro_precision": 0.7063,
+      "macro_recall": 0.7083,
+      "per_category": {
+        "Coding": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0
+        },
+        "Education": {
+          "total_images": 6,
+          "correct_images": 6,
+          "accuracy": 1.0
+        },
+        "Entertainment": {
+          "total_images": 4,
+          "correct_images": 3,
+          "accuracy": 0.75
+        },
+        "Payment": {
+          "total_images": 4,
+          "correct_images": 4,
+          "accuracy": 1.0
+        },
+        "Shopping": {
+          "total_images": 4,
+          "correct_images": 2,
+          "accuracy": 0.5
+        },
+        "Travel": {
+          "total_images": 3,
+          "correct_images": 3,
+          "accuracy": 1.0
+        }
+      }
+    }
+  },
+  "external_test_results": {
+    "baseline_multi_signal": {
+      "top1_accuracy": 0.3667,
+      "top2_recall": 0.55,
+      "macro_f1": 0.0527,
+      "mean_latency_ms": 164.68
+    },
+    "selected_supervised_model": {
+      "top1_accuracy": 0.4667,
+      "top2_recall": 0.6667,
+      "macro_f1": 0.2409,
+      "macro_precision": 0.2411,
+      "macro_recall": 0.2859,
+      "per_category": {
+        "Coding": {
+          "total_images": 1,
+          "correct_images": 0,
+          "accuracy": 0.0
+        },
+        "Communication": {
+          "total_images": 2,
+          "correct_images": 0,
+          "accuracy": 0.0
+        },
+        "Education": {
+          "total_images": 22,
+          "correct_images": 18,
+          "accuracy": 0.8182
+        },
+        "Entertainment": {
+          "total_images": 8,
+          "correct_images": 1,
+          "accuracy": 0.125
+        },
+        "General": {
+          "total_images": 2,
+          "correct_images": 0,
+          "accuracy": 0.0
+        },
+        "Payment": {
+          "total_images": 3,
+          "correct_images": 2,
+          "accuracy": 0.6667
+        },
+        "Shopping": {
+          "total_images": 11,
+          "correct_images": 4,
+          "accuracy": 0.3636
+        },
+        "Travel": {
+          "total_images": 5,
+          "correct_images": 3,
+          "accuracy": 0.6
+        },
+        "Work & Career": {
+          "total_images": 6,
+          "correct_images": 0,
+          "accuracy": 0.0
+        }
+      },
+      "mean_latency_ms": 0.01
+    },
+    "absolute_change_percentage_points": 10.0
+  }
+}

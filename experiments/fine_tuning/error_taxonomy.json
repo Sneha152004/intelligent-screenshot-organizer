@@ -1,0 +1,1420 @@
+{
+  "total_external_v2_screenshots": 244,
+  "total_failures": 70,
+  "candidate_coverage": "100.00%",
+  "category_counts": {
+    "G. General-vs-domain ambiguity": 43,
+    "B. Semantic misunderstanding": 3,
+    "C. Category boundary ambiguity": 13,
+    "D. Similar-category confusion": 11
+  },
+  "failure_details": [
+    {
+      "failure_index": 1,
+      "id": "ext2_013",
+      "file": "ext2_013.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Work & Career",
+      "base_semantic_pred": "Work & Career",
+      "ground_truth_rank_in_pool": 6,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Work & Career'.",
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.5793)",
+      "candidate_pool": [
+        "Work & Career",
+        "Travel",
+        "Education",
+        "Coding",
+        "Payment",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 2,
+      "id": "ext2_014",
+      "file": "ext2_014.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Work & Career",
+      "base_semantic_pred": "Work & Career",
+      "ground_truth_rank_in_pool": 5,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Work & Career'.",
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.4090)",
+      "candidate_pool": [
+        "Work & Career",
+        "Travel",
+        "Payment",
+        "Education",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 3,
+      "id": "ext2_021",
+      "file": "ext2_021.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Work & Career",
+      "base_semantic_pred": "Work & Career",
+      "ground_truth_rank_in_pool": 6,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Work & Career'.",
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.5900)",
+      "candidate_pool": [
+        "Work & Career",
+        "Education",
+        "Payment",
+        "Travel",
+        "Shopping",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 4,
+      "id": "ext2_023",
+      "file": "ext2_023.jpg",
+      "ground_truth": "Work & Career",
+      "baseline_predicted": "General",
+      "base_semantic_pred": "General",
+      "ground_truth_rank_in_pool": 4,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Work & Career'.",
+      "reranking_reason": "Base Top-1 'General' retained via High-Confidence Guardrail",
+      "candidate_pool": [
+        "General",
+        "Shopping",
+        "Payment",
+        "Work & Career",
+        "Education"
+      ]
+    },
+    {
+      "failure_index": 5,
+      "id": "ext2_024",
+      "file": "ext2_024.jpg",
+      "ground_truth": "Education",
+      "baseline_predicted": "Shopping",
+      "base_semantic_pred": "Shopping",
+      "ground_truth_rank_in_pool": 4,
+      "error_category": "B. Semantic misunderstanding",
+      "justification": "Ground truth 'Education' scored low (rank 4) by semantic classifier & MiniLM prototypes.",
+      "reranking_reason": "Base Top-1 'Shopping' retained (score=0.4895)",
+      "candidate_pool": [
+        "Shopping",
+        "Communication",
+        "Payment",
+        "General",
+        "Education",
+        "Work & Career"
+      ]
+    },
+    {
+      "failure_index": 6,
+      "id": "ext2_027",
+      "file": "ext2_027.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Education",
+      "base_semantic_pred": "Education",
+      "ground_truth_rank_in_pool": 6,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Education'.",
+      "reranking_reason": "Base Top-1 'Education' retained (score=0.5928)",
+      "candidate_pool": [
+        "Education",
+        "Work & Career",
+        "Coding",
+        "Communication",
+        "Travel",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 7,
+      "id": "ext2_032",
+      "file": "ext2_032.jpg",
+      "ground_truth": "Shopping",
+      "baseline_predicted": "Entertainment",
+      "base_semantic_pred": "Entertainment",
+      "ground_truth_rank_in_pool": 2,
+      "error_category": "C. Category boundary ambiguity",
+      "justification": "Borderline classification case between 'Shopping' and 'Entertainment'.",
+      "reranking_reason": "Base Top-1 'Entertainment' retained (score=0.3580)",
+      "candidate_pool": [
+        "Entertainment",
+        "Shopping",
+        "Travel",
+        "Education",
+        "General",
+        "Payment"
+      ]
+    },
+    {
+      "failure_index": 8,
+      "id": "ext2_034",
+      "file": "ext2_034.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Shopping",
+      "base_semantic_pred": "Shopping",
+      "ground_truth_rank_in_pool": 5,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Shopping'.",
+      "reranking_reason": "Base Top-1 'Shopping' retained (score=0.3762)",
+      "candidate_pool": [
+        "Shopping",
+        "Payment",
+        "Travel",
+        "Education",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 9,
+      "id": "ext2_042",
+      "file": "ext2_042.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Shopping",
+      "base_semantic_pred": "General",
+      "ground_truth_rank_in_pool": 3,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Shopping'.",
+      "reranking_reason": "Promoted 'Shopping' (score=0.3417) over base Top-1 'General' via Multi-Signal Evidence",
+      "candidate_pool": [
+        "General",
+        "Shopping",
+        "Payment",
+        "Travel",
+        "Education"
+      ]
+    },
+    {
+      "failure_index": 10,
+      "id": "ext2_046",
+      "file": "ext2_046.jpg",
+      "ground_truth": "Shopping",
+      "baseline_predicted": "General",
+      "base_semantic_pred": "General",
+      "ground_truth_rank_in_pool": 5,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Shopping'.",
+      "reranking_reason": "Base Top-1 'General' retained (score=0.2672)",
+      "candidate_pool": [
+        "General",
+        "Education",
+        "Travel",
+        "Payment",
+        "Shopping"
+      ]
+    },
+    {
+      "failure_index": 11,
+      "id": "ext2_047",
+      "file": "ext2_047.jpg",
+      "ground_truth": "Shopping",
+      "baseline_predicted": "General",
+      "base_semantic_pred": "General",
+      "ground_truth_rank_in_pool": 2,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Shopping'.",
+      "reranking_reason": "Base Top-1 'General' retained (score=0.2696)",
+      "candidate_pool": [
+        "General",
+        "Shopping",
+        "Education",
+        "Work & Career",
+        "Travel",
+        "Payment"
+      ]
+    },
+    {
+      "failure_index": 12,
+      "id": "ext2_048",
+      "file": "ext2_048.jpg",
+      "ground_truth": "Shopping",
+      "baseline_predicted": "General",
+      "base_semantic_pred": "General",
+      "ground_truth_rank_in_pool": 3,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Shopping'.",
+      "reranking_reason": "Base Top-1 'General' retained (score=0.2711)",
+      "candidate_pool": [
+        "General",
+        "Education",
+        "Shopping",
+        "Travel",
+        "Payment"
+      ]
+    },
+    {
+      "failure_index": 13,
+      "id": "ext2_064",
+      "file": "ext2_064.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Shopping",
+      "base_semantic_pred": "Shopping",
+      "ground_truth_rank_in_pool": 5,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Shopping'.",
+      "reranking_reason": "Base Top-1 'Shopping' retained (score=0.5396)",
+      "candidate_pool": [
+        "Shopping",
+        "Travel",
+        "Communication",
+        "Education",
+        "General",
+        "Work & Career"
+      ]
+    },
+    {
+      "failure_index": 14,
+      "id": "ext2_068",
+      "file": "ext2_068.jpg",
+      "ground_truth": "Shopping",
+      "baseline_predicted": "Travel",
+      "base_semantic_pred": "Travel",
+      "ground_truth_rank_in_pool": 2,
+      "error_category": "D. Similar-category confusion",
+      "justification": "Confusion between closely related domain categories 'Shopping' and 'Travel'.",
+      "reranking_reason": "Base Top-1 'Travel' retained (score=0.3326)",
+      "candidate_pool": [
+        "Travel",
+        "Shopping",
+        "Payment",
+        "Education",
+        "Entertainment",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 15,
+      "id": "ext2_069",
+      "file": "ext2_069.jpg",
+      "ground_truth": "Shopping",
+      "baseline_predicted": "Travel",
+      "base_semantic_pred": "Travel",
+      "ground_truth_rank_in_pool": 2,
+      "error_category": "D. Similar-category confusion",
+      "justification": "Confusion between closely related domain categories 'Shopping' and 'Travel'.",
+      "reranking_reason": "Base Top-1 'Travel' retained (score=0.3176)",
+      "candidate_pool": [
+        "Travel",
+        "Shopping",
+        "Payment",
+        "Education",
+        "General",
+        "Work & Career"
+      ]
+    },
+    {
+      "failure_index": 16,
+      "id": "ext2_070",
+      "file": "ext2_070.jpg",
+      "ground_truth": "Shopping",
+      "baseline_predicted": "Travel",
+      "base_semantic_pred": "Travel",
+      "ground_truth_rank_in_pool": 2,
+      "error_category": "D. Similar-category confusion",
+      "justification": "Confusion between closely related domain categories 'Shopping' and 'Travel'.",
+      "reranking_reason": "Base Top-1 'Travel' retained (score=0.3989)",
+      "candidate_pool": [
+        "Travel",
+        "Shopping",
+        "General",
+        "Education",
+        "Work & Career"
+      ]
+    },
+    {
+      "failure_index": 17,
+      "id": "ext2_071",
+      "file": "ext2_071.jpg",
+      "ground_truth": "Shopping",
+      "baseline_predicted": "Travel",
+      "base_semantic_pred": "Travel",
+      "ground_truth_rank_in_pool": 2,
+      "error_category": "D. Similar-category confusion",
+      "justification": "Confusion between closely related domain categories 'Shopping' and 'Travel'.",
+      "reranking_reason": "Base Top-1 'Travel' retained (score=0.3034)",
+      "candidate_pool": [
+        "Travel",
+        "Shopping",
+        "Payment",
+        "Education",
+        "Connectivity",
+        "Work & Career",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 18,
+      "id": "ext2_079",
+      "file": "ext2_079.jpg",
+      "ground_truth": "Connectivity",
+      "baseline_predicted": "General",
+      "base_semantic_pred": "General",
+      "ground_truth_rank_in_pool": 2,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Connectivity'.",
+      "reranking_reason": "Base Top-1 'General' retained (score=0.3607)",
+      "candidate_pool": [
+        "General",
+        "Connectivity",
+        "Communication",
+        "Education",
+        "Travel",
+        "Entertainment"
+      ]
+    },
+    {
+      "failure_index": 19,
+      "id": "ext2_084",
+      "file": "ext2_084.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Education",
+      "base_semantic_pred": "Education",
+      "ground_truth_rank_in_pool": 7,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Education'.",
+      "reranking_reason": "Base Top-1 'Education' retained (score=0.3926)",
+      "candidate_pool": [
+        "Education",
+        "Travel",
+        "Communication",
+        "Payment",
+        "Coding",
+        "Entertainment",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 20,
+      "id": "ext2_086",
+      "file": "ext2_086.jpg",
+      "ground_truth": "Work & Career",
+      "baseline_predicted": "Entertainment",
+      "base_semantic_pred": "Entertainment",
+      "ground_truth_rank_in_pool": 5,
+      "error_category": "B. Semantic misunderstanding",
+      "justification": "Ground truth 'Work & Career' scored low (rank 5) by semantic classifier & MiniLM prototypes.",
+      "reranking_reason": "Base Top-1 'Entertainment' retained (score=0.3644)",
+      "candidate_pool": [
+        "Entertainment",
+        "Communication",
+        "Connectivity",
+        "Payment",
+        "Work & Career",
+        "Education",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 21,
+      "id": "ext2_087",
+      "file": "ext2_087.jpg",
+      "ground_truth": "Work & Career",
+      "baseline_predicted": "General",
+      "base_semantic_pred": "General",
+      "ground_truth_rank_in_pool": 3,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Work & Career'.",
+      "reranking_reason": "Base Top-1 'General' retained (score=0.2400)",
+      "candidate_pool": [
+        "General",
+        "Connectivity",
+        "Work & Career",
+        "Education",
+        "Travel",
+        "Shopping"
+      ]
+    },
+    {
+      "failure_index": 22,
+      "id": "ext2_092",
+      "file": "ext2_092.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Payment",
+      "base_semantic_pred": "Payment",
+      "ground_truth_rank_in_pool": 6,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Payment'.",
+      "reranking_reason": "Base Top-1 'Payment' retained (score=0.6045)",
+      "candidate_pool": [
+        "Payment",
+        "Communication",
+        "Travel",
+        "Shopping",
+        "Education",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 23,
+      "id": "ext2_093",
+      "file": "ext2_093.jpg",
+      "ground_truth": "Education",
+      "baseline_predicted": "Payment",
+      "base_semantic_pred": "Payment",
+      "ground_truth_rank_in_pool": 3,
+      "error_category": "C. Category boundary ambiguity",
+      "justification": "Borderline classification case between 'Education' and 'Payment'.",
+      "reranking_reason": "Base Top-1 'Payment' retained (score=0.5889)",
+      "candidate_pool": [
+        "Payment",
+        "Travel",
+        "Education",
+        "Work & Career",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 24,
+      "id": "ext2_094",
+      "file": "ext2_094.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Payment",
+      "base_semantic_pred": "Payment",
+      "ground_truth_rank_in_pool": 6,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Payment'.",
+      "reranking_reason": "Base Top-1 'Payment' retained (score=0.4779)",
+      "candidate_pool": [
+        "Payment",
+        "Education",
+        "Travel",
+        "Work & Career",
+        "Communication",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 25,
+      "id": "ext2_096",
+      "file": "ext2_096.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Payment",
+      "base_semantic_pred": "Payment",
+      "ground_truth_rank_in_pool": 6,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Payment'.",
+      "reranking_reason": "Base Top-1 'Payment' retained (score=0.4011)",
+      "candidate_pool": [
+        "Payment",
+        "Travel",
+        "Shopping",
+        "Work & Career",
+        "Education",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 26,
+      "id": "ext2_098",
+      "file": "ext2_098.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Payment",
+      "base_semantic_pred": "Payment",
+      "ground_truth_rank_in_pool": 7,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Payment'.",
+      "reranking_reason": "Base Top-1 'Payment' retained (score=0.4814)",
+      "candidate_pool": [
+        "Payment",
+        "Education",
+        "Travel",
+        "Work & Career",
+        "Shopping",
+        "Communication",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 27,
+      "id": "ext2_105",
+      "file": "ext2_105.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Payment",
+      "base_semantic_pred": "Payment",
+      "ground_truth_rank_in_pool": 6,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Payment'.",
+      "reranking_reason": "Base Top-1 'Payment' retained (score=0.4490)",
+      "candidate_pool": [
+        "Payment",
+        "Education",
+        "Travel",
+        "Work & Career",
+        "Coding",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 28,
+      "id": "ext2_106",
+      "file": "ext2_106.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Payment",
+      "base_semantic_pred": "Payment",
+      "ground_truth_rank_in_pool": 7,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Payment'.",
+      "reranking_reason": "Base Top-1 'Payment' retained (score=0.6380)",
+      "candidate_pool": [
+        "Payment",
+        "Entertainment",
+        "Travel",
+        "Shopping",
+        "Education",
+        "Connectivity",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 29,
+      "id": "ext2_107",
+      "file": "ext2_107.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Payment",
+      "base_semantic_pred": "Payment",
+      "ground_truth_rank_in_pool": 6,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Payment'.",
+      "reranking_reason": "Base Top-1 'Payment' retained (score=0.6413)",
+      "candidate_pool": [
+        "Payment",
+        "Shopping",
+        "Travel",
+        "Education",
+        "Communication",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 30,
+      "id": "ext2_108",
+      "file": "ext2_108.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Payment",
+      "base_semantic_pred": "Payment",
+      "ground_truth_rank_in_pool": 6,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Payment'.",
+      "reranking_reason": "Base Top-1 'Payment' retained (score=0.6151)",
+      "candidate_pool": [
+        "Payment",
+        "Travel",
+        "Shopping",
+        "Work & Career",
+        "Education",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 31,
+      "id": "ext2_110",
+      "file": "ext2_110.jpg",
+      "ground_truth": "Payment",
+      "baseline_predicted": "Communication",
+      "base_semantic_pred": "Communication",
+      "ground_truth_rank_in_pool": 2,
+      "error_category": "C. Category boundary ambiguity",
+      "justification": "Borderline classification case between 'Payment' and 'Communication'.",
+      "reranking_reason": "Base Top-1 'Communication' retained (score=0.2835)",
+      "candidate_pool": [
+        "Communication",
+        "Payment",
+        "Travel",
+        "Work & Career",
+        "Shopping",
+        "Education",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 32,
+      "id": "ext2_111",
+      "file": "ext2_111.jpg",
+      "ground_truth": "Education",
+      "baseline_predicted": "Work & Career",
+      "base_semantic_pred": "Work & Career",
+      "ground_truth_rank_in_pool": 4,
+      "error_category": "D. Similar-category confusion",
+      "justification": "Confusion between closely related domain categories 'Education' and 'Work & Career'.",
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.4487)",
+      "candidate_pool": [
+        "Work & Career",
+        "Travel",
+        "Payment",
+        "Education",
+        "Communication",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 33,
+      "id": "ext2_113",
+      "file": "ext2_113.jpg",
+      "ground_truth": "Education",
+      "baseline_predicted": "General",
+      "base_semantic_pred": "General",
+      "ground_truth_rank_in_pool": 4,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Education'.",
+      "reranking_reason": "Base Top-1 'General' retained (score=0.5534)",
+      "candidate_pool": [
+        "General",
+        "Travel",
+        "Connectivity",
+        "Education",
+        "Work & Career",
+        "Coding"
+      ]
+    },
+    {
+      "failure_index": 34,
+      "id": "ext2_114",
+      "file": "ext2_114.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Work & Career",
+      "base_semantic_pred": "Work & Career",
+      "ground_truth_rank_in_pool": 6,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Work & Career'.",
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.4236)",
+      "candidate_pool": [
+        "Work & Career",
+        "Payment",
+        "Travel",
+        "Education",
+        "Connectivity",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 35,
+      "id": "ext2_122",
+      "file": "ext2_122.jpg",
+      "ground_truth": "Payment",
+      "baseline_predicted": "Communication",
+      "base_semantic_pred": "Communication",
+      "ground_truth_rank_in_pool": 3,
+      "error_category": "C. Category boundary ambiguity",
+      "justification": "Borderline classification case between 'Payment' and 'Communication'.",
+      "reranking_reason": "Base Top-1 'Communication' retained (score=0.5850)",
+      "candidate_pool": [
+        "Communication",
+        "Work & Career",
+        "Payment",
+        "Education",
+        "Travel",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 36,
+      "id": "ext2_126",
+      "file": "ext2_126.jpg",
+      "ground_truth": "Education",
+      "baseline_predicted": "Work & Career",
+      "base_semantic_pred": "Work & Career",
+      "ground_truth_rank_in_pool": 2,
+      "error_category": "D. Similar-category confusion",
+      "justification": "Confusion between closely related domain categories 'Education' and 'Work & Career'.",
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.5221)",
+      "candidate_pool": [
+        "Work & Career",
+        "Education",
+        "Payment",
+        "Travel",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 37,
+      "id": "ext2_127",
+      "file": "ext2_127.jpg",
+      "ground_truth": "Education",
+      "baseline_predicted": "Work & Career",
+      "base_semantic_pred": "Work & Career",
+      "ground_truth_rank_in_pool": 2,
+      "error_category": "D. Similar-category confusion",
+      "justification": "Confusion between closely related domain categories 'Education' and 'Work & Career'.",
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.5173)",
+      "candidate_pool": [
+        "Work & Career",
+        "Education",
+        "Travel",
+        "Payment",
+        "Communication",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 38,
+      "id": "ext2_128",
+      "file": "ext2_128.jpg",
+      "ground_truth": "Education",
+      "baseline_predicted": "Work & Career",
+      "base_semantic_pred": "Work & Career",
+      "ground_truth_rank_in_pool": 2,
+      "error_category": "D. Similar-category confusion",
+      "justification": "Confusion between closely related domain categories 'Education' and 'Work & Career'.",
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.6620)",
+      "candidate_pool": [
+        "Work & Career",
+        "Education",
+        "Travel",
+        "Payment",
+        "Coding",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 39,
+      "id": "ext2_130",
+      "file": "ext2_130.jpg",
+      "ground_truth": "Communication",
+      "baseline_predicted": "Work & Career",
+      "base_semantic_pred": "Work & Career",
+      "ground_truth_rank_in_pool": 3,
+      "error_category": "C. Category boundary ambiguity",
+      "justification": "Borderline classification case between 'Communication' and 'Work & Career'.",
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.5146)",
+      "candidate_pool": [
+        "Work & Career",
+        "Education",
+        "Communication",
+        "Travel",
+        "Payment",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 40,
+      "id": "ext2_133",
+      "file": "ext2_133.jpg",
+      "ground_truth": "Communication",
+      "baseline_predicted": "Work & Career",
+      "base_semantic_pred": "Work & Career",
+      "ground_truth_rank_in_pool": 2,
+      "error_category": "C. Category boundary ambiguity",
+      "justification": "Borderline classification case between 'Communication' and 'Work & Career'.",
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.6234)",
+      "candidate_pool": [
+        "Work & Career",
+        "Communication",
+        "Payment",
+        "Education",
+        "Travel",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 41,
+      "id": "ext2_138",
+      "file": "ext2_138.jpg",
+      "ground_truth": "Education",
+      "baseline_predicted": "Work & Career",
+      "base_semantic_pred": "Work & Career",
+      "ground_truth_rank_in_pool": 2,
+      "error_category": "D. Similar-category confusion",
+      "justification": "Confusion between closely related domain categories 'Education' and 'Work & Career'.",
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.4565)",
+      "candidate_pool": [
+        "Work & Career",
+        "Education",
+        "Payment",
+        "Travel",
+        "Coding",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 42,
+      "id": "ext2_139",
+      "file": "ext2_139.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Travel",
+      "base_semantic_pred": "General",
+      "ground_truth_rank_in_pool": 2,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Travel'.",
+      "reranking_reason": "Promoted 'Travel' (score=0.3048) over base Top-1 'General' via Multi-Signal Evidence",
+      "candidate_pool": [
+        "General",
+        "Travel",
+        "Entertainment",
+        "Education",
+        "Shopping",
+        "Payment",
+        "Work & Career"
+      ]
+    },
+    {
+      "failure_index": 43,
+      "id": "ext2_143",
+      "file": "ext2_143.jpg",
+      "ground_truth": "Education",
+      "baseline_predicted": "General",
+      "base_semantic_pred": "General",
+      "ground_truth_rank_in_pool": 4,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Education'.",
+      "reranking_reason": "Base Top-1 'General' retained (score=0.3476)",
+      "candidate_pool": [
+        "General",
+        "Travel",
+        "Communication",
+        "Education",
+        "Payment",
+        "Work & Career"
+      ]
+    },
+    {
+      "failure_index": 44,
+      "id": "ext2_147",
+      "file": "ext2_147.jpg",
+      "ground_truth": "Entertainment",
+      "baseline_predicted": "General",
+      "base_semantic_pred": "General",
+      "ground_truth_rank_in_pool": 2,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Entertainment'.",
+      "reranking_reason": "Base Top-1 'General' retained (score=0.3628)",
+      "candidate_pool": [
+        "General",
+        "Entertainment",
+        "Communication",
+        "Education",
+        "Travel",
+        "Coding",
+        "Payment"
+      ]
+    },
+    {
+      "failure_index": 45,
+      "id": "ext2_150",
+      "file": "ext2_150.jpg",
+      "ground_truth": "Communication",
+      "baseline_predicted": "Work & Career",
+      "base_semantic_pred": "Work & Career",
+      "ground_truth_rank_in_pool": 2,
+      "error_category": "C. Category boundary ambiguity",
+      "justification": "Borderline classification case between 'Communication' and 'Work & Career'.",
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.4680)",
+      "candidate_pool": [
+        "Work & Career",
+        "Communication",
+        "Payment",
+        "Education",
+        "Travel",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 46,
+      "id": "ext2_153",
+      "file": "ext2_153.jpg",
+      "ground_truth": "Payment",
+      "baseline_predicted": "Travel",
+      "base_semantic_pred": "Travel",
+      "ground_truth_rank_in_pool": 3,
+      "error_category": "C. Category boundary ambiguity",
+      "justification": "Borderline classification case between 'Payment' and 'Travel'.",
+      "reranking_reason": "Base Top-1 'Travel' retained (score=0.4388)",
+      "candidate_pool": [
+        "Travel",
+        "Work & Career",
+        "Payment",
+        "Education",
+        "Communication",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 47,
+      "id": "ext2_158",
+      "file": "ext2_158.jpg",
+      "ground_truth": "Communication",
+      "baseline_predicted": "Work & Career",
+      "base_semantic_pred": "Work & Career",
+      "ground_truth_rank_in_pool": 2,
+      "error_category": "C. Category boundary ambiguity",
+      "justification": "Borderline classification case between 'Communication' and 'Work & Career'.",
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.6379)",
+      "candidate_pool": [
+        "Work & Career",
+        "Communication",
+        "Travel",
+        "Shopping",
+        "Education",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 48,
+      "id": "ext2_160",
+      "file": "ext2_160.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Entertainment",
+      "base_semantic_pred": "Entertainment",
+      "ground_truth_rank_in_pool": 6,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Entertainment'.",
+      "reranking_reason": "Base Top-1 'Entertainment' retained (score=0.4237)",
+      "candidate_pool": [
+        "Entertainment",
+        "Shopping",
+        "Payment",
+        "Education",
+        "Coding",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 49,
+      "id": "ext2_162",
+      "file": "ext2_162.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Travel",
+      "base_semantic_pred": "Travel",
+      "ground_truth_rank_in_pool": 6,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Travel'.",
+      "reranking_reason": "Base Top-1 'Travel' retained (score=0.4525)",
+      "candidate_pool": [
+        "Travel",
+        "Payment",
+        "Work & Career",
+        "Education",
+        "Entertainment",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 50,
+      "id": "ext2_163",
+      "file": "ext2_163.jpg",
+      "ground_truth": "Work & Career",
+      "baseline_predicted": "Payment",
+      "base_semantic_pred": "Payment",
+      "ground_truth_rank_in_pool": 4,
+      "error_category": "B. Semantic misunderstanding",
+      "justification": "Ground truth 'Work & Career' scored low (rank 4) by semantic classifier & MiniLM prototypes.",
+      "reranking_reason": "Base Top-1 'Payment' retained (score=0.3703)",
+      "candidate_pool": [
+        "Payment",
+        "Communication",
+        "Entertainment",
+        "Work & Career",
+        "Education",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 51,
+      "id": "ext2_180",
+      "file": "ext2_180.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Entertainment",
+      "base_semantic_pred": "Entertainment",
+      "ground_truth_rank_in_pool": 7,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Entertainment'.",
+      "reranking_reason": "Base Top-1 'Entertainment' retained (score=0.5316)",
+      "candidate_pool": [
+        "Entertainment",
+        "Travel",
+        "Work & Career",
+        "Education",
+        "Shopping",
+        "Coding",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 52,
+      "id": "ext2_193",
+      "file": "ext2_193.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Entertainment",
+      "base_semantic_pred": "Entertainment",
+      "ground_truth_rank_in_pool": 4,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Entertainment'.",
+      "reranking_reason": "Base Top-1 'Entertainment' retained (score=0.3029)",
+      "candidate_pool": [
+        "Entertainment",
+        "Education",
+        "Communication",
+        "General",
+        "Payment",
+        "Shopping"
+      ]
+    },
+    {
+      "failure_index": 53,
+      "id": "ext2_200",
+      "file": "ext2_200.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Entertainment",
+      "base_semantic_pred": "Entertainment",
+      "ground_truth_rank_in_pool": 6,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Entertainment'.",
+      "reranking_reason": "Base Top-1 'Entertainment' retained (score=0.5435)",
+      "candidate_pool": [
+        "Entertainment",
+        "Shopping",
+        "Communication",
+        "Education",
+        "Travel",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 54,
+      "id": "ext2_201",
+      "file": "ext2_201.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Entertainment",
+      "base_semantic_pred": "Entertainment",
+      "ground_truth_rank_in_pool": 7,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Entertainment'.",
+      "reranking_reason": "Base Top-1 'Entertainment' retained (score=0.5533)",
+      "candidate_pool": [
+        "Entertainment",
+        "Work & Career",
+        "Communication",
+        "Travel",
+        "Shopping",
+        "Coding",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 55,
+      "id": "ext2_202",
+      "file": "ext2_202.jpg",
+      "ground_truth": "Shopping",
+      "baseline_predicted": "General",
+      "base_semantic_pred": "General",
+      "ground_truth_rank_in_pool": 6,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Shopping'.",
+      "reranking_reason": "Base Top-1 'General' retained (score=0.3817)",
+      "candidate_pool": [
+        "General",
+        "Travel",
+        "Payment",
+        "Education",
+        "Work & Career",
+        "Shopping"
+      ]
+    },
+    {
+      "failure_index": 56,
+      "id": "ext2_206",
+      "file": "ext2_206.jpg",
+      "ground_truth": "Education",
+      "baseline_predicted": "Shopping",
+      "base_semantic_pred": "Shopping",
+      "ground_truth_rank_in_pool": 3,
+      "error_category": "C. Category boundary ambiguity",
+      "justification": "Borderline classification case between 'Education' and 'Shopping'.",
+      "reranking_reason": "Base Top-1 'Shopping' retained (score=0.3743)",
+      "candidate_pool": [
+        "Shopping",
+        "Travel",
+        "Education",
+        "Payment",
+        "Coding",
+        "Entertainment",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 57,
+      "id": "ext2_207",
+      "file": "ext2_207.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Work & Career",
+      "base_semantic_pred": "Work & Career",
+      "ground_truth_rank_in_pool": 7,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Work & Career'.",
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.3902)",
+      "candidate_pool": [
+        "Work & Career",
+        "Entertainment",
+        "Communication",
+        "Payment",
+        "Education",
+        "Travel",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 58,
+      "id": "ext2_210",
+      "file": "ext2_210.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Education",
+      "base_semantic_pred": "Education",
+      "ground_truth_rank_in_pool": 2,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Education'.",
+      "reranking_reason": "Base Top-1 'Education' retained (score=0.3905)",
+      "candidate_pool": [
+        "Education",
+        "General",
+        "Work & Career",
+        "Travel",
+        "Communication"
+      ]
+    },
+    {
+      "failure_index": 59,
+      "id": "ext2_211",
+      "file": "ext2_211.jpg",
+      "ground_truth": "Education",
+      "baseline_predicted": "Shopping",
+      "base_semantic_pred": "Shopping",
+      "ground_truth_rank_in_pool": 2,
+      "error_category": "C. Category boundary ambiguity",
+      "justification": "Borderline classification case between 'Education' and 'Shopping'.",
+      "reranking_reason": "Base Top-1 'Shopping' retained (score=0.3671)",
+      "candidate_pool": [
+        "Shopping",
+        "Education",
+        "Travel",
+        "Payment",
+        "Coding",
+        "Communication",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 60,
+      "id": "ext2_212",
+      "file": "ext2_212.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Communication",
+      "base_semantic_pred": "Communication",
+      "ground_truth_rank_in_pool": 7,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Communication'.",
+      "reranking_reason": "Base Top-1 'Communication' retained (score=0.2711)",
+      "candidate_pool": [
+        "Communication",
+        "Entertainment",
+        "Work & Career",
+        "Education",
+        "General",
+        "Payment",
+        "Travel"
+      ]
+    },
+    {
+      "failure_index": 61,
+      "id": "ext2_213",
+      "file": "ext2_213.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Communication",
+      "base_semantic_pred": "Communication",
+      "ground_truth_rank_in_pool": 4,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Communication'.",
+      "reranking_reason": "Base Top-1 'Communication' retained (score=0.3575)",
+      "candidate_pool": [
+        "Communication",
+        "Payment",
+        "Shopping",
+        "General",
+        "Education",
+        "Entertainment",
+        "Work & Career"
+      ]
+    },
+    {
+      "failure_index": 62,
+      "id": "ext2_217",
+      "file": "ext2_217.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Travel",
+      "base_semantic_pred": "Travel",
+      "ground_truth_rank_in_pool": 6,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Travel'.",
+      "reranking_reason": "Base Top-1 'Travel' retained (score=0.4159)",
+      "candidate_pool": [
+        "Travel",
+        "Payment",
+        "Shopping",
+        "Education",
+        "General",
+        "Work & Career"
+      ]
+    },
+    {
+      "failure_index": 63,
+      "id": "ext2_224",
+      "file": "ext2_224.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Communication",
+      "base_semantic_pred": "Communication",
+      "ground_truth_rank_in_pool": 6,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Communication'.",
+      "reranking_reason": "Base Top-1 'Communication' retained (score=0.2785)",
+      "candidate_pool": [
+        "Communication",
+        "Entertainment",
+        "Work & Career",
+        "Education",
+        "Payment",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 64,
+      "id": "ext2_227",
+      "file": "ext2_227.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Entertainment",
+      "base_semantic_pred": "Entertainment",
+      "ground_truth_rank_in_pool": 7,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Entertainment'.",
+      "reranking_reason": "Base Top-1 'Entertainment' retained (score=0.4139)",
+      "candidate_pool": [
+        "Entertainment",
+        "Communication",
+        "Travel",
+        "Education",
+        "Work & Career",
+        "Payment",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 65,
+      "id": "ext2_228",
+      "file": "ext2_228.jpg",
+      "ground_truth": "Communication",
+      "baseline_predicted": "Entertainment",
+      "base_semantic_pred": "Entertainment",
+      "ground_truth_rank_in_pool": 2,
+      "error_category": "D. Similar-category confusion",
+      "justification": "Confusion between closely related domain categories 'Communication' and 'Entertainment'.",
+      "reranking_reason": "Base Top-1 'Entertainment' retained (score=0.3014)",
+      "candidate_pool": [
+        "Entertainment",
+        "Communication",
+        "Travel",
+        "Education",
+        "Work & Career",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 66,
+      "id": "ext2_231",
+      "file": "ext2_231.jpg",
+      "ground_truth": "Shopping",
+      "baseline_predicted": "Work & Career",
+      "base_semantic_pred": "Work & Career",
+      "ground_truth_rank_in_pool": 3,
+      "error_category": "C. Category boundary ambiguity",
+      "justification": "Borderline classification case between 'Shopping' and 'Work & Career'.",
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.5135)",
+      "candidate_pool": [
+        "Work & Career",
+        "Education",
+        "Shopping",
+        "Travel",
+        "Payment",
+        "Coding",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 67,
+      "id": "ext2_232",
+      "file": "ext2_232.jpg",
+      "ground_truth": "Education",
+      "baseline_predicted": "Work & Career",
+      "base_semantic_pred": "Work & Career",
+      "ground_truth_rank_in_pool": 2,
+      "error_category": "D. Similar-category confusion",
+      "justification": "Confusion between closely related domain categories 'Education' and 'Work & Career'.",
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.3963)",
+      "candidate_pool": [
+        "Work & Career",
+        "Education",
+        "Communication",
+        "Travel",
+        "Payment",
+        "Connectivity",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 68,
+      "id": "ext2_233",
+      "file": "ext2_233.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Work & Career",
+      "base_semantic_pred": "Work & Career",
+      "ground_truth_rank_in_pool": 6,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Work & Career'.",
+      "reranking_reason": "Base Top-1 'Work & Career' retained (score=0.4530)",
+      "candidate_pool": [
+        "Work & Career",
+        "Education",
+        "Communication",
+        "Travel",
+        "Payment",
+        "General"
+      ]
+    },
+    {
+      "failure_index": 69,
+      "id": "ext2_237",
+      "file": "ext2_237.jpg",
+      "ground_truth": "Shopping",
+      "baseline_predicted": "Communication",
+      "base_semantic_pred": "Communication",
+      "ground_truth_rank_in_pool": 2,
+      "error_category": "C. Category boundary ambiguity",
+      "justification": "Borderline classification case between 'Shopping' and 'Communication'.",
+      "reranking_reason": "Base Top-1 'Communication' retained (score=0.3092)",
+      "candidate_pool": [
+        "Communication",
+        "Shopping",
+        "Payment",
+        "General",
+        "Education"
+      ]
+    },
+    {
+      "failure_index": 70,
+      "id": "ext2_240",
+      "file": "ext2_240.jpg",
+      "ground_truth": "General",
+      "baseline_predicted": "Payment",
+      "base_semantic_pred": "Payment",
+      "ground_truth_rank_in_pool": 6,
+      "error_category": "G. General-vs-domain ambiguity",
+      "justification": "Ambiguity between fallback/broader category 'General' and domain label 'Payment'.",
+      "reranking_reason": "Base Top-1 'Payment' retained (score=0.4149)",
+      "candidate_pool": [
+        "Payment",
+        "Communication",
+        "Travel",
+        "Education",
+        "Entertainment",
+        "General"
+      ]
+    }
+  ]
+}

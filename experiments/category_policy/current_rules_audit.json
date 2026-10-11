@@ -1,0 +1,103 @@
+{
+  "audit_name": "current_rules_audit",
+  "timestamp": "2026-10-09T00:10:00+05:30",
+  "total_audited_rules": 8,
+  "rules": [
+    {
+      "rule_id": "RULE_001_TFIDF_SEMANTIC_CLASSIFIER",
+      "rule_name": "Base Semantic Classifier Prediction (Variant C)",
+      "affected_category": "All (10 Canonical Categories)",
+      "positive_evidence": "Vocabulary term weights fitted on internal training split (n=250)",
+      "negative_evidence": "None explicitly encoded; zero-weight terms produce low score",
+      "thresholds": "High (>0.80), Medium (0.50-0.80), Low (<0.50)",
+      "implementation_location": "experiments/categorization_recovery/exp_recovery_candidate.py",
+      "experiment_origin": "Categorization Recovery Experiment",
+      "production_active": true,
+      "validation_evidence": "Val Top-1 = 94.40%, Holdout Top-1 = 99.20%"
+    },
+    {
+      "rule_id": "RULE_002_MINILM_EMBEDDING_PROTOTYPES",
+      "rule_name": "MiniLM Strategy C Prototype Similarity",
+      "affected_category": "All (10 Canonical Categories)",
+      "positive_evidence": "384-dim sentence-transformers/all-MiniLM-L6-v2 cosine similarity to mean prototype vectors",
+      "negative_evidence": "Low cosine similarity (<0.20)",
+      "thresholds": "Top-5 candidate ranking descending by cosine similarity",
+      "implementation_location": "experiments/candidate_reranking/expanded_candidate_pool.py",
+      "experiment_origin": "MiniLM Strategy C Candidate Generation Experiment",
+      "production_active": true,
+      "validation_evidence": "Candidate coverage boost from 88.93% to 92.62% on External V2"
+    },
+    {
+      "rule_id": "RULE_003_MANDATORY_GENERAL_FALLBACK",
+      "rule_name": "Mandatory General Candidate Fallback Rule",
+      "affected_category": "General",
+      "positive_evidence": "Always includes 'General' in the candidate pool if absent from Classifier Top-5 & MiniLM Top-5",
+      "negative_evidence": "None",
+      "thresholds": "Unconditional candidate pool append",
+      "implementation_location": "experiments/final_categorization_baseline/run_final_baseline_audit.py",
+      "experiment_origin": "Mandatory General Fallback Experiment",
+      "production_active": true,
+      "validation_evidence": "Achieved 100.00% Candidate Pool Coverage on External V2 (244/244)"
+    },
+    {
+      "rule_id": "RULE_004_DOMAIN_OCR_PHRASE_BOOSTER",
+      "rule_name": "Domain OCR Phrase Evidence Booster (CATEGORY_EVIDENCE_MAP)",
+      "affected_category": "Education, Shopping, Payment, Travel, Coding, Communication, Entertainment, Work & Career, Connectivity",
+      "positive_evidence": "Exact string match of high-confidence category phrases in lowercased raw OCR text",
+      "negative_evidence": "None per category",
+      "thresholds": "+0.20 for 1 phrase match, +0.35 for >= 2 phrase matches",
+      "implementation_location": "experiments/candidate_reranking/candidate_reranker.py",
+      "experiment_origin": "Evidence-Based Candidate Reranking Experiment",
+      "production_active": true,
+      "validation_evidence": "Helps promote evidenced domain categories over low-confidence text predictions"
+    },
+    {
+      "rule_id": "RULE_005_GENERAL_EVIDENCE_PENALTY",
+      "rule_name": "General Penalty when Competing Domain Evidence is Present",
+      "affected_category": "General",
+      "positive_evidence": "None",
+      "negative_evidence": "Presence of >= 1 domain phrase match for any non-General candidate in pool",
+      "thresholds": "Multiplies General final score by 0.50 (or 0.40)",
+      "implementation_location": "experiments/best_of_all_categorization/best_of_all_reranker.py",
+      "experiment_origin": "Best-of-All Categorization Reconciliation Sprint",
+      "production_active": true,
+      "validation_evidence": "Reduces false-positive General predictions when explicit domain phrases exist"
+    },
+    {
+      "rule_id": "RULE_006_HIGH_CONF_GUARDRAIL",
+      "rule_name": "High-Confidence Protection Guardrail",
+      "affected_category": "All Categories",
+      "positive_evidence": "Classifier confidence == 'High'",
+      "negative_evidence": "Reranked candidate has < 2 domain OCR phrase matches and low visual confidence",
+      "thresholds": "Restores base Top-1 prediction if reranked candidate lacks strong evidence",
+      "implementation_location": "experiments/best_of_all_categorization/best_of_all_reranker.py",
+      "experiment_origin": "Best-of-All Categorization Reconciliation Sprint",
+      "production_active": true,
+      "validation_evidence": "Prevents unevidenced overrides of high-confidence text classifier predictions"
+    },
+    {
+      "rule_id": "RULE_007_YOLO_VISUAL_SCREEN_TYPE_MAP",
+      "rule_name": "YOLOv8n-cls Visual Screen Type Evidence Mapping",
+      "affected_category": "Coding, Travel, Entertainment, Education, Connectivity",
+      "positive_evidence": "YOLO prediction matches VIS_5_TO_SEMANTIC_MAP (code_editor_terminal->Coding, travel_booking->Travel, media_player_library->Entertainment, document_article_view->Education, dashboard_settings->Connectivity)",
+      "negative_evidence": "Unmapped screen type ('other_screen') or low visual confidence",
+      "thresholds": "vis_conf >= 0.40; adds min(1.0, vis_conf) * w_vis to composite score",
+      "implementation_location": "experiments/visual_understanding/phase7j/visual_screen_type_adapter.py",
+      "experiment_origin": "Controlled Visual Signal Experiment",
+      "production_active": true,
+      "validation_evidence": "Preserves 100% of internal validation/holdout accuracy; provides marginal support on Ext V2"
+    },
+    {
+      "rule_id": "RULE_008_CONTEXTUAL_COMBINATION_RULES",
+      "rule_name": "Contextual Combination Disambiguation Rules",
+      "affected_category": "Education, Coding, Shopping, Payment, Work & Career, Entertainment",
+      "positive_evidence": "Multi-word contextual pairs (e.g., 'python'+'tutorial'->Education, 'python'+'traceback'->Coding, '₹'+'add to cart'->Shopping, '₹'+'payment successful'->Payment, 'linkedin'+'job'->Work & Career)",
+      "negative_evidence": "None",
+      "thresholds": "Add weights ranging from 4.0 to 5.0 to evidence score",
+      "implementation_location": "experiments/intelligence/ocr_evidence_semantic/ocr_evidence_semantic.py",
+      "experiment_origin": "Explainable OCR Evidence + Semantic Classification Experiment",
+      "production_active": false,
+      "validation_evidence": "Evaluated in research phase for resolving topic vs layout ambiguities"
+    }
+  ]
+}

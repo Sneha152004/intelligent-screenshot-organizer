@@ -1,0 +1,37 @@
+{
+  "validation_samples": 66,
+  "option_a_semantic_only": {
+    "accuracy": 0.4394,
+    "macro_f1": 0.2628,
+    "balanced_acc": 0.244
+  },
+  "option_b_visual_only_mapped": {
+    "accuracy": 0.3636,
+    "macro_f1": 0.095,
+    "balanced_acc": 0.1508
+  },
+  "option_c_selective_fusion_13class": {
+    "accuracy": 0.4394,
+    "macro_f1": 0.2628,
+    "balanced_acc": 0.244
+  },
+  "option_d_baseline_fusion_5class": {
+    "accuracy": 0.4394,
+    "macro_f1": 0.2402,
+    "balanced_acc": 0.244
+  },
+  "error_transition": {
+    "semantic_correct_to_fusion_correct": 29,
+    "errors_corrected": 0,
+    "correct_predictions_harmed": 0,
+    "both_incorrect": 37,
+    "net_gain": 0
+  },
+  "latency_ms": {
+    "semantic_only_median": 10.11,
+    "visual_only_median": 0.12,
+    "pipeline_warm_median": 10.43,
+    "pipeline_warm_p95": 34.23,
+    "cold_start": 143.68
+  }
+}

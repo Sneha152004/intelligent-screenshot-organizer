@@ -1,0 +1,4 @@
+split,baseline_top1,exp_top1,top1_delta,baseline_coverage,exp_coverage,coverage_delta,baseline_mrr,exp_mrr,corrections,harms
+Internal Validation (n=125),93.60%,93.60%,+0.00 pp,100.00%,100.00%,+0.00 pp,0.9540,0.9540,0,1
+Internal Holdout (n=125),99.20%,99.20%,+0.00 pp,100.00%,100.00%,+0.00 pp,0.9960,0.9960,0,0
+External V2 (n=244),71.31%,71.31%,+0.00 pp,92.62%,100.00%,+7.38 pp,0.7880,0.7998,3,2

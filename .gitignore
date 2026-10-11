@@ -109,3 +109,14 @@ Progress_Report_*.pdf
 # ==========================================
 scratch/
 .dist/
+
+# ==========================================
+# Local Dataset Images & Generated Contact Sheets
+# ==========================================
+experiments/intelligence/external/images/
+experiments/intelligence/external_v2/images/
+experiments/intelligence/unseen/images/
+data/categorized_screenshots.json
+**/contact_sheets/
+**/corrected_contact_sheets/
+experiments/**/*.zip

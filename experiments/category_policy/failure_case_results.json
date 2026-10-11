@@ -1,0 +1,743 @@
+{
+  "total_external_v2": 244,
+  "baseline_failures": 70,
+  "baseline_correct": 174,
+  "corrections": 26,
+  "harms": 6,
+  "unchanged_failures": 44,
+  "net_improvement": 20,
+  "correction_rate": 0.37142857142857144,
+  "harm_rate": 0.034482758620689655,
+  "baseline_top1_accuracy": 0.7254098360655737,
+  "final_policy_top1_accuracy": 0.8073770491803278,
+  "resolutions": [
+    {
+      "id": "ext2_013",
+      "filename": "ext2_013.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Work & Career",
+      "policy_prediction": "Work & Career",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": [
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career"
+      ]
+    },
+    {
+      "id": "ext2_014",
+      "filename": "ext2_014.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Work & Career",
+      "policy_prediction": "Work & Career",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": [
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career"
+      ]
+    },
+    {
+      "id": "ext2_021",
+      "filename": "ext2_021.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Work & Career",
+      "policy_prediction": "Work & Career",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": [
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career",
+        "General vs Shopping: Retail item context tiebreaker applied to Shopping"
+      ]
+    },
+    {
+      "id": "ext2_023",
+      "filename": "ext2_023.jpg",
+      "ground_truth": "Work & Career",
+      "baseline_prediction": "General",
+      "policy_prediction": "Work & Career",
+      "resolution_status": "CORRECTED",
+      "policy_reasons": [
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career"
+      ]
+    },
+    {
+      "id": "ext2_024",
+      "filename": "ext2_024.jpg",
+      "ground_truth": "Education",
+      "baseline_prediction": "Shopping",
+      "policy_prediction": "Education",
+      "resolution_status": "CORRECTED",
+      "policy_reasons": [
+        "Academic lecture / Course syllabus primary object",
+        "General vs Communication: Messaging context tiebreaker applied to Communication",
+        "General vs Shopping: Retail item context tiebreaker applied to Shopping"
+      ]
+    },
+    {
+      "id": "ext2_027",
+      "filename": "ext2_027.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Education",
+      "policy_prediction": "Education",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": [
+        "General vs Communication: Messaging context tiebreaker applied to Communication"
+      ]
+    },
+    {
+      "id": "ext2_032",
+      "filename": "ext2_032.jpg",
+      "ground_truth": "Shopping",
+      "baseline_prediction": "Entertainment",
+      "policy_prediction": "Shopping",
+      "resolution_status": "CORRECTED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_034",
+      "filename": "ext2_034.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Shopping",
+      "policy_prediction": "Shopping",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": [
+        "General vs Shopping: Retail item context tiebreaker applied to Shopping"
+      ]
+    },
+    {
+      "id": "ext2_042",
+      "filename": "ext2_042.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Shopping",
+      "policy_prediction": "Shopping",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_046",
+      "filename": "ext2_046.jpg",
+      "ground_truth": "Shopping",
+      "baseline_prediction": "General",
+      "policy_prediction": "Shopping",
+      "resolution_status": "CORRECTED",
+      "policy_reasons": [
+        "General vs Shopping: Retail item context tiebreaker applied to Shopping"
+      ]
+    },
+    {
+      "id": "ext2_047",
+      "filename": "ext2_047.jpg",
+      "ground_truth": "Shopping",
+      "baseline_prediction": "General",
+      "policy_prediction": "Shopping",
+      "resolution_status": "CORRECTED",
+      "policy_reasons": [
+        "General vs Shopping: Retail item context tiebreaker applied to Shopping"
+      ]
+    },
+    {
+      "id": "ext2_048",
+      "filename": "ext2_048.jpg",
+      "ground_truth": "Shopping",
+      "baseline_prediction": "General",
+      "policy_prediction": "Shopping",
+      "resolution_status": "CORRECTED",
+      "policy_reasons": [
+        "General vs Shopping: Retail item context tiebreaker applied to Shopping"
+      ]
+    },
+    {
+      "id": "ext2_064",
+      "filename": "ext2_064.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Shopping",
+      "policy_prediction": "Shopping",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_068",
+      "filename": "ext2_068.jpg",
+      "ground_truth": "Shopping",
+      "baseline_prediction": "Travel",
+      "policy_prediction": "Shopping",
+      "resolution_status": "CORRECTED",
+      "policy_reasons": [
+        "General vs Shopping: Retail item context tiebreaker applied to Shopping"
+      ]
+    },
+    {
+      "id": "ext2_069",
+      "filename": "ext2_069.jpg",
+      "ground_truth": "Shopping",
+      "baseline_prediction": "Travel",
+      "policy_prediction": "Shopping",
+      "resolution_status": "CORRECTED",
+      "policy_reasons": [
+        "General vs Shopping: Retail item context tiebreaker applied to Shopping"
+      ]
+    },
+    {
+      "id": "ext2_070",
+      "filename": "ext2_070.jpg",
+      "ground_truth": "Shopping",
+      "baseline_prediction": "Travel",
+      "policy_prediction": "Shopping",
+      "resolution_status": "CORRECTED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_071",
+      "filename": "ext2_071.jpg",
+      "ground_truth": "Shopping",
+      "baseline_prediction": "Travel",
+      "policy_prediction": "Shopping",
+      "resolution_status": "CORRECTED",
+      "policy_reasons": [
+        "General vs Shopping: Retail item context tiebreaker applied to Shopping"
+      ]
+    },
+    {
+      "id": "ext2_079",
+      "filename": "ext2_079.jpg",
+      "ground_truth": "Connectivity",
+      "baseline_prediction": "General",
+      "policy_prediction": "Connectivity",
+      "resolution_status": "CORRECTED",
+      "policy_reasons": [
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career"
+      ]
+    },
+    {
+      "id": "ext2_084",
+      "filename": "ext2_084.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Education",
+      "policy_prediction": "Education",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_086",
+      "filename": "ext2_086.jpg",
+      "ground_truth": "Work & Career",
+      "baseline_prediction": "Entertainment",
+      "policy_prediction": "Entertainment",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_087",
+      "filename": "ext2_087.jpg",
+      "ground_truth": "Work & Career",
+      "baseline_prediction": "General",
+      "policy_prediction": "General",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_092",
+      "filename": "ext2_092.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Payment",
+      "policy_prediction": "Payment",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": [
+        "General vs Communication: Messaging context tiebreaker applied to Communication"
+      ]
+    },
+    {
+      "id": "ext2_093",
+      "filename": "ext2_093.jpg",
+      "ground_truth": "Education",
+      "baseline_prediction": "Payment",
+      "policy_prediction": "Education",
+      "resolution_status": "CORRECTED",
+      "policy_reasons": [
+        "Academic lecture / Course syllabus primary object"
+      ]
+    },
+    {
+      "id": "ext2_094",
+      "filename": "ext2_094.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Payment",
+      "policy_prediction": "Payment",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_096",
+      "filename": "ext2_096.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Payment",
+      "policy_prediction": "Payment",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_098",
+      "filename": "ext2_098.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Payment",
+      "policy_prediction": "Payment",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_105",
+      "filename": "ext2_105.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Payment",
+      "policy_prediction": "Payment",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_106",
+      "filename": "ext2_106.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Payment",
+      "policy_prediction": "Payment",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_107",
+      "filename": "ext2_107.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Payment",
+      "policy_prediction": "Payment",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_108",
+      "filename": "ext2_108.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Payment",
+      "policy_prediction": "Payment",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_110",
+      "filename": "ext2_110.jpg",
+      "ground_truth": "Payment",
+      "baseline_prediction": "Communication",
+      "policy_prediction": "Communication",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": [
+        "General vs Communication: Messaging context tiebreaker applied to Communication"
+      ]
+    },
+    {
+      "id": "ext2_111",
+      "filename": "ext2_111.jpg",
+      "ground_truth": "Education",
+      "baseline_prediction": "Work & Career",
+      "policy_prediction": "Education",
+      "resolution_status": "CORRECTED",
+      "policy_reasons": [
+        "Academic lecture / Course syllabus primary object",
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career"
+      ]
+    },
+    {
+      "id": "ext2_113",
+      "filename": "ext2_113.jpg",
+      "ground_truth": "Education",
+      "baseline_prediction": "General",
+      "policy_prediction": "Education",
+      "resolution_status": "CORRECTED",
+      "policy_reasons": [
+        "Academic lecture / Course syllabus primary object"
+      ]
+    },
+    {
+      "id": "ext2_114",
+      "filename": "ext2_114.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Work & Career",
+      "policy_prediction": "Work & Career",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_122",
+      "filename": "ext2_122.jpg",
+      "ground_truth": "Payment",
+      "baseline_prediction": "Communication",
+      "policy_prediction": "Communication",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": [
+        "Email/Chat correspondence layout primary object",
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career",
+        "General vs Communication: Messaging context tiebreaker applied to Communication"
+      ]
+    },
+    {
+      "id": "ext2_126",
+      "filename": "ext2_126.jpg",
+      "ground_truth": "Education",
+      "baseline_prediction": "Work & Career",
+      "policy_prediction": "Education",
+      "resolution_status": "CORRECTED",
+      "policy_reasons": [
+        "Academic lecture / Course syllabus primary object",
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career"
+      ]
+    },
+    {
+      "id": "ext2_127",
+      "filename": "ext2_127.jpg",
+      "ground_truth": "Education",
+      "baseline_prediction": "Work & Career",
+      "policy_prediction": "Education",
+      "resolution_status": "CORRECTED",
+      "policy_reasons": [
+        "Academic lecture / Course syllabus primary object",
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career",
+        "General vs Communication: Messaging context tiebreaker applied to Communication"
+      ]
+    },
+    {
+      "id": "ext2_128",
+      "filename": "ext2_128.jpg",
+      "ground_truth": "Education",
+      "baseline_prediction": "Work & Career",
+      "policy_prediction": "Education",
+      "resolution_status": "CORRECTED",
+      "policy_reasons": [
+        "Academic lecture / Course syllabus primary object",
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career"
+      ]
+    },
+    {
+      "id": "ext2_130",
+      "filename": "ext2_130.jpg",
+      "ground_truth": "Communication",
+      "baseline_prediction": "Work & Career",
+      "policy_prediction": "Work & Career",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": [
+        "Email/Chat correspondence layout primary object",
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career",
+        "General vs Communication: Messaging context tiebreaker applied to Communication"
+      ]
+    },
+    {
+      "id": "ext2_133",
+      "filename": "ext2_133.jpg",
+      "ground_truth": "Communication",
+      "baseline_prediction": "Work & Career",
+      "policy_prediction": "Communication",
+      "resolution_status": "CORRECTED",
+      "policy_reasons": [
+        "Email/Chat correspondence layout primary object",
+        "General vs Communication: Messaging context tiebreaker applied to Communication"
+      ]
+    },
+    {
+      "id": "ext2_138",
+      "filename": "ext2_138.jpg",
+      "ground_truth": "Education",
+      "baseline_prediction": "Work & Career",
+      "policy_prediction": "Education",
+      "resolution_status": "CORRECTED",
+      "policy_reasons": [
+        "Academic lecture / Course syllabus primary object",
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career"
+      ]
+    },
+    {
+      "id": "ext2_139",
+      "filename": "ext2_139.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Travel",
+      "policy_prediction": "Travel",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_143",
+      "filename": "ext2_143.jpg",
+      "ground_truth": "Education",
+      "baseline_prediction": "General",
+      "policy_prediction": "Education",
+      "resolution_status": "CORRECTED",
+      "policy_reasons": [
+        "Academic lecture / Course syllabus primary object"
+      ]
+    },
+    {
+      "id": "ext2_147",
+      "filename": "ext2_147.jpg",
+      "ground_truth": "Entertainment",
+      "baseline_prediction": "General",
+      "policy_prediction": "Entertainment",
+      "resolution_status": "CORRECTED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_150",
+      "filename": "ext2_150.jpg",
+      "ground_truth": "Communication",
+      "baseline_prediction": "Work & Career",
+      "policy_prediction": "Communication",
+      "resolution_status": "CORRECTED",
+      "policy_reasons": [
+        "Email/Chat correspondence layout primary object",
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career",
+        "General vs Communication: Messaging context tiebreaker applied to Communication"
+      ]
+    },
+    {
+      "id": "ext2_153",
+      "filename": "ext2_153.jpg",
+      "ground_truth": "Payment",
+      "baseline_prediction": "Travel",
+      "policy_prediction": "Payment",
+      "resolution_status": "CORRECTED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_158",
+      "filename": "ext2_158.jpg",
+      "ground_truth": "Communication",
+      "baseline_prediction": "Work & Career",
+      "policy_prediction": "Work & Career",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": [
+        "Email/Chat correspondence layout primary object",
+        "Job portal / Career vacancy layout primary object",
+        "General vs Communication: Messaging context tiebreaker applied to Communication"
+      ]
+    },
+    {
+      "id": "ext2_160",
+      "filename": "ext2_160.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Entertainment",
+      "policy_prediction": "Entertainment",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_162",
+      "filename": "ext2_162.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Travel",
+      "policy_prediction": "Travel",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_163",
+      "filename": "ext2_163.jpg",
+      "ground_truth": "Work & Career",
+      "baseline_prediction": "Payment",
+      "policy_prediction": "Work & Career",
+      "resolution_status": "CORRECTED",
+      "policy_reasons": [
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career"
+      ]
+    },
+    {
+      "id": "ext2_180",
+      "filename": "ext2_180.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Entertainment",
+      "policy_prediction": "Entertainment",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_193",
+      "filename": "ext2_193.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Entertainment",
+      "policy_prediction": "Entertainment",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_200",
+      "filename": "ext2_200.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Entertainment",
+      "policy_prediction": "Entertainment",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_201",
+      "filename": "ext2_201.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Entertainment",
+      "policy_prediction": "Entertainment",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": [
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career"
+      ]
+    },
+    {
+      "id": "ext2_202",
+      "filename": "ext2_202.jpg",
+      "ground_truth": "Shopping",
+      "baseline_prediction": "General",
+      "policy_prediction": "General",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_206",
+      "filename": "ext2_206.jpg",
+      "ground_truth": "Education",
+      "baseline_prediction": "Shopping",
+      "policy_prediction": "Shopping",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_207",
+      "filename": "ext2_207.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Work & Career",
+      "policy_prediction": "Work & Career",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": [
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career",
+        "General vs Communication: Messaging context tiebreaker applied to Communication"
+      ]
+    },
+    {
+      "id": "ext2_210",
+      "filename": "ext2_210.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Education",
+      "policy_prediction": "Education",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_211",
+      "filename": "ext2_211.jpg",
+      "ground_truth": "Education",
+      "baseline_prediction": "Shopping",
+      "policy_prediction": "Shopping",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": [
+        "IDE editor / Terminal traceback primary object",
+        "General vs Shopping: Retail item context tiebreaker applied to Shopping"
+      ]
+    },
+    {
+      "id": "ext2_212",
+      "filename": "ext2_212.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Communication",
+      "policy_prediction": "Entertainment",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_213",
+      "filename": "ext2_213.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Communication",
+      "policy_prediction": "Communication",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_217",
+      "filename": "ext2_217.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Travel",
+      "policy_prediction": "Travel",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_224",
+      "filename": "ext2_224.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Communication",
+      "policy_prediction": "Entertainment",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_227",
+      "filename": "ext2_227.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Entertainment",
+      "policy_prediction": "Entertainment",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    },
+    {
+      "id": "ext2_228",
+      "filename": "ext2_228.jpg",
+      "ground_truth": "Communication",
+      "baseline_prediction": "Entertainment",
+      "policy_prediction": "Communication",
+      "resolution_status": "CORRECTED",
+      "policy_reasons": [
+        "General vs Communication: Messaging context tiebreaker applied to Communication"
+      ]
+    },
+    {
+      "id": "ext2_231",
+      "filename": "ext2_231.jpg",
+      "ground_truth": "Shopping",
+      "baseline_prediction": "Work & Career",
+      "policy_prediction": "Work & Career",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": [
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career"
+      ]
+    },
+    {
+      "id": "ext2_232",
+      "filename": "ext2_232.jpg",
+      "ground_truth": "Education",
+      "baseline_prediction": "Work & Career",
+      "policy_prediction": "Education",
+      "resolution_status": "CORRECTED",
+      "policy_reasons": [
+        "Academic lecture / Course syllabus primary object",
+        "General vs Communication: Messaging context tiebreaker applied to Communication"
+      ]
+    },
+    {
+      "id": "ext2_233",
+      "filename": "ext2_233.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Work & Career",
+      "policy_prediction": "Work & Career",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": [
+        "General vs Work & Career: Workplace context tiebreaker applied to Work & Career",
+        "General vs Communication: Messaging context tiebreaker applied to Communication"
+      ]
+    },
+    {
+      "id": "ext2_237",
+      "filename": "ext2_237.jpg",
+      "ground_truth": "Shopping",
+      "baseline_prediction": "Communication",
+      "policy_prediction": "Communication",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": [
+        "General vs Communication: Messaging context tiebreaker applied to Communication"
+      ]
+    },
+    {
+      "id": "ext2_240",
+      "filename": "ext2_240.jpg",
+      "ground_truth": "General",
+      "baseline_prediction": "Payment",
+      "policy_prediction": "Payment",
+      "resolution_status": "UNCHANGED",
+      "policy_reasons": []
+    }
+  ]
+}

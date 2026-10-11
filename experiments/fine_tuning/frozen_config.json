@@ -1,0 +1,19 @@
+{
+  "experiment_name": "fine_tuning_investigation",
+  "status": "EVALUATED_AND_FROZEN",
+  "timestamp": "2026-10-08T23:04:54+05:30",
+  "deterministic": true,
+  "models_evaluated": {
+    "candidate_a": "PyTorch Neural MLP Head over all-MiniLM-L6-v2 embeddings (Epochs=150, LR=1e-3, AdamW, Weighted CrossEntropy)",
+    "candidate_b": "Class-Weighted Calibrated Logistic Classifier Probe over all-MiniLM-L6-v2 embeddings (C=2.0, class_weight='balanced')",
+    "candidate_c": "Candidate B Probe Top-5 UNION MiniLM Top-5 UNION {'General'} -> BestOfAllCandidateReranker"
+  },
+  "hyperparameters": {
+    "embedding_dim": 384,
+    "canonical_categories_count": 10,
+    "train_samples": 250,
+    "val_samples": 125,
+    "holdout_samples": 125,
+    "external_v2_samples": 244
+  }
+}

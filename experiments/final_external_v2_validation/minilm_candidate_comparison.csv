@@ -1,0 +1,5 @@
+dataset,strategy,clf_top1,clf_top3,minilm_rec1,minilm_rec3,minilm_rec5,union_rec3,union_rec5,misses,recovered_top5
+Internal Validation (n=125),Strategy A: Centroids,0.944,0.944,0.608,0.608,0.608,0.944,0.944,7,0
+Internal Validation (n=125),Strategy B: Multi-Prototypes,0.944,0.944,0.6,0.608,0.608,0.944,0.944,7,0
+Internal Validation (n=125),Strategy C: Text Descriptions,0.944,0.944,0.392,0.992,1.0,0.944,1.0,7,7
+External V2 Frozen (n=244),Strategy C: Text Descriptions (Frozen),0.709,0.8279,0.3689,0.6189,0.7992,0.8402,0.9016,42,24

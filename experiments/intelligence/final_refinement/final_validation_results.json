@@ -1,0 +1,718 @@
+{
+  "Variant_A_Baseline_9Cat": {
+    "top1_accuracy": 0.832,
+    "top2_recall": 0.84,
+    "top3_recall": 0.944,
+    "macro_precision": 0.7829059829059829,
+    "macro_recall": 0.8089133089133089,
+    "macro_f1": 0.7730274647775717,
+    "balanced_accuracy": 0.8089133089133089,
+    "mrr": 0.8706666666666664,
+    "ambiguity_rate": 0.152,
+    "sparse_ocr_rate": 0.056,
+    "confusion_matrix": [
+      [
+        11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        19,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        11,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        19,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        15
+      ]
+    ],
+    "per_category": {
+      "Communication": {
+        "support": 11,
+        "precision": 0.8461538461538461,
+        "recall": 1.0,
+        "f1": 0.9166666666666666
+      },
+      "Connectivity": {
+        "support": 4,
+        "precision": 0.14285714285714285,
+        "recall": 0.5,
+        "f1": 0.2222222222222222
+      },
+      "Education": {
+        "support": 13,
+        "precision": 1.0,
+        "recall": 0.9230769230769231,
+        "f1": 0.96
+      },
+      "Entertainment": {
+        "support": 19,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "General": {
+        "support": 14,
+        "precision": 0.4,
+        "recall": 0.14285714285714285,
+        "f1": 0.21052631578947367
+      },
+      "Payment": {
+        "support": 4,
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1": 0.8888888888888888
+      },
+      "Shopping": {
+        "support": 20,
+        "precision": 0.9523809523809523,
+        "recall": 1.0,
+        "f1": 0.975609756097561
+      },
+      "Travel": {
+        "support": 19,
+        "precision": 0.9047619047619048,
+        "recall": 1.0,
+        "f1": 0.95
+      },
+      "Work & Career": {
+        "support": 21,
+        "precision": 1.0,
+        "recall": 0.7142857142857143,
+        "f1": 0.8333333333333334
+      }
+    },
+    "coding_tag_eval": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "tn": 113,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "mean_reasoning_ms": 14.782320000000004
+  },
+  "Variant_B_General_Fallback_Refined": {
+    "top1_accuracy": 0.832,
+    "top2_recall": 0.928,
+    "top3_recall": 0.944,
+    "macro_precision": 0.77999592999593,
+    "macro_recall": 0.8089133089133089,
+    "macro_f1": 0.7575071825906228,
+    "balanced_accuracy": 0.8089133089133089,
+    "mrr": 0.8853333333333333,
+    "ambiguity_rate": 0.064,
+    "sparse_ocr_rate": 0.056,
+    "confusion_matrix": [
+      [
+        11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        19,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        2,
+        11,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        19,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        15
+      ]
+    ],
+    "per_category": {
+      "Communication": {
+        "support": 11,
+        "precision": 0.8461538461538461,
+        "recall": 1.0,
+        "f1": 0.9166666666666666
+      },
+      "Connectivity": {
+        "support": 4,
+        "precision": 0.6666666666666666,
+        "recall": 0.5,
+        "f1": 0.5714285714285714
+      },
+      "Education": {
+        "support": 13,
+        "precision": 1.0,
+        "recall": 0.9230769230769231,
+        "f1": 0.96
+      },
+      "Entertainment": {
+        "support": 19,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "General": {
+        "support": 14,
+        "precision": 0.4,
+        "recall": 0.14285714285714285,
+        "f1": 0.21052631578947367
+      },
+      "Payment": {
+        "support": 4,
+        "precision": 0.25,
+        "recall": 1.0,
+        "f1": 0.4
+      },
+      "Shopping": {
+        "support": 20,
+        "precision": 0.9523809523809523,
+        "recall": 1.0,
+        "f1": 0.975609756097561
+      },
+      "Travel": {
+        "support": 19,
+        "precision": 0.9047619047619048,
+        "recall": 1.0,
+        "f1": 0.95
+      },
+      "Work & Career": {
+        "support": 21,
+        "precision": 1.0,
+        "recall": 0.7142857142857143,
+        "f1": 0.8333333333333334
+      }
+    },
+    "coding_tag_eval": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "tn": 113,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "mean_reasoning_ms": 13.763928
+  },
+  "Variant_C_Work_Context_Refined": {
+    "top1_accuracy": 0.832,
+    "top2_recall": 0.84,
+    "top3_recall": 0.944,
+    "macro_precision": 0.7829059829059829,
+    "macro_recall": 0.8089133089133089,
+    "macro_f1": 0.7730274647775717,
+    "balanced_accuracy": 0.8089133089133089,
+    "mrr": 0.8706666666666664,
+    "ambiguity_rate": 0.152,
+    "sparse_ocr_rate": 0.056,
+    "confusion_matrix": [
+      [
+        11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        19,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        11,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        19,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        15
+      ]
+    ],
+    "per_category": {
+      "Communication": {
+        "support": 11,
+        "precision": 0.8461538461538461,
+        "recall": 1.0,
+        "f1": 0.9166666666666666
+      },
+      "Connectivity": {
+        "support": 4,
+        "precision": 0.14285714285714285,
+        "recall": 0.5,
+        "f1": 0.2222222222222222
+      },
+      "Education": {
+        "support": 13,
+        "precision": 1.0,
+        "recall": 0.9230769230769231,
+        "f1": 0.96
+      },
+      "Entertainment": {
+        "support": 19,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "General": {
+        "support": 14,
+        "precision": 0.4,
+        "recall": 0.14285714285714285,
+        "f1": 0.21052631578947367
+      },
+      "Payment": {
+        "support": 4,
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1": 0.8888888888888888
+      },
+      "Shopping": {
+        "support": 20,
+        "precision": 0.9523809523809523,
+        "recall": 1.0,
+        "f1": 0.975609756097561
+      },
+      "Travel": {
+        "support": 19,
+        "precision": 0.9047619047619048,
+        "recall": 1.0,
+        "f1": 0.95
+      },
+      "Work & Career": {
+        "support": 21,
+        "precision": 1.0,
+        "recall": 0.7142857142857143,
+        "f1": 0.8333333333333334
+      }
+    },
+    "coding_tag_eval": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "tn": 113,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "mean_reasoning_ms": 13.87776
+  },
+  "Variant_D_Both_Refinements": {
+    "top1_accuracy": 0.832,
+    "top2_recall": 0.928,
+    "top3_recall": 0.944,
+    "macro_precision": 0.77999592999593,
+    "macro_recall": 0.8089133089133089,
+    "macro_f1": 0.7575071825906228,
+    "balanced_accuracy": 0.8089133089133089,
+    "mrr": 0.8853333333333333,
+    "ambiguity_rate": 0.064,
+    "sparse_ocr_rate": 0.056,
+    "confusion_matrix": [
+      [
+        11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        19,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        2,
+        11,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        19,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        15
+      ]
+    ],
+    "per_category": {
+      "Communication": {
+        "support": 11,
+        "precision": 0.8461538461538461,
+        "recall": 1.0,
+        "f1": 0.9166666666666666
+      },
+      "Connectivity": {
+        "support": 4,
+        "precision": 0.6666666666666666,
+        "recall": 0.5,
+        "f1": 0.5714285714285714
+      },
+      "Education": {
+        "support": 13,
+        "precision": 1.0,
+        "recall": 0.9230769230769231,
+        "f1": 0.96
+      },
+      "Entertainment": {
+        "support": 19,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "General": {
+        "support": 14,
+        "precision": 0.4,
+        "recall": 0.14285714285714285,
+        "f1": 0.21052631578947367
+      },
+      "Payment": {
+        "support": 4,
+        "precision": 0.25,
+        "recall": 1.0,
+        "f1": 0.4
+      },
+      "Shopping": {
+        "support": 20,
+        "precision": 0.9523809523809523,
+        "recall": 1.0,
+        "f1": 0.975609756097561
+      },
+      "Travel": {
+        "support": 19,
+        "precision": 0.9047619047619048,
+        "recall": 1.0,
+        "f1": 0.95
+      },
+      "Work & Career": {
+        "support": 21,
+        "precision": 1.0,
+        "recall": 0.7142857142857143,
+        "f1": 0.8333333333333334
+      }
+    },
+    "coding_tag_eval": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "tn": 113,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "mean_reasoning_ms": 12.143167999999998
+  }
+}

@@ -1,0 +1,52 @@
+screenshot_id,filename,original_semantic_category,phase7hc_proposed_screen_type,reviewer_rejection_notes,dataset_metadata_notes,adjudication_candidate_class
+ss_006.jpg,ss_006.jpg,Coding,document_article_view,WRONG CATEGORY,Screenshot showing programming or software-development content.,Maintain Rejection
+ss_009.jpg,ss_009.jpg,Coding,code_editor_terminal,WROMG CATEGORY,Screenshot showing programming or software-development content.,Maintain Rejection
+ss_011.jpg,ss_011.jpg,Coding,document_article_view,WRONG CATEGORY,Screenshot showing programming or software-development content.,Maintain Rejection
+ss_012.jpg,ss_012.jpg,Coding,code_editor_terminal,WRONG CATEGORY,Screenshot showing Python data-science code using common ML/data libraries.,Maintain Rejection
+ss_013.jpg,ss_013.jpg,Coding,code_editor_terminal,WRONG CATEGORY,Screenshot showing Python data-science code using common ML/data libraries.,Maintain Rejection
+ss_014.jpg,ss_014.jpg,Coding,code_editor_terminal,WRONG CATEGORY,Screenshot showing Python data-science code using common ML/data libraries.,Maintain Rejection
+ss_016.jpg,ss_016.jpg,Coding,code_editor_terminal,WRONG CATEGORY,Screenshot showing Python data-science code using common ML/data libraries.,Maintain Rejection
+ss_017.jpg,ss_017.jpg,Coding,code_editor_terminal,WRONG CATEGORY,Screenshot showing Python data-science code using common ML/data libraries.,Maintain Rejection
+ss_018.jpg,ss_018.jpg,Coding,code_editor_terminal,WRONG CATEGORY,Screenshot showing Python data-science code using common ML/data libraries.,Maintain Rejection
+ss_020.jpg,ss_020.jpg,Coding,code_editor_terminal,WRONG CATEGORY,Screenshot showing Python data-science code using common ML/data libraries.,Maintain Rejection
+ss_023.jpg,ss_023.jpg,Coding,document_article_view,WRONG CATEGORY,Screenshot showing programming or software-development content.,Maintain Rejection
+ss_024.jpg,ss_024.jpg,Coding,document_article_view,WRONG CATEGORY,Screenshot showing programming or software-development content.,Maintain Rejection
+ss_026.jpg,ss_026.jpg,Coding,product_detail,wrong category,Screenshot showing programming or software-development content.,Maintain Rejection
+ss_027.jpg,ss_027.jpg,Coding,document_article_view,Decision set to reject,Screenshot showing programming or software-development content.,Maintain Rejection
+ss_030.jpg,ss_030.jpg,Coding,document_article_view,WRONG CATEGORY,Screenshot showing programming or software-development content.,Maintain Rejection
+ss_153.png,ss_153.png,Entertainment,media_player_library,WRONG CATEGORY,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Maintain Rejection
+ss_182.png,ss_182.png,Shopping,product_detail,wrong category,"Screenshot showing a product, shopping, offer, order, or delivery page.",Maintain Rejection
+ss_284.png,ss_284.png,Entertainment,media_player_library,WRONG CATEGORY,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Maintain Rejection
+ss_286.png,ss_286.png,Work and career,document_article_view,WRONG CAREGORY,"Screenshot showing work, professional, job, office, or career-related content.",Maintain Rejection
+ss_288.png,ss_288.png,Work and career,document_article_view,WRONG CATEGORY,"Screenshot showing work, professional, job, office, or career-related content.",Maintain Rejection
+ss_292.png,ss_292.png,Work and career,document_article_view,WRONG CATEGORY,Screenshot showing job/career application content.,Maintain Rejection
+ss_304.png,ss_304.png,Work and career,document_article_view,WRONG CATEGORY,"Screenshot showing work, professional, job, office, or career-related content.",Maintain Rejection
+ss_308.png,ss_308.png,Work and career,document_article_view,WRONG CATEGORY,Screenshot showing work or service-management dashboard.,Maintain Rejection
+ss_310.png,ss_310.png,Work and career,document_article_view,WRONG CATEGORY,"Screenshot showing work, professional, job, office, or career-related content.",Maintain Rejection
+ss_312.png,ss_312.png,Work and career,document_article_view,WRONG CATEGORY,"Screenshot showing work, professional, job, office, or career-related content.",Maintain Rejection
+ss_316.png,ss_316.png,Work and career,document_article_view,WRONG CATEGORY,"Screenshot showing work, professional, job, office, or career-related content.",Maintain Rejection
+ss_416.png,ss_416.png,Travel,travel_booking,WRONG CATEGORY,"Screenshot showing travel, ticket, booking, route, or transport information.",Maintain Rejection
+ss_551.png,ss_551.png,Travel,travel_booking,WRONG CATEGORY,"Screenshot showing travel, ticket, booking, route, or transport information.",Maintain Rejection
+ss_593.png,ss_593.png,Entertainment,media_player_library,WRONG CATEGORY,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Maintain Rejection
+ss_604.png,ss_604.png,Entertainment,media_player_library,WRONG CATEGORY,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Maintain Rejection
+ss_614.png,ss_614.png,Entertainment,media_player_library,WRONG CATEGORY,"Screenshot showing music, video, movie, streaming, or other entertainment content.",Maintain Rejection
+ss_659.png,ss_659.png,Travel,travel_booking,WRONG CATEGORY,"Screenshot showing travel, ticket, booking, route, or transport information.",Maintain Rejection
+ss_660.png,ss_660.png,Travel,travel_booking,WRONG CATEGORY,"Screenshot showing travel, ticket, booking, route, or transport information.",Maintain Rejection
+ss_661.png,ss_661.png,Travel,travel_booking,WRONG CATEGORY,"Screenshot showing travel, ticket, booking, route, or transport information.",Maintain Rejection
+ss_668.png,ss_668.png,Travel,travel_booking,WRONG CATEGORY,"Screenshot showing travel, ticket, booking, route, or transport information.",Maintain Rejection
+ss_670.png,ss_670.png,Travel,travel_booking,WRONG CATEGORY,"Screenshot showing travel, ticket, booking, route, or transport information.",Maintain Rejection
+ss_676.png,ss_676.png,Travel,travel_booking,WRONG CATEGORY,"Screenshot showing travel, ticket, booking, route, or transport information.",Maintain Rejection
+ss_679.png,ss_679.png,Travel,travel_booking,WRONG CATEGORY,"Screenshot showing travel, ticket, booking, route, or transport information.",Maintain Rejection
+ss_680.png,ss_680.png,Travel,travel_booking,WRONG CATEGORY,"Screenshot showing travel, ticket, booking, route, or transport information.",Maintain Rejection
+ss_686.png,ss_686.png,Travel,travel_booking,WRONG CATEGORY,"Screenshot showing travel, ticket, booking, route, or transport information.",Maintain Rejection
+ss_687.png,ss_687.png,Travel,travel_booking,WRONG CATEGORY,"Screenshot showing travel, ticket, booking, route, or transport information.",Maintain Rejection
+ss_689.png,ss_689.png,Travel,travel_booking,WRONG CATEGORY,"Screenshot showing travel, ticket, booking, route, or transport information.",Maintain Rejection
+ss_693.png,ss_693.png,Travel,travel_booking,WRONG CATEGORY,"Screenshot showing travel, ticket, booking, route, or transport information.",Maintain Rejection
+ss_704.png,ss_704.png,Travel,travel_booking,WRONG CATEGORY,"Screenshot showing travel, ticket, booking, route, or transport information.",Maintain Rejection
+ss_709.png,ss_709.png,Travel,travel_booking,WRONG CATEGORY,"Screenshot showing travel, ticket, booking, route, or transport information.",Maintain Rejection
+ss_711.png,ss_711.png,Travel,travel_booking,WRONG CATEGORY,"Screenshot showing travel, ticket, booking, route, or transport information.",Maintain Rejection
+ss_712.png,ss_712.png,Travel,travel_booking,WRONG CATEGORY,"Screenshot showing travel, ticket, booking, route, or transport information.",Maintain Rejection
+ss_713.png,ss_713.png,Travel,travel_booking,WRONG CATEGORY,"Screenshot showing travel, ticket, booking, route, or transport information.",Maintain Rejection
+ss_714.png,ss_714.png,Travel,travel_booking,WRONG CATEGORY,"Screenshot showing travel, ticket, booking, route, or transport information.",Maintain Rejection
+ss_734.png,ss_734.png,Communication,messaging_chat,WRONG CATEGORY,"Screenshot showing social activity, comments, or posts.",Maintain Rejection
+ss_750.png,ss_750.png,Communication,messaging_chat,WROMG CATEGORY,"Screenshot showing social activity, comments, or posts.",Maintain Rejection

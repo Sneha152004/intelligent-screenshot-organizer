@@ -1,0 +1,14 @@
+screen_type,existing_support_phase7e,phase7h_verified_support,percentage_of_verified_dataset,train_support_60pct,cal_support_20pct,val_support_20pct,unique_duplicate_groups,coverage_status
+product_listing,0,0,0.0,0,0,0,0,UNSUPPORTED_NO_DATA
+product_detail,137,137,16.45,82,26,29,132,SUFFICIENT_TRAINABLE
+cart_checkout_payment,19,19,2.28,11,4,4,19,LIMITED_EXPERIMENTAL
+login_authentication,0,0,0.0,0,0,0,0,UNSUPPORTED_NO_DATA
+messaging_chat,0,0,0.0,0,0,0,0,UNSUPPORTED_NO_DATA
+email_view,0,0,0.0,0,0,0,0,UNSUPPORTED_NO_DATA
+media_player_library,0,0,0.0,0,0,0,0,UNSUPPORTED_NO_DATA
+code_editor_terminal,48,48,5.76,30,8,10,34,SUFFICIENT_TRAINABLE
+document_article_view,602,602,72.27,363,118,121,583,SUFFICIENT_TRAINABLE
+travel_booking,0,0,0.0,0,0,0,0,UNSUPPORTED_NO_DATA
+dashboard_settings,27,27,3.24,16,6,5,26,LIMITED_EXPERIMENTAL
+error_dialog_alert,0,0,0.0,0,0,0,0,UNSUPPORTED_NO_DATA
+other_screen,0,0,0.0,0,0,0,0,UNSUPPORTED_NO_DATA

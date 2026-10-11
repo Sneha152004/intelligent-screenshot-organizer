@@ -1,0 +1,69 @@
+{
+  "corrections_over_v1": 5,
+  "harms_over_v1": 1,
+  "net_improvement_over_v1": 4,
+  "impact_records": [
+    {
+      "screenshot_id": "ext2_032",
+      "file": "ext2_032.jpg",
+      "ground_truth": "Shopping",
+      "v1_prediction": "Shopping",
+      "v2_prediction": "Entertainment",
+      "status": "HARM",
+      "v2_rules_fired": [
+        "V2_Rule5_Shopping_Calib"
+      ]
+    },
+    {
+      "screenshot_id": "ext2_038",
+      "file": "ext2_038.jpg",
+      "ground_truth": "General",
+      "v1_prediction": "Shopping",
+      "v2_prediction": "General",
+      "status": "CORRECTION",
+      "v2_rules_fired": [
+        "V2_Rule5_Shopping_Calib"
+      ]
+    },
+    {
+      "screenshot_id": "ext2_042",
+      "file": "ext2_042.jpg",
+      "ground_truth": "General",
+      "v1_prediction": "Shopping",
+      "v2_prediction": "General",
+      "status": "CORRECTION",
+      "v2_rules_fired": []
+    },
+    {
+      "screenshot_id": "ext2_058",
+      "file": "ext2_058.jpg",
+      "ground_truth": "General",
+      "v1_prediction": "Shopping",
+      "v2_prediction": "General",
+      "status": "CORRECTION",
+      "v2_rules_fired": [
+        "V2_Rule5_Shopping_Calib"
+      ]
+    },
+    {
+      "screenshot_id": "ext2_066",
+      "file": "ext2_066.jpg",
+      "ground_truth": "General",
+      "v1_prediction": "Shopping",
+      "v2_prediction": "General",
+      "status": "CORRECTION",
+      "v2_rules_fired": [
+        "V2_Rule5_Shopping_Calib"
+      ]
+    },
+    {
+      "screenshot_id": "ext2_139",
+      "file": "ext2_139.jpg",
+      "ground_truth": "General",
+      "v1_prediction": "Travel",
+      "v2_prediction": "General",
+      "status": "CORRECTION",
+      "v2_rules_fired": []
+    }
+  ]
+}

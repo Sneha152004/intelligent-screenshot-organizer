@@ -1,0 +1,24 @@
+{
+  "experiment_name": "category_policy_v1",
+  "status": "FROZEN_AND_EVALUATED",
+  "timestamp": "2026-10-09T00:13:34+05:30",
+  "selection_dataset": "Internal Validation (lines 250-375, n=125)",
+  "selected_configuration": {
+    "ablation_id": "E",
+    "ablation_name": "E: + Confusion-Pair Tie-Breakers",
+    "w_policy": 0.15,
+    "use_pos_only": false,
+    "use_pos_neg": false,
+    "use_primary_obj": false,
+    "use_tiebreakers": true,
+    "classifier_weight": 0.55,
+    "minilm_weight": 0.25,
+    "ocr_weight": 0.2,
+    "visual_weight": 0.15,
+    "guardrail_enabled": true
+  },
+  "internal_validation_selection_metrics": {
+    "top1_accuracy": 0.936,
+    "mrr": 0.9586666666666667
+  }
+}

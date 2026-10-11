@@ -1,0 +1,342 @@
+{
+  "mobilenet_v3_small": {
+    "display_name": "MobileNetV3-Small",
+    "validation_samples": 25,
+    "fp32_metrics": {
+      "top1_accuracy": 0.48,
+      "top2_accuracy": 0.76,
+      "top3_accuracy": 0.88,
+      "macro_precision": 0.6267,
+      "macro_recall": 0.4844,
+      "macro_f1": 0.5018,
+      "weighted_f1": 0.4898,
+      "balanced_accuracy": 0.4844,
+      "ece": 0.3335,
+      "confusion_matrix": [
+        [
+          0,
+          1,
+          0,
+          0,
+          3
+        ],
+        [
+          1,
+          8,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          4,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "per_class": {
+        "document_article_view": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 4
+        },
+        "travel_booking": {
+          "precision": 0.8,
+          "recall": 0.8889,
+          "f1_score": 0.8421,
+          "support": 9
+        },
+        "dashboard_settings": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 1
+        },
+        "media_player_library": {
+          "precision": 1.0,
+          "recall": 0.2,
+          "f1_score": 0.3333,
+          "support": 5
+        },
+        "code_editor_terminal": {
+          "precision": 0.3333,
+          "recall": 0.3333,
+          "f1_score": 0.3333,
+          "support": 6
+        }
+      }
+    },
+    "verification_result": "EXACT_MATCH"
+  },
+  "efficientnet_lite0": {
+    "display_name": "EfficientNet-Lite0",
+    "validation_samples": 25,
+    "fp32_metrics": {
+      "top1_accuracy": 0.56,
+      "top2_accuracy": 0.84,
+      "top3_accuracy": 1.0,
+      "macro_precision": 0.3833,
+      "macro_recall": 0.41,
+      "macro_f1": 0.3892,
+      "weighted_f1": 0.5183,
+      "balanced_accuracy": 0.41,
+      "ece": 0.3488,
+      "confusion_matrix": [
+        [
+          1,
+          1,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          9,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          4,
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "per_class": {
+        "document_article_view": {
+          "precision": 0.1667,
+          "recall": 0.25,
+          "f1_score": 0.2,
+          "support": 4
+        },
+        "travel_booking": {
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1_score": 0.8571,
+          "support": 9
+        },
+        "dashboard_settings": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 1
+        },
+        "media_player_library": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1_score": 0.8889,
+          "support": 5
+        },
+        "code_editor_terminal": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 6
+        }
+      }
+    },
+    "verification_result": "EXACT_MATCH"
+  },
+  "mobilevit_xs": {
+    "display_name": "MobileViT-XS",
+    "validation_samples": 25,
+    "fp32_metrics": {
+      "top1_accuracy": 0.68,
+      "top2_accuracy": 0.68,
+      "top3_accuracy": 0.8,
+      "macro_precision": 0.4166,
+      "macro_recall": 0.5111,
+      "macro_f1": 0.4483,
+      "weighted_f1": 0.6054,
+      "balanced_accuracy": 0.5111,
+      "ece": 0.2143,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          8,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          4
+        ]
+      ],
+      "per_class": {
+        "document_article_view": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 4
+        },
+        "travel_booking": {
+          "precision": 0.7273,
+          "recall": 0.8889,
+          "f1_score": 0.8,
+          "support": 9
+        },
+        "dashboard_settings": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 1
+        },
+        "media_player_library": {
+          "precision": 0.5556,
+          "recall": 1.0,
+          "f1_score": 0.7143,
+          "support": 5
+        },
+        "code_editor_terminal": {
+          "precision": 0.8,
+          "recall": 0.6667,
+          "f1_score": 0.7273,
+          "support": 6
+        }
+      }
+    },
+    "verification_result": "EXACT_MATCH"
+  },
+  "yolo26n_cls": {
+    "display_name": "YOLO26n-cls (YOLOv8n-cls)",
+    "validation_samples": 25,
+    "fp32_metrics": {
+      "top1_accuracy": 0.72,
+      "top2_accuracy": 0.8,
+      "top3_accuracy": 0.88,
+      "macro_precision": 0.6386,
+      "macro_recall": 0.5533,
+      "macro_f1": 0.5686,
+      "weighted_f1": 0.6963,
+      "balanced_accuracy": 0.5533,
+      "ece": 0.3719,
+      "confusion_matrix": [
+        [
+          2,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          9,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          4
+        ]
+      ],
+      "per_class": {
+        "document_article_view": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1_score": 0.6667,
+          "support": 4
+        },
+        "travel_booking": {
+          "precision": 0.6429,
+          "recall": 1.0,
+          "f1_score": 0.7826,
+          "support": 9
+        },
+        "dashboard_settings": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 1
+        },
+        "media_player_library": {
+          "precision": 0.75,
+          "recall": 0.6,
+          "f1_score": 0.6667,
+          "support": 5
+        },
+        "code_editor_terminal": {
+          "precision": 0.8,
+          "recall": 0.6667,
+          "f1_score": 0.7273,
+          "support": 6
+        }
+      }
+    },
+    "verification_result": "EXACT_MATCH"
+  }
+}

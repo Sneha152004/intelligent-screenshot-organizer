@@ -1,0 +1,8 @@
+dataset,strategy,top1_acc,top3_acc,macro_f1,balanced_acc,mrr,pool_coverage,corrections,harms,net_improvement
+Internal Validation (n=125),Strategy A,0.944,0.944,0.9709,0.9821,0.944,1.0,0,0,0
+Internal Validation (n=125),Strategy B,0.936,0.944,0.9436,0.9405,0.954,1.0,0,1,-1
+Internal Validation (n=125),Strategy C,0.936,0.944,0.9436,0.9405,0.954,1.0,0,1,-1
+Internal Validation (n=125),Strategy D,0.936,0.944,0.9436,0.9405,0.954,1.0,0,1,-1
+Internal Validation (n=125),Strategy E,0.936,0.944,0.9436,0.9405,0.954,1.0,0,1,-1
+Internal Holdout Test (n=125),Strategy E (Frozen),0.992,1.0,0.9748,0.9942,0.996,1.0,0,0,0
+External V2 Frozen (n=244),Strategy E (Frozen),0.7131,0.8402,0.6586,0.7615,0.788,0.9262,3,2,1

@@ -1,0 +1,834 @@
+screenshot_id,filename,screen_type,original_semantic_category,phase7hc_proposed_screen_type,human_decision,reviewer,verification_date,duplicate_group_id,is_corrupted,review_status
+ss_001.jpg,ss_001.jpg,code_editor_terminal,Coding,code_editor_terminal,approve,human_annotator_phase7e,2026-10-02,DUPE_GROUP_002,False,verified
+ss_002.jpg,ss_002.jpg,code_editor_terminal,Coding,code_editor_terminal,approve,human_annotator_phase7e,2026-10-02,DUPE_GROUP_003,False,verified
+ss_003.jpg,ss_003.jpg,code_editor_terminal,Coding,code_editor_terminal,approve,human_annotator_phase7e,2026-10-02,DUPE_GROUP_004,False,verified
+ss_004.jpg,ss_004.jpg,code_editor_terminal,Coding,code_editor_terminal,approve,human_annotator_phase7e,2026-10-02,DUPE_GROUP_005,False,verified
+ss_005.jpg,ss_005.jpg,code_editor_terminal,Coding,code_editor_terminal,approve,human_annotator_phase7e,2026-10-02,DUPE_GROUP_006,False,verified
+ss_006.jpg,ss_006.jpg,document_article_view,Coding,document_article_view,pending,,,DUPE_GROUP_006,False,pending
+ss_007.jpg,ss_007.jpg,code_editor_terminal,Coding,code_editor_terminal,approve,human_annotator_phase7e,2026-10-02,DUPE_GROUP_007,False,verified
+ss_008.jpg,ss_008.jpg,product_detail,Coding,product_detail,pending,,,DUPE_GROUP_007,False,pending
+ss_009.jpg,ss_009.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,DUPE_GROUP_008,False,pending
+ss_010.jpg,ss_010.jpg,document_article_view,Coding,document_article_view,pending,,,DUPE_GROUP_009,False,pending
+ss_011.jpg,ss_011.jpg,document_article_view,Coding,document_article_view,pending,,,DUPE_GROUP_009,False,pending
+ss_012.jpg,ss_012.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,DUPE_GROUP_010,False,pending
+ss_013.jpg,ss_013.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,DUPE_GROUP_011,False,pending
+ss_014.jpg,ss_014.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,DUPE_GROUP_012,False,pending
+ss_015.jpg,ss_015.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,DUPE_GROUP_013,False,pending
+ss_016.jpg,ss_016.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,DUPE_GROUP_014,False,pending
+ss_017.jpg,ss_017.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,DUPE_GROUP_015,False,pending
+ss_018.jpg,ss_018.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,DUPE_GROUP_016,False,pending
+ss_019.jpg,ss_019.jpg,document_article_view,Coding,document_article_view,pending,,,DUPE_GROUP_016,False,pending
+ss_020.jpg,ss_020.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,DUPE_GROUP_017,False,pending
+ss_021.jpg,ss_021.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,DUPE_GROUP_017,False,pending
+ss_022.jpg,ss_022.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,DUPE_GROUP_018,False,pending
+ss_023.jpg,ss_023.jpg,document_article_view,Coding,document_article_view,pending,,,DUPE_GROUP_018,False,pending
+ss_024.jpg,ss_024.jpg,document_article_view,Coding,document_article_view,pending,,,DUPE_GROUP_018,False,pending
+ss_025.jpg,ss_025.jpg,document_article_view,Coding,document_article_view,pending,,,DUPE_GROUP_018,False,pending
+ss_026.jpg,ss_026.jpg,product_detail,Coding,product_detail,pending,,,DUPE_GROUP_019,False,pending
+ss_027.jpg,ss_027.jpg,document_article_view,Coding,document_article_view,pending,,,DUPE_GROUP_019,False,pending
+ss_028.jpg,ss_028.jpg,document_article_view,Coding,document_article_view,pending,,,DUPE_GROUP_019,False,pending
+ss_029.jpg,ss_029.jpg,document_article_view,Coding,document_article_view,pending,,,DUPE_GROUP_019,False,pending
+ss_030.jpg,ss_030.jpg,document_article_view,Coding,document_article_view,pending,,,DUPE_GROUP_019,False,pending
+ss_031.jpg,ss_031.jpg,document_article_view,Coding,document_article_view,pending,,,UNIQUE,False,pending
+ss_032.jpg,ss_032.jpg,document_article_view,Coding,document_article_view,pending,,,UNIQUE,False,pending
+ss_033.jpg,ss_033.jpg,document_article_view,Coding,document_article_view,pending,,,UNIQUE,False,pending
+ss_034.jpg,ss_034.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,UNIQUE,False,pending
+ss_035.jpg,ss_035.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,UNIQUE,False,pending
+ss_036.jpg,ss_036.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,UNIQUE,False,pending
+ss_037.jpg,ss_037.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,UNIQUE,False,pending
+ss_038.jpg,ss_038.jpg,document_article_view,Coding,document_article_view,pending,,,UNIQUE,False,pending
+ss_039.jpg,ss_039.jpg,document_article_view,Coding,document_article_view,pending,,,UNIQUE,False,pending
+ss_040.jpg,ss_040.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,UNIQUE,False,pending
+ss_041.jpg,ss_041.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,UNIQUE,False,pending
+ss_042.jpg,ss_042.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,UNIQUE,False,pending
+ss_043.jpg,ss_043.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,UNIQUE,False,pending
+ss_044.jpg,ss_044.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,UNIQUE,False,pending
+ss_045.jpg,ss_045.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,UNIQUE,False,pending
+ss_046.jpg,ss_046.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,UNIQUE,False,pending
+ss_047.jpg,ss_047.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,UNIQUE,False,pending
+ss_048.jpg,ss_048.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,UNIQUE,False,pending
+ss_049.jpg,ss_049.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,UNIQUE,False,pending
+ss_050.jpg,ss_050.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,UNIQUE,False,pending
+ss_051.jpg,ss_051.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,UNIQUE,False,pending
+ss_052.jpg,ss_052.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,UNIQUE,False,pending
+ss_053.jpg,ss_053.jpg,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_054.jpg,ss_054.jpg,document_article_view,Coding,document_article_view,pending,,,UNIQUE,False,pending
+ss_055.jpg,ss_055.jpg,document_article_view,Coding,document_article_view,pending,,,UNIQUE,False,pending
+ss_056.jpg,ss_056.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,UNIQUE,False,pending
+ss_057.jpg,ss_057.jpg,document_article_view,Coding,document_article_view,pending,,,UNIQUE,False,pending
+ss_058.jpg,ss_058.jpg,document_article_view,Coding,document_article_view,pending,,,UNIQUE,False,pending
+ss_059.jpg,ss_059.jpg,document_article_view,Coding,document_article_view,pending,,,UNIQUE,False,pending
+ss_060.jpg,ss_060.jpg,document_article_view,Coding,document_article_view,pending,,,UNIQUE,False,pending
+ss_061.jpg,ss_061.jpg,dashboard_settings,Connectivity,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_062.jpg,ss_062.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,UNIQUE,False,pending
+ss_063.jpg,ss_063.jpg,dashboard_settings,Connectivity,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_064.jpg,ss_064.jpg,dashboard_settings,Connectivity,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_065.jpg,ss_065.jpg,dashboard_settings,Connectivity,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_066.jpg,ss_066.jpg,dashboard_settings,Connectivity,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_067.jpg,ss_067.jpg,dashboard_settings,Connectivity,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_068.jpg,ss_068.jpg,dashboard_settings,Connectivity,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_069.jpg,ss_069.jpg,dashboard_settings,Connectivity,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_070.jpg,ss_070.jpg,code_editor_terminal,Coding,code_editor_terminal,pending,,,UNIQUE,False,pending
+ss_071.jpg,ss_071.jpg,dashboard_settings,Connectivity,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_072.jpg,ss_072.jpg,dashboard_settings,Connectivity,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_073.jpg,ss_073.jpg,dashboard_settings,Connectivity,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_074.jpg,ss_074.jpg,dashboard_settings,Connectivity,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_075.jpg,ss_075.jpg,dashboard_settings,Connectivity,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_076.jpg,ss_076.jpg,error_dialog_alert,Connectivity,error_dialog_alert,pending,,,UNIQUE,False,pending
+ss_077.jpg,ss_077.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_078.jpg,ss_078.jpg,dashboard_settings,Connectivity,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_079.jpg,ss_079.jpg,dashboard_settings,Connectivity,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_080.jpg,ss_080.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_081.jpg,ss_081.jpg,dashboard_settings,Connectivity,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_082.jpg,ss_082.jpg,dashboard_settings,Connectivity,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_083.jpg,ss_083.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_084.jpg,ss_084.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_085.jpg,ss_085.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_086.jpg,ss_086.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_087.jpg,ss_087.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_088.jpg,ss_088.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_089.jpg,ss_089.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_090.jpg,ss_090.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_091.jpg,ss_091.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_092.png,ss_092.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_093.jpg,ss_093.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_094.png,ss_094.png,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_095.jpg,ss_095.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_096.png,ss_096.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_097.jpg,ss_097.jpg,cart_checkout_payment,Payment,cart_checkout_payment,pending,,,UNIQUE,False,pending
+ss_098.png,ss_098.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_099.jpg,ss_099.jpg,cart_checkout_payment,Payment,cart_checkout_payment,pending,,,UNIQUE,False,pending
+ss_100.png,ss_100.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_101.jpg,ss_101.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_102.png,ss_102.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_103.jpg,ss_103.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_104.png,ss_104.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_105.jpg,ss_105.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_106.png,ss_106.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_107.jpg,ss_107.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_108.png,ss_108.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_109.jpg,ss_109.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_110.png,ss_110.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_111.jpg,ss_111.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_112.png,ss_112.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_113.jpg,ss_113.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_114.png,ss_114.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_115.jpg,ss_115.jpg,cart_checkout_payment,Payment,cart_checkout_payment,pending,,,UNIQUE,False,pending
+ss_116.png,ss_116.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_117.jpg,ss_117.jpg,cart_checkout_payment,Payment,cart_checkout_payment,pending,,,UNIQUE,False,pending
+ss_118.png,ss_118.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_119.jpg,ss_119.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_120.png,ss_120.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_121.jpg,ss_121.jpg,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_122.png,ss_122.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_123.jpg,ss_123.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_124.png,ss_124.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_125.jpg,ss_125.jpg,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_126.png,ss_126.png,cart_checkout_payment,Payment,cart_checkout_payment,pending,,,UNIQUE,False,pending
+ss_127.jpg,ss_127.jpg,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_128.png,ss_128.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_129.jpg,ss_129.jpg,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_130.png,ss_130.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_131.jpg,ss_131.jpg,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_132.png,ss_132.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_133.jpg,ss_133.jpg,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_134.png,ss_134.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_135.jpg,ss_135.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_136.png,ss_136.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_137.png,ss_137.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_138.png,ss_138.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_139.png,ss_139.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_140.png,ss_140.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_141.png,ss_141.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_142.png,ss_142.png,cart_checkout_payment,Payment,cart_checkout_payment,pending,,,UNIQUE,False,pending
+ss_143.png,ss_143.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_144.png,ss_144.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_145.png,ss_145.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_146.png,ss_146.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_147.png,ss_147.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_148.png,ss_148.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_149.png,ss_149.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_150.png,ss_150.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_151.png,ss_151.png,product_listing,Shopping,product_listing,pending,,,UNIQUE,False,pending
+ss_152.png,ss_152.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_153.png,ss_153.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_154.png,ss_154.png,product_listing,Shopping,product_listing,pending,,,UNIQUE,False,pending
+ss_155.jpg,ss_155.jpg,cart_checkout_payment,Payment,cart_checkout_payment,pending,,,UNIQUE,False,pending
+ss_156.jpg,ss_156.jpg,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_157.jpg,ss_157.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_158.jpg,ss_158.jpg,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_159.jpg,ss_159.jpg,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_160.jpg,ss_160.jpg,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_161.jpg,ss_161.jpg,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_162.jpg,ss_162.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_163.jpg,ss_163.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_164.jpg,ss_164.jpg,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_165.jpg,ss_165.jpg,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_166.jpg,ss_166.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_167.jpg,ss_167.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_168.jpg,ss_168.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_169.jpg,ss_169.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_170.jpg,ss_170.jpg,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_171.jpg,ss_171.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_172.jpg,ss_172.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_173.jpg,ss_173.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_174.png,ss_174.png,product_listing,Shopping,product_listing,pending,,,UNIQUE,False,pending
+ss_175.jpg,ss_175.jpg,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_176.png,ss_176.png,product_listing,Shopping,product_listing,pending,,,UNIQUE,False,pending
+ss_177.jpg,ss_177.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_178.png,ss_178.png,product_listing,Shopping,product_listing,pending,,,UNIQUE,False,pending
+ss_179.jpg,ss_179.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_180.png,ss_180.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_181.jpg,ss_181.jpg,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_182.png,ss_182.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_183.png,ss_183.png,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_184.png,ss_184.png,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_185.png,ss_185.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_186.png,ss_186.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_187.png,ss_187.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_188.png,ss_188.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_189.png,ss_189.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_190.png,ss_190.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_191.png,ss_191.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_192.png,ss_192.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_193.png,ss_193.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_194.png,ss_194.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_195.png,ss_195.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_196.png,ss_196.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_197.png,ss_197.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_198.png,ss_198.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_199.png,ss_199.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_200.png,ss_200.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_201.png,ss_201.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_202.png,ss_202.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_203.png,ss_203.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_204.png,ss_204.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_205.png,ss_205.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_206.png,ss_206.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_207.png,ss_207.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_208.png,ss_208.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_209.png,ss_209.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_210.png,ss_210.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_211.png,ss_211.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_212.png,ss_212.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_213.png,ss_213.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_214.png,ss_214.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_215.png,ss_215.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_216.png,ss_216.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_217.png,ss_217.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_218.png,ss_218.png,cart_checkout_payment,Payment,cart_checkout_payment,pending,,,UNIQUE,False,pending
+ss_219.jpg,ss_219.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_220.png,ss_220.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_221.jpg,ss_221.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_222.png,ss_222.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_223.jpg,ss_223.jpg,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_224.png,ss_224.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_225.jpg,ss_225.jpg,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_226.png,ss_226.png,media_player_library,Entertainment,media_player_library,pending,,,DUPE_GROUP_019,False,pending
+ss_227.jpg,ss_227.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_228.png,ss_228.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_229.jpg,ss_229.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_230.png,ss_230.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_231.jpg,ss_231.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_232.png,ss_232.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_233.jpg,ss_233.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_234.png,ss_234.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_235.jpg,ss_235.jpg,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_236.png,ss_236.png,media_player_library,Entertainment,media_player_library,pending,,,DUPE_GROUP_019,False,pending
+ss_237.jpg,ss_237.jpg,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_238.png,ss_238.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_239.jpg,ss_239.jpg,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_240.png,ss_240.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_241.jpg,ss_241.jpg,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_242.png,ss_242.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_243.jpg,ss_243.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_244.png,ss_244.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_245.jpg,ss_245.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_246.png,ss_246.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_247.jpg,ss_247.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_248.png,ss_248.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_249.jpg,ss_249.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_250.png,ss_250.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_251.jpg,ss_251.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_252.png,ss_252.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_253.jpg,ss_253.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_254.png,ss_254.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_255.jpg,ss_255.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_256.png,ss_256.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_257.jpg,ss_257.jpg,login_authentication,General,login_authentication,pending,,,UNIQUE,False,pending
+ss_258.png,ss_258.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_259.jpg,ss_259.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_260.png,ss_260.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_261.jpg,ss_261.jpg,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_262.png,ss_262.png,travel_booking,Travel,travel_booking,pending,,,DUPE_GROUP_019,False,pending
+ss_263.jpg,ss_263.jpg,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_264.png,ss_264.png,media_player_library,Entertainment,media_player_library,pending,,,DUPE_GROUP_019,False,pending
+ss_265.jpg,ss_265.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_266.png,ss_266.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_267.jpg,ss_267.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_268.png,ss_268.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_269.jpg,ss_269.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_270.png,ss_270.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_271.jpg,ss_271.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_272.png,ss_272.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_273.jpg,ss_273.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_274.png,ss_274.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_275.jpg,ss_275.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_276.png,ss_276.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_277.jpg,ss_277.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_278.png,ss_278.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_279.jpg,ss_279.jpg,cart_checkout_payment,Payment,cart_checkout_payment,pending,,,UNIQUE,False,pending
+ss_280.png,ss_280.png,document_article_view,Coding,document_article_view,pending,,,UNIQUE,False,pending
+ss_281.jpg,ss_281.jpg,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_282.png,ss_282.png,product_listing,Shopping,product_listing,pending,,,UNIQUE,False,pending
+ss_283.jpg,ss_283.jpg,document_article_view,General,document_article_view,pending,,,UNIQUE,False,pending
+ss_284.png,ss_284.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_285.jpg,ss_285.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_286.png,ss_286.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_287.jpg,ss_287.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_288.png,ss_288.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_289.jpg,ss_289.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_290.png,ss_290.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_291.jpg,ss_291.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_292.png,ss_292.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_293.jpg,ss_293.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_294.png,ss_294.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_295.jpg,ss_295.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_296.png,ss_296.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_297.jpg,ss_297.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_298.png,ss_298.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_299.jpg,ss_299.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_300.png,ss_300.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_301.jpg,ss_301.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_302.png,ss_302.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_303.jpg,ss_303.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_304.png,ss_304.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_305.jpg,ss_305.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_306.png,ss_306.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_307.jpg,ss_307.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_308.png,ss_308.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_309.jpg,ss_309.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_310.png,ss_310.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_311.jpg,ss_311.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_312.png,ss_312.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_313.jpg,ss_313.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_314.png,ss_314.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_315.jpg,ss_315.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_316.png,ss_316.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_317.png,ss_317.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_318.png,ss_318.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_319.png,ss_319.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_320.png,ss_320.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_321.png,ss_321.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_322.png,ss_322.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_323.png,ss_323.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_324.png,ss_324.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_325.png,ss_325.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_326.png,ss_326.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_327.png,ss_327.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_328.png,ss_328.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_329.png,ss_329.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_330.png,ss_330.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_331.png,ss_331.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_332.png,ss_332.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_333.png,ss_333.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_334.png,ss_334.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_335.png,ss_335.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_336.png,ss_336.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_337.png,ss_337.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_338.png,ss_338.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_339.png,ss_339.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_340.png,ss_340.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_341.png,ss_341.png,cart_checkout_payment,Payment,cart_checkout_payment,pending,,,UNIQUE,False,pending
+ss_342.png,ss_342.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_343.png,ss_343.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_344.png,ss_344.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_345.png,ss_345.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_346.png,ss_346.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_347.png,ss_347.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_348.png,ss_348.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_349.png,ss_349.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_350.png,ss_350.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_351.png,ss_351.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_352.png,ss_352.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_353.png,ss_353.png,cart_checkout_payment,Payment,cart_checkout_payment,pending,,,UNIQUE,False,pending
+ss_354.png,ss_354.png,cart_checkout_payment,Payment,cart_checkout_payment,pending,,,UNIQUE,False,pending
+ss_355.png,ss_355.png,cart_checkout_payment,Payment,cart_checkout_payment,pending,,,UNIQUE,False,pending
+ss_356.png,ss_356.png,cart_checkout_payment,Payment,cart_checkout_payment,pending,,,UNIQUE,False,pending
+ss_357.png,ss_357.png,cart_checkout_payment,Payment,cart_checkout_payment,pending,,,UNIQUE,False,pending
+ss_358.jpg,ss_358.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_359.png,ss_359.png,messaging_chat,Communication,messaging_chat,pending,,,UNIQUE,False,pending
+ss_360.png,ss_360.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_361.jpg,ss_361.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_362.png,ss_362.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_363.png,ss_363.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_364.jpg,ss_364.jpg,cart_checkout_payment,Payment,cart_checkout_payment,pending,,,UNIQUE,False,pending
+ss_365.png,ss_365.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_366.png,ss_366.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_367.jpg,ss_367.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_368.png,ss_368.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_369.png,ss_369.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_370.jpg,ss_370.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_371.png,ss_371.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_372.png,ss_372.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_373.jpg,ss_373.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_374.png,ss_374.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_375.png,ss_375.png,travel_booking,Travel,travel_booking,pending,,,DUPE_GROUP_019,False,pending
+ss_376.jpg,ss_376.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_377.png,ss_377.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_378.png,ss_378.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_379.jpg,ss_379.jpg,cart_checkout_payment,Payment,cart_checkout_payment,pending,,,UNIQUE,False,pending
+ss_380.png,ss_380.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_381.png,ss_381.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_382.jpg,ss_382.jpg,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_383.png,ss_383.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_384.png,ss_384.png,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_385.jpg,ss_385.jpg,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_386.png,ss_386.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_387.png,ss_387.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_388.jpg,ss_388.jpg,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_389.png,ss_389.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_390.png,ss_390.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_391.jpg,ss_391.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_392.png,ss_392.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_393.png,ss_393.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_394.jpg,ss_394.jpg,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_395.png,ss_395.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_396.png,ss_396.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_397.jpg,ss_397.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_398.png,ss_398.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_399.png,ss_399.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_400.jpg,ss_400.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_401.png,ss_401.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_402.png,ss_402.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_403.jpg,ss_403.jpg,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_404.png,ss_404.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_405.png,ss_405.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_406.jpg,ss_406.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_407.png,ss_407.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_408.png,ss_408.png,travel_booking,Travel,travel_booking,pending,,,DUPE_GROUP_019,False,pending
+ss_409.jpg,ss_409.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_410.png,ss_410.png,travel_booking,Travel,travel_booking,pending,,,DUPE_GROUP_019,False,pending
+ss_411.png,ss_411.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_412.jpg,ss_412.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_413.png,ss_413.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_414.png,ss_414.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_415.jpg,ss_415.jpg,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_416.png,ss_416.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_417.png,ss_417.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_418.jpg,ss_418.jpg,document_article_view,General,document_article_view,pending,,,UNIQUE,False,pending
+ss_419.png,ss_419.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_420.png,ss_420.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_421.jpg,ss_421.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_422.png,ss_422.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_423.png,ss_423.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_424.jpg,ss_424.jpg,document_article_view,General,document_article_view,pending,,,UNIQUE,False,pending
+ss_425.png,ss_425.png,media_player_library,Entertainment,media_player_library,pending,,,DUPE_GROUP_019,False,pending
+ss_426.png,ss_426.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_427.jpg,ss_427.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_428.png,ss_428.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_429.png,ss_429.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_430.jpg,ss_430.jpg,dashboard_settings,Connectivity,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_431.png,ss_431.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_432.png,ss_432.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_433.jpg,ss_433.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_434.png,ss_434.png,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_435.png,ss_435.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_436.jpg,ss_436.jpg,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_437.png,ss_437.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_438.png,ss_438.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_439.jpg,ss_439.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_440.png,ss_440.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_442.jpg,ss_442.jpg,document_article_view,General,document_article_view,pending,,,UNIQUE,False,pending
+ss_444.png,ss_444.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_445.jpg,ss_445.jpg,dashboard_settings,General,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_446.png,ss_446.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_447.png,ss_447.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_448.jpg,ss_448.jpg,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_449.png,ss_449.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_450.png,ss_450.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_451.jpg,ss_451.jpg,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_452.png,ss_452.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_453.png,ss_453.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_454.jpg,ss_454.jpg,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_455.png,ss_455.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_456.png,ss_456.png,product_listing,Shopping,product_listing,pending,,,UNIQUE,False,pending
+ss_457.jpg,ss_457.jpg,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_458.png,ss_458.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_459.png,ss_459.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_460.jpg,ss_460.jpg,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_461.png,ss_461.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_462.png,ss_462.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_463.jpg,ss_463.jpg,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_464.png,ss_464.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_465.png,ss_465.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_466.jpg,ss_466.jpg,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_467.png,ss_467.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_468.png,ss_468.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_469.jpg,ss_469.jpg,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_470.png,ss_470.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_471.png,ss_471.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_472.jpg,ss_472.jpg,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_473.png,ss_473.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_474.png,ss_474.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_475.jpg,ss_475.jpg,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_476.png,ss_476.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_477.png,ss_477.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_478.jpg,ss_478.jpg,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_479.png,ss_479.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_480.png,ss_480.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_481.png,ss_481.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_482.png,ss_482.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_483.png,ss_483.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_484.png,ss_484.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_485.png,ss_485.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_486.png,ss_486.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_487.png,ss_487.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_488.png,ss_488.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_489.png,ss_489.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_490.png,ss_490.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_491.png,ss_491.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_492.png,ss_492.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_493.png,ss_493.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_494.png,ss_494.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_495.png,ss_495.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_496.png,ss_496.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_497.png,ss_497.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_498.png,ss_498.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_499.png,ss_499.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_500.png,ss_500.png,product_listing,Shopping,product_listing,pending,,,UNIQUE,False,pending
+ss_501.png,ss_501.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_502.png,ss_502.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_503.png,ss_503.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_504.png,ss_504.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_505.png,ss_505.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_506.png,ss_506.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_507.png,ss_507.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_508.png,ss_508.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_509.png,ss_509.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_510.png,ss_510.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_511.png,ss_511.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_512.png,ss_512.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_513.png,ss_513.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_514.png,ss_514.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_515.png,ss_515.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_516.png,ss_516.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_517.png,ss_517.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_518.png,ss_518.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_519.png,ss_519.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_520.png,ss_520.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_521.png,ss_521.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_522.png,ss_522.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_523.png,ss_523.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_524.png,ss_524.png,product_detail,Shopping,product_detail,pending,,,DUPE_GROUP_019,False,pending
+ss_525.png,ss_525.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_526.png,ss_526.png,product_detail,Shopping,product_detail,pending,,,DUPE_GROUP_019,False,pending
+ss_527.png,ss_527.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_528.png,ss_528.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_529.png,ss_529.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_530.png,ss_530.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_531.png,ss_531.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_532.png,ss_532.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_533.png,ss_533.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_534.png,ss_534.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_535.png,ss_535.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_536.png,ss_536.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_537.png,ss_537.png,product_detail,Shopping,product_detail,pending,,,UNIQUE,False,pending
+ss_538.png,ss_538.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_539.png,ss_539.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_540.png,ss_540.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_541.png,ss_541.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_542.png,ss_542.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_543.png,ss_543.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_544.png,ss_544.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_545.png,ss_545.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_546.png,ss_546.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_547.png,ss_547.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_548.png,ss_548.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_549.png,ss_549.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_550.png,ss_550.png,document_article_view,Travel,document_article_view,pending,,,UNIQUE,False,pending
+ss_551.png,ss_551.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_552.png,ss_552.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_553.png,ss_553.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_554.png,ss_554.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_555.png,ss_555.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_556.png,ss_556.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_557.png,ss_557.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_558.png,ss_558.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_559.png,ss_559.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_561.png,ss_561.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_562.png,ss_562.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_563.png,ss_563.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_564.png,ss_564.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_565.png,ss_565.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_566.png,ss_566.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_567.png,ss_567.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_568.png,ss_568.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_569.png,ss_569.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_570.png,ss_570.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_571.png,ss_571.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_572.png,ss_572.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_573.png,ss_573.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_574.png,ss_574.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_575.png,ss_575.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_576.png,ss_576.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_577.png,ss_577.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_578.png,ss_578.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_579.png,ss_579.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_580.png,ss_580.png,document_article_view,Work and career,document_article_view,pending,,,DUPE_GROUP_019,False,pending
+ss_581.png,ss_581.png,document_article_view,Work and career,document_article_view,pending,,,DUPE_GROUP_019,False,pending
+ss_582.png,ss_582.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_583.png,ss_583.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_584.png,ss_584.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_585.png,ss_585.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_586.png,ss_586.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_587.png,ss_587.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_588.png,ss_588.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_589.png,ss_589.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_590.png,ss_590.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_591.png,ss_591.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_592.png,ss_592.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_593.png,ss_593.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_594.png,ss_594.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_595.png,ss_595.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_596.png,ss_596.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_597.png,ss_597.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_598.png,ss_598.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_599.png,ss_599.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_600.png,ss_600.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_601.png,ss_601.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_602.png,ss_602.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_603.png,ss_603.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_604.png,ss_604.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_605.png,ss_605.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_606.png,ss_606.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_607.png,ss_607.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_608.png,ss_608.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_609.png,ss_609.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_610.png,ss_610.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_611.png,ss_611.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_612.png,ss_612.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_613.png,ss_613.png,document_article_view,Work and career,document_article_view,pending,,,UNIQUE,False,pending
+ss_614.png,ss_614.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_615.png,ss_615.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_616.png,ss_616.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_617.png,ss_617.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_618.png,ss_618.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_619.png,ss_619.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_620.png,ss_620.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_621.png,ss_621.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_622.png,ss_622.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_623.png,ss_623.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_624.png,ss_624.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_625.png,ss_625.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_626.png,ss_626.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_627.png,ss_627.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_628.png,ss_628.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_629.png,ss_629.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_630.png,ss_630.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_631.png,ss_631.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_632.png,ss_632.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_633.png,ss_633.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_634.png,ss_634.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_635.png,ss_635.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_636.png,ss_636.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_637.png,ss_637.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_638.png,ss_638.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_639.png,ss_639.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_640.png,ss_640.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_641.png,ss_641.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_642.png,ss_642.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_643.png,ss_643.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_644.png,ss_644.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_645.png,ss_645.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_646.png,ss_646.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_647.png,ss_647.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_648.png,ss_648.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_649.png,ss_649.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_650.png,ss_650.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_651.png,ss_651.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_652.png,ss_652.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_653.png,ss_653.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_654.png,ss_654.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_655.png,ss_655.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_656.png,ss_656.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_657.png,ss_657.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_658.png,ss_658.png,document_article_view,Education,document_article_view,pending,,,UNIQUE,False,pending
+ss_659.png,ss_659.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_660.png,ss_660.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_661.png,ss_661.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_662.png,ss_662.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_663.png,ss_663.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_664.png,ss_664.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_665.png,ss_665.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_666.png,ss_666.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_667.png,ss_667.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_668.png,ss_668.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_669.png,ss_669.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_670.png,ss_670.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_671.png,ss_671.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_672.png,ss_672.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_673.png,ss_673.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_674.png,ss_674.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_675.png,ss_675.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_676.png,ss_676.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_677.png,ss_677.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_678.png,ss_678.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_679.png,ss_679.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_680.png,ss_680.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_681.png,ss_681.png,travel_booking,Travel,travel_booking,pending,,,DUPE_GROUP_019,False,pending
+ss_682.png,ss_682.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_683.png,ss_683.png,travel_booking,Travel,travel_booking,pending,,,DUPE_GROUP_019,False,pending
+ss_684.png,ss_684.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_685.png,ss_685.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_686.png,ss_686.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_687.png,ss_687.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_688.png,ss_688.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_689.png,ss_689.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_690.png,ss_690.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_691.png,ss_691.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_692.png,ss_692.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_693.png,ss_693.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_694.png,ss_694.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_695.png,ss_695.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_696.png,ss_696.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_697.png,ss_697.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_698.png,ss_698.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_699.png,ss_699.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_700.png,ss_700.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_701.png,ss_701.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_702.png,ss_702.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_703.png,ss_703.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_704.png,ss_704.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_705.png,ss_705.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_706.png,ss_706.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_707.png,ss_707.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_708.png,ss_708.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_709.png,ss_709.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_710.png,ss_710.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_711.png,ss_711.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_712.png,ss_712.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_713.png,ss_713.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_714.png,ss_714.png,travel_booking,Travel,travel_booking,pending,,,UNIQUE,False,pending
+ss_715.png,ss_715.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_716.png,ss_716.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_717.png,ss_717.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_718.png,ss_718.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_719.png,ss_719.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_720.png,ss_720.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_721.png,ss_721.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_722.png,ss_722.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_723.png,ss_723.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_724.png,ss_724.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_725.png,ss_725.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_726.png,ss_726.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_727.png,ss_727.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_728.png,ss_728.png,document_article_view,Communication,document_article_view,pending,,,DUPE_GROUP_019,False,pending
+ss_729.png,ss_729.png,document_article_view,Communication,document_article_view,pending,,,DUPE_GROUP_019,False,pending
+ss_730.png,ss_730.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_731.png,ss_731.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_732.png,ss_732.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_733.png,ss_733.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_734.png,ss_734.png,messaging_chat,Communication,messaging_chat,pending,,,UNIQUE,False,pending
+ss_735.png,ss_735.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_736.png,ss_736.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_737.png,ss_737.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_738.png,ss_738.png,messaging_chat,Communication,messaging_chat,pending,,,UNIQUE,False,pending
+ss_739.png,ss_739.png,messaging_chat,Communication,messaging_chat,pending,,,UNIQUE,False,pending
+ss_740.png,ss_740.png,messaging_chat,Communication,messaging_chat,pending,,,UNIQUE,False,pending
+ss_741.png,ss_741.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_742.png,ss_742.png,messaging_chat,Communication,messaging_chat,pending,,,UNIQUE,False,pending
+ss_743.png,ss_743.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_744.png,ss_744.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_745.png,ss_745.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_746.png,ss_746.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_747.png,ss_747.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_748.png,ss_748.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_749.png,ss_749.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_750.png,ss_750.png,messaging_chat,Communication,messaging_chat,pending,,,UNIQUE,False,pending
+ss_751.png,ss_751.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_752.png,ss_752.png,messaging_chat,Communication,messaging_chat,pending,,,UNIQUE,False,pending
+ss_753.png,ss_753.png,messaging_chat,Communication,messaging_chat,pending,,,UNIQUE,False,pending
+ss_754.png,ss_754.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_755.png,ss_755.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_756.png,ss_756.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_757.png,ss_757.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_758.png,ss_758.png,messaging_chat,Communication,messaging_chat,pending,,,UNIQUE,False,pending
+ss_759.png,ss_759.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_760.png,ss_760.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_761.png,ss_761.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_762.png,ss_762.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_763.png,ss_763.png,document_article_view,Communication,document_article_view,pending,,,DUPE_GROUP_019,False,pending
+ss_764.png,ss_764.png,document_article_view,Communication,document_article_view,pending,,,DUPE_GROUP_019,False,pending
+ss_765.png,ss_765.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_766.png,ss_766.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_767.png,ss_767.png,messaging_chat,Communication,messaging_chat,pending,,,UNIQUE,False,pending
+ss_768.png,ss_768.png,cart_checkout_payment,Payment,cart_checkout_payment,pending,,,UNIQUE,False,pending
+ss_769.png,ss_769.png,messaging_chat,Communication,messaging_chat,pending,,,UNIQUE,False,pending
+ss_770.png,ss_770.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_771.png,ss_771.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_772.png,ss_772.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_773.png,ss_773.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_774.png,ss_774.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_775.png,ss_775.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_776.png,ss_776.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_777.png,ss_777.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_778.png,ss_778.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_779.png,ss_779.png,cart_checkout_payment,Payment,cart_checkout_payment,pending,,,UNIQUE,False,pending
+ss_780.png,ss_780.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_781.png,ss_781.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_782.png,ss_782.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_783.png,ss_783.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_784.png,ss_784.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_785.png,ss_785.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_786.png,ss_786.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_787.png,ss_787.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_788.png,ss_788.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_789.png,ss_789.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_790.png,ss_790.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_791.png,ss_791.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_792.png,ss_792.png,messaging_chat,Communication,messaging_chat,pending,,,UNIQUE,False,pending
+ss_793.png,ss_793.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_794.png,ss_794.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_795.png,ss_795.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_796.png,ss_796.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_797.png,ss_797.png,document_article_view,Communication,document_article_view,pending,,,UNIQUE,False,pending
+ss_798.png,ss_798.png,media_player_library,Entertainment,media_player_library,pending,,,UNIQUE,False,pending
+ss_799.jpg,ss_799.jpg,code_editor_terminal,Connectivity,code_editor_terminal,approve,human_annotator_phase7e,2026-10-02,DUPE_GROUP_002,False,verified
+ss_800.jpg,ss_800.jpg,code_editor_terminal,Payment,code_editor_terminal,approve,human_annotator_phase7e,2026-10-02,DUPE_GROUP_003,False,verified
+ss_801.jpg,ss_801.jpg,code_editor_terminal,Education,code_editor_terminal,approve,human_annotator_phase7e,2026-10-02,DUPE_GROUP_004,False,verified
+ss_802.jpg,ss_802.jpg,code_editor_terminal,Entertainment,code_editor_terminal,approve,human_annotator_phase7e,2026-10-02,DUPE_GROUP_005,False,verified
+ss_803.jpg,ss_803.jpg,code_editor_terminal,Payment,code_editor_terminal,approve,human_annotator_phase7e,2026-10-02,DUPE_GROUP_006,False,verified
+ss_804.jpg,ss_804.jpg,document_article_view,Education,document_article_view,pending,,,DUPE_GROUP_006,False,pending
+ss_805.jpg,ss_805.jpg,code_editor_terminal,Education,code_editor_terminal,approve,human_annotator_phase7e,2026-10-02,DUPE_GROUP_007,False,verified
+ss_806.jpg,ss_806.jpg,product_detail,Shopping,product_detail,pending,,,DUPE_GROUP_007,False,pending
+ss_807.jpg,ss_807.jpg,media_player_library,Entertainment,media_player_library,pending,,,DUPE_GROUP_008,False,pending
+ss_808.jpg,ss_808.jpg,product_detail,Shopping,product_detail,pending,,,DUPE_GROUP_009,False,pending
+ss_809.jpg,ss_809.jpg,travel_booking,Travel,travel_booking,pending,,,DUPE_GROUP_009,False,pending
+ss_810.jpg,ss_810.jpg,code_editor_terminal,Education,code_editor_terminal,pending,,,DUPE_GROUP_010,False,pending
+ss_811.jpg,ss_811.jpg,cart_checkout_payment,Payment,cart_checkout_payment,pending,,,DUPE_GROUP_011,False,pending
+ss_812.jpg,ss_812.jpg,travel_booking,Travel,travel_booking,pending,,,DUPE_GROUP_012,False,pending
+ss_813.jpg,ss_813.jpg,cart_checkout_payment,Payment,cart_checkout_payment,pending,,,DUPE_GROUP_013,False,pending
+ss_814.jpg,ss_814.jpg,travel_booking,Travel,travel_booking,pending,,,DUPE_GROUP_014,False,pending
+ss_815.jpg,ss_815.jpg,cart_checkout_payment,Payment,cart_checkout_payment,pending,,,DUPE_GROUP_015,False,pending
+ss_816.jpg,ss_816.jpg,code_editor_terminal,Education,code_editor_terminal,pending,,,DUPE_GROUP_016,False,pending
+ss_817.jpg,ss_817.jpg,travel_booking,Travel,travel_booking,pending,,,DUPE_GROUP_016,False,pending
+ss_818.jpg,ss_818.jpg,product_detail,Shopping,product_detail,pending,,,DUPE_GROUP_017,False,pending
+ss_819.jpg,ss_819.jpg,dashboard_settings,General,dashboard_settings,pending,,,DUPE_GROUP_017,False,pending
+ss_820.jpg,ss_820.jpg,product_detail,Shopping,product_detail,pending,,,DUPE_GROUP_018,False,pending
+ss_821.jpg,ss_821.jpg,document_article_view,Education,document_article_view,pending,,,DUPE_GROUP_018,False,pending
+ss_822.jpg,ss_822.jpg,document_article_view,Education,document_article_view,pending,,,DUPE_GROUP_018,False,pending
+ss_823.jpg,ss_823.jpg,media_player_library,Entertainment,media_player_library,pending,,,DUPE_GROUP_018,False,pending
+ss_824.jpg,ss_824.jpg,cart_checkout_payment,Payment,cart_checkout_payment,pending,,,DUPE_GROUP_019,False,pending
+ss_825.jpg,ss_825.jpg,document_article_view,Education,document_article_view,pending,,,DUPE_GROUP_019,False,pending
+ss_826.jpg,ss_826.jpg,document_article_view,Coding,document_article_view,pending,,,DUPE_GROUP_019,False,pending
+ss_827.jpg,ss_827.jpg,document_article_view,Coding,document_article_view,pending,,,DUPE_GROUP_019,False,pending
+ss_828.jpg,ss_828.jpg,document_article_view,Work and career,document_article_view,pending,,,DUPE_GROUP_019,False,pending
+ss_829.jpg,ss_829.jpg,dashboard_settings,Connectivity,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_830.jpg,ss_830.jpg,dashboard_settings,Connectivity,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_831.jpg,ss_831.jpg,error_dialog_alert,Connectivity,error_dialog_alert,pending,,,UNIQUE,False,pending
+ss_832.jpg,ss_832.jpg,dashboard_settings,Connectivity,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_833.jpg,ss_833.jpg,error_dialog_alert,Connectivity,error_dialog_alert,pending,,,UNIQUE,False,pending
+ss_834.jpg,ss_834.jpg,dashboard_settings,Connectivity,dashboard_settings,pending,,,UNIQUE,False,pending
+ss_835.jpg,ss_835.jpg,error_dialog_alert,Connectivity,error_dialog_alert,pending,,,UNIQUE,False,pending
+ss_836.jpg,ss_836.jpg,error_dialog_alert,Connectivity,error_dialog_alert,pending,,,UNIQUE,False,pending

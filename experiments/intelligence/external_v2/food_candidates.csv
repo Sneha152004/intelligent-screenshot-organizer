@@ -1,0 +1,39 @@
+id,filename,current_ground_truth,food_evidence,why_better_primary
+ext2_007,ext2_007.jpg,Education,Contains food/dining keywords: food,"Secondary food keywords, primary intent is Education"
+ext2_020,ext2_020.jpg,General,Contains food/dining keywords: menu,Primary intent is food/dining context (Food)
+ext2_038,ext2_038.jpg,General,Contains food/dining keywords: menu,Primary intent is food/dining context (Food)
+ext2_043,ext2_043.jpg,Shopping,Contains food/dining keywords: delivery,"Secondary food keywords, primary intent is Shopping"
+ext2_046,ext2_046.jpg,Shopping,Contains food/dining keywords: menu,Primary intent is food/dining context (Food)
+ext2_047,ext2_047.jpg,Shopping,Contains food/dining keywords: menu,Primary intent is food/dining context (Food)
+ext2_048,ext2_048.jpg,Shopping,Contains food/dining keywords: menu,Primary intent is food/dining context (Food)
+ext2_049,ext2_049.jpg,General,Contains food/dining keywords: menu,Primary intent is food/dining context (Food)
+ext2_051,ext2_051.jpg,General,Contains food/dining keywords: menu,Primary intent is food/dining context (Food)
+ext2_052,ext2_052.jpg,Shopping,Contains food/dining keywords: delivery,"Secondary food keywords, primary intent is Shopping"
+ext2_057,ext2_057.jpg,General,Contains food/dining keywords: menu,Primary intent is food/dining context (Food)
+ext2_058,ext2_058.jpg,General,Contains food/dining keywords: menu,Primary intent is food/dining context (Food)
+ext2_066,ext2_066.jpg,General,Contains food/dining keywords: menu,Primary intent is food/dining context (Food)
+ext2_075,ext2_075.jpg,General,Contains food/dining keywords: menu,Primary intent is food/dining context (Food)
+ext2_076,ext2_076.jpg,General,Contains food/dining keywords: menu,Primary intent is food/dining context (Food)
+ext2_077,ext2_077.jpg,Shopping,Contains food/dining keywords: delivery,"Secondary food keywords, primary intent is Shopping"
+ext2_118,ext2_118.jpg,Education,Contains food/dining keywords: menu,Primary intent is food/dining context (Food)
+ext2_126,ext2_126.jpg,Education,Contains food/dining keywords: dish,Primary intent is food/dining context (Food)
+ext2_127,ext2_127.jpg,Education,Contains food/dining keywords: dish,Primary intent is food/dining context (Food)
+ext2_128,ext2_128.jpg,Education,Contains food/dining keywords: dish,Primary intent is food/dining context (Food)
+ext2_130,ext2_130.jpg,Communication,Contains food/dining keywords: dish,Primary intent is food/dining context (Food)
+ext2_131,ext2_131.jpg,Education,Contains food/dining keywords: dish,Primary intent is food/dining context (Food)
+ext2_152,ext2_152.jpg,Communication,Contains food/dining keywords: dish,Primary intent is food/dining context (Food)
+ext2_155,ext2_155.jpg,Travel,"Contains food/dining keywords: food, menu",Primary intent is food/dining context (Food)
+ext2_178,ext2_178.jpg,General,Contains food/dining keywords: food,"Secondary food keywords, primary intent is General"
+ext2_181,ext2_181.jpg,General,Contains food/dining keywords: kitchen,"Secondary food keywords, primary intent is General"
+ext2_184,ext2_184.jpg,Entertainment,Contains food/dining keywords: dish,Primary intent is food/dining context (Food)
+ext2_185,ext2_185.jpg,Entertainment,Contains food/dining keywords: dish,Primary intent is food/dining context (Food)
+ext2_186,ext2_186.jpg,Entertainment,Contains food/dining keywords: dish,Primary intent is food/dining context (Food)
+ext2_198,ext2_198.jpg,General,Contains food/dining keywords: cafe,"Secondary food keywords, primary intent is General"
+ext2_204,ext2_204.jpg,General,"Contains food/dining keywords: food, menu, cafe",Primary intent is food/dining context (Food)
+ext2_205,ext2_205.jpg,Shopping,"Contains food/dining keywords: food, ordering, kitchen, food ordering, kitiskitchen",Primary intent is food/dining context (Food)
+ext2_208,ext2_208.jpg,Education,Contains food/dining keywords: dish,Primary intent is food/dining context (Food)
+ext2_212,ext2_212.jpg,General,"Contains food/dining keywords: menu, kitchen",Primary intent is food/dining context (Food)
+ext2_218,ext2_218.jpg,General,Contains food/dining keywords: meal,Primary intent is food/dining context (Food)
+ext2_219,ext2_219.jpg,Shopping,"Contains food/dining keywords: ayethic, dinosaurs to order","Secondary food keywords, primary intent is Shopping"
+ext2_221,ext2_221.jpg,Shopping,Contains food/dining keywords: ayethic,"Secondary food keywords, primary intent is Shopping"
+ext2_231,ext2_231.jpg,Shopping,Contains food/dining keywords: dish,Primary intent is food/dining context (Food)

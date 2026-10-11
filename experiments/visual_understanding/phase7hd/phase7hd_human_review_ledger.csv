@@ -1,0 +1,837 @@
+screenshot_id,original_semantic_category,phase7hc_proposed_screen_type,human_verified_screen_type,human_decision,reviewer,review_notes,verification_date,duplicate_group_id
+ss_001.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator_phase7e,Preserved human-verified decision from Phase 7E harmonization.,2026-10-02,DUPE_GROUP_002
+ss_002.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator_phase7e,Preserved human-verified decision from Phase 7E harmonization.,2026-10-02,DUPE_GROUP_003
+ss_003.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator_phase7e,Preserved human-verified decision from Phase 7E harmonization.,2026-10-02,DUPE_GROUP_004
+ss_004.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator_phase7e,Preserved human-verified decision from Phase 7E harmonization.,2026-10-02,DUPE_GROUP_005
+ss_005.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator_phase7e,Preserved human-verified decision from Phase 7E harmonization.,2026-10-02,DUPE_GROUP_006
+ss_006.jpg,Coding,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_006
+ss_007.jpg,Coding,code_editor_terminal,code_editor_terminal,approve,human_annotator_phase7e,Preserved human-verified decision from Phase 7E harmonization.,2026-10-02,DUPE_GROUP_007
+ss_008.jpg,Coding,product_detail,,pending,,Pending human review.,,DUPE_GROUP_007
+ss_009.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,DUPE_GROUP_008
+ss_010.jpg,Coding,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_009
+ss_011.jpg,Coding,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_009
+ss_012.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,DUPE_GROUP_010
+ss_013.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,DUPE_GROUP_011
+ss_014.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,DUPE_GROUP_012
+ss_015.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,DUPE_GROUP_013
+ss_016.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,DUPE_GROUP_014
+ss_017.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,DUPE_GROUP_015
+ss_018.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,DUPE_GROUP_016
+ss_019.jpg,Coding,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_016
+ss_020.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,DUPE_GROUP_017
+ss_021.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,DUPE_GROUP_017
+ss_022.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,DUPE_GROUP_018
+ss_023.jpg,Coding,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_018
+ss_024.jpg,Coding,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_018
+ss_025.jpg,Coding,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_018
+ss_026.jpg,Coding,product_detail,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_027.jpg,Coding,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_028.jpg,Coding,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_029.jpg,Coding,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_030.jpg,Coding,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_031.jpg,Coding,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_032.jpg,Coding,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_033.jpg,Coding,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_034.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,UNIQUE
+ss_035.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,UNIQUE
+ss_036.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,UNIQUE
+ss_037.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,UNIQUE
+ss_038.jpg,Coding,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_039.jpg,Coding,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_040.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,UNIQUE
+ss_041.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,UNIQUE
+ss_042.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,UNIQUE
+ss_043.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,UNIQUE
+ss_044.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,UNIQUE
+ss_045.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,UNIQUE
+ss_046.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,UNIQUE
+ss_047.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,UNIQUE
+ss_048.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,UNIQUE
+ss_049.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,UNIQUE
+ss_050.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,UNIQUE
+ss_051.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,UNIQUE
+ss_052.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,UNIQUE
+ss_053.jpg,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_054.jpg,Coding,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_055.jpg,Coding,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_056.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,UNIQUE
+ss_057.jpg,Coding,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_058.jpg,Coding,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_059.jpg,Coding,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_060.jpg,Coding,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_061.jpg,Connectivity,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_062.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,UNIQUE
+ss_063.jpg,Connectivity,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_064.jpg,Connectivity,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_065.jpg,Connectivity,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_066.jpg,Connectivity,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_067.jpg,Connectivity,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_068.jpg,Connectivity,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_069.jpg,Connectivity,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_070.jpg,Coding,code_editor_terminal,,pending,,Pending human review.,,UNIQUE
+ss_071.jpg,Connectivity,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_072.jpg,Connectivity,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_073.jpg,Connectivity,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_074.jpg,Connectivity,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_075.jpg,Connectivity,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_076.jpg,Connectivity,error_dialog_alert,,pending,,Pending human review.,,UNIQUE
+ss_077.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_078.jpg,Connectivity,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_079.jpg,Connectivity,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_080.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_081.jpg,Connectivity,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_082.jpg,Connectivity,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_083.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_084.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_085.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_086.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_087.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_088.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_089.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_090.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_091.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_092.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_093.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_094.png,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_095.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_096.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_097.jpg,Payment,cart_checkout_payment,,pending,,Pending human review.,,UNIQUE
+ss_098.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_099.jpg,Payment,cart_checkout_payment,,pending,,Pending human review.,,UNIQUE
+ss_100.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_101.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_102.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_103.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_104.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_105.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_106.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_107.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_108.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_109.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_110.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_111.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_112.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_113.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_114.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_115.jpg,Payment,cart_checkout_payment,,pending,,Pending human review.,,UNIQUE
+ss_116.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_117.jpg,Payment,cart_checkout_payment,,pending,,Pending human review.,,UNIQUE
+ss_118.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_119.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_120.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_121.jpg,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_122.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_123.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_124.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_125.jpg,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_126.png,Payment,cart_checkout_payment,,pending,,Pending human review.,,UNIQUE
+ss_127.jpg,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_128.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_129.jpg,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_130.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_131.jpg,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_132.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_133.jpg,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_134.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_135.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_136.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_137.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_138.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_139.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_140.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_141.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_142.png,Payment,cart_checkout_payment,,pending,,Pending human review.,,UNIQUE
+ss_143.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_144.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_145.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_146.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_147.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_148.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_149.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_150.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_151.png,Shopping,product_listing,,pending,,Pending human review.,,UNIQUE
+ss_152.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_153.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_154.png,Shopping,product_listing,,pending,,Pending human review.,,UNIQUE
+ss_155.jpg,Payment,cart_checkout_payment,,pending,,Pending human review.,,UNIQUE
+ss_156.jpg,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_157.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_158.jpg,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_159.jpg,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_160.jpg,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_161.jpg,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_162.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_163.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_164.jpg,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_165.jpg,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_166.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_167.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_168.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_169.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_170.jpg,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_171.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_172.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_173.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_174.png,Shopping,product_listing,,pending,,Pending human review.,,UNIQUE
+ss_175.jpg,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_176.png,Shopping,product_listing,,pending,,Pending human review.,,UNIQUE
+ss_177.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_178.png,Shopping,product_listing,,pending,,Pending human review.,,UNIQUE
+ss_179.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_180.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_181.jpg,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_182.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_183.png,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_184.png,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_185.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_186.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_187.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_188.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_189.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_190.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_191.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_192.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_193.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_194.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_195.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_196.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_197.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_198.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_199.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_200.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_201.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_202.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_203.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_204.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_205.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_206.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_207.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_208.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_209.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_210.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_211.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_212.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_213.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_214.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_215.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_216.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_217.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_218.png,Payment,cart_checkout_payment,,pending,,Pending human review.,,UNIQUE
+ss_219.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_220.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_221.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_222.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_223.jpg,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_224.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_225.jpg,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_226.png,Entertainment,media_player_library,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_227.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_228.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_229.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_230.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_231.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_232.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_233.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_234.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_235.jpg,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_236.png,Entertainment,media_player_library,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_237.jpg,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_238.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_239.jpg,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_240.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_241.jpg,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_242.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_243.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_244.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_245.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_246.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_247.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_248.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_249.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_250.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_251.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_252.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_253.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_254.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_255.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_256.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_257.jpg,General,login_authentication,,pending,,Pending human review.,,UNIQUE
+ss_258.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_259.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_260.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_261.jpg,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_262.png,Travel,travel_booking,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_263.jpg,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_264.png,Entertainment,media_player_library,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_265.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_266.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_267.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_268.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_269.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_270.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_271.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_272.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_273.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_274.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_275.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_276.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_277.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_278.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_279.jpg,Payment,cart_checkout_payment,,pending,,Pending human review.,,UNIQUE
+ss_280.png,Coding,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_281.jpg,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_282.png,Shopping,product_listing,,pending,,Pending human review.,,UNIQUE
+ss_283.jpg,General,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_284.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_285.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_286.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_287.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_288.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_289.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_290.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_291.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_292.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_293.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_294.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_295.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_296.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_297.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_298.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_299.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_300.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_301.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_302.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_303.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_304.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_305.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_306.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_307.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_308.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_309.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_310.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_311.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_312.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_313.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_314.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_315.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_316.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_317.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_318.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_319.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_320.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_321.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_322.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_323.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_324.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_325.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_326.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_327.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_328.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_329.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_330.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_331.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_332.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_333.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_334.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_335.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_336.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_337.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_338.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_339.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_340.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_341.png,Payment,cart_checkout_payment,,pending,,Pending human review.,,UNIQUE
+ss_342.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_343.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_344.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_345.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_346.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_347.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_348.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_349.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_350.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_351.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_352.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_353.png,Payment,cart_checkout_payment,,pending,,Pending human review.,,UNIQUE
+ss_354.png,Payment,cart_checkout_payment,,pending,,Pending human review.,,UNIQUE
+ss_355.png,Payment,cart_checkout_payment,,pending,,Pending human review.,,UNIQUE
+ss_356.png,Payment,cart_checkout_payment,,pending,,Pending human review.,,UNIQUE
+ss_357.png,Payment,cart_checkout_payment,,pending,,Pending human review.,,UNIQUE
+ss_358.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_359.png,Communication,messaging_chat,,pending,,Pending human review.,,UNIQUE
+ss_360.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_361.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_362.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_363.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_364.jpg,Payment,cart_checkout_payment,,pending,,Pending human review.,,UNIQUE
+ss_365.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_366.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_367.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_368.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_369.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_370.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_371.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_372.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_373.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_374.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_375.png,Travel,travel_booking,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_376.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_377.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_378.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_379.jpg,Payment,cart_checkout_payment,,pending,,Pending human review.,,UNIQUE
+ss_380.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_381.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_382.jpg,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_383.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_384.png,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_385.jpg,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_386.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_387.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_388.jpg,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_389.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_390.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_391.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_392.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_393.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_394.jpg,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_395.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_396.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_397.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_398.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_399.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_400.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_401.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_402.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_403.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_404.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_405.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_406.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_407.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_408.png,Travel,travel_booking,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_409.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_410.png,Travel,travel_booking,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_411.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_412.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_413.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_414.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_415.jpg,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_416.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_417.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_418.jpg,General,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_419.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_420.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_421.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_422.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_423.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_424.jpg,General,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_425.png,Entertainment,media_player_library,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_426.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_427.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_428.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_429.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_430.jpg,Connectivity,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_431.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_432.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_433.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_434.png,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_435.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_436.jpg,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_437.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_438.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_439.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_440.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_441.png,General,other_screen,rejected,reject,system_audit,Corrupted 0-byte file.,2026-10-02,singleton_ss_441
+ss_442.jpg,General,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_443.png,General,other_screen,rejected,reject,system_audit,Corrupted 0-byte file.,2026-10-02,singleton_ss_443
+ss_444.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_445.jpg,General,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_446.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_447.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_448.jpg,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_449.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_450.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_451.jpg,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_452.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_453.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_454.jpg,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_455.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_456.png,Shopping,product_listing,,pending,,Pending human review.,,UNIQUE
+ss_457.jpg,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_458.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_459.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_460.jpg,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_461.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_462.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_463.jpg,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_464.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_465.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_466.jpg,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_467.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_468.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_469.jpg,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_470.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_471.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_472.jpg,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_473.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_474.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_475.jpg,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_476.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_477.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_478.jpg,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_479.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_480.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_481.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_482.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_483.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_484.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_485.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_486.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_487.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_488.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_489.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_490.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_491.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_492.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_493.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_494.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_495.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_496.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_497.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_498.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_499.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_500.png,Shopping,product_listing,,pending,,Pending human review.,,UNIQUE
+ss_501.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_502.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_503.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_504.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_505.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_506.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_507.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_508.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_509.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_510.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_511.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_512.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_513.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_514.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_515.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_516.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_517.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_518.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_519.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_520.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_521.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_522.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_523.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_524.png,Shopping,product_detail,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_525.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_526.png,Shopping,product_detail,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_527.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_528.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_529.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_530.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_531.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_532.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_533.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_534.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_535.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_536.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_537.png,Shopping,product_detail,,pending,,Pending human review.,,UNIQUE
+ss_538.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_539.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_540.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_541.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_542.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_543.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_544.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_545.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_546.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_547.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_548.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_549.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_550.png,Travel,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_551.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_552.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_553.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_554.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_555.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_556.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_557.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_558.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_559.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_560.png,General,other_screen,rejected,reject,system_audit,Corrupted 0-byte file.,2026-10-02,singleton_ss_560
+ss_561.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_562.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_563.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_564.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_565.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_566.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_567.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_568.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_569.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_570.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_571.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_572.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_573.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_574.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_575.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_576.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_577.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_578.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_579.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_580.png,Work and career,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_581.png,Work and career,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_582.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_583.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_584.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_585.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_586.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_587.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_588.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_589.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_590.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_591.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_592.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_593.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_594.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_595.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_596.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_597.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_598.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_599.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_600.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_601.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_602.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_603.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_604.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_605.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_606.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_607.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_608.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_609.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_610.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_611.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_612.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_613.png,Work and career,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_614.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_615.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_616.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_617.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_618.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_619.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_620.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_621.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_622.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_623.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_624.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_625.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_626.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_627.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_628.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_629.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_630.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_631.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_632.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_633.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_634.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_635.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_636.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_637.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_638.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_639.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_640.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_641.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_642.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_643.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_644.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_645.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_646.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_647.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_648.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_649.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_650.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_651.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_652.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_653.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_654.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_655.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_656.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_657.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_658.png,Education,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_659.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_660.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_661.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_662.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_663.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_664.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_665.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_666.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_667.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_668.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_669.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_670.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_671.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_672.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_673.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_674.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_675.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_676.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_677.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_678.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_679.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_680.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_681.png,Travel,travel_booking,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_682.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_683.png,Travel,travel_booking,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_684.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_685.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_686.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_687.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_688.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_689.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_690.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_691.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_692.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_693.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_694.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_695.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_696.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_697.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_698.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_699.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_700.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_701.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_702.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_703.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_704.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_705.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_706.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_707.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_708.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_709.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_710.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_711.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_712.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_713.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_714.png,Travel,travel_booking,,pending,,Pending human review.,,UNIQUE
+ss_715.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_716.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_717.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_718.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_719.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_720.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_721.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_722.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_723.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_724.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_725.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_726.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_727.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_728.png,Communication,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_729.png,Communication,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_730.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_731.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_732.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_733.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_734.png,Communication,messaging_chat,,pending,,Pending human review.,,UNIQUE
+ss_735.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_736.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_737.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_738.png,Communication,messaging_chat,,pending,,Pending human review.,,UNIQUE
+ss_739.png,Communication,messaging_chat,,pending,,Pending human review.,,UNIQUE
+ss_740.png,Communication,messaging_chat,,pending,,Pending human review.,,UNIQUE
+ss_741.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_742.png,Communication,messaging_chat,,pending,,Pending human review.,,UNIQUE
+ss_743.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_744.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_745.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_746.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_747.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_748.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_749.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_750.png,Communication,messaging_chat,,pending,,Pending human review.,,UNIQUE
+ss_751.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_752.png,Communication,messaging_chat,,pending,,Pending human review.,,UNIQUE
+ss_753.png,Communication,messaging_chat,,pending,,Pending human review.,,UNIQUE
+ss_754.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_755.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_756.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_757.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_758.png,Communication,messaging_chat,,pending,,Pending human review.,,UNIQUE
+ss_759.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_760.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_761.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_762.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_763.png,Communication,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_764.png,Communication,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_765.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_766.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_767.png,Communication,messaging_chat,,pending,,Pending human review.,,UNIQUE
+ss_768.png,Payment,cart_checkout_payment,,pending,,Pending human review.,,UNIQUE
+ss_769.png,Communication,messaging_chat,,pending,,Pending human review.,,UNIQUE
+ss_770.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_771.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_772.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_773.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_774.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_775.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_776.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_777.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_778.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_779.png,Payment,cart_checkout_payment,,pending,,Pending human review.,,UNIQUE
+ss_780.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_781.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_782.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_783.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_784.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_785.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_786.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_787.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_788.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_789.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_790.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_791.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_792.png,Communication,messaging_chat,,pending,,Pending human review.,,UNIQUE
+ss_793.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_794.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_795.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_796.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_797.png,Communication,document_article_view,,pending,,Pending human review.,,UNIQUE
+ss_798.png,Entertainment,media_player_library,,pending,,Pending human review.,,UNIQUE
+ss_799.jpg,Connectivity,code_editor_terminal,code_editor_terminal,approve,human_annotator_phase7e,Preserved human-verified decision from Phase 7E harmonization.,2026-10-02,DUPE_GROUP_002
+ss_800.jpg,Payment,code_editor_terminal,code_editor_terminal,approve,human_annotator_phase7e,Preserved human-verified decision from Phase 7E harmonization.,2026-10-02,DUPE_GROUP_003
+ss_801.jpg,Education,code_editor_terminal,code_editor_terminal,approve,human_annotator_phase7e,Preserved human-verified decision from Phase 7E harmonization.,2026-10-02,DUPE_GROUP_004
+ss_802.jpg,Entertainment,code_editor_terminal,code_editor_terminal,approve,human_annotator_phase7e,Preserved human-verified decision from Phase 7E harmonization.,2026-10-02,DUPE_GROUP_005
+ss_803.jpg,Payment,code_editor_terminal,code_editor_terminal,approve,human_annotator_phase7e,Preserved human-verified decision from Phase 7E harmonization.,2026-10-02,DUPE_GROUP_006
+ss_804.jpg,Education,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_006
+ss_805.jpg,Education,code_editor_terminal,code_editor_terminal,approve,human_annotator_phase7e,Preserved human-verified decision from Phase 7E harmonization.,2026-10-02,DUPE_GROUP_007
+ss_806.jpg,Shopping,product_detail,,pending,,Pending human review.,,DUPE_GROUP_007
+ss_807.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,DUPE_GROUP_008
+ss_808.jpg,Shopping,product_detail,,pending,,Pending human review.,,DUPE_GROUP_009
+ss_809.jpg,Travel,travel_booking,,pending,,Pending human review.,,DUPE_GROUP_009
+ss_810.jpg,Education,code_editor_terminal,,pending,,Pending human review.,,DUPE_GROUP_010
+ss_811.jpg,Payment,cart_checkout_payment,,pending,,Pending human review.,,DUPE_GROUP_011
+ss_812.jpg,Travel,travel_booking,,pending,,Pending human review.,,DUPE_GROUP_012
+ss_813.jpg,Payment,cart_checkout_payment,,pending,,Pending human review.,,DUPE_GROUP_013
+ss_814.jpg,Travel,travel_booking,,pending,,Pending human review.,,DUPE_GROUP_014
+ss_815.jpg,Payment,cart_checkout_payment,,pending,,Pending human review.,,DUPE_GROUP_015
+ss_816.jpg,Education,code_editor_terminal,,pending,,Pending human review.,,DUPE_GROUP_016
+ss_817.jpg,Travel,travel_booking,,pending,,Pending human review.,,DUPE_GROUP_016
+ss_818.jpg,Shopping,product_detail,,pending,,Pending human review.,,DUPE_GROUP_017
+ss_819.jpg,General,dashboard_settings,,pending,,Pending human review.,,DUPE_GROUP_017
+ss_820.jpg,Shopping,product_detail,,pending,,Pending human review.,,DUPE_GROUP_018
+ss_821.jpg,Education,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_018
+ss_822.jpg,Education,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_018
+ss_823.jpg,Entertainment,media_player_library,,pending,,Pending human review.,,DUPE_GROUP_018
+ss_824.jpg,Payment,cart_checkout_payment,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_825.jpg,Education,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_826.jpg,Coding,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_827.jpg,Coding,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_828.jpg,Work and career,document_article_view,,pending,,Pending human review.,,DUPE_GROUP_019
+ss_829.jpg,Connectivity,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_830.jpg,Connectivity,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_831.jpg,Connectivity,error_dialog_alert,,pending,,Pending human review.,,UNIQUE
+ss_832.jpg,Connectivity,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_833.jpg,Connectivity,error_dialog_alert,,pending,,Pending human review.,,UNIQUE
+ss_834.jpg,Connectivity,dashboard_settings,,pending,,Pending human review.,,UNIQUE
+ss_835.jpg,Connectivity,error_dialog_alert,,pending,,Pending human review.,,UNIQUE
+ss_836.jpg,Connectivity,error_dialog_alert,,pending,,Pending human review.,,UNIQUE

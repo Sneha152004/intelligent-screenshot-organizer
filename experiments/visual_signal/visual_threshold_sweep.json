@@ -1,0 +1,86 @@
+[
+  {
+    "visual_weight": 0.15,
+    "visual_threshold": 0.3,
+    "strategy": "Strategy B",
+    "top1_accuracy": 0.936,
+    "top2_accuracy": 0.944,
+    "top3_accuracy": 0.944,
+    "mrr": 0.954,
+    "corrections": 0,
+    "harms": 1,
+    "net_improvement": -1
+  },
+  {
+    "visual_weight": 0.15,
+    "visual_threshold": 0.4,
+    "strategy": "Strategy B",
+    "top1_accuracy": 0.936,
+    "top2_accuracy": 0.944,
+    "top3_accuracy": 0.944,
+    "mrr": 0.954,
+    "corrections": 0,
+    "harms": 1,
+    "net_improvement": -1
+  },
+  {
+    "visual_weight": 0.15,
+    "visual_threshold": 0.5,
+    "strategy": "Strategy B",
+    "top1_accuracy": 0.936,
+    "top2_accuracy": 0.944,
+    "top3_accuracy": 0.944,
+    "mrr": 0.954,
+    "corrections": 0,
+    "harms": 1,
+    "net_improvement": -1
+  },
+  {
+    "visual_weight": 0.15,
+    "visual_threshold": 0.6,
+    "strategy": "Strategy B",
+    "top1_accuracy": 0.936,
+    "top2_accuracy": 0.944,
+    "top3_accuracy": 0.944,
+    "mrr": 0.954,
+    "corrections": 0,
+    "harms": 1,
+    "net_improvement": -1
+  },
+  {
+    "visual_weight": 0.15,
+    "visual_threshold": 0.7,
+    "strategy": "Strategy B",
+    "top1_accuracy": 0.936,
+    "top2_accuracy": 0.944,
+    "top3_accuracy": 0.944,
+    "mrr": 0.954,
+    "corrections": 0,
+    "harms": 1,
+    "net_improvement": -1
+  },
+  {
+    "visual_weight": 0.15,
+    "visual_threshold": 0.8,
+    "strategy": "Strategy B",
+    "top1_accuracy": 0.936,
+    "top2_accuracy": 0.944,
+    "top3_accuracy": 0.944,
+    "mrr": 0.954,
+    "corrections": 0,
+    "harms": 1,
+    "net_improvement": -1
+  },
+  {
+    "visual_weight": 0.15,
+    "visual_threshold": 0.9,
+    "strategy": "Strategy B",
+    "top1_accuracy": 0.936,
+    "top2_accuracy": 0.944,
+    "top3_accuracy": 0.944,
+    "mrr": 0.954,
+    "corrections": 0,
+    "harms": 1,
+    "net_improvement": -1
+  }
+]

@@ -1,0 +1,245 @@
+id,filename,ground_truth,top1_category,top1_score,top2_category,top2_score,top3_category,top3_score,final_category,confidence_str,visual_screen_type,visual_conf,visual_mapped_category,correct,top1_correct,top2_correct,top3_correct,reranked,reranking_reason,ocr_length
+ext2_001,ext2_001.jpg,Education,Education,0.9,,0.63,,0.405,Education,High,travel_booking,0.3938,Travel,True,True,True,True,False,Top-1 primary prediction retained,118
+ext2_002,ext2_002.jpg,General,General,0.65,Travel,0.455,Education,0.2925,General,Medium,document_article_view,0.2407,Education,True,True,True,True,False,Top-1 primary prediction retained,569
+ext2_003,ext2_003.jpg,General,General,0.65,Travel,0.455,Shopping,0.2925,General,Medium,document_article_view,0.2449,Education,True,True,True,True,False,Top-1 primary prediction retained,18
+ext2_004,ext2_004.jpg,General,General,0.65,Payment,0.455,Communication,0.2925,General,Medium,document_article_view,0.2827,Education,True,True,True,True,False,Top-1 primary prediction retained,628
+ext2_005,ext2_005.jpg,General,General,0.65,Payment,0.455,Travel,0.2925,General,Medium,dashboard_settings,0.2497,Connectivity,True,True,True,True,False,Top-1 primary prediction retained,86
+ext2_006,ext2_006.jpg,Education,Education,0.65,Entertainment,0.455,Work & Career,0.2925,Education,Medium,travel_booking,0.3575,Travel,True,True,True,True,False,Top-1 primary prediction retained,167
+ext2_007,ext2_007.jpg,Education,Education,0.9,General,0.63,Shopping,0.405,Education,High,travel_booking,0.3575,Travel,True,True,True,True,False,Top-1 primary prediction retained,167
+ext2_008,ext2_008.jpg,Education,Education,0.9,Connectivity,0.63,Travel,0.405,Education,High,travel_booking,0.3116,Travel,True,True,True,True,False,Top-1 primary prediction retained,162
+ext2_009,ext2_009.jpg,Education,Education,0.9,Payment,0.63,General,0.405,Education,High,travel_booking,0.3638,Travel,True,True,True,True,False,Top-1 primary prediction retained,215
+ext2_010,ext2_010.jpg,Education,Education,0.9,Work & Career,0.63,Connectivity,0.405,Education,High,travel_booking,0.2662,Travel,True,True,True,True,False,Top-1 primary prediction retained,737
+ext2_011,ext2_011.jpg,General,General,0.65,Payment,0.455,Travel,0.2925,General,Medium,dashboard_settings,0.253,Connectivity,True,True,True,True,False,Top-1 primary prediction retained,24
+ext2_012,ext2_012.jpg,Work & Career,Work & Career,0.9,,0.63,,0.405,Work & Career,High,travel_booking,0.2845,Travel,True,True,True,True,False,Top-1 primary prediction retained,287
+ext2_013,ext2_013.jpg,General,Work & Career,0.9,Travel,0.63,Education,0.405,Work & Career,High,dashboard_settings,0.2937,Connectivity,False,False,False,False,False,Top-1 primary prediction retained,300
+ext2_014,ext2_014.jpg,General,Work & Career,0.65,Travel,0.455,Payment,0.2925,Work & Career,Medium,document_article_view,0.2673,Education,False,False,False,False,False,Top-1 primary prediction retained,853
+ext2_015,ext2_015.jpg,General,General,0.65,Travel,0.455,Payment,0.2925,General,Medium,dashboard_settings,0.2999,Connectivity,True,True,True,True,False,Top-1 primary prediction retained,402
+ext2_016,ext2_016.jpg,General,General,0.65,Payment,0.455,Travel,0.2925,General,Medium,travel_booking,0.3603,Travel,True,True,True,True,False,Top-1 primary prediction retained,201
+ext2_017,ext2_017.jpg,General,General,0.65,Payment,0.455,Travel,0.2925,General,Medium,media_player_library,0.2604,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,122
+ext2_018,ext2_018.jpg,Shopping,Shopping,0.45,Work & Career,0.315,Travel,0.2025,Shopping,Low,travel_booking,0.3499,Travel,True,True,True,True,False,Top-1 primary prediction retained,491
+ext2_019,ext2_019.jpg,General,General,0.65,Travel,0.455,Payment,0.2925,General,Medium,travel_booking,0.269,Travel,True,True,True,True,False,Top-1 primary prediction retained,550
+ext2_020,ext2_020.jpg,General,General,0.65,Payment,0.455,Travel,0.2925,General,Medium,dashboard_settings,0.2455,Connectivity,True,True,True,True,False,Top-1 primary prediction retained,1143
+ext2_021,ext2_021.jpg,General,Work & Career,0.9,,0.63,,0.405,Work & Career,High,travel_booking,0.3202,Travel,False,False,False,False,False,Top-1 primary prediction retained,1166
+ext2_022,ext2_022.jpg,General,General,0.65,Travel,0.455,Payment,0.2925,General,Medium,dashboard_settings,0.2378,Connectivity,True,True,True,True,False,Top-1 primary prediction retained,369
+ext2_023,ext2_023.jpg,Work & Career,General,0.9,Shopping,0.63,Payment,0.405,Shopping,High,travel_booking,0.2862,Travel,False,False,False,False,True,Top-2 'Shopping' promoted over General via OCR phrase evidence,308
+ext2_024,ext2_024.jpg,Education,Shopping,0.65,Communication,0.455,Payment,0.2925,Shopping,Medium,travel_booking,0.3286,Travel,False,False,False,False,False,Top-1 primary prediction retained,363
+ext2_025,ext2_025.jpg,Education,Education,0.9,,0.63,,0.405,Education,High,travel_booking,0.4019,Travel,True,True,True,True,False,Top-1 primary prediction retained,79
+ext2_026,ext2_026.jpg,Education,Education,0.9,Travel,0.63,Payment,0.405,Education,High,travel_booking,0.333,Travel,True,True,True,True,False,Top-1 primary prediction retained,582
+ext2_027,ext2_027.jpg,General,Education,0.9,,0.63,,0.405,Education,High,code_editor_terminal,0.2579,Work & Career,False,False,False,False,False,Top-1 primary prediction retained,402
+ext2_028,ext2_028.jpg,Education,Education,0.9,,0.63,,0.405,Education,High,travel_booking,0.3644,Travel,True,True,True,True,False,Top-1 primary prediction retained,238
+ext2_029,ext2_029.jpg,Education,Education,0.45,Entertainment,0.315,Travel,0.2025,Education,Low,travel_booking,0.2895,Travel,True,True,True,True,False,Top-1 primary prediction retained,359
+ext2_030,ext2_030.jpg,General,General,0.65,Payment,0.455,Travel,0.2925,General,Medium,travel_booking,0.3612,Travel,True,True,True,True,False,Top-1 primary prediction retained,49
+ext2_031,ext2_031.jpg,Shopping,Shopping,0.9,,0.63,,0.405,Shopping,High,travel_booking,0.2493,Travel,True,True,True,True,False,Top-1 primary prediction retained,680
+ext2_032,ext2_032.jpg,Shopping,Entertainment,0.65,Shopping,0.455,Travel,0.2925,Entertainment,Medium,document_article_view,0.2842,Education,False,False,True,True,False,Top-1 primary prediction retained,521
+ext2_033,ext2_033.jpg,Shopping,Shopping,0.65,Education,0.455,Travel,0.2925,Shopping,Medium,dashboard_settings,0.2836,Connectivity,True,True,True,True,False,Top-1 primary prediction retained,531
+ext2_034,ext2_034.jpg,General,Shopping,0.65,Payment,0.455,Travel,0.2925,Shopping,Medium,travel_booking,0.2788,Travel,False,False,False,False,False,Top-1 primary prediction retained,633
+ext2_035,ext2_035.jpg,Shopping,Shopping,0.9,Payment,0.63,General,0.405,Shopping,High,document_article_view,0.2592,Education,True,True,True,True,False,Top-1 primary prediction retained,350
+ext2_036,ext2_036.jpg,Shopping,Shopping,0.65,General,0.455,Payment,0.2925,Shopping,Medium,document_article_view,0.2452,Education,True,True,True,True,False,Top-1 primary prediction retained,386
+ext2_037,ext2_037.jpg,General,General,0.45,,0.315,,0.2025,General,Low,dashboard_settings,0.222,Connectivity,True,True,True,True,False,Top-1 primary prediction retained,865
+ext2_038,ext2_038.jpg,General,General,0.45,,0.315,,0.2025,General,Low,travel_booking,0.2422,Travel,True,True,True,True,False,Top-1 primary prediction retained,163
+ext2_039,ext2_039.jpg,Shopping,Shopping,0.9,,0.63,,0.405,Shopping,High,travel_booking,0.3427,Travel,True,True,True,True,False,Top-1 primary prediction retained,148
+ext2_040,ext2_040.jpg,Shopping,Shopping,0.9,Travel,0.63,Payment,0.405,Shopping,High,travel_booking,0.2981,Travel,True,True,True,True,False,Top-1 primary prediction retained,226
+ext2_041,ext2_041.jpg,General,General,0.65,Communication,0.455,Shopping,0.2925,General,Medium,media_player_library,0.2656,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,82
+ext2_042,ext2_042.jpg,General,General,0.65,Shopping,0.455,Payment,0.2925,Shopping,Medium,travel_booking,0.342,Travel,False,True,True,True,True,Top-2 'Shopping' promoted over General via OCR phrase evidence,220
+ext2_043,ext2_043.jpg,Shopping,Shopping,0.9,Payment,0.63,Work & Career,0.405,Shopping,High,travel_booking,0.3346,Travel,True,True,True,True,False,Top-1 primary prediction retained,345
+ext2_044,ext2_044.jpg,General,General,0.65,Communication,0.455,Shopping,0.2925,General,Medium,media_player_library,0.3324,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,83
+ext2_045,ext2_045.jpg,General,General,0.65,Travel,0.455,Shopping,0.2925,General,Medium,travel_booking,0.2634,Travel,True,True,True,True,False,Top-1 primary prediction retained,235
+ext2_046,ext2_046.jpg,Shopping,General,0.45,,0.315,,0.2025,General,Low,travel_booking,0.354,Travel,False,False,False,True,False,Top-1 primary prediction retained,379
+ext2_047,ext2_047.jpg,Shopping,General,0.45,,0.315,,0.2025,General,Low,document_article_view,0.2446,Education,False,False,False,True,False,Top-1 primary prediction retained,465
+ext2_048,ext2_048.jpg,Shopping,General,0.45,,0.315,,0.2025,General,Low,travel_booking,0.3605,Travel,False,False,False,True,False,Top-1 primary prediction retained,422
+ext2_049,ext2_049.jpg,General,General,0.45,,0.315,,0.2025,General,Low,media_player_library,0.2636,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,267
+ext2_050,ext2_050.jpg,General,General,0.65,Payment,0.455,Shopping,0.2925,General,Medium,document_article_view,0.2322,Education,True,True,True,True,False,Top-1 primary prediction retained,171
+ext2_051,ext2_051.jpg,General,General,0.45,,0.315,,0.2025,General,Low,travel_booking,0.3631,Travel,True,True,True,True,False,Top-1 primary prediction retained,327
+ext2_052,ext2_052.jpg,Shopping,Shopping,0.9,,0.63,,0.405,Shopping,High,media_player_library,0.3683,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,324
+ext2_053,ext2_053.jpg,Shopping,Shopping,0.9,,0.63,,0.405,Shopping,High,travel_booking,0.3809,Travel,True,True,True,True,False,Top-1 primary prediction retained,291
+ext2_054,ext2_054.jpg,Shopping,Shopping,0.9,,0.63,,0.405,Shopping,High,travel_booking,0.3468,Travel,True,True,True,True,False,Top-1 primary prediction retained,267
+ext2_055,ext2_055.jpg,Shopping,Shopping,0.9,,0.63,,0.405,Shopping,High,travel_booking,0.3996,Travel,True,True,True,True,False,Top-1 primary prediction retained,186
+ext2_056,ext2_056.jpg,Shopping,Shopping,0.9,,0.63,,0.405,Shopping,High,travel_booking,0.3026,Travel,True,True,True,True,False,Top-1 primary prediction retained,297
+ext2_057,ext2_057.jpg,General,General,0.45,,0.315,,0.2025,General,Low,travel_booking,0.3475,Travel,True,True,True,True,False,Top-1 primary prediction retained,116
+ext2_058,ext2_058.jpg,General,General,0.45,,0.315,,0.2025,General,Low,travel_booking,0.3717,Travel,True,True,True,True,False,Top-1 primary prediction retained,224
+ext2_059,ext2_059.jpg,Shopping,Shopping,0.65,Work & Career,0.455,Travel,0.2925,Shopping,Medium,media_player_library,0.2813,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,144
+ext2_060,ext2_060.jpg,Shopping,Shopping,0.65,Payment,0.455,General,0.2925,Shopping,Medium,travel_booking,0.3429,Travel,True,True,True,True,False,Top-1 primary prediction retained,232
+ext2_061,ext2_061.jpg,Shopping,Shopping,0.65,Travel,0.455,Payment,0.2925,Shopping,Medium,media_player_library,0.2517,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,221
+ext2_062,ext2_062.jpg,Shopping,Shopping,0.65,Travel,0.455,Payment,0.2925,Shopping,Medium,media_player_library,0.2698,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,224
+ext2_063,ext2_063.jpg,Shopping,Shopping,0.9,General,0.63,Communication,0.405,Shopping,High,travel_booking,0.3489,Travel,True,True,True,True,False,Top-1 primary prediction retained,481
+ext2_064,ext2_064.jpg,General,Shopping,0.9,Travel,0.63,Communication,0.405,Shopping,High,travel_booking,0.2718,Travel,False,False,False,False,False,Top-1 primary prediction retained,392
+ext2_065,ext2_065.jpg,Shopping,Shopping,0.65,Payment,0.455,General,0.2925,Shopping,Medium,travel_booking,0.357,Travel,True,True,True,True,False,Top-1 primary prediction retained,403
+ext2_066,ext2_066.jpg,General,General,0.45,,0.315,,0.2025,General,Low,travel_booking,0.3805,Travel,True,True,True,True,False,Top-1 primary prediction retained,303
+ext2_067,ext2_067.jpg,Shopping,Shopping,0.9,,0.63,,0.405,Shopping,High,travel_booking,0.2983,Travel,True,True,True,True,False,Top-1 primary prediction retained,205
+ext2_068,ext2_068.jpg,Shopping,Travel,0.45,Shopping,0.315,Payment,0.2025,Travel,Low,travel_booking,0.3776,Travel,False,False,True,True,False,Top-1 primary prediction retained,155
+ext2_069,ext2_069.jpg,Shopping,Travel,0.45,Shopping,0.315,Payment,0.2025,Travel,Low,travel_booking,0.4008,Travel,False,False,True,True,False,Top-1 primary prediction retained,173
+ext2_070,ext2_070.jpg,Shopping,Travel,0.65,Shopping,0.455,General,0.2925,Travel,Medium,travel_booking,0.397,Travel,False,False,True,True,False,Top-1 primary prediction retained,161
+ext2_071,ext2_071.jpg,Shopping,Travel,0.45,Shopping,0.315,Payment,0.2025,Travel,Low,travel_booking,0.3849,Travel,False,False,True,True,False,Top-1 primary prediction retained,131
+ext2_072,ext2_072.jpg,Shopping,Shopping,0.65,Travel,0.455,Payment,0.2925,Shopping,Medium,travel_booking,0.3869,Travel,True,True,True,True,False,Top-1 primary prediction retained,141
+ext2_073,ext2_073.jpg,Shopping,General,0.65,Shopping,0.455,Payment,0.2925,Shopping,Medium,media_player_library,0.264,Entertainment,True,False,True,True,True,Top-2 'Shopping' promoted via strong OCR phrase evidence (matches=2 vs Top-1=0),158
+ext2_074,ext2_074.jpg,Shopping,General,0.65,Shopping,0.455,Travel,0.2925,Shopping,Medium,travel_booking,0.2802,Travel,True,False,True,True,True,Top-2 'Shopping' promoted via strong OCR phrase evidence (matches=2 vs Top-1=0),188
+ext2_075,ext2_075.jpg,General,General,0.45,,0.315,,0.2025,General,Low,travel_booking,0.3917,Travel,True,True,True,True,False,Top-1 primary prediction retained,90
+ext2_076,ext2_076.jpg,General,General,0.45,,0.315,,0.2025,General,Low,travel_booking,0.3769,Travel,True,True,True,True,False,Top-1 primary prediction retained,81
+ext2_077,ext2_077.jpg,Shopping,Shopping,0.9,,0.63,,0.405,Shopping,High,travel_booking,0.2368,Travel,True,True,True,True,False,Top-1 primary prediction retained,385
+ext2_078,ext2_078.jpg,Shopping,Shopping,0.65,General,0.455,Travel,0.2925,Shopping,Medium,travel_booking,0.3837,Travel,True,True,True,True,False,Top-1 primary prediction retained,199
+ext2_079,ext2_079.jpg,Connectivity,General,0.65,Connectivity,0.455,Communication,0.2925,General,Medium,travel_booking,0.3223,Travel,False,False,True,True,False,Top-1 primary prediction retained,29
+ext2_080,ext2_080.jpg,Connectivity,Connectivity,0.9,Payment,0.63,Communication,0.405,Connectivity,High,travel_booking,0.2726,Travel,True,True,True,True,False,Top-1 primary prediction retained,117
+ext2_081,ext2_081.jpg,Connectivity,Connectivity,0.9,Education,0.63,Entertainment,0.405,Connectivity,High,document_article_view,0.2529,Education,True,True,True,True,False,Top-1 primary prediction retained,163
+ext2_082,ext2_082.jpg,Connectivity,Connectivity,0.9,Communication,0.63,Travel,0.405,Connectivity,High,media_player_library,0.2598,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,221
+ext2_083,ext2_083.jpg,Connectivity,Connectivity,0.9,Education,0.63,Travel,0.405,Connectivity,High,travel_booking,0.3946,Travel,True,True,True,True,False,Top-1 primary prediction retained,204
+ext2_084,ext2_084.jpg,General,Education,0.65,Travel,0.455,Communication,0.2925,Education,Medium,code_editor_terminal,0.3601,Work & Career,False,False,False,False,False,Top-1 primary prediction retained,687
+ext2_085,ext2_085.jpg,Education,Education,0.65,Work & Career,0.455,Payment,0.2925,Education,Medium,travel_booking,0.3017,Travel,True,True,True,True,False,Top-1 primary prediction retained,477
+ext2_086,ext2_086.jpg,Work & Career,Entertainment,0.65,Communication,0.455,Connectivity,0.2925,Entertainment,Medium,code_editor_terminal,0.2822,Work & Career,False,False,False,False,False,Top-1 primary prediction retained,1009
+ext2_087,ext2_087.jpg,Work & Career,General,0.45,,0.315,,0.2025,General,Low,code_editor_terminal,0.2648,Work & Career,False,False,False,False,False,Top-1 primary prediction retained,666
+ext2_088,ext2_088.jpg,General,General,0.65,Travel,0.455,Payment,0.2925,General,Medium,travel_booking,0.3542,Travel,True,True,True,True,False,Top-1 primary prediction retained,112
+ext2_089,ext2_089.jpg,General,General,0.65,Payment,0.455,Connectivity,0.2925,General,Medium,code_editor_terminal,0.27,Work & Career,True,True,True,True,False,Top-1 primary prediction retained,42
+ext2_090,ext2_090.jpg,Payment,Payment,0.9,Travel,0.63,Communication,0.405,Payment,High,travel_booking,0.271,Travel,True,True,True,True,False,Top-1 primary prediction retained,291
+ext2_091,ext2_091.jpg,Payment,Payment,0.9,Travel,0.63,Shopping,0.405,Payment,High,dashboard_settings,0.2361,Connectivity,True,True,True,True,False,Top-1 primary prediction retained,268
+ext2_092,ext2_092.jpg,General,Payment,0.9,Communication,0.63,Travel,0.405,Payment,High,travel_booking,0.288,Travel,False,False,False,False,False,Top-1 primary prediction retained,202
+ext2_093,ext2_093.jpg,Education,Payment,0.9,Travel,0.63,Education,0.405,Payment,High,travel_booking,0.3211,Travel,False,False,False,True,False,Top-1 primary prediction retained,310
+ext2_094,ext2_094.jpg,General,Payment,0.65,Education,0.455,Travel,0.2925,Payment,Medium,travel_booking,0.3298,Travel,False,False,False,False,False,Top-1 primary prediction retained,147
+ext2_095,ext2_095.jpg,Payment,Payment,0.9,Education,0.63,Work & Career,0.405,Payment,High,travel_booking,0.297,Travel,True,True,True,True,False,Top-1 primary prediction retained,646
+ext2_096,ext2_096.jpg,General,Payment,0.65,Travel,0.455,Shopping,0.2925,Payment,Medium,travel_booking,0.358,Travel,False,False,False,False,False,Top-1 primary prediction retained,281
+ext2_097,ext2_097.jpg,Payment,Payment,0.9,Travel,0.63,Communication,0.405,Payment,High,travel_booking,0.2753,Travel,True,True,True,True,False,Top-1 primary prediction retained,468
+ext2_098,ext2_098.jpg,General,Payment,0.65,Education,0.455,Travel,0.2925,Payment,Medium,travel_booking,0.3209,Travel,False,False,False,False,False,Top-1 primary prediction retained,86
+ext2_099,ext2_099.jpg,Payment,Payment,0.9,Shopping,0.63,Travel,0.405,Payment,High,travel_booking,0.3305,Travel,True,True,True,True,False,Top-1 primary prediction retained,274
+ext2_100,ext2_100.jpg,Payment,Payment,0.9,Travel,0.63,Shopping,0.405,Payment,High,travel_booking,0.2894,Travel,True,True,True,True,False,Top-1 primary prediction retained,300
+ext2_101,ext2_101.jpg,Payment,Payment,0.9,Travel,0.63,Shopping,0.405,Payment,High,travel_booking,0.3102,Travel,True,True,True,True,False,Top-1 primary prediction retained,249
+ext2_102,ext2_102.jpg,General,General,0.65,Travel,0.455,Payment,0.2925,General,Medium,code_editor_terminal,0.2213,Work & Career,True,True,True,True,False,Top-1 primary prediction retained,67
+ext2_103,ext2_103.jpg,Payment,Payment,0.9,Travel,0.63,Connectivity,0.405,Payment,High,media_player_library,0.2532,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,201
+ext2_104,ext2_104.jpg,Payment,Payment,0.9,Shopping,0.63,Travel,0.405,Payment,High,travel_booking,0.2591,Travel,True,True,True,True,False,Top-1 primary prediction retained,240
+ext2_105,ext2_105.jpg,General,Payment,0.65,Education,0.455,Travel,0.2925,Payment,Medium,travel_booking,0.3915,Travel,False,False,False,False,False,Top-1 primary prediction retained,298
+ext2_106,ext2_106.jpg,General,Payment,0.9,Entertainment,0.63,Travel,0.405,Payment,High,travel_booking,0.3113,Travel,False,False,False,False,False,Top-1 primary prediction retained,385
+ext2_107,ext2_107.jpg,General,Payment,0.9,Shopping,0.63,Travel,0.405,Payment,High,travel_booking,0.3217,Travel,False,False,False,False,False,Top-1 primary prediction retained,382
+ext2_108,ext2_108.jpg,General,Payment,0.9,Travel,0.63,Shopping,0.405,Payment,High,travel_booking,0.3309,Travel,False,False,False,False,False,Top-1 primary prediction retained,208
+ext2_109,ext2_109.jpg,Payment,Payment,0.9,Communication,0.63,Shopping,0.405,Payment,High,travel_booking,0.2805,Travel,True,True,True,True,False,Top-1 primary prediction retained,237
+ext2_110,ext2_110.jpg,Payment,Communication,0.45,Payment,0.315,Travel,0.2025,Communication,Low,travel_booking,0.2878,Travel,False,False,True,True,False,Top-1 primary prediction retained,233
+ext2_111,ext2_111.jpg,Education,Work & Career,0.65,Travel,0.455,Payment,0.2925,Work & Career,Medium,document_article_view,0.273,Education,False,False,False,False,False,Top-1 primary prediction retained,786
+ext2_112,ext2_112.jpg,Work & Career,Work & Career,0.9,,0.63,,0.405,Work & Career,High,document_article_view,0.3009,Education,True,True,True,True,False,Top-1 primary prediction retained,508
+ext2_113,ext2_113.jpg,Education,General,0.9,Travel,0.63,Connectivity,0.405,General,High,dashboard_settings,0.2409,Connectivity,False,False,False,False,False,Top-1 primary prediction retained,534
+ext2_114,ext2_114.jpg,General,Work & Career,0.65,Payment,0.455,Travel,0.2925,Work & Career,Medium,travel_booking,0.3303,Travel,False,False,False,False,False,Top-1 primary prediction retained,305
+ext2_115,ext2_115.jpg,Education,Education,0.65,Connectivity,0.455,Payment,0.2925,Education,Medium,code_editor_terminal,0.2574,Work & Career,True,True,True,True,False,Top-1 primary prediction retained,57
+ext2_116,ext2_116.jpg,Education,Education,0.65,Connectivity,0.455,Payment,0.2925,Education,Medium,code_editor_terminal,0.2647,Work & Career,True,True,True,True,False,Top-1 primary prediction retained,78
+ext2_117,ext2_117.jpg,Education,Education,0.65,Payment,0.455,Travel,0.2925,Education,Medium,document_article_view,0.2425,Education,True,True,True,True,False,Top-1 primary prediction retained,147
+ext2_118,ext2_118.jpg,Education,Education,0.65,Travel,0.455,Payment,0.2925,Education,Medium,travel_booking,0.2908,Travel,True,True,True,True,False,Top-1 primary prediction retained,530
+ext2_119,ext2_119.jpg,Education,Education,0.9,Work & Career,0.63,Communication,0.405,Education,High,travel_booking,0.3201,Travel,True,True,True,True,False,Top-1 primary prediction retained,793
+ext2_120,ext2_120.jpg,General,General,0.65,Payment,0.455,Travel,0.2925,General,Medium,travel_booking,0.2394,Travel,True,True,True,True,False,Top-1 primary prediction retained,53
+ext2_121,ext2_121.jpg,Communication,Communication,0.65,Work & Career,0.455,Entertainment,0.2925,Communication,Medium,media_player_library,0.2922,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,462
+ext2_122,ext2_122.jpg,Payment,Communication,0.9,Work & Career,0.63,Payment,0.405,Communication,High,media_player_library,0.2642,Entertainment,False,False,False,True,False,Top-1 primary prediction retained,719
+ext2_123,ext2_123.jpg,Communication,Communication,0.65,Education,0.455,Work & Career,0.2925,Communication,Medium,media_player_library,0.2839,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,396
+ext2_124,ext2_124.jpg,Communication,Communication,0.45,Work & Career,0.315,Education,0.2025,Communication,Low,media_player_library,0.3097,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,353
+ext2_125,ext2_125.jpg,Communication,Communication,0.65,Education,0.455,Work & Career,0.2925,Communication,Medium,media_player_library,0.2731,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,664
+ext2_126,ext2_126.jpg,Education,Work & Career,0.65,Education,0.455,Payment,0.2925,Work & Career,Medium,travel_booking,0.3656,Travel,False,False,True,True,False,Top-1 primary prediction retained,2159
+ext2_127,ext2_127.jpg,Education,Work & Career,0.65,Education,0.455,Travel,0.2925,Work & Career,Medium,travel_booking,0.3011,Travel,False,False,True,True,False,Top-1 primary prediction retained,2253
+ext2_128,ext2_128.jpg,Education,Work & Career,0.9,Education,0.63,Travel,0.405,Work & Career,High,travel_booking,0.3486,Travel,False,False,True,True,False,Top-1 primary prediction retained,1662
+ext2_129,ext2_129.jpg,Work & Career,Work & Career,0.9,Education,0.63,Travel,0.405,Work & Career,High,travel_booking,0.3558,Travel,True,True,True,True,False,Top-1 primary prediction retained,525
+ext2_130,ext2_130.jpg,Communication,Work & Career,0.65,Education,0.455,Communication,0.2925,Work & Career,Medium,travel_booking,0.2682,Travel,False,False,False,True,False,Top-1 primary prediction retained,1961
+ext2_131,ext2_131.jpg,Education,Education,0.45,Work & Career,0.315,Travel,0.2025,Education,Low,travel_booking,0.3837,Travel,True,True,True,True,False,Top-1 primary prediction retained,1690
+ext2_132,ext2_132.jpg,Work & Career,Work & Career,0.9,Travel,0.63,Education,0.405,Work & Career,High,travel_booking,0.3432,Travel,True,True,True,True,False,Top-1 primary prediction retained,517
+ext2_133,ext2_133.jpg,Communication,Work & Career,0.9,Communication,0.63,Payment,0.405,Work & Career,High,media_player_library,0.3322,Entertainment,False,False,True,True,False,Top-1 primary prediction retained,311
+ext2_134,ext2_134.jpg,Work & Career,Work & Career,0.9,Education,0.63,Payment,0.405,Work & Career,High,travel_booking,0.3587,Travel,True,True,True,True,False,Top-1 primary prediction retained,912
+ext2_135,ext2_135.jpg,Work & Career,Work & Career,0.65,Payment,0.455,Travel,0.2925,Work & Career,Medium,travel_booking,0.3458,Travel,True,True,True,True,False,Top-1 primary prediction retained,1120
+ext2_136,ext2_136.jpg,Work & Career,Work & Career,0.9,,0.63,,0.405,Work & Career,High,travel_booking,0.3871,Travel,True,True,True,True,False,Top-1 primary prediction retained,1049
+ext2_137,ext2_137.jpg,Communication,Communication,0.45,Work & Career,0.315,Travel,0.2025,Communication,Low,media_player_library,0.2874,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,489
+ext2_138,ext2_138.jpg,Education,Work & Career,0.65,Education,0.455,Payment,0.2925,Work & Career,Medium,travel_booking,0.384,Travel,False,False,True,True,False,Top-1 primary prediction retained,719
+ext2_139,ext2_139.jpg,General,General,0.65,Travel,0.455,Entertainment,0.2925,General,Medium,media_player_library,0.3197,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,119
+ext2_140,ext2_140.jpg,General,General,0.65,Travel,0.455,Entertainment,0.2925,General,Medium,travel_booking,0.2604,Travel,True,True,True,True,False,Top-1 primary prediction retained,130
+ext2_141,ext2_141.jpg,General,General,0.65,Communication,0.455,Connectivity,0.2925,General,Medium,document_article_view,0.2483,Education,True,True,True,True,False,Top-1 primary prediction retained,0
+ext2_142,ext2_142.jpg,General,General,0.65,Entertainment,0.455,Work & Career,0.2925,General,Medium,document_article_view,0.2928,Education,True,True,True,True,False,Top-1 primary prediction retained,126
+ext2_143,ext2_143.jpg,Education,General,0.65,Travel,0.455,Communication,0.2925,General,Medium,document_article_view,0.3105,Education,False,False,False,False,False,Top-1 primary prediction retained,898
+ext2_144,ext2_144.jpg,General,General,0.65,Communication,0.455,Entertainment,0.2925,General,Medium,travel_booking,0.3316,Travel,True,True,True,True,False,Top-1 primary prediction retained,127
+ext2_145,ext2_145.jpg,General,General,0.65,Travel,0.455,Payment,0.2925,General,Medium,media_player_library,0.3579,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,444
+ext2_146,ext2_146.jpg,General,General,0.65,Entertainment,0.455,Communication,0.2925,General,Medium,media_player_library,0.3145,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,185
+ext2_147,ext2_147.jpg,Entertainment,General,0.65,Entertainment,0.455,Communication,0.2925,General,Medium,media_player_library,0.3448,Entertainment,False,False,True,True,False,Top-1 primary prediction retained,148
+ext2_148,ext2_148.jpg,General,General,0.65,Communication,0.455,Entertainment,0.2925,General,Medium,document_article_view,0.3104,Education,True,True,True,True,False,Top-1 primary prediction retained,41
+ext2_149,ext2_149.jpg,Entertainment,Entertainment,0.9,Payment,0.63,Work & Career,0.405,Entertainment,High,media_player_library,0.2884,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,287
+ext2_150,ext2_150.jpg,Communication,Work & Career,0.65,Communication,0.455,Payment,0.2925,Work & Career,Medium,media_player_library,0.3096,Entertainment,False,False,True,True,False,Top-1 primary prediction retained,387
+ext2_151,ext2_151.jpg,Travel,Travel,0.45,Communication,0.315,Education,0.2025,Travel,Low,media_player_library,0.3381,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,311
+ext2_152,ext2_152.jpg,Communication,Communication,0.65,Entertainment,0.455,Travel,0.2925,Communication,Medium,media_player_library,0.2991,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,497
+ext2_153,ext2_153.jpg,Payment,Travel,0.65,Work & Career,0.455,Payment,0.2925,Travel,Medium,travel_booking,0.3709,Travel,False,False,False,True,False,Top-1 primary prediction retained,343
+ext2_154,ext2_154.jpg,Travel,Travel,0.9,Education,0.63,Shopping,0.405,Travel,High,travel_booking,0.3927,Travel,True,True,True,True,False,Top-1 primary prediction retained,556
+ext2_155,ext2_155.jpg,Travel,Travel,0.9,Payment,0.63,Shopping,0.405,Travel,High,travel_booking,0.3364,Travel,True,True,True,True,False,Top-1 primary prediction retained,540
+ext2_156,ext2_156.jpg,Communication,Communication,0.65,Work & Career,0.455,Travel,0.2925,Communication,Medium,media_player_library,0.2966,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,661
+ext2_157,ext2_157.jpg,Travel,Travel,0.9,Payment,0.63,Education,0.405,Travel,High,travel_booking,0.3787,Travel,True,True,True,True,False,Top-1 primary prediction retained,468
+ext2_158,ext2_158.jpg,Communication,Work & Career,0.9,Communication,0.63,Travel,0.405,Work & Career,High,media_player_library,0.3102,Entertainment,False,False,True,True,False,Top-1 primary prediction retained,489
+ext2_159,ext2_159.jpg,General,General,0.65,Travel,0.455,Connectivity,0.2925,General,Medium,media_player_library,0.2731,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,46
+ext2_160,ext2_160.jpg,General,Entertainment,0.65,Shopping,0.455,Payment,0.2925,Entertainment,Medium,media_player_library,0.3841,Entertainment,False,False,False,False,False,Top-1 primary prediction retained,99
+ext2_161,ext2_161.jpg,General,General,0.65,Communication,0.455,Payment,0.2925,General,Medium,travel_booking,0.2628,Travel,True,True,True,True,False,Top-1 primary prediction retained,174
+ext2_162,ext2_162.jpg,General,Travel,0.65,Payment,0.455,Work & Career,0.2925,Travel,Medium,dashboard_settings,0.2427,Connectivity,False,False,False,False,False,Top-1 primary prediction retained,48
+ext2_163,ext2_163.jpg,Work & Career,Payment,0.65,Communication,0.455,Entertainment,0.2925,Payment,Medium,media_player_library,0.2486,Entertainment,False,False,False,False,False,Top-1 primary prediction retained,156
+ext2_164,ext2_164.jpg,General,General,0.65,Communication,0.455,Entertainment,0.2925,General,Medium,travel_booking,0.2398,Travel,True,True,True,True,False,Top-1 primary prediction retained,129
+ext2_165,ext2_165.jpg,Communication,Communication,0.65,Education,0.455,Work & Career,0.2925,Communication,Medium,media_player_library,0.3066,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,401
+ext2_166,ext2_166.jpg,Communication,Communication,0.9,Connectivity,0.63,Payment,0.405,Communication,High,media_player_library,0.3137,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,506
+ext2_167,ext2_167.jpg,Communication,Communication,0.45,Work & Career,0.315,Payment,0.2025,Communication,Low,media_player_library,0.3051,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,423
+ext2_168,ext2_168.jpg,Travel,Communication,0.45,Travel,0.315,Work & Career,0.2025,Communication,Low,media_player_library,0.351,Entertainment,False,False,True,True,False,Top-1 primary prediction retained,390
+ext2_169,ext2_169.jpg,General,General,0.65,Travel,0.455,Payment,0.2925,General,Medium,travel_booking,0.3351,Travel,True,True,True,True,False,Top-1 primary prediction retained,78
+ext2_170,ext2_170.jpg,Communication,Communication,0.9,Shopping,0.63,Payment,0.405,Communication,High,document_article_view,0.2722,Education,True,True,True,True,False,Top-1 primary prediction retained,64
+ext2_171,ext2_171.jpg,Communication,Communication,0.9,Payment,0.63,Connectivity,0.405,Communication,High,document_article_view,0.2813,Education,True,True,True,True,False,Top-1 primary prediction retained,47
+ext2_172,ext2_172.jpg,General,General,0.65,Payment,0.455,Travel,0.2925,General,Medium,travel_booking,0.2674,Travel,True,True,True,True,False,Top-1 primary prediction retained,62
+ext2_173,ext2_173.jpg,General,General,0.65,Travel,0.455,Education,0.2925,General,Medium,media_player_library,0.2753,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,52
+ext2_174,ext2_174.jpg,General,General,0.65,Travel,0.455,Payment,0.2925,General,Medium,media_player_library,0.3443,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,55
+ext2_175,ext2_175.jpg,General,General,0.65,Shopping,0.455,Travel,0.2925,General,Medium,media_player_library,0.3089,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,169
+ext2_176,ext2_176.jpg,General,General,0.65,Payment,0.455,Travel,0.2925,General,Medium,media_player_library,0.2628,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,57
+ext2_177,ext2_177.jpg,General,General,0.65,Entertainment,0.455,Communication,0.2925,General,Medium,media_player_library,0.3741,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,111
+ext2_178,ext2_178.jpg,General,General,0.65,Payment,0.455,Travel,0.2925,General,Medium,media_player_library,0.3476,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,31
+ext2_179,ext2_179.jpg,General,General,0.65,Travel,0.455,Payment,0.2925,General,Medium,media_player_library,0.3711,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,39
+ext2_180,ext2_180.jpg,General,Entertainment,0.9,Travel,0.63,Work & Career,0.405,Entertainment,High,media_player_library,0.2858,Entertainment,False,False,False,False,False,Top-1 primary prediction retained,522
+ext2_181,ext2_181.jpg,General,General,0.65,Payment,0.455,Travel,0.2925,General,Medium,media_player_library,0.3431,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,112
+ext2_182,ext2_182.jpg,General,General,0.65,Communication,0.455,Shopping,0.2925,General,Medium,travel_booking,0.352,Travel,True,True,True,True,False,Top-1 primary prediction retained,88
+ext2_183,ext2_183.jpg,General,General,0.65,Payment,0.455,Travel,0.2925,General,Medium,media_player_library,0.376,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,43
+ext2_184,ext2_184.jpg,Entertainment,Entertainment,0.9,Shopping,0.63,Travel,0.405,Entertainment,High,media_player_library,0.2951,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,362
+ext2_185,ext2_185.jpg,Entertainment,Entertainment,0.9,Shopping,0.63,Travel,0.405,Entertainment,High,media_player_library,0.2778,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,354
+ext2_186,ext2_186.jpg,Entertainment,Entertainment,0.9,Shopping,0.63,Travel,0.405,Entertainment,High,media_player_library,0.3327,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,356
+ext2_187,ext2_187.jpg,Shopping,Shopping,0.65,Entertainment,0.455,Communication,0.2925,Shopping,Medium,media_player_library,0.3343,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,368
+ext2_188,ext2_188.jpg,General,General,0.65,Travel,0.455,Shopping,0.2925,General,Medium,travel_booking,0.2978,Travel,True,True,True,True,False,Top-1 primary prediction retained,160
+ext2_189,ext2_189.jpg,Education,Education,0.45,Entertainment,0.315,Work & Career,0.2025,Education,Low,document_article_view,0.2443,Education,True,True,True,True,False,Top-1 primary prediction retained,502
+ext2_190,ext2_190.jpg,Education,Education,0.45,Communication,0.315,Travel,0.2025,Education,Low,travel_booking,0.3122,Travel,True,True,True,True,False,Top-1 primary prediction retained,334
+ext2_191,ext2_191.jpg,Education,Education,0.45,Communication,0.315,Travel,0.2025,Education,Low,travel_booking,0.3219,Travel,True,True,True,True,False,Top-1 primary prediction retained,334
+ext2_192,ext2_192.jpg,General,General,0.65,Entertainment,0.455,Communication,0.2925,General,Medium,travel_booking,0.3495,Travel,True,True,True,True,False,Top-1 primary prediction retained,191
+ext2_193,ext2_193.jpg,General,Entertainment,0.45,Education,0.315,Communication,0.2025,Entertainment,Low,media_player_library,0.3436,Entertainment,False,False,False,False,False,Top-1 primary prediction retained,303
+ext2_194,ext2_194.jpg,General,General,0.65,Travel,0.455,Connectivity,0.2925,General,Medium,travel_booking,0.2466,Travel,True,True,True,True,False,Top-1 primary prediction retained,39
+ext2_195,ext2_195.jpg,Communication,Communication,0.9,Payment,0.63,Travel,0.405,Communication,High,media_player_library,0.2546,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,33
+ext2_196,ext2_196.jpg,Communication,Communication,0.65,Payment,0.455,Entertainment,0.2925,Communication,Medium,media_player_library,0.3233,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,214
+ext2_197,ext2_197.jpg,General,General,0.65,Payment,0.455,Travel,0.2925,General,Medium,media_player_library,0.3361,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,36
+ext2_198,ext2_198.jpg,General,General,0.65,Entertainment,0.455,Communication,0.2925,General,Medium,travel_booking,0.2405,Travel,True,True,True,True,False,Top-1 primary prediction retained,291
+ext2_199,ext2_199.jpg,General,General,0.65,Entertainment,0.455,Payment,0.2925,General,Medium,travel_booking,0.3152,Travel,True,True,True,True,False,Top-1 primary prediction retained,76
+ext2_200,ext2_200.jpg,General,Entertainment,0.9,Shopping,0.63,Communication,0.405,Entertainment,High,media_player_library,0.3158,Entertainment,False,False,False,False,False,Top-1 primary prediction retained,334
+ext2_201,ext2_201.jpg,General,Entertainment,0.9,Work & Career,0.63,Communication,0.405,Entertainment,High,travel_booking,0.2826,Travel,False,False,False,False,False,Top-1 primary prediction retained,343
+ext2_202,ext2_202.jpg,Shopping,General,0.65,Travel,0.455,Payment,0.2925,General,Medium,travel_booking,0.2591,Travel,False,False,False,False,False,Top-1 primary prediction retained,36
+ext2_203,ext2_203.jpg,General,General,0.65,Shopping,0.455,Travel,0.2925,General,Medium,travel_booking,0.2397,Travel,True,True,True,True,False,Top-1 primary prediction retained,120
+ext2_204,ext2_204.jpg,General,General,0.65,Travel,0.455,Shopping,0.2925,General,Medium,code_editor_terminal,0.2455,Work & Career,True,True,True,True,False,Top-1 primary prediction retained,279
+ext2_205,ext2_205.jpg,Shopping,Shopping,0.45,Work & Career,0.315,Travel,0.2025,Shopping,Low,travel_booking,0.2637,Travel,True,True,True,True,False,Top-1 primary prediction retained,598
+ext2_206,ext2_206.jpg,Education,Shopping,0.65,Travel,0.455,Education,0.2925,Shopping,Medium,document_article_view,0.2612,Education,False,False,False,True,False,Top-1 primary prediction retained,894
+ext2_207,ext2_207.jpg,General,Work & Career,0.65,Entertainment,0.455,Communication,0.2925,Work & Career,Medium,travel_booking,0.3394,Travel,False,False,False,False,False,Top-1 primary prediction retained,514
+ext2_208,ext2_208.jpg,Education,Education,0.9,Communication,0.63,Payment,0.405,Education,High,travel_booking,0.3632,Travel,True,True,True,True,False,Top-1 primary prediction retained,518
+ext2_209,ext2_209.jpg,General,General,0.65,Travel,0.455,Connectivity,0.2925,General,Medium,media_player_library,0.3041,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,235
+ext2_210,ext2_210.jpg,General,Education,0.65,General,0.455,Work & Career,0.2925,Education,Medium,media_player_library,0.39,Entertainment,False,False,True,True,False,Top-1 primary prediction retained,265
+ext2_211,ext2_211.jpg,Education,Shopping,0.65,Education,0.455,Travel,0.2925,Shopping,Medium,travel_booking,0.2921,Travel,False,False,True,True,False,Top-1 primary prediction retained,1008
+ext2_212,ext2_212.jpg,General,Communication,0.45,Entertainment,0.315,Work & Career,0.2025,Communication,Low,media_player_library,0.3134,Entertainment,False,False,False,False,False,Top-1 primary prediction retained,314
+ext2_213,ext2_213.jpg,General,Communication,0.65,Payment,0.455,Shopping,0.2925,Communication,Medium,travel_booking,0.277,Travel,False,False,False,False,False,Top-1 primary prediction retained,178
+ext2_214,ext2_214.jpg,General,General,0.65,Payment,0.455,Travel,0.2925,General,Medium,media_player_library,0.3356,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,66
+ext2_215,ext2_215.jpg,General,General,0.65,Connectivity,0.455,Travel,0.2925,General,Medium,travel_booking,0.2445,Travel,True,True,True,True,False,Top-1 primary prediction retained,262
+ext2_216,ext2_216.jpg,General,General,0.65,Shopping,0.455,Connectivity,0.2925,General,Medium,media_player_library,0.256,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,211
+ext2_217,ext2_217.jpg,General,Travel,0.65,Payment,0.455,Shopping,0.2925,Travel,Medium,travel_booking,0.2473,Travel,False,False,False,False,False,Top-1 primary prediction retained,230
+ext2_218,ext2_218.jpg,General,General,0.65,Travel,0.455,Payment,0.2925,General,Medium,media_player_library,0.2751,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,209
+ext2_219,ext2_219.jpg,Shopping,Shopping,0.65,Travel,0.455,Payment,0.2925,Shopping,Medium,media_player_library,0.3443,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,66
+ext2_220,ext2_220.jpg,General,General,0.65,Communication,0.455,Connectivity,0.2925,General,Medium,travel_booking,0.2665,Travel,True,True,True,True,False,Top-1 primary prediction retained,0
+ext2_221,ext2_221.jpg,Shopping,Shopping,0.65,Travel,0.455,Payment,0.2925,Shopping,Medium,media_player_library,0.3167,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,73
+ext2_222,ext2_222.jpg,General,General,0.65,Payment,0.455,Travel,0.2925,General,Medium,travel_booking,0.3455,Travel,True,True,True,True,False,Top-1 primary prediction retained,27
+ext2_223,ext2_223.jpg,General,General,0.65,Shopping,0.455,Travel,0.2925,General,Medium,travel_booking,0.3179,Travel,True,True,True,True,False,Top-1 primary prediction retained,97
+ext2_224,ext2_224.jpg,General,Communication,0.45,Entertainment,0.315,Work & Career,0.2025,Communication,Low,media_player_library,0.259,Entertainment,False,False,False,False,False,Top-1 primary prediction retained,254
+ext2_225,ext2_225.jpg,General,General,0.65,Travel,0.455,Entertainment,0.2925,General,Medium,travel_booking,0.2399,Travel,True,True,True,True,False,Top-1 primary prediction retained,69
+ext2_226,ext2_226.jpg,General,General,0.65,Entertainment,0.455,Travel,0.2925,General,Medium,media_player_library,0.3082,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,169
+ext2_227,ext2_227.jpg,General,Entertainment,0.65,Communication,0.455,Travel,0.2925,Entertainment,Medium,travel_booking,0.351,Travel,False,False,False,False,False,Top-1 primary prediction retained,101
+ext2_228,ext2_228.jpg,Communication,Entertainment,0.45,Communication,0.315,Travel,0.2025,Entertainment,Low,media_player_library,0.2932,Entertainment,False,False,True,True,False,Top-1 primary prediction retained,178
+ext2_229,ext2_229.jpg,Education,Education,0.9,Travel,0.63,Payment,0.405,Education,High,travel_booking,0.2386,Travel,True,True,True,True,False,Top-1 primary prediction retained,1307
+ext2_230,ext2_230.jpg,Education,Education,0.45,Communication,0.315,Travel,0.2025,Education,Low,travel_booking,0.243,Travel,True,True,True,True,False,Top-1 primary prediction retained,854
+ext2_231,ext2_231.jpg,Shopping,Work & Career,0.65,Education,0.455,Shopping,0.2925,Work & Career,Medium,travel_booking,0.3778,Travel,False,False,False,True,False,Top-1 primary prediction retained,1952
+ext2_232,ext2_232.jpg,Education,Work & Career,0.65,Education,0.455,Communication,0.2925,Work & Career,Medium,media_player_library,0.2938,Entertainment,False,False,True,True,False,Top-1 primary prediction retained,726
+ext2_233,ext2_233.jpg,General,Work & Career,0.65,Education,0.455,Communication,0.2925,Work & Career,Medium,media_player_library,0.2562,Entertainment,False,False,False,False,False,Top-1 primary prediction retained,887
+ext2_234,ext2_234.jpg,Education,Education,0.45,Communication,0.315,Travel,0.2025,Education,Low,media_player_library,0.2893,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,1104
+ext2_235,ext2_235.jpg,Communication,Communication,0.65,Payment,0.455,Connectivity,0.2925,Communication,Medium,travel_booking,0.3663,Travel,True,True,True,True,False,Top-1 primary prediction retained,206
+ext2_236,ext2_236.jpg,General,General,0.65,Communication,0.455,Payment,0.2925,General,Medium,travel_booking,0.3491,Travel,True,True,True,True,False,Top-1 primary prediction retained,1
+ext2_237,ext2_237.jpg,Shopping,Communication,0.45,Shopping,0.315,Payment,0.2025,Communication,Low,media_player_library,0.2789,Entertainment,False,False,True,True,False,Top-1 primary prediction retained,432
+ext2_238,ext2_238.jpg,General,General,0.65,Payment,0.455,Communication,0.2925,General,Medium,document_article_view,0.2749,Education,True,True,True,True,False,Top-1 primary prediction retained,422
+ext2_239,ext2_239.jpg,General,General,0.65,Communication,0.455,Payment,0.2925,General,Medium,travel_booking,0.2891,Travel,True,True,True,True,False,Top-1 primary prediction retained,352
+ext2_240,ext2_240.jpg,General,Payment,0.65,Communication,0.455,Travel,0.2925,Payment,Medium,travel_booking,0.2776,Travel,False,False,False,False,False,Top-1 primary prediction retained,244
+ext2_241,ext2_241.jpg,General,General,0.65,Communication,0.455,Payment,0.2925,General,Medium,travel_booking,0.3636,Travel,True,True,True,True,False,Top-1 primary prediction retained,295
+ext2_242,ext2_242.jpg,Communication,Communication,0.65,Payment,0.455,Travel,0.2925,Communication,Medium,dashboard_settings,0.2535,Connectivity,True,True,True,True,False,Top-1 primary prediction retained,157
+ext2_243,ext2_243.jpg,General,General,0.65,Travel,0.455,Payment,0.2925,General,Medium,media_player_library,0.3352,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,195
+ext2_244,ext2_244.jpg,General,General,0.65,Communication,0.455,Payment,0.2925,General,Medium,media_player_library,0.2325,Entertainment,True,True,True,True,False,Top-1 primary prediction retained,83

@@ -1,0 +1,161 @@
+{
+  "total_validation_samples": 25,
+  "total_errors": 7,
+  "accuracy": 0.72,
+  "top_confusion_pairs": {
+    "code_editor_terminal -> travel_booking": 2,
+    "media_player_library -> travel_booking": 2,
+    "document_article_view -> code_editor_terminal": 1,
+    "document_article_view -> media_player_library": 1,
+    "dashboard_settings -> travel_booking": 1
+  },
+  "error_details": [
+    {
+      "screenshot_id": "ss_001.jpg",
+      "filename": "ss_001.jpg",
+      "ground_truth_screen_type": "code_editor_terminal",
+      "predicted_screen_type": "travel_booking",
+      "confidence": 0.3995,
+      "ranked_predictions": [
+        {
+          "screen_type": "travel_booking",
+          "confidence": 0.3995
+        },
+        {
+          "screen_type": "document_article_view",
+          "confidence": 0.1507
+        },
+        {
+          "screen_type": "dashboard_settings",
+          "confidence": 0.1504
+        }
+      ]
+    },
+    {
+      "screenshot_id": "ss_028.jpg",
+      "filename": "ss_028.jpg",
+      "ground_truth_screen_type": "document_article_view",
+      "predicted_screen_type": "code_editor_terminal",
+      "confidence": 0.3165,
+      "ranked_predictions": [
+        {
+          "screen_type": "code_editor_terminal",
+          "confidence": 0.3165
+        },
+        {
+          "screen_type": "document_article_view",
+          "confidence": 0.1989
+        },
+        {
+          "screen_type": "dashboard_settings",
+          "confidence": 0.1641
+        }
+      ]
+    },
+    {
+      "screenshot_id": "ss_158.jpg",
+      "filename": "ss_158.jpg",
+      "ground_truth_screen_type": "document_article_view",
+      "predicted_screen_type": "media_player_library",
+      "confidence": 0.2944,
+      "ranked_predictions": [
+        {
+          "screen_type": "media_player_library",
+          "confidence": 0.2944
+        },
+        {
+          "screen_type": "travel_booking",
+          "confidence": 0.2186
+        },
+        {
+          "screen_type": "document_article_view",
+          "confidence": 0.1683
+        }
+      ]
+    },
+    {
+      "screenshot_id": "ss_206.png",
+      "filename": "ss_206.png",
+      "ground_truth_screen_type": "media_player_library",
+      "predicted_screen_type": "travel_booking",
+      "confidence": 0.3132,
+      "ranked_predictions": [
+        {
+          "screen_type": "travel_booking",
+          "confidence": 0.3132
+        },
+        {
+          "screen_type": "media_player_library",
+          "confidence": 0.1931
+        },
+        {
+          "screen_type": "document_article_view",
+          "confidence": 0.1723
+        }
+      ]
+    },
+    {
+      "screenshot_id": "ss_297.jpg",
+      "filename": "ss_297.jpg",
+      "ground_truth_screen_type": "media_player_library",
+      "predicted_screen_type": "travel_booking",
+      "confidence": 0.3948,
+      "ranked_predictions": [
+        {
+          "screen_type": "travel_booking",
+          "confidence": 0.3948
+        },
+        {
+          "screen_type": "document_article_view",
+          "confidence": 0.1534
+        },
+        {
+          "screen_type": "media_player_library",
+          "confidence": 0.1509
+        }
+      ]
+    },
+    {
+      "screenshot_id": "ss_430.jpg",
+      "filename": "ss_430.jpg",
+      "ground_truth_screen_type": "dashboard_settings",
+      "predicted_screen_type": "travel_booking",
+      "confidence": 0.3851,
+      "ranked_predictions": [
+        {
+          "screen_type": "travel_booking",
+          "confidence": 0.3851
+        },
+        {
+          "screen_type": "code_editor_terminal",
+          "confidence": 0.155
+        },
+        {
+          "screen_type": "document_article_view",
+          "confidence": 0.1547
+        }
+      ]
+    },
+    {
+      "screenshot_id": "ss_799.jpg",
+      "filename": "ss_799.jpg",
+      "ground_truth_screen_type": "code_editor_terminal",
+      "predicted_screen_type": "travel_booking",
+      "confidence": 0.3995,
+      "ranked_predictions": [
+        {
+          "screen_type": "travel_booking",
+          "confidence": 0.3995
+        },
+        {
+          "screen_type": "document_article_view",
+          "confidence": 0.1507
+        },
+        {
+          "screen_type": "dashboard_settings",
+          "confidence": 0.1504
+        }
+      ]
+    }
+  ]
+}

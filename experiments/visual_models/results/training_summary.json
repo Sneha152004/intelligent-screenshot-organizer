@@ -1,0 +1,67 @@
+{
+  "mobilenet_v3_small": {
+    "backbone_name": "mobilenet_v3_small",
+    "best_cal_acc": 0.5868,
+    "checkpoint_path": "C:\\Users\\KIIT0001\\Documents\\intelligent-screenshot-organizer\\experiments\\visual_models\\results\\mobilenet_v3_small_best.pt",
+    "training_time_sec": 238.62,
+    "model_info": {
+      "backbone": "mobilenet_v3_small",
+      "in_features": 576,
+      "total_params": 1077545,
+      "trainable_params": 150537,
+      "fp32_size_mb": 4.11
+    }
+  },
+  "mobilenet_v3_large": {
+    "backbone_name": "mobilenet_v3_large",
+    "best_cal_acc": 0.6467,
+    "checkpoint_path": "C:\\Users\\KIIT0001\\Documents\\intelligent-screenshot-organizer\\experiments\\visual_models\\results\\mobilenet_v3_large_best.pt",
+    "training_time_sec": 364.4,
+    "model_info": {
+      "backbone": "mobilenet_v3_large",
+      "in_features": 960,
+      "total_params": 3220793,
+      "trainable_params": 248841,
+      "fp32_size_mb": 12.29
+    }
+  },
+  "efficientnet_b0": {
+    "backbone_name": "efficientnet_b0",
+    "best_cal_acc": 0.6108,
+    "checkpoint_path": "C:\\Users\\KIIT0001\\Documents\\intelligent-screenshot-organizer\\experiments\\visual_models\\results\\efficientnet_b0_best.pt",
+    "training_time_sec": 615.08,
+    "model_info": {
+      "backbone": "efficientnet_b0",
+      "in_features": 1280,
+      "total_params": 4338309,
+      "trainable_params": 330761,
+      "fp32_size_mb": 16.55
+    }
+  },
+  "shufflenet_v2": {
+    "backbone_name": "shufflenet_v2",
+    "best_cal_acc": 0.6228,
+    "checkpoint_path": "C:\\Users\\KIIT0001\\Documents\\intelligent-screenshot-organizer\\experiments\\visual_models\\results\\shufflenet_v2_best.pt",
+    "training_time_sec": 305.04,
+    "model_info": {
+      "backbone": "shufflenet_v2",
+      "in_features": 1024,
+      "total_params": 1518829,
+      "trainable_params": 265225,
+      "fp32_size_mb": 5.79
+    }
+  },
+  "mobilenet_v2": {
+    "backbone_name": "mobilenet_v2",
+    "best_cal_acc": 0.6048,
+    "checkpoint_path": "C:\\Users\\KIIT0001\\Documents\\intelligent-screenshot-organizer\\experiments\\visual_models\\results\\mobilenet_v2_best.pt",
+    "training_time_sec": 371.06,
+    "model_info": {
+      "backbone": "mobilenet_v2",
+      "in_features": 1280,
+      "total_params": 2554633,
+      "trainable_params": 330761,
+      "fp32_size_mb": 9.75
+    }
+  }
+}

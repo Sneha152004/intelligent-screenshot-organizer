@@ -1,0 +1,3 @@
+screenshot_id,image_path,screen_type,annotation_status,annotation_confidence,visual_evidence,annotator_notes,duplicate_group_id,source,review_status,aspect_ratio,orientation,orig_width,orig_height,md5_hash
+sample_001.jpg,data/screenshots/sample_001.jpg,product_detail,verified,1.0,"Hero product image, price tag, buy button present.","Human verified sample.",singleton_sample_001,team_collection,human_verified,0.52,portrait,1080,2074,e3b0c44298fc1c149afbf4c8996fb924
+sample_002.jpg,data/screenshots/sample_002.jpg,cart_checkout_payment,verified,1.0,"Order summary card, subtotal breakdown, pay button present.","Human verified sample.",singleton_sample_002,team_collection,human_verified,0.56,portrait,1080,1920,f4c8996fb924e3b0c44298fc1c149afb

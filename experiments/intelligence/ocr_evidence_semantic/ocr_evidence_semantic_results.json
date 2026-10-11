@@ -1,0 +1,1698 @@
+{
+  "experiment": "Explainable OCR Evidence + Semantic Classification (Refined Coding & General Layer)",
+  "timestamp": "2026-09-30T13:22:44.365351+00:00",
+  "dataset_split": {
+    "dev_train_count": 583,
+    "validation_count": 125,
+    "holdout_count": 125,
+    "total_valid_samples": 833
+  },
+  "anti_leakage_verification": {
+    "external_benchmark_accessed": false,
+    "external_benchmark_untouched": true,
+    "holdout_unseen_during_tuning": true
+  },
+  "audits": {
+    "coding_rule_audit": {
+      "keywords_count": 43,
+      "context_combinations_count": 22,
+      "identified_weakness": "Isolated programming language terms lacked IDE/terminal context, overlapping with Education."
+    },
+    "general_rule_audit": {
+      "identified_weakness": "Over-assigned when non-General semantic similarity was slightly above threshold.",
+      "refined_logic": "True fallback triggering only when all non-General evidence is 0/weak and semantic similarity < 0.40."
+    }
+  },
+  "task3_variant_results": {
+    "Variant A (Current Baseline)": {
+      "top1_accuracy": 0.856,
+      "macro_f1": 0.757576785886436,
+      "balanced_accuracy": 0.8222222222222222,
+      "coding_precision": 1.0,
+      "coding_recall": 0.2222222222222222,
+      "coding_f1": 0.36363636363636365,
+      "general_precision": 0.0,
+      "general_recall": 0.0,
+      "general_f1": 0.0,
+      "ambiguous_count": 18,
+      "mean_latency_ms": 15.417547999999996,
+      "confusion_matrix": [
+        [
+          2,
+          1,
+          0,
+          3,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          11,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          11,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          19,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          11,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          18,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          18
+        ]
+      ]
+    },
+    "Variant B (Improved Coding Only)": {
+      "top1_accuracy": 0.856,
+      "macro_f1": 0.757576785886436,
+      "balanced_accuracy": 0.8222222222222222,
+      "coding_precision": 1.0,
+      "coding_recall": 0.2222222222222222,
+      "coding_f1": 0.36363636363636365,
+      "general_precision": 0.0,
+      "general_recall": 0.0,
+      "general_f1": 0.0,
+      "ambiguous_count": 19,
+      "mean_latency_ms": 15.922200000000004,
+      "confusion_matrix": [
+        [
+          2,
+          1,
+          0,
+          3,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          11,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          11,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          19,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          11,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          18,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          18
+        ]
+      ]
+    },
+    "Variant C (Improved General Fallback Only)": {
+      "top1_accuracy": 0.856,
+      "macro_f1": 0.757576785886436,
+      "balanced_accuracy": 0.8222222222222222,
+      "coding_precision": 1.0,
+      "coding_recall": 0.2222222222222222,
+      "coding_f1": 0.36363636363636365,
+      "general_precision": 0.0,
+      "general_recall": 0.0,
+      "general_f1": 0.0,
+      "ambiguous_count": 18,
+      "mean_latency_ms": 14.244183200000009,
+      "confusion_matrix": [
+        [
+          2,
+          1,
+          0,
+          3,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          11,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          11,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          19,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          11,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          18,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          18
+        ]
+      ]
+    },
+    "Variant D (Improved Coding + General Together)": {
+      "top1_accuracy": 0.856,
+      "macro_f1": 0.757576785886436,
+      "balanced_accuracy": 0.8222222222222222,
+      "coding_precision": 1.0,
+      "coding_recall": 0.2222222222222222,
+      "coding_f1": 0.36363636363636365,
+      "general_precision": 0.0,
+      "general_recall": 0.0,
+      "general_f1": 0.0,
+      "ambiguous_count": 19,
+      "mean_latency_ms": 14.343160799999993,
+      "confusion_matrix": [
+        [
+          2,
+          1,
+          0,
+          3,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          11,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          11,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          19,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          11,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          18,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          18
+        ]
+      ]
+    }
+  },
+  "winning_variant": {
+    "name": "Variant A (Current Baseline)",
+    "validation_macro_f1": 0.757576785886436
+  },
+  "task4_holdout_performance": {
+    "top1_accuracy": 0.848,
+    "balanced_accuracy": 0.8273262032085562,
+    "top2_recall": 0.896,
+    "top3_recall": 0.976,
+    "mrr": 0.902031746031746,
+    "macro_precision": 0.8167582417582417,
+    "macro_recall": 0.8273262032085562,
+    "macro_f1": 0.7693634942760855,
+    "weighted_precision": 0.8795091575091575,
+    "weighted_recall": 0.848,
+    "weighted_f1": 0.8348032344155544,
+    "per_class": {
+      "Coding": {
+        "support": 10,
+        "precision": 1.0,
+        "recall": 0.3,
+        "f1": 0.46153846153846156,
+        "correct_predictions": 3
+      },
+      "Communication": {
+        "support": 11,
+        "precision": 0.8461538461538461,
+        "recall": 1.0,
+        "f1": 0.9166666666666666,
+        "correct_predictions": 11
+      },
+      "Connectivity": {
+        "support": 4,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct_predictions": 4
+      },
+      "Education": {
+        "support": 11,
+        "precision": 0.9166666666666666,
+        "recall": 1.0,
+        "f1": 0.9565217391304348,
+        "correct_predictions": 11
+      },
+      "Entertainment": {
+        "support": 19,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct_predictions": 19
+      },
+      "General": {
+        "support": 11,
+        "precision": 0.3333333333333333,
+        "recall": 0.09090909090909091,
+        "f1": 0.14285714285714285,
+        "correct_predictions": 1
+      },
+      "Payment": {
+        "support": 3,
+        "precision": 0.21428571428571427,
+        "recall": 1.0,
+        "f1": 0.35294117647058826,
+        "correct_predictions": 3
+      },
+      "Shopping": {
+        "support": 20,
+        "precision": 0.9523809523809523,
+        "recall": 1.0,
+        "f1": 0.975609756097561,
+        "correct_predictions": 20
+      },
+      "Travel": {
+        "support": 19,
+        "precision": 0.9047619047619048,
+        "recall": 1.0,
+        "f1": 0.95,
+        "correct_predictions": 19
+      },
+      "Work & Career": {
+        "support": 17,
+        "precision": 1.0,
+        "recall": 0.8823529411764706,
+        "f1": 0.9375,
+        "correct_predictions": 15
+      }
+    },
+    "confusion_matrix": [
+      [
+        3,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        19,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        10,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        19,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        15
+      ]
+    ],
+    "normalized_confusion_matrix": [
+      [
+        0.3,
+        0.2,
+        0.0,
+        0.1,
+        0.0,
+        0.0,
+        0.1,
+        0.1,
+        0.2,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.09090909090909091,
+        0.9090909090909091,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.11764705882352941,
+        0.0,
+        0.0,
+        0.0,
+        0.8823529411764706
+      ]
+    ]
+  },
+  "task4_holdout_detailed_analysis": {
+    "ambiguity_rate": 0.136,
+    "ambiguous_count": 17,
+    "ambiguous_accuracy": 0.29411764705882354,
+    "non_ambiguous_accuracy": 0.9351851851851852,
+    "sparse_text_rate": 0.0,
+    "sparse_count": 0,
+    "sparse_accuracy": 0.0,
+    "mean_latency_ms": 13.824838400000004
+  },
+  "task5_error_analysis": [
+    {
+      "filename": "ss_177.jpg",
+      "ground_truth": "General",
+      "prediction": "Payment",
+      "top3_candidates": [
+        {
+          "category": "Payment",
+          "score": 0.49456574562312583
+        },
+        {
+          "category": "Connectivity",
+          "score": 0.48145633331327864
+        },
+        {
+          "category": "General",
+          "score": 0.16921070764735746
+        }
+      ],
+      "ocr_text_preview": "screenshot showing general app, utility, account, settings, or system content. screenshot showing general app, utility, account, settings, o",
+      "extracted_evidence": [
+        "Med KW: 'account' (x2)"
+      ],
+      "failure_reason": "genuinely_ambiguous",
+      "is_ambiguous": true,
+      "is_sparse": false
+    },
+    {
+      "filename": "ss_023.jpg",
+      "ground_truth": "Coding",
+      "prediction": "Education",
+      "top3_candidates": [
+        {
+          "category": "Education",
+          "score": 0.4440897649155257
+        },
+        {
+          "category": "Coding",
+          "score": 0.11707317073170731
+        },
+        {
+          "category": "Communication",
+          "score": 0.07804878048780489
+        }
+      ],
+      "ocr_text_preview": "12.35*27 089 vsfgb ,ll 'gl 78% 2 verkiitconnect.com (30 kiit-connect pdf viewer page 1 of 7 name state adarsh cuttack odisha ahalya puri odi",
+      "extracted_evidence": [
+        "High KW: 'kiit' (x3)",
+        "Med KW: 'exam' (x1)",
+        "Med KW: 'degree' (x3)"
+      ],
+      "failure_reason": "programming_education_vs_coding_confusion",
+      "is_ambiguous": false,
+      "is_sparse": false
+    },
+    {
+      "filename": "ss_021.jpg",
+      "ground_truth": "Coding",
+      "prediction": "Communication",
+      "top3_candidates": [
+        {
+          "category": "Communication",
+          "score": 0.6001940230820317
+        },
+        {
+          "category": "Coding",
+          "score": 0.13993368975580742
+        },
+        {
+          "category": "Payment",
+          "score": 0.12231987383781129
+        }
+      ],
+      "ocr_text_preview": "0 a *1 089 kbis valfeb ,tll ,ll 53% 10.56 wed, 6 whatsapp 4 messages from 3 chats 3 idiots 4 minutes ago shalini arey 25 boli hai lekin ladk",
+      "extracted_evidence": [
+        "High KW: 'whatsapp' (x1)",
+        "High KW: 'telegram' (x2)",
+        "High KW: 'dear ' (x1)",
+        "Med KW: 'chat' (x1)",
+        "Med KW: 'message' (x1)",
+        "Med KW: 'reply' (x1)",
+        "Context Combo: whatsapp+chat (+4.0)"
+      ],
+      "failure_reason": "weak_contextual_evidence",
+      "is_ambiguous": false,
+      "is_sparse": false
+    },
+    {
+      "filename": "ss_302.png",
+      "ground_truth": "Work & Career",
+      "prediction": "General",
+      "top3_candidates": [
+        {
+          "category": "General",
+          "score": 0.17232383927034997
+        },
+        {
+          "category": "Work & Career",
+          "score": 0.14177407938925518
+        },
+        {
+          "category": "Communication",
+          "score": 0.13408600985196778
+        }
+      ],
+      "ocr_text_preview": "screenshot showing work or service-management dashboard. screenshot showing work or service-management dashboard.",
+      "extracted_evidence": [],
+      "failure_reason": "contextual_ambiguity",
+      "is_ambiguous": true,
+      "is_sparse": false
+    },
+    {
+      "filename": "ss_094.png",
+      "ground_truth": "General",
+      "prediction": "Payment",
+      "top3_candidates": [
+        {
+          "category": "Payment",
+          "score": 0.49456574562312583
+        },
+        {
+          "category": "Connectivity",
+          "score": 0.48145633331327864
+        },
+        {
+          "category": "General",
+          "score": 0.16921070764735746
+        }
+      ],
+      "ocr_text_preview": "screenshot showing general app, utility, account, settings, or system content. screenshot showing general app, utility, account, settings, o",
+      "extracted_evidence": [
+        "Med KW: 'account' (x2)"
+      ],
+      "failure_reason": "genuinely_ambiguous",
+      "is_ambiguous": true,
+      "is_sparse": false
+    },
+    {
+      "filename": "ss_819.jpg",
+      "ground_truth": "General",
+      "prediction": "Payment",
+      "top3_candidates": [
+        {
+          "category": "Payment",
+          "score": 0.49456574562312583
+        },
+        {
+          "category": "Connectivity",
+          "score": 0.48145633331327864
+        },
+        {
+          "category": "General",
+          "score": 0.16921070764735746
+        }
+      ],
+      "ocr_text_preview": "screenshot showing general app, utility, account, settings, or system content. screenshot showing general app, utility, account, settings, o",
+      "extracted_evidence": [
+        "Med KW: 'account' (x2)"
+      ],
+      "failure_reason": "genuinely_ambiguous",
+      "is_ambiguous": true,
+      "is_sparse": false
+    },
+    {
+      "filename": "ss_043.jpg",
+      "ground_truth": "Coding",
+      "prediction": "Communication",
+      "top3_candidates": [
+        {
+          "category": "Communication",
+          "score": 0.47830551476313443
+        },
+        {
+          "category": "Coding",
+          "score": 0.24460446772873992
+        },
+        {
+          "category": "Travel",
+          "score": 0.0904115689331678
+        }
+      ],
+      "ocr_text_preview": "file edit selection view run terminal help cse22 08 0 b 0 explorer contact php display-php starthtml blackbox chat 0x open editors contact p",
+      "extracted_evidence": [
+        "Med KW: 'chat' (x1)",
+        "Med KW: 'message' (x3)",
+        "Med KW: 'email' (x5)",
+        "Med KW: 'mail' (x5)"
+      ],
+      "failure_reason": "weak_contextual_evidence",
+      "is_ambiguous": false,
+      "is_sparse": false
+    },
+    {
+      "filename": "ss_294.png",
+      "ground_truth": "Work & Career",
+      "prediction": "General",
+      "top3_candidates": [
+        {
+          "category": "General",
+          "score": 0.17232383927034997
+        },
+        {
+          "category": "Work & Career",
+          "score": 0.14177407938925518
+        },
+        {
+          "category": "Communication",
+          "score": 0.13408600985196778
+        }
+      ],
+      "ocr_text_preview": "screenshot showing work or service-management dashboard. screenshot showing work or service-management dashboard.",
+      "extracted_evidence": [],
+      "failure_reason": "contextual_ambiguity",
+      "is_ambiguous": true,
+      "is_sparse": false
+    },
+    {
+      "filename": "ss_011.jpg",
+      "ground_truth": "Coding",
+      "prediction": "Travel",
+      "top3_candidates": [
+        {
+          "category": "Travel",
+          "score": 0.8315923517468329
+        },
+        {
+          "category": "Payment",
+          "score": 0.10234384575070926
+        },
+        {
+          "category": "General",
+          "score": 0.08536367033917083
+        }
+      ],
+      "ocr_text_preview": "6.22 0 42h ,il 95% boarding pass beskal bhuban guwahati eswar (t1) (t1) gau o1h 45m bbi non-stop departs date arrives date 12 jul, 26 12 jul",
+      "extracted_evidence": [
+        "High KW: 'boarding pass' (x1)",
+        "High KW: 'pnr' (x1)",
+        "High KW: 'indigo' (x1)",
+        "High KW: 'departure' (x1)",
+        "Med KW: 'flight' (x1)",
+        "Med KW: 'seat' (x1)",
+        "Med KW: 'guwahati' (x1)",
+        "Med KW: 'gate' (x1)",
+        "Phrase: 'boarding pass'",
+        "Context Combo: indigo+flight (+5.0)",
+        "Context Combo: indigo+pnr (+5.0)"
+      ],
+      "failure_reason": "weak_contextual_evidence",
+      "is_ambiguous": false,
+      "is_sparse": false
+    },
+    {
+      "filename": "ss_019.jpg",
+      "ground_truth": "Coding",
+      "prediction": "Travel",
+      "top3_candidates": [
+        {
+          "category": "Travel",
+          "score": 0.8334488258224766
+        },
+        {
+          "category": "Payment",
+          "score": 0.10893358789848923
+        },
+        {
+          "category": "Education",
+          "score": 0.08162854527983096
+        }
+      ],
+      "ocr_text_preview": "boarding pass beskal dibru guwahati garh (t1) (t1) gau ooh 55m dib non-stop departs date arrives date 13 jun; 26 13 jun; 26 departs arrives ",
+      "extracted_evidence": [
+        "High KW: 'boarding pass' (x1)",
+        "High KW: 'pnr' (x1)",
+        "High KW: 'departure' (x1)",
+        "Med KW: 'flight' (x1)",
+        "Med KW: 'seat' (x1)",
+        "Med KW: 'guwahati' (x1)",
+        "Med KW: 'gate' (x1)",
+        "Phrase: 'boarding pass'"
+      ],
+      "failure_reason": "programming_education_vs_coding_confusion",
+      "is_ambiguous": false,
+      "is_sparse": false
+    },
+    {
+      "filename": "ss_255.jpg",
+      "ground_truth": "General",
+      "prediction": "Payment",
+      "top3_candidates": [
+        {
+          "category": "Payment",
+          "score": 0.49456574562312583
+        },
+        {
+          "category": "Connectivity",
+          "score": 0.48145633331327864
+        },
+        {
+          "category": "General",
+          "score": 0.16921070764735746
+        }
+      ],
+      "ocr_text_preview": "screenshot showing general app, utility, account, settings, or system content. screenshot showing general app, utility, account, settings, o",
+      "extracted_evidence": [
+        "Med KW: 'account' (x2)"
+      ],
+      "failure_reason": "genuinely_ambiguous",
+      "is_ambiguous": true,
+      "is_sparse": false
+    },
+    {
+      "filename": "ss_022.jpg",
+      "ground_truth": "Coding",
+      "prediction": "Shopping",
+      "top3_candidates": [
+        {
+          "category": "Shopping",
+          "score": 0.7772299314230315
+        },
+        {
+          "category": "Payment",
+          "score": 0.16712752563225608
+        },
+        {
+          "category": "Travel",
+          "score": 0.088037514401042
+        }
+      ],
+      "ocr_text_preview": "10:58*25 81 0.379 vaffb ,l 5g1/55% metro: oshoes com get 5% extra discount on prepaid order metr0 what are you looking for_ women shoes wome",
+      "extracted_evidence": [
+        "High KW: 'checkout' (x1)",
+        "Med KW: 'cart' (x1)",
+        "Med KW: 'buy' (x1)",
+        "Med KW: 'order' (x2)",
+        "Med KW: 'discount' (x2)",
+        "Med KW: 'shoes' (x2)"
+      ],
+      "failure_reason": "weak_contextual_evidence",
+      "is_ambiguous": false,
+      "is_sparse": false
+    },
+    {
+      "filename": "ss_015.jpg",
+      "ground_truth": "Coding",
+      "prediction": "Payment",
+      "top3_candidates": [
+        {
+          "category": "Payment",
+          "score": 0.7269862347087646
+        },
+        {
+          "category": "Coding",
+          "score": 0.3589250604391435
+        },
+        {
+          "category": "Education",
+          "score": 0.26889492640606194
+        }
+      ],
+      "ocr_text_preview": "5,30 12, 81 % instamart order 05,30 pm 5 ttems 59 cashback on all upi spends airtel postpaid airtel postpaid apply up to 2x speeds map zpk52",
+      "extracted_evidence": [
+        "Med KW: 'paid' (x2)",
+        "Med KW: 'upi' (x1)",
+        "Med KW: 'card' (x1)"
+      ],
+      "failure_reason": "programming_education_vs_coding_confusion",
+      "is_ambiguous": false,
+      "is_sparse": false
+    },
+    {
+      "filename": "ss_271.jpg",
+      "ground_truth": "General",
+      "prediction": "Payment",
+      "top3_candidates": [
+        {
+          "category": "Payment",
+          "score": 0.49456574562312583
+        },
+        {
+          "category": "Connectivity",
+          "score": 0.48145633331327864
+        },
+        {
+          "category": "General",
+          "score": 0.16921070764735746
+        }
+      ],
+      "ocr_text_preview": "screenshot showing general app, utility, account, settings, or system content. screenshot showing general app, utility, account, settings, o",
+      "extracted_evidence": [
+        "Med KW: 'account' (x2)"
+      ],
+      "failure_reason": "genuinely_ambiguous",
+      "is_ambiguous": true,
+      "is_sparse": false
+    },
+    {
+      "filename": "ss_259.jpg",
+      "ground_truth": "General",
+      "prediction": "Payment",
+      "top3_candidates": [
+        {
+          "category": "Payment",
+          "score": 0.49456574562312583
+        },
+        {
+          "category": "Connectivity",
+          "score": 0.48145633331327864
+        },
+        {
+          "category": "General",
+          "score": 0.16921070764735746
+        }
+      ],
+      "ocr_text_preview": "screenshot showing general app, utility, account, settings, or system content. screenshot showing general app, utility, account, settings, o",
+      "extracted_evidence": [
+        "Med KW: 'account' (x2)"
+      ],
+      "failure_reason": "genuinely_ambiguous",
+      "is_ambiguous": true,
+      "is_sparse": false
+    },
+    {
+      "filename": "ss_221.jpg",
+      "ground_truth": "General",
+      "prediction": "Payment",
+      "top3_candidates": [
+        {
+          "category": "Payment",
+          "score": 0.49456574562312583
+        },
+        {
+          "category": "Connectivity",
+          "score": 0.48145633331327864
+        },
+        {
+          "category": "General",
+          "score": 0.16921070764735746
+        }
+      ],
+      "ocr_text_preview": "screenshot showing general app, utility, account, settings, or system content. screenshot showing general app, utility, account, settings, o",
+      "extracted_evidence": [
+        "Med KW: 'account' (x2)"
+      ],
+      "failure_reason": "genuinely_ambiguous",
+      "is_ambiguous": true,
+      "is_sparse": false
+    },
+    {
+      "filename": "ss_253.jpg",
+      "ground_truth": "General",
+      "prediction": "Payment",
+      "top3_candidates": [
+        {
+          "category": "Payment",
+          "score": 0.49456574562312583
+        },
+        {
+          "category": "Connectivity",
+          "score": 0.48145633331327864
+        },
+        {
+          "category": "General",
+          "score": 0.16921070764735746
+        }
+      ],
+      "ocr_text_preview": "screenshot showing general app, utility, account, settings, or system content. screenshot showing general app, utility, account, settings, o",
+      "extracted_evidence": [
+        "Med KW: 'account' (x2)"
+      ],
+      "failure_reason": "genuinely_ambiguous",
+      "is_ambiguous": true,
+      "is_sparse": false
+    },
+    {
+      "filename": "ss_273.jpg",
+      "ground_truth": "General",
+      "prediction": "Payment",
+      "top3_candidates": [
+        {
+          "category": "Payment",
+          "score": 0.49456574562312583
+        },
+        {
+          "category": "Connectivity",
+          "score": 0.48145633331327864
+        },
+        {
+          "category": "General",
+          "score": 0.16921070764735746
+        }
+      ],
+      "ocr_text_preview": "screenshot showing general app, utility, account, settings, or system content. screenshot showing general app, utility, account, settings, o",
+      "extracted_evidence": [
+        "Med KW: 'account' (x2)"
+      ],
+      "failure_reason": "genuinely_ambiguous",
+      "is_ambiguous": true,
+      "is_sparse": false
+    },
+    {
+      "filename": "ss_370.jpg",
+      "ground_truth": "General",
+      "prediction": "Payment",
+      "top3_candidates": [
+        {
+          "category": "Payment",
+          "score": 0.49456574562312583
+        },
+        {
+          "category": "Connectivity",
+          "score": 0.48145633331327864
+        },
+        {
+          "category": "General",
+          "score": 0.16921070764735746
+        }
+      ],
+      "ocr_text_preview": "screenshot showing general app, utility, account, settings, or system content. screenshot showing general app, utility, account, settings, o",
+      "extracted_evidence": [
+        "Med KW: 'account' (x2)"
+      ],
+      "failure_reason": "genuinely_ambiguous",
+      "is_ambiguous": true,
+      "is_sparse": false
+    }
+  ],
+  "task6_explainability_traces": [
+    {
+      "screenshot_id": "ss_292.png",
+      "ground_truth": "Work & Career",
+      "prediction": "Work & Career",
+      "is_correct": true,
+      "confidence": "High",
+      "top1_score": 0.6100629685780561,
+      "extracted_evidence": [
+        "Med KW: 'job' (x2)",
+        "Med KW: 'career' (x2)",
+        "Med KW: 'application' (x2)"
+      ],
+      "content_type_scores": {
+        "Coding": 0.0,
+        "Communication": 0.0,
+        "Connectivity": 0.0,
+        "Education": 0.0,
+        "Entertainment": 0.0,
+        "General": 0.0,
+        "Payment": 0.0,
+        "Shopping": 0.0,
+        "Travel": 0.0,
+        "Work & Career": 0.0
+      },
+      "is_ambiguous": false
+    },
+    {
+      "screenshot_id": "ss_177.jpg",
+      "ground_truth": "General",
+      "prediction": "Payment",
+      "is_correct": false,
+      "confidence": "Low",
+      "top1_score": 0.49456574562312583,
+      "extracted_evidence": [
+        "Med KW: 'account' (x2)"
+      ],
+      "content_type_scores": {
+        "Coding": 0.0,
+        "Communication": 0.0,
+        "Connectivity": 0.0,
+        "Education": 0.0,
+        "Entertainment": 0.0,
+        "General": 0.0,
+        "Payment": 0.0,
+        "Shopping": 0.0,
+        "Travel": 0.0,
+        "Work & Career": 0.0
+      },
+      "is_ambiguous": true
+    },
+    {
+      "screenshot_id": "ss_754.png",
+      "ground_truth": "Communication",
+      "prediction": "Communication",
+      "is_correct": true,
+      "confidence": "High",
+      "top1_score": 0.6601198491971936,
+      "extracted_evidence": [
+        "Med KW: 'email' (x2)",
+        "Med KW: 'mail' (x2)"
+      ],
+      "content_type_scores": {
+        "Coding": 0.0,
+        "Communication": 0.0,
+        "Connectivity": 0.0,
+        "Education": 0.0,
+        "Entertainment": 0.0,
+        "General": 0.0,
+        "Payment": 0.0,
+        "Shopping": 0.0,
+        "Travel": 0.0,
+        "Work & Career": 0.0
+      },
+      "is_ambiguous": false
+    },
+    {
+      "screenshot_id": "ss_458.png",
+      "ground_truth": "Shopping",
+      "prediction": "Shopping",
+      "is_correct": true,
+      "confidence": "High",
+      "top1_score": 0.5852593177856171,
+      "extracted_evidence": [
+        "Med KW: 'product' (x2)",
+        "Med KW: 'order' (x2)",
+        "Med KW: 'delivery' (x2)"
+      ],
+      "content_type_scores": {
+        "Coding": 0.0,
+        "Communication": 0.0,
+        "Connectivity": 0.0,
+        "Education": 0.0,
+        "Entertainment": 0.0,
+        "General": 0.0,
+        "Payment": 0.0,
+        "Shopping": 0.0,
+        "Travel": 0.0,
+        "Work & Career": 0.0
+      },
+      "is_ambiguous": false
+    },
+    {
+      "screenshot_id": "ss_798.png",
+      "ground_truth": "Entertainment",
+      "prediction": "Entertainment",
+      "is_correct": true,
+      "confidence": "High",
+      "top1_score": 0.613792008180554,
+      "extracted_evidence": [
+        "Med KW: 'music' (x2)",
+        "Med KW: 'video' (x2)",
+        "Med KW: 'movie' (x2)",
+        "Med KW: 'streaming' (x2)"
+      ],
+      "content_type_scores": {
+        "Coding": 0.0,
+        "Communication": 0.0,
+        "Connectivity": 0.0,
+        "Education": 0.0,
+        "Entertainment": 0.0,
+        "General": 0.0,
+        "Payment": 0.0,
+        "Shopping": 0.0,
+        "Travel": 0.0,
+        "Work & Career": 0.0
+      },
+      "is_ambiguous": false
+    },
+    {
+      "screenshot_id": "ss_238.png",
+      "ground_truth": "Shopping",
+      "prediction": "Shopping",
+      "is_correct": true,
+      "confidence": "High",
+      "top1_score": 0.5852593177856171,
+      "extracted_evidence": [
+        "Med KW: 'product' (x2)",
+        "Med KW: 'order' (x2)",
+        "Med KW: 'delivery' (x2)"
+      ],
+      "content_type_scores": {
+        "Coding": 0.0,
+        "Communication": 0.0,
+        "Connectivity": 0.0,
+        "Education": 0.0,
+        "Entertainment": 0.0,
+        "General": 0.0,
+        "Payment": 0.0,
+        "Shopping": 0.0,
+        "Travel": 0.0,
+        "Work & Career": 0.0
+      },
+      "is_ambiguous": false
+    },
+    {
+      "screenshot_id": "ss_822.jpg",
+      "ground_truth": "Education",
+      "prediction": "Education",
+      "is_correct": true,
+      "confidence": "High",
+      "top1_score": 0.6387287219923894,
+      "extracted_evidence": [
+        "Med KW: 'course' (x2)",
+        "Med KW: 'study' (x2)",
+        "Med KW: 'learn' (x2)"
+      ],
+      "content_type_scores": {
+        "Coding": 0.0,
+        "Communication": 0.0,
+        "Connectivity": 0.0,
+        "Education": 0.0,
+        "Entertainment": 0.0,
+        "General": 0.0,
+        "Payment": 0.0,
+        "Shopping": 0.0,
+        "Travel": 0.0,
+        "Work & Career": 0.0
+      },
+      "is_ambiguous": false
+    },
+    {
+      "screenshot_id": "ss_192.png",
+      "ground_truth": "Entertainment",
+      "prediction": "Entertainment",
+      "is_correct": true,
+      "confidence": "High",
+      "top1_score": 0.613792008180554,
+      "extracted_evidence": [
+        "Med KW: 'music' (x2)",
+        "Med KW: 'video' (x2)",
+        "Med KW: 'movie' (x2)",
+        "Med KW: 'streaming' (x2)"
+      ],
+      "content_type_scores": {
+        "Coding": 0.0,
+        "Communication": 0.0,
+        "Connectivity": 0.0,
+        "Education": 0.0,
+        "Entertainment": 0.0,
+        "General": 0.0,
+        "Payment": 0.0,
+        "Shopping": 0.0,
+        "Travel": 0.0,
+        "Work & Career": 0.0
+      },
+      "is_ambiguous": false
+    },
+    {
+      "screenshot_id": "ss_436.jpg",
+      "ground_truth": "Communication",
+      "prediction": "Communication",
+      "is_correct": true,
+      "confidence": "High",
+      "top1_score": 0.6601198491971936,
+      "extracted_evidence": [
+        "Med KW: 'email' (x2)",
+        "Med KW: 'mail' (x2)"
+      ],
+      "content_type_scores": {
+        "Coding": 0.0,
+        "Communication": 0.0,
+        "Connectivity": 0.0,
+        "Education": 0.0,
+        "Entertainment": 0.0,
+        "General": 0.0,
+        "Payment": 0.0,
+        "Shopping": 0.0,
+        "Travel": 0.0,
+        "Work & Career": 0.0
+      },
+      "is_ambiguous": false
+    },
+    {
+      "screenshot_id": "ss_023.jpg",
+      "ground_truth": "Coding",
+      "prediction": "Education",
+      "is_correct": false,
+      "confidence": "High",
+      "top1_score": 0.4440897649155257,
+      "extracted_evidence": [
+        "High KW: 'kiit' (x3)",
+        "Med KW: 'exam' (x1)",
+        "Med KW: 'degree' (x3)"
+      ],
+      "content_type_scores": {
+        "Coding": 0.0,
+        "Communication": 0.0,
+        "Connectivity": 0.0,
+        "Education": 0.0,
+        "Entertainment": 0.0,
+        "General": 0.0,
+        "Payment": 0.0,
+        "Shopping": 0.0,
+        "Travel": 0.0,
+        "Work & Career": 0.0
+      },
+      "is_ambiguous": false
+    }
+  ]
+}

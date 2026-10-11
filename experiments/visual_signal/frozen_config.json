@@ -1,0 +1,21 @@
+{
+  "experiment_name": "visual_signal_experiment",
+  "status": "FROZEN_AND_EVALUATED",
+  "timestamp": "2026-10-08T23:40:35+05:30",
+  "selection_dataset": "Internal Validation (lines 250-375, n=125)",
+  "selected_configuration": {
+    "strategy": "Strategy A",
+    "visual_weight": 0.0,
+    "visual_threshold": 0.3,
+    "classifier_weight": 0.55,
+    "minilm_weight": 0.25,
+    "ocr_weight": 0.2,
+    "guardrail_enabled": true
+  },
+  "internal_validation_selection_metrics": {
+    "top1_accuracy": 0.936,
+    "mrr": 0.954,
+    "harms": 1,
+    "net_improvement": -1
+  }
+}

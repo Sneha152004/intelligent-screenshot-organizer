@@ -1,0 +1,3469 @@
+{
+  "experiment": "Traditional ML External Benchmark Evaluation",
+  "timestamp": "2026-09-30T12:35:32.704257+00:00",
+  "dataset": {
+    "training_samples": 833,
+    "external_samples": 60,
+    "excluded_zero_byte_files": [
+      "ss_441.png",
+      "ss_443.png",
+      "ss_560.png"
+    ]
+  },
+  "anti_leakage_verification": {
+    "external_benchmark_accessed_once": true,
+    "frozen_configurations": true,
+    "zero_post_test_tuning": true
+  },
+  "models_evaluated": {
+    "ComplementNB": {
+      "model_id": "ComplementNB",
+      "model_name": "Complement Naive Bayes",
+      "configuration": "Config 4 (TF-IDF + MiniLM)",
+      "cv_top1_accuracy": 0.9964,
+      "cv_macro_f1": 0.9963,
+      "external_top1_accuracy": 0.016666666666666666,
+      "external_correct_count": 1,
+      "external_total_count": 60,
+      "accuracy_drop": 0.9797333333333332,
+      "relative_retention": 0.01672688344707614,
+      "metrics": {
+        "top1_accuracy": 0.016666666666666666,
+        "balanced_accuracy": 0.1111111111111111,
+        "top2_recall": 0.2833333333333333,
+        "top3_recall": 0.5166666666666667,
+        "mrr": 0.3193320105820106,
+        "macro_precision": 0.001694915254237288,
+        "macro_recall": 0.1,
+        "macro_f1": 0.003333333333333333,
+        "weighted_precision": 0.0002824858757062147,
+        "weighted_recall": 0.016666666666666666,
+        "weighted_f1": 0.0005555555555555556,
+        "micro_precision": 0.016666666666666666,
+        "micro_recall": 0.016666666666666666,
+        "micro_f1": 0.016666666666666666,
+        "per_class": {
+          "Coding": {
+            "support": 1,
+            "precision": 0.01694915254237288,
+            "recall": 1.0,
+            "f1": 0.03333333333333333,
+            "correct_predictions": 1,
+            "incorrect_predictions": 0
+          },
+          "Communication": {
+            "support": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 2
+          },
+          "Connectivity": {
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 0
+          },
+          "Education": {
+            "support": 22,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 22
+          },
+          "Entertainment": {
+            "support": 8,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 8
+          },
+          "General": {
+            "support": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 2
+          },
+          "Payment": {
+            "support": 3,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 3
+          },
+          "Shopping": {
+            "support": 11,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 11
+          },
+          "Travel": {
+            "support": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 5
+          },
+          "Work & Career": {
+            "support": 6,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 6
+          }
+        },
+        "confusion_matrix": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            22,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "normalized_confusion_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.5,
+            0.0,
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "top_confusion_pairs": [
+          {
+            "true_category": "Education",
+            "predicted_category": "Coding",
+            "count": 22
+          },
+          {
+            "true_category": "Shopping",
+            "predicted_category": "Coding",
+            "count": 11
+          },
+          {
+            "true_category": "Entertainment",
+            "predicted_category": "Coding",
+            "count": 8
+          },
+          {
+            "true_category": "Work & Career",
+            "predicted_category": "Coding",
+            "count": 6
+          },
+          {
+            "true_category": "Travel",
+            "predicted_category": "Coding",
+            "count": 5
+          },
+          {
+            "true_category": "Payment",
+            "predicted_category": "Coding",
+            "count": 3
+          },
+          {
+            "true_category": "Communication",
+            "predicted_category": "Coding",
+            "count": 2
+          },
+          {
+            "true_category": "General",
+            "predicted_category": "Coding",
+            "count": 1
+          },
+          {
+            "true_category": "General",
+            "predicted_category": "Connectivity",
+            "count": 1
+          }
+        ],
+        "confidence_metrics": {
+          "mean_confidence": 0.6314065738959065,
+          "median_confidence": 0.6399537085498668,
+          "correct_prediction_mean_confidence": 0.5456946210578596,
+          "incorrect_prediction_mean_confidence": 0.6328593188592632,
+          "log_loss": 2.9352619044835517
+        }
+      },
+      "latency_ms": {
+        "ocr_latency_per_image": 240.0,
+        "minilm_latency_per_image": 297.52522666666664,
+        "inference_latency_per_image": 0.004381666666652961,
+        "total_cpu_latency_per_image": 537.5296083333333
+      },
+      "footprint_mb": 91.5
+    },
+    "LogisticRegression": {
+      "model_id": "LogisticRegression",
+      "model_name": "Logistic Regression",
+      "configuration": "Config 4 (TF-IDF + MiniLM)",
+      "cv_top1_accuracy": 0.9916,
+      "cv_macro_f1": 0.9897,
+      "external_top1_accuracy": 0.016666666666666666,
+      "external_correct_count": 1,
+      "external_total_count": 60,
+      "accuracy_drop": 0.9749333333333333,
+      "relative_retention": 0.01680785262874815,
+      "metrics": {
+        "top1_accuracy": 0.016666666666666666,
+        "balanced_accuracy": 0.1111111111111111,
+        "top2_recall": 0.25,
+        "top3_recall": 0.45,
+        "mrr": 0.3044179894179895,
+        "macro_precision": 0.0018181818181818182,
+        "macro_recall": 0.1,
+        "macro_f1": 0.0035714285714285713,
+        "weighted_precision": 0.00030303030303030303,
+        "weighted_recall": 0.016666666666666666,
+        "weighted_f1": 0.0005952380952380952,
+        "micro_precision": 0.016666666666666666,
+        "micro_recall": 0.016666666666666666,
+        "micro_f1": 0.016666666666666666,
+        "per_class": {
+          "Coding": {
+            "support": 1,
+            "precision": 0.01818181818181818,
+            "recall": 1.0,
+            "f1": 0.03571428571428571,
+            "correct_predictions": 1,
+            "incorrect_predictions": 0
+          },
+          "Communication": {
+            "support": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 2
+          },
+          "Connectivity": {
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 0
+          },
+          "Education": {
+            "support": 22,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 22
+          },
+          "Entertainment": {
+            "support": 8,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 8
+          },
+          "General": {
+            "support": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 2
+          },
+          "Payment": {
+            "support": 3,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 3
+          },
+          "Shopping": {
+            "support": 11,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 11
+          },
+          "Travel": {
+            "support": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 5
+          },
+          "Work & Career": {
+            "support": 6,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 6
+          }
+        },
+        "confusion_matrix": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            19,
+            0,
+            1,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "normalized_confusion_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.8636363636363636,
+            0.0,
+            0.045454545454545456,
+            0.0,
+            0.0,
+            0.09090909090909091,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.5,
+            0.0,
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.9090909090909091,
+            0.0,
+            0.09090909090909091,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "top_confusion_pairs": [
+          {
+            "true_category": "Education",
+            "predicted_category": "Coding",
+            "count": 19
+          },
+          {
+            "true_category": "Shopping",
+            "predicted_category": "Coding",
+            "count": 10
+          },
+          {
+            "true_category": "Entertainment",
+            "predicted_category": "Coding",
+            "count": 8
+          },
+          {
+            "true_category": "Work & Career",
+            "predicted_category": "Coding",
+            "count": 6
+          },
+          {
+            "true_category": "Travel",
+            "predicted_category": "Coding",
+            "count": 5
+          },
+          {
+            "true_category": "Payment",
+            "predicted_category": "Coding",
+            "count": 3
+          },
+          {
+            "true_category": "Communication",
+            "predicted_category": "Coding",
+            "count": 2
+          },
+          {
+            "true_category": "Education",
+            "predicted_category": "General",
+            "count": 2
+          },
+          {
+            "true_category": "Education",
+            "predicted_category": "Connectivity",
+            "count": 1
+          },
+          {
+            "true_category": "General",
+            "predicted_category": "Coding",
+            "count": 1
+          }
+        ],
+        "confidence_metrics": {
+          "mean_confidence": 0.9232780110598096,
+          "median_confidence": 0.9940835825768349,
+          "correct_prediction_mean_confidence": 0.99128708495345,
+          "incorrect_prediction_mean_confidence": 0.9221253148921207,
+          "log_loss": 7.558252504311488
+        }
+      },
+      "latency_ms": {
+        "ocr_latency_per_image": 240.0,
+        "minilm_latency_per_image": 297.52522666666664,
+        "inference_latency_per_image": 0.0041149999999490205,
+        "total_cpu_latency_per_image": 537.5293416666666
+      },
+      "footprint_mb": 91.5
+    },
+    "RandomForest": {
+      "model_id": "RandomForest",
+      "model_name": "Random Forest",
+      "configuration": "Config 3 (TF-IDF + Rules)",
+      "cv_top1_accuracy": 0.9904,
+      "cv_macro_f1": 0.9914,
+      "external_top1_accuracy": 0.016666666666666666,
+      "external_correct_count": 1,
+      "external_total_count": 60,
+      "accuracy_drop": 0.9737333333333332,
+      "relative_retention": 0.016828217555196555,
+      "metrics": {
+        "top1_accuracy": 0.016666666666666666,
+        "balanced_accuracy": 0.1111111111111111,
+        "top2_recall": 0.2,
+        "top3_recall": 0.45,
+        "mrr": 0.28576058201058196,
+        "macro_precision": 0.001694915254237288,
+        "macro_recall": 0.1,
+        "macro_f1": 0.003333333333333333,
+        "weighted_precision": 0.0002824858757062147,
+        "weighted_recall": 0.016666666666666666,
+        "weighted_f1": 0.0005555555555555556,
+        "micro_precision": 0.016666666666666666,
+        "micro_recall": 0.016666666666666666,
+        "micro_f1": 0.016666666666666666,
+        "per_class": {
+          "Coding": {
+            "support": 1,
+            "precision": 0.01694915254237288,
+            "recall": 1.0,
+            "f1": 0.03333333333333333,
+            "correct_predictions": 1,
+            "incorrect_predictions": 0
+          },
+          "Communication": {
+            "support": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 2
+          },
+          "Connectivity": {
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 0
+          },
+          "Education": {
+            "support": 22,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 22
+          },
+          "Entertainment": {
+            "support": 8,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 8
+          },
+          "General": {
+            "support": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 2
+          },
+          "Payment": {
+            "support": 3,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 3
+          },
+          "Shopping": {
+            "support": 11,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 11
+          },
+          "Travel": {
+            "support": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 5
+          },
+          "Work & Career": {
+            "support": 6,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 6
+          }
+        },
+        "confusion_matrix": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            22,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "normalized_confusion_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.5,
+            0.0,
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "top_confusion_pairs": [
+          {
+            "true_category": "Education",
+            "predicted_category": "Coding",
+            "count": 22
+          },
+          {
+            "true_category": "Shopping",
+            "predicted_category": "Coding",
+            "count": 11
+          },
+          {
+            "true_category": "Entertainment",
+            "predicted_category": "Coding",
+            "count": 8
+          },
+          {
+            "true_category": "Work & Career",
+            "predicted_category": "Coding",
+            "count": 6
+          },
+          {
+            "true_category": "Travel",
+            "predicted_category": "Coding",
+            "count": 5
+          },
+          {
+            "true_category": "Payment",
+            "predicted_category": "Coding",
+            "count": 3
+          },
+          {
+            "true_category": "Communication",
+            "predicted_category": "Coding",
+            "count": 2
+          },
+          {
+            "true_category": "General",
+            "predicted_category": "Coding",
+            "count": 1
+          },
+          {
+            "true_category": "General",
+            "predicted_category": "Connectivity",
+            "count": 1
+          }
+        ],
+        "confidence_metrics": {
+          "mean_confidence": 0.5260862019221365,
+          "median_confidence": 0.5346897845668565,
+          "correct_prediction_mean_confidence": 0.5650890495756046,
+          "incorrect_prediction_mean_confidence": 0.525425136707671,
+          "log_loss": 2.874634902323237
+        }
+      },
+      "latency_ms": {
+        "ocr_latency_per_image": 240.0,
+        "minilm_latency_per_image": 0.0,
+        "inference_latency_per_image": 0.5028883333333549,
+        "total_cpu_latency_per_image": 240.50288833333335
+      },
+      "footprint_mb": 3.2
+    },
+    "LinearSVC": {
+      "model_id": "LinearSVC",
+      "model_name": "Linear SVC",
+      "configuration": "Config 1 (TF-IDF Only)",
+      "cv_top1_accuracy": 0.9904,
+      "cv_macro_f1": 0.9901,
+      "external_top1_accuracy": 0.016666666666666666,
+      "external_correct_count": 1,
+      "external_total_count": 60,
+      "accuracy_drop": 0.9737333333333332,
+      "relative_retention": 0.016828217555196555,
+      "metrics": {
+        "top1_accuracy": 0.016666666666666666,
+        "balanced_accuracy": 0.1111111111111111,
+        "top2_recall": 0.03333333333333333,
+        "top3_recall": 0.1,
+        "mrr": 0.21869708994708986,
+        "macro_precision": 0.0017857142857142857,
+        "macro_recall": 0.1,
+        "macro_f1": 0.003508771929824561,
+        "weighted_precision": 0.0002976190476190476,
+        "weighted_recall": 0.016666666666666666,
+        "weighted_f1": 0.0005847953216374269,
+        "micro_precision": 0.016666666666666666,
+        "micro_recall": 0.016666666666666666,
+        "micro_f1": 0.016666666666666666,
+        "per_class": {
+          "Coding": {
+            "support": 1,
+            "precision": 0.017857142857142856,
+            "recall": 1.0,
+            "f1": 0.03508771929824561,
+            "correct_predictions": 1,
+            "incorrect_predictions": 0
+          },
+          "Communication": {
+            "support": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 2
+          },
+          "Connectivity": {
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 0
+          },
+          "Education": {
+            "support": 22,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 22
+          },
+          "Entertainment": {
+            "support": 8,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 8
+          },
+          "General": {
+            "support": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 2
+          },
+          "Payment": {
+            "support": 3,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 3
+          },
+          "Shopping": {
+            "support": 11,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 11
+          },
+          "Travel": {
+            "support": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 5
+          },
+          "Work & Career": {
+            "support": 6,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 6
+          }
+        },
+        "confusion_matrix": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            21,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            7,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "normalized_confusion_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.9545454545454546,
+            0.0,
+            0.045454545454545456,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.875,
+            0.0,
+            0.125,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.5,
+            0.0,
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.9090909090909091,
+            0.0,
+            0.09090909090909091,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "top_confusion_pairs": [
+          {
+            "true_category": "Education",
+            "predicted_category": "Coding",
+            "count": 21
+          },
+          {
+            "true_category": "Shopping",
+            "predicted_category": "Coding",
+            "count": 10
+          },
+          {
+            "true_category": "Entertainment",
+            "predicted_category": "Coding",
+            "count": 7
+          },
+          {
+            "true_category": "Work & Career",
+            "predicted_category": "Coding",
+            "count": 6
+          },
+          {
+            "true_category": "Travel",
+            "predicted_category": "Coding",
+            "count": 5
+          },
+          {
+            "true_category": "Payment",
+            "predicted_category": "Coding",
+            "count": 3
+          },
+          {
+            "true_category": "Communication",
+            "predicted_category": "Coding",
+            "count": 2
+          },
+          {
+            "true_category": "Education",
+            "predicted_category": "Connectivity",
+            "count": 1
+          },
+          {
+            "true_category": "Entertainment",
+            "predicted_category": "Connectivity",
+            "count": 1
+          },
+          {
+            "true_category": "General",
+            "predicted_category": "Coding",
+            "count": 1
+          }
+        ],
+        "confidence_metrics": {
+          "mean_confidence": 0.8122764216094964,
+          "median_confidence": 0.8555601822108468,
+          "correct_prediction_mean_confidence": 0.7925528956749068,
+          "incorrect_prediction_mean_confidence": 0.8126107186592352,
+          "log_loss": 4.380969774118895
+        }
+      },
+      "latency_ms": {
+        "ocr_latency_per_image": 240.0,
+        "minilm_latency_per_image": 0.0,
+        "inference_latency_per_image": 0.029036666666648614,
+        "total_cpu_latency_per_image": 240.02903666666666
+      },
+      "footprint_mb": 1.8
+    },
+    "GradientBoosting": {
+      "model_id": "GradientBoosting",
+      "model_name": "Gradient Boosting",
+      "configuration": "Config 4 (TF-IDF + MiniLM)",
+      "cv_top1_accuracy": 0.9868,
+      "cv_macro_f1": 0.9883,
+      "external_top1_accuracy": 0.06666666666666667,
+      "external_correct_count": 4,
+      "external_total_count": 60,
+      "accuracy_drop": 0.9201333333333334,
+      "relative_retention": 0.0675584380489123,
+      "metrics": {
+        "top1_accuracy": 0.06666666666666667,
+        "balanced_accuracy": 0.2037037037037037,
+        "top2_recall": 0.15,
+        "top3_recall": 0.26666666666666666,
+        "mrr": 0.26595238095238083,
+        "macro_precision": 0.15188679245283018,
+        "macro_recall": 0.18333333333333332,
+        "macro_f1": 0.1037037037037037,
+        "weighted_precision": 0.1169811320754717,
+        "weighted_recall": 0.06666666666666667,
+        "weighted_f1": 0.06728395061728396,
+        "micro_precision": 0.06666666666666667,
+        "micro_recall": 0.06666666666666667,
+        "micro_f1": 0.06666666666666667,
+        "per_class": {
+          "Coding": {
+            "support": 1,
+            "precision": 0.018867924528301886,
+            "recall": 1.0,
+            "f1": 0.037037037037037035,
+            "correct_predictions": 1,
+            "incorrect_predictions": 0
+          },
+          "Communication": {
+            "support": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 2
+          },
+          "Connectivity": {
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 0
+          },
+          "Education": {
+            "support": 22,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 22
+          },
+          "Entertainment": {
+            "support": 8,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 8
+          },
+          "General": {
+            "support": 2,
+            "precision": 0.5,
+            "recall": 0.5,
+            "f1": 0.5,
+            "correct_predictions": 1,
+            "incorrect_predictions": 1
+          },
+          "Payment": {
+            "support": 3,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 3
+          },
+          "Shopping": {
+            "support": 11,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 11
+          },
+          "Travel": {
+            "support": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "correct_predictions": 0,
+            "incorrect_predictions": 5
+          },
+          "Work & Career": {
+            "support": 6,
+            "precision": 1.0,
+            "recall": 0.3333333333333333,
+            "f1": 0.5,
+            "correct_predictions": 2,
+            "incorrect_predictions": 4
+          }
+        },
+        "confusion_matrix": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            21,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            7,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        "normalized_confusion_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.9545454545454546,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.045454545454545456,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.875,
+            0.0,
+            0.125,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.8181818181818182,
+            0.0,
+            0.09090909090909091,
+            0.09090909090909091,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.6666666666666666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.3333333333333333
+          ]
+        ],
+        "top_confusion_pairs": [
+          {
+            "true_category": "Education",
+            "predicted_category": "Coding",
+            "count": 21
+          },
+          {
+            "true_category": "Shopping",
+            "predicted_category": "Coding",
+            "count": 9
+          },
+          {
+            "true_category": "Entertainment",
+            "predicted_category": "Coding",
+            "count": 7
+          },
+          {
+            "true_category": "Travel",
+            "predicted_category": "Coding",
+            "count": 5
+          },
+          {
+            "true_category": "Work & Career",
+            "predicted_category": "Coding",
+            "count": 4
+          },
+          {
+            "true_category": "Payment",
+            "predicted_category": "Coding",
+            "count": 3
+          },
+          {
+            "true_category": "Communication",
+            "predicted_category": "Coding",
+            "count": 2
+          },
+          {
+            "true_category": "Education",
+            "predicted_category": "General",
+            "count": 1
+          },
+          {
+            "true_category": "Entertainment",
+            "predicted_category": "Connectivity",
+            "count": 1
+          },
+          {
+            "true_category": "General",
+            "predicted_category": "Coding",
+            "count": 1
+          }
+        ],
+        "confidence_metrics": {
+          "mean_confidence": 0.9582652545329455,
+          "median_confidence": 0.999994707614137,
+          "correct_prediction_mean_confidence": 0.973587676214828,
+          "incorrect_prediction_mean_confidence": 0.9571707958413825,
+          "log_loss": 14.223719606379719
+        }
+      },
+      "latency_ms": {
+        "ocr_latency_per_image": 240.0,
+        "minilm_latency_per_image": 297.52522666666664,
+        "inference_latency_per_image": 0.03281833333327692,
+        "total_cpu_latency_per_image": 537.5580449999999
+      },
+      "footprint_mb": 92.8
+    }
+  },
+  "agreement_summary": {
+    "all_models_agree_pct": 0.8166666666666667,
+    "all_models_agree_count": 49,
+    "all_models_fail_count": 56,
+    "disagree_count": 11,
+    "single_model_correct_count": 3,
+    "multiple_models_correct_count": 1,
+    "majority_vote_correct_count": 1,
+    "majority_vote_accuracy": 0.016666666666666666,
+    "pairwise_agreement": {
+      "ComplementNB vs ComplementNB": 1.0,
+      "ComplementNB vs LogisticRegression": 0.9333333333333333,
+      "ComplementNB vs RandomForest": 1.0,
+      "ComplementNB vs LinearSVC": 0.95,
+      "ComplementNB vs GradientBoosting": 0.8833333333333333,
+      "LogisticRegression vs ComplementNB": 0.9333333333333333,
+      "LogisticRegression vs LogisticRegression": 1.0,
+      "LogisticRegression vs RandomForest": 0.9333333333333333,
+      "LogisticRegression vs LinearSVC": 0.9166666666666666,
+      "LogisticRegression vs GradientBoosting": 0.8833333333333333,
+      "RandomForest vs ComplementNB": 1.0,
+      "RandomForest vs LogisticRegression": 0.9333333333333333,
+      "RandomForest vs RandomForest": 1.0,
+      "RandomForest vs LinearSVC": 0.95,
+      "RandomForest vs GradientBoosting": 0.8833333333333333,
+      "LinearSVC vs ComplementNB": 0.95,
+      "LinearSVC vs LogisticRegression": 0.9166666666666666,
+      "LinearSVC vs RandomForest": 0.95,
+      "LinearSVC vs LinearSVC": 1.0,
+      "LinearSVC vs GradientBoosting": 0.8666666666666667,
+      "GradientBoosting vs ComplementNB": 0.8833333333333333,
+      "GradientBoosting vs LogisticRegression": 0.8833333333333333,
+      "GradientBoosting vs RandomForest": 0.8833333333333333,
+      "GradientBoosting vs LinearSVC": 0.8666666666666667,
+      "GradientBoosting vs GradientBoosting": 1.0
+    }
+  },
+  "per_image_analysis": [
+    {
+      "image_id": "ext_001.jpg",
+      "ground_truth": "Education",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.7268050442209447,
+        "LogisticRegression": 0.8265153918081303,
+        "RandomForest": 0.42044334974372866,
+        "LinearSVC": 0.7276035745702661,
+        "GradientBoosting": 0.9998631601956878
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_002.jpg",
+      "ground_truth": "Shopping",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Connectivity",
+        "RandomForest": "Coding",
+        "LinearSVC": "Connectivity",
+        "GradientBoosting": "Connectivity"
+      },
+      "confidences": {
+        "ComplementNB": 0.24442077565350567,
+        "LogisticRegression": 0.7430329976980408,
+        "RandomForest": 0.3426457366811079,
+        "LinearSVC": 0.4932872246223588,
+        "GradientBoosting": 0.7499862056241896
+      },
+      "num_correct": 0,
+      "all_agree": false,
+      "all_fail": true,
+      "disagree": true
+    },
+    {
+      "image_id": "ext_003.jpg",
+      "ground_truth": "Entertainment",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.6150784747166778,
+        "LogisticRegression": 0.9996107836135592,
+        "RandomForest": 0.42608917372388944,
+        "LinearSVC": 0.8331761534302172,
+        "GradientBoosting": 0.9999999188571408
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_004.jpg",
+      "ground_truth": "Payment",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.6166661836917982,
+        "LogisticRegression": 0.971782503330395,
+        "RandomForest": 0.5925506840216727,
+        "LinearSVC": 0.8541050356098233,
+        "GradientBoosting": 0.9999956298446956
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_005.jpg",
+      "ground_truth": "Education",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.6333655566485357,
+        "LogisticRegression": 0.9191476063391314,
+        "RandomForest": 0.4698067738318188,
+        "LinearSVC": 0.8380833905135457,
+        "GradientBoosting": 0.9999896960973478
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_006.jpg",
+      "ground_truth": "Education",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.5870665741327378,
+        "LogisticRegression": 0.9762085655935471,
+        "RandomForest": 0.458953298083445,
+        "LinearSVC": 0.7605415608984417,
+        "GradientBoosting": 0.9999998945384534
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_007.jpg",
+      "ground_truth": "Education",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "General",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.7302386659904115,
+        "LogisticRegression": 0.8460494451610956,
+        "RandomForest": 0.6487193641476261,
+        "LinearSVC": 0.8419881457531666,
+        "GradientBoosting": 0.9980705430702441
+      },
+      "num_correct": 0,
+      "all_agree": false,
+      "all_fail": true,
+      "disagree": true
+    },
+    {
+      "image_id": "ext_008.jpg",
+      "ground_truth": "Communication",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.7559335781619011,
+        "LogisticRegression": 0.9978146956917927,
+        "RandomForest": 0.7118494199350518,
+        "LinearSVC": 0.9154188115824077,
+        "GradientBoosting": 0.9999993880017453
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_009.jpg",
+      "ground_truth": "Education",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.6087598877597445,
+        "LogisticRegression": 0.9997742349922102,
+        "RandomForest": 0.41377317763953053,
+        "LinearSVC": 0.8842731070057307,
+        "GradientBoosting": 0.9999999627709033
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_010.jpg",
+      "ground_truth": "Education",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Connectivity",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.4752713327884549,
+        "LogisticRegression": 0.9998810046581965,
+        "RandomForest": 0.316205274011851,
+        "LinearSVC": 0.46967885196225984,
+        "GradientBoosting": 0.9999921357881545
+      },
+      "num_correct": 0,
+      "all_agree": false,
+      "all_fail": true,
+      "disagree": true
+    },
+    {
+      "image_id": "ext_011.jpg",
+      "ground_truth": "Education",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.43500701821656074,
+        "LogisticRegression": 0.7948241896426295,
+        "RandomForest": 0.4136230902422065,
+        "LinearSVC": 0.6573735452718169,
+        "GradientBoosting": 0.9976288571778243
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_012.jpg",
+      "ground_truth": "Work & Career",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Work & Career"
+      },
+      "confidences": {
+        "ComplementNB": 0.5286578144881192,
+        "LogisticRegression": 0.9003550466113727,
+        "RandomForest": 0.39557405529634543,
+        "LinearSVC": 0.6551425101004907,
+        "GradientBoosting": 0.9957567577927621
+      },
+      "num_correct": 1,
+      "all_agree": false,
+      "all_fail": false,
+      "disagree": true
+    },
+    {
+      "image_id": "ext_013.jpg",
+      "ground_truth": "Education",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "General",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "General"
+      },
+      "confidences": {
+        "ComplementNB": 0.8812490937084239,
+        "LogisticRegression": 0.3754674494009468,
+        "RandomForest": 0.7512893077375632,
+        "LinearSVC": 0.9117190130146676,
+        "GradientBoosting": 0.9981029733446104
+      },
+      "num_correct": 0,
+      "all_agree": false,
+      "all_fail": true,
+      "disagree": true
+    },
+    {
+      "image_id": "ext_014.jpg",
+      "ground_truth": "Work & Career",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.8165885077403813,
+        "LogisticRegression": 0.9964048848358591,
+        "RandomForest": 0.5569870896021036,
+        "LinearSVC": 0.9017815062013007,
+        "GradientBoosting": 0.9999999560482075
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_015.jpg",
+      "ground_truth": "Education",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.8911708568556561,
+        "LogisticRegression": 0.9997035493446759,
+        "RandomForest": 0.7644877206376557,
+        "LinearSVC": 0.9179219765514014,
+        "GradientBoosting": 0.9977484541651427
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_016.jpg",
+      "ground_truth": "Work & Career",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.672823860725881,
+        "LogisticRegression": 0.9988251496340594,
+        "RandomForest": 0.5625017571400373,
+        "LinearSVC": 0.8789612094809401,
+        "GradientBoosting": 0.9999999600954246
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_017.jpg",
+      "ground_truth": "Shopping",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.6796979274673358,
+        "LogisticRegression": 0.9970986019314488,
+        "RandomForest": 0.5101780826937855,
+        "LinearSVC": 0.9140996767405832,
+        "GradientBoosting": 0.9999998650712445
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_018.jpg",
+      "ground_truth": "Shopping",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.4684668242744501,
+        "LogisticRegression": 0.9385322802863729,
+        "RandomForest": 0.5989910013474214,
+        "LinearSVC": 0.8570153288118704,
+        "GradientBoosting": 0.9999991354836557
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_019.jpg",
+      "ground_truth": "Shopping",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.4201784482537576,
+        "LogisticRegression": 0.9793904842618499,
+        "RandomForest": 0.3863366283221756,
+        "LinearSVC": 0.7179828601969301,
+        "GradientBoosting": 0.9999999284689829
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_020.jpg",
+      "ground_truth": "Education",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.6578230814164031,
+        "LogisticRegression": 0.9953727602222617,
+        "RandomForest": 0.5123924795316093,
+        "LinearSVC": 0.8898084029000363,
+        "GradientBoosting": 0.9999999606251393
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_021.jpg",
+      "ground_truth": "Coding",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.5456946210578596,
+        "LogisticRegression": 0.99128708495345,
+        "RandomForest": 0.5650890495756046,
+        "LinearSVC": 0.7925528956749068,
+        "GradientBoosting": 0.9999999616075398
+      },
+      "num_correct": 5,
+      "all_agree": true,
+      "all_fail": false,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_022.jpg",
+      "ground_truth": "Entertainment",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.5178599482975611,
+        "LogisticRegression": 0.9978799151663701,
+        "RandomForest": 0.3822751994791887,
+        "LinearSVC": 0.8612786424111242,
+        "GradientBoosting": 0.6042828161667336
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_023.jpg",
+      "ground_truth": "Education",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.5640542674127882,
+        "LogisticRegression": 0.9870419856182465,
+        "RandomForest": 0.3833798463267614,
+        "LinearSVC": 0.8119760821053869,
+        "GradientBoosting": 0.9999998539622224
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_024.jpg",
+      "ground_truth": "Education",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.8032089568573811,
+        "LogisticRegression": 0.9999583114311327,
+        "RandomForest": 0.5789163218839182,
+        "LinearSVC": 0.8798093369518916,
+        "GradientBoosting": 0.999974062265467
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_025.jpg",
+      "ground_truth": "Work & Career",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.6658920872107283,
+        "LogisticRegression": 0.8983326452924052,
+        "RandomForest": 0.4830365484673825,
+        "LinearSVC": 0.8810762989099338,
+        "GradientBoosting": 0.9999999435989643
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_026.jpg",
+      "ground_truth": "Entertainment",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Connectivity"
+      },
+      "confidences": {
+        "ComplementNB": 0.5339630025372271,
+        "LogisticRegression": 0.9893963057210903,
+        "RandomForest": 0.35769624173161296,
+        "LinearSVC": 0.7467686231327025,
+        "GradientBoosting": 0.880674026950064
+      },
+      "num_correct": 0,
+      "all_agree": false,
+      "all_fail": true,
+      "disagree": true
+    },
+    {
+      "image_id": "ext_027.jpg",
+      "ground_truth": "Shopping",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.6573049305471702,
+        "LogisticRegression": 0.9965860064512413,
+        "RandomForest": 0.40394437195995536,
+        "LinearSVC": 0.8977763170188849,
+        "GradientBoosting": 0.999999949259912
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_028.jpg",
+      "ground_truth": "Education",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.6827213005254829,
+        "LogisticRegression": 0.9946590642918275,
+        "RandomForest": 0.6278330254085266,
+        "LinearSVC": 0.8587187086127197,
+        "GradientBoosting": 0.9994103985503898
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_029.jpg",
+      "ground_truth": "Shopping",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Education"
+      },
+      "confidences": {
+        "ComplementNB": 0.6194938523805034,
+        "LogisticRegression": 0.9996919110246945,
+        "RandomForest": 0.3602947089206069,
+        "LinearSVC": 0.8908877592255382,
+        "GradientBoosting": 0.9871388094558555
+      },
+      "num_correct": 0,
+      "all_agree": false,
+      "all_fail": true,
+      "disagree": true
+    },
+    {
+      "image_id": "ext_030.jpg",
+      "ground_truth": "Payment",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.5915582657121576,
+        "LogisticRegression": 0.9989448452626777,
+        "RandomForest": 0.6386719909783839,
+        "LinearSVC": 0.8667146834787309,
+        "GradientBoosting": 0.99084973818126
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_031.jpg",
+      "ground_truth": "Education",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.7661382697488053,
+        "LogisticRegression": 0.9989377623752855,
+        "RandomForest": 0.5843158197706512,
+        "LinearSVC": 0.9153443532949904,
+        "GradientBoosting": 0.9999999596281924
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_032.jpg",
+      "ground_truth": "Shopping",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.4748310678647933,
+        "LogisticRegression": 0.7310845020967608,
+        "RandomForest": 0.5968712712719512,
+        "LinearSVC": 0.8239376305709137,
+        "GradientBoosting": 0.5702537489050313
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_033.jpg",
+      "ground_truth": "Entertainment",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.2896454324825496,
+        "LogisticRegression": 0.9880046340122859,
+        "RandomForest": 0.3426457366811079,
+        "LinearSVC": 0.47216742151926533,
+        "GradientBoosting": 0.9975435478482525
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_034.jpg",
+      "ground_truth": "Shopping",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.4600381581249546,
+        "LogisticRegression": 0.9940368874403809,
+        "RandomForest": 0.35321485690514665,
+        "LinearSVC": 0.7137902098492268,
+        "GradientBoosting": 0.9999997936662167
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_035.jpg",
+      "ground_truth": "Travel",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.8617140103360504,
+        "LogisticRegression": 0.9993950903145058,
+        "RandomForest": 0.7103947234661514,
+        "LinearSVC": 0.7851695914913587,
+        "GradientBoosting": 0.6666492166177732
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_036.jpg",
+      "ground_truth": "Work & Career",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Work & Career"
+      },
+      "confidences": {
+        "ComplementNB": 0.6502113577053781,
+        "LogisticRegression": 0.9996959181208822,
+        "RandomForest": 0.5590847861768261,
+        "LinearSVC": 0.8601612301003897,
+        "GradientBoosting": 0.9980994033006725
+      },
+      "num_correct": 1,
+      "all_agree": false,
+      "all_fail": false,
+      "disagree": true
+    },
+    {
+      "image_id": "ext_037.jpg",
+      "ground_truth": "Shopping",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.47668002720738556,
+        "LogisticRegression": 0.9976854465387268,
+        "RandomForest": 0.48399323655302934,
+        "LinearSVC": 0.7955331405753641,
+        "GradientBoosting": 0.9999999477917995
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_038.jpg",
+      "ground_truth": "General",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.6264452333338406,
+        "LogisticRegression": 0.6643455068664852,
+        "RandomForest": 0.43241792787821404,
+        "LinearSVC": 0.7854975911259872,
+        "GradientBoosting": 0.9999999509288682
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_039.jpg",
+      "ground_truth": "General",
+      "predictions": {
+        "ComplementNB": "Connectivity",
+        "LogisticRegression": "Connectivity",
+        "RandomForest": "Connectivity",
+        "LinearSVC": "Connectivity",
+        "GradientBoosting": "General"
+      },
+      "confidences": {
+        "ComplementNB": 0.47274076412826394,
+        "LogisticRegression": 0.5685565447849523,
+        "RandomForest": 0.6013432651539395,
+        "LinearSVC": 0.6410634797652054,
+        "GradientBoosting": 0.9004945821583376
+      },
+      "num_correct": 1,
+      "all_agree": false,
+      "all_fail": false,
+      "disagree": true
+    },
+    {
+      "image_id": "ext_040.jpg",
+      "ground_truth": "Communication",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.741376910761429,
+        "LogisticRegression": 0.9770555629870568,
+        "RandomForest": 0.6783060354263653,
+        "LinearSVC": 0.9070246482633201,
+        "GradientBoosting": 0.9999969234409477
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_041.jpg",
+      "ground_truth": "Work & Career",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.6014125271567454,
+        "LogisticRegression": 0.9993724867245503,
+        "RandomForest": 0.3643795849956525,
+        "LinearSVC": 0.8024115601279885,
+        "GradientBoosting": 0.9999995012159785
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_042.jpg",
+      "ground_truth": "Travel",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.678652690102615,
+        "LogisticRegression": 0.998990509010643,
+        "RandomForest": 0.6264329837619969,
+        "LinearSVC": 0.8397185867114215,
+        "GradientBoosting": 0.9999999607892232
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_043.jpg",
+      "ground_truth": "Education",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.8342924541849868,
+        "LogisticRegression": 0.943335299779917,
+        "RandomForest": 0.5730531160516198,
+        "LinearSVC": 0.8990567532172552,
+        "GradientBoosting": 0.9999997904117142
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_044.jpg",
+      "ground_truth": "Education",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Connectivity",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.7243885123626114,
+        "LogisticRegression": 0.6377023388706404,
+        "RandomForest": 0.6037230519819282,
+        "LinearSVC": 0.8772999065942417,
+        "GradientBoosting": 0.9956131764546284
+      },
+      "num_correct": 0,
+      "all_agree": false,
+      "all_fail": true,
+      "disagree": true
+    },
+    {
+      "image_id": "ext_045.jpg",
+      "ground_truth": "Shopping",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.7100626964214233,
+        "LogisticRegression": 0.994274666401582,
+        "RandomForest": 0.6489042183717868,
+        "LinearSVC": 0.8643307089212375,
+        "GradientBoosting": 0.9999999602902607
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_046.jpg",
+      "ground_truth": "Travel",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.5406065210131925,
+        "LogisticRegression": 0.9910820871201541,
+        "RandomForest": 0.6392246991843953,
+        "LinearSVC": 0.7288284036206502,
+        "GradientBoosting": 0.9998816772339588
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_047.jpg",
+      "ground_truth": "Travel",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.5543262756409642,
+        "LogisticRegression": 0.9781983981858976,
+        "RandomForest": 0.4625222385099145,
+        "LinearSVC": 0.8064549685619286,
+        "GradientBoosting": 0.9996754811550134
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_048.jpg",
+      "ground_truth": "Travel",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.8478028431776918,
+        "LogisticRegression": 0.9951069338414383,
+        "RandomForest": 0.8246008133250653,
+        "LinearSVC": 0.9147940480148682,
+        "GradientBoosting": 0.99999995612695
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_049.jpg",
+      "ground_truth": "Payment",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.8339909072734768,
+        "LogisticRegression": 0.9998102105462187,
+        "RandomForest": 0.7807275901493259,
+        "LinearSVC": 0.8948768146227873,
+        "GradientBoosting": 0.9999999667657722
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_050.jpg",
+      "ground_truth": "Entertainment",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Connectivity",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.25475225918818084,
+        "LogisticRegression": 0.9642618185034081,
+        "RandomForest": 0.3426457366811079,
+        "LinearSVC": 0.4932872246223588,
+        "GradientBoosting": 0.6609567323945884
+      },
+      "num_correct": 0,
+      "all_agree": false,
+      "all_fail": true,
+      "disagree": true
+    },
+    {
+      "image_id": "ext_051.jpg",
+      "ground_truth": "Entertainment",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.6559269383412708,
+        "LogisticRegression": 0.994130277713289,
+        "RandomForest": 0.36842856622760417,
+        "LinearSVC": 0.8464374731588252,
+        "GradientBoosting": 0.9999937853835784
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_052.jpg",
+      "ground_truth": "Education",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.8556153125866696,
+        "LogisticRegression": 0.6665923656418903,
+        "RandomForest": 0.7446739234964936,
+        "LinearSVC": 0.8965786552148812,
+        "GradientBoosting": 0.9952139029888277
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_053.jpg",
+      "ground_truth": "Entertainment",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.40293614745521145,
+        "LogisticRegression": 0.9974119626767651,
+        "RandomForest": 0.3438149872831658,
+        "LinearSVC": 0.6593360700521899,
+        "GradientBoosting": 0.8910090570810827
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_054.jpg",
+      "ground_truth": "Entertainment",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.6085888422304739,
+        "LogisticRegression": 0.3471264950109704,
+        "RandomForest": 0.4510134164210535,
+        "LinearSVC": 0.8138044755250752,
+        "GradientBoosting": 0.999996041643847
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_055.jpg",
+      "ground_truth": "Education",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.8190578043826403,
+        "LogisticRegression": 0.9989140737307673,
+        "RandomForest": 0.7052002916481573,
+        "LinearSVC": 0.9080146640408158,
+        "GradientBoosting": 0.9999999673853706
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_056.jpg",
+      "ground_truth": "Education",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.7609492133622748,
+        "LogisticRegression": 0.9995667365959929,
+        "RandomForest": 0.6490316227079359,
+        "LinearSVC": 0.8862058797885929,
+        "GradientBoosting": 0.9999998748878834
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_057.jpg",
+      "ground_truth": "Shopping",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.7724570678219217,
+        "LogisticRegression": 0.9944962975578576,
+        "RandomForest": 0.651854092449146,
+        "LinearSVC": 0.909925607126468,
+        "GradientBoosting": 0.9999993861553531
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_058.jpg",
+      "ground_truth": "Education",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.5104159669759047,
+        "LogisticRegression": 0.9977032060339381,
+        "RandomForest": 0.36734244235883495,
+        "LinearSVC": 0.8022457838074318,
+        "GradientBoosting": 0.9998429045278768
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_059.jpg",
+      "ground_truth": "Education",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.6465418604511978,
+        "LogisticRegression": 0.9103317872732841,
+        "RandomForest": 0.37486239914815994,
+        "LinearSVC": 0.8713348587320322,
+        "GradientBoosting": 0.999847575566237
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    },
+    {
+      "image_id": "ext_060.jpg",
+      "ground_truth": "Education",
+      "predictions": {
+        "ComplementNB": "Coding",
+        "LogisticRegression": "Coding",
+        "RandomForest": "Coding",
+        "LinearSVC": "Coding",
+        "GradientBoosting": "Coding"
+      },
+      "confidences": {
+        "ComplementNB": 0.8247756224809328,
+        "LogisticRegression": 0.959905156561337,
+        "RandomForest": 0.6656139121888971,
+        "LinearSVC": 0.9144323248126449,
+        "GradientBoosting": 0.6213875561725389
+      },
+      "num_correct": 0,
+      "all_agree": true,
+      "all_fail": true,
+      "disagree": false
+    }
+  ]
+}

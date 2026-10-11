@@ -1,0 +1,69 @@
+{
+  "model_architecture_audit": {
+    "exact_model_name": "all-MiniLM-L6-v2",
+    "huggingface_checkpoint": "sentence-transformers/all-MiniLM-L6-v2",
+    "loaded_class": "src.embedder.SentenceTransformerEmbedder",
+    "embedding_dimension": 384,
+    "preprocessing": "WordPiece tokenizer (bert-base-uncased vocab), max_seq_length=256",
+    "pooling": "Mean Pooling over token representations with attention mask",
+    "normalization": "L2 Normalization (Unit Length Output vectors)",
+    "model_disk_size_mb": 87.34,
+    "ram_load_footprint_mb": 132.29,
+    "single_sample_inference_latency_ms": 14.21,
+    "model_reuse_verified": true,
+    "additional_models_loaded": 0
+  },
+  "internal_validation_evaluation": {
+    "A": {
+      "clf_top1_acc": 0.944,
+      "clf_top3_recall": 0.944,
+      "minilm_recall_1": 0.608,
+      "minilm_recall_3": 0.608,
+      "minilm_recall_5": 0.608,
+      "minilm_mrr": 0.6524444444444444,
+      "union_recall_3": 0.944,
+      "union_recall_5": 0.944,
+      "clf_misses": 7,
+      "misses_recovered": 0
+    },
+    "B": {
+      "clf_top1_acc": 0.944,
+      "clf_top3_recall": 0.944,
+      "minilm_recall_1": 0.6,
+      "minilm_recall_3": 0.608,
+      "minilm_recall_5": 0.608,
+      "minilm_mrr": 0.6479999999999999,
+      "union_recall_3": 0.944,
+      "union_recall_5": 0.944,
+      "clf_misses": 7,
+      "misses_recovered": 0
+    },
+    "C": {
+      "clf_top1_acc": 0.944,
+      "clf_top3_recall": 0.944,
+      "minilm_recall_1": 0.392,
+      "minilm_recall_3": 0.992,
+      "minilm_recall_5": 1.0,
+      "minilm_mrr": 0.6926666666666668,
+      "union_recall_3": 0.944,
+      "union_recall_5": 1.0,
+      "clf_misses": 7,
+      "misses_recovered": 7
+    }
+  },
+  "external_v2_frozen_confirmation": {
+    "clf_top1_acc": 0.7090163934426229,
+    "clf_top2_acc": 0.8032786885245902,
+    "clf_top3_recall": 0.8278688524590164,
+    "minilm_recall_1": 0.36885245901639346,
+    "minilm_recall_3": 0.6188524590163934,
+    "minilm_recall_5": 0.7991803278688525,
+    "minilm_mrr": 0.5482533177205308,
+    "union_recall_3": 0.8401639344262295,
+    "union_recall_5": 0.9016393442622951,
+    "clf_misses": 42,
+    "misses_recovered_top3": 16,
+    "misses_recovered_top5": 24,
+    "recovery_rate_top5": 0.5714285714285714
+  }
+}

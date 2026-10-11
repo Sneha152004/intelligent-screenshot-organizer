@@ -1,0 +1,33 @@
+{
+  "total_discovered_screenshots": 836,
+  "total_valid_screenshots": 833,
+  "total_corrupted_rejected_screenshots": 3,
+  "existing_phase7e_examples": 833,
+  "newly_collected_candidates": 3,
+  "verified_examples": 833,
+  "ambiguous_examples": 0,
+  "rejected_examples": 3,
+  "total_unique_md5_hashes": 795,
+  "exact_duplicate_groups": 40,
+  "per_class_counts": {
+    "product_listing": 0,
+    "product_detail": 137,
+    "cart_checkout_payment": 19,
+    "login_authentication": 0,
+    "messaging_chat": 0,
+    "email_view": 0,
+    "media_player_library": 0,
+    "code_editor_terminal": 48,
+    "document_article_view": 602,
+    "travel_booking": 0,
+    "dashboard_settings": 27,
+    "error_dialog_alert": 0,
+    "other_screen": 0
+  },
+  "partition_support": {
+    "train": 502,
+    "calibration": 162,
+    "validation": 169
+  },
+  "dataset_readiness_status": "DATASET READY WITH DOCUMENTED LIMITATIONS"
+}

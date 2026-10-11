@@ -1,0 +1,10 @@
+{
+  "total_corpus_screenshots": 836,
+  "valid_readable_screenshots": 833,
+  "corrupted_rejected_screenshots": 3,
+  "existing_verified_visual_classes_count": 5,
+  "unsupported_zero_sample_visual_classes_count": 8,
+  "identified_candidate_visual_screen_types_count": 13,
+  "human_review_queue_candidate_count": 438,
+  "dataset_investigation_verdict": "EXISTING DATASET SUFFICIENT AFTER ANNOTATION RECONCILIATION"
+}

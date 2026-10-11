@@ -1,0 +1,4 @@
+dataset,candidate_generator,reranker,top1_acc,top3_acc,macro_f1,balanced_acc,mrr,pool_coverage,corrections,harms,net_improvement
+Internal Validation (n=125),Classifier Top-5 + MiniLM Top-5,Multi-Signal Evidence Reranker V2,0.944,1.0,0.9709,0.9821,0.9627,1.0,0,0,0
+Internal Holdout Test (n=125),Classifier Top-5 + MiniLM Top-5,Multi-Signal Evidence Reranker V2,0.992,1.0,0.9748,0.9942,0.996,1.0,0,0,0
+External V2 Frozen Benchmark (n=244),Classifier Top-5 + MiniLM Top-5,Multi-Signal Evidence Reranker V2,0.4754,0.832,0.5147,0.7304,0.6496,0.8893,9,66,-57

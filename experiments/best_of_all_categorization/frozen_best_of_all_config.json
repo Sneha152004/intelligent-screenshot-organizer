@@ -1,0 +1,42 @@
+{
+  "experiment_name": "best_of_all_categorization",
+  "status": "FROZEN",
+  "timestamp": "2026-10-08T00:58:00+05:30",
+  "components": {
+    "semantic_classifier": {
+      "model": "RecoverySemanticCandidate",
+      "variant": "C",
+      "top_k": 5
+    },
+    "embedder": {
+      "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+      "shared_instance": true,
+      "reused_from_chromadb": true
+    },
+    "minilm_prototypes": {
+      "mode": "hybrid",
+      "centroid_weight": 0.50,
+      "description_weight": 0.50,
+      "top_k": 5
+    },
+    "candidate_pool_union": {
+      "rule": "Classifier Top-5 UNION Hybrid MiniLM Top-5",
+      "max_pool_size": 10
+    },
+    "score_fusion": {
+      "w_clf": 0.55,
+      "w_minilm": 0.25,
+      "w_agree": 0.15,
+      "w_ocr": 0.20,
+      "w_vis": 0.15,
+      "min_max_normalization": false
+    },
+    "guardrails_and_heuristics": {
+      "high_confidence_guardrail": true,
+      "sparse_text_handling": true,
+      "sparse_text_word_count_threshold": 4,
+      "sparse_text_minilm_scale": 0.30,
+      "general_category_phrase_penalty": 0.50
+    }
+  }
+}

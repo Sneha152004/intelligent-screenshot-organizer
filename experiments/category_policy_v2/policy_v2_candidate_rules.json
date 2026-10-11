@@ -1,0 +1,47 @@
+[
+  {
+    "rule_id": "V2_Rule1_Education_Calib",
+    "category": "Education",
+    "trigger_evidence": ["weka explorer", "coursera", "canvas lms", "quiz submission", "homework assignment", "lecture notes", "course syllabus"],
+    "supporting_evidence": ["academic lecture", "classroom", "course material"],
+    "negative_indicators": ["shopping cart", "payment receipt"],
+    "confusable_categories": ["General", "Entertainment"],
+    "expected_effect": "Boosts coursework platforms, IDE tutorial screens, and learning software into Education rather than General or Entertainment."
+  },
+  {
+    "rule_id": "V2_Rule2_Work_Dashboard_Calib",
+    "category": "Work & Career",
+    "trigger_evidence": ["projects", "tasks", "crm", "timeline view", "business partner", "client name"],
+    "supporting_evidence": [],
+    "negative_indicators": ["hiring", "job vacancy", "job application", "resume", "interview invitation"],
+    "confusable_categories": ["General"],
+    "expected_effect": "Prevents internal software dashboard and task list UIs from being falsely promoted to Work & Career when hiring/job vacancy intent is absent."
+  },
+  {
+    "rule_id": "V2_Rule3_General_Penalty_Safeguard",
+    "category": "General",
+    "trigger_evidence": ["general layout", "generic UI browsing"],
+    "supporting_evidence": ["classifier top-1 General"],
+    "negative_indicators": ["strong domain matches >= 2", "policy boost >= 2.0"],
+    "confusable_categories": ["Shopping", "Payment", "Work & Career", "Entertainment", "Education"],
+    "expected_effect": "Protects General from aggressive multiplier penalty unless another domain category has at least 2 strong OCR matches or primary object evidence."
+  },
+  {
+    "rule_id": "V2_Rule4_Payment_Calib",
+    "category": "Payment",
+    "trigger_evidence": ["sent $", "usd to", "invoice amount", "subtotal"],
+    "supporting_evidence": [],
+    "negative_indicators": ["payment successful", "transaction successful", "paid successfully", "money transferred", "upi transaction id"],
+    "confusable_categories": ["General", "Shopping"],
+    "expected_effect": "Prevents generic currency numbers or unsubmitted invoices from over-triggering Payment without completed transaction proof."
+  },
+  {
+    "rule_id": "V2_Rule5_Shopping_Calib",
+    "category": "Shopping",
+    "trigger_evidence": ["explore", "search or ask", "categories", "home living", "beauty accessories"],
+    "supporting_evidence": [],
+    "negative_indicators": ["add to cart", "add to bag", "buy now", "checkout"],
+    "confusable_categories": ["General"],
+    "expected_effect": "Prevents general e-commerce landing page browsing without active cart/checkout intent from overriding General."
+  }
+]

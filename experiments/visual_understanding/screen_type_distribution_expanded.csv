@@ -1,0 +1,14 @@
+screen_type,actual_count,percentage,target_count,coverage_status
+cart_checkout_payment,26,3.12,40,PARTIAL
+code_editor_terminal,33,3.96,30,MET
+dashboard_settings,30,3.6,30,MET
+document_article_view,610,73.23,60,MET
+email_view,0,0.0,30,SPARSE
+error_dialog_alert,0,0.0,25,SPARSE
+login_authentication,0,0.0,25,SPARSE
+media_player_library,0,0.0,30,SPARSE
+messaging_chat,0,0.0,30,SPARSE
+other_screen,0,0.0,30,SPARSE
+product_detail,134,16.09,40,MET
+product_listing,0,0.0,30,SPARSE
+travel_booking,0,0.0,25,SPARSE

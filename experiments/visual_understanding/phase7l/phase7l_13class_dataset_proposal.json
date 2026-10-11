@@ -1,0 +1,84 @@
+{
+  "total_verified_screenshots": 443,
+  "total_unique_duplicate_groups": 18,
+  "classes": {
+    "product_listing": {
+      "verified_screenshots": 31,
+      "unique_duplicate_groups": 2,
+      "status": "LIMITED",
+      "reason": "Low unique group count (2-4 groups); suitable only for val/probe evaluation."
+    },
+    "product_detail": {
+      "verified_screenshots": 27,
+      "unique_duplicate_groups": 1,
+      "status": "INSUFFICIENT",
+      "reason": "Single group or zero examples (0-1 groups); high risk of severe train/val data leakage."
+    },
+    "cart_checkout_payment": {
+      "verified_screenshots": 10,
+      "unique_duplicate_groups": 4,
+      "status": "LIMITED",
+      "reason": "Low unique group count (2-4 groups); suitable only for val/probe evaluation."
+    },
+    "login_authentication": {
+      "verified_screenshots": 15,
+      "unique_duplicate_groups": 1,
+      "status": "INSUFFICIENT",
+      "reason": "Single group or zero examples (0-1 groups); high risk of severe train/val data leakage."
+    },
+    "messaging_chat": {
+      "verified_screenshots": 2,
+      "unique_duplicate_groups": 2,
+      "status": "LIMITED",
+      "reason": "Low unique group count (2-4 groups); suitable only for val/probe evaluation."
+    },
+    "email_view": {
+      "verified_screenshots": 0,
+      "unique_duplicate_groups": 0,
+      "status": "INSUFFICIENT",
+      "reason": "Single group or zero examples (0-1 groups); high risk of severe train/val data leakage."
+    },
+    "media_player_library": {
+      "verified_screenshots": 28,
+      "unique_duplicate_groups": 1,
+      "status": "INSUFFICIENT",
+      "reason": "Single group or zero examples (0-1 groups); high risk of severe train/val data leakage."
+    },
+    "code_editor_terminal": {
+      "verified_screenshots": 31,
+      "unique_duplicate_groups": 7,
+      "status": "READY",
+      "reason": "Sufficient unique canonical groups (>=5) for group-isolated train/calib/val splits."
+    },
+    "document_article_view": {
+      "verified_screenshots": 21,
+      "unique_duplicate_groups": 2,
+      "status": "LIMITED",
+      "reason": "Low unique group count (2-4 groups); suitable only for val/probe evaluation."
+    },
+    "travel_booking": {
+      "verified_screenshots": 47,
+      "unique_duplicate_groups": 6,
+      "status": "READY",
+      "reason": "Sufficient unique canonical groups (>=5) for group-isolated train/calib/val splits."
+    },
+    "dashboard_settings": {
+      "verified_screenshots": 8,
+      "unique_duplicate_groups": 1,
+      "status": "INSUFFICIENT",
+      "reason": "Single group or zero examples (0-1 groups); high risk of severe train/val data leakage."
+    },
+    "error_dialog_alert": {
+      "verified_screenshots": 8,
+      "unique_duplicate_groups": 1,
+      "status": "INSUFFICIENT",
+      "reason": "Single group or zero examples (0-1 groups); high risk of severe train/val data leakage."
+    },
+    "other_screen": {
+      "verified_screenshots": 215,
+      "unique_duplicate_groups": 8,
+      "status": "READY",
+      "reason": "Sufficient unique canonical groups (>=5) for group-isolated train/calib/val splits."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+screen_type,total_count,train_count,cal_count,val_count,high_confidence_count,medium_confidence_count,low_confidence_count,readiness_status
+product_listing,0,0,0,0,0,0,0,UNSUPPORTED_NO_DATA
+product_detail,137,82,26,29,137,0,0,TRAINABLE_CANDIDATE
+cart_checkout_payment,19,11,4,4,19,0,0,LIMITED_EXPERIMENTAL
+login_authentication,0,0,0,0,0,0,0,UNSUPPORTED_NO_DATA
+messaging_chat,0,0,0,0,0,0,0,UNSUPPORTED_NO_DATA
+email_view,0,0,0,0,0,0,0,UNSUPPORTED_NO_DATA
+media_player_library,0,0,0,0,0,0,0,UNSUPPORTED_NO_DATA
+code_editor_terminal,48,30,8,10,42,6,0,TRAINABLE_CANDIDATE
+document_article_view,602,363,118,121,128,474,0,TRAINABLE_CANDIDATE
+travel_booking,0,0,0,0,0,0,0,UNSUPPORTED_NO_DATA
+dashboard_settings,27,16,6,5,6,21,0,LIMITED_EXPERIMENTAL
+error_dialog_alert,0,0,0,0,0,0,0,UNSUPPORTED_NO_DATA
+other_screen,0,0,0,0,0,0,0,UNSUPPORTED_NO_DATA

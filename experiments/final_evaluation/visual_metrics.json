@@ -1,0 +1,261 @@
+{
+  "model_name": "Ultralytics YOLOv8n-cls (5-Class)",
+  "parameter_count": 1444693,
+  "fp32_size_mb": 5.58,
+  "int8_size_mb": 5.58,
+  "train": {
+    "count": 83,
+    "top1_accuracy": 0.963855421686747,
+    "top2_accuracy": 1.0,
+    "top3_accuracy": 1.0,
+    "balanced_accuracy": 0.9574660633484162,
+    "macro_precision": 0.98125,
+    "macro_recall": 0.9574660633484162,
+    "macro_f1": 0.9674366616989568,
+    "weighted_precision": 0.9672439759036144,
+    "weighted_recall": 0.963855421686747,
+    "weighted_f1": 0.963557658353234,
+    "median_latency_ms": 31.718599999999597,
+    "p95_latency_ms": 70.38442999999971,
+    "per_class": {
+      "code_editor_terminal": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 19
+      },
+      "travel_booking": {
+        "precision": 0.90625,
+        "recall": 1.0,
+        "f1": 0.9508196721311475,
+        "support": 29
+      },
+      "media_player_library": {
+        "precision": 1.0,
+        "recall": 0.9411764705882353,
+        "f1": 0.9696969696969697,
+        "support": 17
+      },
+      "document_article_view": {
+        "precision": 1.0,
+        "recall": 0.8461538461538461,
+        "f1": 0.9166666666666666,
+        "support": 13
+      },
+      "dashboard_settings": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5
+      }
+    },
+    "confusion_matrix": [
+      [
+        19,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        29,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        16,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        11,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        5
+      ]
+    ]
+  },
+  "calibration": {
+    "count": 27,
+    "top1_accuracy": 0.7037037037037037,
+    "top2_accuracy": 0.8888888888888888,
+    "top3_accuracy": 0.9259259259259259,
+    "balanced_accuracy": 0.6,
+    "macro_precision": 0.6085714285714285,
+    "macro_recall": 0.6,
+    "macro_f1": 0.5892490118577075,
+    "weighted_precision": 0.6735449735449736,
+    "weighted_recall": 0.7037037037037037,
+    "weighted_f1": 0.6676035719513981,
+    "median_latency_ms": 30.84280000000028,
+    "p95_latency_ms": 74.19847999999972,
+    "per_class": {
+      "code_editor_terminal": {
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8,
+        "support": 6
+      },
+      "travel_booking": {
+        "precision": 0.6428571428571429,
+        "recall": 1.0,
+        "f1": 0.782608695652174,
+        "support": 9
+      },
+      "media_player_library": {
+        "precision": 0.4,
+        "recall": 0.3333333333333333,
+        "f1": 0.36363636363636365,
+        "support": 6
+      },
+      "document_article_view": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 4
+      },
+      "dashboard_settings": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 2
+      }
+    },
+    "confusion_matrix": [
+      [
+        4,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        9,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        4,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "validation": {
+    "count": 25,
+    "top1_accuracy": 0.72,
+    "top2_accuracy": 0.8,
+    "top3_accuracy": 0.88,
+    "balanced_accuracy": 0.5533333333333333,
+    "macro_precision": 0.6385714285714286,
+    "macro_recall": 0.5533333333333333,
+    "macro_f1": 0.5686429512516469,
+    "weighted_precision": 0.7334285714285715,
+    "weighted_recall": 0.72,
+    "weighted_f1": 0.6962845849802372,
+    "median_latency_ms": 31.90400000000082,
+    "p95_latency_ms": 87.51133999999958,
+    "per_class": {
+      "code_editor_terminal": {
+        "precision": 0.8,
+        "recall": 0.6666666666666666,
+        "f1": 0.7272727272727273,
+        "support": 6
+      },
+      "travel_booking": {
+        "precision": 0.6428571428571429,
+        "recall": 1.0,
+        "f1": 0.782608695652174,
+        "support": 9
+      },
+      "media_player_library": {
+        "precision": 0.75,
+        "recall": 0.6,
+        "f1": 0.6666666666666666,
+        "support": 5
+      },
+      "document_article_view": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666,
+        "support": 4
+      },
+      "dashboard_settings": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1
+      }
+    },
+    "confusion_matrix": [
+      [
+        4,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        9,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        3,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "generalization_gap": {
+    "train_to_val_top1_gap": 0.243855421686747
+  }
+}

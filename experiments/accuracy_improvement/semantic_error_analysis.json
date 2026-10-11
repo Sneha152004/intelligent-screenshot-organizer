@@ -1,0 +1,266 @@
+{
+  "total_validation_samples": 125,
+  "total_errors": 25,
+  "accuracy": 0.8,
+  "top_confusion_pairs": {
+    "General -> Connectivity": 17,
+    "Work & Career -> General": 7,
+    "Work & Career -> Communication": 1
+  },
+  "error_type_breakdown": {
+    "Keyword Match Noise": 18,
+    "Fallback to General (Low Evidence)": 7
+  },
+  "error_details": [
+    {
+      "screenshot_id": "ss_251",
+      "filename": "ss_251.jpg",
+      "ground_truth": "General",
+      "predicted_category": "Connectivity",
+      "confidence": "Low",
+      "ocr_length": 78,
+      "error_type": "Keyword Match Noise",
+      "ocr_snippet": "Screenshot showing general app, utility, account, settings, or system content."
+    },
+    {
+      "screenshot_id": "ss_253",
+      "filename": "ss_253.jpg",
+      "ground_truth": "General",
+      "predicted_category": "Connectivity",
+      "confidence": "Low",
+      "ocr_length": 78,
+      "error_type": "Keyword Match Noise",
+      "ocr_snippet": "Screenshot showing general app, utility, account, settings, or system content."
+    },
+    {
+      "screenshot_id": "ss_255",
+      "filename": "ss_255.jpg",
+      "ground_truth": "General",
+      "predicted_category": "Connectivity",
+      "confidence": "Low",
+      "ocr_length": 78,
+      "error_type": "Keyword Match Noise",
+      "ocr_snippet": "Screenshot showing general app, utility, account, settings, or system content."
+    },
+    {
+      "screenshot_id": "ss_257",
+      "filename": "ss_257.jpg",
+      "ground_truth": "General",
+      "predicted_category": "Connectivity",
+      "confidence": "Low",
+      "ocr_length": 52,
+      "error_type": "Keyword Match Noise",
+      "ocr_snippet": "Screenshot showing account/settings or login screen."
+    },
+    {
+      "screenshot_id": "ss_259",
+      "filename": "ss_259.jpg",
+      "ground_truth": "General",
+      "predicted_category": "Connectivity",
+      "confidence": "Low",
+      "ocr_length": 78,
+      "error_type": "Keyword Match Noise",
+      "ocr_snippet": "Screenshot showing general app, utility, account, settings, or system content."
+    },
+    {
+      "screenshot_id": "ss_265",
+      "filename": "ss_265.jpg",
+      "ground_truth": "General",
+      "predicted_category": "Connectivity",
+      "confidence": "Low",
+      "ocr_length": 78,
+      "error_type": "Keyword Match Noise",
+      "ocr_snippet": "Screenshot showing general app, utility, account, settings, or system content."
+    },
+    {
+      "screenshot_id": "ss_267",
+      "filename": "ss_267.jpg",
+      "ground_truth": "General",
+      "predicted_category": "Connectivity",
+      "confidence": "Low",
+      "ocr_length": 78,
+      "error_type": "Keyword Match Noise",
+      "ocr_snippet": "Screenshot showing general app, utility, account, settings, or system content."
+    },
+    {
+      "screenshot_id": "ss_269",
+      "filename": "ss_269.jpg",
+      "ground_truth": "General",
+      "predicted_category": "Connectivity",
+      "confidence": "Low",
+      "ocr_length": 78,
+      "error_type": "Keyword Match Noise",
+      "ocr_snippet": "Screenshot showing general app, utility, account, settings, or system content."
+    },
+    {
+      "screenshot_id": "ss_271",
+      "filename": "ss_271.jpg",
+      "ground_truth": "General",
+      "predicted_category": "Connectivity",
+      "confidence": "Low",
+      "ocr_length": 78,
+      "error_type": "Keyword Match Noise",
+      "ocr_snippet": "Screenshot showing general app, utility, account, settings, or system content."
+    },
+    {
+      "screenshot_id": "ss_273",
+      "filename": "ss_273.jpg",
+      "ground_truth": "General",
+      "predicted_category": "Connectivity",
+      "confidence": "Low",
+      "ocr_length": 78,
+      "error_type": "Keyword Match Noise",
+      "ocr_snippet": "Screenshot showing general app, utility, account, settings, or system content."
+    },
+    {
+      "screenshot_id": "ss_275",
+      "filename": "ss_275.jpg",
+      "ground_truth": "General",
+      "predicted_category": "Connectivity",
+      "confidence": "Low",
+      "ocr_length": 78,
+      "error_type": "Keyword Match Noise",
+      "ocr_snippet": "Screenshot showing general app, utility, account, settings, or system content."
+    },
+    {
+      "screenshot_id": "ss_277",
+      "filename": "ss_277.jpg",
+      "ground_truth": "General",
+      "predicted_category": "Connectivity",
+      "confidence": "Low",
+      "ocr_length": 78,
+      "error_type": "Keyword Match Noise",
+      "ocr_snippet": "Screenshot showing general app, utility, account, settings, or system content."
+    },
+    {
+      "screenshot_id": "ss_285",
+      "filename": "ss_285.jpg",
+      "ground_truth": "General",
+      "predicted_category": "Connectivity",
+      "confidence": "Low",
+      "ocr_length": 78,
+      "error_type": "Keyword Match Noise",
+      "ocr_snippet": "Screenshot showing general app, utility, account, settings, or system content."
+    },
+    {
+      "screenshot_id": "ss_287",
+      "filename": "ss_287.jpg",
+      "ground_truth": "General",
+      "predicted_category": "Connectivity",
+      "confidence": "Low",
+      "ocr_length": 78,
+      "error_type": "Keyword Match Noise",
+      "ocr_snippet": "Screenshot showing general app, utility, account, settings, or system content."
+    },
+    {
+      "screenshot_id": "ss_294",
+      "filename": "ss_294.png",
+      "ground_truth": "Work & Career",
+      "predicted_category": "General",
+      "confidence": "High",
+      "ocr_length": 56,
+      "error_type": "Fallback to General (Low Evidence)",
+      "ocr_snippet": "Screenshot showing work or service-management dashboard."
+    },
+    {
+      "screenshot_id": "ss_296",
+      "filename": "ss_296.png",
+      "ground_truth": "Work & Career",
+      "predicted_category": "General",
+      "confidence": "High",
+      "ocr_length": 56,
+      "error_type": "Fallback to General (Low Evidence)",
+      "ocr_snippet": "Screenshot showing work or service-management dashboard."
+    },
+    {
+      "screenshot_id": "ss_300",
+      "filename": "ss_300.png",
+      "ground_truth": "Work & Career",
+      "predicted_category": "Communication",
+      "confidence": "Low",
+      "ocr_length": 102,
+      "error_type": "Keyword Match Noise",
+      "ocr_snippet": "iMaintenance work-management screen showing a welcome/onboarding message and work-order functionality."
+    },
+    {
+      "screenshot_id": "ss_302",
+      "filename": "ss_302.png",
+      "ground_truth": "Work & Career",
+      "predicted_category": "General",
+      "confidence": "High",
+      "ocr_length": 56,
+      "error_type": "Fallback to General (Low Evidence)",
+      "ocr_snippet": "Screenshot showing work or service-management dashboard."
+    },
+    {
+      "screenshot_id": "ss_306",
+      "filename": "ss_306.png",
+      "ground_truth": "Work & Career",
+      "predicted_category": "General",
+      "confidence": "High",
+      "ocr_length": 56,
+      "error_type": "Fallback to General (Low Evidence)",
+      "ocr_snippet": "Screenshot showing work or service-management dashboard."
+    },
+    {
+      "screenshot_id": "ss_307",
+      "filename": "ss_307.jpg",
+      "ground_truth": "General",
+      "predicted_category": "Connectivity",
+      "confidence": "Low",
+      "ocr_length": 78,
+      "error_type": "Keyword Match Noise",
+      "ocr_snippet": "Screenshot showing general app, utility, account, settings, or system content."
+    },
+    {
+      "screenshot_id": "ss_308",
+      "filename": "ss_308.png",
+      "ground_truth": "Work & Career",
+      "predicted_category": "General",
+      "confidence": "High",
+      "ocr_length": 56,
+      "error_type": "Fallback to General (Low Evidence)",
+      "ocr_snippet": "Screenshot showing work or service-management dashboard."
+    },
+    {
+      "screenshot_id": "ss_328",
+      "filename": "ss_328.png",
+      "ground_truth": "Work & Career",
+      "predicted_category": "General",
+      "confidence": "High",
+      "ocr_length": 56,
+      "error_type": "Fallback to General (Low Evidence)",
+      "ocr_snippet": "Screenshot showing work or service-management dashboard."
+    },
+    {
+      "screenshot_id": "ss_337",
+      "filename": "ss_337.png",
+      "ground_truth": "Work & Career",
+      "predicted_category": "General",
+      "confidence": "High",
+      "ocr_length": 56,
+      "error_type": "Fallback to General (Low Evidence)",
+      "ocr_snippet": "Screenshot showing work or service-management dashboard."
+    },
+    {
+      "screenshot_id": "ss_370",
+      "filename": "ss_370.jpg",
+      "ground_truth": "General",
+      "predicted_category": "Connectivity",
+      "confidence": "Low",
+      "ocr_length": 78,
+      "error_type": "Keyword Match Noise",
+      "ocr_snippet": "Screenshot showing general app, utility, account, settings, or system content."
+    },
+    {
+      "screenshot_id": "ss_373",
+      "filename": "ss_373.jpg",
+      "ground_truth": "General",
+      "predicted_category": "Connectivity",
+      "confidence": "Low",
+      "ocr_length": 78,
+      "error_type": "Keyword Match Noise",
+      "ocr_snippet": "Screenshot showing general app, utility, account, settings, or system content."
+    }
+  ]
+}

@@ -1,0 +1,4582 @@
+{
+  "analysis_timestamp": "2026-09-26T16:34:33.280116+00:00",
+  "summary": {
+    "total_images": 60,
+    "top1_correct": 22,
+    "top1_accuracy": 0.3667,
+    "total_errors": 38,
+    "error_rate": 0.6333,
+    "top2_rescued_count": 11,
+    "top2_accuracy": 0.55,
+    "not_in_top3_errors": 16,
+    "ambiguous_errors_count": 21,
+    "non_ambiguous_errors_count": 17,
+    "confidence_error_breakdown": {
+      "high": 2,
+      "medium": 8,
+      "low": 28
+    },
+    "primary_cause_distribution": {
+      "A. OCR/Evidence Limitation": {
+        "count": 2,
+        "percentage": 5.26
+      },
+      "B. Rule/Evidence Misleading": {
+        "count": 5,
+        "percentage": 13.16
+      },
+      "C. Semantic Classification Limitation": {
+        "count": 15,
+        "percentage": 39.47
+      },
+      "D. Embedding Limitation": {
+        "count": 7,
+        "percentage": 18.42
+      },
+      "E. Content-Type Limitation": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "F. Cross-Category Context Overlap": {
+        "count": 9,
+        "percentage": 23.68
+      },
+      "G. Taxonomy Ambiguity": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "H. Other": {
+        "count": 0,
+        "percentage": 0.0
+      }
+    }
+  },
+  "patterns": [
+    {
+      "pattern": "Education -> Payment",
+      "count": 4,
+      "percentage": 10.53,
+      "affected_filenames": [
+        "ext_010.jpg",
+        "ext_043.jpg",
+        "ext_055.jpg",
+        "ext_058.jpg"
+      ],
+      "sample_failure_reason": "Semantic text description similarity for 'Payment' outweighed semantic similarity for 'Education'."
+    },
+    {
+      "pattern": "Education -> Coding",
+      "count": 3,
+      "percentage": 7.89,
+      "affected_filenames": [
+        "ext_006.jpg",
+        "ext_013.jpg",
+        "ext_052.jpg"
+      ],
+      "sample_failure_reason": "Computer science lecture notes or lab assignments contain source code snippets and technical syntax matching Coding."
+    },
+    {
+      "pattern": "Education -> Work & Career",
+      "count": 3,
+      "percentage": 7.89,
+      "affected_filenames": [
+        "ext_007.jpg",
+        "ext_011.jpg",
+        "ext_028.jpg"
+      ],
+      "sample_failure_reason": "University announcements, campus drive notices, or academic events overlap with Work & Career event/job listings."
+    },
+    {
+      "pattern": "Education -> Shopping",
+      "count": 3,
+      "percentage": 7.89,
+      "affected_filenames": [
+        "ext_009.jpg",
+        "ext_059.jpg",
+        "ext_060.jpg"
+      ],
+      "sample_failure_reason": "Semantic text description similarity for 'Shopping' outweighed semantic similarity for 'Education'."
+    },
+    {
+      "pattern": "Entertainment -> General",
+      "count": 3,
+      "percentage": 7.89,
+      "affected_filenames": [
+        "ext_022.jpg",
+        "ext_050.jpg",
+        "ext_053.jpg"
+      ],
+      "sample_failure_reason": "Semantic text description similarity for 'General' outweighed semantic similarity for 'Entertainment'."
+    },
+    {
+      "pattern": "Shopping -> General",
+      "count": 2,
+      "percentage": 5.26,
+      "affected_filenames": [
+        "ext_002.jpg",
+        "ext_034.jpg"
+      ],
+      "sample_failure_reason": "Extracted OCR text is extremely sparse (0 words). Crucial visual context (diagrams, layout, handwritten notes) is absent from OCR."
+    },
+    {
+      "pattern": "Entertainment -> Shopping",
+      "count": 2,
+      "percentage": 5.26,
+      "affected_filenames": [
+        "ext_003.jpg",
+        "ext_033.jpg"
+      ],
+      "sample_failure_reason": "Media/movie promotional graphics contain purchase/watch pricing controls overlapping with Shopping product listings."
+    },
+    {
+      "pattern": "Work & Career -> Payment",
+      "count": 2,
+      "percentage": 5.26,
+      "affected_filenames": [
+        "ext_014.jpg",
+        "ext_041.jpg"
+      ],
+      "sample_failure_reason": "Prototype vector embedding for 'Payment' pulled vector similarity away from 'Work & Career'."
+    },
+    {
+      "pattern": "Work & Career -> Communication",
+      "count": 2,
+      "percentage": 5.26,
+      "affected_filenames": [
+        "ext_025.jpg",
+        "ext_036.jpg"
+      ],
+      "sample_failure_reason": "Semantic text description similarity for 'Communication' outweighed semantic similarity for 'Work & Career'."
+    },
+    {
+      "pattern": "Entertainment -> Payment",
+      "count": 2,
+      "percentage": 5.26,
+      "affected_filenames": [
+        "ext_026.jpg",
+        "ext_051.jpg"
+      ],
+      "sample_failure_reason": "Semantic text description similarity for 'Payment' outweighed semantic similarity for 'Entertainment'."
+    },
+    {
+      "pattern": "Travel -> Payment",
+      "count": 2,
+      "percentage": 5.26,
+      "affected_filenames": [
+        "ext_042.jpg",
+        "ext_047.jpg"
+      ],
+      "sample_failure_reason": "Semantic text description similarity for 'Payment' outweighed semantic similarity for 'Travel'."
+    },
+    {
+      "pattern": "Education -> Entertainment",
+      "count": 1,
+      "percentage": 2.63,
+      "affected_filenames": [
+        "ext_001.jpg"
+      ],
+      "sample_failure_reason": "Prototype vector embedding for 'Entertainment' pulled vector similarity away from 'Education'."
+    },
+    {
+      "pattern": "Communication -> Payment",
+      "count": 1,
+      "percentage": 2.63,
+      "affected_filenames": [
+        "ext_008.jpg"
+      ],
+      "sample_failure_reason": "Semantic text description similarity for 'Payment' outweighed semantic similarity for 'Communication'."
+    },
+    {
+      "pattern": "Work & Career -> Shopping",
+      "count": 1,
+      "percentage": 2.63,
+      "affected_filenames": [
+        "ext_016.jpg"
+      ],
+      "sample_failure_reason": "Institutional entry pass or career posting overlaps with academic or identity document context."
+    },
+    {
+      "pattern": "Shopping -> Coding",
+      "count": 1,
+      "percentage": 2.63,
+      "affected_filenames": [
+        "ext_017.jpg"
+      ],
+      "sample_failure_reason": "Semantic text description similarity for 'Coding' outweighed semantic similarity for 'Shopping'."
+    },
+    {
+      "pattern": "Shopping -> Communication",
+      "count": 1,
+      "percentage": 2.63,
+      "affected_filenames": [
+        "ext_019.jpg"
+      ],
+      "sample_failure_reason": "Semantic text description similarity for 'Communication' outweighed semantic similarity for 'Shopping'."
+    },
+    {
+      "pattern": "Coding -> Communication",
+      "count": 1,
+      "percentage": 2.63,
+      "affected_filenames": [
+        "ext_021.jpg"
+      ],
+      "sample_failure_reason": "Prototype vector embedding for 'Communication' pulled vector similarity away from 'Coding'."
+    },
+    {
+      "pattern": "Shopping -> Travel",
+      "count": 1,
+      "percentage": 2.63,
+      "affected_filenames": [
+        "ext_027.jpg"
+      ],
+      "sample_failure_reason": "Prototype vector embedding for 'Travel' pulled vector similarity away from 'Shopping'."
+    },
+    {
+      "pattern": "General -> Shopping",
+      "count": 1,
+      "percentage": 2.63,
+      "affected_filenames": [
+        "ext_038.jpg"
+      ],
+      "sample_failure_reason": "Semantic text description similarity for 'Shopping' outweighed semantic similarity for 'General'."
+    },
+    {
+      "pattern": "General -> Connectivity",
+      "count": 1,
+      "percentage": 2.63,
+      "affected_filenames": [
+        "ext_039.jpg"
+      ],
+      "sample_failure_reason": "Prototype vector embedding for 'Connectivity' pulled vector similarity away from 'General'."
+    },
+    {
+      "pattern": "Communication -> General",
+      "count": 1,
+      "percentage": 2.63,
+      "affected_filenames": [
+        "ext_040.jpg"
+      ],
+      "sample_failure_reason": "Semantic text description similarity for 'General' outweighed semantic similarity for 'Communication'."
+    }
+  ],
+  "failures": [
+    {
+      "image_id": "ext_001",
+      "filename": "ext_001.jpg",
+      "expected_category": "Education",
+      "predicted_category": "Entertainment",
+      "correct_in_top2": false,
+      "correct_in_top3": false,
+      "top_candidates": [
+        {
+          "category": "Entertainment",
+          "final_score": 0.6802,
+          "rule_score": 1.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.2014,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Travel",
+          "final_score": 0.1264,
+          "rule_score": 0.0,
+          "semantic_score": 0.4051,
+          "embedding_score": 0.0321,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "General",
+          "final_score": 0.1205,
+          "rule_score": 0.0,
+          "semantic_score": 0.3494,
+          "embedding_score": 0.1048,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "video",
+      "confidence": 0.7062,
+      "confidence_bucket": "high",
+      "ambiguous": false,
+      "score_margin": 0.5538,
+      "primary_cause": "D. Embedding Limitation",
+      "reasoning": "Prototype vector embedding for 'Entertainment' pulled vector similarity away from 'Education'.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 144,
+      "ocr_text_snippet": "Reel DIOMS Hit the road Leave Kick the bucket Die Jump the gun Act too soon Fit as a fiddle Healthy Break a Good luck Piece of cake Very easy Put your",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 1.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.0,
+          "Payment": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.4051123311850436,
+          "Coding": 0.0,
+          "Communication": 0.0,
+          "Work & Career": 0.312829168649883,
+          "Entertainment": 1.0,
+          "Connectivity": 0.0,
+          "General": 0.34939125473861976
+        },
+        "embedding_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.01867124149727376,
+          "Education": 0.06562851550600467,
+          "Shopping": 0.0,
+          "Travel": 0.0321458950574571,
+          "Communication": 0.019524402041374143,
+          "Coding": 0.0,
+          "Work & Career": 0.08538197188298695,
+          "Entertainment": 0.20141247918969113,
+          "General": 0.10484494596874357
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_002",
+      "filename": "ext_002.jpg",
+      "expected_category": "Shopping",
+      "predicted_category": "General",
+      "correct_in_top2": false,
+      "correct_in_top3": false,
+      "top_candidates": [
+        {
+          "category": "Connectivity",
+          "final_score": 0.0,
+          "rule_score": 0.0,
+          "semantic_score": 0.0,
+          "embedding_score": 0.0,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Payment",
+          "final_score": 0.0,
+          "rule_score": 0.0,
+          "semantic_score": 0.0,
+          "embedding_score": 0.0,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Education",
+          "final_score": 0.0,
+          "rule_score": 0.0,
+          "semantic_score": 0.0,
+          "embedding_score": 0.0,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "unknown",
+      "confidence": 0.0,
+      "confidence_bucket": "low",
+      "ambiguous": true,
+      "score_margin": 0.0,
+      "primary_cause": "A. OCR/Evidence Limitation",
+      "reasoning": "Extracted OCR text is extremely sparse (0 words). Crucial visual context (diagrams, layout, handwritten notes) is absent from OCR.",
+      "text_ocr_sufficient": "NO",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "UNCERTAIN",
+      "ocr_word_count": 0,
+      "ocr_text_snippet": "",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "embedding_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_003",
+      "filename": "ext_003.jpg",
+      "expected_category": "Entertainment",
+      "predicted_category": "Shopping",
+      "correct_in_top2": false,
+      "correct_in_top3": false,
+      "top_candidates": [
+        {
+          "category": "Shopping",
+          "final_score": 0.356,
+          "rule_score": 1.0,
+          "semantic_score": 0.0,
+          "embedding_score": 0.0399,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Work & Career",
+          "final_score": 0.3217,
+          "rule_score": 0.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.1447,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Travel",
+          "final_score": 0.2104,
+          "rule_score": 0.0,
+          "semantic_score": 0.6887,
+          "embedding_score": 0.0253,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "product_page",
+      "confidence": 0.255,
+      "confidence_bucket": "low",
+      "ambiguous": true,
+      "score_margin": 0.0343,
+      "primary_cause": "F. Cross-Category Context Overlap",
+      "reasoning": "Media/movie promotional graphics contain purchase/watch pricing controls overlapping with Shopping product listings.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "NO",
+      "ocr_word_count": 113,
+      "ocr_text_snippet": "ImoOhow-AocK_-Ibun EHL2 JESSICA VUNES U15 (AvENGERS -Eaptain AMERIIA ~THO R TAE Finsi AVENGEF IRON FIST crie IRON MAN 3 Pd Tn THOR H WAt CAPTAIN AMERI",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 1.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.03019993482035314,
+          "Payment": 0.3291815820952049,
+          "Shopping": 0.0,
+          "Travel": 0.6887376334357392,
+          "Coding": 0.005959930208894209,
+          "Communication": 0.24400693344390317,
+          "Work & Career": 1.0,
+          "Entertainment": 0.5970294760968698,
+          "Connectivity": 0.0,
+          "General": 0.4230067329785059
+        },
+        "embedding_scores": {
+          "Connectivity": 0.030566978679601994,
+          "Payment": 0.03909797263491194,
+          "Education": 0.056180136514326615,
+          "Shopping": 0.03991073616582845,
+          "Travel": 0.025307550843012897,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.14468054503380445,
+          "Entertainment": 0.10442635292771019,
+          "General": 0.07225629803169824
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_006",
+      "filename": "ext_006.jpg",
+      "expected_category": "Education",
+      "predicted_category": "Coding",
+      "correct_in_top2": false,
+      "correct_in_top3": true,
+      "top_candidates": [
+        {
+          "category": "Coding",
+          "final_score": 0.3608,
+          "rule_score": 1.0,
+          "semantic_score": 0.0,
+          "embedding_score": 0.072,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Travel",
+          "final_score": 0.3111,
+          "rule_score": 0.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.074,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Education",
+          "final_score": 0.2938,
+          "rule_score": 0.6,
+          "semantic_score": 0.2526,
+          "embedding_score": 0.0535,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "documentation",
+      "confidence": 0.262,
+      "confidence_bucket": "low",
+      "ambiguous": true,
+      "score_margin": 0.0497,
+      "primary_cause": "F. Cross-Category Context Overlap",
+      "reasoning": "Computer science lecture notes or lab assignments contain source code snippets and technical syntax matching Coding.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 64,
+      "ocr_text_snippet": "UnIT 1 SOFTMAX, LOSS AND GRADIENT-BASED LEARNING E. Softmax (multi-class output) softmax(z)_i=e (z_i) sum_j e (z_j) It turns logits into probabilities",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.6000000000000001,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 1.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.25261752884988,
+          "Payment": 0.6076143576520862,
+          "Shopping": 0.0,
+          "Travel": 1.0,
+          "Coding": 0.0,
+          "Communication": 0.8695649893509892,
+          "Work & Career": 0.0,
+          "Entertainment": 0.49859679875156654,
+          "Connectivity": 0.7328695242325863,
+          "General": 0.188619132230003
+        },
+        "embedding_scores": {
+          "Connectivity": 0.03498487488953639,
+          "Payment": 0.04756867173547758,
+          "Education": 0.05349995593350007,
+          "Shopping": 0.0,
+          "Travel": 0.07401883823184195,
+          "Communication": 0.023996958957253105,
+          "Coding": 0.07200070292831463,
+          "Work & Career": 0.0,
+          "Entertainment": 0.017944341240412814,
+          "General": 0.0
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_007",
+      "filename": "ext_007.jpg",
+      "expected_category": "Education",
+      "predicted_category": "Work & Career",
+      "correct_in_top2": false,
+      "correct_in_top3": false,
+      "top_candidates": [
+        {
+          "category": "Work & Career",
+          "final_score": 0.661,
+          "rule_score": 1.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.0736,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Coding",
+          "final_score": 0.4953,
+          "rule_score": 0.8333,
+          "semantic_score": 0.6789,
+          "embedding_score": 0.0,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Shopping",
+          "final_score": 0.418,
+          "rule_score": 0.9091,
+          "semantic_score": 0.3326,
+          "embedding_score": 0.0,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "job_posting",
+      "confidence": 0.5135,
+      "confidence_bucket": "medium",
+      "ambiguous": false,
+      "score_margin": 0.1657,
+      "primary_cause": "F. Cross-Category Context Overlap",
+      "reasoning": "University announcements, campus drive notices, or academic events overlap with Work & Career event/job listings.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "NO",
+      "ocr_word_count": 138,
+      "ocr_text_snippet": "Feature Bagging (Bootstrap Boosting Aggregating) Training Approach Parallel: Models are trained Sequential: Models are trained independently at the sa",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.9090909090909091,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.8333333333333333,
+          "Work & Career": 1.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.31115808577183673,
+          "Payment": 0.3748041049828006,
+          "Shopping": 0.3326211963911453,
+          "Travel": 0.43335389306513433,
+          "Coding": 0.6788502260225822,
+          "Communication": 0.39882626368503066,
+          "Work & Career": 1.0,
+          "Entertainment": 0.5442291668805808,
+          "Connectivity": 0.03709819311934774,
+          "General": 0.7382824045266192
+        },
+        "embedding_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.10782296694156362,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.07355107171350943,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_008",
+      "filename": "ext_008.jpg",
+      "expected_category": "Communication",
+      "predicted_category": "Payment",
+      "correct_in_top2": false,
+      "correct_in_top3": false,
+      "top_candidates": [
+        {
+          "category": "Payment",
+          "final_score": 0.6524,
+          "rule_score": 1.0,
+          "semantic_score": 0.9285,
+          "embedding_score": 0.1589,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Work & Career",
+          "final_score": 0.3362,
+          "rule_score": 0.0,
+          "semantic_score": 0.9811,
+          "embedding_score": 0.2794,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Travel",
+          "final_score": 0.3231,
+          "rule_score": 0.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.1538,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "transaction",
+      "confidence": 0.4877,
+      "confidence_bucket": "medium",
+      "ambiguous": false,
+      "score_margin": 0.3162,
+      "primary_cause": "C. Semantic Classification Limitation",
+      "reasoning": "Semantic text description similarity for 'Payment' outweighed semantic similarity for 'Communication'.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 60,
+      "ocr_text_snippet": "741 @ Mm 509 EH 4*\" 0 Cj Your chapter in [978-3-032-37100-3, DoSCI 2026, LNNS 2205, schedule for paper approval (698286_1_ Chapter 7)] Inbox Summarise",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 1.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.9309580535862358,
+          "Payment": 0.9285195851289536,
+          "Shopping": 0.4099385865718835,
+          "Travel": 1.0,
+          "Coding": 0.2808813949983752,
+          "Communication": 0.6756756300384827,
+          "Work & Career": 0.9810508535547388,
+          "Entertainment": 0.1307344796365637,
+          "Connectivity": 0.7554325934191625,
+          "General": 0.9559203125551122
+        },
+        "embedding_scores": {
+          "Connectivity": 0.22449271782065838,
+          "Payment": 0.15894990667770484,
+          "Education": 0.20560319186273113,
+          "Shopping": 0.09301828378775942,
+          "Travel": 0.15378297897367824,
+          "Communication": 0.18954090176374147,
+          "Coding": 0.015232380466430233,
+          "Work & Career": 0.27940277788928897,
+          "Entertainment": 0.0,
+          "General": 0.12402040575522669
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [
+          {
+            "raw_text": "17 Sep 2026",
+            "text": "17 Sep 2026",
+            "type": "event_date"
+          }
+        ],
+        "urls": [
+          "gmail.com"
+        ],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [
+            "suresh@straive",
+            "shalinisamantray14@gmail"
+          ],
+          "has_payment_keywords": false,
+          "payment_method": "UPI"
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_009",
+      "filename": "ext_009.jpg",
+      "expected_category": "Education",
+      "predicted_category": "Shopping",
+      "correct_in_top2": false,
+      "correct_in_top3": true,
+      "top_candidates": [
+        {
+          "category": "Shopping",
+          "final_score": 0.5249,
+          "rule_score": 1.0,
+          "semantic_score": 0.5472,
+          "embedding_score": 0.0717,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "General",
+          "final_score": 0.3296,
+          "rule_score": 0.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.1976,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Education",
+          "final_score": 0.2774,
+          "rule_score": 0.0,
+          "semantic_score": 0.8327,
+          "embedding_score": 0.1841,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "product_page",
+      "confidence": 0.3877,
+      "confidence_bucket": "low",
+      "ambiguous": false,
+      "score_margin": 0.1953,
+      "primary_cause": "C. Semantic Classification Limitation",
+      "reasoning": "Semantic text description similarity for 'Shopping' outweighed semantic similarity for 'Education'.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 81,
+      "ocr_text_snippet": "#au sdhwan' Page Ho_ YOUVA Date; Bandish - < 120 BPo 10 11 12 13 14 1S Ib 2 845767 48 Pa Sa N; Re Sa Ni Pa Ga Re Ga &e Sa 46 644 Sa SS Ga Re Ga Ss Pa ",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 1.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.8327072583119163,
+          "Payment": 0.5172986230096185,
+          "Shopping": 0.5472160217856125,
+          "Travel": 0.552632147557847,
+          "Coding": 0.05850826860145419,
+          "Communication": 0.0,
+          "Work & Career": 0.3532383914390887,
+          "Entertainment": 0.4158238623254285,
+          "Connectivity": 0.0,
+          "General": 1.0
+        },
+        "embedding_scores": {
+          "Connectivity": 0.05498601637569815,
+          "Payment": 0.14274451436241936,
+          "Education": 0.18412082394802132,
+          "Shopping": 0.07166626476397832,
+          "Travel": 0.19570927491142853,
+          "Communication": 0.008495306470683028,
+          "Coding": 0.042198698930618714,
+          "Work & Career": 0.06854127353619988,
+          "Entertainment": 0.1256561342763958,
+          "General": 0.19762441431135858
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_010",
+      "filename": "ext_010.jpg",
+      "expected_category": "Education",
+      "predicted_category": "Payment",
+      "correct_in_top2": true,
+      "correct_in_top3": true,
+      "top_candidates": [
+        {
+          "category": "Payment",
+          "final_score": 0.3126,
+          "rule_score": 0.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.0839,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Education",
+          "final_score": 0.2484,
+          "rule_score": 0.0,
+          "semantic_score": 0.8097,
+          "embedding_score": 0.0369,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Connectivity",
+          "final_score": 0.1557,
+          "rule_score": 0.0,
+          "semantic_score": 0.4595,
+          "embedding_score": 0.119,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "transaction",
+      "confidence": 0.2422,
+      "confidence_bucket": "low",
+      "ambiguous": true,
+      "score_margin": 0.0642,
+      "primary_cause": "C. Semantic Classification Limitation",
+      "reasoning": "Semantic text description similarity for 'Payment' outweighed semantic similarity for 'Education'.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 65,
+      "ocr_text_snippet": "Gneent ambtm Aan TeanitontL Gnrfu fien Fpunea 4iai Jonn- F> 1+f51FT FTC) FI( + enen Flaan se Peutet Hultijeke 07] Tdee [1,2,4] D] NeL unvelukd 0ut4f L",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.8097301326429487,
+          "Payment": 1.0,
+          "Shopping": 0.0,
+          "Travel": 0.3689807322770978,
+          "Coding": 0.3224367475129239,
+          "Communication": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "Connectivity": 0.4594584346071203,
+          "General": 0.3604049323214042
+        },
+        "embedding_scores": {
+          "Connectivity": 0.11896648032844492,
+          "Payment": 0.08394062766430702,
+          "Education": 0.03686152827851431,
+          "Shopping": 0.0014393067677515056,
+          "Travel": 0.08101868012615668,
+          "Communication": 0.049611153571129336,
+          "Coding": 0.061017711643534686,
+          "Work & Career": 0.07773043393138954,
+          "Entertainment": 0.0,
+          "General": 0.06945539633307624
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_011",
+      "filename": "ext_011.jpg",
+      "expected_category": "Education",
+      "predicted_category": "Work & Career",
+      "correct_in_top2": true,
+      "correct_in_top3": true,
+      "top_candidates": [
+        {
+          "category": "Work & Career",
+          "final_score": 0.6747,
+          "rule_score": 1.0,
+          "semantic_score": 0.9414,
+          "embedding_score": 0.2817,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Education",
+          "final_score": 0.543,
+          "rule_score": 1.0,
+          "semantic_score": 0.5522,
+          "embedding_score": 0.1825,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Shopping",
+          "final_score": 0.4337,
+          "rule_score": 0.9091,
+          "semantic_score": 0.357,
+          "embedding_score": 0.0561,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "job_posting",
+      "confidence": 0.4435,
+      "confidence_bucket": "medium",
+      "ambiguous": false,
+      "score_margin": 0.1317,
+      "primary_cause": "F. Cross-Category Context Overlap",
+      "reasoning": "University announcements, campus drive notices, or academic events overlap with Work & Career event/job listings.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "NO",
+      "ocr_word_count": 32,
+      "ocr_text_snippet": "DLT Quiz CS-16(Activity 2 and 3) Your response has been recorded: Submitanother response This form was created of KIIT University: Contact form owner ",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 1.0,
+          "Shopping": 0.9090909090909091,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 1.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.5522014385774074,
+          "Payment": 0.5817125669937948,
+          "Shopping": 0.3570088487666067,
+          "Travel": 0.6073098694463891,
+          "Coding": 0.34631868740548066,
+          "Communication": 0.6589898788242955,
+          "Work & Career": 0.941391343112788,
+          "Entertainment": 0.34688448519673226,
+          "Connectivity": 0.4736121824892151,
+          "General": 1.0
+        },
+        "embedding_scores": {
+          "Connectivity": 0.055494054329461605,
+          "Payment": 0.1609519135145997,
+          "Education": 0.18250721535569053,
+          "Shopping": 0.05611353512378215,
+          "Travel": 0.04787853729447847,
+          "Communication": 0.18392849668598749,
+          "Coding": 0.0,
+          "Work & Career": 0.28169298222454847,
+          "Entertainment": 0.07690294167190186,
+          "General": 0.17521053125658467
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [
+          {
+            "text": "KIIT",
+            "type": "institution"
+          }
+        ],
+        "events": [
+          {
+            "type": "academic_course",
+            "status": "active",
+            "details": "Academic course syllabus/notice"
+          }
+        ],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": [
+          "university"
+        ]
+      }
+    },
+    {
+      "image_id": "ext_013",
+      "filename": "ext_013.jpg",
+      "expected_category": "Education",
+      "predicted_category": "Coding",
+      "correct_in_top2": false,
+      "correct_in_top3": false,
+      "top_candidates": [
+        {
+          "category": "Coding",
+          "final_score": 0.5532,
+          "rule_score": 0.8333,
+          "semantic_score": 0.8601,
+          "embedding_score": 0.0237,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Work & Career",
+          "final_score": 0.4857,
+          "rule_score": 1.0,
+          "semantic_score": 0.4523,
+          "embedding_score": 0.0,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Shopping",
+          "final_score": 0.417,
+          "rule_score": 0.9091,
+          "semantic_score": 0.3294,
+          "embedding_score": 0.0,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "documentation",
+      "confidence": 0.2969,
+      "confidence_bucket": "low",
+      "ambiguous": true,
+      "score_margin": 0.0675,
+      "primary_cause": "F. Cross-Category Context Overlap",
+      "reasoning": "Computer science lecture notes or lab assignments contain source code snippets and technical syntax matching Coding.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 304,
+      "ocr_text_snippet": "FIXED PARTITION SCHEME Memory is divided into fixed no. of partitions Fixed means no. of partitions are fixed in the memory every partition, only one ",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.9090909090909091,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.8333333333333333,
+          "Work & Career": 1.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.6541746851441136,
+          "Payment": 0.43507248569080254,
+          "Shopping": 0.32943185015506304,
+          "Travel": 0.16154977941883822,
+          "Coding": 0.8600823347768686,
+          "Communication": 1.0,
+          "Work & Career": 0.45234548889180193,
+          "Entertainment": 0.5690757935457561,
+          "Connectivity": 0.165489323974677,
+          "General": 0.5993080009072383
+        },
+        "embedding_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.11817995004838179,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.04844806652025028,
+          "Coding": 0.02369313438893702,
+          "Work & Career": 0.0,
+          "Entertainment": 0.03236113811534107,
+          "General": 0.0
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_014",
+      "filename": "ext_014.jpg",
+      "expected_category": "Work & Career",
+      "predicted_category": "Payment",
+      "correct_in_top2": false,
+      "correct_in_top3": false,
+      "top_candidates": [
+        {
+          "category": "Payment",
+          "final_score": 0.3466,
+          "rule_score": 0.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.3109,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Education",
+          "final_score": 0.3054,
+          "rule_score": 0.0,
+          "semantic_score": 0.8845,
+          "embedding_score": 0.2667,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "General",
+          "final_score": 0.2164,
+          "rule_score": 0.0,
+          "semantic_score": 0.7082,
+          "embedding_score": 0.0265,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "transaction",
+      "confidence": 0.319,
+      "confidence_bucket": "low",
+      "ambiguous": true,
+      "score_margin": 0.0412,
+      "primary_cause": "D. Embedding Limitation",
+      "reasoning": "Prototype vector embedding for 'Payment' pulled vector similarity away from 'Work & Career'.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 77,
+      "ocr_text_snippet": "INDIAN INSTITUTE OF TECHNOLOGY KHARAGPUR-721 302. INDIA, PHONE-03222 255221 ENTRY PASS ID No: : 200251809754256207 Name : NAFISA HASAN DOB : 04-05-200",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.884483254417608,
+          "Payment": 1.0,
+          "Shopping": 0.0,
+          "Travel": 0.45234407768065005,
+          "Coding": 0.13138164307069022,
+          "Communication": 0.0,
+          "Work & Career": 0.6197987817273389,
+          "Entertainment": 0.0,
+          "Connectivity": 0.4705833994669766,
+          "General": 0.7082289864499588
+        },
+        "embedding_scores": {
+          "Connectivity": 0.2620669730014095,
+          "Payment": 0.31085552643552605,
+          "Education": 0.2667050627505122,
+          "Shopping": 0.0015848327037212852,
+          "Travel": 0.1852594345670908,
+          "Communication": 0.04970170370324504,
+          "Coding": 0.020284608009360557,
+          "Work & Career": 0.19629646669921985,
+          "Entertainment": 0.004616212922025239,
+          "General": 0.02653704831130686
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": "Card"
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_016",
+      "filename": "ext_016.jpg",
+      "expected_category": "Work & Career",
+      "predicted_category": "Shopping",
+      "correct_in_top2": false,
+      "correct_in_top3": true,
+      "top_candidates": [
+        {
+          "category": "Shopping",
+          "final_score": 0.4382,
+          "rule_score": 1.0,
+          "semantic_score": 0.2405,
+          "embedding_score": 0.107,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Education",
+          "final_score": 0.3462,
+          "rule_score": 0.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.308,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Work & Career",
+          "final_score": 0.3259,
+          "rule_score": 0.0,
+          "semantic_score": 0.9479,
+          "embedding_score": 0.2768,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "product_page",
+      "confidence": 0.3134,
+      "confidence_bucket": "low",
+      "ambiguous": true,
+      "score_margin": 0.092,
+      "primary_cause": "F. Cross-Category Context Overlap",
+      "reasoning": "Institutional entry pass or career posting overlaps with academic or identity document context.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "NO",
+      "ocr_word_count": 48,
+      "ocr_text_snippet": "4.31:18 269 VoLfeg ,ll ,l 100% Piyush Das 62 ZYcus How to apply Date: Pre Sales Solutions Consultant Apply Here Details: Applications Open Till Saturd",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 1.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 1.0,
+          "Payment": 0.44680881766662084,
+          "Shopping": 0.24045112720115894,
+          "Travel": 0.5853920186530431,
+          "Coding": 0.24055369942024146,
+          "Communication": 0.060143029888233834,
+          "Work & Career": 0.9479402326753323,
+          "Entertainment": 0.19900217880854454,
+          "Connectivity": 0.3416219168848971,
+          "General": 0.5266589095406381
+        },
+        "embedding_scores": {
+          "Connectivity": 0.1393112262416896,
+          "Payment": 0.09287118591634912,
+          "Education": 0.30798589793311815,
+          "Shopping": 0.10697742552097457,
+          "Travel": 0.14455992953083088,
+          "Communication": 0.06635850901962068,
+          "Coding": 0.07415418140615256,
+          "Work & Career": 0.27677716982051953,
+          "Entertainment": 0.05874613967802819,
+          "General": 0.09446845045158511
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_017",
+      "filename": "ext_017.jpg",
+      "expected_category": "Shopping",
+      "predicted_category": "Coding",
+      "correct_in_top2": false,
+      "correct_in_top3": true,
+      "top_candidates": [
+        {
+          "category": "Coding",
+          "final_score": 0.5135,
+          "rule_score": 1.0,
+          "semantic_score": 0.5344,
+          "embedding_score": 0.021,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "General",
+          "final_score": 0.3184,
+          "rule_score": 0.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.1226,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Shopping",
+          "final_score": 0.3109,
+          "rule_score": 0.0,
+          "semantic_score": 0.9396,
+          "embedding_score": 0.1932,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "documentation",
+      "confidence": 0.3819,
+      "confidence_bucket": "low",
+      "ambiguous": false,
+      "score_margin": 0.1951,
+      "primary_cause": "C. Semantic Classification Limitation",
+      "reasoning": "Semantic text description similarity for 'Coding' outweighed semantic similarity for 'Shopping'.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 61,
+      "ocr_text_snippet": "11.51.50 8 763 Ya? ,ll SG| 89% pocket watch marvel AUGEN Premium Pocket Watch Metal 247500 prime Sponsored Visit the Yaa Catchy Store 28 Vintage Quart",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 1.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.18741908892180517,
+          "Payment": 0.784488395252515,
+          "Shopping": 0.9396132993878948,
+          "Travel": 0.6785624840363,
+          "Coding": 0.5344219635249289,
+          "Communication": 0.3446317512524145,
+          "Work & Career": 0.7534853325608863,
+          "Entertainment": 0.8068972923311338,
+          "Connectivity": 0.4277080485652384,
+          "General": 1.0
+        },
+        "embedding_scores": {
+          "Connectivity": 0.15905036977986253,
+          "Payment": 0.07264304144173084,
+          "Education": 0.053090373284541824,
+          "Shopping": 0.1932281425884908,
+          "Travel": 0.08264454768031314,
+          "Communication": 0.0,
+          "Coding": 0.021011989364928044,
+          "Work & Career": 0.15134362764125475,
+          "Entertainment": 0.11310639029313141,
+          "General": 0.12262358225042062
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_019",
+      "filename": "ext_019.jpg",
+      "expected_category": "Shopping",
+      "predicted_category": "Communication",
+      "correct_in_top2": true,
+      "correct_in_top3": true,
+      "top_candidates": [
+        {
+          "category": "Communication",
+          "final_score": 0.6326,
+          "rule_score": 1.0,
+          "semantic_score": 0.8834,
+          "embedding_score": 0.1174,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Shopping",
+          "final_score": 0.4817,
+          "rule_score": 0.3943,
+          "semantic_score": 1.0,
+          "embedding_score": 0.2913,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Travel",
+          "final_score": 0.3106,
+          "rule_score": 0.0,
+          "semantic_score": 0.9306,
+          "embedding_score": 0.2092,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "chat",
+      "confidence": 0.4282,
+      "confidence_bucket": "medium",
+      "ambiguous": false,
+      "score_margin": 0.1509,
+      "primary_cause": "C. Semantic Classification Limitation",
+      "reasoning": "Semantic text description similarity for 'Communication' outweighed semantic similarity for 'Shopping'.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 53,
+      "ocr_text_snippet": "2.30.53 3, 18G  YeB ,ll *5G1/ 51% LA CAFEOTHEQUE BHUBANESWAR 4.7 (855) 8200-400 Cafe Open Overview Menu Reviews Photos 0.32 Call Directions WhatsApp S",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.39430449069003287,
+          "Travel": 0.0,
+          "Communication": 1.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.4916909451338989,
+          "Payment": 0.7230023278693472,
+          "Shopping": 1.0,
+          "Travel": 0.9306163056597,
+          "Coding": 0.1679882618528061,
+          "Communication": 0.8833658011957707,
+          "Work & Career": 0.5910862092279264,
+          "Entertainment": 0.8833990826882041,
+          "Connectivity": 0.9123561052859244,
+          "General": 0.7490739202606528
+        },
+        "embedding_scores": {
+          "Connectivity": 0.15558553951689186,
+          "Payment": 0.05291352089366686,
+          "Education": 0.08694709713100486,
+          "Shopping": 0.2913342210994575,
+          "Travel": 0.2092053772891504,
+          "Communication": 0.11742380049803468,
+          "Coding": 0.013817590739646017,
+          "Work & Career": 0.07664362604448705,
+          "Entertainment": 0.12427244185783647,
+          "General": 0.17951466348050776
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [
+          {
+            "text": "WhatsApp",
+            "type": "application"
+          }
+        ],
+        "events": [],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": [
+          "messaging",
+          "food"
+        ]
+      }
+    },
+    {
+      "image_id": "ext_021",
+      "filename": "ext_021.jpg",
+      "expected_category": "Coding",
+      "predicted_category": "Communication",
+      "correct_in_top2": false,
+      "correct_in_top3": true,
+      "top_candidates": [
+        {
+          "category": "Communication",
+          "final_score": 0.6756,
+          "rule_score": 1.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.1705,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Shopping",
+          "final_score": 0.3079,
+          "rule_score": 0.8182,
+          "semantic_score": 0.0554,
+          "embedding_score": 0.0325,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Coding",
+          "final_score": 0.1727,
+          "rule_score": 0.0,
+          "semantic_score": 0.5755,
+          "embedding_score": 0.0,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "email",
+      "confidence": 0.6481,
+      "confidence_bucket": "medium",
+      "ambiguous": false,
+      "score_margin": 0.3677,
+      "primary_cause": "D. Embedding Limitation",
+      "reasoning": "Prototype vector embedding for 'Communication' pulled vector similarity away from 'Coding'.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 87,
+      "ocr_text_snippet": "5:23.50 @5 Algorithms Time Complexity Compart VPN XI 889 YeB ,ll   SG1/92% ithm Best Case Average Case Worst Case Space Complexity Stable C Bubble Sor",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.8181818181818182,
+          "Travel": 0.0,
+          "Communication": 1.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.36391906310526934,
+          "Payment": 0.13335139075884755,
+          "Shopping": 0.055374688002815614,
+          "Travel": 0.14424917451977007,
+          "Coding": 0.5755228279032479,
+          "Communication": 1.0,
+          "Work & Career": 0.326335529517746,
+          "Entertainment": 0.3283786189931562,
+          "Connectivity": 0.18589987753640397,
+          "General": 0.5384109486706276
+        },
+        "embedding_scores": {
+          "Connectivity": 0.009462070313057895,
+          "Payment": 0.0,
+          "Education": 0.11927658358780377,
+          "Shopping": 0.032512295780418,
+          "Travel": 0.08561806907932794,
+          "Communication": 0.1704994676874003,
+          "Coding": 0.0,
+          "Work & Career": 0.022690391845682643,
+          "Entertainment": 0.07602794815417285,
+          "General": 0.018933765101518236
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_022",
+      "filename": "ext_022.jpg",
+      "expected_category": "Entertainment",
+      "predicted_category": "General",
+      "correct_in_top2": false,
+      "correct_in_top3": false,
+      "top_candidates": [
+        {
+          "category": "General",
+          "final_score": 0.3272,
+          "rule_score": 0.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.1814,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Connectivity",
+          "final_score": 0.3206,
+          "rule_score": 0.0,
+          "semantic_score": 0.9706,
+          "embedding_score": 0.1961,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Shopping",
+          "final_score": 0.1755,
+          "rule_score": 0.0,
+          "semantic_score": 0.5454,
+          "embedding_score": 0.0792,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "unknown",
+      "confidence": 0.2989,
+      "confidence_bucket": "low",
+      "ambiguous": true,
+      "score_margin": 0.0066,
+      "primary_cause": "C. Semantic Classification Limitation",
+      "reasoning": "Semantic text description similarity for 'General' outweighed semantic similarity for 'Entertainment'.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 15,
+      "ocr_text_snippet": "10.33.33 81 83,9 Yeg ,ll *5G1/85% 538 7 08 Save 'Love itl View all comments",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.3423940032739437,
+          "Payment": 0.3818049160352798,
+          "Shopping": 0.5453758616996814,
+          "Travel": 0.44443039201578377,
+          "Coding": 0.02339102926846947,
+          "Communication": 0.5314669054843543,
+          "Work & Career": 0.0,
+          "Entertainment": 0.37721549865975135,
+          "Connectivity": 0.9705742944873195,
+          "General": 1.0
+        },
+        "embedding_scores": {
+          "Connectivity": 0.19609294360936796,
+          "Payment": 0.029110802374249196,
+          "Education": 0.09933725060468346,
+          "Shopping": 0.07922526686642424,
+          "Travel": 0.1192703001588422,
+          "Communication": 0.08448731864404675,
+          "Coding": 0.0,
+          "Work & Career": 0.028800666044962855,
+          "Entertainment": 0.050940006336998515,
+          "General": 0.18142557916143626
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_025",
+      "filename": "ext_025.jpg",
+      "expected_category": "Work & Career",
+      "predicted_category": "Communication",
+      "correct_in_top2": false,
+      "correct_in_top3": false,
+      "top_candidates": [
+        {
+          "category": "Communication",
+          "final_score": 0.4572,
+          "rule_score": 1.0,
+          "semantic_score": 0.3531,
+          "embedding_score": 0.0087,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Education",
+          "final_score": 0.3399,
+          "rule_score": 0.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.2661,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Travel",
+          "final_score": 0.2723,
+          "rule_score": 0.0,
+          "semantic_score": 0.7825,
+          "embedding_score": 0.25,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "email",
+      "confidence": 0.3305,
+      "confidence_bucket": "low",
+      "ambiguous": false,
+      "score_margin": 0.1173,
+      "primary_cause": "C. Semantic Classification Limitation",
+      "reasoning": "Semantic text description similarity for 'Communication' outweighed semantic similarity for 'Work & Career'.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 99,
+      "ocr_text_snippet": "Sl No Date PPT Time PPT Venue Online Test Venue Post PPT & Venue- Computer Labs Slot-1 at 9.00 Auditorium, KIMS, (Lab-1 & Lab-2) Campus-6 AM Campus-5 ",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 1.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 1.0,
+          "Payment": 0.23519642510631275,
+          "Shopping": 0.4621570750182437,
+          "Travel": 0.7825398141369404,
+          "Coding": 0.4865732704393347,
+          "Communication": 0.35311061144656786,
+          "Work & Career": 0.6290911832636963,
+          "Entertainment": 0.5670108131144496,
+          "Connectivity": 0.4503971624175244,
+          "General": 0.5241254889976735
+        },
+        "embedding_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.03480205638394583,
+          "Education": 0.2661216604409142,
+          "Shopping": 0.12537247946589525,
+          "Travel": 0.24997716572871392,
+          "Communication": 0.008716884551752648,
+          "Coding": 0.03351408647615162,
+          "Work & Career": 0.23013120817274949,
+          "Entertainment": 0.12455511495418388,
+          "General": 0.1259979683182976
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [
+          {
+            "raw_text": "24th July 2026",
+            "text": "24th July 2026",
+            "type": "event_date"
+          }
+        ],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_026",
+      "filename": "ext_026.jpg",
+      "expected_category": "Entertainment",
+      "predicted_category": "Payment",
+      "correct_in_top2": false,
+      "correct_in_top3": false,
+      "top_candidates": [
+        {
+          "category": "Payment",
+          "final_score": 0.3111,
+          "rule_score": 0.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.0737,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Education",
+          "final_score": 0.2047,
+          "rule_score": 0.0,
+          "semantic_score": 0.6448,
+          "embedding_score": 0.0749,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Travel",
+          "final_score": 0.1675,
+          "rule_score": 0.0,
+          "semantic_score": 0.5242,
+          "embedding_score": 0.0682,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "transaction",
+      "confidence": 0.2541,
+      "confidence_bucket": "low",
+      "ambiguous": true,
+      "score_margin": 0.1064,
+      "primary_cause": "C. Semantic Classification Limitation",
+      "reasoning": "Semantic text description similarity for 'Payment' outweighed semantic similarity for 'Entertainment'.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 21,
+      "ocr_text_snippet": "8.01.55 W Ilulo 188 YeB ,ll *SG1/ 99% ReN Titanium David Guetta, Sia 02.34 03.26 Ome dipa MADE M THEAI SEARCH",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.6447520972711523,
+          "Payment": 1.0,
+          "Shopping": 0.050560280211478216,
+          "Travel": 0.5241704095955023,
+          "Coding": 0.0,
+          "Communication": 0.0,
+          "Work & Career": 0.40435684535870525,
+          "Entertainment": 0.06144462669132046,
+          "Connectivity": 0.28613856239607954,
+          "General": 0.3085201990372936
+        },
+        "embedding_scores": {
+          "Connectivity": 0.12296862331609262,
+          "Payment": 0.07373618856791794,
+          "Education": 0.07493355702704739,
+          "Shopping": 0.06507911034378307,
+          "Travel": 0.06815169237146147,
+          "Communication": 0.0237872958092215,
+          "Coding": 0.0,
+          "Work & Career": 0.16778560810294418,
+          "Entertainment": 0.08625633367597724,
+          "General": 0.08769602805612282
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_027",
+      "filename": "ext_027.jpg",
+      "expected_category": "Shopping",
+      "predicted_category": "Travel",
+      "correct_in_top2": false,
+      "correct_in_top3": true,
+      "top_candidates": [
+        {
+          "category": "Travel",
+          "final_score": 0.3291,
+          "rule_score": 0.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.194,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "General",
+          "final_score": 0.2382,
+          "rule_score": 0.0,
+          "semantic_score": 0.7238,
+          "embedding_score": 0.1403,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Shopping",
+          "final_score": 0.2303,
+          "rule_score": 0.0,
+          "semantic_score": 0.6981,
+          "embedding_score": 0.1389,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "travel_itinerary",
+      "confidence": 0.3252,
+      "confidence_bucket": "low",
+      "ambiguous": true,
+      "score_margin": 0.0909,
+      "primary_cause": "D. Embedding Limitation",
+      "reasoning": "Prototype vector embedding for 'Travel' pulled vector similarity away from 'Shopping'.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 41,
+      "ocr_text_snippet": "10.32.35 8I 0873 YeB ,ll   5G1/86% BEDROOM 13'-3\" x10'-8\" 248 3 08 Save pochaccoo \"3a4eM B OAHY KOMHaty ABe ABepw?\" View all comments More to explore ",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.4775339801334454,
+          "Payment": 0.7013271694867466,
+          "Shopping": 0.6980816393844638,
+          "Travel": 1.0,
+          "Coding": 0.10425720212534792,
+          "Communication": 0.053779101987395765,
+          "Work & Career": 0.6600331982235064,
+          "Entertainment": 0.3371147423702957,
+          "Connectivity": 0.46201093303123714,
+          "General": 0.7238224905034635
+        },
+        "embedding_scores": {
+          "Connectivity": 0.07707042388429425,
+          "Payment": 0.05900180101327626,
+          "Education": 0.10987692964246346,
+          "Shopping": 0.13885849894629335,
+          "Travel": 0.19404685673437316,
+          "Communication": 0.07552464768467149,
+          "Coding": 0.03465770547910237,
+          "Work & Career": 0.15500142650990661,
+          "Entertainment": 0.010189891930661436,
+          "General": 0.140331620578969
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_028",
+      "filename": "ext_028.jpg",
+      "expected_category": "Education",
+      "predicted_category": "Work & Career",
+      "correct_in_top2": true,
+      "correct_in_top3": true,
+      "top_candidates": [
+        {
+          "category": "Work & Career",
+          "final_score": 0.648,
+          "rule_score": 1.0,
+          "semantic_score": 0.8995,
+          "embedding_score": 0.1875,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Education",
+          "final_score": 0.3251,
+          "rule_score": 0.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.1673,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Shopping",
+          "final_score": 0.3201,
+          "rule_score": 0.9091,
+          "semantic_score": 0.0,
+          "embedding_score": 0.0126,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "job_posting",
+      "confidence": 0.5542,
+      "confidence_bucket": "medium",
+      "ambiguous": false,
+      "score_margin": 0.3229,
+      "primary_cause": "F. Cross-Category Context Overlap",
+      "reasoning": "University announcements, campus drive notices, or academic events overlap with Work & Career event/job listings.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "NO",
+      "ocr_word_count": 39,
+      "ocr_text_snippet": "KALINGA IMSTITUTE @F INDUSTRIAL TECHMOLOGY Deemed t0 be University U/s 3 of the UGC Act; 1956 SCHOOL OF MECHANICAL ENGINEERING L Assignment-I h Name: ",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.9090909090909091,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 1.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 1.0,
+          "Payment": 0.8862698413883859,
+          "Shopping": 0.0,
+          "Travel": 0.32058219922740533,
+          "Coding": 0.8251133029590249,
+          "Communication": 0.35874255279983536,
+          "Work & Career": 0.8994748994855473,
+          "Entertainment": 0.0,
+          "Connectivity": 0.588277231189174,
+          "General": 0.4917812129981286
+        },
+        "embedding_scores": {
+          "Connectivity": 0.14572759983630157,
+          "Payment": 0.134477563962433,
+          "Education": 0.16729062963628732,
+          "Shopping": 0.012564914880853506,
+          "Travel": 0.09111430604406008,
+          "Communication": 0.09632391974255057,
+          "Coding": 0.08417493124362582,
+          "Work & Career": 0.18747319433519682,
+          "Entertainment": 0.03264579813162782,
+          "General": 0.03890669619253119
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_033",
+      "filename": "ext_033.jpg",
+      "expected_category": "Entertainment",
+      "predicted_category": "Shopping",
+      "correct_in_top2": false,
+      "correct_in_top3": false,
+      "top_candidates": [
+        {
+          "category": "Shopping",
+          "final_score": 0.3573,
+          "rule_score": 1.0,
+          "semantic_score": 0.0,
+          "embedding_score": 0.0486,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Work & Career",
+          "final_score": 0.3232,
+          "rule_score": 0.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.1544,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Education",
+          "final_score": 0.3166,
+          "rule_score": 0.0,
+          "semantic_score": 0.9952,
+          "embedding_score": 0.1204,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "product_page",
+      "confidence": 0.2555,
+      "confidence_bucket": "low",
+      "ambiguous": true,
+      "score_margin": 0.0341,
+      "primary_cause": "F. Cross-Category Context Overlap",
+      "reasoning": "Media/movie promotional graphics contain purchase/watch pricing controls overlapping with Shopping product listings.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "NO",
+      "ocr_word_count": 29,
+      "ocr_text_snippet": "COMBO: 4 90 3/6 Level: 61 B  | N A B A K | n 6 A K N N K | N G B N A K G",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 1.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.9951654114107354,
+          "Payment": 0.5006687221546817,
+          "Shopping": 0.0,
+          "Travel": 0.6968878077087302,
+          "Coding": 0.9766432757245671,
+          "Communication": 0.2599686426148699,
+          "Work & Career": 1.0,
+          "Entertainment": 0.0,
+          "Connectivity": 0.8488877079607627,
+          "General": 0.5104683871145289
+        },
+        "embedding_scores": {
+          "Connectivity": 0.1516860956038433,
+          "Payment": 0.04370106469024799,
+          "Education": 0.12043840599967863,
+          "Shopping": 0.04864221740309222,
+          "Travel": 0.07699094855374806,
+          "Communication": 0.023296969120426343,
+          "Coding": 0.013771938374812678,
+          "Work & Career": 0.15441748822568513,
+          "Entertainment": 0.030687844286567532,
+          "General": 0.0
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_034",
+      "filename": "ext_034.jpg",
+      "expected_category": "Shopping",
+      "predicted_category": "General",
+      "correct_in_top2": false,
+      "correct_in_top3": true,
+      "top_candidates": [
+        {
+          "category": "General",
+          "final_score": 0.3355,
+          "rule_score": 0.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.2366,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Entertainment",
+          "final_score": 0.3087,
+          "rule_score": 0.0,
+          "semantic_score": 0.99,
+          "embedding_score": 0.0776,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Shopping",
+          "final_score": 0.2933,
+          "rule_score": 0.0,
+          "semantic_score": 0.8968,
+          "embedding_score": 0.162,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "unknown",
+      "confidence": 0.3758,
+      "confidence_bucket": "low",
+      "ambiguous": true,
+      "score_margin": 0.0268,
+      "primary_cause": "D. Embedding Limitation",
+      "reasoning": "Prototype vector embedding for 'General' pulled vector similarity away from 'Shopping'.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 68,
+      "ocr_text_snippet": "11.07.37 43.18 8 13? YeB ,ll *5G1/93% marvel themed Unyks Star Super Hero Action Figure Limit. 80% off Limited time deal Sponsored FowWelt FowWlelt Vi",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.15446798078551946,
+          "Payment": 0.5254492464989944,
+          "Shopping": 0.8967883760361327,
+          "Travel": 0.504903457438543,
+          "Coding": 0.2220562079816587,
+          "Communication": 0.31766075950753137,
+          "Work & Career": 0.4578195230975554,
+          "Entertainment": 0.9900401824911923,
+          "Connectivity": 0.3960493027772324,
+          "General": 1.0
+        },
+        "embedding_scores": {
+          "Connectivity": 0.046400105441824366,
+          "Payment": 0.064909692259518,
+          "Education": 0.023085984699021116,
+          "Shopping": 0.1620383209852417,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.017268851668451456,
+          "Entertainment": 0.07761056592632018,
+          "General": 0.23658524953630056
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_036",
+      "filename": "ext_036.jpg",
+      "expected_category": "Work & Career",
+      "predicted_category": "Communication",
+      "correct_in_top2": false,
+      "correct_in_top3": true,
+      "top_candidates": [
+        {
+          "category": "Communication",
+          "final_score": 0.5006,
+          "rule_score": 1.0,
+          "semantic_score": 0.4378,
+          "embedding_score": 0.1285,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Shopping",
+          "final_score": 0.4548,
+          "rule_score": 0.8182,
+          "semantic_score": 0.4645,
+          "embedding_score": 0.194,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Work & Career",
+          "final_score": 0.34,
+          "rule_score": 0.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.2667,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "email",
+      "confidence": 0.3307,
+      "confidence_bucket": "low",
+      "ambiguous": true,
+      "score_margin": 0.0458,
+      "primary_cause": "C. Semantic Classification Limitation",
+      "reasoning": "Semantic text description similarity for 'Communication' outweighed semantic similarity for 'Work & Career'.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 72,
+      "ocr_text_snippet": "4.05:19 488 SeB ,ll ,l 93% k 7 Zycus PPT Rashi Varma 62 ZYcus The offer for Marketing numbers on the table Manngement Trdinee Markeling (B Tech Grads)",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.8181818181818182,
+          "Travel": 0.0,
+          "Communication": 1.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.6481214994119822,
+          "Payment": 0.8424565015961164,
+          "Shopping": 0.46445033215631487,
+          "Travel": 0.6171443603682727,
+          "Coding": 0.30666128127110165,
+          "Communication": 0.4378304180296812,
+          "Work & Career": 1.0,
+          "Entertainment": 0.37616892300322397,
+          "Connectivity": 0.22116510222303468,
+          "General": 0.4998833977035646
+        },
+        "embedding_scores": {
+          "Connectivity": 0.050779182719587417,
+          "Payment": 0.2107870194465022,
+          "Education": 0.2313707244615124,
+          "Shopping": 0.19404083330250244,
+          "Travel": 0.1982812461136302,
+          "Communication": 0.12852839828250692,
+          "Coding": 0.05691592212849958,
+          "Work & Career": 0.26668862090670503,
+          "Entertainment": 0.08270634353607555,
+          "General": 0.1257201165460689
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_038",
+      "filename": "ext_038.jpg",
+      "expected_category": "General",
+      "predicted_category": "Shopping",
+      "correct_in_top2": false,
+      "correct_in_top3": false,
+      "top_candidates": [
+        {
+          "category": "Shopping",
+          "final_score": 0.35,
+          "rule_score": 1.0,
+          "semantic_score": 0.0,
+          "embedding_score": 0.0,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Connectivity",
+          "final_score": 0.3264,
+          "rule_score": 0.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.1761,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Education",
+          "final_score": 0.2312,
+          "rule_score": 0.0,
+          "semantic_score": 0.7161,
+          "embedding_score": 0.1094,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "product_page",
+      "confidence": 0.2487,
+      "confidence_bucket": "low",
+      "ambiguous": true,
+      "score_margin": 0.0236,
+      "primary_cause": "C. Semantic Classification Limitation",
+      "reasoning": "Semantic text description similarity for 'Shopping' outweighed semantic similarity for 'General'.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 78,
+      "ocr_text_snippet": "2135 6 Frl MM Google? ul 24% weather Bhubaneswar Al Mode AII News Images Videos Foru Bhubaneswar; Odisha Choose area Weather Now Light rain 270 Feels ",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 1.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.7161137169682119,
+          "Payment": 0.6468161632629004,
+          "Shopping": 0.0,
+          "Travel": 0.4037448763334025,
+          "Coding": 0.13605806619151317,
+          "Communication": 0.7167770035921724,
+          "Work & Career": 0.6553804845727712,
+          "Entertainment": 0.31104764118104683,
+          "Connectivity": 1.0,
+          "General": 0.36686896478567943
+        },
+        "embedding_scores": {
+          "Connectivity": 0.1760681418954928,
+          "Payment": 0.09883117894752438,
+          "Education": 0.10939731024196327,
+          "Shopping": 0.0,
+          "Travel": 0.0672125925028697,
+          "Communication": 0.08966681923228646,
+          "Coding": 0.017500548557388702,
+          "Work & Career": 0.10456172241530595,
+          "Entertainment": 0.04869898484658248,
+          "General": 0.034573197969231625
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_039",
+      "filename": "ext_039.jpg",
+      "expected_category": "General",
+      "predicted_category": "Connectivity",
+      "correct_in_top2": false,
+      "correct_in_top3": false,
+      "top_candidates": [
+        {
+          "category": "Connectivity",
+          "final_score": 0.7132,
+          "rule_score": 1.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.4211,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Shopping",
+          "final_score": 0.2123,
+          "rule_score": 0.2727,
+          "semantic_score": 0.3313,
+          "embedding_score": 0.1162,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Education",
+          "final_score": 0.1872,
+          "rule_score": 0.3,
+          "semantic_score": 0.2283,
+          "embedding_score": 0.091,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "wifi_credentials",
+      "confidence": 0.7069,
+      "confidence_bucket": "high",
+      "ambiguous": false,
+      "score_margin": 0.5009,
+      "primary_cause": "D. Embedding Limitation",
+      "reasoning": "Prototype vector embedding for 'Connectivity' pulled vector similarity away from 'General'.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 36,
+      "ocr_text_snippet": "2136 iniate MM 63/9 Il 24% Settings Search Sign in Sign in to use services Aeroplane mode Wi-Fi KIIT-WIFI-DU Bluetooth Mobile network Connection & sha",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 1.0,
+          "Payment": 0.0,
+          "Education": 0.30000000000000004,
+          "Shopping": 0.27272727272727276,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.22832888607213606,
+          "Payment": 0.368446379681861,
+          "Shopping": 0.3313438509184767,
+          "Travel": 0.46808467793131486,
+          "Coding": 0.11713020308984702,
+          "Communication": 0.4293174502321975,
+          "Work & Career": 0.3745772677152843,
+          "Entertainment": 0.28750190845465295,
+          "Connectivity": 1.0,
+          "General": 0.4975095075533731
+        },
+        "embedding_scores": {
+          "Connectivity": 0.4210927280418554,
+          "Payment": 0.09897366273446143,
+          "Education": 0.0910103452012864,
+          "Shopping": 0.11619779222345109,
+          "Travel": 0.15892787086858207,
+          "Communication": 0.08611452508199316,
+          "Coding": 0.018299680349489686,
+          "Work & Career": 0.14874500897288112,
+          "Entertainment": 0.07457492646652715,
+          "General": 0.12615690519051329
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [
+          {
+            "text": "KIIT",
+            "type": "institution"
+          }
+        ],
+        "events": [
+          {
+            "type": "academic_course",
+            "status": "active",
+            "details": "Academic course syllabus/notice"
+          }
+        ],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": [
+          "connectivity",
+          "university"
+        ]
+      }
+    },
+    {
+      "image_id": "ext_040",
+      "filename": "ext_040.jpg",
+      "expected_category": "Communication",
+      "predicted_category": "General",
+      "correct_in_top2": true,
+      "correct_in_top3": true,
+      "top_candidates": [
+        {
+          "category": "General",
+          "final_score": 0.3208,
+          "rule_score": 0.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.1386,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Communication",
+          "final_score": 0.3177,
+          "rule_score": 0.0,
+          "semantic_score": 0.9686,
+          "embedding_score": 0.1806,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Entertainment",
+          "final_score": 0.2878,
+          "rule_score": 0.0,
+          "semantic_score": 0.8946,
+          "embedding_score": 0.1296,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "unknown",
+      "confidence": 0.2947,
+      "confidence_bucket": "low",
+      "ambiguous": true,
+      "score_margin": 0.0031,
+      "primary_cause": "C. Semantic Classification Limitation",
+      "reasoning": "Semantic text description similarity for 'General' outweighed semantic similarity for 'Communication'.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 75,
+      "ocr_text_snippet": "21*36 eoutd M 58/9 ul 24% Viki's Terms of Use and Policies Updates Inbox Rakuten Viki 10.45 R to me Viki  Viki's Terms of Use and Policies Updates We'",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.5743562413986949,
+          "Payment": 0.7170510807233251,
+          "Shopping": 0.4031473798462115,
+          "Travel": 0.7048796741180338,
+          "Coding": 0.8671945473405269,
+          "Communication": 0.9686220860581519,
+          "Work & Career": 0.709482466484645,
+          "Entertainment": 0.894571093731728,
+          "Connectivity": 0.660246559873933,
+          "General": 1.0
+        },
+        "embedding_scores": {
+          "Connectivity": 0.03646978881732452,
+          "Payment": 0.040364194174661874,
+          "Education": 0.1286643334881421,
+          "Shopping": 0.09572140985542764,
+          "Travel": 0.02379360226506613,
+          "Communication": 0.18059338907269212,
+          "Coding": 0.14321676157840815,
+          "Work & Career": 0.09036023425609471,
+          "Entertainment": 0.12955187612793143,
+          "General": 0.13860522525594424
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_041",
+      "filename": "ext_041.jpg",
+      "expected_category": "Work & Career",
+      "predicted_category": "Payment",
+      "correct_in_top2": true,
+      "correct_in_top3": true,
+      "top_candidates": [
+        {
+          "category": "Payment",
+          "final_score": 0.447,
+          "rule_score": 1.0,
+          "semantic_score": 0.3235,
+          "embedding_score": 0.0,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Work & Career",
+          "final_score": 0.3381,
+          "rule_score": 0.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.2543,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Connectivity",
+          "final_score": 0.336,
+          "rule_score": 0.3704,
+          "semantic_score": 0.6206,
+          "embedding_score": 0.1343,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "transaction",
+      "confidence": 0.3228,
+      "confidence_bucket": "low",
+      "ambiguous": false,
+      "score_margin": 0.1089,
+      "primary_cause": "C. Semantic Classification Limitation",
+      "reasoning": "Semantic text description similarity for 'Payment' outweighed semantic similarity for 'Work & Career'.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 88,
+      "ocr_text_snippet": "9.37:14 6 98/8 29 ,l ul50% Search Aayush Kumar Gupta @ Ist Backend & ML Engineer | Building Intellige _ 2d Edited 4 from now, it will be ONE YEAR One ",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.37037037037037035,
+          "Payment": 1.0,
+          "Education": 0.0,
+          "Shopping": 0.30303030303030304,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.20742620337221235,
+          "Payment": 0.3234582573956987,
+          "Shopping": 0.3568486868128383,
+          "Travel": 0.4734447223147682,
+          "Coding": 0.561484372758663,
+          "Communication": 0.7050780952258452,
+          "Work & Career": 1.0,
+          "Entertainment": 0.6422807388767405,
+          "Connectivity": 0.6205981488078515,
+          "General": 0.8237108720348064
+        },
+        "embedding_scores": {
+          "Connectivity": 0.13429709849512914,
+          "Payment": 0.0,
+          "Education": 0.10822843229055001,
+          "Shopping": 0.07387441611293315,
+          "Travel": 0.061319586528714824,
+          "Communication": 0.10366708074269781,
+          "Coding": 0.08793414324944206,
+          "Work & Career": 0.2542673896067964,
+          "Entertainment": 0.12327877452354469,
+          "General": 0.13201817636361043
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [
+          {
+            "type": "payment",
+            "status": "successful",
+            "details": "Financial transaction / payment receipt"
+          }
+        ],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [
+            "rs\n2"
+          ],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_042",
+      "filename": "ext_042.jpg",
+      "expected_category": "Travel",
+      "predicted_category": "Payment",
+      "correct_in_top2": true,
+      "correct_in_top3": true,
+      "top_candidates": [
+        {
+          "category": "Payment",
+          "final_score": 0.6531,
+          "rule_score": 1.0,
+          "semantic_score": 0.9343,
+          "embedding_score": 0.152,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Travel",
+          "final_score": 0.4275,
+          "rule_score": 0.303,
+          "semantic_score": 1.0,
+          "embedding_score": 0.1433,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Shopping",
+          "final_score": 0.2433,
+          "rule_score": 0.303,
+          "semantic_score": 0.3929,
+          "embedding_score": 0.1293,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "transaction",
+      "confidence": 0.4609,
+      "confidence_bucket": "medium",
+      "ambiguous": false,
+      "score_margin": 0.2256,
+      "primary_cause": "C. Semantic Classification Limitation",
+      "reasoning": "Semantic text description similarity for 'Payment' outweighed semantic similarity for 'Travel'.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 123,
+      "ocr_text_snippet": "10.24 LTEI ,Ill LTEZ ,ll 66% Silchar Guwahati 21June, Sunday Fri, 19 Sat; 20 Sun; 21 Mon; 22 Tue, 23 Wee JUN Trains Bus Upto <100 off 23 Trains 7 Buse",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 1.0,
+          "Education": 0.0,
+          "Shopping": 0.30303030303030304,
+          "Travel": 0.30303030303030304,
+          "Communication": 0.0,
+          "Coding": 0.2777777777777778,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.6931564630213397,
+          "Payment": 0.9342781774817805,
+          "Shopping": 0.3928909072060989,
+          "Travel": 1.0,
+          "Coding": 0.3137464850658263,
+          "Communication": 0.3261254617007974,
+          "Work & Career": 0.6177864478680721,
+          "Entertainment": 0.6229487989042569,
+          "Connectivity": 0.11591932937173059,
+          "General": 0.38730893462868315
+        },
+        "embedding_scores": {
+          "Connectivity": 0.06460350544994352,
+          "Payment": 0.15198414078891906,
+          "Education": 0.18209529825964815,
+          "Shopping": 0.12934955174608934,
+          "Travel": 0.1432573386056354,
+          "Communication": 0.12222222055745396,
+          "Coding": 0.09030959322181731,
+          "Work & Career": 0.1102002085156283,
+          "Entertainment": 0.03420168631682074,
+          "General": 0.023654201564743904
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [
+          {
+            "text": "Guwahati",
+            "type": "destination"
+          },
+          {
+            "text": "Express",
+            "type": "framework"
+          }
+        ],
+        "events": [
+          {
+            "type": "payment",
+            "status": "successful",
+            "details": "Financial transaction / payment receipt"
+          }
+        ],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": true,
+          "payment_method": null
+        },
+        "text_topics": [
+          "coding"
+        ]
+      }
+    },
+    {
+      "image_id": "ext_043",
+      "filename": "ext_043.jpg",
+      "expected_category": "Education",
+      "predicted_category": "Payment",
+      "correct_in_top2": false,
+      "correct_in_top3": true,
+      "top_candidates": [
+        {
+          "category": "Payment",
+          "final_score": 0.4378,
+          "rule_score": 1.0,
+          "semantic_score": 0.2574,
+          "embedding_score": 0.0703,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Travel",
+          "final_score": 0.4157,
+          "rule_score": 0.2326,
+          "semantic_score": 1.0,
+          "embedding_score": 0.2286,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Education",
+          "final_score": 0.2919,
+          "rule_score": 0.0,
+          "semantic_score": 0.9069,
+          "embedding_score": 0.1321,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "transaction",
+      "confidence": 0.2922,
+      "confidence_bucket": "low",
+      "ambiguous": true,
+      "score_margin": 0.0221,
+      "primary_cause": "B. Rule/Evidence Misleading",
+      "reasoning": "Presence of numeric course units, marks, or isolated currency symbols triggered misleading financial/payment rule boosts.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 371,
+      "ocr_text_snippet": "2.51 61 Loh Lol ,ll 89% ANKUSH LAMBA Just now Reasoning dldcsd Ankush Lamba #selectionwaalizidd Eleven persons - L, M,N; 0,P;Q,R, $,T, U,and V are sit",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 1.0,
+          "Education": 0.0,
+          "Shopping": 0.23255813953488375,
+          "Travel": 0.23255813953488375,
+          "Communication": 0.2842377260981912,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.9068584178484458,
+          "Payment": 0.25744480823137167,
+          "Shopping": 0.0,
+          "Travel": 1.0,
+          "Coding": 0.0,
+          "Communication": 0.5734279071277698,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "Connectivity": 0.0,
+          "General": 0.7203305704423838
+        },
+        "embedding_scores": {
+          "Connectivity": 0.010329556957424497,
+          "Payment": 0.07031878507517084,
+          "Education": 0.13210347643924836,
+          "Shopping": 0.05039016930331043,
+          "Travel": 0.22862115636029195,
+          "Communication": 0.030349382241481045,
+          "Coding": 0.0,
+          "Work & Career": 0.036298461188566604,
+          "Entertainment": 0.048079130473141385,
+          "General": 0.005290183946099125
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [
+          {
+            "type": "payment",
+            "status": "successful",
+            "details": "Financial transaction / payment receipt"
+          }
+        ],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [
+            "$,",
+            "$ 8"
+          ],
+          "transaction_ids": [],
+          "upi_ids": [
+            "d40a@sda"
+          ],
+          "has_payment_keywords": false,
+          "payment_method": "UPI"
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_047",
+      "filename": "ext_047.jpg",
+      "expected_category": "Travel",
+      "predicted_category": "Payment",
+      "correct_in_top2": true,
+      "correct_in_top3": true,
+      "top_candidates": [
+        {
+          "category": "Payment",
+          "final_score": 0.5711,
+          "rule_score": 1.0,
+          "semantic_score": 0.6417,
+          "embedding_score": 0.1907,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Travel",
+          "final_score": 0.4777,
+          "rule_score": 0.3774,
+          "semantic_score": 1.0,
+          "embedding_score": 0.3044,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Entertainment",
+          "final_score": 0.1013,
+          "rule_score": 0.0,
+          "semantic_score": 0.3312,
+          "embedding_score": 0.0131,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "transaction",
+      "confidence": 0.3802,
+      "confidence_bucket": "low",
+      "ambiguous": true,
+      "score_margin": 0.0934,
+      "primary_cause": "C. Semantic Classification Limitation",
+      "reasoning": "Semantic text description similarity for 'Payment' outweighed semantic similarity for 'Travel'.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 39,
+      "ocr_text_snippet": "8.02 LTET l 83% Choose seat 6eskal In flight Turbulence We're currently navigating through a bit of turbulence in our system Rest assured, our team is",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 1.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.37735849056603776,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.18186230549544316,
+          "Payment": 0.6417035955533228,
+          "Shopping": 0.0,
+          "Travel": 1.0,
+          "Coding": 0.0,
+          "Communication": 0.12700455827026716,
+          "Work & Career": 0.17162809166883342,
+          "Entertainment": 0.33122140179323895,
+          "Connectivity": 0.0736492506713992,
+          "General": 0.19107838195798219
+        },
+        "embedding_scores": {
+          "Connectivity": 0.13950664326233478,
+          "Payment": 0.19074884619432064,
+          "Education": 0.048211477259482376,
+          "Shopping": 0.07830584042359866,
+          "Travel": 0.30442323130849347,
+          "Communication": 0.09829811748527596,
+          "Coding": 0.08577859880976814,
+          "Work & Career": 0.13365218116099725,
+          "Entertainment": 0.013093421625539638,
+          "General": 0.015414381315899797
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [
+          {
+            "type": "payment",
+            "status": "successful",
+            "details": "Financial transaction / payment receipt"
+          },
+          {
+            "type": "travel",
+            "status": "booked",
+            "details": "Flight travel booking"
+          }
+        ],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": true,
+          "payment_method": null
+        },
+        "text_topics": [
+          "travel"
+        ]
+      }
+    },
+    {
+      "image_id": "ext_050",
+      "filename": "ext_050.jpg",
+      "expected_category": "Entertainment",
+      "predicted_category": "General",
+      "correct_in_top2": false,
+      "correct_in_top3": false,
+      "top_candidates": [
+        {
+          "category": "General",
+          "final_score": 0.3,
+          "rule_score": 0.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.0,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Communication",
+          "final_score": 0.2988,
+          "rule_score": 0.0,
+          "semantic_score": 0.9903,
+          "embedding_score": 0.0112,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Coding",
+          "final_score": 0.2192,
+          "rule_score": 0.0,
+          "semantic_score": 0.6926,
+          "embedding_score": 0.0761,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "unknown",
+      "confidence": 0.2837,
+      "confidence_bucket": "low",
+      "ambiguous": true,
+      "score_margin": 0.0012,
+      "primary_cause": "A. OCR/Evidence Limitation",
+      "reasoning": "Extracted OCR text is extremely sparse (1 words). Crucial visual context (diagrams, layout, handwritten notes) is absent from OCR.",
+      "text_ocr_sufficient": "NO",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "UNCERTAIN",
+      "ocr_word_count": 1,
+      "ocr_text_snippet": "1/2",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.0,
+          "Payment": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Coding": 0.6925551556451226,
+          "Communication": 0.9902857286107698,
+          "Work & Career": 0.21063394173962438,
+          "Entertainment": 0.0,
+          "Connectivity": 0.0,
+          "General": 1.0
+        },
+        "embedding_scores": {
+          "Connectivity": 0.017397716999486102,
+          "Payment": 0.026782791039815894,
+          "Education": 0.07290004443577927,
+          "Shopping": 0.039563352185785994,
+          "Travel": 0.00362020069731463,
+          "Communication": 0.011155904210122036,
+          "Coding": 0.0761011977173099,
+          "Work & Career": 0.07135671704633445,
+          "Entertainment": 0.030039011226060303,
+          "General": 0.0
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_051",
+      "filename": "ext_051.jpg",
+      "expected_category": "Entertainment",
+      "predicted_category": "Payment",
+      "correct_in_top2": false,
+      "correct_in_top3": true,
+      "top_candidates": [
+        {
+          "category": "Payment",
+          "final_score": 0.4645,
+          "rule_score": 1.0,
+          "semantic_score": 0.3763,
+          "embedding_score": 0.0111,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "General",
+          "final_score": 0.313,
+          "rule_score": 0.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.087,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Entertainment",
+          "final_score": 0.2599,
+          "rule_score": 0.0,
+          "semantic_score": 0.8307,
+          "embedding_score": 0.0715,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "transaction",
+      "confidence": 0.3444,
+      "confidence_bucket": "low",
+      "ambiguous": false,
+      "score_margin": 0.1515,
+      "primary_cause": "C. Semantic Classification Limitation",
+      "reasoning": "Semantic text description similarity for 'Payment' outweighed semantic similarity for 'Entertainment'.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 54,
+      "ocr_text_snippet": "2.09 Fx4 76 Nol ,ll 86% 3.49 Michael Jackson Was a Flirt ForeverMichael 1 lakh views 5 months ago Yes Officer Yers 14 hours ago 66 If you don t like t",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 1.0,
+          "Education": 0.0,
+          "Shopping": 0.30303030303030304,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.0,
+          "Payment": 0.3762605071997561,
+          "Shopping": 0.0,
+          "Travel": 0.4960005618802724,
+          "Coding": 0.03605705284860503,
+          "Communication": 0.7757105728590823,
+          "Work & Career": 0.6452887692431047,
+          "Entertainment": 0.8306699649882996,
+          "Connectivity": 0.03228067511039819,
+          "General": 1.0
+        },
+        "embedding_scores": {
+          "Connectivity": 0.035292386210669595,
+          "Payment": 0.011129561402976725,
+          "Education": 0.03342139037888296,
+          "Shopping": 0.005495659784669795,
+          "Travel": 0.05666448081819035,
+          "Communication": 0.017855524994905385,
+          "Coding": 0.0,
+          "Work & Career": 0.12255422033591261,
+          "Entertainment": 0.07153745084951449,
+          "General": 0.08698650679980906
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [
+          {
+            "type": "payment",
+            "status": "successful",
+            "details": "Financial transaction / payment receipt"
+          }
+        ],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [
+            "rs\n14"
+          ],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_052",
+      "filename": "ext_052.jpg",
+      "expected_category": "Education",
+      "predicted_category": "Coding",
+      "correct_in_top2": false,
+      "correct_in_top3": true,
+      "top_candidates": [
+        {
+          "category": "Coding",
+          "final_score": 0.414,
+          "rule_score": 0.9167,
+          "semantic_score": 0.3107,
+          "embedding_score": 0.0,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Shopping",
+          "final_score": 0.3743,
+          "rule_score": 1.0,
+          "semantic_score": 0.0809,
+          "embedding_score": 0.0,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Education",
+          "final_score": 0.3624,
+          "rule_score": 0.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.4159,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "documentation",
+      "confidence": 0.2189,
+      "confidence_bucket": "low",
+      "ambiguous": true,
+      "score_margin": 0.0397,
+      "primary_cause": "F. Cross-Category Context Overlap",
+      "reasoning": "Computer science lecture notes or lab assignments contain source code snippets and technical syntax matching Coding.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 210,
+      "ocr_text_snippet": "10.48 LTEI ,ll 81% examination) It is about following any source yoU are comfortable with any revise it; again and again, multiple times: followed Aff",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 1.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.9166666666666666,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 1.0,
+          "Payment": 0.38154034386061797,
+          "Shopping": 0.08086893637416186,
+          "Travel": 0.48260241936116177,
+          "Coding": 0.3106651062631403,
+          "Communication": 0.034566933542002666,
+          "Work & Career": 0.07416107086625008,
+          "Entertainment": 0.0845523961220061,
+          "Connectivity": 0.17073485093150167,
+          "General": 0.4626800758125097
+        },
+        "embedding_scores": {
+          "Connectivity": 0.014456885716909947,
+          "Payment": 0.07125358095081002,
+          "Education": 0.41585904765665493,
+          "Shopping": 0.0,
+          "Travel": 0.08217123615558865,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0875819888042784,
+          "Entertainment": 0.0,
+          "General": 0.055523469145747614
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_053",
+      "filename": "ext_053.jpg",
+      "expected_category": "Entertainment",
+      "predicted_category": "General",
+      "correct_in_top2": true,
+      "correct_in_top3": true,
+      "top_candidates": [
+        {
+          "category": "General",
+          "final_score": 0.327,
+          "rule_score": 0.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.1801,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Entertainment",
+          "final_score": 0.3162,
+          "rule_score": 0.0,
+          "semantic_score": 0.9781,
+          "embedding_score": 0.1522,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Coding",
+          "final_score": 0.2985,
+          "rule_score": 0.0,
+          "semantic_score": 0.9663,
+          "embedding_score": 0.0572,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "unknown",
+      "confidence": 0.3667,
+      "confidence_bucket": "low",
+      "ambiguous": true,
+      "score_margin": 0.0108,
+      "primary_cause": "D. Embedding Limitation",
+      "reasoning": "Prototype vector embedding for 'General' pulled vector similarity away from 'Entertainment'.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 28,
+      "ocr_text_snippet": "11:12 FX 76 Lo1 ,Il 83% DeviantArt ArtyShan Unbox B UILD DRAW PLAY ARTCoM Dark Deku (My Hero Visit Academia) by artyshandls  Share Save Remove Home Se",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.6015673578832504,
+          "Payment": 0.5583342761259633,
+          "Shopping": 0.36006097321508057,
+          "Travel": 0.6378281916984359,
+          "Coding": 0.966319370578139,
+          "Communication": 0.5815345346836521,
+          "Work & Career": 0.3220284374385663,
+          "Entertainment": 0.9780815490610959,
+          "Connectivity": 0.20770931657187192,
+          "General": 1.0
+        },
+        "embedding_scores": {
+          "Connectivity": 0.052100535991402054,
+          "Payment": 0.07336374196483274,
+          "Education": 0.10022587248386282,
+          "Shopping": 0.019832144957384747,
+          "Travel": 0.06046978126183513,
+          "Communication": 0.08800038328257427,
+          "Coding": 0.057244449234403104,
+          "Work & Career": 0.13698827151794776,
+          "Entertainment": 0.15217014166518023,
+          "General": 0.1800669294694227
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_055",
+      "filename": "ext_055.jpg",
+      "expected_category": "Education",
+      "predicted_category": "Payment",
+      "correct_in_top2": true,
+      "correct_in_top3": true,
+      "top_candidates": [
+        {
+          "category": "Payment",
+          "final_score": 0.6992,
+          "rule_score": 1.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.3278,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Education",
+          "final_score": 0.397,
+          "rule_score": 0.2075,
+          "semantic_score": 0.924,
+          "embedding_score": 0.3142,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Travel",
+          "final_score": 0.2765,
+          "rule_score": 0.0,
+          "semantic_score": 0.8025,
+          "embedding_score": 0.2387,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "transaction",
+      "confidence": 0.6403,
+      "confidence_bucket": "medium",
+      "ambiguous": false,
+      "score_margin": 0.3022,
+      "primary_cause": "B. Rule/Evidence Misleading",
+      "reasoning": "Presence of numeric course units, marks, or isolated currency symbols triggered misleading financial/payment rule boosts.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 83,
+      "ocr_text_snippet": "6.57 Loh ,ll 98% Dear Student; You are selected KIITEE Mer it Scholarship(Renewal) as per your semester SGPA. We need your Bank account details for th",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 1.0,
+          "Education": 0.20754716981132076,
+          "Shopping": 0.18867924528301888,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.20754716981132076,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.9240117334654754,
+          "Payment": 1.0,
+          "Shopping": 0.48521580461562125,
+          "Travel": 0.8024939450013099,
+          "Coding": 0.16286638359354932,
+          "Communication": 0.1359978820404482,
+          "Work & Career": 0.5082924783469366,
+          "Entertainment": 0.2527641678306185,
+          "Connectivity": 0.48675774127145177,
+          "General": 0.6091269515422466
+        },
+        "embedding_scores": {
+          "Connectivity": 0.20904090293142846,
+          "Payment": 0.327757748470127,
+          "Education": 0.3141625559200023,
+          "Shopping": 0.2234655599912031,
+          "Travel": 0.23867622698085472,
+          "Communication": 0.08459758701043939,
+          "Coding": 0.0,
+          "Work & Career": 0.23349161819399128,
+          "Entertainment": 0.09193592596001468,
+          "General": 0.1718302146164838
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [
+          {
+            "text": "KIIT",
+            "type": "institution"
+          }
+        ],
+        "events": [
+          {
+            "type": "payment",
+            "status": "successful",
+            "details": "Financial transaction / payment receipt"
+          },
+          {
+            "type": "academic_course",
+            "status": "active",
+            "details": "Academic course syllabus/notice"
+          }
+        ],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [
+            "panda@kiit"
+          ],
+          "has_payment_keywords": true,
+          "payment_method": "UPI"
+        },
+        "text_topics": [
+          "university"
+        ]
+      }
+    },
+    {
+      "image_id": "ext_058",
+      "filename": "ext_058.jpg",
+      "expected_category": "Education",
+      "predicted_category": "Payment",
+      "correct_in_top2": false,
+      "correct_in_top3": false,
+      "top_candidates": [
+        {
+          "category": "Payment",
+          "final_score": 0.4469,
+          "rule_score": 1.0,
+          "semantic_score": 0.319,
+          "embedding_score": 0.0083,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Coding",
+          "final_score": 0.3664,
+          "rule_score": 0.2778,
+          "semantic_score": 0.8301,
+          "embedding_score": 0.1345,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "General",
+          "final_score": 0.3206,
+          "rule_score": 0.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.1375,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "transaction",
+      "confidence": 0.3143,
+      "confidence_bucket": "low",
+      "ambiguous": true,
+      "score_margin": 0.0805,
+      "primary_cause": "B. Rule/Evidence Misleading",
+      "reasoning": "Presence of numeric course units, marks, or isolated currency symbols triggered misleading financial/payment rule boosts.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 58,
+      "ocr_text_snippet": "9:27 Lt LTET ,ll 97% Group_5678-pdf Gr. Group Members Topic No_ 2305385, 2305493, 2305495, Engineering Standards and 2305500,2305538,2305622 Their Imp",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 1.0,
+          "Education": 0.0,
+          "Shopping": 0.30303030303030304,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.2777777777777778,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.6031985102730824,
+          "Payment": 0.3189505653903146,
+          "Shopping": 0.11159077121466586,
+          "Travel": 0.5166557254723724,
+          "Coding": 0.8300535127449228,
+          "Communication": 0.3387578580390293,
+          "Work & Career": 0.9342128418494992,
+          "Entertainment": 0.24948296576055337,
+          "Connectivity": 0.40779440339155176,
+          "General": 1.0
+        },
+        "embedding_scores": {
+          "Connectivity": 0.06499802769259509,
+          "Payment": 0.0083373373441837,
+          "Education": 0.17103092884822682,
+          "Shopping": 0.0,
+          "Travel": 0.12176084920643249,
+          "Communication": 0.04052304404316079,
+          "Coding": 0.13448131713252812,
+          "Work & Career": 0.177024812799215,
+          "Entertainment": 0.005811615331375993,
+          "General": 0.1374884834721463
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [
+          {
+            "type": "payment",
+            "status": "successful",
+            "details": "Financial transaction / payment receipt"
+          }
+        ],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [
+            "rs\n23051277,",
+            "rs\n23051358,23051404,23051437,"
+          ],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_059",
+      "filename": "ext_059.jpg",
+      "expected_category": "Education",
+      "predicted_category": "Shopping",
+      "correct_in_top2": false,
+      "correct_in_top3": false,
+      "top_candidates": [
+        {
+          "category": "Shopping",
+          "final_score": 0.4715,
+          "rule_score": 1.0,
+          "semantic_score": 0.4036,
+          "embedding_score": 0.0026,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "General",
+          "final_score": 0.3109,
+          "rule_score": 0.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.0729,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Communication",
+          "final_score": 0.2641,
+          "rule_score": 0.0,
+          "semantic_score": 0.8385,
+          "embedding_score": 0.0837,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "product_page",
+      "confidence": 0.3506,
+      "confidence_bucket": "low",
+      "ambiguous": false,
+      "score_margin": 0.1606,
+      "primary_cause": "B. Rule/Evidence Misleading",
+      "reasoning": "Presence of numeric course units, marks, or isolated currency symbols triggered misleading financial/payment rule boosts.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 86,
+      "ocr_text_snippet": "NIMISHA DA EDIIORAL_ANAlySIS by BANSAL LIVE 8.00 _ 14-16/98 (?Tacisaryuf ; dgd 31845 %aat dlalT) T7 Prolix (PROH-liks) Meaning: Using too many words a",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 1.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.5947611669608015,
+          "Payment": 0.3743750124761988,
+          "Shopping": 0.40358657794230457,
+          "Travel": 0.08063218618976355,
+          "Coding": 0.3999080944155712,
+          "Communication": 0.8384595183593585,
+          "Work & Career": 0.06483632817586578,
+          "Entertainment": 0.014180955180258595,
+          "Connectivity": 0.0,
+          "General": 1.0
+        },
+        "embedding_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.040506929633665055,
+          "Education": 0.1385449258596185,
+          "Shopping": 0.002568566941093687,
+          "Travel": 0.0,
+          "Communication": 0.08369296146846152,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.07286152265217921
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    },
+    {
+      "image_id": "ext_060",
+      "filename": "ext_060.jpg",
+      "expected_category": "Education",
+      "predicted_category": "Shopping",
+      "correct_in_top2": true,
+      "correct_in_top3": true,
+      "top_candidates": [
+        {
+          "category": "Shopping",
+          "final_score": 0.5032,
+          "rule_score": 1.0,
+          "semantic_score": 0.466,
+          "embedding_score": 0.0891,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Education",
+          "final_score": 0.3876,
+          "rule_score": 0.55,
+          "semantic_score": 0.5856,
+          "embedding_score": 0.1292,
+          "content_type_score": 0.0
+        },
+        {
+          "category": "Communication",
+          "final_score": 0.3117,
+          "rule_score": 0.0,
+          "semantic_score": 1.0,
+          "embedding_score": 0.0779,
+          "content_type_score": 0.0
+        }
+      ],
+      "content_type": "shopping_order",
+      "confidence": 0.3529,
+      "confidence_bucket": "low",
+      "ambiguous": false,
+      "score_margin": 0.1156,
+      "primary_cause": "B. Rule/Evidence Misleading",
+      "reasoning": "Presence of numeric course units, marks, or isolated currency symbols triggered misleading financial/payment rule boosts.",
+      "text_ocr_sufficient": "YES",
+      "visual_layout_useful": "YES",
+      "taxonomy_distinguishable": "YES",
+      "ocr_word_count": 277,
+      "ocr_text_snippet": "Flimsy Pluck Convoluted Chary Prolix Promulgate Embroiled Perennial Bunkum Smidgen NIMISHA DAILY EDITORAL_ANALySIS by BANSAL LIVE 800 AM Jne-word subs",
+      "signal_scores": {
+        "rule_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.55,
+          "Shopping": 1.0,
+          "Travel": 0.5,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        },
+        "semantic_scores": {
+          "Education": 0.5856348774373085,
+          "Payment": 0.0,
+          "Shopping": 0.46598746025280685,
+          "Travel": 0.2734358030284814,
+          "Coding": 0.3989140199508231,
+          "Communication": 1.0,
+          "Work & Career": 0.5028804672919827,
+          "Entertainment": 0.18525579418298924,
+          "Connectivity": 0.0,
+          "General": 0.3981035883196041
+        },
+        "embedding_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.023453440746588172,
+          "Education": 0.12920442894833173,
+          "Shopping": 0.08911386666309648,
+          "Travel": 0.01987108768662533,
+          "Communication": 0.07789412724697964,
+          "Coding": 0.018092232387595678,
+          "Work & Career": 0.011516629269522176,
+          "Entertainment": 0.0,
+          "General": 0.03065821512073346
+        },
+        "content_type_scores": {
+          "Connectivity": 0.0,
+          "Payment": 0.0,
+          "Education": 0.0,
+          "Shopping": 0.0,
+          "Travel": 0.0,
+          "Communication": 0.0,
+          "Coding": 0.0,
+          "Work & Career": 0.0,
+          "Entertainment": 0.0,
+          "General": 0.0
+        }
+      },
+      "evidence_summary": {
+        "entities": [],
+        "events": [],
+        "dates": [],
+        "urls": [],
+        "financial_info": {
+          "amounts": [],
+          "transaction_ids": [],
+          "upi_ids": [],
+          "has_payment_keywords": false,
+          "payment_method": null
+        },
+        "text_topics": []
+      }
+    }
+  ]
+}

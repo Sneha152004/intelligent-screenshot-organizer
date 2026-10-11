@@ -1,0 +1,588 @@
+{
+  "timestamp": "2026-09-30T14:09:22Z",
+  "selected_configuration": "Variant_B_9Cat_Explicit_General_Fallback",
+  "validation_results": {
+    "Variant_A_9Cat_Adapted_Scoring": {
+      "top1_accuracy": 0.832,
+      "top2_recall": 0.848,
+      "top3_recall": 0.952,
+      "macro_precision": 0.8232323232323232,
+      "macro_recall": 0.8089133089133089,
+      "macro_f1": 0.7608818342151675,
+      "balanced_accuracy": 0.8089133089133089,
+      "mrr": 0.8746666666666664,
+      "ambiguity_rate": 0.176,
+      "sparse_ocr_rate": 0.056,
+      "per_category": {
+        "Communication": {
+          "support": 11,
+          "precision": 0.7857142857142857,
+          "recall": 1.0,
+          "f1": 0.88
+        },
+        "Connectivity": {
+          "support": 4,
+          "precision": 0.14285714285714285,
+          "recall": 0.5,
+          "f1": 0.2222222222222222
+        },
+        "Education": {
+          "support": 13,
+          "precision": 1.0,
+          "recall": 0.9230769230769231,
+          "f1": 0.96
+        },
+        "Entertainment": {
+          "support": 19,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "General": {
+          "support": 14,
+          "precision": 1.0,
+          "recall": 0.14285714285714285,
+          "f1": 0.25
+        },
+        "Payment": {
+          "support": 4,
+          "precision": 0.6666666666666666,
+          "recall": 1.0,
+          "f1": 0.8
+        },
+        "Shopping": {
+          "support": 20,
+          "precision": 0.9090909090909091,
+          "recall": 1.0,
+          "f1": 0.9523809523809523
+        },
+        "Travel": {
+          "support": 19,
+          "precision": 0.9047619047619048,
+          "recall": 1.0,
+          "f1": 0.95
+        },
+        "Work & Career": {
+          "support": 21,
+          "precision": 1.0,
+          "recall": 0.7142857142857143,
+          "f1": 0.8333333333333334
+        }
+      },
+      "coding_tag_eval": {
+        "true_positives": 11,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "true_negatives": 113,
+        "precision": 1.0,
+        "recall": 0.9166666666666666,
+        "f1_score": 0.9565217391304348
+      },
+      "mean_latency_ms": 12.640052000000011
+    },
+    "Variant_B_9Cat_Explicit_General_Fallback": {
+      "top1_accuracy": 0.832,
+      "top2_recall": 0.84,
+      "top3_recall": 0.944,
+      "macro_precision": 0.7829059829059829,
+      "macro_recall": 0.8089133089133089,
+      "macro_f1": 0.7730274647775717,
+      "balanced_accuracy": 0.8089133089133089,
+      "mrr": 0.8706666666666664,
+      "ambiguity_rate": 0.152,
+      "sparse_ocr_rate": 0.056,
+      "per_category": {
+        "Communication": {
+          "support": 11,
+          "precision": 0.8461538461538461,
+          "recall": 1.0,
+          "f1": 0.9166666666666666
+        },
+        "Connectivity": {
+          "support": 4,
+          "precision": 0.14285714285714285,
+          "recall": 0.5,
+          "f1": 0.2222222222222222
+        },
+        "Education": {
+          "support": 13,
+          "precision": 1.0,
+          "recall": 0.9230769230769231,
+          "f1": 0.96
+        },
+        "Entertainment": {
+          "support": 19,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "General": {
+          "support": 14,
+          "precision": 0.4,
+          "recall": 0.14285714285714285,
+          "f1": 0.21052631578947367
+        },
+        "Payment": {
+          "support": 4,
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1": 0.8888888888888888
+        },
+        "Shopping": {
+          "support": 20,
+          "precision": 0.9523809523809523,
+          "recall": 1.0,
+          "f1": 0.975609756097561
+        },
+        "Travel": {
+          "support": 19,
+          "precision": 0.9047619047619048,
+          "recall": 1.0,
+          "f1": 0.95
+        },
+        "Work & Career": {
+          "support": 21,
+          "precision": 1.0,
+          "recall": 0.7142857142857143,
+          "f1": 0.8333333333333334
+        }
+      },
+      "coding_tag_eval": {
+        "true_positives": 11,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "true_negatives": 113,
+        "precision": 1.0,
+        "recall": 0.9166666666666666,
+        "f1_score": 0.9565217391304348
+      },
+      "mean_latency_ms": 12.588120799999942
+    },
+    "Variant_C_9Cat_General_Fallback_Tags": {
+      "top1_accuracy": 0.832,
+      "top2_recall": 0.84,
+      "top3_recall": 0.944,
+      "macro_precision": 0.7829059829059829,
+      "macro_recall": 0.8089133089133089,
+      "macro_f1": 0.7730274647775717,
+      "balanced_accuracy": 0.8089133089133089,
+      "mrr": 0.8706666666666664,
+      "ambiguity_rate": 0.152,
+      "sparse_ocr_rate": 0.056,
+      "per_category": {
+        "Communication": {
+          "support": 11,
+          "precision": 0.8461538461538461,
+          "recall": 1.0,
+          "f1": 0.9166666666666666
+        },
+        "Connectivity": {
+          "support": 4,
+          "precision": 0.14285714285714285,
+          "recall": 0.5,
+          "f1": 0.2222222222222222
+        },
+        "Education": {
+          "support": 13,
+          "precision": 1.0,
+          "recall": 0.9230769230769231,
+          "f1": 0.96
+        },
+        "Entertainment": {
+          "support": 19,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "General": {
+          "support": 14,
+          "precision": 0.4,
+          "recall": 0.14285714285714285,
+          "f1": 0.21052631578947367
+        },
+        "Payment": {
+          "support": 4,
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1": 0.8888888888888888
+        },
+        "Shopping": {
+          "support": 20,
+          "precision": 0.9523809523809523,
+          "recall": 1.0,
+          "f1": 0.975609756097561
+        },
+        "Travel": {
+          "support": 19,
+          "precision": 0.9047619047619048,
+          "recall": 1.0,
+          "f1": 0.95
+        },
+        "Work & Career": {
+          "support": 21,
+          "precision": 1.0,
+          "recall": 0.7142857142857143,
+          "f1": 0.8333333333333334
+        }
+      },
+      "coding_tag_eval": {
+        "true_positives": 11,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "true_negatives": 113,
+        "precision": 1.0,
+        "recall": 0.9166666666666666,
+        "f1_score": 0.9565217391304348
+      },
+      "mean_latency_ms": 12.282346400000108
+    }
+  },
+  "holdout_results": {
+    "top1_accuracy": 0.872,
+    "top2_recall": 0.872,
+    "top3_recall": 0.968,
+    "macro_precision": 0.8607983634299424,
+    "macro_recall": 0.8584656084656085,
+    "macro_f1": 0.8068137214363241,
+    "balanced_accuracy": 0.8584656084656085,
+    "mrr": 0.9039999999999998,
+    "ambiguity_rate": 0.128,
+    "sparse_ocr_rate": 0.016,
+    "per_category": {
+      "Communication": {
+        "support": 11,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Connectivity": {
+        "support": 4,
+        "precision": 0.23076923076923078,
+        "recall": 0.75,
+        "f1": 0.35294117647058826
+      },
+      "Education": {
+        "support": 14,
+        "precision": 0.8666666666666667,
+        "recall": 0.9285714285714286,
+        "f1": 0.896551724137931
+      },
+      "Entertainment": {
+        "support": 19,
+        "precision": 0.95,
+        "recall": 1.0,
+        "f1": 0.9743589743589743
+      },
+      "General": {
+        "support": 14,
+        "precision": 1.0,
+        "recall": 0.14285714285714285,
+        "f1": 0.25
+      },
+      "Payment": {
+        "support": 4,
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1": 0.8888888888888888
+      },
+      "Shopping": {
+        "support": 20,
+        "precision": 0.9523809523809523,
+        "recall": 1.0,
+        "f1": 0.975609756097561
+      },
+      "Travel": {
+        "support": 18,
+        "precision": 0.9473684210526315,
+        "recall": 1.0,
+        "f1": 0.972972972972973
+      },
+      "Work & Career": {
+        "support": 21,
+        "precision": 1.0,
+        "recall": 0.9047619047619048,
+        "f1": 0.95
+      }
+    },
+    "coding_tag_eval": {
+      "true_positives": 9,
+      "false_positives": 0,
+      "false_negatives": 1,
+      "true_negatives": 115,
+      "precision": 1.0,
+      "recall": 0.9,
+      "f1_score": 0.9473684210526316
+    },
+    "mean_latency_ms": 12.262986399999988
+  },
+  "coding_tag_holdout_eval": {
+    "true_positives": 9,
+    "false_positives": 0,
+    "false_negatives": 1,
+    "true_negatives": 115,
+    "precision": 1.0,
+    "recall": 0.9,
+    "f1_score": 0.9473684210526316
+  },
+  "holdout_errors_count": 16,
+  "holdout_error_cases": [
+    {
+      "screenshot_id": "ss_163",
+      "filename": "ss_163.jpg",
+      "old_category": "General",
+      "ground_truth_new": "General",
+      "predicted": "Connectivity",
+      "ocr_evidence": [
+        "Med-KW: 'settings'"
+      ],
+      "semantic_sim": 0.4497,
+      "coding_tags": [],
+      "confidence": "Low",
+      "reason": "Misclassified as 'Connectivity' instead of 'General'."
+    },
+    {
+      "screenshot_id": "ss_090",
+      "filename": "ss_090.jpg",
+      "old_category": "General",
+      "ground_truth_new": "General",
+      "predicted": "Connectivity",
+      "ocr_evidence": [
+        "Med-KW: 'settings'"
+      ],
+      "semantic_sim": 0.4497,
+      "coding_tags": [],
+      "confidence": "Low",
+      "reason": "Misclassified as 'Connectivity' instead of 'General'."
+    },
+    {
+      "screenshot_id": "ss_012",
+      "filename": "ss_012.jpg",
+      "old_category": "Coding",
+      "ground_truth_new": "Work & Career",
+      "predicted": "Education",
+      "ocr_evidence": [
+        "High-KW: 'kiit'",
+        "Med-KW: 'university'",
+        "Med-KW: 'student'",
+        "Med-KW: 'school'"
+      ],
+      "semantic_sim": 0.3895,
+      "coding_tags": [
+        "Coding",
+        "Programming",
+        "Python"
+      ],
+      "confidence": "Medium",
+      "reason": "Misclassified as 'Education' instead of 'Work & Career'."
+    },
+    {
+      "screenshot_id": "ss_135",
+      "filename": "ss_135.jpg",
+      "old_category": "General",
+      "ground_truth_new": "General",
+      "predicted": "Connectivity",
+      "ocr_evidence": [
+        "Med-KW: 'settings'"
+      ],
+      "semantic_sim": 0.4497,
+      "coding_tags": [],
+      "confidence": "Low",
+      "reason": "Misclassified as 'Connectivity' instead of 'General'."
+    },
+    {
+      "screenshot_id": "ss_008",
+      "filename": "ss_008.jpg",
+      "old_category": "Coding",
+      "ground_truth_new": "Education",
+      "predicted": "Shopping",
+      "ocr_evidence": [
+        "Med-KW: 'price'",
+        "Med-KW: 'order'",
+        "Med-KW: 'item'",
+        "Med-KW: 'delivery'"
+      ],
+      "semantic_sim": 0.1598,
+      "coding_tags": [
+        "Coding"
+      ],
+      "confidence": "Low",
+      "reason": "Misclassified as 'Shopping' instead of 'Education'."
+    },
+    {
+      "screenshot_id": "ss_249",
+      "filename": "ss_249.jpg",
+      "old_category": "General",
+      "ground_truth_new": "General",
+      "predicted": "Connectivity",
+      "ocr_evidence": [
+        "Med-KW: 'settings'"
+      ],
+      "semantic_sim": 0.4497,
+      "coding_tags": [],
+      "confidence": "Low",
+      "reason": "Misclassified as 'Connectivity' instead of 'General'."
+    },
+    {
+      "screenshot_id": "ss_257",
+      "filename": "ss_257.jpg",
+      "old_category": "General",
+      "ground_truth_new": "General",
+      "predicted": "Connectivity",
+      "ocr_evidence": [
+        "Med-KW: 'settings'"
+      ],
+      "semantic_sim": 0.3962,
+      "coding_tags": [],
+      "confidence": "Low",
+      "reason": "Misclassified as 'Connectivity' instead of 'General'."
+    },
+    {
+      "screenshot_id": "ss_427",
+      "filename": "ss_427.jpg",
+      "old_category": "General",
+      "ground_truth_new": "General",
+      "predicted": "Connectivity",
+      "ocr_evidence": [
+        "Med-KW: 'settings'"
+      ],
+      "semantic_sim": 0.4497,
+      "coding_tags": [],
+      "confidence": "Low",
+      "reason": "Misclassified as 'Connectivity' instead of 'General'."
+    },
+    {
+      "screenshot_id": "ss_162",
+      "filename": "ss_162.jpg",
+      "old_category": "General",
+      "ground_truth_new": "General",
+      "predicted": "Connectivity",
+      "ocr_evidence": [
+        "Med-KW: 'settings'"
+      ],
+      "semantic_sim": 0.4497,
+      "coding_tags": [],
+      "confidence": "Low",
+      "reason": "Misclassified as 'Connectivity' instead of 'General'."
+    },
+    {
+      "screenshot_id": "ss_412",
+      "filename": "ss_412.jpg",
+      "old_category": "General",
+      "ground_truth_new": "General",
+      "predicted": "Connectivity",
+      "ocr_evidence": [
+        "Med-KW: 'settings'"
+      ],
+      "semantic_sim": 0.4497,
+      "coding_tags": [],
+      "confidence": "Low",
+      "reason": "Misclassified as 'Connectivity' instead of 'General'."
+    },
+    {
+      "screenshot_id": "ss_011",
+      "filename": "ss_011.jpg",
+      "old_category": "Coding",
+      "ground_truth_new": "General",
+      "predicted": "Travel",
+      "ocr_evidence": [
+        "High-KW: 'boarding pass'",
+        "High-KW: 'pnr'",
+        "High-KW: 'indigo'",
+        "High-KW: 'departure'",
+        "Med-KW: 'flight'",
+        "Med-KW: 'seat'",
+        "Med-KW: 'gate'",
+        "Phrase: 'boarding pass'"
+      ],
+      "semantic_sim": 0.4528,
+      "coding_tags": [
+        "Coding"
+      ],
+      "confidence": "High",
+      "reason": "Misclassified as 'Travel' instead of 'General'."
+    },
+    {
+      "screenshot_id": "ss_082",
+      "filename": "ss_082.jpg",
+      "old_category": "Connectivity",
+      "ground_truth_new": "Connectivity",
+      "predicted": "Entertainment",
+      "ocr_evidence": [
+        "Med-KW: 'music'",
+        "Med-KW: 'video'",
+        "Med-KW: 'media'"
+      ],
+      "semantic_sim": 0.2254,
+      "coding_tags": [],
+      "confidence": "Medium",
+      "reason": "Misclassified as 'Entertainment' instead of 'Connectivity'."
+    },
+    {
+      "screenshot_id": "ss_265",
+      "filename": "ss_265.jpg",
+      "old_category": "General",
+      "ground_truth_new": "General",
+      "predicted": "Connectivity",
+      "ocr_evidence": [
+        "Med-KW: 'settings'"
+      ],
+      "semantic_sim": 0.4497,
+      "coding_tags": [],
+      "confidence": "Low",
+      "reason": "Misclassified as 'Connectivity' instead of 'General'."
+    },
+    {
+      "screenshot_id": "ss_057",
+      "filename": "ss_057.jpg",
+      "old_category": "Coding",
+      "ground_truth_new": "General",
+      "predicted": "Education",
+      "ocr_evidence": [
+        "Med-KW: 'lab'"
+      ],
+      "semantic_sim": 0.2055,
+      "coding_tags": [
+        "Coding",
+        "JavaScript"
+      ],
+      "confidence": "Medium",
+      "reason": "Misclassified as 'Education' instead of 'General'."
+    },
+    {
+      "screenshot_id": "ss_231",
+      "filename": "ss_231.jpg",
+      "old_category": "General",
+      "ground_truth_new": "General",
+      "predicted": "Connectivity",
+      "ocr_evidence": [
+        "Med-KW: 'settings'"
+      ],
+      "semantic_sim": 0.4497,
+      "coding_tags": [],
+      "confidence": "Low",
+      "reason": "Misclassified as 'Connectivity' instead of 'General'."
+    },
+    {
+      "screenshot_id": "ss_013",
+      "filename": "ss_013.jpg",
+      "old_category": "Coding",
+      "ground_truth_new": "Work & Career",
+      "predicted": "Payment",
+      "ocr_evidence": [
+        "High-KW: 'payment successful'",
+        "Med-KW: 'payment'",
+        "Med-KW: 'upi'",
+        "Med-KW: 'successful'",
+        "Phrase: 'payment successful'"
+      ],
+      "semantic_sim": 0.3954,
+      "coding_tags": [
+        "Coding",
+        "Programming",
+        "Python"
+      ],
+      "confidence": "High",
+      "reason": "Misclassified as 'Payment' instead of 'Work & Career'."
+    }
+  ]
+}

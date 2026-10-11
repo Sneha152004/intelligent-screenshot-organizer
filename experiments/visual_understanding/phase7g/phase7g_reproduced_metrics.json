@@ -1,0 +1,12 @@
+{
+  "validation_samples": 169,
+  "correct_predictions": 148,
+  "error_count": 21,
+  "top1_accuracy": 0.8757,
+  "top2_accuracy": 0.9408,
+  "top3_accuracy": 0.9882,
+  "macro_f1_score": 0.6796,
+  "weighted_f1_score": 0.8632,
+  "balanced_accuracy": 0.6749,
+  "phase7f_reported_match": true
+}

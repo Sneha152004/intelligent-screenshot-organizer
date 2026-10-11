@@ -1,0 +1,193 @@
+{
+  "inventory_name": "canonical_category_inventory",
+  "total_canonical_categories": 10,
+  "categories": [
+    {
+      "category": "Coding",
+      "description_if_existing": "Screenshots depicting source code editors, IDEs, developer terminals, git repositories, compiler error tracebacks, and technical code documentation.",
+      "training_support": {
+        "internal_train_n250": 0,
+        "internal_val_n125": 0,
+        "internal_holdout_n125": 0,
+        "external_v2_n244": 0
+      },
+      "known_confusions": [
+        "Education (coding tutorials vs raw code)",
+        "Work & Career (developer work vs generic workplace)",
+        "General (system logs/terminal vs generic UI)"
+      ],
+      "existing_rules": [
+        "RULE_004_DOMAIN_OCR_PHRASE_BOOSTER (vs code, git commit, traceback)",
+        "RULE_007_YOLO_VISUAL_SCREEN_TYPE_MAP (code_editor_terminal -> Coding)"
+      ]
+    },
+    {
+      "category": "Communication",
+      "description_if_existing": "Screenshots of messaging apps, email threads, chat conversations, direct messages, and social comment threads.",
+      "training_support": {
+        "internal_train_n250": 1,
+        "internal_val_n125": 3,
+        "internal_holdout_n125": 2,
+        "external_v2_n244": 21
+      },
+      "known_confusions": [
+        "Work & Career (recruitment emails vs work tasks)",
+        "Education (course chat/discussion vs lecture material)",
+        "Shopping (order update emails vs shopping cart)",
+        "General (generic text feed vs chat interface)"
+      ],
+      "existing_rules": [
+        "RULE_004_DOMAIN_OCR_PHRASE_BOOSTER (whatsapp, inbox, reply to, subject:)"
+      ]
+    },
+    {
+      "category": "Connectivity",
+      "description_if_existing": "Screenshots showing network settings, Wi-Fi configuration, Bluetooth pairing, IP/MAC address details, and internet connectivity status.",
+      "training_support": {
+        "internal_train_n250": 18,
+        "internal_val_n125": 0,
+        "internal_holdout_n125": 1,
+        "external_v2_n244": 5
+      },
+      "known_confusions": [
+        "General (device settings vs network settings)",
+        "Work & Career (IT admin dashboard vs network status)"
+      ],
+      "existing_rules": [
+        "RULE_004_DOMAIN_OCR_PHRASE_BOOSTER (wi-fi, ip address, bluetooth, network settings)",
+        "RULE_007_YOLO_VISUAL_SCREEN_TYPE_MAP (dashboard_settings -> Connectivity)"
+      ]
+    },
+    {
+      "category": "Education",
+      "description_if_existing": "Screenshots of academic material, online courses, study notes, textbooks, flashcards, exams, quizzes, and learning portals.",
+      "training_support": {
+        "internal_train_n250": 27,
+        "internal_val_n125": 2,
+        "internal_holdout_n125": 4,
+        "external_v2_n244": 36
+      },
+      "known_confusions": [
+        "Work & Career (professional skill courses vs academic study)",
+        "Communication (student assignment chat vs textbook material)",
+        "General (generic web article vs educational material)"
+      ],
+      "existing_rules": [
+        "RULE_004_DOMAIN_OCR_PHRASE_BOOSTER (online course, practice questions, lecture notes)",
+        "RULE_007_YOLO_VISUAL_SCREEN_TYPE_MAP (document_article_view -> Education)",
+        "RULE_008_CONTEXTUAL_COMBINATION_RULES (python + tutorial -> Education)"
+      ]
+    },
+    {
+      "category": "Entertainment",
+      "description_if_existing": "Screenshots of video/music streaming, movies, gaming interfaces, sports, media players, and social media media content.",
+      "training_support": {
+        "internal_train_n250": 61,
+        "internal_val_n125": 25,
+        "internal_holdout_n125": 8,
+        "external_v2_n244": 5
+      },
+      "known_confusions": [
+        "General (generic web video vs streaming app)",
+        "Shopping (movie ticket purchase vs entertainment streaming)"
+      ],
+      "existing_rules": [
+        "RULE_004_DOMAIN_OCR_PHRASE_BOOSTER (watch now, play episode, now playing)",
+        "RULE_007_YOLO_VISUAL_SCREEN_TYPE_MAP (media_player_library -> Entertainment)"
+      ]
+    },
+    {
+      "category": "General",
+      "description_if_existing": "Default fallback category for home screens, system settings, miscellaneous web pages, devices UI, clock/calculator, and unclassified screenshots.",
+      "training_support": {
+        "internal_train_n250": 54,
+        "internal_val_n125": 19,
+        "internal_holdout_n125": 19,
+        "external_v2_n244": 108
+      },
+      "known_confusions": [
+        "Work & Career (ambiguous text vs work content)",
+        "Communication (text UI vs chat message)",
+        "Shopping (product image without purchase intent vs store page)"
+      ],
+      "existing_rules": [
+        "RULE_003_MANDATORY_GENERAL_FALLBACK (Always in candidate pool)",
+        "RULE_005_GENERAL_EVIDENCE_PENALTY (0.50x penalty when domain phrase present)"
+      ]
+    },
+    {
+      "category": "Payment",
+      "description_if_existing": "Screenshots of digital payment confirmations, receipts, invoices, bank transfers, UPI transactions, and transaction receipts.",
+      "training_support": {
+        "internal_train_n250": 8,
+        "internal_val_n125": 8,
+        "internal_holdout_n125": 1,
+        "external_v2_n244": 13
+      },
+      "known_confusions": [
+        "Shopping (shopping checkout vs payment confirmation receipt)",
+        "Work & Career (business invoice vs personal payment)"
+      ],
+      "existing_rules": [
+        "RULE_004_DOMAIN_OCR_PHRASE_BOOSTER (payment successful, transaction successful, invoice total)",
+        "RULE_008_CONTEXTUAL_COMBINATION_RULES (₹ + payment successful -> Payment)"
+      ]
+    },
+    {
+      "category": "Shopping",
+      "description_if_existing": "Screenshots of e-commerce product listings, shopping carts, product detail pages, wishlists, and store catalogs.",
+      "training_support": {
+        "internal_train_n250": 35,
+        "internal_val_n125": 17,
+        "internal_holdout_n125": 44,
+        "external_v2_n244": 40
+      },
+      "known_confusions": [
+        "Payment (checkout screen vs completed payment receipt)",
+        "Communication (marketing email vs e-commerce app)",
+        "General (generic article mentioning product vs shopping page)"
+      ],
+      "existing_rules": [
+        "RULE_004_DOMAIN_OCR_PHRASE_BOOSTER (add to cart, buy now, product details)",
+        "RULE_008_CONTEXTUAL_COMBINATION_RULES (₹ + add to cart -> Shopping)"
+      ]
+    },
+    {
+      "category": "Travel",
+      "description_if_existing": "Screenshots of flight tickets, airline bookings, boarding passes, hotel reservations, train/bus tickets, and travel itineraries.",
+      "training_support": {
+        "internal_train_n250": 21,
+        "internal_val_n125": 2,
+        "internal_holdout_n125": 27,
+        "external_v2_n244": 5
+      },
+      "known_confusions": [
+        "Payment (ticket payment receipt vs boarding pass)",
+        "Communication (booking confirmation email vs travel app)"
+      ],
+      "existing_rules": [
+        "RULE_004_DOMAIN_OCR_PHRASE_BOOSTER (travel itinerary, boarding pass, flight booking)",
+        "RULE_007_YOLO_VISUAL_SCREEN_TYPE_MAP (travel_booking -> Travel)"
+      ]
+    },
+    {
+      "category": "Work & Career",
+      "description_if_existing": "Screenshots of job postings, recruitment portals, resumes, workplace dashboards, corporate Slack/Teams channels, and business documents.",
+      "training_support": {
+        "internal_train_n250": 25,
+        "internal_val_n125": 49,
+        "internal_holdout_n125": 19,
+        "external_v2_n244": 11
+      },
+      "known_confusions": [
+        "Communication (recruiter email vs job portal)",
+        "Education (career training course vs job application)",
+        "General (generic professional article vs career portal)"
+      ],
+      "existing_rules": [
+        "RULE_004_DOMAIN_OCR_PHRASE_BOOSTER (job application, campus placement, interview invitation)",
+        "RULE_008_CONTEXTUAL_COMBINATION_RULES (linkedin + job -> Work & Career)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "execution_device": "CPU",
+  "checkpoint_file_sizes_mb": {
+    "fp32_checkpoint": 5.93,
+    "int8_checkpoint": 4.24
+  },
+  "model_loading_time_ms": {
+    "fp32": 74.93,
+    "int8": 111.18
+  },
+  "cpu_forward_pass_latency_ms": {
+    "cold_pass": 20.14,
+    "warm_pass_mean": 23.4,
+    "warm_pass_median": 22.03,
+    "warm_pass_std": 5.49,
+    "warm_pass_p95": 31.1,
+    "warm_pass_p99": 43.97
+  },
+  "peak_ram_overhead_mb": 15.93,
+  "target_footprint_budget_mb": "100-300 MB",
+  "budget_compliance": "PASS"
+}

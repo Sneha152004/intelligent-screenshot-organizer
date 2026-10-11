@@ -1,0 +1,66 @@
+{
+  "total_records": 244,
+  "top1_correct": 173,
+  "top2_only_correct": 23,
+  "top3_only_correct": 9,
+  "outside_top3": 39,
+  "top1_accuracy": 0.7090163934426229,
+  "top2_accuracy": 0.8032786885245902,
+  "top3_accuracy": 0.8401639344262295,
+  "per_category_coverage": {
+    "Education": {
+      "support": 36,
+      "top1": 24,
+      "top2": 30,
+      "top3": 32
+    },
+    "Shopping": {
+      "support": 40,
+      "top1": 27,
+      "top2": 35,
+      "top3": 39
+    },
+    "Payment": {
+      "support": 13,
+      "top1": 10,
+      "top2": 11,
+      "top3": 13
+    },
+    "Travel": {
+      "support": 5,
+      "top1": 4,
+      "top2": 5,
+      "top3": 5
+    },
+    "Communication": {
+      "support": 21,
+      "top1": 16,
+      "top2": 20,
+      "top3": 21
+    },
+    "Entertainment": {
+      "support": 5,
+      "top1": 4,
+      "top2": 5,
+      "top3": 5
+    },
+    "Work & Career": {
+      "support": 11,
+      "top1": 7,
+      "top2": 7,
+      "top3": 7
+    },
+    "Connectivity": {
+      "support": 5,
+      "top1": 4,
+      "top2": 5,
+      "top3": 5
+    },
+    "General": {
+      "support": 108,
+      "top1": 77,
+      "top2": 78,
+      "top3": 78
+    }
+  }
+}
