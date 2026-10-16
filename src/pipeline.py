@@ -23,7 +23,6 @@ from .chunker import ParagraphChunker
 from .config import config
 from .easy_ocr import get_ocr_engine
 from .embedder import BaseEmbedder, SentenceTransformerEmbedder
-from .loader import load_dataset
 from .mock_ocr import BaseOCREngine, MockOCREngine
 from .models.metadata import ScreenshotMetadata
 from .storage.file_store import BaseFileStore, LocalFileStore
@@ -122,6 +121,7 @@ class OCRPipeline:
         7. Partitions OCR text into paragraph chunks.
         """
         print("Loading metadata...")
+        from .loader import load_dataset
         documents = load_dataset(
             metadata_path=metadata_path,
             images_dir=images_dir,

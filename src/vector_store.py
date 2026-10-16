@@ -9,7 +9,11 @@ and full application metadata belong to Layers 1 and 2.
 
 import os
 from typing import Any, Dict, List, Optional, Union
-import chromadb
+
+try:
+    import chromadb
+except ImportError:
+    chromadb = None
 
 
 class VectorStoreManager:
@@ -29,6 +33,8 @@ class VectorStoreManager:
             db_dir: Path to directory for persistent ChromaDB storage.
             collection_name: Name of the ChromaDB collection.
         """
+        if chromadb is None:
+            raise ImportError("chromadb is not installed. Please install it with `pip install chromadb`.")
         self.db_dir = os.path.abspath(db_dir)
         self.collection_name = collection_name
         self.client = chromadb.PersistentClient(path=self.db_dir)
