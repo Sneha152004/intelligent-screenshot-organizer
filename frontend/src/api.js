@@ -27,9 +27,10 @@ async function request(path, options = {}) {
 }
 
 // ── Screenshots ──────────────────────────────────────────────────────────────
-export function fetchScreenshots({ category, q, limit = 100, offset = 0 } = {}) {
+export function fetchScreenshots({ category, tag, q, limit = 100, offset = 0 } = {}) {
   const params = new URLSearchParams();
   if (category) params.set("category", category);
+  if (tag)      params.set("tag", tag);
   if (q)        params.set("q", q);
   params.set("limit",  limit);
   params.set("offset", offset);
@@ -60,11 +61,53 @@ export function fetchCategories() {
   return request("/categories");
 }
 
+// ── Tags ─────────────────────────────────────────────────────────────────────
+export function fetchTags() {
+  return request("/tags");
+}
+
 // ── Semantic Search ──────────────────────────────────────────────────────────
-export function semanticSearch(q, { top_k = 10, category } = {}) {
+export function semanticSearch(q, { top_k = 10, category, tag } = {}) {
   const params = new URLSearchParams({ q, top_k });
   if (category) params.set("category", category);
+  if (tag)      params.set("tag", tag);
   return request(`/search?${params}`);
+}
+
+// ── Chat ─────────────────────────────────────────────────────────────────────
+export function fetchConversations() {
+  return request("/chat/conversations");
+}
+
+export function createConversation(title) {
+  return request("/chat/conversations", {
+    method: "POST",
+    body: JSON.stringify({ title: title || null }),
+  });
+}
+
+export function fetchConversation(conversationId) {
+  return request(`/chat/conversations/${conversationId}`);
+}
+
+export function deleteConversation(conversationId) {
+  return request(`/chat/conversations/${conversationId}`, {
+    method: "DELETE",
+  });
+}
+
+export function sendChatMessage(message, { top_k = 3, conversation_id = null, history = [] } = {}) {
+  const body = { message, top_k };
+  if (conversation_id) {
+    body.conversation_id = conversation_id;
+  }
+  if (history && history.length > 0) {
+    body.history = history;
+  }
+  return request("/chat", {
+    method: "POST",
+    body: JSON.stringify(body),
+  });
 }
 
 // ── Health ───────────────────────────────────────────────────────────────────

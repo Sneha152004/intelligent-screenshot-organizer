@@ -23,23 +23,21 @@ SUPPORTED_CATEGORIES: List[str] = [
     "Payment",
     "Shopping",
     "Travel",
-    "Coding",
-    "Entertainment",
-    "Connectivity",
-    "Work & Career",
     "Communication",
+    "Entertainment",
+    "Work & Career",
+    "Connectivity",
     "General",
 ]
 
-# Hierarchical taxonomy: Category -> Content Types
+# Hierarchical taxonomy: Category -> Content Types (9 Canonical Categories)
 CATEGORY_CONTENT_TYPES: Dict[str, List[str]] = {
     "Education": ["course_material", "exam_schedule", "assignment", "notes"],
     "Payment": ["payment_receipt", "bill", "transaction", "transfer"],
     "Shopping": ["product_page", "shopping_order", "delivery_tracking", "refund"],
     "Travel": ["flight_ticket", "train_ticket", "hotel_booking", "travel_itinerary"],
-    "Coding": ["code_editor", "terminal", "error_log", "documentation"],
     "Communication": ["chat", "email", "message"],
-    "Work & Career": ["job_posting", "interview", "resume", "professional_message"],
+    "Work & Career": ["job_posting", "interview", "resume", "professional_message", "code_editor", "terminal", "error_log", "documentation"],
     "Entertainment": ["movie", "video", "music", "event"],
     "Connectivity": ["wifi", "bluetooth", "network_settings"],
     "General": ["unknown", "general"],

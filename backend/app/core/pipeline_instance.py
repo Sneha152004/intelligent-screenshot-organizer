@@ -24,12 +24,14 @@ os.chdir(str(_ORGANIZER_ROOT))
 from src.config import config                                   # noqa: E402
 from src.storage.file_store import LocalFileStore               # noqa: E402
 from src.storage.metadata_store import SQLiteMetadataStore      # noqa: E402
+from src.storage.conversation_store import SQLiteConversationStore  # noqa: E402
 
 # ── Layer 1: File Storage (instant) ──────────────────────────────────────────
 file_store = LocalFileStore(storage_dir=config.screenshots_dir)
 
 # ── Layer 2: Metadata Storage (instant) ──────────────────────────────────────
 metadata_store = SQLiteMetadataStore(db_path=config.metadata_db_path)
+conversation_store = SQLiteConversationStore(db_path=config.metadata_db_path)
 
 # ── Layer 3: Vector Store (lazy) ─────────────────────────────────────────────
 _vector_store = None
@@ -77,11 +79,18 @@ def get_pipeline():
     if _pipeline is None:
         try:
             from src.pipeline import OCRPipeline
+            try:
+                import easyocr  # noqa: F401
+                engine_type = "easyocr"
+            except ImportError:
+                engine_type = config.ocr_engine_type
+
             _pipeline = OCRPipeline(
                 file_store=file_store,
                 metadata_store=metadata_store,
+                ocr_engine_type=engine_type,
             )
-            logger.info("OCR Pipeline ready.")
+            logger.info("OCR Pipeline ready (engine=%s).", engine_type)
         except Exception as e:
             logger.warning("Pipeline unavailable (%s).", e)
             _pipeline = None

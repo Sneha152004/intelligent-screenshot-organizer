@@ -11,7 +11,7 @@ import json
 import os
 import sqlite3
 from abc import ABC, abstractmethod
-from typing import List, Optional
+from typing import Dict, List, Optional
 
 from ..models.metadata import ScreenshotMetadata
 
@@ -231,3 +231,31 @@ class SQLiteMetadataStore(BaseMetadataStore):
     def clear_all(self) -> None:
         with self._get_connection() as conn:
             conn.execute("DELETE FROM screenshot_metadata")
+
+    def get_by_tag(self, tag: str) -> List[ScreenshotMetadata]:
+        """Retrieves all screenshots tagged with the given tag."""
+        with self._get_connection() as conn:
+            rows = conn.execute(
+                "SELECT * FROM screenshot_metadata WHERE tags LIKE ?",
+                (f'%"{tag}"%',),
+            ).fetchall()
+        results: List[ScreenshotMetadata] = []
+        for row in rows:
+            meta = ScreenshotMetadata.from_dict(dict(row))
+            if tag in meta.tags:
+                results.append(meta)
+        return results
+
+    def get_all_tags(self) -> Dict[str, int]:
+        """Aggregates and counts occurrences of all tags across stored metadata."""
+        tag_counts: Dict[str, int] = {}
+        for meta in self.list_all_metadata():
+            for t in meta.tags:
+                tag_counts[t] = tag_counts.get(t, 0) + 1
+        return tag_counts
+
+    # Convenience aliases
+    save = save_metadata
+    get = get_metadata
+    list_all = list_all_metadata
+    delete = delete_metadata

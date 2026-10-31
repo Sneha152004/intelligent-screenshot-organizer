@@ -11,18 +11,22 @@ from fastapi import APIRouter
 
 router = APIRouter(prefix="/api/categories", tags=["categories"])
 
-# Human-friendly metadata for each category the pipeline can produce
+# Canonical 9 categories supported by the production taxonomy
 CATEGORY_META = {
-    "Shopping":      {"icon": "🛒", "color": "#f59e0b", "description": "E-commerce, product listings, receipts"},
-    "Travel":        {"icon": "✈️", "color": "#06b6d4", "description": "Bookings, maps, itineraries"},
     "Education":     {"icon": "📚", "color": "#8b5cf6", "description": "Articles, lectures, study material"},
-    "Payment":       {"icon": "💳", "color": "#10b981", "description": "Invoices, transactions, bills"},
+    "Shopping":      {"icon": "🛒", "color": "#f59e0b", "description": "E-commerce, product listings, orders"},
+    "Payment":       {"icon": "💳", "color": "#10b981", "description": "Invoices, transactions, receipts"},
+    "Travel":        {"icon": "✈️", "color": "#06b6d4", "description": "Bookings, tickets, maps, itineraries"},
     "Communication": {"icon": "💬", "color": "#3b82f6", "description": "Chats, emails, notifications"},
-    "Work_Career":   {"icon": "💼", "color": "#6366f1", "description": "Resumes, job listings, work docs"},
-    "Coding":        {"icon": "💻", "color": "#00d4ff", "description": "Code, terminals, IDEs"},
     "Entertainment": {"icon": "🎮", "color": "#ec4899", "description": "Gaming, streaming, media"},
+    "Work & Career": {"icon": "💼", "color": "#6366f1", "description": "Resumes, job listings, work docs"},
     "Connectivity":  {"icon": "📶", "color": "#f97316", "description": "Network, settings, dashboards"},
-    "General":       {"icon": "📁", "color": "#9ca3af", "description": "Uncategorised screenshots"},
+    "General":       {"icon": "📁", "color": "#9ca3af", "description": "General & uncategorised screenshots"},
+}
+
+# Aliases for legacy formatting in historical databases
+CATEGORY_ALIASES = {
+    "Work_Career": "Work & Career",
 }
 
 DEFAULT_META = {"icon": "🗂️", "color": "#64748b", "description": "Other"}
@@ -33,14 +37,23 @@ def list_categories():
     """Return all categories present in the database with counts and metadata."""
     from ..core.pipeline_instance import metadata_store
     all_meta = metadata_store.list_all_metadata()
-    counts: Counter = Counter(m.category for m in all_meta)
+    # Count screenshots across canonical categories, safely resolving aliases and legacy values
+    counts: Counter = Counter()
+    for m in all_meta:
+        cat = m.category
+        if cat in CATEGORY_ALIASES:
+            cat = CATEGORY_ALIASES[cat]
+        elif cat == "Coding":
+            # Historical legacy value: attribute count to Work & Career without inflating top-level taxonomy
+            cat = "Work & Career"
+        elif cat not in CATEGORY_META:
+            cat = "General"
+        counts[cat] += 1
 
-    # Include all known categories (even if count is 0) plus any unseen ones in DB
-    all_cats = set(CATEGORY_META.keys()) | set(counts.keys())
-
+    # Return strictly the 9 canonical categories in defined order
     categories = []
-    for cat in sorted(all_cats):
-        meta = CATEGORY_META.get(cat, DEFAULT_META)
+    for cat in CATEGORY_META:
+        meta = CATEGORY_META[cat]
         categories.append({
             "name": cat,
             "label": cat.replace("_", " & "),

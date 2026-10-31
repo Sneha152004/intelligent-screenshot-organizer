@@ -7,6 +7,7 @@ It stores ONLY chunk embeddings, chunk text, and minimal retrieval metadata
 and full application metadata belong to Layers 1 and 2.
 """
 
+import logging
 import os
 from typing import Any, Dict, List, Optional, Union
 
@@ -14,6 +15,9 @@ try:
     import chromadb
 except ImportError:
     chromadb = None
+
+
+logger = logging.getLogger(__name__)
 
 
 class VectorStoreManager:
@@ -82,6 +86,12 @@ class VectorStoreManager:
                 "chunk_index": int(meta.get("chunk_index", 0)),
                 "category": str(meta.get("category", "General")),
             }
+            if "tags" in meta:
+                tags_val = meta.get("tags")
+                if isinstance(tags_val, list):
+                    sanitized["tags"] = ", ".join(str(t) for t in tags_val)
+                elif tags_val is not None:
+                    sanitized["tags"] = str(tags_val)
             sanitized_metadatas.append(sanitized)
 
         self.collection.add(
@@ -185,6 +195,34 @@ class VectorStoreManager:
                 )
 
         return formatted_results
+
+    def delete_by_screenshot_id(self, screenshot_id: str) -> int:
+        """
+        Deletes all vector chunks associated with the specified screenshot_id from ChromaDB.
+
+        Args:
+            screenshot_id: Target screenshot identifier string.
+
+        Returns:
+            The exact number of chunk documents deleted from ChromaDB.
+        """
+        sid = str(screenshot_id).strip() if screenshot_id else ""
+        if not sid:
+            return 0
+
+        # Query matching chunk IDs before deleting to guarantee accurate count
+        res = self.collection.get(
+            where={"screenshot_id": sid},
+            include=["metadatas"],
+        )
+        chunk_ids = res.get("ids", []) if res else []
+        count = len(chunk_ids)
+
+        if count > 0:
+            self.collection.delete(ids=chunk_ids)
+            logger.info("Deleted %d ChromaDB chunk(s) for screenshot_id=%s", count, sid)
+
+        return count
 
     def delete_collection(self) -> None:
         """

@@ -1,7 +1,7 @@
-# Phase 3G.2: External Generalization Evaluation Report
+﻿# Phase 3G.2: External Generalization Evaluation Report
 
-**Evaluation Timestamp:** 2026-10-11T10:34:10.446765+00:00  
-**Dataset Evaluated:** `Phase 3G.2 External Generalization Dataset` (60 images)  
+**Evaluation Timestamp:** 2026-10-30T13:53:49.988521+00:00
+**Dataset Evaluated:** `Phase 3G.2 External Generalization Dataset` (60 images)
 **Target Architecture:** Local Rule + Vector Embedding Hybrid Baseline (No VLM / No LLM)
 
 ---
@@ -74,18 +74,18 @@ Total Images: **`60`**
 ## 5. End-to-End Latency Breakdown
 
 ### Cold-Start Initialization Overhead
-- **Model Initialization Overhead:** **`6981.67 ms`**
+- **Model Initialization Overhead:** **`5966.55 ms`**
 
 ### Full Pipeline Warm Latencies (CPU Execution)
 
 | Sub-Stage | Mean Latency (ms) | Median / p50 (ms) | 95th Percentile / p95 (ms) |
 | :--- | :---: | :---: | :---: |
-| **Image Preprocessing / IO** | `0.11 ms` | `0.11 ms` | `0.16 ms` |
+| **Image Preprocessing / IO** | `0.07 ms` | `0.07 ms` | `0.08 ms` |
 | **OCR Text Extraction** | `0.0 ms` | `0.0 ms` | `0.0 ms` |
-| **Rule & Pattern Extraction** | `0.32 ms` | `0.35 ms` | `0.48 ms` |
-| **Vector Embedding Generation** | `24.51 ms` | `23.27 ms` | `28.65 ms` |
-| **Hybrid Classification & Scoring** | `70.59 ms` | `71.38 ms` | `87.6 ms` |
-| **FULL Pipeline Total** | **`71.16 ms`** | **`72.08 ms`** | **`88.4 ms`** |
+| **Rule & Pattern Extraction** | `0.2 ms` | `0.2 ms` | `0.3 ms` |
+| **Vector Embedding Generation** | `15.64 ms` | `14.5 ms` | `16.15 ms` |
+| **Hybrid Classification & Scoring** | `45.05 ms` | `43.43 ms` | `47.78 ms` |
+| **FULL Pipeline Total** | **`45.41 ms`** | **`43.78 ms`** | **`48.12 ms`** |
 
 ---
 

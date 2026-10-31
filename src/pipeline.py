@@ -27,13 +27,14 @@ from .mock_ocr import BaseOCREngine, MockOCREngine
 from .models.metadata import ScreenshotMetadata
 from .storage.file_store import BaseFileStore, LocalFileStore
 from .storage.metadata_store import BaseMetadataStore, SQLiteMetadataStore
+from .tag_generator import TagGenerator
 from .vector_store import VectorStoreManager
 
 logger = logging.getLogger(__name__)
 
-# Visual Screen-Type to Semantic Category Map for Validated 5-Class Model
+# Visual Screen-Type to Semantic Category Map for Validated 5-Class Model (9 Canonical Categories)
 VIS_5_TO_SEMANTIC_MAP = {
-    "code_editor_terminal": "Coding",
+    "code_editor_terminal": "Work & Career",
     "travel_booking": "Travel",
     "media_player_library": "Entertainment",
     "document_article_view": "Education",
@@ -58,6 +59,7 @@ class OCRPipeline:
         visual_adapter: Optional[Any] = None,
         enable_visual: bool = True,
         ocr_engine_type: Optional[str] = None,
+        tag_generator: Optional[TagGenerator] = None,
     ):
         """
         Initialize pipeline components and storage managers.
@@ -72,6 +74,7 @@ class OCRPipeline:
         self.file_store: BaseFileStore = file_store if file_store else LocalFileStore()
         self.metadata_store: BaseMetadataStore = metadata_store if metadata_store else SQLiteMetadataStore()
         self.enable_visual = enable_visual
+        self.tag_generator: TagGenerator = tag_generator if tag_generator else TagGenerator()
 
         # Lazy load semantic classifier
         self._semantic_classifier = semantic_classifier
@@ -143,9 +146,10 @@ class OCRPipeline:
         for doc in documents:
             src_path = doc["image_path"]
             raw_meta = doc["metadata"]
-            img_filename = Path(src_path).name
+            original_filename = raw_meta.get("filename") or raw_meta.get("file_name") or raw_meta.get("Filename")
+            img_filename = str(original_filename).strip() if original_filename and str(original_filename).strip() else Path(src_path).name
 
-            screenshot_id = str(raw_meta.get("Screenshot ID", raw_meta.get("screenshot_id", img_filename.split(".")[0]))).strip()
+            screenshot_id = str(raw_meta.get("Screenshot ID", raw_meta.get("screenshot_id", Path(src_path).stem))).strip()
             dataset_category = str(raw_meta.get("Actual Category", raw_meta.get("category", "General"))).strip()
             notes_text = str(raw_meta.get("notes", raw_meta.get("Notes", ""))).strip()
 
@@ -206,13 +210,25 @@ class OCRPipeline:
                     logger.warning(f"Visual inference failed for {img_filename} ({e}). Falling back safely to semantic prediction.")
                     visual_evidence = None
 
+            # Generate descriptive tags from OCR text and contextual evidence
+            generated_tags = self.tag_generator.generate_tags(
+                ocr_text=ocr_text,
+                category=final_category,
+                notes=notes_text,
+                content_type=raw_meta.get("content_type"),
+                metadata=raw_meta,
+            )
+            # Combine any explicit raw tags with generated tags (deduplicated, order preserved)
+            existing_tags = list(raw_meta.get("tags", [])) if isinstance(raw_meta.get("tags"), list) else []
+            final_tags = list(dict.fromkeys(existing_tags + generated_tags))
+
             # Layer 2: Create & persist rich structured metadata object
             metadata_obj = ScreenshotMetadata(
                 screenshot_id=screenshot_id,
                 filename=img_filename,
                 image_uri=image_uri,
                 category=final_category,
-                tags=list(raw_meta.get("tags", [])),
+                tags=final_tags,
                 ocr_available=True,
                 summary=notes_text if notes_text else f"Screenshot {img_filename}",
                 evidence={
@@ -288,6 +304,7 @@ class OCRPipeline:
                 "distance": res.get("distance", 0.0),
                 "filename": meta_obj.filename if meta_obj else res.get("metadata", {}).get("filename", ""),
                 "category": meta_obj.category if meta_obj else res.get("category", "General"),
+                "tags": meta_obj.tags if meta_obj else [],
                 "image_uri": image_uri if image_uri else meta_obj.image_uri if meta_obj else "",
                 "metadata": meta_obj.to_dict() if meta_obj else res.get("metadata", {}),
             })

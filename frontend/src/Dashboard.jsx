@@ -1,16 +1,18 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import './Dashboard.css';
+import ChatTab from './ChatTab';
 import {
   fetchScreenshots,
   fetchScreenshot,
   fetchCategories,
+  fetchTags,
   uploadScreenshots,
   deleteScreenshot,
   semanticSearch,
   checkHealth,
 } from './api';
 
-// ── Category icon map (fallback for display) ──────────────────────────────────
+// ── Category icon map (9 canonical categories) ─────────────────────────────────
 const CAT_ICONS = {
   Shopping:      '🛒',
   Travel:        '✈️',
@@ -18,7 +20,6 @@ const CAT_ICONS = {
   Payment:       '💳',
   Communication: '💬',
   Work_Career:   '💼',
-  Coding:        '💻',
   Entertainment: '🎮',
   Connectivity:  '📶',
   General:       '📁',
@@ -31,7 +32,6 @@ const CAT_COLORS = {
   Payment:       '#10b981',
   Communication: '#3b82f6',
   Work_Career:   '#6366f1',
-  Coding:        '#00d4ff',
   Entertainment: '#ec4899',
   Connectivity:  '#f97316',
   General:       '#9ca3af',
@@ -74,8 +74,12 @@ function ApiOfflineBanner() {
 }
 
 // ── Screenshot Thumbnail Card ─────────────────────────────────────────────────
-function ScreenshotCard({ item, onClick, onDelete }) {
+function ScreenshotCard({ item, onClick, onDelete, onTagClick }) {
   const color = catColor(item.category);
+  const tags = item.tags || [];
+  const displayTags = tags.slice(0, 2);
+  const remainingCount = tags.length - displayTags.length;
+
   return (
     <div className="gallery-card" onClick={() => onClick(item)} id={`card-${item.screenshot_id}`}>
       <div className="gallery-card-thumb" style={{ borderColor: color + '55' }}>
@@ -103,6 +107,28 @@ function ScreenshotCard({ item, onClick, onDelete }) {
           )}
         </div>
         {item.summary && <p className="gallery-card-summary">{item.summary.slice(0, 80)}{item.summary.length > 80 ? '…' : ''}</p>}
+        {tags.length > 0 && (
+          <div className="gallery-card-tags">
+            {displayTags.map((t, idx) => (
+              <span
+                key={idx}
+                className="card-tag-chip"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  onTagClick?.(t);
+                }}
+                title={`Filter by tag: ${t}`}
+              >
+                #{t}
+              </span>
+            ))}
+            {remainingCount > 0 && (
+              <span className="card-tag-chip more" title={`${remainingCount} more tags`}>
+                +{remainingCount}
+              </span>
+            )}
+          </div>
+        )}
       </div>
       {onDelete && (
         <button className="gallery-card-del" title="Delete" onClick={e => { e.stopPropagation(); onDelete(item); }}>
@@ -116,7 +142,7 @@ function ScreenshotCard({ item, onClick, onDelete }) {
 }
 
 // ── Detail Modal ──────────────────────────────────────────────────────────────
-function DetailModal({ item, onClose }) {
+function DetailModal({ item, onClose, onTagClick }) {
   const [detail, setDetail] = useState(null);
   const [loading, setLoading] = useState(true);
   const [copied, setCopied] = useState(false);
@@ -176,16 +202,29 @@ function DetailModal({ item, onClose }) {
             </div>
 
             {/* Tags */}
-            {detail?.tags?.length > 0 && (
-              <div className="modal-section">
-                <div className="modal-section-header"><span>TAGS</span></div>
+            <div className="modal-section">
+              <div className="modal-section-header"><span>TAGS</span></div>
+              {detail?.tags?.length > 0 ? (
                 <div className="tag-row">
                   {detail.tags.map((t, i) => (
-                    <span key={i} className="tag-pill" style={{ borderColor: color + '66', color }}>{t}</span>
+                    <span
+                      key={i}
+                      className="tag-pill clickable"
+                      style={{ borderColor: color + '66', color }}
+                      onClick={() => {
+                        onClose();
+                        onTagClick?.(t);
+                      }}
+                      title={`Filter by tag: ${t}`}
+                    >
+                      #{t}
+                    </span>
                   ))}
                 </div>
-              </div>
-            )}
+              ) : (
+                <div className="tag-empty-state">No tags generated for this screenshot.</div>
+              )}
+            </div>
 
             {/* Metadata grid */}
             <div className="modal-section">
@@ -332,6 +371,15 @@ function UploadTab({ onUploaded }) {
                   {r.chunks_indexed > 0 && (
                     <span className="cat-badge">{r.chunks_indexed} chunks indexed</span>
                   )}
+                  {r.tags?.length > 0 && (
+                    <div className="upload-result-tags" style={{ display: 'flex', flexWrap: 'wrap', gap: '5px' }}>
+                      {r.tags.map((t, idx) => (
+                        <span key={idx} className="tag-pill" style={{ color: 'var(--neon-accent)', borderColor: 'rgba(0, 245, 212, 0.4)' }}>
+                          #{t}
+                        </span>
+                      ))}
+                    </div>
+                  )}
                   {r.ocr_text && (
                     <div className="upload-ocr-preview">
                       <span className="upload-ocr-label">OCR PREVIEW:</span>
@@ -351,7 +399,7 @@ function UploadTab({ onUploaded }) {
 }
 
 // ── Search Tab ────────────────────────────────────────────────────────────────
-function SearchTab({ onSelect }) {
+function SearchTab({ onSelect, onTagClick }) {
   const [query, setQuery] = useState('');
   const [results, setResults] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -430,8 +478,18 @@ function SearchTab({ onSelect }) {
                   <span className="tag-pill" style={{ color: catColor(r.category), borderColor: catColor(r.category) + '55' }}>
                     {r.category}
                   </span>
-                  {r.tags?.slice(0, 3).map((t, j) => (
-                    <span key={j} className="tag-pill">{t}</span>
+                  {r.tags?.map((t, j) => (
+                    <span
+                      key={j}
+                      className="tag-pill clickable"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        onTagClick?.(t);
+                      }}
+                      title={`Filter by #${t}`}
+                    >
+                      #{t}
+                    </span>
                   ))}
                 </div>
               </div>
@@ -521,18 +579,41 @@ function CategoriesTab({ onSelectCategory }) {
 }
 
 // ── Gallery / Overview Content ────────────────────────────────────────────────
-function GalleryContent({ title, filterCategory, searchQuery, onSelect, onDelete, onUploaded, refreshTick }) {
+function GalleryContent({
+  title,
+  filterCategory,
+  filterTag,
+  searchQuery,
+  onSelect,
+  onDelete,
+  onUploaded,
+  onTagClick,
+  onClearCategory,
+  onClearTag,
+  refreshTick
+}) {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [availableTags, setAvailableTags] = useState([]);
+
+  useEffect(() => {
+    fetchTags()
+      .then(res => {
+        if (res && res.tags) {
+          setAvailableTags(res.tags);
+        }
+      })
+      .catch(() => setAvailableTags([]));
+  }, [refreshTick]);
 
   const load = useCallback(() => {
     setLoading(true);
-    fetchScreenshots({ category: filterCategory, q: searchQuery, limit: 200 })
+    fetchScreenshots({ category: filterCategory, tag: filterTag, q: searchQuery, limit: 200 })
       .then(setData)
       .catch(e => setError(e.message))
       .finally(() => setLoading(false));
-  }, [filterCategory, searchQuery, refreshTick]);
+  }, [filterCategory, filterTag, searchQuery, refreshTick]);
 
   useEffect(() => { load(); }, [load]);
 
@@ -545,16 +626,64 @@ function GalleryContent({ title, filterCategory, searchQuery, onSelect, onDelete
   return (
     <div className="gallery-content">
       {title && <h3 className="gallery-section-title">{title} <span className="gallery-count">({data.total})</span></h3>}
+
+      {/* Active filter bar */}
+      {(filterCategory || filterTag) && (
+        <div className="active-filters-bar">
+          <span className="active-filters-label">ACTIVE FILTERS:</span>
+          {filterCategory && (
+            <span className="active-filter-pill" style={{ borderColor: catColor(filterCategory) + '88' }}>
+              <span className="pill-dot" style={{ background: catColor(filterCategory) }} />
+              Category: {filterCategory}
+              <button className="pill-clear-btn" onClick={onClearCategory} title="Clear category filter">✕</button>
+            </span>
+          )}
+          {filterTag && (
+            <span className="active-filter-pill tag-pill-active">
+              <span className="pill-tag-icon">#</span>
+              Tag: {filterTag}
+              <button className="pill-clear-btn" onClick={onClearTag} title="Clear tag filter">✕</button>
+            </span>
+          )}
+        </div>
+      )}
+
+      {/* Popular tag filter chips row */}
+      {availableTags.length > 0 && (
+        <div className="popular-tags-row">
+          <span className="popular-tags-label">POPULAR TAGS:</span>
+          <div className="popular-tags-list">
+            {availableTags.slice(0, 16).map(t => (
+              <button
+                key={t.name}
+                type="button"
+                className={`tag-filter-chip${filterTag === t.name ? ' active' : ''}`}
+                onClick={() => onTagClick?.(filterTag === t.name ? null : t.name)}
+                title={`${t.count} screenshot${t.count !== 1 ? 's' : ''}`}
+              >
+                #{t.name} <span className="chip-count">({t.count})</span>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
       {items.length === 0 ? (
         <EmptyState
           icon="📷"
-          title={searchQuery ? 'No matching screenshots' : 'No screenshots yet'}
-          sub={searchQuery ? 'Try a different search term.' : 'Upload screenshots using the Upload tab.'}
+          title={searchQuery ? 'No matching screenshots' : (filterTag || filterCategory) ? 'No screenshots match filters' : 'No screenshots yet'}
+          sub={searchQuery ? 'Try a different search term.' : (filterTag || filterCategory) ? 'Try clearing or changing your filters.' : 'Upload screenshots using the Upload tab.'}
         />
       ) : (
         <div className="gallery-grid" id="gallery-grid">
           {items.map(item => (
-            <ScreenshotCard key={item.screenshot_id} item={item} onClick={onSelect} onDelete={onDelete} />
+            <ScreenshotCard
+              key={item.screenshot_id}
+              item={item}
+              onClick={onSelect}
+              onDelete={onDelete}
+              onTagClick={onTagClick}
+            />
           ))}
         </div>
       )}
@@ -583,6 +712,7 @@ const Dashboard = ({ onLogout }) => {
   const [searchQuery, setSearchQuery]   = useState('');
   const [selectedItem, setSelectedItem] = useState(null);
   const [filterCategory, setFilterCat] = useState(null);
+  const [filterTag, setFilterTag]       = useState(null);
   const [apiOnline, setApiOnline]       = useState(null);
   const [statsData, setStatsData]       = useState(null);
   const [refreshTick, setRefreshTick]   = useState(0);
@@ -639,8 +769,17 @@ const Dashboard = ({ onLogout }) => {
 
   const handleSelectCategory = (catName) => {
     setFilterCat(catName);
+    setFilterTag(null);
     setActiveTab('gallery');
   };
+
+  const handleTagClick = (tag) => {
+    setFilterTag(tag);
+    setActiveTab('gallery');
+  };
+
+  const handleClearTag = () => setFilterTag(null);
+  const handleClearCategory = () => setFilterCat(null);
 
   const handleSearchSubmit = (e) => {
     e?.preventDefault();
@@ -659,6 +798,7 @@ const Dashboard = ({ onLogout }) => {
     { id: 'gallery',     label: 'Gallery',     icon: 'M3 3h18v18H3z M8.5 8.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM21 15l-5-5L5 21' },
     { id: 'upload',      label: 'Upload',      icon: 'M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12' },
     { id: 'search',      label: 'Search',      icon: 'M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z' },
+    { id: 'chat',        label: 'AI Chat',     icon: 'M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z' },
     { id: 'profile',     label: 'Profile',     icon: 'M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2M12 7a4 4 0 1 0 0-8 4 4 0 0 0 0 8z' },
   ];
 
@@ -729,7 +869,7 @@ const Dashboard = ({ onLogout }) => {
           <ul className="dash-nav-list">
             {NAV.map(nav => (
               <li key={nav.id} className={`dash-nav-item${activeTab === nav.id ? ' active' : ''}`}>
-                <button onClick={() => { setActiveTab(nav.id); setFilterCat(null); }}>
+                <button onClick={() => { setActiveTab(nav.id); setFilterCat(null); setFilterTag(null); }}>
                   <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d={nav.icon}/>
                   </svg>
@@ -815,6 +955,7 @@ const Dashboard = ({ onLogout }) => {
                     onSelect={handleSelectItem}
                     onDelete={handleDelete}
                     onUploaded={handleUploaded}
+                    onTagClick={handleTagClick}
                     refreshTick={refreshTick}
                   />
                 </div>
@@ -888,20 +1029,36 @@ const Dashboard = ({ onLogout }) => {
                     <circle cx="8.5" cy="8.5" r="1.5"/>
                     <polyline points="21 15 16 10 5 21"/>
                   </svg>
-                  {filterCategory ? `${catIcon(filterCategory)} ${filterCategory}` : 'ALL SCREENSHOTS'}
+                  {filterCategory
+                    ? `${catIcon(filterCategory)} ${filterCategory}`
+                    : filterTag
+                    ? `#${filterTag}`
+                    : 'ALL SCREENSHOTS'}
                 </h2>
                 <div className="panel-controls">
-                  {filterCategory && (
-                    <button className="panel-btn" onClick={() => setFilterCat(null)}>CLEAR FILTER</button>
+                  {(filterCategory || filterTag) && (
+                    <button
+                      className="panel-btn"
+                      onClick={() => {
+                        setFilterCat(null);
+                        setFilterTag(null);
+                      }}
+                    >
+                      CLEAR ALL FILTERS
+                    </button>
                   )}
                 </div>
               </div>
               <GalleryContent
                 filterCategory={filterCategory}
+                filterTag={filterTag}
                 searchQuery={searchQuery}
                 onSelect={handleSelectItem}
                 onDelete={handleDelete}
                 onUploaded={handleUploaded}
+                onTagClick={handleTagClick}
+                onClearCategory={handleClearCategory}
+                onClearTag={handleClearTag}
                 refreshTick={refreshTick}
               />
             </div>
@@ -936,7 +1093,22 @@ const Dashboard = ({ onLogout }) => {
                   SEMANTIC SEARCH
                 </h2>
               </div>
-              <SearchTab onSelect={handleSelectItem} />
+              <SearchTab onSelect={handleSelectItem} onTagClick={handleTagClick} />
+            </div>
+          )}
+
+          {/* ── Chat Tab ─────────────────────────────────────────────────── */}
+          {activeTab === 'chat' && (
+            <div className="sci-panel chat-panel-full">
+              <div className="sci-panel-header">
+                <h2 className="sci-panel-title">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                  </svg>
+                  I.R.I.S. AI CONVERSATIONAL ASSISTANT
+                </h2>
+              </div>
+              <ChatTab onSelect={handleSelectItem} onTagClick={handleTagClick} />
             </div>
           )}
 
@@ -998,7 +1170,11 @@ const Dashboard = ({ onLogout }) => {
 
       {/* ── Detail Modal ───────────────────────────────────────────────────── */}
       {selectedItem && (
-        <DetailModal item={selectedItem} onClose={handleCloseDetail} />
+        <DetailModal
+          item={selectedItem}
+          onClose={handleCloseDetail}
+          onTagClick={handleTagClick}
+        />
       )}
     </div>
   );

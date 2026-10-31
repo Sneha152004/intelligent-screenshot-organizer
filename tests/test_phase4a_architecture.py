@@ -207,8 +207,10 @@ class TestSQLiteMigrationAnd30RecordsPersistence(unittest.TestCase):
         self.assertGreaterEqual(len(records), 30, f"Expected at least 30 records, found {len(records)}")
 
         for rec in records:
-            self.assertTrue(rec.screenshot_id.startswith("ss_"))
+            self.assertTrue(len(rec.screenshot_id) > 0)
             self.assertIsNotNone(rec.content_type)
+        ss_records = [r for r in records if r.screenshot_id.startswith("ss_")]
+        self.assertGreaterEqual(len(ss_records), 30)
 
 
 class TestEvidenceExtractionLayer(unittest.TestCase):

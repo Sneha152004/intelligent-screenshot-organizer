@@ -1,5 +1,5 @@
 {
-  "evaluation_timestamp": "2026-10-11T10:36:48.951432+00:00",
+  "evaluation_timestamp": "2026-10-30T13:55:43.193654+00:00",
   "total_targets_evaluated": 8,
   "metrics": {
     "category_accuracy": 1.0,
@@ -11,14 +11,14 @@
   },
   "latency_summary_ms": {
     "mean_ocr_ms": 0.0,
-    "mean_rules_ms": 0.57,
-    "mean_embedding_ms": 119.94,
-    "mean_classification_ms": 12183.6,
-    "mean_total_ms": 12184.33
+    "mean_rules_ms": 0.84,
+    "mean_embedding_ms": 116.56,
+    "mean_classification_ms": 6289.07,
+    "mean_total_ms": 6290.13
   },
   "footprint": {
     "target_model_size_mb": "~90 MB (all-MiniLM-L6-v2 ONNX/PyTorch weights + rules)",
-    "memory_usage_rss_mb": 1494.85,
+    "memory_usage_rss_mb": 2062.15,
     "device": "CPU",
     "vlm_or_llm_required": false
   },
@@ -36,10 +36,10 @@
       "summary": "Wi-Fi network credentials and password for Airtel_runu_7550 router.",
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.33,
-        "embedding_latency_ms": 166.61,
-        "classification_latency_ms": 13813.96,
-        "total_latency_ms": 13814.36,
+        "rules_latency_ms": 0.22,
+        "embedding_latency_ms": 70.09,
+        "classification_latency_ms": 6220.83,
+        "total_latency_ms": 6221.13,
         "classification_confidence": 0.719,
         "classification_ambiguous": false,
         "classification_margin": 0.4975
@@ -58,10 +58,10 @@
       "summary": "UPI payment receipt of ₹689.00 paid to BRAINGROW EDUSERV PRIVATE LIMITED.",
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.42,
-        "embedding_latency_ms": 98.58,
-        "classification_latency_ms": 10626.33,
-        "total_latency_ms": 10626.85,
+        "rules_latency_ms": 0.48,
+        "embedding_latency_ms": 90.8,
+        "classification_latency_ms": 6281.01,
+        "total_latency_ms": 6281.65,
         "classification_confidence": 0.6908,
         "classification_ambiguous": false,
         "classification_margin": 0.4569
@@ -80,10 +80,10 @@
       "summary": "KIIT Deep Learning course syllabus covering units I-V and textbooks.",
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 1.02,
-        "embedding_latency_ms": 120.51,
-        "classification_latency_ms": 9158.54,
-        "total_latency_ms": 9159.82,
+        "rules_latency_ms": 1.7,
+        "embedding_latency_ms": 105.49,
+        "classification_latency_ms": 6372.99,
+        "total_latency_ms": 6375.07,
         "classification_confidence": 0.569,
         "classification_ambiguous": false,
         "classification_margin": 0.33
@@ -102,10 +102,10 @@
       "summary": "MD Combo food menu item listings and prices.",
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.94,
-        "embedding_latency_ms": 138.38,
-        "classification_latency_ms": 13647.72,
-        "total_latency_ms": 13648.98,
+        "rules_latency_ms": 1.55,
+        "embedding_latency_ms": 137.01,
+        "classification_latency_ms": 6259.56,
+        "total_latency_ms": 6261.46,
         "classification_confidence": 0.3736,
         "classification_ambiguous": false,
         "classification_margin": 0.157
@@ -124,10 +124,10 @@
       "summary": "IndiGo flight boarding pass to Guwahati.",
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.36,
-        "embedding_latency_ms": 93.76,
-        "classification_latency_ms": 10668.8,
-        "total_latency_ms": 10669.25,
+        "rules_latency_ms": 0.44,
+        "embedding_latency_ms": 147.45,
+        "classification_latency_ms": 6288.3,
+        "total_latency_ms": 6288.87,
         "classification_confidence": 0.741,
         "classification_ambiguous": false,
         "classification_margin": 0.5946
@@ -146,10 +146,10 @@
       "summary": "WhatsApp/Telegram chat notification overview.",
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.36,
-        "embedding_latency_ms": 99.49,
-        "classification_latency_ms": 11371.35,
-        "total_latency_ms": 11371.81,
+        "rules_latency_ms": 0.5,
+        "embedding_latency_ms": 132.78,
+        "classification_latency_ms": 6295.67,
+        "total_latency_ms": 6296.32,
         "classification_confidence": 0.735,
         "classification_ambiguous": false,
         "classification_margin": 0.6053
@@ -168,10 +168,10 @@
       "summary": "VS Code Express.js controller code snippet.",
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.57,
-        "embedding_latency_ms": 129.55,
-        "classification_latency_ms": 12908.02,
-        "total_latency_ms": 12908.7,
+        "rules_latency_ms": 0.74,
+        "embedding_latency_ms": 99.85,
+        "classification_latency_ms": 6236.57,
+        "total_latency_ms": 6237.49,
         "classification_confidence": 0.3438,
         "classification_ambiguous": true,
         "classification_margin": 0.0693
@@ -190,10 +190,10 @@
       "summary": "OpenAI Hackathon event announcement details.",
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.58,
-        "embedding_latency_ms": 112.67,
-        "classification_latency_ms": 15274.09,
-        "total_latency_ms": 15274.87,
+        "rules_latency_ms": 1.06,
+        "embedding_latency_ms": 149.01,
+        "classification_latency_ms": 6357.67,
+        "total_latency_ms": 6359.05,
         "classification_confidence": 0.7203,
         "classification_ambiguous": false,
         "classification_margin": 0.5315

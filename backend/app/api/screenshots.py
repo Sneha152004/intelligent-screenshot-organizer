@@ -9,6 +9,7 @@ POST /api/screenshots/upload   Upload one or more images and run the pipeline
 DELETE /api/screenshots/{id}   Delete a screenshot record (and optionally its file)
 """
 
+import logging
 import os
 import shutil
 import tempfile
@@ -17,6 +18,8 @@ from pathlib import Path
 from typing import List, Optional
 
 from fastapi import APIRouter, File, HTTPException, Query, UploadFile
+
+logger = logging.getLogger(__name__)
 
 router = APIRouter(prefix="/api/screenshots", tags=["screenshots"])
 
@@ -46,19 +49,30 @@ def _get_stores():
     return file_store, metadata_store
 
 
+def _get_vector_store():
+    from ..core.pipeline_instance import get_vector_store
+    return get_vector_store()
+
+
 @router.get("")
 def list_screenshots(
     category: Optional[str] = Query(None, description="Filter by category name"),
+    tag: Optional[str] = Query(None, description="Filter by tag name"),
     q: Optional[str] = Query(None, description="Simple text filter on filename / OCR text"),
     limit: int = Query(100, ge=1, le=500),
     offset: int = Query(0, ge=0),
 ):
     """Return a paginated list of screenshots with optional filters."""
-    _, metadata_store = _get_stores()
+    file_store, metadata_store = _get_stores()
+    vector_store = _get_vector_store()
     all_meta = metadata_store.list_all_metadata()
 
     if category:
         all_meta = [m for m in all_meta if m.category.lower() == category.lower()]
+
+    if tag:
+        tag_lower = tag.lower()
+        all_meta = [m for m in all_meta if any(t.lower() == tag_lower for t in (m.tags or []))]
 
     if q:
         q_lower = q.lower()
@@ -67,6 +81,7 @@ def list_screenshots(
             if q_lower in m.filename.lower()
             or q_lower in (m.summary or "").lower()
             or q_lower in m.category.lower()
+            or any(q_lower in t.lower() for t in (m.tags or []))
         ]
 
     total = len(all_meta)
@@ -80,10 +95,28 @@ def list_screenshots(
     }
 
 
+@router.get("/tags")
+def list_tags():
+    """Return all unique tags present across stored screenshots with counts."""
+    from collections import Counter
+    file_store, metadata_store = _get_stores()
+    vector_store = _get_vector_store()
+    all_meta = metadata_store.list_all_metadata()
+    tag_counts = Counter()
+    for m in all_meta:
+        for t in (m.tags or []):
+            tag_counts[t] += 1
+    return {
+        "total_tags": len(tag_counts),
+        "tags": [{"name": k, "count": v} for k, v in tag_counts.most_common()],
+    }
+
+
 @router.get("/{screenshot_id}")
 def get_screenshot(screenshot_id: str):
     """Return full detail for a single screenshot, including OCR text."""
-    _, metadata_store = _get_stores()
+    file_store, metadata_store = _get_stores()
+    vector_store = _get_vector_store()
     meta = metadata_store.get_metadata(screenshot_id)
     if not meta:
         raise HTTPException(status_code=404, detail="Screenshot not found")
@@ -117,7 +150,7 @@ async def upload_screenshots(files: List[UploadFile] = File(...)):
         )
 
     embedder = get_embedder()
-    vector_store = get_vector_store()
+    vector_store = _get_vector_store()
     _chunker = ParagraphChunker()
     results = []
     tmp_dir = tempfile.mkdtemp(prefix="iris_upload_")
@@ -163,6 +196,7 @@ async def upload_screenshots(files: List[UploadFile] = File(...)):
                 p = processed[0]
                 sid = p["screenshot_id"]
                 category = p["metadata"]["category"]
+                tags = p["metadata"].get("tags", [])
                 ocr_text = p.get("ocr_text", "")
                 evidence = p["metadata"].get("evidence", {})
                 fusion_applied = p.get("fusion_applied", False)
@@ -179,6 +213,7 @@ async def upload_screenshots(files: List[UploadFile] = File(...)):
                             "screenshot_id": sid,
                             "chunk_index": idx,
                             "category": category,
+                            "tags": tags,
                         })
 
                 if chunk_texts:
@@ -195,6 +230,7 @@ async def upload_screenshots(files: List[UploadFile] = File(...)):
                     "status": "success",
                     "screenshot_id": sid,
                     "category": category,
+                    "tags": tags,
                     "ocr_text": ocr_text[:500],
                     "fusion_applied": fusion_applied,
                     "chunks_indexed": len(chunk_ids),
@@ -216,13 +252,45 @@ async def upload_screenshots(files: List[UploadFile] = File(...)):
 @router.delete("/{screenshot_id}")
 def delete_screenshot(screenshot_id: str):
     """Delete screenshot metadata (and best-effort file removal)."""
-    _, metadata_store = _get_stores()
+    file_store, metadata_store = _get_stores()
+    vector_store = _get_vector_store()
     meta = metadata_store.get_metadata(screenshot_id)
     if not meta:
         raise HTTPException(status_code=404, detail="Screenshot not found")
 
     image_uri = meta.image_uri
-    metadata_store.delete_metadata(screenshot_id)
+    chunks_deleted = 0
+
+    # 1. Delete associated vector chunks from ChromaDB (fail-fast before modifying SQLite or disk)
+    if vector_store is not None:
+        try:
+            chunks_deleted = vector_store.delete_by_screenshot_id(screenshot_id)
+        except Exception as e:
+            logger.error("Vector deletion failed for %s: %s", screenshot_id, e)
+            raise HTTPException(
+                status_code=500,
+                detail=f"Vector store deletion failed for '{screenshot_id}': {e}. Deletion aborted to preserve storage consistency.",
+            )
+
+    # 2. Delete metadata record from SQLite
+    try:
+        metadata_store.delete_metadata(screenshot_id)
+    except Exception as e:
+        logger.critical(
+            "PARTIAL DELETION FAILURE: Vector chunks (%d) were deleted from ChromaDB for '%s', "
+            "but SQLite metadata deletion failed: %s",
+            chunks_deleted, screenshot_id, e
+        )
+        raise HTTPException(
+            status_code=500,
+            detail={
+                "error": "Partial deletion failure",
+                "screenshot_id": screenshot_id,
+                "vector_chunks_deleted": chunks_deleted,
+                "metadata_deleted": False,
+                "message": f"Vector chunks were removed from search index, but SQLite metadata deletion failed: {e}. Please retry deletion.",
+            },
+        )
 
     # Best-effort file deletion
     deleted_file = False
@@ -233,4 +301,10 @@ def delete_screenshot(screenshot_id: str):
         except OSError:
             pass
 
-    return {"deleted": True, "screenshot_id": screenshot_id, "file_deleted": deleted_file}
+    return {
+        "deleted": True,
+        "screenshot_id": screenshot_id,
+        "file_deleted": deleted_file,
+        "vectors_deleted": True,
+        "vector_chunks_deleted": chunks_deleted,
+    }

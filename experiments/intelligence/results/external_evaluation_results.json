@@ -1,6 +1,6 @@
 {
   "dataset_name": "Phase 3G.2 External Generalization Dataset",
-  "evaluation_timestamp": "2026-10-11T10:34:10.446765+00:00",
+  "evaluation_timestamp": "2026-10-30T13:53:49.988521+00:00",
   "dataset_size": 60,
   "integrity_and_overlap_check": {
     "external_image_count": 60,
@@ -28,7 +28,7 @@
     "python_version": "3.11.9",
     "processor": "Intel64 Family 6 Model 154 Stepping 4, GenuineIntel",
     "gpu_usage": "None (Pure CPU Execution)",
-    "ram_usage_rss_mb": 1620.42
+    "ram_usage_rss_mb": 1275.9
   },
   "footprint": {
     "model_weight_storage_mb": "~90 MB (all-MiniLM-L6-v2 ONNX/PyTorch)",
@@ -126,9 +126,9 @@
   },
   "latency_percentiles": {
     "preprocessing_ms": {
-      "mean": 0.11,
-      "p50": 0.11,
-      "p95": 0.16
+      "mean": 0.07,
+      "p50": 0.07,
+      "p95": 0.08
     },
     "ocr_ms": {
       "mean": 0.0,
@@ -136,26 +136,26 @@
       "p95": 0.0
     },
     "rules_ms": {
-      "mean": 0.32,
-      "p50": 0.35,
-      "p95": 0.48
+      "mean": 0.2,
+      "p50": 0.2,
+      "p95": 0.3
     },
     "embedding_ms": {
-      "mean": 24.51,
-      "p50": 23.27,
-      "p95": 28.65
+      "mean": 15.64,
+      "p50": 14.5,
+      "p95": 16.15
     },
     "classification_ms": {
-      "mean": 70.59,
-      "p50": 71.38,
-      "p95": 87.6
+      "mean": 45.05,
+      "p50": 43.43,
+      "p95": 47.78
     },
     "total_ms": {
-      "mean": 71.16,
-      "p50": 72.08,
-      "p95": 88.4
+      "mean": 45.41,
+      "p50": 43.78,
+      "p95": 48.12
     },
-    "cold_start_initialization_ms": 6981.67
+    "cold_start_initialization_ms": 5966.55
   },
   "confidence_correlation": {
     "high": {
@@ -888,10 +888,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.08,
-        "embedding_latency_ms": 158.23,
-        "classification_latency_ms": 244.05,
-        "total_latency_ms": 244.31,
+        "rules_latency_ms": 0.32,
+        "embedding_latency_ms": 84.96,
+        "classification_latency_ms": 163.39,
+        "total_latency_ms": 163.79,
         "classification_confidence": 0.3303,
         "classification_ambiguous": true,
         "classification_margin": 0.0986
@@ -910,10 +910,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.13,
-        "embedding_latency_ms": 9.19,
-        "classification_latency_ms": 26.95,
-        "total_latency_ms": 27.14,
+        "rules_latency_ms": 0.17,
+        "embedding_latency_ms": 13.55,
+        "classification_latency_ms": 39.92,
+        "total_latency_ms": 40.16,
         "classification_confidence": 0.3575,
         "classification_ambiguous": false,
         "classification_margin": 0.1831
@@ -932,10 +932,10 @@
       "intent_match": true,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.11,
-        "embedding_latency_ms": 10.74,
-        "classification_latency_ms": 29.51,
-        "total_latency_ms": 29.68,
+        "rules_latency_ms": 0.18,
+        "embedding_latency_ms": 14.09,
+        "classification_latency_ms": 41.83,
+        "total_latency_ms": 42.09,
         "classification_confidence": 0.5641,
         "classification_ambiguous": false,
         "classification_margin": 0.3164
@@ -954,10 +954,10 @@
       "intent_match": true,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.16,
-        "embedding_latency_ms": 11.17,
-        "classification_latency_ms": 32.82,
-        "total_latency_ms": 33.04,
+        "rules_latency_ms": 0.2,
+        "embedding_latency_ms": 15.96,
+        "classification_latency_ms": 47.77,
+        "total_latency_ms": 48.05,
         "classification_confidence": 0.7359,
         "classification_ambiguous": false,
         "classification_margin": 0.5673
@@ -976,10 +976,10 @@
       "intent_match": true,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.14,
-        "embedding_latency_ms": 11.45,
-        "classification_latency_ms": 37.93,
-        "total_latency_ms": 38.15,
+        "rules_latency_ms": 0.2,
+        "embedding_latency_ms": 15.73,
+        "classification_latency_ms": 46.27,
+        "total_latency_ms": 46.55,
         "classification_confidence": 0.7361,
         "classification_ambiguous": false,
         "classification_margin": 0.561
@@ -998,10 +998,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.18,
-        "embedding_latency_ms": 14.59,
-        "classification_latency_ms": 43.25,
-        "total_latency_ms": 43.52,
+        "rules_latency_ms": 0.22,
+        "embedding_latency_ms": 14.75,
+        "classification_latency_ms": 41.05,
+        "total_latency_ms": 41.36,
         "classification_confidence": 0.5315,
         "classification_ambiguous": false,
         "classification_margin": 0.2987
@@ -1020,10 +1020,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.18,
-        "embedding_latency_ms": 14.29,
-        "classification_latency_ms": 44.33,
-        "total_latency_ms": 44.6,
+        "rules_latency_ms": 0.17,
+        "embedding_latency_ms": 14.65,
+        "classification_latency_ms": 41.94,
+        "total_latency_ms": 42.18,
         "classification_confidence": 0.3405,
         "classification_ambiguous": true,
         "classification_margin": 0.1483
@@ -1042,10 +1042,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.14,
-        "embedding_latency_ms": 11.26,
-        "classification_latency_ms": 42.08,
-        "total_latency_ms": 42.31,
+        "rules_latency_ms": 0.18,
+        "embedding_latency_ms": 13.37,
+        "classification_latency_ms": 40.17,
+        "total_latency_ms": 40.43,
         "classification_confidence": 0.246,
         "classification_ambiguous": true,
         "classification_margin": 0.0657
@@ -1064,10 +1064,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.19,
-        "embedding_latency_ms": 15.41,
-        "classification_latency_ms": 47.92,
-        "total_latency_ms": 48.19,
+        "rules_latency_ms": 0.17,
+        "embedding_latency_ms": 13.71,
+        "classification_latency_ms": 41.27,
+        "total_latency_ms": 41.52,
         "classification_confidence": 0.3215,
         "classification_ambiguous": true,
         "classification_margin": 0.0209
@@ -1086,10 +1086,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.18,
-        "embedding_latency_ms": 15.8,
-        "classification_latency_ms": 48.94,
-        "total_latency_ms": 49.22,
+        "rules_latency_ms": 0.15,
+        "embedding_latency_ms": 13.72,
+        "classification_latency_ms": 41.55,
+        "total_latency_ms": 41.78,
         "classification_confidence": 0.3269,
         "classification_ambiguous": true,
         "classification_margin": 0.0643
@@ -1108,10 +1108,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.28,
-        "embedding_latency_ms": 22.97,
-        "classification_latency_ms": 63.72,
-        "total_latency_ms": 64.13,
+        "rules_latency_ms": 0.2,
+        "embedding_latency_ms": 15.81,
+        "classification_latency_ms": 44.77,
+        "total_latency_ms": 45.06,
         "classification_confidence": 0.2439,
         "classification_ambiguous": true,
         "classification_margin": 0.0211
@@ -1130,10 +1130,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.27,
-        "embedding_latency_ms": 21.53,
-        "classification_latency_ms": 63.38,
-        "total_latency_ms": 63.78,
+        "rules_latency_ms": 0.18,
+        "embedding_latency_ms": 13.72,
+        "classification_latency_ms": 43.69,
+        "total_latency_ms": 43.95,
         "classification_confidence": 0.3527,
         "classification_ambiguous": false,
         "classification_margin": 0.1592
@@ -1152,10 +1152,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.26,
-        "embedding_latency_ms": 20.96,
-        "classification_latency_ms": 68.59,
-        "total_latency_ms": 68.97,
+        "rules_latency_ms": 0.2,
+        "embedding_latency_ms": 15.23,
+        "classification_latency_ms": 43.69,
+        "total_latency_ms": 43.97,
         "classification_confidence": 0.3162,
         "classification_ambiguous": true,
         "classification_margin": 0.0904
@@ -1174,10 +1174,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.37,
-        "embedding_latency_ms": 26.81,
-        "classification_latency_ms": 89.57,
-        "total_latency_ms": 90.08,
+        "rules_latency_ms": 0.21,
+        "embedding_latency_ms": 16.0,
+        "classification_latency_ms": 47.04,
+        "total_latency_ms": 47.34,
         "classification_confidence": 0.305,
         "classification_ambiguous": true,
         "classification_margin": 0.0101
@@ -1196,10 +1196,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.31,
-        "embedding_latency_ms": 28.16,
-        "classification_latency_ms": 82.89,
-        "total_latency_ms": 83.36,
+        "rules_latency_ms": 0.21,
+        "embedding_latency_ms": 13.69,
+        "classification_latency_ms": 39.91,
+        "total_latency_ms": 40.2,
         "classification_confidence": 0.5304,
         "classification_ambiguous": false,
         "classification_margin": 0.1891
@@ -1218,10 +1218,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.23,
-        "embedding_latency_ms": 23.76,
-        "classification_latency_ms": 79.93,
-        "total_latency_ms": 80.36,
+        "rules_latency_ms": 0.2,
+        "embedding_latency_ms": 13.84,
+        "classification_latency_ms": 42.18,
+        "total_latency_ms": 42.46,
         "classification_confidence": 0.3586,
         "classification_ambiguous": false,
         "classification_margin": 0.166
@@ -1240,10 +1240,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.35,
-        "embedding_latency_ms": 23.41,
-        "classification_latency_ms": 68.55,
-        "total_latency_ms": 69.03,
+        "rules_latency_ms": 0.18,
+        "embedding_latency_ms": 13.14,
+        "classification_latency_ms": 40.7,
+        "total_latency_ms": 41.0,
         "classification_confidence": 0.2501,
         "classification_ambiguous": true,
         "classification_margin": 0.0633
@@ -1262,10 +1262,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.52,
-        "embedding_latency_ms": 22.83,
-        "classification_latency_ms": 76.14,
-        "total_latency_ms": 76.79,
+        "rules_latency_ms": 0.17,
+        "embedding_latency_ms": 13.59,
+        "classification_latency_ms": 41.08,
+        "total_latency_ms": 41.32,
         "classification_confidence": 0.2639,
         "classification_ambiguous": true,
         "classification_margin": 0.0278
@@ -1284,10 +1284,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.41,
-        "embedding_latency_ms": 25.43,
-        "classification_latency_ms": 77.58,
-        "total_latency_ms": 78.12,
+        "rules_latency_ms": 0.19,
+        "embedding_latency_ms": 14.49,
+        "classification_latency_ms": 43.79,
+        "total_latency_ms": 44.07,
         "classification_confidence": 0.6995,
         "classification_ambiguous": false,
         "classification_margin": 0.4753
@@ -1306,10 +1306,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.39,
-        "embedding_latency_ms": 22.4,
-        "classification_latency_ms": 69.05,
-        "total_latency_ms": 69.57,
+        "rules_latency_ms": 0.2,
+        "embedding_latency_ms": 13.71,
+        "classification_latency_ms": 41.62,
+        "total_latency_ms": 41.91,
         "classification_confidence": 0.6847,
         "classification_ambiguous": false,
         "classification_margin": 0.4248
@@ -1328,10 +1328,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.38,
-        "embedding_latency_ms": 23.84,
-        "classification_latency_ms": 70.71,
-        "total_latency_ms": 71.28,
+        "rules_latency_ms": 0.19,
+        "embedding_latency_ms": 13.18,
+        "classification_latency_ms": 37.76,
+        "total_latency_ms": 38.04,
         "classification_confidence": 0.2244,
         "classification_ambiguous": true,
         "classification_margin": 0.0257
@@ -1350,10 +1350,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.26,
-        "embedding_latency_ms": 22.53,
-        "classification_latency_ms": 66.88,
-        "total_latency_ms": 67.27,
+        "rules_latency_ms": 0.15,
+        "embedding_latency_ms": 13.57,
+        "classification_latency_ms": 38.3,
+        "total_latency_ms": 38.53,
         "classification_confidence": 0.2406,
         "classification_ambiguous": true,
         "classification_margin": 0.0412
@@ -1372,10 +1372,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.28,
-        "embedding_latency_ms": 22.12,
-        "classification_latency_ms": 68.04,
-        "total_latency_ms": 68.44,
+        "rules_latency_ms": 0.17,
+        "embedding_latency_ms": 13.16,
+        "classification_latency_ms": 38.72,
+        "total_latency_ms": 38.96,
         "classification_confidence": 0.275,
         "classification_ambiguous": true,
         "classification_margin": 0.0281
@@ -1394,10 +1394,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.32,
-        "embedding_latency_ms": 23.89,
-        "classification_latency_ms": 72.71,
-        "total_latency_ms": 73.17,
+        "rules_latency_ms": 0.14,
+        "embedding_latency_ms": 9.62,
+        "classification_latency_ms": 36.23,
+        "total_latency_ms": 36.44,
         "classification_confidence": 0.5849,
         "classification_ambiguous": false,
         "classification_margin": 0.3444
@@ -1416,10 +1416,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.39,
-        "embedding_latency_ms": 22.04,
-        "classification_latency_ms": 57.57,
-        "total_latency_ms": 58.1,
+        "rules_latency_ms": 0.2,
+        "embedding_latency_ms": 14.25,
+        "classification_latency_ms": 41.89,
+        "total_latency_ms": 42.16,
         "classification_confidence": 0.2701,
         "classification_ambiguous": true,
         "classification_margin": 0.0362
@@ -1438,10 +1438,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.32,
-        "embedding_latency_ms": 22.56,
-        "classification_latency_ms": 73.41,
-        "total_latency_ms": 73.91,
+        "rules_latency_ms": 0.17,
+        "embedding_latency_ms": 14.37,
+        "classification_latency_ms": 43.74,
+        "total_latency_ms": 43.99,
         "classification_confidence": 0.7422,
         "classification_ambiguous": false,
         "classification_margin": 0.5895
@@ -1460,10 +1460,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.37,
-        "embedding_latency_ms": 28.7,
-        "classification_latency_ms": 86.45,
-        "total_latency_ms": 87.17,
+        "rules_latency_ms": 0.18,
+        "embedding_latency_ms": 14.87,
+        "classification_latency_ms": 42.47,
+        "total_latency_ms": 42.74,
         "classification_confidence": 0.2315,
         "classification_ambiguous": true,
         "classification_margin": 0.0227
@@ -1482,10 +1482,10 @@
       "intent_match": true,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.38,
-        "embedding_latency_ms": 25.39,
-        "classification_latency_ms": 81.84,
-        "total_latency_ms": 82.38,
+        "rules_latency_ms": 0.19,
+        "embedding_latency_ms": 13.81,
+        "classification_latency_ms": 42.71,
+        "total_latency_ms": 42.98,
         "classification_confidence": 0.553,
         "classification_ambiguous": false,
         "classification_margin": 0.3124
@@ -1504,10 +1504,10 @@
       "intent_match": true,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.37,
-        "embedding_latency_ms": 25.63,
-        "classification_latency_ms": 72.24,
-        "total_latency_ms": 72.77,
+        "rules_latency_ms": 0.12,
+        "embedding_latency_ms": 10.5,
+        "classification_latency_ms": 34.22,
+        "total_latency_ms": 34.41,
         "classification_confidence": 0.7113,
         "classification_ambiguous": false,
         "classification_margin": 0.5043
@@ -1526,10 +1526,10 @@
       "intent_match": true,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.46,
-        "embedding_latency_ms": 25.16,
-        "classification_latency_ms": 70.92,
-        "total_latency_ms": 71.51,
+        "rules_latency_ms": 0.31,
+        "embedding_latency_ms": 14.42,
+        "classification_latency_ms": 44.15,
+        "total_latency_ms": 44.56,
         "classification_confidence": 0.7195,
         "classification_ambiguous": false,
         "classification_margin": 0.5349
@@ -1548,10 +1548,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.39,
-        "embedding_latency_ms": 20.19,
-        "classification_latency_ms": 64.22,
-        "total_latency_ms": 64.74,
+        "rules_latency_ms": 0.17,
+        "embedding_latency_ms": 14.2,
+        "classification_latency_ms": 39.52,
+        "total_latency_ms": 39.77,
         "classification_confidence": 0.693,
         "classification_ambiguous": false,
         "classification_margin": 0.4527
@@ -1570,10 +1570,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.33,
-        "embedding_latency_ms": 20.96,
-        "classification_latency_ms": 66.54,
-        "total_latency_ms": 66.99,
+        "rules_latency_ms": 0.16,
+        "embedding_latency_ms": 14.13,
+        "classification_latency_ms": 39.49,
+        "total_latency_ms": 39.72,
         "classification_confidence": 0.2449,
         "classification_ambiguous": true,
         "classification_margin": 0.0108
@@ -1592,10 +1592,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.24,
-        "embedding_latency_ms": 18.91,
-        "classification_latency_ms": 74.47,
-        "total_latency_ms": 74.8,
+        "rules_latency_ms": 0.16,
+        "embedding_latency_ms": 14.05,
+        "classification_latency_ms": 42.14,
+        "total_latency_ms": 42.38,
         "classification_confidence": 0.3304,
         "classification_ambiguous": true,
         "classification_margin": 0.0836
@@ -1614,10 +1614,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.23,
-        "embedding_latency_ms": 20.68,
-        "classification_latency_ms": 66.81,
-        "total_latency_ms": 67.17,
+        "rules_latency_ms": 0.18,
+        "embedding_latency_ms": 15.08,
+        "classification_latency_ms": 43.17,
+        "total_latency_ms": 43.43,
         "classification_confidence": 0.2502,
         "classification_ambiguous": true,
         "classification_margin": 0.0284
@@ -1636,10 +1636,10 @@
       "intent_match": true,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.32,
-        "embedding_latency_ms": 25.1,
-        "classification_latency_ms": 73.72,
-        "total_latency_ms": 74.18,
+        "rules_latency_ms": 0.19,
+        "embedding_latency_ms": 14.88,
+        "classification_latency_ms": 44.89,
+        "total_latency_ms": 45.16,
         "classification_confidence": 0.7233,
         "classification_ambiguous": false,
         "classification_margin": 0.5327
@@ -1658,10 +1658,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.35,
-        "embedding_latency_ms": 24.24,
-        "classification_latency_ms": 72.47,
-        "total_latency_ms": 72.97,
+        "rules_latency_ms": 0.28,
+        "embedding_latency_ms": 14.76,
+        "classification_latency_ms": 41.4,
+        "total_latency_ms": 41.76,
         "classification_confidence": 0.3951,
         "classification_ambiguous": false,
         "classification_margin": 0.1942
@@ -1680,10 +1680,10 @@
       "intent_match": true,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.38,
-        "embedding_latency_ms": 26.33,
-        "classification_latency_ms": 77.15,
-        "total_latency_ms": 77.68,
+        "rules_latency_ms": 0.23,
+        "embedding_latency_ms": 15.62,
+        "classification_latency_ms": 46.49,
+        "total_latency_ms": 46.86,
         "classification_confidence": 0.5713,
         "classification_ambiguous": false,
         "classification_margin": 0.3354
@@ -1702,10 +1702,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.41,
-        "embedding_latency_ms": 24.87,
-        "classification_latency_ms": 73.03,
-        "total_latency_ms": 73.62,
+        "rules_latency_ms": 0.2,
+        "embedding_latency_ms": 14.52,
+        "classification_latency_ms": 43.86,
+        "total_latency_ms": 44.15,
         "classification_confidence": 0.3162,
         "classification_ambiguous": true,
         "classification_margin": 0.0724
@@ -1724,10 +1724,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.18,
-        "embedding_latency_ms": 23.14,
-        "classification_latency_ms": 70.91,
-        "total_latency_ms": 71.24,
+        "rules_latency_ms": 0.21,
+        "embedding_latency_ms": 15.09,
+        "classification_latency_ms": 44.26,
+        "total_latency_ms": 44.56,
         "classification_confidence": 0.6952,
         "classification_ambiguous": false,
         "classification_margin": 0.482
@@ -1746,10 +1746,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.31,
-        "embedding_latency_ms": 23.73,
-        "classification_latency_ms": 72.87,
-        "total_latency_ms": 73.31,
+        "rules_latency_ms": 0.17,
+        "embedding_latency_ms": 14.58,
+        "classification_latency_ms": 41.64,
+        "total_latency_ms": 41.87,
         "classification_confidence": 0.3458,
         "classification_ambiguous": true,
         "classification_margin": 0.149
@@ -1768,10 +1768,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.36,
-        "embedding_latency_ms": 24.11,
-        "classification_latency_ms": 72.73,
-        "total_latency_ms": 73.28,
+        "rules_latency_ms": 0.14,
+        "embedding_latency_ms": 14.17,
+        "classification_latency_ms": 44.24,
+        "total_latency_ms": 44.46,
         "classification_confidence": 0.3545,
         "classification_ambiguous": false,
         "classification_margin": 0.1516
@@ -1790,10 +1790,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.35,
-        "embedding_latency_ms": 24.9,
-        "classification_latency_ms": 75.54,
-        "total_latency_ms": 76.02,
+        "rules_latency_ms": 0.19,
+        "embedding_latency_ms": 14.75,
+        "classification_latency_ms": 45.79,
+        "total_latency_ms": 46.05,
         "classification_confidence": 0.6914,
         "classification_ambiguous": false,
         "classification_margin": 0.4836
@@ -1812,10 +1812,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.31,
-        "embedding_latency_ms": 22.51,
-        "classification_latency_ms": 64.35,
-        "total_latency_ms": 64.78,
+        "rules_latency_ms": 0.16,
+        "embedding_latency_ms": 14.18,
+        "classification_latency_ms": 40.59,
+        "total_latency_ms": 40.84,
         "classification_confidence": 0.3308,
         "classification_ambiguous": true,
         "classification_margin": 0.057
@@ -1834,10 +1834,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.4,
-        "embedding_latency_ms": 22.28,
-        "classification_latency_ms": 66.41,
-        "total_latency_ms": 66.95,
+        "rules_latency_ms": 0.34,
+        "embedding_latency_ms": 14.23,
+        "classification_latency_ms": 43.04,
+        "total_latency_ms": 43.46,
         "classification_confidence": 0.3328,
         "classification_ambiguous": true,
         "classification_margin": 0.0734
@@ -1856,10 +1856,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.38,
-        "embedding_latency_ms": 23.91,
-        "classification_latency_ms": 65.95,
-        "total_latency_ms": 66.47,
+        "rules_latency_ms": 0.2,
+        "embedding_latency_ms": 15.59,
+        "classification_latency_ms": 47.21,
+        "total_latency_ms": 47.51,
         "classification_confidence": 0.4656,
         "classification_ambiguous": false,
         "classification_margin": 0.2374
@@ -1878,10 +1878,10 @@
       "intent_match": true,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.31,
-        "embedding_latency_ms": 22.96,
-        "classification_latency_ms": 76.86,
-        "total_latency_ms": 77.32,
+        "rules_latency_ms": 0.18,
+        "embedding_latency_ms": 15.12,
+        "classification_latency_ms": 46.02,
+        "total_latency_ms": 46.28,
         "classification_confidence": 0.7282,
         "classification_ambiguous": false,
         "classification_margin": 0.5494
@@ -1900,10 +1900,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.41,
-        "embedding_latency_ms": 28.65,
-        "classification_latency_ms": 84.5,
-        "total_latency_ms": 85.06,
+        "rules_latency_ms": 0.2,
+        "embedding_latency_ms": 16.29,
+        "classification_latency_ms": 47.64,
+        "total_latency_ms": 47.93,
         "classification_confidence": 0.3845,
         "classification_ambiguous": true,
         "classification_margin": 0.0839
@@ -1922,10 +1922,10 @@
       "intent_match": true,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.35,
-        "embedding_latency_ms": 25.88,
-        "classification_latency_ms": 78.31,
-        "total_latency_ms": 78.81,
+        "rules_latency_ms": 0.21,
+        "embedding_latency_ms": 14.82,
+        "classification_latency_ms": 44.51,
+        "total_latency_ms": 44.81,
         "classification_confidence": 0.7038,
         "classification_ambiguous": false,
         "classification_margin": 0.4624
@@ -1944,10 +1944,10 @@
       "intent_match": true,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.45,
-        "embedding_latency_ms": 26.8,
-        "classification_latency_ms": 82.37,
-        "total_latency_ms": 83.01,
+        "rules_latency_ms": 0.25,
+        "embedding_latency_ms": 16.45,
+        "classification_latency_ms": 48.85,
+        "total_latency_ms": 49.19,
         "classification_confidence": 0.7055,
         "classification_ambiguous": false,
         "classification_margin": 0.5061
@@ -1966,10 +1966,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.26,
-        "embedding_latency_ms": 24.59,
-        "classification_latency_ms": 60.03,
-        "total_latency_ms": 60.41,
+        "rules_latency_ms": 0.22,
+        "embedding_latency_ms": 13.16,
+        "classification_latency_ms": 40.31,
+        "total_latency_ms": 40.61,
         "classification_confidence": 0.4375,
         "classification_ambiguous": false,
         "classification_margin": 0.2193
@@ -1988,10 +1988,10 @@
       "intent_match": true,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.29,
-        "embedding_latency_ms": 20.63,
-        "classification_latency_ms": 63.51,
-        "total_latency_ms": 63.95,
+        "rules_latency_ms": 0.19,
+        "embedding_latency_ms": 14.26,
+        "classification_latency_ms": 42.42,
+        "total_latency_ms": 42.68,
         "classification_confidence": 0.7135,
         "classification_ambiguous": false,
         "classification_margin": 0.536
@@ -2010,10 +2010,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.41,
-        "embedding_latency_ms": 22.48,
-        "classification_latency_ms": 68.08,
-        "total_latency_ms": 68.6,
+        "rules_latency_ms": 0.22,
+        "embedding_latency_ms": 15.14,
+        "classification_latency_ms": 44.52,
+        "total_latency_ms": 44.81,
         "classification_confidence": 0.3525,
         "classification_ambiguous": false,
         "classification_margin": 0.1166
@@ -2032,10 +2032,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.41,
-        "embedding_latency_ms": 22.6,
-        "classification_latency_ms": 71.84,
-        "total_latency_ms": 72.38,
+        "rules_latency_ms": 0.21,
+        "embedding_latency_ms": 15.48,
+        "classification_latency_ms": 46.22,
+        "total_latency_ms": 46.52,
         "classification_confidence": 0.3908,
         "classification_ambiguous": true,
         "classification_margin": 0.0815
@@ -2054,10 +2054,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.41,
-        "embedding_latency_ms": 22.56,
-        "classification_latency_ms": 59.35,
-        "total_latency_ms": 59.9,
+        "rules_latency_ms": 0.21,
+        "embedding_latency_ms": 15.84,
+        "classification_latency_ms": 43.82,
+        "total_latency_ms": 44.11,
         "classification_confidence": 0.7185,
         "classification_ambiguous": false,
         "classification_margin": 0.5608
@@ -2076,10 +2076,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.5,
-        "embedding_latency_ms": 24.53,
-        "classification_latency_ms": 73.74,
-        "total_latency_ms": 74.39,
+        "rules_latency_ms": 0.26,
+        "embedding_latency_ms": 16.02,
+        "classification_latency_ms": 47.3,
+        "total_latency_ms": 47.66,
         "classification_confidence": 0.519,
         "classification_ambiguous": false,
         "classification_margin": 0.2236
@@ -2098,10 +2098,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.48,
-        "embedding_latency_ms": 26.42,
-        "classification_latency_ms": 87.51,
-        "total_latency_ms": 88.18,
+        "rules_latency_ms": 0.29,
+        "embedding_latency_ms": 16.14,
+        "classification_latency_ms": 47.87,
+        "total_latency_ms": 48.26,
         "classification_confidence": 0.695,
         "classification_ambiguous": false,
         "classification_margin": 0.4669
@@ -2120,10 +2120,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.49,
-        "embedding_latency_ms": 28.72,
-        "classification_latency_ms": 89.32,
-        "total_latency_ms": 89.97,
+        "rules_latency_ms": 0.21,
+        "embedding_latency_ms": 15.72,
+        "classification_latency_ms": 46.75,
+        "total_latency_ms": 47.05,
         "classification_confidence": 0.7023,
         "classification_ambiguous": false,
         "classification_margin": 0.5016
@@ -2142,10 +2142,10 @@
       "intent_match": true,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.48,
-        "embedding_latency_ms": 26.17,
-        "classification_latency_ms": 77.09,
-        "total_latency_ms": 77.71,
+        "rules_latency_ms": 0.3,
+        "embedding_latency_ms": 14.82,
+        "classification_latency_ms": 43.72,
+        "total_latency_ms": 44.1,
         "classification_confidence": 0.6436,
         "classification_ambiguous": false,
         "classification_margin": 0.2959
@@ -2164,10 +2164,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.35,
-        "embedding_latency_ms": 24.66,
-        "classification_latency_ms": 73.25,
-        "total_latency_ms": 73.74,
+        "rules_latency_ms": 0.15,
+        "embedding_latency_ms": 14.0,
+        "classification_latency_ms": 44.34,
+        "total_latency_ms": 44.57,
         "classification_confidence": 0.3512,
         "classification_ambiguous": false,
         "classification_margin": 0.1541
@@ -2186,10 +2186,10 @@
       "intent_match": false,
       "timing_ms": {
         "ocr_latency_ms": 0.0,
-        "rules_latency_ms": 0.35,
-        "embedding_latency_ms": 24.99,
-        "classification_latency_ms": 74.59,
-        "total_latency_ms": 75.11,
+        "rules_latency_ms": 0.29,
+        "embedding_latency_ms": 15.8,
+        "classification_latency_ms": 47.25,
+        "total_latency_ms": 47.63,
         "classification_confidence": 0.3371,
         "classification_ambiguous": true,
         "classification_margin": 0.1182

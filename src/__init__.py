@@ -13,6 +13,7 @@ from .pipeline import OCRPipeline
 from .organizer import ScreenshotOrganizer, organize_folder
 from .models import Screenshot, ScreenshotMetadata, ScreenshotChunk
 from .storage import BaseFileStore, LocalFileStore, BaseMetadataStore, SQLiteMetadataStore
+from .tag_generator import TagGenerator, generate_tags, TAG_FAMILIES
 
 try:
     from .loader import load_dataset, discover_screenshots
@@ -61,4 +62,6 @@ __all__ = [
     "LocalFileStore",
     "BaseMetadataStore",
     "SQLiteMetadataStore",
+    "TagGenerator",
+    "generate_tags",
 ]

@@ -1,6 +1,6 @@
-# Phase 3G.1: Unseen Dataset & Generalization Evaluation Report
+﻿# Phase 3G.1: Unseen Dataset & Generalization Evaluation Report
 
-**Evaluation Timestamp:** 2026-10-11T10:42:06.558738+00:00  
+**Evaluation Timestamp:** 2026-10-30T13:59:45.546719+00:00
 **Target Architecture:** CPU Local Rule + Vector Embedding Hybrid Baseline (No VLM / No LLM)
 
 ---
@@ -45,18 +45,18 @@
 ## 3. End-to-End Latency Breakdown & Cold vs Warm Overhead
 
 ### Cold-Start Initialization Latency
-- **Model & Classifier Setup Overhead:** **`9622.46 ms`** (Initializes PyTorch/ONNX embedding session and rule tables).
+- **Model & Classifier Setup Overhead:** **`6133.15 ms`** (Initializes PyTorch/ONNX embedding session and rule tables).
 
 ### Full Pipeline Inference Latencies (Warm Runtime)
 
 | Pipeline Stage | Mean (ms) | Median (p50 ms) | 95th Percentile (p95 ms) |
 | :--- | :---: | :---: | :---: |
-| **Image Preprocessing / IO** | `0.04 ms` | `0.03 ms` | `0.07 ms` |
-| **OCR Text Extraction** | `0.03 ms` | `0.03 ms` | `0.04 ms` |
-| **Rule & Pattern Extraction** | `0.39 ms` | `0.3 ms` | `0.82 ms` |
-| **Vector Embedding Generation** | `24.96 ms` | `18.45 ms` | `46.29 ms` |
-| **Hybrid Classification & Scoring** | `69.35 ms` | `55.53 ms` | `122.39 ms` |
-| **FULL End-to-End Pipeline** | **`69.92 ms`** | **`56.0 ms`** | **`123.18 ms`** |
+| **Image Preprocessing / IO** | `0.07 ms` | `0.07 ms` | `0.09 ms` |
+| **OCR Text Extraction** | `0.04 ms` | `0.04 ms` | `0.05 ms` |
+| **Rule & Pattern Extraction** | `0.89 ms` | `0.49 ms` | `1.79 ms` |
+| **Vector Embedding Generation** | `32.48 ms` | `26.31 ms` | `52.1 ms` |
+| **Hybrid Classification & Scoring** | `91.15 ms` | `78.09 ms` | `156.72 ms` |
+| **FULL End-to-End Pipeline** | **`92.32 ms`** | **`78.78 ms`** | **`158.33 ms`** |
 
 ---
 
@@ -66,16 +66,16 @@
 - **Python Runtime:** `3.11.9`
 - **CPU Architecture:** `Intel64 Family 6 Model 154 Stepping 4, GenuineIntel`
 - **GPU Acceleration Assumption:** `None (Pure CPU Execution)`
-- **Active Process Memory (RAM RSS):** `2062.95 MB`
+- **Active Process Memory (RAM RSS):** `1390.66 MB`
 - **Embedding Model Weight Size:** `~90 MB (all-MiniLM-L6-v2 ONNX/PyTorch)`
 - **Intelligence Application Code Size:** `~35 KB (rules.py + classifier.py + baseline_intelligence.py)`
-- **Total Layer Storage Footprint:** `~90.04 MB` (Well within **100–200 MB** target constraint)
+- **Total Layer Storage Footprint:** `~90.04 MB` (Well within **100â€“200 MB** target constraint)
 
 ---
 
 ## 5. Confidence Correlation Analysis
 
- ग्रुपिंग metrics evaluated across classifier confidence score thresholds:
+ à¤—à¥à¤°à¥à¤ªà¤¿à¤‚à¤— metrics evaluated across classifier confidence score thresholds:
 
 | Confidence Bucket | Confidence Range | Total Images | Correct Category | Bucket Accuracy |
 | :--- | :---: | :---: | :---: | :---: |
