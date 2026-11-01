@@ -14,6 +14,8 @@ from .organizer import ScreenshotOrganizer, organize_folder
 from .models import Screenshot, ScreenshotMetadata, ScreenshotChunk
 from .storage import BaseFileStore, LocalFileStore, BaseMetadataStore, SQLiteMetadataStore
 from .tag_generator import TagGenerator, generate_tags, TAG_FAMILIES
+from .extractor import StructuredExtractor
+from .intent_detector import ScreenshotIntentDetector
 
 try:
     from .loader import load_dataset, discover_screenshots
@@ -64,4 +66,6 @@ __all__ = [
     "SQLiteMetadataStore",
     "TagGenerator",
     "generate_tags",
+    "StructuredExtractor",
+    "ScreenshotIntentDetector",
 ]

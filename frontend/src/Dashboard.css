@@ -2010,3 +2010,71 @@
   transform: none;
   box-shadow: none;
 }
+
+
+/* ── Intelligence & Detail Modal Extensions ──────────────────── */
+.modal-chip-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 4px 0;
+}
+
+.modal-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(0, 240, 255, 0.08);
+  border: 1px solid var(--border-mid);
+  border-radius: var(--radius);
+  padding: 4px 9px;
+  font-size: 0.75rem;
+  color: var(--text-bright);
+}
+
+.modal-chip-type {
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--neon-accent);
+  letter-spacing: 0.5px;
+}
+
+.modal-chip-val {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-bright);
+}
+
+.modal-url-link {
+  color: var(--neon-primary);
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-family: var(--font-mono);
+  word-break: break-all;
+  display: block;
+  text-align: right;
+  max-width: 70%;
+  transition: color 0.15s ease;
+}
+
+.modal-url-link:hover {
+  text-decoration: underline;
+  color: var(--neon-accent);
+}
+
+.gallery-card-intent {
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: var(--neon-accent);
+  background: rgba(0, 245, 212, 0.08);
+  border: 1px solid rgba(0, 245, 212, 0.25);
+  border-radius: 4px;
+  padding: 2px 6px;
+  margin: 3px 0;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}

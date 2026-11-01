@@ -23,6 +23,8 @@ from .chunker import ParagraphChunker
 from .config import config
 from .easy_ocr import get_ocr_engine
 from .embedder import BaseEmbedder, SentenceTransformerEmbedder
+from .extractor import StructuredExtractor
+from .intent_detector import ScreenshotIntentDetector
 from .mock_ocr import BaseOCREngine, MockOCREngine
 from .models.metadata import ScreenshotMetadata
 from .storage.file_store import BaseFileStore, LocalFileStore
@@ -60,6 +62,8 @@ class OCRPipeline:
         enable_visual: bool = True,
         ocr_engine_type: Optional[str] = None,
         tag_generator: Optional[TagGenerator] = None,
+        extractor: Optional[StructuredExtractor] = None,
+        intent_detector: Optional[ScreenshotIntentDetector] = None,
     ):
         """
         Initialize pipeline components and storage managers.
@@ -75,6 +79,8 @@ class OCRPipeline:
         self.metadata_store: BaseMetadataStore = metadata_store if metadata_store else SQLiteMetadataStore()
         self.enable_visual = enable_visual
         self.tag_generator: TagGenerator = tag_generator if tag_generator else TagGenerator()
+        self.extractor: StructuredExtractor = extractor if extractor else StructuredExtractor()
+        self.intent_detector: ScreenshotIntentDetector = intent_detector if intent_detector else ScreenshotIntentDetector()
 
         # Lazy load semantic classifier
         self._semantic_classifier = semantic_classifier
@@ -222,25 +228,59 @@ class OCRPipeline:
             existing_tags = list(raw_meta.get("tags", [])) if isinstance(raw_meta.get("tags"), list) else []
             final_tags = list(dict.fromkeys(existing_tags + generated_tags))
 
+            # Structured content extraction
+            extracted_data = self.extractor.extract_all(
+                ocr_text=ocr_text,
+                category=final_category,
+            )
+
+            # Screenshot intent detection
+            detected_intent, intent_conf, intent_evidence = self.intent_detector.detect_intent(
+                ocr_text=ocr_text,
+                category=final_category,
+                tags=final_tags,
+                content_type=extracted_data.get("content_type", "unknown"),
+                financial_info=extracted_data.get("financial_info", {}),
+                dates=extracted_data.get("dates", []),
+                entities=extracted_data.get("entities", []),
+                sensitive_info=extracted_data.get("sensitive_info", {}),
+            )
+
+            # Evidence dict updates
+            evidence_dict = {
+                "text_snippet": ocr_text[:100],
+                "visual_evidence": visual_evidence,
+                "fusion_applied": fusion_applied,
+                "fusion_reason": fusion_reason,
+                "original_semantic_category": sem_category,
+                "intent_evidence": intent_evidence,
+            }
+
             # Layer 2: Create & persist rich structured metadata object
             metadata_obj = ScreenshotMetadata(
                 screenshot_id=screenshot_id,
                 filename=img_filename,
                 image_uri=image_uri,
                 category=final_category,
+                content_type=extracted_data.get("content_type", raw_meta.get("content_type", "unknown")),
                 tags=final_tags,
-                ocr_available=True,
-                summary=notes_text if notes_text else f"Screenshot {img_filename}",
-                evidence={
-                    "text_snippet": ocr_text[:100],
-                    "visual_evidence": visual_evidence,
-                    "fusion_applied": fusion_applied,
-                    "fusion_reason": fusion_reason,
-                    "original_semantic_category": sem_category
-                }
+                intent=detected_intent,
+                ocr_available=bool(ocr_text and str(ocr_text).strip()),
+                summary=notes_text if notes_text else extracted_data.get("summary", f"Screenshot {img_filename}"),
+                evidence=evidence_dict,
+                events=extracted_data.get("events", []),
+                financial_info=extracted_data.get("financial_info", {}),
+                contacts=extracted_data.get("contacts", {}),
+                urls=extracted_data.get("urls", []),
+                text_topics=extracted_data.get("text_topics", []),
+                entities=extracted_data.get("entities", []),
+                dates=extracted_data.get("dates", []),
+                action_items=extracted_data.get("action_items", []),
+                sensitive_info=extracted_data.get("sensitive_info", {}),
+                confidence_scores={"intent": intent_conf} if detected_intent else {},
             )
             self.metadata_store.save_metadata(metadata_obj)
-            print(f"Processed {img_filename} -> Category: {final_category} (Fused: {fusion_applied})")
+            print(f"Processed {img_filename} -> Category: {final_category} | Intent: {detected_intent} (Fused: {fusion_applied})")
 
             # Chunk extracted OCR text
             chunks = self.chunker.chunk(ocr_text)

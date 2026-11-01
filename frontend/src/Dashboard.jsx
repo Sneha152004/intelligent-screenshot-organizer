@@ -106,6 +106,11 @@ function ScreenshotCard({ item, onClick, onDelete, onTagClick }) {
             <span className="card-conf">{(item.classification_confidence * 100).toFixed(0)}%</span>
           )}
         </div>
+        {item.intent && item.intent !== 'General Info / None' && (
+          <div className="gallery-card-intent" title={`Intent: ${item.intent}`}>
+            🎯 {item.intent}
+          </div>
+        )}
         {item.summary && <p className="gallery-card-summary">{item.summary.slice(0, 80)}{item.summary.length > 80 ? '…' : ''}</p>}
         {tags.length > 0 && (
           <div className="gallery-card-tags">
@@ -200,6 +205,94 @@ function DetailModal({ item, onClose, onTagClick }) {
               </div>
               <pre className="modal-ocr-text">{detail?.ocr_text || detail?.summary || 'No OCR text available.'}</pre>
             </div>
+
+            {/* Intelligence & Intent */}
+            <div className="modal-section">
+              <div className="modal-section-header"><span>INTELLIGENCE & INTENT</span></div>
+              <div className="meta-grid">
+                <MetaRow label="Intent" value={detail?.intent || 'General Info / None'} />
+                <MetaRow label="Content Type" value={detail?.content_type || 'unknown'} mono />
+                {detail?.importance && (
+                  <MetaRow label="Importance" value={`${detail.importance} / 5`} />
+                )}
+                {detail?.summary && detail.summary !== detail.ocr_text && (
+                  <MetaRow label="Summary" value={detail.summary} />
+                )}
+              </div>
+            </div>
+
+            {/* Financial Information */}
+            {detail?.financial_info && Object.keys(detail.financial_info).length > 0 && (
+              (detail.financial_info.amount != null ||
+               (detail.financial_info.amounts && detail.financial_info.amounts.length > 0) ||
+               (detail.financial_info.transaction_ids && detail.financial_info.transaction_ids.length > 0) ||
+               (detail.financial_info.upi_ids && detail.financial_info.upi_ids.length > 0) ||
+               detail.financial_info.payment_method ||
+               detail.financial_info.status) ? (
+                <div className="modal-section">
+                  <div className="modal-section-header"><span>FINANCIAL INFORMATION</span></div>
+                  <div className="meta-grid">
+                    {detail.financial_info.amount != null && (
+                      <MetaRow label="Amount" value={`${detail.financial_info.currency || 'INR'} ${detail.financial_info.amount}`} mono />
+                    )}
+                    {(!detail.financial_info.amount && detail.financial_info.amounts?.length > 0) && (
+                      <MetaRow label="Amount(s)" value={detail.financial_info.amounts.join(', ')} mono />
+                    )}
+                    {detail.financial_info.payment_method && (
+                      <MetaRow label="Payment Method" value={detail.financial_info.payment_method} />
+                    )}
+                    {detail.financial_info.status && (
+                      <MetaRow label="Payment Status" value={detail.financial_info.status} />
+                    )}
+                    {detail.financial_info.upi_ids?.length > 0 && (
+                      <MetaRow label="UPI ID(s)" value={detail.financial_info.upi_ids.join(', ')} mono />
+                    )}
+                    {detail.financial_info.transaction_ids?.length > 0 && (
+                      <MetaRow label="Transaction ID(s)" value={detail.financial_info.transaction_ids.join(', ')} mono />
+                    )}
+                  </div>
+                </div>
+              ) : null
+            )}
+
+            {/* Extracted Entities */}
+            {detail?.entities && detail.entities.length > 0 && (
+              <div className="modal-section">
+                <div className="modal-section-header"><span>EXTRACTED ENTITIES ({detail.entities.length})</span></div>
+                <div className="modal-chip-grid">
+                  {detail.entities.map((ent, idx) => {
+                    const text = typeof ent === 'string' ? ent : (ent.text || ent.value || JSON.stringify(ent));
+                    const type = typeof ent === 'object' && ent.type ? ent.type : (ent.label || 'entity');
+                    return (
+                      <div key={idx} className="modal-chip">
+                        <span className="modal-chip-type">{type}</span>
+                        <span className="modal-chip-val">{text}</span>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+
+            {/* Dates & Links */}
+            {((detail?.dates && detail.dates.length > 0) || (detail?.urls && detail.urls.length > 0)) && (
+              <div className="modal-section">
+                <div className="modal-section-header"><span>DATES & LINKS</span></div>
+                <div className="meta-grid">
+                  {detail.dates?.map((d, idx) => {
+                    const dateVal = typeof d === 'string' ? d : (d.normalized || d.raw_text || JSON.stringify(d));
+                    const dateType = (typeof d === 'object' && d.date_type) ? d.date_type : 'Date';
+                    return <MetaRow key={idx} label={dateType} value={dateVal} mono />;
+                  })}
+                  {detail.urls?.map((u, idx) => (
+                    <div key={idx} className="meta-row">
+                      <span className="meta-label">URL</span>
+                      <a href={u} target="_blank" rel="noopener noreferrer" className="modal-url-link">{u}</a>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
 
             {/* Tags */}
             <div className="modal-section">
