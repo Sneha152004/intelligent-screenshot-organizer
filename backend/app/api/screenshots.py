@@ -59,10 +59,13 @@ def list_screenshots(
     category: Optional[str] = Query(None, description="Filter by category name"),
     tag: Optional[str] = Query(None, description="Filter by tag name"),
     q: Optional[str] = Query(None, description="Simple text filter on filename / OCR text"),
+    min_importance: Optional[int] = Query(None, ge=1, le=5, description="Filter by minimum importance score (1-5)"),
+    importance: Optional[int] = Query(None, ge=1, le=5, description="Filter by exact importance score (1-5)"),
+    sort_by: Optional[str] = Query(None, description="Sort order: 'importance_desc', 'importance_asc', 'newest', 'oldest'"),
     limit: int = Query(100, ge=1, le=500),
     offset: int = Query(0, ge=0),
 ):
-    """Return a paginated list of screenshots with optional filters."""
+    """Return a paginated list of screenshots with optional filters and sorting."""
     file_store, metadata_store = _get_stores()
     vector_store = _get_vector_store()
     all_meta = metadata_store.list_all_metadata()
@@ -83,6 +86,20 @@ def list_screenshots(
             or q_lower in m.category.lower()
             or any(q_lower in t.lower() for t in (m.tags or []))
         ]
+
+    if importance is not None:
+        all_meta = [m for m in all_meta if m.importance == importance]
+    elif min_importance is not None:
+        all_meta = [m for m in all_meta if (m.importance or 0) >= min_importance]
+
+    if sort_by == "importance_desc":
+        all_meta.sort(key=lambda m: (m.importance or 0, m.created_at or ""), reverse=True)
+    elif sort_by == "importance_asc":
+        all_meta.sort(key=lambda m: (m.importance if m.importance is not None else 999, m.created_at or ""))
+    elif sort_by == "oldest":
+        all_meta.sort(key=lambda m: m.created_at or "")
+    elif sort_by == "newest":
+        all_meta.sort(key=lambda m: m.created_at or "", reverse=True)
 
     total = len(all_meta)
     page = all_meta[offset: offset + limit]
@@ -112,6 +129,69 @@ def list_tags():
     }
 
 
+@router.get("/duplicates")
+def get_duplicates(
+    type: Optional[str] = Query(None, description="Filter by duplicate type: 'exact' or 'visual'"),
+    max_distance: int = Query(6, ge=0, le=20, description="Max Hamming distance threshold for visual similarity"),
+    category: Optional[str] = Query(None, description="Filter duplicates to a specific category"),
+):
+    """
+    Identifies exact and near-duplicate screenshots across the collection.
+    Returns grouped primary screenshots and their duplicate candidates.
+    Never automatically deletes files.
+    """
+    from src.duplicate_detector import DuplicateDetector
+    file_store, metadata_store = _get_stores()
+    all_meta = metadata_store.list_all_metadata()
+
+    detector = DuplicateDetector(default_max_distance=max_distance)
+
+    screenshot_dicts = []
+    for m in all_meta:
+        d = _meta_to_dict(m)
+        screenshot_dicts.append(d)
+
+    res = detector.find_duplicates(
+        screenshots=screenshot_dicts,
+        max_distance=max_distance,
+        category_filter=category,
+    )
+
+    if type:
+        filtered_groups = [g for g in res["groups"] if g["type"].lower() == type.lower()]
+        res["groups"] = filtered_groups
+        res["total_groups"] = len(filtered_groups)
+        res["total_duplicate_candidates"] = sum(len(g["duplicates"]) for g in filtered_groups)
+
+    return res
+
+
+@router.get("/timeline")
+def get_timeline(
+    year: Optional[int] = Query(None, description="Filter by year (e.g. 2026)"),
+    month: Optional[int] = Query(None, ge=1, le=12, description="Filter by month (1-12)"),
+    category: Optional[str] = Query(None, description="Filter by category"),
+    intent: Optional[str] = Query(None, description="Filter by intent"),
+    sort: str = Query("desc", description="Sort order: 'desc' (newest first) or 'asc'"),
+):
+    """
+    Returns screenshots organized as a chronological timeline grouped by year and month.
+    Prioritizes reliable extracted event dates, falling back to creation dates.
+    """
+    from src.timeline_service import TimelineService
+    file_store, metadata_store = _get_stores()
+    all_meta = metadata_store.list_all_metadata()
+    service = TimelineService()
+    return service.build_timeline(
+        screenshots=all_meta,
+        year=year,
+        month=month,
+        category=category,
+        intent=intent,
+        sort_order=sort,
+    )
+
+
 @router.get("/{screenshot_id}")
 def get_screenshot(screenshot_id: str):
     """Return full detail for a single screenshot, including OCR text."""
@@ -129,6 +209,22 @@ def get_screenshot(screenshot_id: str):
     d["ocr_text"] = ocr_snippet
 
     return d
+
+
+@router.get("/{screenshot_id}/importance")
+def get_screenshot_importance(screenshot_id: str):
+    """Return importance score and reason for a single screenshot."""
+    file_store, metadata_store = _get_stores()
+    meta = metadata_store.get_metadata(screenshot_id)
+    if not meta:
+        raise HTTPException(status_code=404, detail="Screenshot not found")
+
+    return {
+        "screenshot_id": screenshot_id,
+        "importance": meta.importance,
+        "importance_score": meta.importance,
+        "importance_reason": meta.importance_reason or "Assigned by I.R.I.S. Importance Scorer",
+    }
 
 
 @router.post("/upload")
@@ -225,6 +321,60 @@ async def upload_screenshots(files: List[UploadFile] = File(...)):
                         metadatas=chunk_metas,
                     )
 
+                # Check for duplicate warning against existing collection
+                from src.duplicate_detector import DuplicateDetector
+                _detector = DuplicateDetector()
+                f_hash = p["metadata"].get("file_hash")
+                p_hash = p["metadata"].get("perceptual_hash")
+                is_dup = False
+                dup_type = None
+                dup_of = None
+
+                target_meta_store = pipeline.metadata_store if (pipeline and hasattr(pipeline, "metadata_store") and pipeline.metadata_store) else _get_stores()[1]
+                if (f_hash or p_hash) and target_meta_store:
+                    all_existing = target_meta_store.list_all_metadata()
+                    for em in all_existing:
+                        if em.screenshot_id == sid:
+                            continue
+                        if f_hash and em.file_hash == f_hash:
+                            is_dup = True
+                            dup_type = "exact"
+                            dup_of = em.screenshot_id
+                            break
+                        if p_hash and em.perceptual_hash:
+                            dist = _detector.hamming_distance(p_hash, em.perceptual_hash)
+                            if dist <= 4:
+                                is_dup = True
+                                dup_type = "visual"
+                                dup_of = em.screenshot_id
+                                break
+
+                # Intelligent reminder detection
+                detected_reminders = []
+                try:
+                    from src.reminder_service import ReminderService
+                    from src.storage.reminder_store import ReminderStore
+                    _r_store = ReminderStore("data/metadata.sqlite")
+                    _r_service = ReminderService(reminder_store=_r_store)
+                    _meta_for_rem = {
+                        "screenshot_id": sid,
+                        "filename": upload.filename,
+                        "category": category,
+                        "intent": p["metadata"].get("intent"),
+                        "content_type": p["metadata"].get("content_type"),
+                        "summary": p["metadata"].get("summary"),
+                        "ocr_text": ocr_text,
+                        "evidence": evidence,
+                        "dates": p["metadata"].get("dates", []),
+                        "action_items": p["metadata"].get("action_items", []),
+                        "importance_score": p["metadata"].get("importance_score") or p["metadata"].get("importance", 3),
+                        "sensitive_info": p["metadata"].get("sensitive_info", {}),
+                    }
+                    detected_reminders = _r_service.scan_and_create_for_screenshot(_meta_for_rem)
+                except Exception as _r_err:
+                    logger.warning(f"Reminder detection failed for {upload.filename}: {_r_err}")
+                    detected_reminders = []
+
                 results.append({
                     "filename": upload.filename,
                     "status": "success",
@@ -234,6 +384,11 @@ async def upload_screenshots(files: List[UploadFile] = File(...)):
                     "ocr_text": ocr_text[:500],
                     "fusion_applied": fusion_applied,
                     "chunks_indexed": len(chunk_ids),
+                    "is_duplicate": is_dup,
+                    "duplicate_type": dup_type,
+                    "duplicate_of": dup_of,
+                    "reminders_created": len(detected_reminders),
+                    "reminders": detected_reminders,
                 })
 
             except Exception as e:

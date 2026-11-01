@@ -76,6 +76,10 @@ class SQLiteMetadataStore(BaseMetadataStore):
                     intent TEXT,
                     summary TEXT,
                     importance INTEGER,
+                    importance_score INTEGER,
+                    importance_reason TEXT,
+                    file_hash TEXT,
+                    perceptual_hash TEXT,
                     evidence TEXT,
                     events TEXT,
                     financial_info TEXT,
@@ -105,6 +109,10 @@ class SQLiteMetadataStore(BaseMetadataStore):
                 "intent": "TEXT",
                 "summary": "TEXT",
                 "importance": "INTEGER",
+                "importance_score": "INTEGER",
+                "importance_reason": "TEXT",
+                "file_hash": "TEXT",
+                "perceptual_hash": "TEXT",
                 "evidence": "TEXT",
                 "events": "TEXT",
                 "financial_info": "TEXT",
@@ -135,12 +143,12 @@ class SQLiteMetadataStore(BaseMetadataStore):
                 """
                 INSERT INTO screenshot_metadata (
                     screenshot_id, filename, image_uri, category, content_type, ocr_available,
-                    created_at, indexed_at, tags, intent, summary, importance,
+                    created_at, indexed_at, tags, intent, summary, importance, importance_score, importance_reason, file_hash, perceptual_hash,
                     evidence, events, financial_info, contacts, urls, text_topics,
                     entities, dates, action_items, sensitive_info, confidence_scores,
                     category_candidates, category_scores, classification_confidence,
                     classification_ambiguous, classification_margin, classification_evidence
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 ON CONFLICT(screenshot_id) DO UPDATE SET
                     filename=excluded.filename,
                     image_uri=excluded.image_uri,
@@ -153,6 +161,10 @@ class SQLiteMetadataStore(BaseMetadataStore):
                     intent=excluded.intent,
                     summary=excluded.summary,
                     importance=excluded.importance,
+                    importance_score=excluded.importance_score,
+                    importance_reason=excluded.importance_reason,
+                    file_hash=excluded.file_hash,
+                    perceptual_hash=excluded.perceptual_hash,
                     evidence=excluded.evidence,
                     events=excluded.events,
                     financial_info=excluded.financial_info,
@@ -184,6 +196,10 @@ class SQLiteMetadataStore(BaseMetadataStore):
                     metadata.intent,
                     metadata.summary,
                     metadata.importance,
+                    metadata.importance,
+                    metadata.importance_reason,
+                    metadata.file_hash,
+                    metadata.perceptual_hash,
                     json.dumps(metadata.evidence),
                     json.dumps(metadata.events),
                     json.dumps(metadata.financial_info),

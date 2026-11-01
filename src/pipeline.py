@@ -25,6 +25,10 @@ from .easy_ocr import get_ocr_engine
 from .embedder import BaseEmbedder, SentenceTransformerEmbedder
 from .extractor import StructuredExtractor
 from .intent_detector import ScreenshotIntentDetector
+from .importance_scorer import ImportanceScorer
+from .duplicate_detector import DuplicateDetector
+from .reminder_service import ReminderService
+from .storage.reminder_store import ReminderStore
 from .mock_ocr import BaseOCREngine, MockOCREngine
 from .models.metadata import ScreenshotMetadata
 from .storage.file_store import BaseFileStore, LocalFileStore
@@ -64,6 +68,9 @@ class OCRPipeline:
         tag_generator: Optional[TagGenerator] = None,
         extractor: Optional[StructuredExtractor] = None,
         intent_detector: Optional[ScreenshotIntentDetector] = None,
+        importance_scorer: Optional[ImportanceScorer] = None,
+        duplicate_detector: Optional[DuplicateDetector] = None,
+        reminder_service: Optional[ReminderService] = None,
     ):
         """
         Initialize pipeline components and storage managers.
@@ -81,6 +88,9 @@ class OCRPipeline:
         self.tag_generator: TagGenerator = tag_generator if tag_generator else TagGenerator()
         self.extractor: StructuredExtractor = extractor if extractor else StructuredExtractor()
         self.intent_detector: ScreenshotIntentDetector = intent_detector if intent_detector else ScreenshotIntentDetector()
+        self.importance_scorer: ImportanceScorer = importance_scorer if importance_scorer else ImportanceScorer()
+        self.duplicate_detector: DuplicateDetector = duplicate_detector if duplicate_detector else DuplicateDetector()
+        self.reminder_service: Optional[ReminderService] = reminder_service
 
         # Lazy load semantic classifier
         self._semantic_classifier = semantic_classifier
@@ -246,12 +256,36 @@ class OCRPipeline:
                 sensitive_info=extracted_data.get("sensitive_info", {}),
             )
 
+            # Duplicate hash computation (SHA-256 and pHash)
+            file_hash = None
+            perceptual_hash = None
+            try:
+                file_hash = self.duplicate_detector.compute_sha256(src_path)
+                perceptual_hash = self.duplicate_detector.compute_phash(src_path)
+            except Exception as e:
+                logger.warning(f"Error computing hashes for {src_path}: {e}")
+
+            # Importance scoring
+            importance_score, importance_reason = self.importance_scorer.score_screenshot(
+                ocr_text=ocr_text,
+                category=final_category,
+                intent=detected_intent,
+                content_type=extracted_data.get("content_type", "unknown"),
+                financial_info=extracted_data.get("financial_info", {}),
+                dates=extracted_data.get("dates", []),
+                entities=extracted_data.get("entities", []),
+                sensitive_info=extracted_data.get("sensitive_info", {}),
+                action_items=extracted_data.get("action_items", []),
+                urls=extracted_data.get("urls", []),
+                contacts=extracted_data.get("contacts", {}),
+            )
+
             # Evidence dict updates
             evidence_dict = {
                 "text_snippet": ocr_text[:100],
                 "visual_evidence": visual_evidence,
                 "fusion_applied": fusion_applied,
-                "fusion_reason": fusion_reason,
+                                "fusion_reason": fusion_reason,
                 "original_semantic_category": sem_category,
                 "intent_evidence": intent_evidence,
             }
@@ -265,6 +299,10 @@ class OCRPipeline:
                 content_type=extracted_data.get("content_type", raw_meta.get("content_type", "unknown")),
                 tags=final_tags,
                 intent=detected_intent,
+                importance=importance_score,
+                importance_reason=importance_reason,
+                file_hash=file_hash,
+                perceptual_hash=perceptual_hash,
                 ocr_available=bool(ocr_text and str(ocr_text).strip()),
                 summary=notes_text if notes_text else extracted_data.get("summary", f"Screenshot {img_filename}"),
                 evidence=evidence_dict,
@@ -280,10 +318,18 @@ class OCRPipeline:
                 confidence_scores={"intent": intent_conf} if detected_intent else {},
             )
             self.metadata_store.save_metadata(metadata_obj)
-            print(f"Processed {img_filename} -> Category: {final_category} | Intent: {detected_intent} (Fused: {fusion_applied})")
+            print(f"Processed {img_filename} -> Category: {final_category} | Intent: {detected_intent} | Importance: {importance_score}/5 ({importance_reason}) (Fused: {fusion_applied})")
 
             # Chunk extracted OCR text
             chunks = self.chunker.chunk(ocr_text)
+
+            # Run reminder detection safely
+            detected_reminders = []
+            if self.reminder_service:
+                try:
+                    detected_reminders = self.reminder_service.scan_and_create_for_screenshot(metadata_obj)
+                except Exception as r_err:
+                    logger.warning(f"Reminder detection failed for {img_filename}: {r_err}")
 
             processed_doc = {
                 "screenshot_id": screenshot_id,

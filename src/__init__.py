@@ -16,6 +16,13 @@ from .storage import BaseFileStore, LocalFileStore, BaseMetadataStore, SQLiteMet
 from .tag_generator import TagGenerator, generate_tags, TAG_FAMILIES
 from .extractor import StructuredExtractor
 from .intent_detector import ScreenshotIntentDetector
+from .importance_scorer import ImportanceScorer
+from .duplicate_detector import DuplicateDetector
+from .timeline_service import TimelineService
+from .storage.reminder_store import ReminderStore
+from .reminder_service import ReminderService
+from .storage.alert_store import AlertStore
+from .alert_service import AlertService
 
 try:
     from .loader import load_dataset, discover_screenshots
@@ -68,4 +75,11 @@ __all__ = [
     "generate_tags",
     "StructuredExtractor",
     "ScreenshotIntentDetector",
+    "ImportanceScorer",
+    "DuplicateDetector",
+    "TimelineService",
+    "ReminderStore",
+    "ReminderService",
+    "AlertStore",
+    "AlertService",
 ]

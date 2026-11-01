@@ -27,11 +27,14 @@ async function request(path, options = {}) {
 }
 
 // ── Screenshots ──────────────────────────────────────────────────────────────
-export function fetchScreenshots({ category, tag, q, limit = 100, offset = 0 } = {}) {
+export function fetchScreenshots({ category, tag, q, importance, min_importance, sort_by, limit = 100, offset = 0 } = {}) {
   const params = new URLSearchParams();
   if (category) params.set("category", category);
   if (tag)      params.set("tag", tag);
   if (q)        params.set("q", q);
+  if (importance != null && importance !== "") params.set("importance", importance);
+  if (min_importance != null && min_importance !== "") params.set("min_importance", min_importance);
+  if (sort_by)  params.set("sort_by", sort_by);
   params.set("limit",  limit);
   params.set("offset", offset);
   return request(`/screenshots?${params}`);
@@ -39,6 +42,28 @@ export function fetchScreenshots({ category, tag, q, limit = 100, offset = 0 } =
 
 export function fetchScreenshot(id) {
   return request(`/screenshots/${id}`);
+}
+
+export function fetchScreenshotImportance(id) {
+  return request(`/screenshots/${id}/importance`);
+}
+
+export function fetchTimeline({ year, month, category, intent, sort = "desc" } = {}) {
+  const params = new URLSearchParams();
+  if (year != null && year !== "") params.set("year", year);
+  if (month != null && month !== "") params.set("month", month);
+  if (category) params.set("category", category);
+  if (intent) params.set("intent", intent);
+  if (sort) params.set("sort", sort);
+  return request(`/timeline?${params}`);
+}
+
+export function fetchDuplicates({ type, max_distance = 6, category } = {}) {
+  const params = new URLSearchParams();
+  if (type) params.set("type", type);
+  if (max_distance != null) params.set("max_distance", max_distance);
+  if (category) params.set("category", category);
+  return request(`/screenshots/duplicates?${params}`);
 }
 
 export async function uploadScreenshots(files) {
@@ -113,4 +138,81 @@ export function sendChatMessage(message, { top_k = 3, conversation_id = null, hi
 // ── Health ───────────────────────────────────────────────────────────────────
 export function checkHealth() {
   return request("/health");
+}
+
+
+// ── Reminders ───────────────────────────────────────────────────────────────
+export function fetchReminders({ status, type, date_filter, from_date, to_date, sort = "asc" } = {}) {
+  const params = new URLSearchParams();
+  if (status) params.set("status", status);
+  if (type) params.set("type", type);
+  if (date_filter) params.set("date_filter", date_filter);
+  if (from_date) params.set("from_date", from_date);
+  if (to_date) params.set("to_date", to_date);
+  if (sort) params.set("sort", sort);
+  return request(`/reminders?${params}`);
+}
+
+export function fetchReminder(id) {
+  return request(`/reminders/${id}`);
+}
+
+export function createReminder(data) {
+  return request("/reminders", {
+    method: "POST",
+    body: JSON.stringify(data),
+  });
+}
+
+export function updateReminder(id, updates) {
+  return request(`/reminders/${id}`, {
+    method: "PATCH",
+    body: JSON.stringify(updates),
+  });
+}
+
+export function deleteReminder(id) {
+  return request(`/reminders/${id}`, {
+    method: "DELETE",
+  });
+}
+
+export function scanReminders() {
+  return request("/reminders/scan", {
+    method: "POST",
+  });
+}
+
+
+// ── Alerts ──────────────────────────────────────────────────────────────────
+export function fetchAlerts({ status, severity, type, sort = "desc" } = {}) {
+  const params = new URLSearchParams();
+  if (status) params.set("status", status);
+  if (severity) params.set("severity", severity);
+  if (type) params.set("type", type);
+  if (sort) params.set("sort", sort);
+  return request(`/alerts?${params}`);
+}
+
+export function fetchAlertSummary() {
+  return request("/alerts/summary");
+}
+
+export function updateAlert(id, updates) {
+  return request(`/alerts/${id}`, {
+    method: "PATCH",
+    body: JSON.stringify(updates),
+  });
+}
+
+export function deleteAlert(id) {
+  return request(`/alerts/${id}`, {
+    method: "DELETE",
+  });
+}
+
+export function scanAlerts() {
+  return request("/alerts/scan", {
+    method: "POST",
+  });
 }

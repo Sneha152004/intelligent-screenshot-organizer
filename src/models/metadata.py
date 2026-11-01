@@ -70,6 +70,9 @@ class ScreenshotMetadata:
     intent: Optional[str] = None  # Optional: None if evidence is insufficient
     summary: Optional[str] = None
     importance: Optional[int] = None
+    importance_reason: Optional[str] = None
+    file_hash: Optional[str] = None
+    perceptual_hash: Optional[str] = None
 
     # Structured Evidence & Signals
     evidence: Dict[str, Any] = field(default_factory=dict)
@@ -103,6 +106,21 @@ class ScreenshotMetadata:
             self.content_type = "unknown"
 
         self.validate()
+
+    @property
+    def importance_score(self) -> Optional[int]:
+        """Alias for importance."""
+        return self.importance
+
+    @property
+    def sha256(self) -> Optional[str]:
+        """Alias for file_hash."""
+        return self.file_hash
+
+    @property
+    def phash(self) -> Optional[str]:
+        """Alias for perceptual_hash."""
+        return self.perceptual_hash
 
     def validate(self) -> None:
         """Validates required identity fields, boundary constraints, and structural types."""
@@ -176,6 +194,12 @@ class ScreenshotMetadata:
             "intent": self.intent,
             "summary": self.summary,
             "importance": self.importance,
+            "importance_score": self.importance,
+            "importance_reason": self.importance_reason,
+            "file_hash": self.file_hash,
+            "perceptual_hash": self.perceptual_hash,
+            "sha256": self.file_hash,
+            "phash": self.perceptual_hash,
             "evidence": self.evidence,
             "events": self.events,
             "financial_info": self.financial_info,
@@ -198,7 +222,7 @@ class ScreenshotMetadata:
     @classmethod
     def from_dict(cls, data: Dict[str, Any]) -> "ScreenshotMetadata":
         """Instantiates ScreenshotMetadata cleanly from dictionary, handling raw/JSON data safely."""
-        importance_val = data.get("importance")
+        importance_val = data.get("importance_score") if data.get("importance_score") is not None else data.get("importance")
         if importance_val is not None:
             try:
                 importance_val = int(importance_val)
@@ -222,6 +246,9 @@ class ScreenshotMetadata:
             intent=intent_val,
             summary=data.get("summary") if data.get("summary") else None,
             importance=importance_val,
+            importance_reason=data.get("importance_reason"),
+            file_hash=data.get("file_hash") or data.get("sha256"),
+            perceptual_hash=data.get("perceptual_hash") or data.get("phash"),
             evidence=cls._parse_json_dict(data.get("evidence")),
             events=cls._parse_json_list(data.get("events")),
             financial_info=cls._parse_json_dict(data.get("financial_info")),
