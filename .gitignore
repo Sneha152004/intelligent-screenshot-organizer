@@ -119,4 +119,8 @@ experiments/intelligence/unseen/images/
 data/categorized_screenshots.json
 **/contact_sheets/
 **/corrected_contact_sheets/
-experiments/**/*.zip
+experiments/**/*.zip
+data/backups/
+data/*.bak
+data/chroma/
+error/
