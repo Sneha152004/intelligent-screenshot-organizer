@@ -101,10 +101,9 @@ data/screenshots/
 # ==========================================
 # Generated Binary Office & PDF Documents (Source MD Tracked)
 # ==========================================
-Progress_Report_*.docx
-Progress_Report_*.pdf
-*Report*.docx
-*Report*.pdf
+*.pdf
+!Comprehensive_Final_Major_Project_Report_IRIS.docx
+!Progress_Report_*.docx
 
 # ==========================================
 # Transient Development & Build Folders
