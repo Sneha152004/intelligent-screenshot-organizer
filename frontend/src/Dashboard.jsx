@@ -923,7 +923,7 @@ function TimelineTab({ onSelect, refreshTick }) {
 
                           <div className="timeline-card-meta-right">
                             <span
-                              className="gallery-card-cat-badge"
+                              className="timeline-cat-badge"
                               style={{
                                 background: `${catColor}22`,
                                 color: catColor,
@@ -2253,6 +2253,237 @@ function StatCard({ title, value, sub, icon, color }) {
   );
 }
 
+// ── Profile Tab ───────────────────────────────────────────────────────────────
+function ProfileTab({ onSelect, onTagClick, onNavigateGallery, apiOnline, statsData, nonEmptyCategories, topCat, refreshTick }) {
+  const [recentUploads, setRecentUploads] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    let isMounted = true;
+    setLoading(true);
+    fetchScreenshots({ limit: 5, sort_by: 'newest' })
+      .then(res => {
+        if (isMounted) setRecentUploads(res.items || []);
+      })
+      .catch(() => {
+        if (isMounted) setRecentUploads([]);
+      })
+      .finally(() => {
+        if (isMounted) setLoading(false);
+      });
+    return () => { isMounted = false; };
+  }, [refreshTick]);
+
+  const formatUploadDate = (iso) => {
+    if (!iso) return '';
+    try {
+      const d = new Date(iso);
+      return d.toLocaleDateString('en-US', {
+        month: 'short',
+        day: 'numeric',
+        year: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
+      });
+    } catch {
+      return String(iso).slice(0, 16);
+    }
+  };
+
+  return (
+    <div className="profile-container">
+      {/* User Card */}
+      <div className="profile-header-card">
+        <div className="profile-header-left">
+          <div className="profile-avatar-outer">
+            <div className="profile-avatar-inner">G</div>
+            <div className="profile-status-ring" title="Active"/>
+          </div>
+          <div className="profile-info">
+            <h1>GROUP</h1>
+            <p>group@gmail.com • +91 1234567890</p>
+            <div className="profile-tags-row">
+              <span className="profile-tag">I.R.I.S. SECURED</span>
+              <span className="profile-tag" style={{ color: 'var(--neon-success)', borderColor: 'var(--neon-success)' }}>
+                {apiOnline ? 'ONLINE' : 'OFFLINE'}
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Metrics Row */}
+      <div className="stat-cards-grid">
+        <StatCard
+          title="SCREENSHOTS"
+          value={statsData?.total ?? '—'}
+          sub="Total in library"
+          color="#00d4ff"
+          icon={<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>}
+        />
+        <StatCard
+          title="CATEGORIES"
+          value={nonEmptyCategories?.length || '—'}
+          sub="Active taxonomy classes"
+          color="#00f5d4"
+          icon={<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>}
+        />
+        <StatCard
+          title="TOP CATEGORY"
+          value={topCat ? catIcon(topCat.name) + ' ' + topCat.label : '—'}
+          sub={topCat ? `${topCat.count} screenshots` : 'Populate library'}
+          color={topCat ? catColor(topCat.name) : '#9ca3af'}
+          icon={<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>}
+        />
+        <StatCard
+          title="SYSTEM STATUS"
+          value={apiOnline ? '● ONLINE' : '● OFFLINE'}
+          sub={apiOnline ? 'All services operational' : 'Start backend'}
+          color={apiOnline ? '#10b981' : '#ef4444'}
+          icon={<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>}
+        />
+      </div>
+
+      {/* 5 Recent Uploads Panel */}
+      <div className="sci-panel profile-recent-panel">
+        <div className="sci-panel-header">
+          <div className="profile-recent-header-left">
+            <h2 className="sci-panel-title">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2">
+                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/>
+                <polyline points="17 6 23 6 23 12"/>
+              </svg>
+              5 RECENT UPLOADS
+            </h2>
+            <span className="profile-recent-sub">Latest screenshots ingested into I.R.I.S.</span>
+          </div>
+          <button className="panel-btn" onClick={onNavigateGallery}>
+            VIEW ALL IN GALLERY →
+          </button>
+        </div>
+
+        {loading ? (
+          <div className="tab-loading" style={{ minHeight: '180px' }}>
+            <Spinner size={32} />
+            <span>Loading recent uploads…</span>
+          </div>
+        ) : recentUploads.length === 0 ? (
+          <EmptyState
+            icon="📂"
+            title="No screenshots uploaded yet"
+            sub="Upload screenshots via the Upload tab to populate this section."
+          />
+        ) : (
+          <div className="profile-uploads-list">
+            {recentUploads.map((item) => (
+              <div
+                key={item.screenshot_id}
+                className="profile-upload-row"
+                onClick={() => onSelect?.(item)}
+              >
+                {/* Thumbnail */}
+                <div className="profile-upload-thumb">
+                  <img
+                    src={item.thumbnail_url || item.image_url}
+                    alt={item.filename}
+                    loading="lazy"
+                    onError={e => { e.target.style.display = 'none'; }}
+                  />
+                  <div className="profile-upload-thumb-overlay">
+                    <span>🔍</span>
+                  </div>
+                </div>
+
+                {/* Main Information */}
+                <div className="profile-upload-main">
+                  <div className="profile-upload-title-row">
+                    <span className="profile-upload-name" title={item.filename}>
+                      {item.filename}
+                    </span>
+                    <span className="profile-upload-date">
+                      {formatUploadDate(item.created_at)}
+                    </span>
+                  </div>
+
+                  <div className="profile-upload-meta-row">
+                    <span
+                      className="cat-badge"
+                      style={{
+                        borderColor: `${catColor(item.category)}88`,
+                        color: catColor(item.category),
+                        background: `${catColor(item.category)}18`,
+                      }}
+                    >
+                      {catIcon(item.category)} {item.category}
+                    </span>
+
+                    {item.importance != null && (
+                      <span
+                        className={`timeline-imp-badge imp-${item.importance}`}
+                        title={`Importance: ${item.importance}/5`}
+                      >
+                        ★ {item.importance}
+                      </span>
+                    )}
+
+                    {item.intent && (
+                      <span className="profile-intent-pill">
+                        🎯 {item.intent}
+                      </span>
+                    )}
+                  </div>
+
+                  {item.summary && (
+                    <p className="profile-upload-summary">
+                      {item.summary}
+                    </p>
+                  )}
+
+                  {item.tags && item.tags.length > 0 && (
+                    <div className="profile-upload-tags">
+                      {item.tags.slice(0, 4).map((t, idx) => (
+                        <span
+                          key={idx}
+                          className="tag-pill clickable"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            onTagClick?.(t);
+                          }}
+                          title={`Filter by #${t}`}
+                        >
+                          #{t}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+                </div>
+
+                {/* Inspect Action */}
+                <div className="profile-upload-action">
+                  <button
+                    type="button"
+                    className="profile-inspect-btn"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      onSelect?.(item);
+                    }}
+                    title="Inspect details"
+                  >
+                    <span>View Details</span>
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2">
+                      <polyline points="9 18 15 12 9 6"/>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
 // ── Main Dashboard ────────────────────────────────────────────────────────────
 const Dashboard = ({ onLogout }) => {
   const [activeTab, setActiveTab]       = useState('overview');
@@ -2727,56 +2958,16 @@ const Dashboard = ({ onLogout }) => {
 
           {/* ── Profile Tab ──────────────────────────────────────────────── */}
           {activeTab === 'profile' && (
-            <div className="profile-container">
-              <div className="profile-header-card">
-                <div className="profile-header-left">
-                  <div className="profile-avatar-outer">
-                    <div className="profile-avatar-inner">G</div>
-                    <div className="profile-status-ring" title="Active"/>
-                  </div>
-                  <div className="profile-info">
-                    <h1>GROUP</h1>
-                    <p>group@gmail.com • +91 1234567890</p>
-                    <div className="profile-tags-row">
-                      <span className="profile-tag">I.R.I.S. SECURED</span>
-                      <span className="profile-tag" style={{ color: 'var(--neon-success)', borderColor: 'var(--neon-success)' }}>
-                        {apiOnline ? 'ONLINE' : 'OFFLINE'}
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="stat-cards-grid">
-                <StatCard title="SCREENSHOTS" value={statsData?.total ?? '—'} sub="Total in library" color="#00d4ff"
-                  icon={<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>}
-                />
-                <StatCard title="CATEGORIES" value={nonEmptyCategories.length || '—'} sub="Active taxonomy classes" color="#00f5d4"
-                  icon={<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>}
-                />
-                <StatCard title="API STATUS" value={apiOnline ? '● ONLINE' : '● OFFLINE'} sub={apiOnline ? 'Port 8000' : 'Start backend'} color={apiOnline ? '#10b981' : '#ef4444'}
-                  icon={<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>}
-                />
-                <StatCard title="OCR ENGINE" value="EasyOCR" sub="+ Multimodal classifier" color="#8b5cf6"
-                  icon={<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>}
-                />
-              </div>
-
-              <div className="sci-panel" style={{ marginTop: '20px' }}>
-                <div className="sci-panel-header">
-                  <h2 className="sci-panel-title">PIPELINE INFORMATION</h2>
-                </div>
-                <div className="profile-detail-list">
-                  <div className="profile-detail-item"><span className="detail-label">OCR Engine</span><span className="detail-val">EasyOCR (+ Mock fallback)</span></div>
-                  <div className="profile-detail-item"><span className="detail-label">Classifier</span><span className="detail-val">FinalRefinedClassifier (Semantic)</span></div>
-                  <div className="profile-detail-item"><span className="detail-label">Visual Model</span><span className="detail-val">YOLOv8n-cls (5-class screen type)</span></div>
-                  <div className="profile-detail-item"><span className="detail-label">Embedder</span><span className="detail-val">all-MiniLM-L6-v2 (384-dim)</span></div>
-                  <div className="profile-detail-item"><span className="detail-label">Vector Store</span><span className="detail-val">ChromaDB</span></div>
-                  <div className="profile-detail-item"><span className="detail-label">Metadata Store</span><span className="detail-val">SQLite</span></div>
-                  <div className="profile-detail-item"><span className="detail-label">File Store</span><span className="detail-val">Local filesystem (data/screenshots/)</span></div>
-                </div>
-              </div>
-            </div>
+            <ProfileTab
+              onSelect={handleSelectItem}
+              onTagClick={handleTagClick}
+              onNavigateGallery={() => setActiveTab('gallery')}
+              apiOnline={apiOnline}
+              statsData={statsData}
+              nonEmptyCategories={nonEmptyCategories}
+              topCat={topCat}
+              refreshTick={refreshTick}
+            />
           )}
         </main>
       </div>

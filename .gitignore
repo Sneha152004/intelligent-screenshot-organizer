@@ -103,6 +103,8 @@ data/screenshots/
 # ==========================================
 Progress_Report_*.docx
 Progress_Report_*.pdf
+*Report*.docx
+*Report*.pdf
 
 # ==========================================
 # Transient Development & Build Folders
